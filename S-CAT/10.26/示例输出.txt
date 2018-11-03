@@ -1,0 +1,5 @@
+类型：error
+模块：login
+bug可能原因：
+用户在login界面没有输入password，
+点击了login按钮，在logcat的login模块中产生了password can not be None的error。
