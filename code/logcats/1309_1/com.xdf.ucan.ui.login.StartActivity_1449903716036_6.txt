@@ -1,0 +1,67 @@
+--------- beginning of /dev/log/main
+[ 12-12 15:00:51.656 27308:27363 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:00:51.706 27308:27363 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:00:52.096 29035:29035 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:00:52.276 29035:29035 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+--------- beginning of /dev/log/system
+[ 12-12 15:00:55.466 29077:29077 W/ActivityThread ]
+perform long-running operations in onReceive, static, ~duration=243ms: io.rong.push.PushReceiver@425e5788 Intent { act=io.rong.push.Connect flg=0x14 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) }
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:12.486 29190:29190 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:01:12.616 29190:29190 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:14.336 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:58.746 29190:29243 W/dalvikvm ]
+threadid=25: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:01:58.886 29190:29243 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

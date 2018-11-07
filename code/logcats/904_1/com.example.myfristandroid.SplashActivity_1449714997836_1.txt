@@ -1,0 +1,727 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:33:54.670 25054:25072 D/SocketService ]
+current thread is runing!id:1328
+
+[ 12-10 10:33:56.550 25054:26118 D/SocketService ]
+ip/192.168.1.165 lport:45144 p:143
+
+[ 12-10 10:33:56.560 25054:26118 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:519
+
+[ 12-10 10:33:56.560 25054:26118 D/SocketService ]
+success to connect server!id:1328 bLogin:false
+
+[ 12-10 10:33:56.620 25054:26314 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:154230
+
+[ 12-10 10:33:57.220 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:154230 HeadIndex:154217 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:33:57.560 25054:26118 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:530
+
+[ 12-10 10:33:57.640 25054:26314 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:154872
+
+[ 12-10 10:33:58.250 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:154872 HeadIndex:154230 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:33:58.370 25028:25028 I/Choreographer ]
+Skipped 384 frames!  The application may be doing too much work on its main thread.
+
+[ 12-10 10:33:58.390 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:33:58.390 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:33:58.440 25028:25028 D/MainActivity ]
+Unkown Report:ffffffeb ffffff90 ffffffeb ffffff90 ffffffeb ffffff90 d 0 e 1 1 1 ffffff82 
+
+[ 12-10 10:33:58.440 25028:25028 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:33:58.450 25028:25028 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:33:58.460 25028:25028 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:33:58.570 25054:26118 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:541
+
+[ 12-10 10:33:58.600 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 1623K, 18% free 23353K/28359K, paused 3ms+45ms, total 179ms
+
+[ 12-10 10:33:58.770 25054:26314 D/ForegroundActivity ]
+本次收到帧长:66	总帧长:154938
+
+[ 12-10 10:33:59.260 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:154938 HeadIndex:154872 GetSize:66 66 0 头信息:EB 90 EB 90 EB 90 42 00 15 02 
+
+[ 12-10 10:33:59.270 25028:25028 D/MainActivity ]
+ServerVersion:1 LocalVersion:12
+
+[ 12-10 10:34:00.770 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 417K, 8% free 10645K/11527K, paused 18ms+2ms, total 72ms
+
+[ 12-10 10:34:22.960 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 436K, 8% free 10636K/11527K, paused 12ms+26ms, total 56ms
+
+[ 12-10 10:34:25.430 25028:25028 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:34:26.910 25028:25028 D/dalvikvm ]
+GC_FOR_ALLOC freed 1763K, 18% free 23384K/28359K, paused 53ms, total 53ms
+
+[ 12-10 10:34:27.010 25028:25028 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+--------- beginning of /dev/log/system
+[ 12-10 10:34:28.190 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:34:28.330 25028:25028 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@42b64d10: null
+
+[ 12-10 10:34:28.350 25028:25028 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:34:28.350 25028:26487 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:34:28.350 25028:26487 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 10:34:28.380 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@42b64d10
+
+[ 12-10 10:34:28.380 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@42b64d10
+
+[ 12-10 10:34:28.420 25028:25028 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:34:28.430 25028:26487 D/webcore  ]
+initialize, mNativeClass is 1551377936
+
+[ 12-10 10:34:28.430 25028:26487 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/103428:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x5cd13010
+
+
+[ 12-10 10:34:28.430 25028:26487 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/103428:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x5cb0de38
+
+
+[ 12-10 10:34:28.430 25028:26487 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 10:34:28.440 25028:26487 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 10:34:28.440 25028:26487 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 10:34:28.440 25028:26487 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 10:34:28.440 25028:26487 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 10:34:28.440 25028:26487 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 10:34:28.440 25028:26487 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 10:34:28.440 25028:26487 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 10:34:28.440 25028:26487 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:34:28.440 25028:26487 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 10:34:28.440 25028:26487 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 10:34:28.440 25028:26487 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:34:28.440 25028:26487 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:34:28.450 25028:26487 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 10:34:28.460 25028:26502 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/103428:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 10:34:28.460 25028:26502 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/103428:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 10:34:28.460 25028:26502 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/103428:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 10:34:28.460 25028:26502 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/103428:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 10:34:28.460 25028:26502 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/103428:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:34:28.460 25028:26502 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/103428:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 10:34:28.460 25028:26502 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/103428:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:34:28.490 25028:25028 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:34:28.600 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:34:28.660 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:34:28.820 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:34:29.150 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:34:29.400 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=GB18030
+
+[ 12-10 10:34:29.420 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:34:29.580 25028:26502 V/chromium ]
+external/chromium/net/proxy/proxy_config_service_android.cc:28: [1210/103429:INFO:proxy_config_service_android.cc(28)] property_get persist.sys.proxy:
+
+
+[ 12-10 10:34:29.580 25028:26502 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 10:34:29.590 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 69 43379169689600 30821) res=-1 errno=1
+
+[ 12-10 10:34:29.590 25028:26502 I/qtaguid  ]
+Tagging socket 69 with tag 277400000000(10100) for uid 30821 failed errno=-1
+
+[ 12-10 10:34:29.600 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 71 43379169689600 30821) res=-1 errno=1
+
+[ 12-10 10:34:29.600 25028:26502 I/qtaguid  ]
+Tagging socket 71 with tag 277400000000(10100) for uid 30821 failed errno=-1
+
+[ 12-10 10:34:29.600 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 72 43379169689600 30821) res=-1 errno=1
+
+[ 12-10 10:34:29.600 25028:26502 I/qtaguid  ]
+Tagging socket 72 with tag 277400000000(10100) for uid 30821 failed errno=-1
+
+[ 12-10 10:34:29.760 25028:25028 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@41c881a8 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 10:34:29.810 25028:25028 D/TilesManager ]
+new EGLContext from framework: 5e2dab20 
+
+[ 12-10 10:34:29.810 25028:25028 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 10:34:29.930 25028:25028 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 69) res=-1 errno=22
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Untagging socket 69 failed errno=-22
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 71) res=-1 errno=22
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Untagging socket 71 failed errno=-22
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 72) res=-1 errno=22
+
+[ 12-10 10:34:31.630 25028:26502 I/qtaguid  ]
+Untagging socket 72 failed errno=-22
+
+[ 12-10 10:34:34.620 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:554
+
+[ 12-10 10:34:44.620 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:567
+
+[ 12-10 10:34:45.050 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 427K, 8% free 10636K/11527K, paused 12ms+12ms, total 36ms
+
+[ 12-10 10:34:54.620 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:580
+
+[ 12-10 10:34:56.910 25028:25028 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:34:56.940 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@42b64d10
+
+[ 12-10 10:34:56.950 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:34:56.950 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:34:57.030 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:34:57.030 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:34:57.370 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@42b64d10
+
+[ 12-10 10:34:57.370 25028:25028 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@42b64d10
+
+[ 12-10 10:35:02.010 25028:25028 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:35:04.620 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:593
+
+[ 12-10 10:35:05.300 25028:25082 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714905311
+
+[ 12-10 10:35:05.470 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 2094K, 18% free 23294K/28359K, paused 3ms+15ms, total 84ms
+
+[ 12-10 10:35:05.470 25028:25028 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 48ms
+
+[ 12-10 10:35:05.510 25028:25028 D/dalvikvm ]
+GC_FOR_ALLOC freed 21K, 18% free 23272K/28359K, paused 43ms, total 43ms
+
+[ 12-10 10:35:05.520 25028:25028 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.098MB for 2073616-byte allocation
+
+[ 12-10 10:35:05.600 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 17% free 25298K/30407K, paused 12ms+14ms, total 80ms
+
+[ 12-10 10:35:05.710 25028:25028 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 17% free 25298K/30407K, paused 44ms, total 44ms
+
+[ 12-10 10:35:05.710 25028:25028 I/dalvikvm-heap ]
+Grow heap (frag case) to 29.076MB for 2073616-byte allocation
+
+[ 12-10 10:35:05.780 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 23% free 25303K/32455K, paused 13ms+14ms, total 70ms
+
+[ 12-10 10:35:06.780 25028:25028 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:35:06.800 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:35:06.800 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:35:07.160 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 423K, 8% free 10637K/11527K, paused 12ms+12ms, total 43ms
+
+[ 12-10 10:35:10.880 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:35:10.910 25028:25028 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:35:10.910 25028:25028 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@42a8bc58: null
+
+[ 12-10 10:35:10.920 25028:26487 D/webcore  ]
+initialize, mNativeClass is 1550883592
+
+[ 12-10 10:35:10.930 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@42a8bc58
+
+[ 12-10 10:35:10.930 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@42a8bc58
+
+[ 12-10 10:35:10.970 25028:25028 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:35:11.030 25028:25028 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:35:11.380 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:35:11.600 25028:25028 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@41c94328 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 10:35:14.630 25054:25072 D/SocketService ]
+start to run current thread!id:1330
+
+[ 12-10 10:35:14.740 25054:26621 D/SocketService ]
+ip/192.168.1.165 lport:43604 p:143
+
+[ 12-10 10:35:14.740 25054:26621 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:627
+
+[ 12-10 10:35:14.740 25054:26621 D/SocketService ]
+success to connect server!id:1330 bLogin:false
+
+[ 12-10 10:35:14.880 25054:26314 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:154951
+
+[ 12-10 10:35:15.320 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:154951 HeadIndex:154938 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:35:15.320 25028:25028 D/MainActivity ]
+Unkown Report:ffffffeb ffffff90 ffffffeb ffffff90 ffffffeb ffffff90 d 0 e 1 1 0 ffffff81 
+
+[ 12-10 10:35:15.740 25054:26621 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:638
+
+[ 12-10 10:35:15.970 25054:26624 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:155593
+
+[ 12-10 10:35:16.340 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:155593 HeadIndex:154951 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:35:16.380 25028:25028 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:35:16.760 25054:26621 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:649
+
+[ 12-10 10:35:16.890 25054:26624 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:155660
+
+[ 12-10 10:35:17.400 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:155660 HeadIndex:155593 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:35:17.410 25028:25028 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:35:28.490 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 430K, 8% free 10639K/11527K, paused 20ms+2ms, total 65ms
+
+[ 12-10 10:35:48.410 25028:25028 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@41c94328 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 10:35:49.380 25028:25028 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@41c94328 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 10:35:50.960 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 423K, 8% free 10639K/11527K, paused 17ms+1ms, total 68ms
+
+[ 12-10 10:35:54.630 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:662
+
+[ 12-10 10:35:54.670 25054:26624 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:155673
+
+[ 12-10 10:35:55.530 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:155673 HeadIndex:155660 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:35:59.530 25028:25028 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:35:59.570 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@42a8bc58
+
+[ 12-10 10:35:59.590 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:35:59.590 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:35:59.730 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:35:59.730 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:36:00.060 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@42a8bc58
+
+[ 12-10 10:36:00.060 25028:25028 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@42a8bc58
+
+[ 12-10 10:36:02.330 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:36:02.360 25028:25028 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@42a82cb8: null
+
+[ 12-10 10:36:02.370 25028:25028 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:36:02.370 25028:26487 D/webcore  ]
+initialize, mNativeClass is 1073818536
+
+[ 12-10 10:36:02.380 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@42a82cb8
+
+[ 12-10 10:36:02.390 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@42a82cb8
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 72 43379169689600 6357093) res=-1 errno=1
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Tagging socket 72 with tag 277400000000(10100) for uid 6357093 failed errno=-1
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 73 43379169689600 6357093) res=-1 errno=1
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Tagging socket 73 with tag 277400000000(10100) for uid 6357093 failed errno=-1
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Failed write_ctrl(t 80 43379169689600 6357093) res=-1 errno=1
+
+[ 12-10 10:36:02.400 25028:26502 I/qtaguid  ]
+Tagging socket 80 with tag 277400000000(10100) for uid 6357093 failed errno=-1
+
+[ 12-10 10:36:02.430 25028:25028 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:36:02.450 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.490 25028:25035 I/dalvikvm ]
+Jit: resizing JitTable from 8192 to 16384
+
+[ 12-10 10:36:02.490 25028:25028 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:36:02.590 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.590 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.620 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.640 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.660 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.670 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.680 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.700 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.720 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.740 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.760 25028:26487 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:36:02.810 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:36:03.990 25028:26487 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:36:04.040 25028:25028 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@42a82cb8: {1.0 460mcc3mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.306}
+
+[ 12-10 10:36:04.410 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 72) res=-1 errno=22
+
+[ 12-10 10:36:04.410 25028:26502 I/qtaguid  ]
+Untagging socket 72 failed errno=-22
+
+[ 12-10 10:36:04.410 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 73) res=-1 errno=22
+
+[ 12-10 10:36:04.410 25028:26502 I/qtaguid  ]
+Untagging socket 73 failed errno=-22
+
+[ 12-10 10:36:04.420 25028:26502 I/qtaguid  ]
+Failed write_ctrl(u 80) res=-1 errno=22
+
+[ 12-10 10:36:04.420 25028:26502 I/qtaguid  ]
+Untagging socket 80 failed errno=-22
+
+[ 12-10 10:36:09.200 25028:25082 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714969212
+
+[ 12-10 10:36:09.300 25028:25028 D/dalvikvm ]
+GC_FOR_ALLOC freed 2697K, 27% free 23847K/32455K, paused 83ms, total 84ms
+
+[ 12-10 10:36:09.380 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 121K, 21% free 25751K/32455K, paused 14ms+3ms, total 63ms
+
+[ 12-10 10:36:09.380 25028:25028 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+
+[ 12-10 10:36:09.450 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 21% free 25756K/32455K, paused 12ms+14ms, total 73ms
+
+[ 12-10 10:36:13.390 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 429K, 8% free 10639K/11527K, paused 46ms+3ms, total 60ms
+
+[ 12-10 10:36:30.670 25028:25028 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:36:30.700 25028:25028 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@42a82cb8
+
+[ 12-10 10:36:30.870 25028:25028 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:36:30.870 25028:25028 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@427ea538
+
+[ 12-10 10:36:30.970 25028:25028 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@42a82cb8
+
+[ 12-10 10:36:30.970 25028:25028 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@42a82cb8
+
+[ 12-10 10:36:31.100 25028:25028 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:36:31.100 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:36:31.100 25028:25028 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:36:34.630 25054:25072 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:675
+
+[ 12-10 10:36:34.780 25054:26624 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:155686
+
+[ 12-10 10:36:35.630 25054:25074 D/SocketService1 ]
+本次提取1:LoadPtr:155686 HeadIndex:155673 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:36:35.900 25054:25056 D/dalvikvm ]
+GC_CONCURRENT freed 430K, 8% free 10639K/11527K, paused 68ms+1ms, total 86ms
+
+[ 12-10 10:36:37.820 25028:25082 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714997836
+
+[ 12-10 10:36:37.880 25028:25082 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714997888
+
+[ 12-10 10:36:38.010 25028:25028 D/dalvikvm ]
+GC_FOR_ALLOC freed 2409K, 27% free 23728K/32455K, paused 50ms, total 50ms
+
+[ 12-10 10:36:38.090 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 21% free 25746K/32455K, paused 2ms+27ms, total 78ms
+
+[ 12-10 10:36:38.170 25028:25030 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 21% free 25750K/32455K, paused 4ms+15ms, total 73ms
+
+[ 12-10 10:36:38.230 25028:25082 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x4121b588)
+
+[ 12-10 10:36:38.230 25028:25082 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1317
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

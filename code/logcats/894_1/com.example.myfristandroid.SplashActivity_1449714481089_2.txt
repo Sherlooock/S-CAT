@@ -1,0 +1,3452 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:03:34.170 21160:0x52a8 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:835)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:606)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1533)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1513)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1507)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5303)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1088)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2304)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2392)
+	at android.app.ActivityThread.access$800(ActivityThread.java:153)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1323)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:16:57.205 25307:0x6314 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-955
+Process: com.example.myfristandroid, PID: 25307
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+--------- beginning of /dev/log/main
+[ 12-10 10:23:11.645 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=8 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:11.672 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:11.691 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:11.738 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:11.998 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:12.000 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:23:12.005 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:208
+
+[ 12-10 10:23:12.066 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 10:23:12.242 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:12.752 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 01 01 
+
+[ 12-10 10:23:12.768 27097:0x69d9 D/MainActivity ]
+write Login:false
+
+[ 12-10 10:23:12.768 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=7 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:652)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:700)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:12.769 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=5 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:705)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:12.769 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=5 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:13.273 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:13.275 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:23:13.288 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:236
+
+[ 12-10 10:23:13.372 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:813
+
+[ 12-10 10:23:13.457 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:13.563 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:13.563 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:23:13.565 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:264
+
+[ 12-10 10:23:13.729 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:826
+
+[ 12-10 10:23:13.764 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:813 HeadIndex:800 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:13.776 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:826 HeadIndex:813 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:13.799 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=10 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:652)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:700)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:13.799 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=8 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:705)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:13.800 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=7 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:13.810 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:13.811 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:23:13.813 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:275
+
+[ 12-10 10:23:13.933 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:839
+
+[ 12-10 10:23:14.167 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:14.168 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:23:14.170 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:286
+
+[ 12-10 10:23:14.243 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:14.337 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:852
+
+[ 12-10 10:23:14.790 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:839 HeadIndex:826 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 01 01 
+
+[ 12-10 10:23:14.802 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:852 HeadIndex:839 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 01 01 
+
+[ 12-10 10:23:14.811 27097:0x69d9 D/MainActivity ]
+write Login:false
+
+[ 12-10 10:23:14.811 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=9 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:652)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:700)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:14.812 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=7 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:705)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:14.812 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=6 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:14.820 27097:0x69d9 D/MainActivity ]
+write Login:false
+
+[ 12-10 10:23:15.457 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:15.686 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:15.686 27097:0x69d9 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:23:15.689 27120:0x69f0 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:314
+
+[ 12-10 10:23:15.777 27120:0x6a09 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:865
+
+[ 12-10 10:23:15.815 27120:0x6a05 D/SocketService1 ]
+本次提取1:LoadPtr:865 HeadIndex:852 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:15.832 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=9 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:652)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:700)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:15.833 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=8 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:705)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:15.833 27097:0x69d9 D/StrictMode ]
+StrictMode policy violation; ~duration=7 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:16.243 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:17.457 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:17.820 27097:0x6a0d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714197225
+
+[ 12-10 10:23:18.244 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:19.458 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:20.244 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:21.458 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:22.244 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:23.025 27097:0x6a0d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714203025
+
+[ 12-10 10:23:23.458 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:24.246 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:25.459 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:26.247 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:26.799 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:23:27.459 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:27.872 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:23:28.241 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:23:28.248 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:28.618 27097:0x69d9 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:23:29.459 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:30.248 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:31.460 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:32.254 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:33.460 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:34.255 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:35.460 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:36.255 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:37.460 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:38.256 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:39.461 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:40.256 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:41.461 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:42.258 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:43.461 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:44.258 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:45.462 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:45.894 27097:0x6a0d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714225346
+
+[ 12-10 10:23:46.260 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:47.463 27097:0x69df D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:48.260 27120:0x69f6 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:23:48.407 27097:0x6a0d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714228407
+
+[ 12-10 10:23:48.849 27097:0x6a0d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714228439
+
+[ 12-10 10:23:48.850 27097:0x6a0d E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-978
+Process: com.example.myfristandroid, PID: 27097
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:26:12.994 28354:0x6ec2 D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 10:26:12.994 28354:0x6ec8 D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 10:26:12.995 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:13.285 28354:0x6ec2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 742, h 1306, sample 1, bsLength 9ff0f!!
+
+
+[ 12-10 10:26:13.363 28354:0x6ec2 I/dalvikvm ]
+"main" prio=5 tid=1 RUNNABLE
+
+
+[ 12-10 10:26:13.363 28354:0x6ec2 I/dalvikvm ]
+  | group="main" sCount=0 dsCount=0 obj=0x41b5bd98 self=0x41b49260
+
+
+[ 12-10 10:26:13.365 28354:0x6ec2 I/dalvikvm ]
+  | sysTid=28354 nice=0 sched=0/0 cgrp=apps handle=1074430340
+
+
+[ 12-10 10:26:13.366 28354:0x6ec2 I/dalvikvm ]
+  | state=R schedstat=( 130309392 34821145 124 ) utm=9 stm=4 core=0
+
+
+[ 12-10 10:26:13.368 28354:0x6ec2 I/dalvikvm ]
+  at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)
+
+
+[ 12-10 10:26:13.371 28354:0x6ec2 I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:609)
+
+
+[ 12-10 10:26:13.373 28354:0x6ec2 I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:440)
+
+
+[ 12-10 10:26:13.374 28354:0x6ec2 I/dalvikvm ]
+  at android.graphics.drawable.Drawable.createFromResourceStream(Drawable.java:842)
+
+
+[ 12-10 10:26:13.376 28354:0x6ec2 I/dalvikvm ]
+  at android.content.res.Resources.loadDrawable(Resources.java:2147)
+
+
+[ 12-10 10:26:13.377 28354:0x6ec2 I/dalvikvm ]
+  at android.content.res.TypedArray.getDrawable(TypedArray.java:604)
+
+
+[ 12-10 10:26:13.381 28354:0x6ec2 I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:70)
+
+
+[ 12-10 10:26:13.383 28354:0x6ec2 I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:120)
+
+
+[ 12-10 10:26:13.384 28354:0x6ec2 I/dalvikvm ]
+  at java.lang.reflect.Constructor.constructNative(Native Method)
+
+
+[ 12-10 10:26:13.386 28354:0x6ec2 I/dalvikvm ]
+  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+
+[ 12-10 10:26:13.387 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.createView(LayoutInflater.java:555)
+
+
+[ 12-10 10:26:13.389 28354:0x6ec2 I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:66)
+
+
+[ 12-10 10:26:13.390 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.onCreateView(LayoutInflater.java:669)
+
+
+[ 12-10 10:26:13.392 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:-1)
+
+
+[ 12-10 10:26:13.393 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.rInflate(LayoutInflater.java:742)
+
+
+[ 12-10 10:26:13.395 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:529)
+
+
+[ 12-10 10:26:13.396 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:399)
+
+
+[ 12-10 10:26:13.398 28354:0x6ec2 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+
+
+[ 12-10 10:26:13.399 28354:0x6ec2 I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:304)
+
+
+[ 12-10 10:26:13.401 28354:0x6ec2 I/dalvikvm ]
+  at android.app.Activity.setContentView(Activity.java:1949)
+
+
+[ 12-10 10:26:13.404 28354:0x6ec2 I/dalvikvm ]
+  at com.example.myfristandroid.SplashActivity.onCreate(SplashActivity.java:13)
+
+
+[ 12-10 10:26:13.406 28354:0x6ec2 I/dalvikvm ]
+  at android.app.Activity.performCreate(Activity.java:5303)
+
+
+[ 12-10 10:26:13.407 28354:0x6ec2 I/dalvikvm ]
+  at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1073)
+
+
+[ 12-10 10:26:13.409 28354:0x6ec2 I/dalvikvm ]
+  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2246)
+
+
+[ 12-10 10:26:13.410 28354:0x6ec2 I/dalvikvm ]
+  at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2448)
+
+
+[ 12-10 10:26:13.411 28354:0x6ec2 I/dalvikvm ]
+  at android.app.ActivityThread.access$800(ActivityThread.java:153)
+
+
+[ 12-10 10:26:13.413 28354:0x6ec2 I/dalvikvm ]
+  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:-1)
+
+
+[ 12-10 10:26:13.414 28354:0x6ec2 I/dalvikvm ]
+  at android.os.Handler.dispatchMessage(Handler.java:110)
+
+
+[ 12-10 10:26:13.416 28354:0x6ec2 I/dalvikvm ]
+  at android.os.Looper.loop(Looper.java:147)
+
+
+[ 12-10 10:26:13.418 28354:0x6ec2 I/dalvikvm ]
+  at android.app.ActivityThread.main(ActivityThread.java:5301)
+
+
+[ 12-10 10:26:13.435 28354:0x6ec2 I/dalvikvm ]
+  at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+[ 12-10 10:26:13.436 28354:0x6ec2 I/dalvikvm ]
+  at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+[ 12-10 10:26:13.437 28354:0x6ec2 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:833)
+
+
+[ 12-10 10:26:13.437 28354:0x6ec2 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:610)
+
+
+[ 12-10 10:26:13.437 28354:0x6ec2 I/dalvikvm ]
+  at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:26:13.437 28354:0x6ec2 I/dalvikvm ]
+
+
+
+[ 12-10 10:26:13.496 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:13.734 28408:0x6ef8 D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 10:26:13.734 28408:0x6efe D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 10:26:13.735 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:13.823 28354:0x6ec2 E/         ]
+appName=com.example.myfristandroid, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 10:26:13.823 28354:0x6ec2 E/         ]
+0
+
+[ 12-10 10:26:13.844 28408:0x6ef8 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:26:13.854 28408:0x6ef8 D/SocketService ]
+pid:28408 myPid:28408
+
+[ 12-10 10:26:13.865 28408:0x6ef8 D/SocketService ]
+start to run current thread!id:1013
+
+[ 12-10 10:26:13.901 28408:0x6f10 D/SocketService ]
+ip/10.49.186.209 lport:49995 p:143
+
+[ 12-10 10:26:13.917 28408:0x6f10 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 10:26:13.918 28408:0x6f10 D/SocketService ]
+success to connect server!id:1013 bLogin:false
+
+[ 12-10 10:26:14.017 28408:0x6f12 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:26:14.235 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:14.246 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:14.842 28408:0x6f0d D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:26:14.919 28408:0x6f10 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 10:26:14.985 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:15.024 28408:0x6f12 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:26:15.371 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:15.853 28408:0x6f0d D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:26:15.921 28408:0x6f10 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 10:26:16.031 28354:0x6ec2 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:26:16.079 28408:0x6f12 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:26:16.111 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:16.937 28408:0x6f0d D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:26:16.943 28354:0x6ec2 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:26:17.059 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:17.798 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:19.059 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:19.799 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:19.913 28354:0x6ec2 I/chromium ]
+[INFO:library_loader_hooks.cc(114)] Chromium logging enabled: level = 0, default verbosity = 0 isUserLoad=1
+
+
+[ 12-10 10:26:19.928 28354:0x6f4f W/chromium ]
+[WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 10:26:19.934 28354:0x6ec2 E/         ]
+appName=com.example.myfristandroid, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 10:26:19.934 28354:0x6ec2 E/         ]
+0
+
+[ 12-10 10:26:19.958 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7ae946d8, delegate = 0x7aeba1f8
+
+
+[ 12-10 10:26:19.958 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:26:20.031 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:26:20.119 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:20.140 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.160 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:20.254 28354:0x6f57 I/CustomProp ]
+getReleaseDate->buildDate[2015年 03月 17日 星期二 15:00:42 CST]
+
+[ 12-10 10:26:20.289 28354:0x6f57 I/CustomProp ]
+getBrowserVersion->matcher.find:true matcher.group(0): AppleWebKit/537.36  matcher.group(1):537.36
+
+[ 12-10 10:26:20.289 28354:0x6f57 I/CustomProp ]
+getBrowserVersion->result:537.36
+
+[ 12-10 10:26:20.291 28354:0x6f57 I/CustomProp ]
+getBrowserVersion->matcher.find:true matcher.group(0): AppleWebKit/537.36  matcher.group(1):537.36
+
+[ 12-10 10:26:20.291 28354:0x6f57 I/CustomProp ]
+getBrowserVersion->result:537.36
+
+[ 12-10 10:26:20.291 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.293 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:26:20.296 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:26:20.300 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:26:20.301 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:26:20.304 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:26:20.306 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.306 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.309 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.314 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.389 28354:0x6f67 D/libc-netbsd ]
+getaddrinfo: www.baidu.com get result from proxy >>
+
+
+[ 12-10 10:26:20.533 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.533 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:26:20.605 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:26:20.605 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:26:20.606 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:20.607 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:26:20.625 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:26:20.628 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://m.baidu.com/static/index/u.png
+
+[ 12-10 10:26:20.631 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://m.baidu.com/static/index/u.png
+
+[ 12-10 10:26:20.644 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsgui/baseline/scg.js
+
+[ 12-10 10:26:20.645 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsgui/baseline/scg.js
+
+[ 12-10 10:26:20.650 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=36
+
+[ 12-10 10:26:20.663 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714380660
+
+[ 12-10 10:26:20.663 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714380660
+
+[ 12-10 10:26:20.768 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.768 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.768 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:26:20.770 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:26:20.811 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x821eb010] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:20.812 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:26:20.813 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:20.813 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:26:20.888 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:20.890 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:20.893 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:20.895 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:20.898 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:20.898 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:21.059 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:21.799 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:23.059 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:23.484 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x834755e8, delegate = 0x7f8a6830
+
+
+[ 12-10 10:26:23.484 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:26:23.515 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:26:23.603 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.605 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:23.619 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.648 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:23.689 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:26:23.694 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.694 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.695 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.695 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.697 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:26:23.700 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:26:23.704 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:26:23.709 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:26:23.800 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:23.808 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.853 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:26:23.856 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:26:23.857 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:26:23.857 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:23.857 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:26:23.857 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:26:23.872 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714383870
+
+[ 12-10 10:26:23.884 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714383870
+
+[ 12-10 10:26:23.939 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:26:23.939 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.939 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.940 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:26:23.941 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:26:23.943 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ef68488] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:23.944 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:26:23.946 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:23.946 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:26:23.972 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:23.972 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:23.974 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:23.974 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:23.982 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:23.982 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:25.060 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:25.801 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:27.062 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:27.643 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f8aa418, delegate = 0x7f5b4528
+
+
+[ 12-10 10:26:27.643 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:26:27.673 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:26:27.686 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.688 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.742 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:26:27.744 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.745 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.749 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:27.758 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.759 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.780 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:26:27.781 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:26:27.802 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:27.805 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:27.832 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:26:27.832 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:26:27.873 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:27.874 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=52
+
+[ 12-10 10:26:27.906 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:26:27.907 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:26:27.907 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:27.910 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:26:27.922 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:26:27.950 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714387947
+
+[ 12-10 10:26:28.015 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714387947
+
+[ 12-10 10:26:28.024 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:28.025 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:28.030 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7e9490] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:28.044 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:26:28.056 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:26:28.056 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:28.056 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:26:28.056 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:26:28.082 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:28.083 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:28.088 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:28.091 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:28.092 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:28.095 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:29.062 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:29.802 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:30.750 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7d520798, delegate = 0x7f49c600
+
+
+[ 12-10 10:26:30.751 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:26:30.767 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:26:30.824 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.826 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.834 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:30.870 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:30.880 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:26:30.884 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.885 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.887 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.888 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:30.903 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:26:30.905 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:26:30.906 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:26:30.906 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:26:31.005 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:31.063 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:31.067 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:26:31.072 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:26:31.072 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:26:31.072 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:31.072 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:26:31.073 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:26:31.076 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714391069
+
+[ 12-10 10:26:31.100 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714391069
+
+[ 12-10 10:26:31.136 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:26:31.137 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:31.137 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:31.138 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:26:31.141 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ac83630] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:31.143 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:26:31.144 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:31.144 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:26:31.167 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:31.169 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:31.170 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:31.171 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:31.171 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:31.172 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:31.803 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:33.063 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:33.803 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:35.063 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:35.804 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:37.064 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:37.807 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:39.064 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:39.814 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:41.064 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:41.818 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:43.064 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:43.818 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:44.556 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7d50d5e8, delegate = 0x7ac8ddc0
+
+
+[ 12-10 10:26:44.556 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:26:44.573 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:26:44.591 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.592 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.664 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:44.666 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:26:44.671 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.681 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.686 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:26:44.689 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:26:44.706 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.706 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.724 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:26:44.753 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:26:44.754 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:26:44.797 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.798 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:26:44.837 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:26:44.837 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:26:44.837 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:44.838 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:26:44.880 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714404875
+
+[ 12-10 10:26:44.906 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:26:44.907 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714404875
+
+[ 12-10 10:26:44.936 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:26:44.947 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:26:44.947 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.947 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.949 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:26:44.951 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d53df28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:26:44.952 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:26:44.952 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:26:44.952 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:26:44.977 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://111.13.12.43/static/tj.gif?pagetype=uindex&domc=40&load=128&type=index&logid=8853470252500235701&ta_net=2
+
+[ 12-10 10:26:44.978 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://111.13.12.43/static/tj.gif?pagetype=uindex&domc=40&load=128&type=index&logid=8853470252500235701&ta_net=2
+
+[ 12-10 10:26:44.985 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:44.987 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:44.988 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:44.989 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:26:44.990 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:44.991 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:26:45.065 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:45.819 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:47.065 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:47.820 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:49.065 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:49.823 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:51.066 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:51.824 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:53.066 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:53.824 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:53.838 28408:0x6f0b D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 10:26:53.944 28408:0x6f12 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:26:53.957 28408:0x6f0d D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:26:55.066 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:55.825 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:57.066 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:57.825 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:59.067 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:26:59.825 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:01.067 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:01.360 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7ae43ad0, delegate = 0x7ef70068
+
+
+[ 12-10 10:27:01.360 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:01.373 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:01.426 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.428 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:01.431 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.449 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:01.452 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.453 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.453 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.453 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.484 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:01.484 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:01.487 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:01.487 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:01.593 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=52
+
+[ 12-10 10:27:01.595 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.714 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:01.714 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:01.715 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:01.716 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:01.717 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:01.751 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:01.765 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714421763
+
+[ 12-10 10:27:01.766 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714421763
+
+[ 12-10 10:27:01.824 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:01.824 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.824 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.826 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:01.827 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:01.828 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6d9940] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:01.829 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:01.829 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:01.829 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:01.853 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:01.854 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:01.856 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:01.857 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:01.861 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:01.863 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:03.068 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:03.826 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:05.068 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:05.831 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:06.285 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7ae2d6d8, delegate = 0x7d6c1928
+
+
+[ 12-10 10:27:06.286 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:06.302 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:06.374 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.376 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.389 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:06.445 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:06.456 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:06.461 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.462 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.464 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.465 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.502 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:06.503 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:06.509 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:06.510 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:06.597 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.642 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:06.644 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:06.644 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:06.645 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:06.646 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:06.647 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:06.667 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714426664
+
+[ 12-10 10:27:06.676 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714426664
+
+[ 12-10 10:27:06.733 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:06.746 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.747 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:06.747 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.750 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:06.751 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b0a9608] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:06.752 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:06.753 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:06.754 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:06.780 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:06.780 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:06.783 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:06.783 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:06.788 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:06.790 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:07.068 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:07.834 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:09.069 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:09.834 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:10.574 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714430166
+
+[ 12-10 10:27:11.069 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:11.835 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:12.910 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7ae7def8, delegate = 0x7f48f3a8
+
+
+[ 12-10 10:27:12.910 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:12.938 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:13.029 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.033 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.037 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:13.069 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:13.082 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:13.089 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:13.093 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.093 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.095 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.095 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.107 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:13.108 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:13.109 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:13.110 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:13.220 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.276 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714433272
+
+[ 12-10 10:27:13.284 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=40
+
+[ 12-10 10:27:13.286 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:13.286 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:13.286 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:13.286 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:13.287 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:13.287 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714433272
+
+[ 12-10 10:27:13.346 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.346 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:13.346 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.349 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:13.350 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d6caae0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:13.350 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:13.351 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:13.352 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:13.376 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:13.377 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:13.379 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:13.379 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:13.383 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:13.385 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:13.835 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:15.071 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:15.836 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:16.704 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714436273
+
+[ 12-10 10:27:17.071 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:17.838 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:19.071 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:19.839 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:21.072 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:21.840 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:22.434 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7aed3570, delegate = 0x7aa5f068
+
+
+[ 12-10 10:27:22.434 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:22.453 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:22.468 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.471 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.545 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:22.553 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:22.558 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.570 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.578 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.579 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.590 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:22.594 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:22.596 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:22.608 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:22.609 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:22.683 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.684 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:22.716 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:22.717 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:22.717 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:22.717 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:22.729 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:22.772 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714442768
+
+[ 12-10 10:27:22.793 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714442768
+
+[ 12-10 10:27:22.821 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:22.855 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.855 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:22.855 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.858 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:22.860 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7ae255b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:22.861 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:22.862 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:22.863 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:22.891 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:22.891 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:22.895 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:22.895 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:22.903 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:22.904 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:23.072 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:23.840 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:24.192 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714443769
+
+[ 12-10 10:27:25.072 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:25.842 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:26.300 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7d6856a8, delegate = 0x7f840f40
+
+
+[ 12-10 10:27:26.301 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:26.321 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:26.386 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.391 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.399 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:26.447 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:26.455 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:26.466 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.467 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.471 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.472 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.514 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:26.515 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:26.517 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:26.518 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:26.792 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=40
+
+[ 12-10 10:27:26.793 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.827 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:26.827 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:26.827 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:26.827 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:26.838 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:26.860 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714446857
+
+[ 12-10 10:27:26.862 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714446857
+
+[ 12-10 10:27:26.927 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:26.930 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.930 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:26.930 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.933 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:26.935 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7d50fc68] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:26.936 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:26.936 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:26.936 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:26.962 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:26.962 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:26.965 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:26.966 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:26.974 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:26.975 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:27.072 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:27.844 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:28.508 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714448508
+
+[ 12-10 10:27:29.073 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:29.773 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714449410
+
+[ 12-10 10:27:29.844 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:31.073 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:31.846 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:31.942 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f853b90, delegate = 0x80643d48
+
+
+[ 12-10 10:27:31.943 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:31.965 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:32.054 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.057 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.067 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:32.137 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:32.151 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:32.154 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.154 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.155 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.155 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.174 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:32.175 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:32.177 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:32.178 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:32.274 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.293 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:32.310 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:32.310 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:32.311 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:32.313 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:32.321 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:32.341 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714452339
+
+[ 12-10 10:27:32.342 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714452339
+
+[ 12-10 10:27:32.402 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:32.402 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.402 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.404 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:32.406 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b078990] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:32.408 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:32.408 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:32.409 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:32.505 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:32.505 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:32.509 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:32.515 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:32.516 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:32.520 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:33.074 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:33.839 28408:0x6f0b D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 10:27:33.846 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:33.958 28408:0x6f12 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 10:27:33.993 28408:0x6f0d D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:27:34.662 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714454305
+
+[ 12-10 10:27:35.074 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:35.847 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:36.993 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f4ade10, delegate = 0x7f840da8
+
+
+[ 12-10 10:27:36.993 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:37.017 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:37.075 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:37.081 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.090 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.094 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:37.143 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:37.154 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:37.159 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.161 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.167 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.169 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.184 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:37.184 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:37.186 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:37.187 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:37.267 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:37.268 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.347 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:37.348 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:37.348 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:37.348 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:37.349 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714457345
+
+[ 12-10 10:27:37.351 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:37.374 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714457345
+
+[ 12-10 10:27:37.395 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:37.427 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:37.427 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.428 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.430 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:37.433 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f499578] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:37.434 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:37.435 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:37.435 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:37.462 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:37.463 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:37.467 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:37.470 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:37.475 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:37.477 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:37.848 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:39.076 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:39.294 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714458835
+
+[ 12-10 10:27:39.848 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:41.076 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:41.430 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f85cf20, delegate = 0x80744a60
+
+
+[ 12-10 10:27:41.431 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:41.460 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:41.558 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.573 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.585 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:41.617 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:41.631 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.632 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.632 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.633 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.636 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:41.668 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:41.670 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:41.679 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:41.680 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:41.773 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.832 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:41.833 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:41.834 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:41.835 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:41.836 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:41.837 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:41.849 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:41.856 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714461853
+
+[ 12-10 10:27:41.867 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714461853
+
+[ 12-10 10:27:41.914 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:41.924 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.924 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:41.924 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.926 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:41.927 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x81507850] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:41.928 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:41.928 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:41.928 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:41.953 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:41.953 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:41.955 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:41.956 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:41.958 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:41.959 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:43.077 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:43.565 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714463185
+
+[ 12-10 10:27:43.850 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:45.077 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:45.718 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x81632c00, delegate = 0x826373f8
+
+
+[ 12-10 10:27:45.719 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:45.736 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:45.817 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.821 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.839 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:45.863 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:45.883 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:45.888 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.890 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.892 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.895 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:45.927 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:45.962 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:45.964 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:45.964 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:45.973 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:46.070 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:46.079 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:46.109 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:46.110 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:46.111 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:46.111 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:46.119 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:46.132 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714466130
+
+[ 12-10 10:27:46.136 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714466130
+
+[ 12-10 10:27:46.209 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:46.211 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:46.211 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:46.212 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:46.215 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:46.217 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7aa353e8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:46.219 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:46.220 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:46.220 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:46.243 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:46.244 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:46.248 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:46.249 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:46.251 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:46.252 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:47.077 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:47.916 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:48.561 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x80752758, delegate = 0x81631fd8
+
+
+[ 12-10 10:27:48.562 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:48.580 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:48.591 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.594 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.656 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:48.657 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:48.670 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.672 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.681 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.681 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.718 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:48.723 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:48.725 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:48.750 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:48.751 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:48.827 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.827 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:27:48.889 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714468886
+
+[ 12-10 10:27:48.917 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:48.917 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:48.918 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:48.918 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:48.920 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:48.921 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714468886
+
+[ 12-10 10:27:48.958 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:27:48.967 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:48.967 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.968 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.969 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:48.977 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x8150ce60] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:48.979 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:48.980 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:48.981 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:49.018 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:49.019 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:49.022 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:49.027 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:49.027 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:49.030 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:49.078 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:49.917 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:51.078 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:51.629 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714471189
+
+[ 12-10 10:27:51.918 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:53.079 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:53.924 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:55.079 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:55.355 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x82662ce0, delegate = 0x7b077f18
+
+
+[ 12-10 10:27:55.355 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:27:55.373 28354:0x6ec2 D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:27:55.395 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.400 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.457 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:55.462 28354:0x6f57 I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:27:55.493 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.495 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.502 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.502 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.514 28354:0x6ec2 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:27:55.518 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:27:55.523 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:27:55.545 28354:0x6ec2 D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:27:55.546 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:27:55.602 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=52
+
+[ 12-10 10:27:55.610 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.642 28354:0x6ec2 D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:27:55.642 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:27:55.642 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:55.642 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:27:55.682 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714475681
+
+[ 12-10 10:27:55.712 28354:0x6ec2 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:27:55.714 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449714475681
+
+[ 12-10 10:27:55.745 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.745 28354:0x6ec2 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:27:55.745 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.749 28354:0x6ec2 D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:27:55.750 28354:0x6f57 I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80939260] pageScaleFactor=[1.000000]
+
+[ 12-10 10:27:55.755 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:27:55.757 28354:0x6ec2 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:27:55.760 28354:0x6ec2 W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:27:55.781 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:55.784 28354:0x6f4f D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:55.786 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:55.786 28354:0x6ec2 D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:27:55.791 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:55.792 28354:0x6f4f W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:27:55.924 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:57.015 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714476501
+
+[ 12-10 10:27:57.079 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:57.925 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:59.080 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:27:59.925 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:00.015 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714479510
+
+[ 12-10 10:28:01.080 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:01.089 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714481089
+
+[ 12-10 10:28:01.925 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:03.080 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:03.523 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714483523
+
+[ 12-10 10:28:03.928 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:05.081 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:05.929 28408:0x6efe D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:07.081 28354:0x6ec8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:28:07.155 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714487155
+
+[ 12-10 10:28:07.757 28354:0x6f25 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714487277
+
+[ 12-10 10:28:07.758 28354:0x6f25 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1005
+Process: com.example.myfristandroid, PID: 28354
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

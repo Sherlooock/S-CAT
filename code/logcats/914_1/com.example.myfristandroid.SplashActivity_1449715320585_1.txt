@@ -1,0 +1,540 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:41:17.354 28075:28075 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:41:17.394 28075:28075 D/ActivityThread ]
+handleBindApplication:com.example.myfristandroid
+
+[ 12-10 10:41:17.394 28075:28075 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 10:41:17.394 28075:28075 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 10:41:17.394 28075:28075 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 10:41:17.634 28075:28102 I/Timeline ]
+Timeline: Activity_launch_request id:com.example.myfristandroid time:102750480
+
+[ 12-10 10:41:17.644 28075:28075 V/HwPolicyFactory ]
+: success to get AllImpl object and return....
+
+[ 12-10 10:41:17.654 28075:28075 V/HwWidgetFactory ]
+: successes to get AllImpl object and return....
+
+[ 12-10 10:41:17.754 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 1032K, 69% free 4892K/15328K, paused 15ms, total 16ms
+
+[ 12-10 10:41:17.774 28075:28075 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.309MB for 15504848-byte allocation
+
+[ 12-10 10:41:17.784 28075:28079 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 35% free 20032K/30472K, paused 2ms+1ms, total 17ms
+
+[ 12-10 10:41:17.834 28109:28109 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:41:17.854 28109:28109 D/ActivityThread ]
+handleBindApplication:system
+
+[ 12-10 10:41:17.854 28109:28109 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 10:41:17.854 28109:28109 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 10:41:17.854 28109:28109 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 10:41:17.864 28075:28075 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.7.2.1_RB1.04.04.04.157.009_msm8916_32_LNX.LA.3.7.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.02.07
+Build Date: 07/30/14 Wed
+Local Branch: mybranch3995205
+Remote Branch: quic/LNX.LA.3.7.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.7.2.1_RB1.04.04.04.157.009 +  NOTHING
+
+[ 12-10 10:41:17.904 28075:28075 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:41:17.994 28075:28075 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41f959e0 time:102750844
+
+[ 12-10 10:41:18.154 28109:28109 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:41:18.154 28109:28109 D/SocketService ]
+pid:28109 myPid:28109
+
+[ 12-10 10:41:18.154 28109:28109 D/SocketService ]
+start to run current thread!id:3129
+
+[ 12-10 10:41:18.204 28109:28147 D/SocketService ]
+ip/192.168.1.156 lport:42836 p:143
+
+[ 12-10 10:41:18.204 28109:28147 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 10:41:18.204 28109:28147 D/SocketService ]
+success to connect server!id:3129 bLogin:false
+
+[ 12-10 10:41:18.324 28109:28149 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:41:19.154 28109:28145 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:41:19.204 28109:28147 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 10:41:19.304 28109:28149 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:41:19.834 28075:28075 I/Timeline ]
+Timeline: Activity_launch_request id:com.example.myfristandroid time:102752687
+
+[ 12-10 10:41:19.924 28075:28075 D/HwSensorManager ]
+HwSensorManager version: 1.0.0
+
+[ 12-10 10:41:19.964 28075:28075 W/dalvikvm ]
+method Lcom/huawei/android/hwcontrol/HwEditor;.isInSelectionActionMode incorrectly overrides package-private method with same name in Landroid/widget/Editor;
+
+[ 12-10 10:41:19.964 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:19.994 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:20.014 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:20.024 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:20.034 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:20.034 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:20.054 28075:28075 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:41:20.054 28075:28075 D/StrictMode ]
+StrictMode policy violation; ~duration=192 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1138)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:430)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:287)
+	at java.util.zip.ZipFile$RAFStream.read(ZipFile.java:464)
+	at libcore.io.Streams.readFully(Streams.java:81)
+	at java.io.DataInputStream.readInt(DataInputStream.java:103)
+	at java.util.zip.ZipFile.getInputStream(ZipFile.java:281)
+	at com.huawei.android.hwutil.ZipFileCache.getInputStreamEntry(ZipFileCache.java:435)
+	at com.huawei.android.content.res.ResourcesEx.loadThemeColor(ResourcesEx.java:1057)
+	at com.huawei.android.content.res.ResourcesEx.getThemeColor(ResourcesEx.java:1040)
+	at com.huawei.android.content.res.ResourcesEx.loadColorStateList(ResourcesEx.java:865)
+	at android.content.res.TypedArray.getColorStateList(TypedArray.java:370)
+	at android.widget.TextView.<init>(TextView.java:703)
+	at android.widget.TextView.<init>(TextView.java:637)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:614)
+	at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:689)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:714)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:775)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:859)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:765)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:512)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:409)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:358)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1968)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:226)
+	at android.app.Activity.performCreate(Activity.java:5302)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2228)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:41:20.054 28075:28075 D/StrictMode ]
+StrictMode policy violation; ~duration=190 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1138)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:430)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:287)
+	at java.util.zip.ZipFile$RAFStream.read(ZipFile.java:464)
+	at libcore.io.Streams.readFully(Streams.java:81)
+	at java.io.DataInputStream.readShort(DataInputStream.java:152)
+	at java.util.zip.ZipFile.getInputStream(ZipFile.java:289)
+	at com.huawei.android.hwutil.ZipFileCache.getInputStreamEntry(ZipFileCache.java:435)
+	at com.huawei.android.content.res.ResourcesEx.loadThemeColor(ResourcesEx.java:1057)
+	at com.huawei.android.content.res.ResourcesEx.getThemeColor(ResourcesEx.java:1040)
+	at com.huawei.android.content.res.ResourcesEx.loadColorStateList(ResourcesEx.java:865)
+	at android.content.res.TypedArray.getColorStateList(TypedArray.java:370)
+	at android.widget.TextView.<init>(TextView.java:703)
+	at android.widget.TextView.<init>(TextView.java:637)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:614)
+	at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:689)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:714)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:775)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:859)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:765)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:512)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:409)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:358)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1968)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:226)
+	at android.app.Activity.performCreate(Activity.java:5302)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2228)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:41:20.054 28075:28075 D/StrictMode ]
+StrictMode policy violation; ~duration=188 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1138)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:430)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:287)
+	at java.util.zip.ZipFile$RAFStream.read(ZipFile.java:464)
+	at libcore.io.Streams.readFully(Streams.java:81)
+	at java.io.DataInputStream.readShort(DataInputStream.java:152)
+	at java.util.zip.ZipFile.getInputStream(ZipFile.java:297)
+	at com.huawei.android.hwutil.ZipFileCache.getInputStreamEntry(ZipFileCache.java:435)
+	at com.huawei.android.content.res.ResourcesEx.loadThemeColor(ResourcesEx.java:1057)
+	at com.huawei.android.content.res.ResourcesEx.getThemeColor(ResourcesEx.java:1040)
+	at com.huawei.android.content.res.ResourcesEx.loadColorStateList(ResourcesEx.java:865)
+	at android.content.res.TypedArray.getColorStateList(TypedArray.java:370)
+	at android.widget.TextView.<init>(TextView.java:703)
+	at android.widget.TextView.<init>(TextView.java:637)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:614)
+	at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:689)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:714)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:775)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:859)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:765)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:512)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:409)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:358)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1968)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:226)
+	at android.app.Activity.performCreate(Activity.java:5302)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2228)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:41:20.064 28075:28075 D/StrictMode ]
+StrictMode policy violation; ~duration=186 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1138)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:430)
+	at java.io.RandomAccessFile.read(RandomAccessFile.java:287)
+	at java.util.zip.ZipFile$RAFStream.read(ZipFile.java:464)
+	at libcore.io.Streams.readFully(Streams.java:81)
+	at java.io.DataInputStream.readShort(DataInputStream.java:152)
+	at java.util.zip.ZipFile.getInputStream(ZipFile.java:298)
+	at com.huawei.android.hwutil.ZipFileCache.getInputStreamEntry(ZipFileCache.java:435)
+	at com.huawei.android.content.res.ResourcesEx.loadThemeColor(ResourcesEx.java:1057)
+	at com.huawei.android.content.res.ResourcesEx.getThemeColor(ResourcesEx.java:1040)
+	at com.huawei.android.content.res.ResourcesEx.loadColorStateList(ResourcesEx.java:865)
+	at android.content.res.TypedArray.getColorStateList(TypedArray.java:370)
+	at android.widget.TextView.<init>(TextView.java:703)
+	at android.widget.TextView.<init>(TextView.java:637)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:614)
+	at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:689)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:714)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:775)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:859)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:765)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:512)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:409)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:358)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1968)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:226)
+	at android.app.Activity.performCreate(Activity.java:5302)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2228)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:41:20.064 28075:28075 D/StrictMode ]
+StrictMode policy violation; ~duration=10 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1138)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5302)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2228)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2313)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:41:20.164 28109:28145 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:41:20.214 28109:28147 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 10:41:20.284 28109:28149 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:41:20.344 28075:28075 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:41:20.344 28075:28075 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:41:20.344 28075:28075 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:41:20.344 28075:28075 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:41:20.344 28075:28075 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:41:20.354 28075:28075 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:41:20.354 28075:28075 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:41:20.354 28075:28075 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:41:20.354 28075:28075 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:41:20.354 28075:28075 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:41:20.414 28075:28075 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41e7a398 time:102753261
+
+[ 12-10 10:41:21.174 28109:28145 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:41:21.184 28075:28075 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:41:21.234 28075:28079 D/dalvikvm ]
+GC_CONCURRENT freed 2124K, 21% free 24169K/30472K, paused 4ms+6ms, total 53ms
+
+[ 12-10 10:41:23.654 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:23.654 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:24.174 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:24.174 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:24.194 28075:28075 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:41:24.264 28075:28075 V/RenderScript ]
+Application requested CPU execution
+
+[ 12-10 10:41:24.264 28075:28075 V/RenderScript ]
+0x76229318 Launching thread(s), CPUs 4
+
+[ 12-10 10:41:28.064 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:28.064 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:28.064 28075:28075 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:41:28.524 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:28.524 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:28.524 28075:28075 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+--------- beginning of /dev/log/system
+[ 12-10 10:41:28.524 28075:28075 I/AndroidRuntime ]
+timezone is Asia/Shanghai
+
+[ 12-10 10:41:28.594 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:28.604 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:28.604 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:36.794 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 2080K, 18% free 27828K/33804K, paused 29ms, total 29ms
+
+[ 12-10 10:41:36.914 28075:28141 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715296693
+
+[ 12-10 10:41:38.264 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:38.264 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:38.284 28075:28075 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{42114a38 V.ED.VC. ......ID 10,10-698,10 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:41:38.284 28075:28075 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:41:38.314 28109:28109 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:79
+
+[ 12-10 10:41:38.444 28109:28149 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:739
+
+[ 12-10 10:41:39.204 28109:28145 D/SocketService1 ]
+本次提取1:LoadPtr:739 HeadIndex:722 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:41:47.124 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:47.124 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:47.124 28075:28075 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:41:48.174 28075:28075 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 10:41:48.174 28075:28075 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 10:41:48.174 28075:28075 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:41:48.224 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:48.234 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:48.234 28075:28075 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 10:41:51.624 28075:28075 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 10:41:51.694 28075:28075 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 10:41:51.714 28075:28075 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:41:55.404 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 7736K, 20% free 24535K/30472K, paused 45ms, total 45ms
+
+[ 12-10 10:41:55.444 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 247K, 19% free 27618K/33804K, paused 18ms, total 18ms
+
+[ 12-10 10:41:55.554 28075:28141 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715315336
+
+[ 12-10 10:42:00.574 28075:28141 D/cn.edu.nju.ise.kikandroid ]
+Log:1449715320585
+
+[ 12-10 10:42:00.654 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 6873K, 21% free 24211K/30472K, paused 22ms, total 23ms
+
+[ 12-10 10:42:00.694 28075:28075 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 19% free 27540K/33804K, paused 16ms, total 16ms
+
+[ 12-10 10:42:00.804 28075:28141 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715320621
+
+[ 12-10 10:42:00.804 28075:28141 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x4162de18)
+
+[ 12-10 10:42:00.804 28075:28141 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3121
+Process: com.example.myfristandroid, PID: 28075
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

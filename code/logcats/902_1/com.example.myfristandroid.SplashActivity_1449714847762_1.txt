@@ -1,0 +1,3151 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:33:42.520 31754:0x7c0a D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@41ee7058,provider,holder.Provider:android.content.ContentProviderProxy@41ee77d8
+
+[ 12-10 10:33:42.554 31754:0x7c0a D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{41ee50e0 com.example.myfristandroid}}
+
+[ 12-10 10:33:42.863 31754:0x7c0a D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{41eef860 token=android.os.BinderProxy@41eeefd0 {com.example.myfristandroid/com.example.myfristandroid.SplashActivity}}
+
+[ 12-10 10:33:42.903 31754:0x7c0a D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{41eef860 token=android.os.BinderProxy@41eeefd0 {com.example.myfristandroid/com.example.myfristandroid.SplashActivity}}
+
+[ 12-10 10:33:42.922 31775:0x7c1f D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@41ee86f8,provider,holder.Provider:android.content.ContentProviderProxy@41ee8e78
+
+[ 12-10 10:33:42.935 31775:0x7c1f D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{41ee60c8 com.example.myfristandroid}}
+
+[ 12-10 10:33:42.944 31775:0x7c1f D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@41ee6c30 className=com.example.myfristandroid.SocketService packageName=com.example.myfristandroid intent=null}
+
+[ 12-10 10:33:42.968 31775:0x7c1f D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@41ee6c30 className=com.example.myfristandroid.SocketService packageName=com.example.myfristandroid intent=null}
+
+[ 12-10 10:33:42.978 31775:0x7c1f D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@41ee6c30 startId=1 args=Intent { flg=0x10000000 cmp=com.example.myfristandroid/.SocketService }}
+
+[ 12-10 10:33:44.889 31754:0x7c0a D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{41eef860 token=android.os.BinderProxy@41eeefd0 {com.example.myfristandroid/com.example.myfristandroid.SplashActivity}}
+
+[ 12-10 10:33:44.898 31754:0x7c0a D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@41eeefd0
+
+[ 12-10 10:33:45.052 31754:0x7c0a D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{41efc9f0 token=android.os.BinderProxy@41efc160 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 10:33:45.057 31754:0x7c0a D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{41efc9f0 token=android.os.BinderProxy@41efc160 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 10:33:45.793 31754:0x7c0a D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@41eeefd0
+
+--------- beginning of /dev/log/main
+[ 12-10 10:33:48.000 31754:0x7c0a D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:33:48.002 31754:0x7c0a D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:33:48.003 31754:0x7c0a D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:33:48.003 31754:0x7c0a D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:33:48.027 31775:0x7c39 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 10:33:48.027 31775:0x7c39 D/dalvikvm ]
+threadid=14: exiting
+
+[ 12-10 10:33:48.028 31775:0x7c39 D/dalvikvm ]
+threadid=14: bye!
+
+[ 12-10 10:33:48.093 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.094 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.095 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.193 31775:0x7c48 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:33:48.587 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.588 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.589 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.776 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.777 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.778 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.792 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.793 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.794 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.808 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.809 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.810 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.823 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.824 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.825 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.839 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.840 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.841 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.855 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.856 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.857 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.871 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.872 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.873 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.887 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.887 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.888 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.903 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.904 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.906 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.918 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.919 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.920 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.933 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.934 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.936 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.949 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.950 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.951 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.965 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.966 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.967 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.981 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.981 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.983 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:48.994 31775:0x7c37 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:33:48.997 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:48.998 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:48.999 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:49.012 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:49.013 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:49.014 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:49.017 31754:0x7c0a D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:33:49.053 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:49.054 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:49.055 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:49.096 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x6439c348) (w:480, h:800, f:1)
+
+[ 12-10 10:33:49.097 31754:0x7c0a I/MaliEGL  ]
+[Mali]window_type=1, is_framebuffer=0, errnum = 0
+
+
+[ 12-10 10:33:49.097 31754:0x7c0a I/MaliEGL  ]
+[Mali]surface->num_buffers=4, surface->num_frames=3, win_min_undequeued=1
+
+
+[ 12-10 10:33:49.097 31754:0x7c0a I/MaliEGL  ]
+[Mali]max_allowed_dequeued_buffers=3
+
+
+[ 12-10 10:33:49.098 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x6439c348) (w:480 h:800 f:1)
+
+[ 12-10 10:33:49.100 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x6439d0f0) (w:480, h:800, f:1)
+
+[ 12-10 10:33:49.101 31754:0x7c0a D/OpenGLRenderer ]
+setViewport 480x800 <0x6439d278>
+
+[ 12-10 10:33:49.109 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:49.110 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:49.111 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:49.121 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:49.124 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:49.134 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:49.155 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:49.156 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:49.157 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:49.166 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.example.myfristandroid.myListView{41f5c318 V.ED.VC. ......ID 5,0-465,0 #7f08001d app:id/id_lv_dataView}
+
+[ 12-10 10:33:49.166 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:49.240 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x63432e50) (w:480, h:800, f:1)
+
+[ 12-10 10:33:49.252 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:49.253 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:49.254 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.267 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x6439c2e8) (w:480, h:800, f:1)
+
+[ 12-10 10:33:50.269 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.270 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.271 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.283 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x64576a10) (w:480, h:800, f:1)
+
+[ 12-10 10:33:50.286 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.287 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.288 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.299 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.300 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.302 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.315 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.315 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.317 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.330 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.331 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.333 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.346 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.346 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.348 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.361 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.362 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.364 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.381 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.381 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.382 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.393 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.394 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.395 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.409 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.409 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.411 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.424 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.425 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.427 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.440 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.441 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.443 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.456 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.456 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.458 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.471 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.472 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.474 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.487 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.488 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.490 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.503 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.504 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.506 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.519 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.519 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.521 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.534 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.534 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.536 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.735 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.735 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.736 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.737 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.739 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f90628 VFED..C. ........ 225,6-424,78 #7f080035 app:id/button2}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=100.27234, y[0]=45.375793, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20480973, downTime=20480973, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:50.751 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.752 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.753 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.761 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.761 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.764 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.765 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x6439d278>
+
+[ 12-10 10:33:50.766 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439d278>
+
+[ 12-10 10:33:50.769 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.769 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.784 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.784 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.800 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.800 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.815 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.815 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.828 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.828 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.830 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.831 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:50.833 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f90628 VFED..C. ...P.... 225,6-424,78 #7f080035 app:id/button2}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=100.27234, y[0]=45.375793, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20481066, downTime=20480973, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:50.835 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:50.836 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:33:50.841 31754:0x7c0a D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-10 10:33:50.842 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x6439d0f0) (w:480 h:800 f:1)
+
+[ 12-10 10:33:50.844 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x63432e50) (w:480 h:800 f:1)
+
+[ 12-10 10:33:50.845 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x6439c2e8) (w:480 h:800 f:1)
+
+[ 12-10 10:33:50.846 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x64576a10) (w:480 h:800 f:1)
+
+[ 12-10 10:33:50.859 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.example.myfristandroid.myListView{41f5c318 V.ED.VC. ......ID 5,0-465,0 #7f08001d app:id/id_lv_dataView}
+
+[ 12-10 10:33:50.859 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:50.860 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = safeinputmethod_on , value = null
+
+[ 12-10 10:33:50.862 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:50.866 31754:0x7c0a V/InputMethodManager ]
+onWindowFocus: android.widget.EditText{41f61420 VFED..CL .F...... 0,0-470,45 #7f080048 app:id/id_log_filter} softInputMode=16 first=false flags=#1810100
+
+[ 12-10 10:33:51.369 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:51.370 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:51.372 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.695 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.704 31754:0x7c0a D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-10 10:33:51.704 31754:0x7c0a D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-10 10:33:51.704 31754:0x7c0a D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-10 10:33:51.704 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.705 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.706 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.706 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.LinearLayout{41f5f530 V.E..... ........ 30,15-450,75}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=119.68814, y[0]=53.781525, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20481933, downTime=20481933, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:51.706 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.707 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.707 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.LinearLayout{41f5f128 V.E..... ........ 960,0-1440,611}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=149.68814, y[0]=68.781525, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20481933, downTime=20481933, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:51.708 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.708 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.708 31754:0x7c0a I/View     ]
+Touch down dispatch to android.support.v4.view.ViewPager{41f05a68 VFED.... ........ 0,68-480,679 #7f08000c app:id/id_viewpager}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=149.68814, y[0]=68.781525, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20481933, downTime=20481933, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.709 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.713 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.714 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.715 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.715 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:51.716 31754:0x7c0a I/View     ]
+Touch up dispatch to android.support.v4.view.ViewPager{41f05a68 VFED.... ........ 0,68-480,679 #7f08000c app:id/id_viewpager}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=149.68814, y[0]=68.781525, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20481951, downTime=20481933, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:51.869 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:51.870 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:51.871 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:52.372 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:52.374 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:52.376 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.658 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.658 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.658 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f5f850 VFED..C. ........ 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=103.675674, y[0]=41.786514, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20482892, downTime=20482892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.677 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.681 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.681 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.681 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.682 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.682 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:52.682 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f5f850 VFED..C. ...p.... 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=103.675674, y[0]=41.786514, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20482911, downTime=20482892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:52.687 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:52.687 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:33:52.688 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:33:52.691 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:52.695 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:52.697 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:52.698 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:52.875 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:52.876 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:52.878 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.364 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.367 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f5f850 VFED..C. ........ 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=82.71933, y[0]=38.790268, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20483601, downTime=20483601, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.371 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.372 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.382 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:53.382 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:53.383 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:53.385 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.385 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.385 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.385 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.387 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.387 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.387 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f5f850 VFED..C. ...p.... 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=82.71933, y[0]=38.790268, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20483619, downTime=20483601, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:53.389 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:53.389 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:33:53.390 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:33:53.394 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:53.398 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:53.400 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:53.402 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:53.880 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:53.881 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:53.883 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:53.896 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.896 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.896 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.896 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.897 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.898 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.901 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.901 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.904 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.904 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.904 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.904 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.905 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f5f850 VFED..C. ........ 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=88.70686, y[0]=26.805252, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20484132, downTime=20484132, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.909 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.909 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.910 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.910 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.916 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.916 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:53.917 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f5f850 VFED..C. ...p.... 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=88.70686, y[0]=26.805252, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20484150, downTime=20484132, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:53.933 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:53.933 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:33:53.934 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:33:53.944 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:53.948 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:53.949 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:53.951 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:54.383 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:54.385 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:54.386 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:54.393 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.394 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.394 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.395 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.395 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.396 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.397 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.412 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.413 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f607d8 VFED..C. ........ 218,8-398,52 #7f080047 app:id/id_bt_Histroy}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=91.29315, y[0]=41.786514, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20484626, downTime=20484626, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:54.414 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.417 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.422 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:54.431 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f607d8 VFED..C. ...p.... 218,8-398,52 #7f080047 app:id/id_bt_Histroy}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=91.29315, y[0]=41.786514, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20484644, downTime=20484626, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:54.432 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:33:54.432 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:33:54.434 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:33:54.495 31754:0x7c0a D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-10 10:33:54.496 31754:0x7c0a D/AbsListView ]
+setOnScrollListener: OnScrollListener=android.widget.CalendarView$2@42b73f70, this=android.widget.ListView{42b72ce8 V.ED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-10 10:33:54.529 31754:0x7c0a D/ListView ]
+setSelectionFromTop position=6048, y=3, isInTouchMode=true, mResurrectToPosition=6048, mAreAllItemsSelectable=true, mNextSelectedPosition=-1, mAdapter=android.widget.CalendarView$WeeksAdapter@42b74ac8, this=android.widget.ListView{42b72ce8 VFED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-10 10:33:54.581 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:33:54.582 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:33:54.583 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:33:54.623 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x6439ee08) (w:480, h:800, f:1)
+
+[ 12-10 10:33:54.624 31754:0x7c0a I/MaliEGL  ]
+[Mali]window_type=1, is_framebuffer=0, errnum = 0
+
+
+[ 12-10 10:33:54.624 31754:0x7c0a I/MaliEGL  ]
+[Mali]surface->num_buffers=4, surface->num_frames=3, win_min_undequeued=1
+
+
+[ 12-10 10:33:54.625 31754:0x7c0a I/MaliEGL  ]
+[Mali]max_allowed_dequeued_buffers=3
+
+
+[ 12-10 10:33:54.626 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x6439ee08) (w:480 h:800 f:1)
+
+[ 12-10 10:33:54.628 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x610da688) (w:480, h:800, f:1)
+
+[ 12-10 10:33:54.629 31754:0x7c0a D/OpenGLRenderer ]
+setViewport 480x800 <0x610da788>
+
+[ 12-10 10:33:54.655 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=android.widget.ListView{42b72ce8 VFED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-10 10:33:54.656 31754:0x7c0a V/InputMethodManager ]
+onWindowFocus: android.widget.NumberPicker{42b6af28 VFED.... .F....ID 12,24-108,294 #1020294 android:id/year} softInputMode=288 first=true flags=#1810102
+
+[ 12-10 10:33:54.657 31754:0x7c0a V/InputMethodManager ]
+START INPUT: android.widget.NumberPicker{42b6af28 VFED.... .F....ID 12,24-108,294 #1020294 android:id/year} ic=null tba=android.view.inputmethod.EditorInfo@42ba7518 controlFlags=#105
+
+[ 12-10 10:33:54.679 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x610da788>
+
+[ 12-10 10:33:54.682 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x610da788>
+
+[ 12-10 10:33:54.696 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x610da788>
+
+[ 12-10 10:33:54.708 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.example.myfristandroid.myListView{41f5c318 V.ED.VC. ......ID 5,0-465,0 #7f08001d app:id/id_lv_dataView}
+
+[ 12-10 10:33:54.708 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:33:54.800 31754:0x7c0a D/GraphicBuffer ]
+create handle(0x643f61d8) (w:480, h:800, f:1)
+
+[ 12-10 10:33:54.818 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x610da788>
+
+[ 12-10 10:33:54.818 31754:0x7c0a D/OpenGLRenderer ]
+clear (0.00, 800 - 800.00 = 0.00, 480.00 - 0.00 = 480.00, 800.00 - 0.00 = 800.00) opaque 0 <0x610da788>
+
+[ 12-10 10:33:54.825 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x610da788>
+
+[ 12-10 10:33:57.332 31754:0x7c3d D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-10 10:33:57.332 31754:0x7c3d D/dalvikvm ]
+create new thread
+
+[ 12-10 10:33:57.333 31754:0x7c3d D/dalvikvm ]
+new thread created
+
+[ 12-10 10:33:57.334 31754:0x7c3d D/dalvikvm ]
+update thread list
+
+[ 12-10 10:33:57.336 31754:0x7c54 D/dalvikvm ]
+threadid=25: interp stack at 0x644a4000
+
+[ 12-10 10:33:57.337 31754:0x7c54 D/dalvikvm ]
+threadid=25: created from interp
+
+[ 12-10 10:33:57.338 31754:0x7c3d D/dalvikvm ]
+start new thread
+
+[ 12-10 10:33:57.339 31754:0x7c54 D/dalvikvm ]
+threadid=25: notify debugger
+
+
+[ 12-10 10:33:57.339 31754:0x7c54 D/dalvikvm ]
+threadid=25 (ScreenShotSaver): calling run()
+
+[ 12-10 10:33:57.427 31754:0x7c0a D/dalvikvm ]
+GC_FOR_ALLOC freed 2577K (37170), 27% free 13772K/18824K, paused 79ms, total 79ms
+
+[ 12-10 10:33:57.430 31754:0x7c0a I/dalvikvm-heap ]
+Grow heap (frag case) to 18.577MB for 1536016-byte allocation
+
+[ 12-10 10:33:57.499 31754:0x7c0a D/dalvikvm ]
+GC_FOR_ALLOC freed 89K (1462), 26% free 15189K/20328K, paused 46ms, total 46ms
+
+[ 12-10 10:33:57.502 31754:0x7c0a I/dalvikvm-heap ]
+Grow heap (frag case) to 19.961MB for 1536016-byte allocation
+
+[ 12-10 10:33:57.512 31754:0x7c54 I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-10 10:33:57.591 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714837312
+
+[ 12-10 10:33:57.592 31754:0x7c3d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 10:33:57.592 31754:0x7c3d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.655 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.656 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.656 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.656 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.LinearLayout{42b8acd8 V.E..... ........ 0,18-480,581 #7f080027 app:id/pcenterPanel}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=273.43036, y[0]=7.818985, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488892, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:58.656 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.658 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.659 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.LinearLayout{42b8aa00 V.E..... ........ 0,81-480,681 #7f080026 app:id/parentPanel}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=273.43036, y[0]=25.818985, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488892, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:58.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.659 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.660 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.FrameLayout{42b8a318 V.E..... ........ 0,38-480,800 #1020002 android:id/content}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=273.43036, y[0]=106.818985, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488892, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:58.660 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.660 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.661 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.LinearLayout{42b894c0 V.E..... ........ 0,0-480,800}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=273.43036, y[0]=144.81898, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488892, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:58.661 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.676 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.676 31754:0x7c0a I/View     ]
+Touch down dispatch to com.android.internal.policy.impl.PhoneWindow$DecorView{42b88ec8 V.E..... R....... 0,0-480,800}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=273.43036, y[0]=144.81898, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488892, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:33:58.679 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.680 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:33:58.681 31754:0x7c0a I/View     ]
+Touch up dispatch to com.android.internal.policy.impl.PhoneWindow$DecorView{42b88ec8 V.E..... R....... 0,0-480,800}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=273.43036, y[0]=144.81898, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20488911, downTime=20488892, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:00.236 31754:0x7c0a I/View     ]
+Key down dispatch to android.widget.NumberPicker{42b6af28 VFED.... .F...... 12,24-108,294 #1020294 android:id/year}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x48, repeatCount=0, eventTime=20490458, downTime=20490458, deviceId=3, source=0x101 }
+
+[ 12-10 10:34:00.326 31754:0x7c0a D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-10 10:34:00.326 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x610da688) (w:480 h:800 f:1)
+
+[ 12-10 10:34:00.329 31754:0x7c0a D/GraphicBuffer ]
+close handle(0x643f61d8) (w:480 h:800 f:1)
+
+[ 12-10 10:34:00.339 31754:0x7c0a W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:34:00.340 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.example.myfristandroid.myListView{41f5c318 V.ED.VC. ......ID 5,0-465,0 #7f08001d app:id/id_lv_dataView}
+
+[ 12-10 10:34:00.341 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:34:00.342 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = safeinputmethod_on , value = null
+
+[ 12-10 10:34:00.343 31754:0x7c0a D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:00.345 31754:0x7c0a V/InputMethodManager ]
+onWindowFocus: android.widget.EditText{41f61420 VFED..CL .F...... 0,0-470,45 #7f080048 app:id/id_log_filter} softInputMode=16 first=false flags=#1810100
+
+[ 12-10 10:34:00.350 31754:0x7c0a V/InputMethodManager ]
+START INPUT: android.widget.EditText{41f61420 VFED..CL .F...... 0,0-470,45 #7f080048 app:id/id_log_filter} ic=com.android.internal.widget.EditableInputConnection@41f3d148 tba=android.view.inputmethod.EditorInfo@41f3ecf8 controlFlags=#103
+
+[ 12-10 10:34:00.856 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:00.857 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:00.859 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:01.359 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:01.361 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:01.363 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:01.526 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.526 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.526 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.526 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.527 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.527 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.527 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.527 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.529 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.529 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.530 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.535 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.535 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.535 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.535 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.535 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.538 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.539 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.540 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f5f850 VFED..C. ........ 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=99.68399, y[0]=28.80275, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20491762, downTime=20491762, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:01.541 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.541 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.541 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.541 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.541 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.542 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.543 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.543 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.553 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.553 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.553 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.553 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.557 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.558 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:01.559 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f5f850 VFED..C. ...p.... 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=99.68399, y[0]=28.80275, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20491781, downTime=20491762, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:01.562 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:34:01.562 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:34:01.565 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:34:01.567 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:01.572 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:01.573 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:01.575 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:01.858 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:01.859 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:01.861 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:02.361 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:02.362 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:02.365 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:02.863 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:02.864 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:02.866 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:03.164 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.164 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.164 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.165 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.176 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.Button{41f5f850 VFED..C. ........ 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=80.723495, y[0]=38.790268, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20493402, downTime=20493402, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.177 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.178 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.178 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.183 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.Button{41f5f850 VFED..C. ...p.... 22,8-202,52 #7f080046 app:id/id_bt_Real}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=80.723495, y[0]=38.790268, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20493421, downTime=20493402, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:03.189 31754:0x7c0a V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-10 10:34:03.190 31754:0x7c0a V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-10 10:34:03.191 31754:0x7c0a D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:34:03.192 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:03.196 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:03.197 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:03.199 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:03.348 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:03.349 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:03.350 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:03.852 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:03.853 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:03.855 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:03.883 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.884 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.884 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.885 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.886 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.886 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.887 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.887 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.888 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.888 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.889 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.889 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.893 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.893 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.894 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.895 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.896 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.897 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.901 31754:0x7c0a I/View     ]
+Touch down dispatch to android.widget.EditText{41f61420 VFED..CL .F...... 0,0-470,45 #7f080048 app:id/id_log_filter}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=196.58005, y[0]=42.710373, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20494120, downTime=20494120, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:03.901 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.902 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.903 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.903 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.906 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.907 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.908 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.908 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.909 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.909 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.910 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.910 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.912 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.917 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.919 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.919 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.919 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.919 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.919 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.923 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.923 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.925 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.925 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.926 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.926 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.926 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.926 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.928 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.928 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.928 31754:0x7c0a I/View     ]
+Touch up dispatch to android.widget.EditText{41f61420 VFED..CL .F.p.... 0,0-470,45 #7f080048 app:id/id_log_filter}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=196.58005, y[0]=42.710373, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=20494138, downTime=20494120, deviceId=3, source=0x1002 }
+
+[ 12-10 10:34:03.931 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:03.931 31754:0x7c0a D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 10:34:04.014 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:04.047 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x634178b0>
+
+[ 12-10 10:34:04.051 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x609e84e0 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.052 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x634178b0>
+
+[ 12-10 10:34:04.082 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:04.123 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.124 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.126 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.164 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.165 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.167 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.184 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.185 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.186 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.198 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.199 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.200 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.212 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.212 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.216 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.229 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.230 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.232 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.244 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.246 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.247 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.261 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.262 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.263 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.276 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.277 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.279 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.292 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.293 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.295 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.310 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.311 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.312 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.323 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.324 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.326 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.337 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.339 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.341 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.353 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.356 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.358 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.373 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.374 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.375 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.384 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.386 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.387 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.400 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.401 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.404 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.416 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.417 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.419 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.431 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.433 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.434 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.447 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.448 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.450 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.464 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.465 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.467 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:04.872 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:04.872 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:04.874 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:05.379 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:05.381 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:05.384 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:05.877 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:05.880 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:05.882 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:05.906 31754:0x7c0a D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-10 10:34:05.906 31754:0x7c0a D/dalvikvm ]
+create new thread
+
+[ 12-10 10:34:05.907 31754:0x7c0a D/dalvikvm ]
+new thread created
+
+[ 12-10 10:34:05.908 31754:0x7c0a D/dalvikvm ]
+update thread list
+
+[ 12-10 10:34:05.908 31754:0x7c59 D/dalvikvm ]
+threadid=26: interp stack at 0x644ef000
+
+[ 12-10 10:34:05.908 31754:0x7c59 D/dalvikvm ]
+threadid=26: created from interp
+
+[ 12-10 10:34:05.909 31754:0x7c0a D/dalvikvm ]
+start new thread
+
+[ 12-10 10:34:05.909 31754:0x7c59 D/dalvikvm ]
+threadid=26: notify debugger
+
+
+[ 12-10 10:34:05.910 31754:0x7c59 D/dalvikvm ]
+threadid=26 (Filter): calling run()
+
+[ 12-10 10:34:05.929 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:05.930 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:05.932 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:05.939 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:06.427 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:06.428 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:06.429 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:06.930 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:06.931 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:06.933 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:07.433 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:07.434 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:07.436 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:07.762 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714847762
+
+[ 12-10 10:34:07.764 31754:0x7c3d D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-10 10:34:07.765 31754:0x7c3d D/dalvikvm ]
+create new thread
+
+[ 12-10 10:34:07.765 31754:0x7c3d D/dalvikvm ]
+new thread created
+
+[ 12-10 10:34:07.765 31754:0x7c3d D/dalvikvm ]
+update thread list
+
+[ 12-10 10:34:07.769 31754:0x7c5b D/dalvikvm ]
+threadid=27: interp stack at 0x64531000
+
+[ 12-10 10:34:07.770 31754:0x7c5b D/dalvikvm ]
+threadid=27: created from interp
+
+[ 12-10 10:34:07.770 31754:0x7c3d D/dalvikvm ]
+start new thread
+
+[ 12-10 10:34:07.791 31754:0x7c5b D/dalvikvm ]
+threadid=27: notify debugger
+
+
+[ 12-10 10:34:07.791 31754:0x7c5b D/dalvikvm ]
+threadid=27 (java.lang.ProcessManager): calling run()
+
+[ 12-10 10:34:07.813 31754:0x7c3d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 10:34:07.814 31754:0x7c3d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 10:34:07.938 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:07.939 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:07.941 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:08.437 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:08.437 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:08.438 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:08.932 31754:0x7c59 D/dalvikvm ]
+threadid=26: exiting
+
+[ 12-10 10:34:08.932 31754:0x7c59 D/dalvikvm ]
+threadid=26: bye!
+
+[ 12-10 10:34:08.941 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:08.943 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:08.945 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:09.442 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:09.444 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:09.446 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:09.945 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:09.946 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:09.949 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:10.431 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:10.433 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:10.435 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:10.934 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:10.935 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:10.938 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:11.442 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:11.443 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:11.445 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:11.940 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:11.942 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:11.944 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:12.442 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:12.444 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:12.446 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:12.946 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:12.947 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:12.950 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:13.447 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:13.448 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:13.451 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:13.949 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:13.951 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:13.953 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:14.452 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:14.453 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:14.455 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:14.954 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:14.955 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:14.958 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:15.456 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:15.457 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:15.460 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:15.943 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:15.944 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:15.947 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:16.445 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:16.447 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:16.449 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:16.947 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:16.949 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:16.951 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:17.450 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:17.451 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:17.453 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:17.952 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:17.953 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:17.956 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:18.454 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:18.456 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:18.458 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:18.617 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714858617
+
+[ 12-10 10:34:18.666 31754:0x7c3d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 10:34:18.667 31754:0x7c3d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 10:34:18.961 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:18.963 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:18.964 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:19.462 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:19.463 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:19.464 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:19.950 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:19.950 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:19.952 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:20.453 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:20.453 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:20.454 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:20.957 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:20.958 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:20.961 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:21.459 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:21.460 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:21.461 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:21.963 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:21.964 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:21.966 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:22.464 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:22.465 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:22.466 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:22.961 31775:0x7c35 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 10:34:22.963 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:22.964 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:22.966 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.042 31775:0x7c48 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:34:23.330 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:23.407 31754:0x7c0a D/dalvikvm ]
+GC_FOR_ALLOC freed 4292K (21959), 28% free 13677K/18824K, paused 59ms, total 59ms
+
+[ 12-10 10:34:23.421 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 0 <0x6439cf88>
+
+[ 12-10 10:34:23.423 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x643f3558 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.425 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x6439cf88>
+
+[ 12-10 10:34:23.443 31754:0x7c0a D/ListView ]
+measureHeightOfChildren adapter=com.example.myfristandroid.MySimpleAdapter@4225ad60, startPosition=0, endPosition=-1, maxHeight=536870911, this=com.example.myfristandroid.myListView{41f64378 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:34:23.479 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.481 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.485 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.506 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.507 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.509 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.518 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.519 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.520 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.531 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.531 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.533 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.544 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.546 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.547 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.560 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.560 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.562 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.575 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.576 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.578 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.591 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.592 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.594 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.607 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.608 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.610 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.623 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.624 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.626 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.639 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.640 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.643 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.654 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.656 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.659 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.672 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.674 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.676 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.687 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.689 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.692 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.702 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.703 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.705 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.717 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.718 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.719 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.733 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.734 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.735 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.748 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.749 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.750 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.764 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.765 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.767 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.779 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.781 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.783 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.795 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.796 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.797 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.811 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.812 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.813 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:23.827 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:23.827 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:23.829 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:24.002 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:24.003 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:24.006 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:24.018 31775:0x7c37 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:34:24.338 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714864338
+
+[ 12-10 10:34:24.371 31754:0x7c3d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 10:34:24.372 31754:0x7c3d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 10:34:24.504 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:24.506 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:24.507 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:25.006 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:25.008 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:25.010 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:25.509 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:25.511 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:25.513 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:25.997 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:25.998 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:26.001 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:26.500 31754:0x7c0a D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x63294530>
+
+[ 12-10 10:34:26.502 31754:0x7c0a D/OpenGLRenderer ]
+drawRect multiDraw LinearLayout @41f02238 paint 0x63271908 id 5 style 0 AA 0 color 0xff809cbf
+
+[ 12-10 10:34:26.504 31754:0x7c0a D/OpenGLRenderer ]
+finish <0x63294530>
+
+[ 12-10 10:34:26.750 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Log:1449714866750
+
+[ 12-10 10:34:26.825 31754:0x7c0a D/dalvikvm ]
+GC_FOR_ALLOC freed 673K (10047), 28% free 13575K/18824K, paused 38ms, total 38ms
+
+[ 12-10 10:34:26.833 31754:0x7c0a I/dalvikvm-heap ]
+Grow heap (frag case) to 18.384MB for 1536016-byte allocation
+
+[ 12-10 10:34:26.892 31754:0x7c0a D/dalvikvm ]
+GC_FOR_ALLOC freed 16K (273), 26% free 15068K/20328K, paused 36ms, total 36ms
+
+[ 12-10 10:34:26.895 31754:0x7c0a I/dalvikvm-heap ]
+Grow heap (frag case) to 19.842MB for 1536016-byte allocation
+
+[ 12-10 10:34:26.900 31754:0x7c54 I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-10 10:34:26.957 31754:0x7c3d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714866778
+
+[ 12-10 10:34:26.957 31754:0x7c3d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 10:34:26.958 31754:0x7c3d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 10:34:26.958 31754:0x7c3d D/dalvikvm ]
+threadid=14: exiting
+
+[ 12-10 10:34:26.958 31754:0x7c3d W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x4198dc98)
+
+[ 12-10 10:34:26.958 31754:0x7c3d W/dalvikvm ]
+threadid=14: uncaught exception occurred
+
+[ 12-10 10:34:26.962 31754:0x7c3d W/System.err ]
+java.lang.NullPointerException
+
+[ 12-10 10:34:26.963 31754:0x7c3d W/System.err ]
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+
+[ 12-10 10:34:26.963 31754:0x7c3d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+
+[ 12-10 10:34:26.964 31754:0x7c3d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+
+[ 12-10 10:34:26.964 31754:0x7c3d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+
+[ 12-10 10:34:26.965 31754:0x7c3d W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-10 10:34:26.966 31754:0x7c3d W/dalvikvm ]
+threadid=14: calling UncaughtExceptionHandler
+
+[ 12-10 10:34:26.967 31754:0x7c3d E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3492
+Process: com.example.myfristandroid, PID: 31754
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

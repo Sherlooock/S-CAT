@@ -1,0 +1,1603 @@
+--------- beginning of /dev/log/system
+[ 12-12 14:32:20.804 19182:0x4aee D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@4254be80,provider,holder.Provider:android.content.ContentProviderProxy@4254c618
+
+[ 12-12 14:32:21.246 19182:0x4aee D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{425478f0 com.xdf.ucan}}
+
+[ 12-12 14:32:21.250 19182:0x4aee V/ActivityThread ]
+ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}: app=com.xdf.ucan.BaseApplication@425b95d0, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}, dir=/data/app/com.xdf.ucan-1.apk
+
+[ 12-12 14:32:21.354 19182:0x4aee V/ActivityThread ]
+Performing resume of ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} finished=false
+
+[ 12-12 14:32:21.369 19204:0x4b04 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@4254d9c8,provider,holder.Provider:android.content.ContentProviderProxy@4254e160
+
+[ 12-12 14:32:21.381 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 14:32:21.381 19182:0x4aee V/ActivityThread ]
+Resume ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:32:21.402 19182:0x4aee V/ActivityThread ]
+Resuming ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} with isForward=true
+
+[ 12-12 14:32:21.402 19182:0x4aee V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 14:32:21.403 19182:0x4aee D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+--------- beginning of /dev/log/main
+[ 12-12 14:32:21.552 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7b939d40) (w:1080 h:1920 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:21.555 19182:0x4aee V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 14:32:21.555 19182:0x4aee D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487156\",\"NickName\":\"151212141309751_v\",\"HideMobile\":\"187****0609\",\"HideEmail\":\"151****41309751253aa_v@v.com\",\"Mobile\":\"18796170609\",\"Email\":\"151212141309751253aa_v@v.com\",\"LoginToken\":\"2fc1a159-8b74-4048-8a65-69afff50966f\",\"Sign\":\"7E2AC5A2DA0422B08442E1A094E31F64\",\"AccessToken\":\"2fc1a159-8b74-4048-8a65-69afff50966f\",\"AccessTokenExpireTime\":\"2016-01-31 04:32:16\"}","Message":"成功"}
+
+[ 12-12 14:32:21.556 19182:0x4aee D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487156\",\"NickName\":\"151212141309751_v\",\"HideMobile\":\"187****0609\",\"HideEmail\":\"151****41309751253aa_v@v.com\",\"Mobile\":\"18796170609\",\"Email\":\"151212141309751253aa_v@v.com\",\"LoginToken\":\"2fc1a159-8b74-4048-8a65-69afff50966f\",\"Sign\":\"7E2AC5A2DA0422B08442E1A094E31F64\",\"AccessToken\":\"2fc1a159-8b74-4048-8a65-69afff50966f\",\"AccessTokenExpireTime\":\"2016-01-31 04:32:16\"}","Message":"成功"}
+
+[ 12-12 14:32:21.567 19182:0x4aee D/long     ]
+{"UserId":"xdf004487156","NickName":"151212141309751_v","HideMobile":"187****0609","HideEmail":"151****41309751253aa_v@v.com","Mobile":"18796170609","Email":"151212141309751253aa_v@v.com","LoginToken":"2fc1a159-8b74-4048-8a65-69afff50966f","Sign":"7E2AC5A2DA0422B08442E1A094E31F64","AccessToken":"2fc1a159-8b74-4048-8a65-69afff50966f","AccessTokenExpireTime":"2016-01-31 04:32:16"}
+
+[ 12-12 14:32:21.587 19182:0x4aee D/long     ]
+DATABASE_NAME:xdf004487156.db
+
+[ 12-12 14:32:21.594 19204:0x4b04 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.594 19204:0x4b04 D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.594 19204:0x4b04 D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.594 19204:0x4b04 D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.595 19204:0x4b2b D/dalvikvm ]
+threadid=11: interp stack at 0x79478000
+
+[ 12-12 14:32:21.595 19204:0x4b2b D/dalvikvm ]
+threadid=11: created from interp
+
+[ 12-12 14:32:21.595 19204:0x4b04 D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.595 19204:0x4b2b D/dalvikvm ]
+threadid=11: notify debugger
+
+
+[ 12-12 14:32:21.595 19204:0x4b2b D/dalvikvm ]
+threadid=11 (SharedPreferencesImpl-load): calling run()
+
+[ 12-12 14:32:21.598 19204:0x4b2b D/dalvikvm ]
+threadid=11: exiting
+
+[ 12-12 14:32:21.598 19204:0x4b2b D/dalvikvm ]
+threadid=11: bye!
+
+[ 12-12 14:32:21.601 19204:0x4b04 D/long     ]
+连接的数据库是：xdf004487156.db
+
+[ 12-12 14:32:21.603 19182:0x4b28 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 14:32:21.604 19182:0x4b28 V/Provider/Settings ]
+from db cache, name = font_scale , value = null
+
+[ 12-12 14:32:21.605 19182:0x4b28 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 14:32:21.605 19182:0x4b28 V/Provider/Settings ]
+ from settings cache , name = font_scale , value = null
+
+[ 12-12 14:32:21.620 19204:0x4b04 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 14:32:21.624 19204:0x4b04 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 14:32:21.631 19182:0x4aee D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487156&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:32:21.631 19204:0x4b04 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{425489c0 com.xdf.ucan}}
+
+[ 12-12 14:32:21.631 19182:0x4aee D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 14:32:21.632 19182:0x4aee D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487156&sign=9D9A3110A4890C73222DF2C480952DC7
+
+[ 12-12 14:32:21.632 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:32:21.632 19204:0x4b04 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@4254c090 className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 14:32:21.633 19204:0x4b04 D/RongService ]
+onCreate, pid=19204
+
+[ 12-12 14:32:21.634 19204:0x4b04 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@4254c090 className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 14:32:21.634 19204:0x4b04 D/RongService ]
+onBind, pid=19204
+
+[ 12-12 14:32:21.635 19204:0x4b04 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.635 19204:0x4b04 D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.635 19204:0x4b04 D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.635 19204:0x4b04 D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.635 19204:0x4b2d D/dalvikvm ]
+threadid=11: interp stack at 0x79499000
+
+[ 12-12 14:32:21.635 19204:0x4b2d D/dalvikvm ]
+threadid=11: created from interp
+
+[ 12-12 14:32:21.635 19204:0x4b04 D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.635 19204:0x4b2d D/dalvikvm ]
+threadid=11: notify debugger
+
+
+[ 12-12 14:32:21.635 19204:0x4b2d D/dalvikvm ]
+threadid=11 (Rong_SDK_Callback): calling run()
+
+[ 12-12 14:32:21.636 19182:0x4b15 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:32:21.637 19182:0x4b15 I/System.out ]
+propertyValue:true
+
+[ 12-12 14:32:21.637 19182:0x4b15 I/System.out ]
+openConnection:1
+
+[ 12-12 14:32:21.637 19182:0x4b15 I/System.out ]
+[socket][1] connection /116.213.70.76:80;LocalPort=32819(20000)
+
+[ 12-12 14:32:21.637 19182:0x4b15 I/System.out ]
+[CDS]connect[/116.213.70.76:80] tm:20
+
+[ 12-12 14:32:21.637 19182:0x4b15 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 14:32:21.644 19182:0x4b15 I/System.out ]
+[socket][/172.26.206.6:32819] connected
+
+[ 12-12 14:32:21.644 19182:0x4b15 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:21.645 19182:0x4b15 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 14:32:21.645 19182:0x4b15 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 14:32:21.645 19182:0x4b15 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 14:32:21.646 19182:0x4b15 I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:21.647 19182:0x4b15 I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:21.647 19204:0x4b04 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.647 19204:0x4b04 D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.647 19204:0x4b04 D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.647 19204:0x4b04 D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.647 19204:0x4b2e D/dalvikvm ]
+threadid=12: interp stack at 0x795b7000
+
+[ 12-12 14:32:21.647 19204:0x4b2e D/dalvikvm ]
+threadid=12: created from interp
+
+[ 12-12 14:32:21.648 19204:0x4b04 D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.648 19204:0x4b2e D/dalvikvm ]
+threadid=12: notify debugger
+
+
+[ 12-12 14:32:21.648 19204:0x4b2e D/dalvikvm ]
+threadid=12 (RefQueueWorker@org.apache.http.impl.conn.tsccm.ConnPoolByRoute@426781d0): calling run()
+
+[ 12-12 14:32:21.650 19182:0x4afc D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.651 19182:0x4b2f D/dalvikvm ]
+threadid=25: interp stack at 0x7ce04000
+
+[ 12-12 14:32:21.651 19182:0x4b2f D/dalvikvm ]
+threadid=25: created from interp
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.651 19182:0x4b2f D/dalvikvm ]
+threadid=25: notify debugger
+
+
+[ 12-12 14:32:21.651 19182:0x4b2f D/dalvikvm ]
+threadid=25 (Timer-0): calling run()
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.651 19182:0x4b30 D/dalvikvm ]
+threadid=26: interp stack at 0x7cf24000
+
+[ 12-12 14:32:21.651 19182:0x4b30 D/dalvikvm ]
+threadid=26: created from interp
+
+[ 12-12 14:32:21.651 19182:0x4afc D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.651 19182:0x4b30 D/dalvikvm ]
+threadid=26: notify debugger
+
+
+[ 12-12 14:32:21.651 19182:0x4b30 D/dalvikvm ]
+threadid=26 (activityMonitorThread): calling run()
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.667 19182:0x4b31 D/dalvikvm ]
+threadid=27: interp stack at 0x7d044000
+
+[ 12-12 14:32:21.667 19182:0x4b31 D/dalvikvm ]
+threadid=27: created from interp
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+threadid=11: exiting
+
+[ 12-12 14:32:21.667 19182:0x4b31 D/dalvikvm ]
+threadid=27: notify debugger
+
+
+[ 12-12 14:32:21.667 19182:0x4afc D/dalvikvm ]
+threadid=11: bye!
+
+[ 12-12 14:32:21.667 19182:0x4b31 D/dalvikvm ]
+threadid=27 (Thread-2063): calling run()
+
+[ 12-12 14:32:21.668 19182:0x4b31 I/System.out ]
+tcp port:10737
+
+[ 12-12 14:32:21.670 19204:0x4b04 D/MediatekClassFactory ]
+createInstance(): Begin = 38902821
+
+[ 12-12 14:32:21.670 19204:0x4b04 D/MediatekClassFactory ]
+create Instance with :  interface com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-12 14:32:21.670 19204:0x4b04 W/MediatekClassFactory ]
+Tablet not exist!, Get obj from default class
+
+[ 12-12 14:32:21.671 19204:0x4b04 D/MediatekClassFactory ]
+create Instance from tablet library :  com.mediatek.tb.telephony.OnlyOwnerSimSupport
+
+[ 12-12 14:32:21.671 19204:0x4b04 D/MediatekClassFactory ]
+createInstance(): End = 38902822
+
+[ 12-12 14:32:21.688 19182:0x4b28 D/libc-netbsd ]
+getaddrinfo: alog.umeng.com get result from proxy >>
+
+
+[ 12-12 14:32:21.688 19182:0x4b28 I/System.out ]
+propertyValue:true
+
+[ 12-12 14:32:21.688 19182:0x4b28 I/System.out ]
+openConnection:1
+
+[ 12-12 14:32:21.688 19182:0x4b28 I/System.out ]
+[socket][2] connection /110.173.196.36:80;LocalPort=37922(10000)
+
+[ 12-12 14:32:21.688 19182:0x4b28 I/System.out ]
+[CDS]connect[/110.173.196.36:80] tm:10
+
+[ 12-12 14:32:21.689 19182:0x4b28 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 14:32:21.694 19204:0x4b04 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866962029812686
+
+[ 12-12 14:32:21.694 19204:0x4b04 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425b7670
+
+[ 12-12 14:32:21.702 19204:0x4b04 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425b7670
+
+[ 12-12 14:32:21.703 19204:0x4b04 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 14:32:21.705 19182:0x4aee D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@425df9b0
+
+[ 12-12 14:32:21.705 19204:0x4b04 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@4254c090 intent=Intent { cmp=com.xdf.ucan/io.rong.imlib.ipc.RongService }}
+
+[ 12-12 14:32:21.713 19182:0x4b28 I/System.out ]
+[socket][/172.26.206.6:37922] connected
+
+[ 12-12 14:32:21.713 19182:0x4b28 I/System.out ]
+[CDS]rx timeout:30000
+
+[ 12-12 14:32:21.713 19182:0x4b28 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 14:32:21.714 19182:0x4b28 I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:21.714 19182:0x4b28 I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:21.722 19182:0x4aee D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 14:32:21.746 19182:0x4b28 I/System.out ]
+[CDS]close[37922]
+
+[ 12-12 14:32:21.746 19182:0x4b28 I/System.out ]
+close [socket][/0.0.0.0:37922]
+
+[ 12-12 14:32:21.746 19182:0x4aee V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:32:21.747 19182:0x4aee D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:32:21.747 19182:0x4b28 I/System.out ]
+close [socket][/0.0.0.0:37922]
+
+[ 12-12 14:32:21.758 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{4264f8a0 token=android.os.BinderProxy@4264f050 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 14:32:21.758 19182:0x4b1a D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.758 19182:0x4b1a D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.758 19182:0x4b1a D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.758 19182:0x4b1a D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.758 19182:0x4b34 D/dalvikvm ]
+threadid=11: interp stack at 0x794b0000
+
+[ 12-12 14:32:21.758 19182:0x4b34 D/dalvikvm ]
+threadid=11: created from interp
+
+[ 12-12 14:32:21.758 19182:0x4b1a D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.758 19182:0x4b34 D/dalvikvm ]
+threadid=11: notify debugger
+
+
+[ 12-12 14:32:21.758 19182:0x4b34 D/dalvikvm ]
+threadid=11 (pool-7-thread-1): calling run()
+
+[ 12-12 14:32:21.765 19182:0x4aee D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@4264f050
+
+[ 12-12 14:32:21.767 19182:0x4aee V/ActivityThread ]
+ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: app=com.xdf.ucan.BaseApplication@425b95d0, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.MainActivity}, dir=/data/app/com.xdf.ucan-1.apk
+
+[ 12-12 14:32:21.801 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.801 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.802 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.802 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.802 19182:0x4b36 D/dalvikvm ]
+threadid=28: interp stack at 0x7d164000
+
+[ 12-12 14:32:21.802 19182:0x4b36 D/dalvikvm ]
+threadid=28: created from interp
+
+[ 12-12 14:32:21.802 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.802 19182:0x4b36 D/dalvikvm ]
+threadid=28: notify debugger
+
+
+[ 12-12 14:32:21.802 19182:0x4b36 D/dalvikvm ]
+threadid=28 (pool-1-thread-1): calling run()
+
+[ 12-12 14:32:21.817 19182:0x4aee D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 14:32:21.817 19182:0x4aee D/http     ]
+请求的参数：
+
+[ 12-12 14:32:21.817 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:32:21.818 19182:0x4aee D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 14:32:21.818 19182:0x4aee D/http     ]
+请求的参数：userId=xdf004487156&size=big
+
+[ 12-12 14:32:21.819 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:32:21.821 19182:0x4b15 D/libc-netbsd ]
+getaddrinfo: ims.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:32:21.821 19182:0x4b15 I/System.out ]
+propertyValue:true
+
+[ 12-12 14:32:21.821 19182:0x4b15 I/System.out ]
+openConnection:1
+
+[ 12-12 14:32:21.821 19182:0x4b15 I/System.out ]
+[socket][3] connection /116.213.70.23:80;LocalPort=60377(20000)
+
+[ 12-12 14:32:21.821 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.821 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.821 19182:0x4b15 I/System.out ]
+[CDS]connect[/116.213.70.23:80] tm:20
+
+[ 12-12 14:32:21.822 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.822 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.822 19182:0x4b38 D/dalvikvm ]
+threadid=29: interp stack at 0x7d284000
+
+[ 12-12 14:32:21.822 19182:0x4b15 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 14:32:21.822 19182:0x4b38 D/dalvikvm ]
+threadid=29: created from interp
+
+[ 12-12 14:32:21.822 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.822 19182:0x4b38 D/dalvikvm ]
+threadid=29: notify debugger
+
+
+[ 12-12 14:32:21.822 19182:0x4b38 D/dalvikvm ]
+threadid=29 (pool-4-thread-2): calling run()
+
+[ 12-12 14:32:21.823 19182:0x4aee D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:32:21.824 19182:0x4aee D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:32:21.824 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:32:21.824 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.824 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.824 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.824 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.825 19182:0x4b3a D/dalvikvm ]
+threadid=30: interp stack at 0x7d3a4000
+
+[ 12-12 14:32:21.825 19182:0x4b3a D/dalvikvm ]
+threadid=30: created from interp
+
+[ 12-12 14:32:21.825 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.825 19182:0x4b3a D/dalvikvm ]
+threadid=30: notify debugger
+
+
+[ 12-12 14:32:21.825 19182:0x4b3a D/dalvikvm ]
+threadid=30 (pool-4-thread-3): calling run()
+
+[ 12-12 14:32:21.825 19182:0x4aee D/MZPerfObserver ]
+com.xdf.ucan onCreate consume 58 ms
+
+[ 12-12 14:32:21.825 19182:0x4aee V/ActivityThread ]
+Performing resume of ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}} finished=false
+
+[ 12-12 14:32:21.826 19182:0x4b38 D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:32:21.826 19182:0x4b38 I/System.out ]
+propertyValue:true
+
+[ 12-12 14:32:21.826 19182:0x4b38 I/System.out ]
+openConnection:1
+
+[ 12-12 14:32:21.827 19182:0x4b38 I/System.out ]
+[socket][4] connection /116.213.70.23:80;LocalPort=56792(20000)
+
+[ 12-12 14:32:21.827 19182:0x4b38 I/System.out ]
+[CDS]connect[/116.213.70.23:80] tm:20
+
+[ 12-12 14:32:21.827 19182:0x4b38 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 14:32:21.828 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:32:21.828 19182:0x4aee V/ActivityThread ]
+Resume ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:32:21.828 19182:0x4b3a I/System.out ]
+openConnection:1
+
+[ 12-12 14:32:21.828 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{42549088 I.E..... R.....ID 0,0-0,0}
+
+[ 12-12 14:32:21.828 19182:0x4b3a I/System.out ]
+[socket][5] connection /116.213.70.23:80;LocalPort=53435(20000)
+
+[ 12-12 14:32:21.828 19182:0x4b3a I/System.out ]
+[CDS]connect[/116.213.70.23:80] tm:20
+
+[ 12-12 14:32:21.829 19182:0x4b3a D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 14:32:21.829 19182:0x4b15 I/System.out ]
+[socket][/172.26.206.6:60377] connected
+
+[ 12-12 14:32:21.829 19182:0x4b15 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:21.829 19182:0x4b15 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 14:32:21.829 19182:0x4b15 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 14:32:21.829 19182:0x4b15 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 14:32:21.829 19182:0x4aee V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{4248bd68 ,ident = 1}
+
+[ 12-12 14:32:21.830 19182:0x4b15 I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:21.831 19182:0x4b15 I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:21.834 19182:0x4aee V/ActivityThread ]
+Resuming ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=true
+
+[ 12-12 14:32:21.834 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{4248bd68 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{42549088 V.E..... R.....ID 0,0-0,0}
+
+[ 12-12 14:32:21.834 19182:0x4aee V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:32:21.835 19182:0x4aee D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:32:21.836 19182:0x4b3a I/System.out ]
+[socket][/172.26.206.6:53435] connected
+
+[ 12-12 14:32:21.836 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:21.836 19182:0x4b3a I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 14:32:21.836 19182:0x4b3a I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 14:32:21.836 19182:0x4b3a I/System.out ]
+snd buffer size:8192
+
+[ 12-12 14:32:21.837 19182:0x4b38 I/System.out ]
+[socket][/172.26.206.6:56792] connected
+
+[ 12-12 14:32:21.837 19182:0x4b38 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:21.837 19182:0x4b38 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 14:32:21.837 19182:0x4b38 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 14:32:21.838 19182:0x4b38 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 14:32:21.838 19182:0x4b3a I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:21.838 19182:0x4b38 I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:21.838 19182:0x4b3a I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:21.839 19182:0x4b38 I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:21.840 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:21.840 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:21.840 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:21.840 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31: interp stack at 0x7d4c4000
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31: created from interp
+
+[ 12-12 14:32:21.841 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31: notify debugger
+
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31 (SharedPreferencesImpl-load): calling run()
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31: exiting
+
+[ 12-12 14:32:21.841 19182:0x4b3b D/dalvikvm ]
+threadid=31: bye!
+
+[ 12-12 14:32:21.876 19182:0x4aee D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:32:21.902 19182:0x4aee D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 14:32:21.907 19182:0x4af2 D/dalvikvm ]
+between the previous GC alloc  2752K
+
+[ 12-12 14:32:21.941 19182:0x4af2 D/dalvikvm ]
+GC_CONCURRENT freed 1713K (28385), 32% free 16835K/24532K, paused 3ms+3ms, total 33ms
+
+[ 12-12 14:32:21.941 19182:0x4aee D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-12 14:32:21.941 19182:0x4b38 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 17ms
+
+[ 12-12 14:32:21.945 19182:0x4b3a I/System.out ]
+[CDS]close[53435]
+
+[ 12-12 14:32:21.945 19182:0x4b3a I/System.out ]
+close [socket][/0.0.0.0:53435]
+
+[ 12-12 14:32:21.945 19182:0x4b3a I/System.out ]
+close [socket][/0.0.0.0:53435]
+
+[ 12-12 14:32:21.994 19182:0x4aee D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 14:32:21.993&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 14:32:21.955&resourcestartdate=2015-12-12 14:29:15.387&schoolid=0&userid=xdf004487156&videoenddate=2015-12-12 14:32:21.974&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:32:21.994 19182:0x4aee D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:32:21.995 19182:0x4aee D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487156&schoolid=0&resourcestartdate=2015-12-12 14:29:15.387&resourceenddate=2015-12-12 14:32:21.955&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-12 14:32:21.974&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-12 14:32:21.993&appid=5004&sign=242EBE1BABA30A8B6C7918F6FFD82D87
+
+[ 12-12 14:32:21.995 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:32:21.997 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 14:32:21.999 19182:0x4b3a I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 14:32:21.999 19182:0x4b3a I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 14:32:21.999 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:21.999 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:22.000 19182:0x4b3a I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:22.001 19182:0x4aee V/InputMethodManager ]
+Not IME target window, ignoring
+
+[ 12-12 14:32:22.001 19182:0x4b3a I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:22.063 19182:0x4b3c D/dalvikvm ]
+threadid=31: interp stack at 0x7c17e000
+
+[ 12-12 14:32:22.068 19182:0x4aee D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 14:32:22.071 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7ad7c240) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:22.086 19182:0x4aee D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1428
+
+[ 12-12 14:32:22.086 19182:0x4aee D/PullToRefresh ]
+Setting Padding. L: 0, T: -856, R: 0, B: 0
+
+[ 12-12 14:32:22.090 19182:0x4aee V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 14:32:22.090 19182:0x4aee D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449901937291}
+
+[ 12-12 14:32:22.090 19182:0x4aee I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449901937291}
+
+[ 12-12 14:32:22.091 19182:0x4aee V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 14:32:22.091 19182:0x4aee I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-12 14:32:22.102 19182:0x4aee V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:32:22.102 19182:0x4aee D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449901937299}
+
+[ 12-12 14:32:22.102 19182:0x4aee I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449901937299}
+
+[ 12-12 14:32:22.105 19182:0x4aee V/InputMethodManager ]
+onWindowFocus: android.support.v4.app.FragmentTabHost{424857a0 VFE..... .F....ID 0,1561-1080,1701 #1020012 android:id/tabhost} softInputMode=272 first=true flags=#1810100
+
+[ 12-12 14:32:22.105 19182:0x4aee V/InputMethodManager ]
+START INPUT: android.support.v4.app.FragmentTabHost{424857a0 VFE..... .F....ID 0,1561-1080,1701 #1020012 android:id/tabhost} ic=null tba=android.view.inputmethod.EditorInfo@428459d0 controlFlags=#105
+
+[ 12-12 14:32:22.203 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7c292ec8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:22.224 19182:0x4aee V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 14:32:22.224 19182:0x4aee D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:32:22.225 19182:0x4aee D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:32:22.238 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:22.239 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7af244f8) (w:1080 h:1920 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:22.241 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7b939d40) (w:1080 h:1920 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:22.303 19182:0x4b0e I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 14:32:22.303 19182:0x4b0e D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:22.304 19182:0x4b0e D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:22.304 19182:0x4b0e D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:22.304 19182:0x4b0e D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:22.304 19182:0x4b3e D/dalvikvm ]
+threadid=32: interp stack at 0x7af60000
+
+[ 12-12 14:32:22.304 19182:0x4b3e D/dalvikvm ]
+threadid=32: created from interp
+
+[ 12-12 14:32:22.304 19182:0x4b0e D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:22.304 19182:0x4b3e D/dalvikvm ]
+threadid=32: notify debugger
+
+
+[ 12-12 14:32:22.304 19182:0x4b3e D/dalvikvm ]
+threadid=32 (MessageProviderUserInfoHelper): calling run()
+
+[ 12-12 14:32:22.556 19182:0x4aee D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:32:22.557 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:22.562 19182:0x4aee D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@4264f050
+
+[ 12-12 14:32:22.726 19182:0x4aee D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }, ordered=true, receiver=io.rong.imlib.ConnectChangeReceiver@42859d78
+
+[ 12-12 14:32:22.727 19182:0x4aee D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 14:32:22.733 19182:0x4aee D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 14:32:22.734 19182:0x4aee D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@4285aee0 className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 14:32:22.734 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:22.734 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:22.735 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:22.735 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:22.736 19182:0x4b3f D/dalvikvm ]
+threadid=33: interp stack at 0x7b081000
+
+[ 12-12 14:32:22.736 19182:0x4b3f D/dalvikvm ]
+threadid=33: created from interp
+
+[ 12-12 14:32:22.737 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:22.737 19182:0x4b3f D/dalvikvm ]
+threadid=33: notify debugger
+
+
+[ 12-12 14:32:22.737 19182:0x4b3f D/dalvikvm ]
+threadid=33 (IntentService[RONG_ReConnect]): calling run()
+
+[ 12-12 14:32:22.741 19182:0x4aee D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@4285aee0 className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 14:32:22.741 19182:0x4aee D/ActivityThread ]
+SVC-Calling onStartCommand: io.rong.imlib.ReConnectService@4285c180, flags=0, startId=1
+
+[ 12-12 14:32:22.741 19182:0x4b3f D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 14:32:22.741 19182:0x4aee D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@4285aee0 startId=1 args=Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }}
+
+[ 12-12 14:32:22.744 19182:0x4b3f D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 14:32:22.747 19182:0x4aee D/ActivityThread ]
+SVC-Destroying service: io.rong.imlib.ReConnectService@4285c180
+
+[ 12-12 14:32:22.747 19182:0x4b3f D/dalvikvm ]
+threadid=33: exiting
+
+[ 12-12 14:32:22.747 19182:0x4b3f D/dalvikvm ]
+threadid=33: bye!
+
+[ 12-12 14:32:22.747 19182:0x4aee D/ActivityThread ]
+SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@4285aee0
+
+[ 12-12 14:32:22.842 19182:0x4aee E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-12 14:32:22.842 19182:0x4aee E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-12 14:32:22.842 19182:0x4aee E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-12 14:32:22.842 19182:0x4aee E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-12 14:32:24.958 19182:0x4aee I/View     ]
+Touch down dispatch to android.widget.RelativeLayout{42744aa0 V.E...C. ......I. 0,192-1080,384 #7f0c0227 app:id/ziliao_layout}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=764.2923, y[0]=71.75479, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=38906104, downTime=38906104, deviceId=2, source=0x1002 }
+
+[ 12-12 14:32:25.047 19182:0x4aee I/View     ]
+Touch up dispatch to android.widget.RelativeLayout{42744aa0 V.E...C. ...p..I. 0,192-1080,384 #7f0c0227 app:id/ziliao_layout}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=764.2923, y[0]=71.75479, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=38906197, downTime=38906104, deviceId=2, source=0x1002 }
+
+[ 12-12 14:32:25.068 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7b801bc0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.070 19182:0x4aee V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 14:32:25.071 19182:0x4aee V/Provider/Settings ]
+from db cache, name = sound_effects_enabled , value = 0
+
+[ 12-12 14:32:25.081 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:32:25.088 19182:0x4aee D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@426e65f0
+
+[ 12-12 14:32:25.090 19182:0x4aee V/ActivityThread ]
+ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@425b95d0, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/data/app/com.xdf.ucan-1.apk
+
+[ 12-12 14:32:25.111 19182:0x4aee D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-12 14:32:25.127 19182:0x4aee D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:32:25.127 19182:0x4aee D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:32:25.131 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:25.131 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:25.132 19182:0x4b41 D/dalvikvm ]
+threadid=33: interp stack at 0x7b08f000
+
+[ 12-12 14:32:25.132 19182:0x4b41 D/dalvikvm ]
+threadid=33: created from interp
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:25.132 19182:0x4b41 D/dalvikvm ]
+threadid=33: notify debugger
+
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:25.132 19182:0x4aee D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:25.132 19182:0x4b41 D/dalvikvm ]
+threadid=33 (PriorityExecutor #1): calling run()
+
+[ 12-12 14:32:25.132 19182:0x4b42 D/dalvikvm ]
+threadid=34: interp stack at 0x7b1af000
+
+[ 12-12 14:32:25.133 19182:0x4b42 D/dalvikvm ]
+threadid=34: created from interp
+
+[ 12-12 14:32:25.133 19182:0x4aee D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:25.133 19182:0x4b42 D/dalvikvm ]
+threadid=34: notify debugger
+
+
+[ 12-12 14:32:25.133 19182:0x4b42 D/dalvikvm ]
+threadid=34 (PriorityExecutor #2): calling run()
+
+[ 12-12 14:32:25.140 19182:0x4b42 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-12 14:32:25.150 19182:0x4aee D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:32:25.150 19182:0x4aee D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:32:25.158 19182:0x4aee V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{425a8798 ,ident = 2}
+
+[ 12-12 14:32:25.179 19182:0x4aee D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:32:25.168&userid=xdf004487156&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:32:25.180 19182:0x4aee D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:32:25.180 19182:0x4aee D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&timestamp=2015-12-12 14:32:25.168&filetype=1&appid=5004&userid=xdf004487156&orderbydatedes=1&isread=2&pageindex=1&pagesize=10&sign=5DE2FCDFEAF3BB1EB5F546A989BA27F3
+
+[ 12-12 14:32:25.180 19182:0x4aee D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-12 14:32:25.181 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 14:32:25.189 19182:0x4b3a I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 14:32:25.189 19182:0x4b3a I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 14:32:25.189 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:25.189 19182:0x4b3a I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 14:32:25.190 19182:0x4aee D/MZPerfObserver ]
+com.xdf.ucan onCreate consume 98 ms
+
+[ 12-12 14:32:25.190 19182:0x4b3a I/System.out ]
+>doSendRequest
+
+[ 12-12 14:32:25.190 19182:0x4aee V/ActivityThread ]
+Performing resume of ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} finished=false
+
+[ 12-12 14:32:25.190 19182:0x4b3a I/System.out ]
+<doSendRequest
+
+[ 12-12 14:32:25.191 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:32:25.191 19182:0x4aee V/ActivityThread ]
+Resume ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:32:25.192 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{424d5fb8 I.E..... R.....ID 0,0-0,0}
+
+[ 12-12 14:32:25.193 19182:0x4aee V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{425a8e98 ,ident = 3}
+
+[ 12-12 14:32:25.196 19182:0x4aee V/ActivityThread ]
+Resuming ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 14:32:25.197 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{425a8e98 com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{424d5fb8 V.E..... R.....ID 0,0-0,0}
+
+[ 12-12 14:32:25.197 19182:0x4aee V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:32:25.198 19182:0x4aee D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:32:25.203 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7c1deab0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.225 19182:0x4aee D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 14:32:25.227 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7e54f188) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.234 19182:0x4aee V/InputMethodManager ]
+Not IME target window, ignoring
+
+[ 12-12 14:32:25.251 19182:0x4aee D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 14:32:25.254 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7e563b08) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.270 19182:0x4aee D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1569
+
+[ 12-12 14:32:25.270 19182:0x4aee D/PullToRefresh ]
+Setting Padding. L: 0, T: -942, R: 0, B: -942
+
+[ 12-12 14:32:25.277 19182:0x4af2 D/dalvikvm ]
+between the previous GC alloc  3145K
+
+[ 12-12 14:32:25.314 19182:0x4af2 D/dalvikvm ]
+GC_CONCURRENT freed 1431K (26636), 24% free 18677K/24532K, paused 2ms+5ms, total 37ms
+
+[ 12-12 14:32:25.314 19182:0x4aee D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 17ms
+
+[ 12-12 14:32:25.326 19182:0x4aee D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{425e4d48 VFED.VC. ......ID 0,0-1080,1569 #102000a android:id/list}
+
+[ 12-12 14:32:25.326 19182:0x4aee D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:32:25.333 19182:0x4aee V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#1800000
+
+[ 12-12 14:32:25.333 19182:0x4aee V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{425d51c8 V.E..... R.....ID 0,0-960,1701} ic=null tba=android.view.inputmethod.EditorInfo@4255fe60 controlFlags=#104
+
+[ 12-12 14:32:25.342 19182:0x4aee W/ViewRootImpl ]
+mView has no focus, use com.android.internal.policy.impl.PhoneWindow$DecorView{425d51c8 V.E..... R.....ID 0,0-960,1701} instead
+
+[ 12-12 14:32:25.349 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x746b76f8) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.374 19182:0x4aee D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{425e4d48 VFED.VC. .F....ID 0,0-1080,1569 #102000a android:id/list}
+
+[ 12-12 14:32:25.374 19182:0x4aee D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:32:25.388 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7e5fefd8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.429 19182:0x4aee D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{425e4d48 VFED.VC. .F....ID 0,0-1080,1569 #102000a android:id/list}
+
+[ 12-12 14:32:25.429 19182:0x4aee D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:32:25.440 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7e5a3838) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.448 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:25.450 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7ad7c240) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.452 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7c292ec8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.453 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7b801bc0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.454 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7c1deab0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.750 19182:0x4b43 D/dalvikvm ]
+threadid=35: interp stack at 0x7b605000
+
+[ 12-12 14:32:25.767 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7c1deab0) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:25.770 19182:0x4aee V/ActivityThread ]
+Finishing stop of ActivityRecord{426e6e28 token=android.os.BinderProxy@426e65f0 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@42548710
+
+[ 12-12 14:32:25.770 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{4248bd68 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{42549088 I.E..... R....... 0,0-1080,1776}
+
+[ 12-12 14:32:25.770 19182:0x4aee D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@426e65f0
+
+[ 12-12 14:32:25.872 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x78cdb6f8) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:36.039 19182:0x4b31 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449901956039
+
+[ 12-12 14:32:36.041 19182:0x4b31 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 14:32:36.041 19182:0x4b31 D/dalvikvm ]
+create new thread
+
+[ 12-12 14:32:36.041 19182:0x4b31 D/dalvikvm ]
+new thread created
+
+[ 12-12 14:32:36.041 19182:0x4b31 D/dalvikvm ]
+update thread list
+
+[ 12-12 14:32:36.043 19182:0x4b46 D/dalvikvm ]
+threadid=36: interp stack at 0x7b625000
+
+[ 12-12 14:32:36.043 19182:0x4b46 D/dalvikvm ]
+threadid=36: created from interp
+
+[ 12-12 14:32:36.043 19182:0x4b31 D/dalvikvm ]
+start new thread
+
+[ 12-12 14:32:36.044 19182:0x4b46 D/dalvikvm ]
+threadid=36: notify debugger
+
+
+[ 12-12 14:32:36.044 19182:0x4b46 D/dalvikvm ]
+threadid=36 (ScreenShotSaver): calling run()
+
+[ 12-12 14:32:36.051 19182:0x4aee D/dalvikvm ]
+between the previous GC alloc  729K
+
+[ 12-12 14:32:36.084 19182:0x4aee D/dalvikvm ]
+GC_FOR_ALLOC freed 794K (10578), 25% free 18612K/24532K, paused 32ms, total 32ms
+
+[ 12-12 14:32:36.093 19182:0x4aee I/dalvikvm-heap ]
+Grow heap (frag case) to 26.096MB for 6531856-byte allocation
+
+[ 12-12 14:32:36.093 19182:0x4af2 D/dalvikvm ]
+between the previous GC alloc  6378K
+
+[ 12-12 14:32:36.135 19182:0x4af2 D/dalvikvm ]
+GC_CONCURRENT freed 40K (671), 20% free 24951K/30912K, paused 6ms+6ms, total 42ms
+
+[ 12-12 14:32:36.135 19182:0x4aee D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 33ms
+
+[ 12-12 14:32:36.142 19182:0x4aee I/dalvikvm-heap ]
+Grow heap (frag case) to 32.287MB for 6531856-byte allocation
+
+[ 12-12 14:32:36.142 19182:0x4af2 D/dalvikvm ]
+between the previous GC alloc  6378K
+
+[ 12-12 14:32:36.154 19182:0x4b46 I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-12 14:32:36.198 19182:0x4af2 D/dalvikvm ]
+GC_CONCURRENT freed 6381K (52), 34% free 24956K/37292K, paused 4ms+4ms, total 56ms
+
+[ 12-12 14:32:36.288 19182:0x4b31 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 14:32:36.288 19182:0x4b31 I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-12 14:32:37.691 19182:0x4b31 D/cn.edu.nju.ise.kikandroid ]
+Log:1449901957691
+
+[ 12-12 14:32:37.716 19182:0x4b31 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 14:32:37.716 19182:0x4b31 I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-12 14:32:38.550 19182:0x4b31 D/cn.edu.nju.ise.kikandroid ]
+Log:1449901958549
+
+[ 12-12 14:32:38.571 19182:0x4b4b D/dalvikvm ]
+threadid=37: interp stack at 0x7ba5c000
+
+[ 12-12 14:32:38.582 19182:0x4b31 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 14:32:38.583 19182:0x4b31 I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-12 14:32:42.305 19182:0x4aee D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:32:42.319 19182:0x4aee D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@42863b30
+
+[ 12-12 14:32:44.011 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:44.015 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7e54f188) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.016 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x746b76f8) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.016 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7c1deab0) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.017 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x78cdb6f8) (w:960 h:1701 s:960 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.047 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:44.048 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7e563b08) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.049 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7e5fefd8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.050 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7e5a3838) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 14:32:44.397 19182:0x4aee V/ActivityThread ]
+Finishing stop of ActivityRecord{428641a0 token=android.os.BinderProxy@42863b30 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@42525250
+
+[ 12-12 14:32:44.398 19182:0x4aee V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{425a8e98 com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{424d5fb8 I.E..... R....... 0,0-1080,1776}
+
+[ 12-12 14:32:44.399 19182:0x4aee D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@42863b30
+
+[ 12-12 14:32:45.189 19182:0x4b3a I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 14:32:45.189 19182:0x4b3a I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 14:32:45.190 19182:0x4b3a I/System.out ]
+[CDS]close[32819]
+
+[ 12-12 14:32:45.190 19182:0x4b3a I/System.out ]
+close [socket][/0.0.0.0:32819]
+
+[ 12-12 14:32:45.190 19182:0x4b3a I/System.out ]
+ex:java.net.SocketTimeoutException
+
+[ 12-12 14:32:45.190 19182:0x4b3a W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:32:45.194 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:511)
+
+[ 12-12 14:32:45.194 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:32:45.194 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:32:45.194 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:32:45.195 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:286)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:128)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:433)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:587)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:511)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:32:45.196 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:32:45.197 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 14:32:45.198 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 14:32:45.199 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 14:32:45.199 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 14:32:45.200 19182:0x4b3a W/System.err ]
+	at java.lang.Thread.run(Thread.java:848)
+
+[ 12-12 14:32:45.200 19182:0x4b3a I/System.out ]
+close [socket][/0.0.0.0:32819]
+
+[ 12-12 14:32:45.200 19182:0x4b3a I/System.out ]
+close [socket][/0.0.0.0:32819]
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:511)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:286)
+
+[ 12-12 14:32:45.201 19182:0x4b3a W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:128)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:433)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:587)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:511)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 14:32:45.203 19182:0x4b3a W/System.err ]
+	at java.lang.Thread.run(Thread.java:848)
+
+[ 12-12 14:32:45.204 19182:0x4aee D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 14:32:45.215 19182:0x4aee D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 14:32:45.223 19182:0x4aee D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:26:50.526&userid=xdf004487156&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:32:45.225 19182:0x4aee V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{424e47d8 ,ident = 4}
+
+[ 12-12 14:32:45.276 19182:0x4aee D/GraphicBuffer ]
+register, handle(0x7e5fdbe0) (w:375 h:132 s:384 f:0x1 u:0x000933)
+
+[ 12-12 14:32:47.216 19182:0x4aee D/GraphicBuffer ]
+unregister, handle(0x7e5fdbe0) (w:375 h:132 s:384 f:0x1 u:0x000933)
+
+[ 12-12 14:33:21.941 19182:0x4b15 D/dalvikvm ]
+threadid=21: exiting
+
+[ 12-12 14:33:21.941 19182:0x4b15 D/dalvikvm ]
+threadid=21: bye!
+
+[ 12-12 14:33:21.944 19182:0x4b38 D/dalvikvm ]
+threadid=29: exiting
+
+[ 12-12 14:33:21.944 19182:0x4b38 D/dalvikvm ]
+threadid=29: bye!
+
+[ 12-12 14:33:23.102 19182:0x4b36 D/dalvikvm ]
+threadid=28: exiting
+
+[ 12-12 14:33:23.102 19182:0x4b36 D/dalvikvm ]
+threadid=28: bye!
+
+[ 12-12 14:33:45.205 19182:0x4b3a D/dalvikvm ]
+threadid=30: exiting
+
+[ 12-12 14:33:45.206 19182:0x4b3a D/dalvikvm ]
+threadid=30: bye!
+

@@ -1,0 +1,1251 @@
+--------- beginning of /dev/log/main
+[ 12-10 11:13:52.419  1248: 1248 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:13:52.459  1248: 1248 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+--------- beginning of /dev/log/system
+[ 12-10 11:13:52.569  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@424db078: null
+
+[ 12-10 11:13:52.599  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 74K, 6% free 9603K/10179K, paused 16ms, total 16ms
+
+[ 12-10 11:13:52.619  1248: 1248 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.468MB for 3876224-byte allocation
+
+[ 12-10 11:13:52.639  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 13388K/14023K, paused 3ms+1ms, total 17ms
+
+[ 12-10 11:13:52.759  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 5% free 13388K/14023K, paused 11ms, total 11ms
+
+[ 12-10 11:13:52.779  1248: 1248 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.785MB for 8721484-byte allocation
+
+[ 12-10 11:13:52.809  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 4% free 21905K/22599K, paused 2ms+3ms, total 27ms
+
+[ 12-10 11:13:52.859  1271: 1271 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:13:52.859  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@424db078
+
+[ 12-10 11:13:52.859  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@424db078
+
+[ 12-10 11:13:52.879  1271: 1271 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 11:13:52.909  1248: 1248 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 11:13:52.919  1248: 1248 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 11:13:52.919  1248: 1248 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 11:13:52.929  1248: 1248 I/Log_level_control ]
+YVV7
+
+[ 12-10 11:13:52.929  1248: 1248 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 11:13:52.929  1271: 1271 D/dalvikvm ]
+GC_FOR_ALLOC freed 60K, 6% free 9575K/10179K, paused 18ms, total 18ms
+
+[ 12-10 11:13:52.939  1271: 1271 I/dalvikvm-heap ]
+Grow heap (frag case) to 12.721MB for 1024016-byte allocation
+
+[ 12-10 11:13:52.959  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 6% free 10576K/11207K, paused 12ms+1ms, total 25ms
+
+[ 12-10 11:13:52.959  1248: 1248 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:13:52.979  1271: 1271 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:13:52.979  1271: 1271 D/SocketService ]
+pid:1271 myPid:1271
+
+[ 12-10 11:13:52.999  1271: 1271 D/SocketService ]
+start to run current thread!id:629
+
+[ 12-10 11:13:53.079  1248: 1265 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{424b9530 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 11:13:53.099  1271: 1299 D/SocketService ]
+ip/192.168.1.176 lport:58626 p:143
+
+[ 12-10 11:13:53.109  1271: 1299 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 11:13:53.109  1271: 1299 D/SocketService ]
+success to connect server!id:629 bLogin:false
+
+[ 12-10 11:13:53.229  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:13:53.979  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:13:54.119  1271: 1299 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 11:13:54.329  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:13:54.949  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@424db078
+
+[ 12-10 11:13:54.969  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@430e5710: null
+
+[ 12-10 11:13:54.999  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:13:55.119  1271: 1299 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 11:13:55.149  1248: 1248 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:13:55.149  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:13:55.149  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:13:55.249  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:13:55.319  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 4995K, 23% free 18839K/24263K, paused 16ms, total 16ms
+
+[ 12-10 11:13:55.419  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 1083K, 19% free 19755K/24263K, paused 2ms+3ms, total 25ms
+
+[ 12-10 11:13:55.419  1248: 1248 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-10 11:13:55.869  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@424db078
+
+[ 12-10 11:13:55.869  1248: 1248 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@424db078
+
+[ 12-10 11:13:56.039  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:13:56.069  1248: 1248 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:14:01.299  1248: 1248 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 11:14:20.749  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 393K, 8% free 10609K/11463K, paused 13ms+1ms, total 71ms
+
+[ 12-10 11:14:22.689  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:14:22.719  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@43100650: null
+
+[ 12-10 11:14:22.739  1248: 1248 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 11:14:22.739  1248: 1367 I/Log_level_control ]
+YVV7
+
+[ 12-10 11:14:22.739  1248: 1367 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 11:14:22.769  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@43100650
+
+[ 12-10 11:14:22.769  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@43100650
+
+[ 12-10 11:14:22.809  1248: 1248 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 11:14:22.819  1248: 1367 D/webcore  ]
+initialize, mNativeClass is 1547382984
+
+[ 12-10 11:14:22.829  1248: 1367 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/111422:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x5c5d8010
+
+
+[ 12-10 11:14:22.829  1248: 1367 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/111422:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x5c3ebce8
+
+
+[ 12-10 11:14:22.829  1248: 1367 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 11:14:22.829  1248: 1367 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 11:14:22.829  1248: 1367 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 11:14:22.829  1248: 1367 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 11:14:22.829  1248: 1367 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 11:14:22.829  1248: 1367 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 11:14:22.829  1248: 1367 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 11:14:22.829  1248: 1367 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 11:14:22.839  1248: 1367 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:22.839  1248: 1367 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 11:14:22.839  1248: 1367 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 11:14:22.839  1248: 1367 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:22.839  1248: 1367 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:22.859  1248: 1367 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 11:14:22.869  1248: 1389 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/111422:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 11:14:22.869  1248: 1389 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/111422:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 11:14:22.869  1248: 1389 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/111422:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 11:14:22.879  1248: 1389 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/111422:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 11:14:22.879  1248: 1248 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 11:14:22.879  1248: 1389 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/111422:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:14:22.879  1248: 1389 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/111422:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 11:14:22.879  1248: 1389 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/111422:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:14:22.879  1248: 1389 V/chromium ]
+external/chromium/net/proxy/proxy_config_service_android.cc:28: [1210/111422:INFO:proxy_config_service_android.cc(28)] property_get persist.sys.proxy:
+
+
+[ 12-10 11:14:22.889  1248: 1389 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 11:14:23.219  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:14:23.359  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:14:23.679  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:14:24.129  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:14:24.389  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=GB18030
+
+[ 12-10 11:14:24.419  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:14:24.659  1248: 1248 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@4322f460 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 11:14:24.689  1248: 1248 D/TilesManager ]
+new EGLContext from framework: 5d61ec28 
+
+[ 12-10 11:14:24.689  1248: 1248 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 11:14:24.799  1248: 1248 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 11:14:31.179  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717271192
+
+[ 12-10 11:14:31.229  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 1077K, 17% free 20175K/24263K, paused 39ms, total 39ms
+
+[ 12-10 11:14:31.289  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 107K, 9% free 22093K/24263K, paused 14ms+5ms, total 42ms
+
+[ 12-10 11:14:31.329  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 9% free 22092K/24263K, paused 20ms, total 20ms
+
+[ 12-10 11:14:31.339  1248: 1248 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.946MB for 2073616-byte allocation
+
+[ 12-10 11:14:31.369  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22098K/26311K, paused 12ms+3ms, total 31ms
+
+[ 12-10 11:14:32.819  1248: 1248 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@4322f460 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 11:14:32.979  1271: 1293 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 11:14:33.039  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:14:33.129  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:14:36.399  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717276408
+
+[ 12-10 11:14:36.449  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2082K, 24% free 20080K/26311K, paused 20ms, total 21ms
+
+[ 12-10 11:14:36.519  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 16% free 22104K/26311K, paused 12ms+5ms, total 56ms
+
+[ 12-10 11:14:36.559  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 16% free 22108K/26311K, paused 3ms+3ms, total 27ms
+
+[ 12-10 11:14:37.799  1248: 1248 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@4322f460 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 11:14:39.999  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717280008
+
+[ 12-10 11:14:40.029  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2090K, 24% free 20079K/26311K, paused 19ms, total 19ms
+
+[ 12-10 11:14:40.079  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 16% free 22103K/26311K, paused 13ms+6ms, total 50ms
+
+[ 12-10 11:14:40.139  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22108K/26311K, paused 13ms+4ms, total 43ms
+
+[ 12-10 11:14:41.299  1248: 1248 I/Web Console ]
+Error: TypeError, Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@4322f460 has no method 'setFacListShow' at http://oa.paneng.cn:1143/se9200/dwr/engine.js:599
+
+[ 12-10 11:14:41.309  1248: 1248 D/MainActivity ]
+alert:Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@4322f460 has no method 'setFacListShow'
+
+[ 12-10 11:14:44.099  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717284105
+
+[ 12-10 11:14:44.169  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2146K, 24% free 20177K/26311K, paused 36ms, total 37ms
+
+[ 12-10 11:14:44.209  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 16% free 22198K/26311K, paused 13ms+4ms, total 38ms
+
+[ 12-10 11:14:44.209  1248: 1248 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+
+[ 12-10 11:14:44.249  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22203K/26311K, paused 12ms+3ms, total 34ms
+
+[ 12-10 11:14:45.479  1248: 1248 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 11:14:45.559  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:14:45.559  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:14:53.249  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 394K, 8% free 10609K/11463K, paused 16ms+1ms, total 62ms
+
+[ 12-10 11:14:54.139  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@43100650
+
+[ 12-10 11:14:54.159  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:14:54.159  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:14:54.219  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:14:54.219  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:14:54.579  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@43100650
+
+[ 12-10 11:14:54.579  1248: 1248 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@43100650
+
+[ 12-10 11:15:09.649  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:15:09.669  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@4326cb88: null
+
+[ 12-10 11:15:09.679  1248: 1248 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 11:15:09.679  1248: 1367 D/webcore  ]
+initialize, mNativeClass is 1554021224
+
+[ 12-10 11:15:09.699  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 80 43250320670720 83886088) res=-1 errno=1
+
+[ 12-10 11:15:09.699  1248: 1389 I/qtaguid  ]
+Tagging socket 80 with tag 275600000000(10070) for uid 83886088 failed errno=-1
+
+[ 12-10 11:15:09.699  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@4326cb88
+
+[ 12-10 11:15:09.699  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@4326cb88
+
+[ 12-10 11:15:09.709  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 84 43250320670720 83886088) res=-1 errno=1
+
+[ 12-10 11:15:09.709  1248: 1389 I/qtaguid  ]
+Tagging socket 84 with tag 275600000000(10070) for uid 83886088 failed errno=-1
+
+[ 12-10 11:15:09.709  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 106 43250320670720 83886088) res=-1 errno=1
+
+[ 12-10 11:15:09.709  1248: 1389 I/qtaguid  ]
+Tagging socket 106 with tag 275600000000(10070) for uid 83886088 failed errno=-1
+
+[ 12-10 11:15:09.749  1248: 1248 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 11:15:09.769  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:09.809  1248: 1248 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 11:15:09.949  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:09.959  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:09.989  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.019  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.049  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.059  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.069  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.089  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.109  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.129  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.149  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:10.149  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:15:11.379  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:11.439  1248: 1248 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@4326cb88: {1.15 460mcc3mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.340}
+
+[ 12-10 11:15:11.719  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 80) res=-1 errno=22
+
+[ 12-10 11:15:11.719  1248: 1389 I/qtaguid  ]
+Untagging socket 80 failed errno=-22
+
+[ 12-10 11:15:11.729  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 84) res=-1 errno=22
+
+[ 12-10 11:15:11.729  1248: 1389 I/qtaguid  ]
+Untagging socket 84 failed errno=-22
+
+[ 12-10 11:15:11.729  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 106) res=-1 errno=22
+
+[ 12-10 11:15:11.729  1248: 1389 I/qtaguid  ]
+Untagging socket 106 failed errno=-22
+
+[ 12-10 11:15:12.979  1271: 1293 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:82
+
+[ 12-10 11:15:13.179  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 11:15:13.189  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:15:15.099  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717315108
+
+[ 12-10 11:15:15.139  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2256K, 24% free 20226K/26311K, paused 26ms, total 31ms
+
+[ 12-10 11:15:15.209  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 104K, 16% free 22146K/26311K, paused 6ms+8ms, total 54ms
+
+[ 12-10 11:15:15.259  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22151K/26311K, paused 15ms+4ms, total 41ms
+
+[ 12-10 11:15:16.349  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5cbeb208, name RenderSVGContainer
+
+[ 12-10 11:15:16.349  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d58ce88, name RenderSVGContainer
+
+[ 12-10 11:15:16.349  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d58c3f8, name RenderSVGContainer
+
+[ 12-10 11:15:16.359  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d58c510, name RenderSVGPath
+
+[ 12-10 11:15:16.849  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:16.849  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:16.979  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:18.459  1248: 1367 D/MainActivity ]
+h:805.135,w:1497.81
+
+[ 12-10 11:15:21.939  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717321943
+
+[ 12-10 11:15:21.979  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2112K, 24% free 20131K/26311K, paused 24ms, total 25ms
+
+[ 12-10 11:15:22.069  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 16% free 22150K/26311K, paused 16ms+8ms, total 73ms
+
+[ 12-10 11:15:22.249  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22155K/26311K, paused 12ms+15ms, total 59ms
+
+[ 12-10 11:15:23.939  1248: 1248 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 11:15:24.019  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:24.759  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:25.729  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 8% free 10609K/11463K, paused 21ms+1ms, total 63ms
+
+[ 12-10 11:15:25.949  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62fd8170, name RenderSVGContainer
+
+[ 12-10 11:15:25.949  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62fd8348, name RenderSVGContainer
+
+[ 12-10 11:15:25.949  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62fd8578, name RenderSVGContainer
+
+[ 12-10 11:15:25.949  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62fd8bd8, name RenderSVGPath
+
+[ 12-10 11:15:26.449  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:26.449  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:26.489  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:27.459  1248: 1367 D/MainActivity ]
+h:805.135,w:1496.51
+
+[ 12-10 11:15:30.219  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717330229
+
+[ 12-10 11:15:30.269  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2125K, 24% free 20137K/26311K, paused 37ms, total 37ms
+
+[ 12-10 11:15:30.319  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 16% free 22155K/26311K, paused 13ms+3ms, total 40ms
+
+[ 12-10 11:15:30.439  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22160K/26311K, paused 11ms+3ms, total 31ms
+
+[ 12-10 11:15:31.179  1248: 1248 I/Web Console ]
+No data received from server at http://oa.paneng.cn:1143/se9200/dwr/engine.js:599
+
+[ 12-10 11:15:31.239  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 80 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Tagging socket 80 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 83 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Tagging socket 83 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 84 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:31.309  1248: 1389 I/qtaguid  ]
+Tagging socket 84 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:31.789  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:32.959  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5de2fca8, name RenderSVGContainer
+
+[ 12-10 11:15:32.959  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5de2ff20, name RenderSVGContainer
+
+[ 12-10 11:15:32.959  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5de2edb0, name RenderSVGContainer
+
+[ 12-10 11:15:32.969  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5de2eec8, name RenderSVGPath
+
+[ 12-10 11:15:33.329  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 83) res=-1 errno=22
+
+[ 12-10 11:15:33.329  1248: 1389 I/qtaguid  ]
+Untagging socket 83 failed errno=-22
+
+[ 12-10 11:15:33.349  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 84) res=-1 errno=22
+
+[ 12-10 11:15:33.349  1248: 1389 I/qtaguid  ]
+Untagging socket 84 failed errno=-22
+
+[ 12-10 11:15:33.429  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:33.449  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:33.449  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:34.709  1248: 1367 D/MainActivity ]
+h:795.972,w:1718.77
+
+[ 12-10 11:15:39.319  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717339330
+
+[ 12-10 11:15:39.379  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2128K, 24% free 20137K/26311K, paused 34ms, total 35ms
+
+[ 12-10 11:15:39.449  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 16% free 22155K/26311K, paused 13ms+2ms, total 63ms
+
+[ 12-10 11:15:39.569  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22160K/26311K, paused 12ms+3ms, total 32ms
+
+[ 12-10 11:15:40.299  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:40.859  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:42.199  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ed8fd78, name RenderSVGContainer
+
+[ 12-10 11:15:42.199  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ed8ffa0, name RenderSVGContainer
+
+[ 12-10 11:15:42.209  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x60ada798, name RenderSVGContainer
+
+[ 12-10 11:15:42.209  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d602e48, name RenderSVGPath
+
+[ 12-10 11:15:42.669  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:42.669  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:42.749  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:43.889  1248: 1367 D/MainActivity ]
+h:805.135,w:1498.76
+
+[ 12-10 11:15:46.829  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717346839
+
+[ 12-10 11:15:46.889  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2125K, 24% free 20138K/26311K, paused 44ms, total 45ms
+
+[ 12-10 11:15:46.979  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 16% free 22156K/26311K, paused 15ms+4ms, total 87ms
+
+[ 12-10 11:15:47.059  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22161K/26311K, paused 3ms+14ms, total 33ms
+
+[ 12-10 11:15:47.709  1248: 1248 I/Web Console ]
+No data received from server at http://oa.paneng.cn:1143/se9200/dwr/engine.js:599
+
+[ 12-10 11:15:47.709  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 80) res=-1 errno=22
+
+[ 12-10 11:15:47.709  1248: 1389 I/qtaguid  ]
+Untagging socket 80 failed errno=-22
+
+[ 12-10 11:15:47.789  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:48.389  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:49.559  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62ecf658, name RenderSVGContainer
+
+[ 12-10 11:15:49.559  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62ecf908, name RenderSVGContainer
+
+[ 12-10 11:15:49.559  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x6209fce0, name RenderSVGContainer
+
+[ 12-10 11:15:49.559  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d99f208, name RenderSVGPath
+
+[ 12-10 11:15:50.029  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:50.029  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:50.039  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:51.019  1248: 1367 D/MainActivity ]
+h:805.135,w:1543
+
+[ 12-10 11:15:52.989  1271: 1293 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:95
+
+[ 12-10 11:15:53.109  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 11:15:53.259  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:15:53.789  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717353800
+
+[ 12-10 11:15:53.829  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2127K, 24% free 20138K/26311K, paused 25ms, total 26ms
+
+[ 12-10 11:15:53.889  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 16% free 22156K/26311K, paused 14ms+5ms, total 50ms
+
+[ 12-10 11:15:53.999  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22161K/26311K, paused 3ms+13ms, total 33ms
+
+[ 12-10 11:15:54.609  1248: 1248 I/Web Console ]
+No data received from server at http://oa.paneng.cn:1143/se9200/dwr/engine.js:599
+
+[ 12-10 11:15:54.689  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 80 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Tagging socket 80 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 83 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Tagging socket 83 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 84 43250320670720 6) res=-1 errno=1
+
+[ 12-10 11:15:54.769  1248: 1389 I/qtaguid  ]
+Tagging socket 84 with tag 275600000000(10070) for uid 6 failed errno=-1
+
+[ 12-10 11:15:55.339  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:15:56.269  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ddf0e78, name RenderSVGContainer
+
+[ 12-10 11:15:56.269  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ddf1108, name RenderSVGContainer
+
+[ 12-10 11:15:56.269  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5db32b10, name RenderSVGContainer
+
+[ 12-10 11:15:56.269  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5de208c8, name RenderSVGPath
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 80) res=-1 errno=22
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Untagging socket 80 failed errno=-22
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 83) res=-1 errno=22
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Untagging socket 83 failed errno=-22
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 84) res=-1 errno=22
+
+[ 12-10 11:15:56.619  1248: 1389 I/qtaguid  ]
+Untagging socket 84 failed errno=-22
+
+[ 12-10 11:15:56.729  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:56.729  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:15:56.729  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:15:58.109  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 393K, 8% free 10609K/11463K, paused 2ms+1ms, total 22ms
+
+[ 12-10 11:15:58.269  1248: 1367 D/MainActivity ]
+h:837.086,w:1990.38
+
+[ 12-10 11:16:01.509  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717361521
+
+[ 12-10 11:16:01.569  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2127K, 24% free 20138K/26311K, paused 29ms, total 29ms
+
+[ 12-10 11:16:01.649  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 16% free 22157K/26311K, paused 14ms+6ms, total 69ms
+
+[ 12-10 11:16:01.809  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22161K/26311K, paused 4ms+3ms, total 26ms
+
+[ 12-10 11:16:02.749  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:16:03.299  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:16:04.619  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x62dbc7c8, name RenderSVGContainer
+
+[ 12-10 11:16:04.619  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d066328, name RenderSVGContainer
+
+[ 12-10 11:16:04.619  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d0664a8, name RenderSVGContainer
+
+[ 12-10 11:16:04.619  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d342060, name RenderSVGPath
+
+[ 12-10 11:16:05.139  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:16:05.139  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:16:05.159  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:16:06.049  1248: 1367 D/MainActivity ]
+h:808.635,w:1451.27
+
+[ 12-10 11:16:08.829  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717368842
+
+[ 12-10 11:16:08.869  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2124K, 24% free 20139K/26311K, paused 25ms, total 25ms
+
+[ 12-10 11:16:08.929  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 16% free 22157K/26311K, paused 12ms+3ms, total 47ms
+
+[ 12-10 11:16:09.029  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22162K/26311K, paused 4ms+3ms, total 32ms
+
+[ 12-10 11:16:11.169  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:16:11.729  1248: 1367 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:16:23.579  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@4326cb88
+
+[ 12-10 11:16:23.689  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:16:23.689  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:16:23.779  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@4326cb88
+
+[ 12-10 11:16:23.779  1248: 1248 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@4326cb88
+
+[ 12-10 11:16:23.969  1248: 1248 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 11:16:23.979  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:16:23.979  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:16:28.469  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:16:28.489  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@430f3e60: null
+
+[ 12-10 11:16:28.509  1248: 1248 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 11:16:28.509  1248: 1367 D/webcore  ]
+initialize, mNativeClass is 1613229832
+
+[ 12-10 11:16:28.529  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@430f3e60
+
+[ 12-10 11:16:28.529  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@430f3e60
+
+[ 12-10 11:16:28.559  1248: 1248 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 11:16:28.589  1248: 1248 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 11:16:28.949  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:16:29.049  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:16:29.869  1248: 1367 D/MainActivity ]
+h:774.256,w:1432
+
+[ 12-10 11:16:29.969  1248: 1248 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@430f3e60: {1.15 460mcc3mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.343}
+
+[ 12-10 11:16:30.619  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 388K, 8% free 10609K/11463K, paused 17ms+2ms, total 63ms
+
+[ 12-10 11:16:33.009  1271: 1293 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:108
+
+[ 12-10 11:16:33.099  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 11:16:33.329  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:16:33.749  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717393755
+
+[ 12-10 11:16:33.809  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2182K, 24% free 20182K/26311K, paused 39ms, total 44ms
+
+[ 12-10 11:16:33.869  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 13K, 16% free 22194K/26311K, paused 14ms+2ms, total 53ms
+
+[ 12-10 11:16:33.959  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 16% free 22198K/26311K, paused 3ms+3ms, total 24ms
+
+[ 12-10 11:17:00.709  1248: 1248 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 11:17:00.749  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@430f3e60
+
+[ 12-10 11:17:00.849  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:00.849  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:00.939  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@430f3e60
+
+[ 12-10 11:17:00.939  1248: 1248 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@430f3e60
+
+[ 12-10 11:17:01.119  1248: 1248 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 11:17:01.119  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:01.119  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:03.039  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 394K, 8% free 10609K/11463K, paused 20ms+1ms, total 55ms
+
+[ 12-10 11:17:07.439  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:07.469  1248: 1248 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@4317c528: null
+
+[ 12-10 11:17:07.479  1248: 1248 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 11:17:07.479  1248: 1367 D/webcore  ]
+initialize, mNativeClass is 1550798440
+
+[ 12-10 11:17:07.489  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@4317c528
+
+[ 12-10 11:17:07.489  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@4317c528
+
+[ 12-10 11:17:07.519  1248: 1248 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 11:17:07.529  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:17:07.569  1248: 1248 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 11:17:07.909  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:08.289  1248: 1367 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:17:08.339  1248: 1248 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@4317c528: {1.15 460mcc3mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.346}
+
+[ 12-10 11:17:13.009  1271: 1293 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:121
+
+[ 12-10 11:17:13.139  1271: 1307 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 11:17:13.389  1271: 1295 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:17:13.849  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717433862
+
+[ 12-10 11:17:13.939  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2196K, 24% free 20221K/26311K, paused 74ms, total 74ms
+
+[ 12-10 11:17:13.999  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 13K, 16% free 22234K/26311K, paused 13ms+3ms, total 52ms
+
+[ 12-10 11:17:14.049  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 16% free 22237K/26311K, paused 3ms+3ms, total 23ms
+
+[ 12-10 11:17:15.059  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d3db478, name RenderSVGContainer
+
+[ 12-10 11:17:15.059  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d3db6c8, name RenderSVGContainer
+
+[ 12-10 11:17:15.059  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d3db8f0, name RenderSVGContainer
+
+[ 12-10 11:17:15.059  1248: 1367 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5d3dbf58, name RenderSVGPath
+
+[ 12-10 11:17:15.549  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:15.549  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:15.669  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:17:16.689  1248: 1367 D/MainActivity ]
+h:710.915,w:1197.07
+
+[ 12-10 11:17:16.789  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 88 43250320670720 6619235) res=-1 errno=1
+
+[ 12-10 11:17:16.789  1248: 1389 I/qtaguid  ]
+Tagging socket 88 with tag 275600000000(10070) for uid 6619235 failed errno=-1
+
+[ 12-10 11:17:16.789  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(t 89 43250320670720 6619235) res=-1 errno=1
+
+[ 12-10 11:17:16.789  1248: 1389 I/qtaguid  ]
+Tagging socket 89 with tag 275600000000(10070) for uid 6619235 failed errno=-1
+
+[ 12-10 11:17:16.829  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 88) res=-1 errno=22
+
+[ 12-10 11:17:16.829  1248: 1389 I/qtaguid  ]
+Untagging socket 88 failed errno=-22
+
+[ 12-10 11:17:16.829  1248: 1389 I/qtaguid  ]
+Failed write_ctrl(u 89) res=-1 errno=22
+
+[ 12-10 11:17:16.829  1248: 1389 I/qtaguid  ]
+Untagging socket 89 failed errno=-22
+
+[ 12-10 11:17:20.119  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717440133
+
+[ 12-10 11:17:20.179  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2112K, 24% free 20217K/26311K, paused 40ms, total 41ms
+
+[ 12-10 11:17:20.229  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 16% free 22235K/26311K, paused 13ms+5ms, total 43ms
+
+[ 12-10 11:17:20.349  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22240K/26311K, paused 12ms+4ms, total 35ms
+
+[ 12-10 11:17:35.569  1271: 1274 D/dalvikvm ]
+GC_CONCURRENT freed 394K, 8% free 10609K/11463K, paused 22ms+1ms, total 53ms
+
+[ 12-10 11:17:40.449  1248: 1248 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 11:17:40.509  1248: 1367 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 11:17:41.049  1248: 1367 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:17:42.629  1248: 1248 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@4317c528
+
+[ 12-10 11:17:42.739  1248: 1248 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:42.739  1248: 1248 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5710
+
+[ 12-10 11:17:42.799  1248: 1248 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@4317c528
+
+[ 12-10 11:17:42.809  1248: 1248 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@4317c528
+
+[ 12-10 11:17:42.999  1248: 1248 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 11:17:42.999  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:42.999  1248: 1248 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 11:17:45.369  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717465378
+
+[ 12-10 11:17:49.819  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717469827
+
+[ 12-10 11:17:49.889  1248: 1308 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717469899
+
+[ 12-10 11:17:49.939  1248: 1248 D/dalvikvm ]
+GC_FOR_ALLOC freed 2230K, 24% free 20213K/26311K, paused 19ms, total 19ms
+
+[ 12-10 11:17:49.999  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 8K, 16% free 22230K/26311K, paused 12ms+16ms, total 54ms
+
+[ 12-10 11:17:50.059  1248: 1252 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 16% free 22235K/26311K, paused 3ms+3ms, total 27ms
+
+[ 12-10 11:17:50.159  1248: 1308 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41b16588)
+
+[ 12-10 11:17:50.159  1248: 1308 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-625
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

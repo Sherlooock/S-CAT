@@ -1,0 +1,547 @@
+(dp0
+S'TYPE_TOUCH_INTERACTION_END'
+p1
+(dp2
+S'describe'
+p3
+S'Represents the event of the user ending to touch the screen.'
+p4
+sS'constant'
+p5
+S'2097152'
+p6
+sS'public'
+p7
+S'public static final int TYPE_TOUCH_INTERACTION_END'
+p8
+ssS'WINDOWS_CHANGE_BOUNDS'
+p9
+(dp10
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's bounds changed."
+p11
+sg5
+S'8'
+p12
+sg7
+S'public static final int WINDOWS_CHANGE_BOUNDS'
+p13
+ssS'TYPE_VIEW_TEXT_CHANGED'
+p14
+(dp15
+g3
+S'Represents the event of changing the text of an EditText.'
+p16
+sg5
+S'16'
+p17
+sg7
+S'public static final int TYPE_VIEW_TEXT_CHANGED'
+p18
+ssS'WINDOWS_CHANGE_FOCUSED'
+p19
+(dp20
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's AccessibilityWindowInfo.isFocused() changed."
+p21
+sg5
+S'64'
+p22
+sg7
+S'public static final int WINDOWS_CHANGE_FOCUSED'
+p23
+ssS'TYPE_WINDOW_STATE_CHANGED'
+p24
+(dp25
+g3
+S'Represents the event of a change to a visually distinct section of the user interface. These events should only be dispatched from Views that have accessibility pane titles, and replaces TYPE_WINDOW_CONTENT_CHANGED for those sources. Details about the change are available from getContentChangeTypes().'
+p26
+sg5
+S'32'
+p27
+sg7
+S'public static final int TYPE_WINDOW_STATE_CHANGED'
+p28
+ssS'CONTENT_CHANGE_TYPE_SUBTREE'
+p29
+(dp30
+g3
+S"Change type for TYPE_WINDOW_CONTENT_CHANGED event: One or more content changes occurred in the the subtree rooted at the source node, or the subtree's structure changed when a node was added or removed."
+p31
+sg5
+S'1'
+p32
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_SUBTREE'
+p33
+ssS'TYPE_VIEW_LONG_CLICKED'
+p34
+(dp35
+g3
+S'Represents the event of long clicking on a View like Button, CompoundButton, etc.'
+p36
+sg5
+S'2'
+p37
+sg7
+S'public static final int TYPE_VIEW_LONG_CLICKED'
+p38
+ssS'TYPE_WINDOW_CONTENT_CHANGED'
+p39
+(dp40
+g3
+S"Represents the event of changing the content of a window and more specifically the sub-tree rooted at the event's source."
+p41
+sg5
+S'2048'
+p42
+sg7
+S'public static final int TYPE_WINDOW_CONTENT_CHANGED'
+p43
+ssS'TYPE_VIEW_TEXT_SELECTION_CHANGED'
+p44
+(dp45
+g3
+S'Represents the event of changing the selection in an EditText.'
+p46
+sg5
+S'8192'
+p47
+sg7
+S'public static final int TYPE_VIEW_TEXT_SELECTION_CHANGED'
+p48
+ssS'WINDOWS_CHANGE_CHILDREN'
+p49
+(dp50
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's children changed."
+p51
+sg5
+S'512'
+p52
+sg7
+S'public static final int WINDOWS_CHANGE_CHILDREN'
+p53
+ssS'TYPE_VIEW_CLICKED'
+p54
+(dp55
+g3
+S'Represents the event of clicking on a View like Button, CompoundButton, etc.'
+p56
+sg5
+g32
+sg7
+S'public static final int TYPE_VIEW_CLICKED'
+p57
+ssS'TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY'
+p58
+(dp59
+g3
+S'Represents the event of traversing the text of a view at a given movement granularity.'
+p60
+sg5
+S'131072'
+p61
+sg7
+S'public static final int TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY'
+p62
+ssS'TYPE_VIEW_SELECTED'
+p63
+(dp64
+g3
+S'Represents the event of selecting an item usually in the context of an AdapterView.'
+p65
+sg5
+S'4'
+p66
+sg7
+S'public static final int TYPE_VIEW_SELECTED'
+p67
+ssS'CONTENT_CHANGE_TYPE_PANE_TITLE'
+p68
+(dp69
+g3
+S"Change type for TYPE_WINDOW_STATE_CHANGED event: The node's pane title changed."
+p70
+sg5
+g12
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_PANE_TITLE'
+p71
+ssS'TYPE_WINDOWS_CHANGED'
+p72
+(dp73
+g3
+S'Represents the event change in the system windows shown on the screen. This event type should only be dispatched by the system.'
+p74
+sg5
+S'4194304'
+p75
+sg7
+S'public static final int TYPE_WINDOWS_CHANGED'
+p76
+ssS'WINDOWS_CHANGE_PIP'
+p77
+(dp78
+g3
+S'Change type for TYPE_WINDOWS_CHANGED event: The window either entered or exited picture-in-picture mode.'
+p79
+sg5
+S'1024'
+p80
+sg7
+S'public static final int WINDOWS_CHANGE_PIP'
+p81
+ssS'CONTENT_CHANGE_TYPE_TEXT'
+p82
+(dp83
+g3
+S"Change type for TYPE_WINDOW_CONTENT_CHANGED event: The node's text changed."
+p84
+sg5
+g37
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_TEXT'
+p85
+ssS'TYPE_TOUCH_EXPLORATION_GESTURE_START'
+p86
+(dp87
+g3
+S'Represents the event of starting a touch exploration gesture.'
+p88
+sg5
+S'512'
+p89
+sg7
+S'public static final int TYPE_TOUCH_EXPLORATION_GESTURE_START'
+p90
+ssS'TYPE_GESTURE_DETECTION_END'
+p91
+(dp92
+g3
+S'Represents the event of ending gesture detection.'
+p93
+sg5
+S'524288'
+p94
+sg7
+S'public static final int TYPE_GESTURE_DETECTION_END'
+p95
+ssS'WINDOWS_CHANGE_ACCESSIBILITY_FOCUSED'
+p96
+(dp97
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's AccessibilityWindowInfo.isAccessibilityFocused() changed."
+p98
+sg5
+S'128'
+p99
+sg7
+S'public static final int WINDOWS_CHANGE_ACCESSIBILITY_FOCUSED'
+p100
+ssS'TYPES_ALL_MASK'
+p101
+(dp102
+g3
+S'Mask for AccessibilityEvent all types.'
+p103
+sg5
+g32
+sg7
+S'public static final int TYPES_ALL_MASK'
+p104
+ssS'CONTENT_CHANGE_TYPE_UNDEFINED'
+p105
+(dp106
+g3
+S'Change type for TYPE_WINDOW_CONTENT_CHANGED event: The type of change is not defined.'
+p107
+sg5
+S'0'
+p108
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_UNDEFINED'
+p109
+ssS'TYPE_TOUCH_INTERACTION_START'
+p110
+(dp111
+g3
+S'Represents the event of the user starting to touch the screen.'
+p112
+sg5
+S'1048576'
+p113
+sg7
+S'public static final int TYPE_TOUCH_INTERACTION_START'
+p114
+ssS'TYPE_VIEW_HOVER_EXIT'
+p115
+(dp116
+g3
+S'Represents the event of a hover exit over a View.'
+p117
+sg5
+S'256'
+p118
+sg7
+S'public static final int TYPE_VIEW_HOVER_EXIT'
+p119
+ssS'TYPE_VIEW_CONTEXT_CLICKED'
+p120
+(dp121
+g3
+S'Represents the event of a context click on a View.'
+p122
+sg5
+S'8388608'
+p123
+sg7
+S'public static final int TYPE_VIEW_CONTEXT_CLICKED'
+p124
+ssS'TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED'
+p125
+(dp126
+g3
+S'Represents the event of clearing accessibility focus.'
+p127
+sg5
+S'65536'
+p128
+sg7
+S'public static final int TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED'
+p129
+ssS'TYPE_VIEW_HOVER_ENTER'
+p130
+(dp131
+g3
+S'Represents the event of a hover enter over a View.'
+p132
+sg5
+S'128'
+p133
+sg7
+S'public static final int TYPE_VIEW_HOVER_ENTER'
+p134
+ssS'WINDOWS_CHANGE_LAYER'
+p135
+(dp136
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's layer changed."
+p137
+sg5
+S'16'
+p138
+sg7
+S'public static final int WINDOWS_CHANGE_LAYER'
+p139
+ssS'WINDOWS_CHANGE_TITLE'
+p140
+(dp141
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's title changed."
+p142
+sg5
+g66
+sg7
+S'public static final int WINDOWS_CHANGE_TITLE'
+p143
+ssS'TYPE_TOUCH_EXPLORATION_GESTURE_END'
+p144
+(dp145
+g3
+S'Represents the event of ending a touch exploration gesture.'
+p146
+sg5
+S'1024'
+p147
+sg7
+S'public static final int TYPE_TOUCH_EXPLORATION_GESTURE_END'
+p148
+ssS'CONTENT_CHANGE_TYPE_PANE_DISAPPEARED'
+p149
+(dp150
+g3
+S'Change type for TYPE_WINDOW_STATE_CHANGED event: Can mean one of two slightly different things. The primary meaning is that the node has a pane title, and was removed from the node hierarchy. It will also be sent if the pane title is set to null after it contained a title. No source will be returned if the node is no longer on the screen. To make the change more clear for the user, the first entry in AccessibilityRecord.getText() will return the value that would have been returned by getSource().getPaneTitle().'
+p151
+sg5
+S'32'
+p152
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_PANE_DISAPPEARED'
+p153
+ssS'WINDOWS_CHANGE_ADDED'
+p154
+(dp155
+g3
+S'Change type for TYPE_WINDOWS_CHANGED event: The window was added.'
+p156
+sg5
+g32
+sg7
+S'public static final int WINDOWS_CHANGE_ADDED'
+p157
+ssS'TYPE_VIEW_FOCUSED'
+p158
+(dp159
+g3
+S'Represents the event of setting input focus of a View.'
+p160
+sg5
+g12
+sg7
+S'public static final int TYPE_VIEW_FOCUSED'
+p161
+ssS'TYPE_GESTURE_DETECTION_START'
+p162
+(dp163
+g3
+S'Represents the event of beginning gesture detection.'
+p164
+sg5
+S'262144'
+p165
+sg7
+S'public static final int TYPE_GESTURE_DETECTION_START'
+p166
+ssS'TYPE_VIEW_ACCESSIBILITY_FOCUSED'
+p167
+(dp168
+g3
+S'Represents the event of gaining accessibility focus.'
+p169
+sg5
+S'32768'
+p170
+sg7
+S'public static final int TYPE_VIEW_ACCESSIBILITY_FOCUSED'
+p171
+ssS'TYPE_ANNOUNCEMENT'
+p172
+(dp173
+g3
+S'Represents the event of an application making an announcement.'
+p174
+sg5
+S'16384'
+p175
+sg7
+S'public static final int TYPE_ANNOUNCEMENT'
+p176
+ssS'TYPE_NOTIFICATION_STATE_CHANGED'
+p177
+(dp178
+g3
+S'Represents the event showing a Notification.'
+p179
+sg5
+S'64'
+p180
+sg7
+S'public static final int TYPE_NOTIFICATION_STATE_CHANGED'
+p181
+ssS'INVALID_POSITION'
+p182
+(dp183
+g3
+S'Invalid selection/focus position.'
+p184
+sg5
+g32
+sg7
+S'public static final int INVALID_POSITION'
+p185
+ssS'TYPE_ASSIST_READING_CONTEXT'
+p186
+(dp187
+g3
+S'Represents the event of the assistant currently reading the users screen context.'
+p188
+sg5
+S'16777216'
+p189
+sg7
+S'public static final int TYPE_ASSIST_READING_CONTEXT'
+p190
+ssS'CONTENT_CHANGE_TYPE_PANE_APPEARED'
+p191
+(dp192
+g3
+S'Change type for TYPE_WINDOW_STATE_CHANGED event: The node has a pane title, and either just appeared or just was assigned a title when it had none before.'
+p193
+sg5
+S'16'
+p194
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_PANE_APPEARED'
+p195
+ssS'WINDOWS_CHANGE_ACTIVE'
+p196
+(dp197
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's AccessibilityWindowInfo.isActive() changed."
+p198
+sg5
+S'32'
+p199
+sg7
+S'public static final int WINDOWS_CHANGE_ACTIVE'
+p200
+ssS'WINDOWS_CHANGE_REMOVED'
+p201
+(dp202
+g3
+S'Change type for TYPE_WINDOWS_CHANGED event: A window was removed.'
+p203
+sg5
+g37
+sg7
+S'public static final int WINDOWS_CHANGE_REMOVED'
+p204
+ssS'WINDOWS_CHANGE_PARENT'
+p205
+(dp206
+g3
+S"Change type for TYPE_WINDOWS_CHANGED event: The window's parent changed."
+p207
+sg5
+S'256'
+p208
+sg7
+S'public static final int WINDOWS_CHANGE_PARENT'
+p209
+ssS'MAX_TEXT_LENGTH'
+p210
+(dp211
+g3
+S'Maximum length of the text fields.'
+p212
+sg5
+S'500'
+p213
+sg7
+S'public static final int MAX_TEXT_LENGTH'
+p214
+ssS'TYPE_VIEW_SCROLLED'
+p215
+(dp216
+g3
+S'Represents the event of scrolling a view. This event type is generally not sent directly.'
+p217
+sg5
+S'4096'
+p218
+sg7
+S'public static final int TYPE_VIEW_SCROLLED'
+p219
+ssS'CONTENT_CHANGE_TYPE_CONTENT_DESCRIPTION'
+p220
+(dp221
+g3
+S"Change type for TYPE_WINDOW_CONTENT_CHANGED event: The node's content description changed."
+p222
+sg5
+g66
+sg7
+S'public static final int CONTENT_CHANGE_TYPE_CONTENT_DESCRIPTION'
+p223
+ss.

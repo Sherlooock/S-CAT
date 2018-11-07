@@ -1,9 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import time
-import datetime
 import re
-import sys
 import pickle
 
 import os
@@ -26,7 +24,7 @@ logcat_filter=['E']
 r=0
 logcat_files=file_name('E:\code\logcats')
 event_files=file_name('E:\code\events')
-
+num=0
 package={}
 for l_root in logcat_files:
     if l_root in event_files:
@@ -52,16 +50,21 @@ for l_root in logcat_files:
                 logcat_dic['threadID'] = ID[1]
                 logcat_dic['priority'] = ID[2]
                 logcat_dic['tag'] = ID[3]
-                logcat_dic['message'] = logcat_context[i+1]
-
+                logcat_dic['message'] = ''
+                j = i+1
+                while len(logcat_context[j])>2:
+                    logcat_dic['message']+=logcat_context[j]
+                    j+=1
                 if logcat_dic not in logcat_all_list:
                     logcat_all_list.append(logcat_dic)
 
-        print logcat_all_list
+        #print logcat_all_list
         event_all_list = []
         for lfiles in event_files[l_root]:
             event_all = open(lfiles).readlines()
             for event in event_all:
+                if len(re.findall("SyscTime: (\d+)",event))==0:
+                    continue
                 if len(re.findall("SyscTime: (\d+)",event))==0:
                     continue
                 Systime = re.findall("SyscTime: (\d+)",event)[0]
@@ -79,20 +82,20 @@ for l_root in logcat_files:
                     else:
                         package[event_dict['PackageName']] += 1
                     event_all_list.append(event_dict)
-        print event_all_list
-        # package_name=''
-        # if len(event_all_list)>0:
-        #     package_name = event_all_list[0]['PackageName']
-        # file_root='data/'+str(package_name)+'/'+str(l_root)+'/event.pkl'
-        # f=open(file_root,'w')
-        # pickle.dump(event_all_list,f)
-        # f.close()
-        # file_root = 'data/' + str(package_name) + '/' + str(l_root) + '/logcat.pkl'
-        # f = open(file_root, 'w')
-        # pickle.dump(logcat_all_list, f)
-        # f.close()
-        # print file_root
-
-print package
+        #print event_all_list
+        package_name=''
+        if len(event_all_list)>0 and len(logcat_all_list)>0:
+            package_name = event_all_list[0]['PackageName']
+            file_root='data/'+str(package_name)+'/'+str(l_root)+'/event.pkl'
+            f=open(file_root,'w')
+            pickle.dump(event_all_list,f)
+            f.close()
+            file_root = 'data/' + str(package_name) + '/' + str(l_root) + '/logcat.pkl'
+            f = open(file_root, 'w')
+            pickle.dump(logcat_all_list, f)
+            f.close()
+            print file_root
+    else:
+        num+=1
 
 

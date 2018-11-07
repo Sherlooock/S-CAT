@@ -1,0 +1,2560 @@
+--------- beginning of /dev/log/main
+[ 12-13 23:46:18.143  5185: 5185 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 23:46:18.439  5185: 5185 D/dalvikvm ]
+DexOpt: couldn't find static field Landroid/os/Environment;.DIRECTORY_DOCUMENTS
+
+[ 12-13 23:46:18.439  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-13 23:46:18.439  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x62 at 0x008a
+
+[ 12-13 23:46:18.443  5185: 5185 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-13 23:46:18.451  5185: 5185 I/MultiDex ]
+install
+
+[ 12-13 23:46:18.455  5185: 5185 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-13 23:46:18.471  5185: 5185 I/MultiDex ]
+Detected that extraction must be performed.
+
+[ 12-13 23:46:18.543  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 201K, 4% free 8974K/9292K, paused 10ms+14ms, total 32ms
+
+[ 12-13 23:46:18.543  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+
+[ 12-13 23:46:18.599  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 143K, 3% free 9331K/9604K, paused 4ms+8ms, total 17ms
+
+[ 12-13 23:46:18.599  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+
+[ 12-13 23:46:18.627  5185: 5185 I/MultiDex ]
+Extraction is needed for file /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip
+
+[ 12-13 23:46:18.627  5185: 5185 I/MultiDex ]
+Extracting /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes1941083324.zip
+
+[ 12-13 23:46:18.631  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 119K, 3% free 9622K/9888K, paused 5ms+0ms, total 13ms
+
+[ 12-13 23:46:18.743  5185: 5185 I/MultiDex ]
+Renaming to /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip
+
+[ 12-13 23:46:18.743  5185: 5185 I/MultiDex ]
+Extraction success - length /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip: 307861
+
+[ 12-13 23:46:18.747  5185: 5185 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-13 23:46:18.795  5185: 5185 D/dalvikvm ]
+DexOpt: --- BEGIN 'com.netease.cloudmusic-1.apk.classes2.zip' (bootstrap=0) ---
+
+[ 12-13 23:46:19.127  5202: 5202 I/dalvikvm ]
+DexOpt: access denied from Landroid/support/v4/app/NotificationCompatKitKat; to field Landroid/app/Notification;.actions
+
+[ 12-13 23:46:19.207  5202: 5202 W/dalvikvm ]
+Invalid arg count in 35c/35ms/35mi (10)
+
+[ 12-13 23:46:19.207  5202: 5202 D/dalvikvm ]
+DexOpt: load 65ms, verify+opt 96ms, 1060196 bytes
+
+[ 12-13 23:46:19.303  5185: 5185 D/dalvikvm ]
+DexOpt: --- END 'com.netease.cloudmusic-1.apk.classes2.zip' (success) ---
+
+[ 12-13 23:46:19.303  5185: 5185 D/dalvikvm ]
+DEX prep '/data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip': unzip in 45ms, rewrite 506ms
+
+[ 12-13 23:46:19.311  5185: 5185 I/MultiDex ]
+install done
+
+[ 12-13 23:46:19.367  5185: 5185 I/dalvikvm ]
+Could not find method android.view.Window.setStatusBarColor, referenced from method com.netease.cloudmusic.activity.c.c
+
+[ 12-13 23:46:19.367  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-13 23:46:19.367  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0081
+
+[ 12-13 23:46:19.383  5185: 5185 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0xa6972810
+
+[ 12-13 23:46:20.267  5185: 5185 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0xa6972810
+
+[ 12-13 23:46:20.447  5185: 5185 D/dalvikvm ]
+DexOpt: couldn't find static field Landroid/os/Environment;.DIRECTORY_DOCUMENTS
+
+[ 12-13 23:46:20.447  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-13 23:46:20.447  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x62 at 0x030e
+
+[ 12-13 23:46:20.575  5185: 5185 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0xa6972810
+
+[ 12-13 23:46:20.599  5185: 5185 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0xa6972810
+
+[ 12-13 23:46:22.611  5185: 5185 D/dalvikvm ]
+Trying to load lib /data/data/com.netease.cloudmusic/.cache/libpoison5185.so 0xa6972810
+
+[ 12-13 23:46:22.619  5185: 5185 D/dalvikvm ]
+Added shared lib /data/data/com.netease.cloudmusic/.cache/libpoison5185.so 0xa6972810
+
+[ 12-13 23:46:22.647  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.LayerDrawable.setAutoMirrored, referenced from method com.netease.cloudmusic.theme.b.a
+
+[ 12-13 23:46:22.647  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-13 23:46:22.647  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0062
+
+[ 12-13 23:46:22.651  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.StateListDrawable.setAutoMirrored, referenced from method com.netease.cloudmusic.theme.b.c
+
+[ 12-13 23:46:22.651  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-13 23:46:22.651  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0129
+
+[ 12-13 23:46:22.655  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.ScaleDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.i
+
+[ 12-13 23:46:22.655  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-13 23:46:22.655  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x010a
+
+[ 12-13 23:46:22.655  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.ClipDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.j
+
+[ 12-13 23:46:22.655  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-13 23:46:22.655  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x00d0
+
+[ 12-13 23:46:22.655  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.BitmapDrawable.setMipMap, referenced from method com.netease.cloudmusic.theme.b.o
+
+[ 12-13 23:46:22.655  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-13 23:46:22.655  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x014f
+
+[ 12-13 23:46:22.655  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.drawable.BitmapDrawable.setAutoMirrored, referenced from method com.netease.cloudmusic.theme.b.o
+
+[ 12-13 23:46:22.655  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-13 23:46:22.655  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0169
+
+[ 12-13 23:46:22.679  5185: 5185 D/dalvikvm ]
+DexOpt: couldn't find static field Landroid/os/Environment;.DIRECTORY_DOCUMENTS
+
+[ 12-13 23:46:22.679  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-13 23:46:22.679  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x62 at 0x000b
+
+[ 12-13 23:46:22.731  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 250K, 4% free 9857K/10252K, paused 11ms+1ms, total 29ms
+
+[ 12-13 23:46:22.731  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+
+[ 12-13 23:46:22.787  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1017K, 8% free 9603K/10404K, paused 8ms+0ms, total 30ms
+
+[ 12-13 23:46:22.871  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 241K, 7% free 9719K/10404K, paused 38ms, total 38ms
+
+[ 12-13 23:46:22.879  5185: 5185 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-13 23:46:22.907  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 937K, 16% free 8818K/10404K, paused 13ms, total 13ms
+
+[ 12-13 23:46:22.923  5185: 5185 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/mnt/sdcard/moji/,/mnt/sdcard/Tencent/,/mnt/sdcard/tencent/,/mnt/sdcard/Yixin/
+
+[ 12-13 23:46:22.935  5185: 5185 D/NeteaseMusicConst ]
+scanWhitePaths:/mnt/sdcard/qqmusic/offline/
+
+[ 12-13 23:46:24.143  5185: 5185 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-13 23:46:24.299  5185: 5185 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-13 23:46:24.299  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-13 23:46:24.299  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x1f at 0x003d
+
+[ 12-13 23:46:24.415  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 322K, 15% free 8902K/10404K, paused 16ms+2ms, total 25ms
+
+[ 12-13 23:46:24.479  5185: 5185 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.facebook.imagepipeline.animated.util.AnimatedDrawableUtil.getSizeOfBitmap
+
+[ 12-13 23:46:24.479  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 23:46:24.479  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0006
+
+[ 12-13 23:46:24.523  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+
+[ 12-13 23:46:24.523  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-13 23:46:24.523  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-13 23:46:24.527  5185: 5185 I/dalvikvm ]
+Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+
+[ 12-13 23:46:24.527  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-13 23:46:24.527  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0015
+
+[ 12-13 23:46:24.527  5185: 5185 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-13 23:46:24.527  5185: 5185 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-13 23:46:24.527  5185: 5185 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-13 23:46:24.531  5185: 5185 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-13 23:46:24.531  5185: 5185 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-13 23:46:24.655  5185: 5185 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-13 23:46:24.655  5185: 5185 I/dalvikvm ]
+Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onSearchRequested
+
+[ 12-13 23:46:24.655  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-13 23:46:24.655  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x72 at 0x0002
+
+[ 12-13 23:46:24.659  5185: 5185 I/dalvikvm ]
+Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onWindowStartingActionMode
+
+[ 12-13 23:46:24.659  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-13 23:46:24.659  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x72 at 0x0002
+
+[ 12-13 23:46:25.059  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 257K, 14% free 9028K/10404K, paused 4ms+1ms, total 14ms
+
+[ 12-13 23:46:25.175  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 14% free 9028K/10404K, paused 6ms, total 7ms
+
+[ 12-13 23:46:25.327  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 16.838MB for 8294412-byte allocation
+
+[ 12-13 23:46:25.335  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 17128K/18508K, paused 7ms, total 7ms
+
+[ 12-13 23:46:25.351  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 8% free 17128K/18508K, paused 4ms+1ms, total 16ms
+
+[ 12-13 23:46:25.439  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 17128K/18508K, paused 7ms, total 7ms
+
+[ 12-13 23:46:25.511  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 20.354MB for 3686412-byte allocation
+
+[ 12-13 23:46:25.543  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 7% free 20728K/22112K, paused 6ms+1ms, total 33ms
+
+[ 12-13 23:46:25.651  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 8135K, 42% free 13348K/22808K, paused 23ms, total 29ms
+
+[ 12-13 23:46:26.279  5185: 5185 D/libEGL   ]
+loaded /system/lib/egl/libEGL_emulation.so
+
+[ 12-13 23:46:26.287  5185: 5185 D/         ]
+HostConnection::get() New Host Connection established 0xb9608778, tid 5185
+
+
+[ 12-13 23:46:26.287  5185: 5185 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_emulation.so
+
+[ 12-13 23:46:26.287  5185: 5185 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_emulation.so
+
+[ 12-13 23:46:26.335  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:46:26.339  5185: 5185 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-13 23:46:26.623  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1591K, 43% free 13193K/22808K, paused 5ms+0ms, total 18ms
+
+[ 12-13 23:46:26.967  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 354K, 43% free 13219K/22808K, paused 43ms, total 45ms
+
+[ 12-13 23:46:27.179  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 20.931MB for 8294412-byte allocation
+
+[ 12-13 23:46:27.215  5185: 5224 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 32% free 21316K/30912K, paused 29ms, total 29ms
+
+[ 12-13 23:46:27.267  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 62K, 31% free 21337K/30912K, paused 21ms+2ms, total 48ms
+
+[ 12-13 23:46:27.267  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 28ms
+
+[ 12-13 23:46:27.271  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.464MB for 3686412-byte allocation
+
+[ 12-13 23:46:27.307  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed 5K, 20% free 24931K/30912K, paused 33ms, total 33ms
+
+[ 12-13 23:46:27.315  5185: 5224 W/DebugConnManager ]
+getNetworkInfo() on networkType 1
+
+[ 12-13 23:46:27.343  5185: 5224 W/DebugConnManager ]
+getNetworkInfo() on networkType 0
+
+[ 12-13 23:46:27.823  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:46:28.427  5185: 5236 D/com.netease.cloudmusic.utils.u ]
+391ms on url: https://music.163.com/eapi/batch
+
+[ 12-13 23:46:28.443  5185: 5236 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/mnt/sdcard/towords/,/mnt/sdcard/HJApp/,/mnt/sdcard/leci/,/mnt/sdcard/RM/,/mnt/sdcard/moji/,/mnt/sdcard/Android/,/mnt/sdcard/Tencent/,/mnt/sdcard/tencent/,/mnt/sdcard/Yixin/,/mnt/sdcard/baicizhan/
+
+[ 12-13 23:46:28.447  5185: 5236 D/NeteaseMusicConst ]
+scanWhitePaths:/mnt/sdcard/tencent/QQfile_recv/,/mnt/sdcard/qqmusic/offline/
+
+[ 12-13 23:46:28.447  5185: 5236 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-13 23:46:28.567  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 9261K, 20% free 17736K/22104K, paused 5ms+1ms, total 54ms
+
+[ 12-13 23:46:28.627  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 747K, 15% free 18909K/22104K, paused 5ms+1ms, total 14ms
+
+[ 12-13 23:46:28.651  5185: 5236 D/dalvikvm ]
+GC_FOR_ALLOC freed 1271K, 13% free 19371K/22104K, paused 12ms, total 12ms
+
+[ 12-13 23:46:28.663  5185: 5236 D/dalvikvm ]
+GC_FOR_ALLOC freed 380K, 11% free 19753K/22104K, paused 10ms, total 11ms
+
+[ 12-13 23:46:28.679  5185: 5236 D/dalvikvm ]
+GC_FOR_ALLOC freed 750K, 11% free 19833K/22104K, paused 11ms, total 11ms
+
+[ 12-13 23:46:28.691  5185: 5236 D/dalvikvm ]
+GC_FOR_ALLOC freed 254K, 10% free 20087K/22104K, paused 11ms, total 12ms
+
+[ 12-13 23:46:28.695  5185: 5236 I/dalvikvm-heap ]
+Grow heap (frag case) to 20.054MB for 342037-byte allocation
+
+[ 12-13 23:46:28.711  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 9% free 20421K/22440K, paused 15ms, total 15ms
+
+[ 12-13 23:46:28.807  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 904K, 5% free 21462K/22484K, paused 6ms+3ms, total 22ms
+
+[ 12-13 23:46:28.911  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1048K, 5% free 22379K/23548K, paused 5ms+2ms, total 25ms
+
+[ 12-13 23:46:29.291  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 635K, 4% free 23626K/24388K, paused 36ms, total 37ms
+
+[ 12-13 23:46:29.403  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.700MB for 3686412-byte allocation
+
+[ 12-13 23:46:29.455  5185: 5236 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 3% free 27226K/27992K, paused 44ms, total 44ms
+
+[ 12-13 23:46:29.495  5185: 5185 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2500
+
+[ 12-13 23:46:29.559  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1310K, 3% free 27272K/28100K, paused 18ms+40ms, total 102ms
+
+[ 12-13 23:46:29.567  5185: 5185 I/dalvikvm ]
+Could not find method cn.com.mma.mobile.tracking.api.Countly.sharedInstance, referenced from method com.netease.a.b.m.a
+
+[ 12-13 23:46:29.567  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-13 23:46:29.567  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x71 at 0x004c
+
+[ 12-13 23:46:29.567  5185: 5185 I/dalvikvm ]
+Could not find method cn.com.mma.mobile.tracking.api.Countly.sharedInstance, referenced from method com.netease.a.b.m.b
+
+[ 12-13 23:46:29.567  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-13 23:46:29.567  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x71 at 0x004c
+
+[ 12-13 23:46:29.791  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1284K, 5% free 27964K/29416K, paused 7ms+2ms, total 32ms
+
+[ 12-13 23:46:31.251  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:46:31.259  5185: 5185 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.259  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-13 23:46:31.259  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x22 at 0x00b5
+
+[ 12-13 23:46:31.259  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.259  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.259  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0023
+
+[ 12-13 23:46:31.263  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.263  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.263  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0042
+
+[ 12-13 23:46:31.267  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.267  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.267  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0017
+
+[ 12-13 23:46:31.267  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.267  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.267  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x002a
+
+[ 12-13 23:46:31.267  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.275  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.275  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0017
+
+[ 12-13 23:46:31.283  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-13 23:46:31.283  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-13 23:46:31.283  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x002a
+
+[ 12-13 23:46:31.287  5185: 5185 D/dalvikvm ]
+DexOpt: unable to opt direct call 0x03da at 0xda in Lcom/netease/cloudmusic/theme/g;.a
+
+[ 12-13 23:46:31.351  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 615K, 3% free 29313K/30108K, paused 35ms+6ms, total 198ms
+
+[ 12-13 23:46:31.351  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:46:31.935  5185: 5236 D/com.netease.cloudmusic.utils.u ]
+314ms on url: http://music.163.com/eapi/register/anonimous
+
+[ 12-13 23:46:32.003  5185: 5185 D/dalvikvm ]
+DexOpt: couldn't find static field Landroid/os/Environment;.DIRECTORY_DOCUMENTS
+
+[ 12-13 23:46:32.003  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-13 23:46:32.003  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x62 at 0x0019
+
+[ 12-13 23:46:32.307  5185: 5185 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-13 23:46:32.307  5185: 5185 I/dalvikvm ]
+Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+
+[ 12-13 23:46:32.307  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-13 23:46:32.307  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-13 23:46:32.307  5185: 5185 I/dalvikvm ]
+Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+
+[ 12-13 23:46:32.307  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-13 23:46:32.307  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-13 23:46:32.611  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 4764K, 17% free 26277K/31412K, paused 100ms, total 110ms
+
+[ 12-13 23:46:32.691  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 362K, 16% free 26424K/31412K, paused 68ms, total 72ms
+
+[ 12-13 23:46:32.787  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 10% free 28271K/31412K, paused 62ms, total 62ms
+
+[ 12-13 23:46:32.971  5185: 5185 I/dalvikvm ]
+Failed resolving Lcom/netease/cloudmusic/service/PlayService$43; interface 226 'Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;'
+
+[ 12-13 23:46:32.971  5185: 5185 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$43;' failed
+
+[ 12-13 23:46:32.971  5185: 5185 E/dalvikvm ]
+Could not find class 'com.netease.cloudmusic.service.PlayService$43', referenced from method com.netease.cloudmusic.service.PlayService.au
+
+[ 12-13 23:46:32.971  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve new-instance 5703 (Lcom/netease/cloudmusic/service/PlayService$43;) in Lcom/netease/cloudmusic/service/PlayService;
+
+[ 12-13 23:46:32.971  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x22 at 0x01a9
+
+[ 12-13 23:46:32.971  5185: 5185 I/dalvikvm ]
+Could not find method android.media.RemoteControlClient.setPlaybackState, referenced from method com.netease.cloudmusic.service.PlayService.g
+
+[ 12-13 23:46:32.971  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 1120: Landroid/media/RemoteControlClient;.setPlaybackState (IJF)V
+
+[ 12-13 23:46:32.971  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x001e
+
+[ 12-13 23:46:32.983  5185: 5185 I/dalvikvm ]
+Failed resolving Lcom/netease/cloudmusic/service/PlayService$43; interface 226 'Landroid/media/RemoteControlClient$OnGetPlaybackPositionListener;'
+
+[ 12-13 23:46:32.983  5185: 5185 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$43;' failed
+
+[ 12-13 23:46:32.983  5185: 5185 D/dalvikvm ]
+DexOpt: unable to opt direct call 0xa3f3 at 0x1ab in Lcom/netease/cloudmusic/service/PlayService;.au
+
+[ 12-13 23:46:32.983  5185: 5185 I/dalvikvm ]
+Failed resolving Lcom/netease/cloudmusic/service/PlayService$45; interface 227 'Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener;'
+
+[ 12-13 23:46:32.983  5185: 5185 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$45;' failed
+
+[ 12-13 23:46:32.983  5185: 5185 D/dalvikvm ]
+DexOpt: unable to opt direct call 0xa3f7 at 0x1b5 in Lcom/netease/cloudmusic/service/PlayService;.au
+
+[ 12-13 23:46:33.007  5185: 5185 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-13 23:46:33.011  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2843K, 13% free 27475K/31412K, paused 12ms+1ms, total 83ms
+
+[ 12-13 23:46:33.011  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 10ms
+
+[ 12-13 23:46:33.035  5185: 5185 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-13 23:46:33.035  5185: 5269 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-13 23:46:33.091  5185: 5236 D/com.netease.cloudmusic.utils.u ]
+183ms on url: http://music.163.com/eapi/batch
+
+[ 12-13 23:46:33.151  5185: 5271 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-13 23:46:33.191  5185: 5185 D/PlayService ]
+in onBind
+
+[ 12-13 23:46:33.223  5185: 5269 D/com.netease.cloudmusic.utils.u ]
+165ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-13 23:46:33.227  5185: 5269 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-13 23:46:33.259  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.CheckBox.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-13 23:46:33.259  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-13 23:46:33.259  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-13 23:46:33.259  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.EditText.setBackgroundTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-13 23:46:33.259  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-13 23:46:33.259  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0018
+
+[ 12-13 23:46:33.259  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.ProgressBar.setProgressTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-13 23:46:33.259  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-13 23:46:33.259  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x000a
+
+[ 12-13 23:46:33.267  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.RadioButton.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-13 23:46:33.267  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-13 23:46:33.267  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-13 23:46:33.355  5185: 5233 D/com.netease.cloudmusic.utils.u ]
+107ms on url: http://music.163.com/eapi/ad
+
+[ 12-13 23:46:33.691  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 5036K, 23% free 24477K/31412K, paused 16ms+1ms, total 108ms
+
+[ 12-13 23:46:33.691  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 92ms
+
+[ 12-13 23:46:33.875  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1417K, 21% free 24880K/31412K, paused 69ms, total 70ms
+
+[ 12-13 23:46:33.887  5185: 5233 D/com.netease.cloudmusic.utils.u ]
+146ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-13 23:46:34.011  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1581K, 20% free 25345K/31412K, paused 12ms+1ms, total 52ms
+
+[ 12-13 23:46:34.011  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-13 23:46:34.075  5185: 5236 D/com.netease.cloudmusic.utils.u ]
+334ms on url: http://music.163.com/eapi/batch
+
+[ 12-13 23:46:34.079  5185: 5283 D/com.netease.cloudmusic.utils.u ]
+267ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-13 23:46:34.087  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:46:34.263  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.CompoundButton.drawableHotspotChanged, referenced from method android.support.v7.widget.SwitchCompat.drawableHotspotChanged
+
+[ 12-13 23:46:34.263  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-13 23:46:34.263  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6f at 0x0006
+
+[ 12-13 23:46:34.407  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1299K, 17% free 26094K/31412K, paused 28ms+1ms, total 96ms
+
+[ 12-13 23:46:34.407  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 56ms
+
+[ 12-13 23:46:34.407  5185: 5278 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-13 23:46:34.415  5185: 5236 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 42ms
+
+[ 12-13 23:46:34.415  5185: 5283 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-13 23:46:34.419  5185: 5233 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 26ms
+
+[ 12-13 23:46:34.419  5185: 5284 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-13 23:46:34.419  5185: 5284 D/com.netease.cloudmusic.utils.u ]
+530ms on url: http://music.163.com/eapi/batch
+
+[ 12-13 23:46:34.539  5185: 5185 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-13 23:46:34.539  5185: 5185 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-13 23:46:34.587  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:46:34.587  5185: 5185 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@53e54f14:onReceive msg count is 1 follow count0
+
+[ 12-13 23:46:34.607  5185: 5185 I/Choreographer ]
+Skipped 68 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 23:46:34.723  5185: 5235 D/com.netease.cloudmusic.utils.u ]
+145ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-13 23:46:34.755  5185: 5185 I/MusicActivityBase ]
+onReceive msg count is 1 follow count0
+
+[ 12-13 23:46:34.779  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:46:34.859  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1756K, 17% free 26385K/31412K, paused 27ms+3ms, total 75ms
+
+[ 12-13 23:46:34.859  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+
+[ 12-13 23:46:34.863  5185: 5233 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-13 23:46:34.867  5185: 5283 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-13 23:46:34.867  5185: 5278 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-13 23:46:34.899  5185: 5284 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 47ms
+
+[ 12-13 23:46:35.123  5185: 5278 D/AudioMetaIO ]
+supportMediaFormat:m4a,awb,aac,ota,mp3,wav,m3u8,xmf,pls,oga,mxmf,flac,mpga,smf,rtttl,mka,rtx,imy
+
+[ 12-13 23:46:35.299  5185: 5235 D/com.netease.cloudmusic.utils.u ]
+196ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-13 23:46:35.303  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1921K, 16% free 26422K/31412K, paused 8ms+2ms, total 87ms
+
+[ 12-13 23:46:35.303  5185: 5239 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 68ms
+
+[ 12-13 23:46:36.287  5185: 5293 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libmemchunk.so 0xa6972810
+
+[ 12-13 23:46:36.303  5185: 5293 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libmemchunk.so 0xa6972810
+
+[ 12-13 23:46:37.383  5185: 5239 D/dalvikvm ]
+GC_FOR_ALLOC freed 1529K, 15% free 26785K/31412K, paused 45ms, total 45ms
+
+[ 12-13 23:46:37.603  5185: 5293 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.facebook.imageutils.BitmapUtil.getSizeInBytes
+
+[ 12-13 23:46:37.603  5185: 5293 W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 23:46:37.603  5185: 5293 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x000a
+
+[ 12-13 23:46:37.839  5185: 5297 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.facebook.imagepipeline.nativecode.Bitmaps.reconfigureBitmap
+
+[ 12-13 23:46:37.839  5185: 5297 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 23:46:37.839  5185: 5297 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0000
+
+[ 12-13 23:46:37.855  5185: 5297 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libbitmaps.so 0xa6972810
+
+[ 12-13 23:46:37.995  5185: 5297 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libbitmaps.so 0xa6972810
+
+[ 12-13 23:46:38.155  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1529K, 14% free 27277K/31412K, paused 21ms+1ms, total 85ms
+
+[ 12-13 23:46:38.471  5185: 5284 D/com.netease.cloudmusic.utils.u ]
+180ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-13 23:46:38.767  5185: 5239 D/com.netease.cloudmusic.utils.u ]
+60ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-13 23:46:44.887  5185: 5222 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libwakeup.so 0xa6972810
+
+[ 12-13 23:46:44.939  5185: 5222 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libwakeup.so 0xa6972810
+
+[ 12-13 23:46:44.939  5185: 5222 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/libwakeup.so 0xa6972810, skipping init
+
+[ 12-13 23:46:45.543  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1801K, 13% free 27524K/31400K, paused 30ms+11ms, total 87ms
+
+[ 12-13 23:46:45.543  5185: 5222 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 37ms
+
+[ 12-13 23:46:45.551  5185: 5290 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-13 23:47:37.051  5185: 5185 I/dalvikvm ]
+Could not find method android.view.ViewGroup.<init>, referenced from method com.afollestad.materialdialogs.internal.MDRootLayout.<init>
+
+[ 12-13 23:47:37.051  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve direct method 16321: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-13 23:47:37.051  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0001
+
+[ 12-13 23:47:37.059  5185: 5185 I/dalvikvm ]
+Could not find method android.widget.TextView.<init>, referenced from method com.afollestad.materialdialogs.internal.MDButton.<init>
+
+[ 12-13 23:47:37.059  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve direct method 17443: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-13 23:47:37.059  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:210)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.c(ProGuard:336)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.a(ProGuard:29)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.module.g.i$2.b(ProGuard:165)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:198)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:21)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.netease.cloudmusic.d.w.onPostExecute(ProGuard:188)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.os.AsyncTask.finish(AsyncTask.java:631)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:644)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5069)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+
+[ 12-13 23:47:37.071  5185: 5185 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-13 23:47:37.171  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:47:40.391  5185: 5185 I/dalvikvm ]
+Could not find method android.view.Window.getSharedElementEnterTransition, referenced from method com.netease.cloudmusic.activity.PlayListActivity.T
+
+[ 12-13 23:47:40.391  5185: 5185 W/dalvikvm ]
+VFY: unable to resolve virtual method 16458: Landroid/view/Window;.getSharedElementEnterTransition ()Landroid/transition/Transition;
+
+[ 12-13 23:47:40.391  5185: 5185 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0004
+
+[ 12-13 23:47:40.403  5185: 5185 I/dalvikvm ]
+Failed resolving Lcom/netease/cloudmusic/activity/PlayListActivity$1; interface 1913 'Landroid/transition/Transition$TransitionListener;'
+
+[ 12-13 23:47:40.403  5185: 5185 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/activity/PlayListActivity$1;' failed
+
+[ 12-13 23:47:40.403  5185: 5185 D/dalvikvm ]
+DexOpt: unable to opt direct call 0x66f6 at 0x11 in Lcom/netease/cloudmusic/activity/PlayListActivity;.T
+
+[ 12-13 23:47:40.815  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2095K, 13% free 27428K/31400K, paused 51ms+2ms, total 160ms
+
+[ 12-13 23:47:40.815  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 74ms
+
+[ 12-13 23:47:40.899  5185: 5185 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-13 23:47:40.955  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:47:41.071  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:47:41.187  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:47:41.503  5185: 5372 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.netease.cloudmusic-1/libblur.so 0xa6972810
+
+[ 12-13 23:47:41.523  5185: 5372 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libblur.so 0xa6972810
+
+[ 12-13 23:47:41.523  5185: 5372 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/libblur.so 0xa6972810, skipping init
+
+[ 12-13 23:47:41.763  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1352K, 11% free 28000K/31400K, paused 19ms+1ms, total 53ms
+
+[ 12-13 23:47:41.775  5185: 5370 D/com.netease.cloudmusic.utils.u ]
+337ms on url: http://music.163.com/eapi/v3/playlist/detail?id=112389427&t=0&n=1000&s=5
+
+[ 12-13 23:47:42.023  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 201K, 11% free 28258K/31400K, paused 41ms, total 41ms
+
+[ 12-13 23:47:42.039  5185: 5370 I/dalvikvm-heap ]
+Grow heap (frag case) to 28.041MB for 350148-byte allocation
+
+[ 12-13 23:47:42.083  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 28599K/31744K, paused 45ms, total 45ms
+
+[ 12-13 23:47:42.151  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 171K, 11% free 28428K/31744K, paused 67ms, total 68ms
+
+[ 12-13 23:47:42.151  5185: 5185 I/MusicActivityBase ]
+onReceive msg count is 1 follow count0
+
+[ 12-13 23:47:42.191  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 345K, 11% free 28306K/31744K, paused 39ms, total 39ms
+
+[ 12-13 23:47:42.195  5185: 5370 I/dalvikvm-heap ]
+Grow heap (frag case) to 28.185MB for 452210-byte allocation
+
+[ 12-13 23:47:42.251  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 11% free 28747K/32188K, paused 55ms, total 55ms
+
+[ 12-13 23:47:42.319  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 11% free 28748K/32188K, paused 46ms, total 48ms
+
+[ 12-13 23:47:42.335  5185: 5370 I/dalvikvm-heap ]
+Grow heap (frag case) to 28.587MB for 421330-byte allocation
+
+[ 12-13 23:47:42.379  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 663K, 13% free 28496K/32600K, paused 39ms, total 40ms
+
+[ 12-13 23:47:42.579  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 814K, 9% free 29723K/32600K, paused 19ms+4ms, total 56ms
+
+[ 12-13 23:47:42.707  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1447K, 8% free 30310K/32600K, paused 11ms+2ms, total 52ms
+
+[ 12-13 23:47:42.819  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1792K, 7% free 30501K/32600K, paused 9ms+2ms, total 50ms
+
+[ 12-13 23:47:42.947  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3907K, 13% free 28630K/32668K, paused 10ms+1ms, total 56ms
+
+[ 12-13 23:47:42.947  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+
+[ 12-13 23:47:42.951  5185: 5296 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-13 23:47:42.951  5185: 5301 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-13 23:47:43.339  5185: 5301 D/dalvikvm ]
+GC_FOR_ALLOC freed 608K, 12% free 28835K/32668K, paused 53ms, total 53ms
+
+[ 12-13 23:47:46.671  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 648K, 12% free 28927K/32668K, paused 80ms, total 81ms
+
+[ 12-13 23:47:46.739  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 36K, 12% free 28929K/32668K, paused 63ms, total 63ms
+
+[ 12-13 23:47:46.831  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 30.866MB for 2624412-byte allocation
+
+[ 12-13 23:47:46.895  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 11% free 31492K/35232K, paused 59ms, total 59ms
+
+[ 12-13 23:47:46.967  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 14K, 11% free 31493K/35232K, paused 13ms+3ms, total 69ms
+
+[ 12-13 23:47:46.967  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 53ms
+
+[ 12-13 23:47:47.011  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 31.979MB for 1166412-byte allocation
+
+[ 12-13 23:47:47.083  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 11% free 32631K/36372K, paused 57ms, total 57ms
+
+[ 12-13 23:47:47.131  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 2564K, 18% free 30075K/36372K, paused 45ms, total 46ms
+
+[ 12-13 23:47:47.175  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1101K, 16% free 30565K/36372K, paused 36ms, total 37ms
+
+[ 12-13 23:47:47.239  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 32.426MB for 2585676-byte allocation
+
+[ 12-13 23:47:47.303  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 33090K/38900K, paused 62ms, total 62ms
+
+[ 12-13 23:47:47.355  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 15% free 33089K/38900K, paused 18ms+1ms, total 53ms
+
+[ 12-13 23:47:47.355  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-13 23:47:47.379  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 33.522MB for 1149196-byte allocation
+
+[ 12-13 23:47:47.423  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 34211K/40024K, paused 43ms, total 43ms
+
+[ 12-13 23:47:47.479  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3623K, 19% free 32628K/40024K, paused 15ms+2ms, total 46ms
+
+[ 12-13 23:47:47.479  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 31ms
+
+[ 12-13 23:47:47.495  5185: 5185 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-13 23:47:47.551  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1584K, 18% free 32936K/40024K, paused 37ms, total 38ms
+
+[ 12-13 23:47:47.607  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1313K, 17% free 33544K/40024K, paused 12ms+1ms, total 40ms
+
+[ 12-13 23:47:47.607  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 28ms
+
+[ 12-13 23:47:47.671  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1332K, 15% free 34246K/40024K, paused 16ms+1ms, total 48ms
+
+[ 12-13 23:47:47.671  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 33ms
+
+[ 12-13 23:47:47.671  5185: 5185 D/PlayerActivityBase ]
+onResume()
+
+[ 12-13 23:47:47.687  5185: 5271 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-13 23:47:47.691  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:47:47.763  5185: 5271 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-13 23:47:47.771  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:47:47.803  5185: 5271 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 258
+
+[ 12-13 23:47:47.839  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:Silent Love (Main Theme),25942063
+
+[ 12-13 23:47:47.855  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:47:47.855  5185: 5271 D/PlayService ]
+downloadSpeed:2147483647
+
+[ 12-13 23:47:47.859  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:47:47.859  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:47:47.867  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:47:47.867  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:47:47.875  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?25942063&192000&4899152&192000&0&0&412400&291000,false
+
+[ 12-13 23:47:47.895  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:47:48.079  5185: 5389 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@53f09a30
+
+[ 12-13 23:47:48.079  5185: 5389 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?25942063&192000&4899152&192000&0&0&412400&291000 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:47:48.079  5185: 5389 D/MusicProxy ]
+getPlaySongUrlInfo:25942063,0,0
+
+[ 12-13 23:47:48.239  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1582K, 14% free 34712K/40024K, paused 28ms+1ms, total 148ms
+
+[ 12-13 23:47:48.239  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 125ms
+
+[ 12-13 23:47:48.243  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 38ms
+
+[ 12-13 23:47:48.251  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 83ms
+
+[ 12-13 23:47:48.267  5185: 5370 D/com.netease.cloudmusic.utils.u ]
+413ms on url: http://music.163.com/eapi/playlist/update/playcount?id=112389427
+
+[ 12-13 23:47:48.319  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:47:48.359  5185: 5389 D/com.netease.cloudmusic.utils.u ]
+244ms on url: http://music.163.com/eapi/song/enhance/player/url?br=192000&ids=%5B%2225942063_0%22%2C%224899152_0%22%5D
+
+[ 12-13 23:47:48.387  5185: 5389 D/MusicProxy ]
+filePart:25942063,192000,FilePart:
+
+[ 12-13 23:47:48.391  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@bf64e845,0,0
+
+[ 12-13 23:47:48.427  5185: 5389 D/MusicProxy ]
+download part:0,9899406
+
+[ 12-13 23:47:48.439  5185: 5389 D/MusicProxy ]
+getDataFromServer:0,9899405
+
+[ 12-13 23:47:48.439  5185: 5389 D/MusicProxy ]
+getDataFromServer, start request server:http://m9.music.126.net/20151214001248/d7b24c6cce202da21cf8fb08bb99a636/ymusic/0c78/8f3d/c7f6/3db3f3ed0fabb0c198ae53a911fb4b3d.mp3,0,9899405,192000
+
+[ 12-13 23:47:48.583  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1923K, 13% free 34836K/40024K, paused 43ms+3ms, total 179ms
+
+[ 12-13 23:47:48.583  5185: 5271 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 136ms
+
+[ 12-13 23:47:48.587  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 117ms
+
+[ 12-13 23:47:48.591  5185: 5229 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 117ms
+
+[ 12-13 23:47:48.591  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 118ms
+
+[ 12-13 23:47:48.595  5185: 5195 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 111ms
+
+[ 12-13 23:47:48.595  5185: 5196 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 107ms
+
+[ 12-13 23:47:48.595  5185: 5392 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 96ms
+
+[ 12-13 23:47:48.599  5185: 5296 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 148ms
+
+[ 12-13 23:47:48.783  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1748K, 13% free 35135K/40024K, paused 18ms+2ms, total 53ms
+
+[ 12-13 23:47:48.783  5185: 5271 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 37ms
+
+[ 12-13 23:47:48.787  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 41ms
+
+[ 12-13 23:47:48.791  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 41ms
+
+[ 12-13 23:47:48.791  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 42ms
+
+[ 12-13 23:47:48.791  5185: 5293 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 43ms
+
+[ 12-13 23:47:48.791  5185: 5229 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 36ms
+
+[ 12-13 23:47:48.951  5185: 5229 D/com.netease.cloudmusic.utils.u ]
+158ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[25942063]&resourceType=4&fixliked=true
+
+[ 12-13 23:47:49.551  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2132K, 13% free 35051K/40024K, paused 53ms+3ms, total 285ms
+
+[ 12-13 23:47:49.551  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 114ms
+
+[ 12-13 23:47:49.559  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 99ms
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:210)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.R(ProGuard:1415)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.b(ProGuard:1319)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.a(ProGuard:155)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService$18.run(ProGuard:1262)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:725)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-13 23:47:49.927  5185: 5270 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:60)
+
+[ 12-13 23:47:49.927  5185: 5185 D/PlayService ]
+play music:Silent Love (Main Theme),久石譲
+
+[ 12-13 23:47:51.419  5185: 5270 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.netease.cloudmusic.utils.j.a
+
+[ 12-13 23:47:51.419  5185: 5270 W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 23:47:51.419  5185: 5270 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x000a
+
+[ 12-13 23:47:52.239  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1812K, 12% free 35273K/40024K, paused 76ms+30ms, total 320ms
+
+[ 12-13 23:47:52.903  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 375K, 13% free 35213K/40024K, paused 66ms, total 70ms
+
+[ 12-13 23:47:53.023  5185: 5372 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.062MB for 1638412-byte allocation
+
+[ 12-13 23:47:53.071  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 12% free 36811K/41628K, paused 50ms, total 50ms
+
+[ 12-13 23:47:56.751  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2004K, 12% free 36855K/41628K, paused 39ms+2ms, total 172ms
+
+[ 12-13 23:47:56.755  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-13 23:48:00.303  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2023K, 12% free 36899K/41628K, paused 43ms+1ms, total 243ms
+
+[ 12-13 23:48:04.299  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2063K, 12% free 36884K/41628K, paused 54ms+39ms, total 337ms
+
+[ 12-13 23:48:04.299  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 34ms
+
+[ 12-13 23:48:04.315  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 47ms
+
+[ 12-13 23:48:07.319  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:48:07.319  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:48:07.319  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:48:07.319  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:48:07.327  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:Merry Christmas Mr. Lawrence,4899152
+
+[ 12-13 23:48:07.351  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:48:07.355  5185: 5271 D/PlayService ]
+downloadSpeed:1442086
+
+[ 12-13 23:48:07.359  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:48:07.359  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:48:07.395  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:48:07.395  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:48:07.407  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?4899152&192000&591882&192000&0&0&291000&338651,false
+
+[ 12-13 23:48:07.463  5185: 5370 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@53676158
+
+[ 12-13 23:48:07.507  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2006K, 12% free 36930K/41628K, paused 42ms+8ms, total 180ms
+
+[ 12-13 23:48:07.507  5185: 5389 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 38ms
+
+[ 12-13 23:48:07.507  5185: 5370 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 44ms
+
+[ 12-13 23:48:07.507  5185: 5370 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?4899152&192000&591882&192000&0&0&291000&338651 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:48:07.507  5185: 5370 D/MusicProxy ]
+getPlaySongUrlInfo:4899152,0,2
+
+[ 12-13 23:48:07.507  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-13 23:48:07.511  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+java.net.SocketException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.maybeThrowAfterSendto(IoBridge.java:506)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:475)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl.write(PlainSocketImpl.java:507)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl.access$100(PlainSocketImpl.java:46)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketOutputStream.write(PlainSocketImpl.java:269)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.b(ProGuard:625)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:525)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:516)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.run(ProGuard:427)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+Caused by: libcore.io.ErrnoException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.Posix.sendtoBytes(Native Method)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.Posix.sendto(Posix.java:151)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.BlockGuardOs.sendto(BlockGuardOs.java:177)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:473)
+
+[ 12-13 23:48:07.639  5185: 5389 W/System.err ]
+	... 12 more
+
+[ 12-13 23:48:07.639  5185: 5389 D/MusicProxy ]
+getDataFromServer SocketException:ProxyThread#com.netease.cloudmusic.utils.an@53f09a30
+
+[ 12-13 23:48:07.647  5185: 5389 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@53f09a30
+
+[ 12-13 23:48:07.651  5185: 5370 D/MusicProxy ]
+filePart:4899152,192000,FilePart:
+
+[ 12-13 23:48:07.675  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@71603367,0,0
+
+[ 12-13 23:48:07.731  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:48:07.803  5185: 5370 D/MusicProxy ]
+download part:0,6990582
+
+[ 12-13 23:48:07.807  5185: 5370 D/MusicProxy ]
+getDataFromServer:0,6990581
+
+[ 12-13 23:48:07.835  5185: 5370 D/MusicProxy ]
+getDataFromServer, start request server:http://m9.music.126.net/20151214001248/fa5da0f33a6ddae6add27abe4f499b2e/ymusic/6753/e0ae/ea67/4121a1986fb917e87b8c3f0ef4208ca8.mp3,0,6990581,192000
+
+[ 12-13 23:48:08.823  5185: 5243 D/com.netease.cloudmusic.utils.u ]
+202ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[4899152]&resourceType=4&fixliked=true
+
+[ 12-13 23:48:08.983  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1911K, 12% free 37013K/41628K, paused 35ms+2ms, total 95ms
+
+[ 12-13 23:48:08.983  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 75ms
+
+[ 12-13 23:48:09.735  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:48:09.735  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:48:09.735  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:48:09.735  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:48:09.739  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:月の茧(奥井亜纪),591882
+
+[ 12-13 23:48:09.751  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:48:09.763  5185: 5271 D/PlayService ]
+downloadSpeed:144398
+
+[ 12-13 23:48:09.771  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:48:09.771  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:48:09.779  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:48:09.779  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:48:09.791  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?591882&192000&636907&192000&0&0&338651&247013,false
+
+[ 12-13 23:48:09.819  5185: 5389 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@5369585c
+
+[ 12-13 23:48:09.819  5185: 5389 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?591882&192000&636907&192000&0&0&338651&247013 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:48:09.819  5185: 5389 D/MusicProxy ]
+getPlaySongUrlInfo:591882,0,2
+
+[ 12-13 23:48:09.951  5185: 5389 D/com.netease.cloudmusic.utils.u ]
+128ms on url: http://music.163.com/eapi/song/enhance/player/url?br=192000&ids=%5B%22591882_0%22%2C%22636907_0%22%5D
+
+[ 12-13 23:48:09.959  5185: 5389 D/MusicProxy ]
+filePart:591882,192000,FilePart:
+
+[ 12-13 23:48:09.979  5185: 5389 D/MusicProxy ]
+download part:0,8128931
+
+[ 12-13 23:48:09.979  5185: 5389 D/MusicProxy ]
+getDataFromServer:0,8128930
+
+[ 12-13 23:48:09.987  5185: 5389 D/MusicProxy ]
+getDataFromServer, start request server:http://m7.music.126.net/20151214001309/e39deaf9a80a23852a4b436bc0f824a6/ymusic/e49d/051f/0603/240f3423a14cde25c1e0637ff65ebf82.mp3,0,8128930,192000
+
+[ 12-13 23:48:09.991  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@33617104,0,0
+
+[ 12-13 23:48:10.127  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1707K, 11% free 37148K/41628K, paused 90ms, total 90ms
+
+[ 12-13 23:48:10.171  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+java.net.SocketException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.IoBridge.maybeThrowAfterSendto(IoBridge.java:506)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:475)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.net.PlainSocketImpl.write(PlainSocketImpl.java:507)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.net.PlainSocketImpl.access$100(PlainSocketImpl.java:46)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketOutputStream.write(PlainSocketImpl.java:269)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at com.netease.cloudmusic.utils.an.b(ProGuard:625)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:525)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:516)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at com.netease.cloudmusic.utils.an.run(ProGuard:427)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+Caused by: libcore.io.ErrnoException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.Posix.sendtoBytes(Native Method)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.Posix.sendto(Posix.java:151)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.BlockGuardOs.sendto(BlockGuardOs.java:177)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:473)
+
+[ 12-13 23:48:10.187  5185: 5370 W/System.err ]
+	... 12 more
+
+[ 12-13 23:48:10.187  5185: 5370 D/MusicProxy ]
+getDataFromServer SocketException:ProxyThread#com.netease.cloudmusic.utils.an@53676158
+
+[ 12-13 23:48:10.355  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 598K, 12% free 36929K/41628K, paused 113ms, total 114ms
+
+[ 12-13 23:48:10.371  5185: 5372 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.622MB for 467868-byte allocation
+
+[ 12-13 23:48:10.419  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 12% free 37385K/42088K, paused 47ms, total 47ms
+
+[ 12-13 23:48:10.435  5185: 5370 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@53676158
+
+[ 12-13 23:48:10.587  5185: 5246 D/com.netease.cloudmusic.utils.u ]
+159ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[591882]&resourceType=4&fixliked=true
+
+[ 12-13 23:48:11.195  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:48:11.195  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:48:11.195  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:48:11.195  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:48:11.199  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:兄弟,636907
+
+[ 12-13 23:48:11.203  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:48:11.207  5185: 5271 D/PlayService ]
+downloadSpeed:721994
+
+[ 12-13 23:48:11.207  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:48:11.207  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:48:11.215  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:48:11.215  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:48:11.227  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?636907&192000&632190&192000&0&0&247013&110106,false
+
+[ 12-13 23:48:11.259  5185: 5370 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@53748770
+
+[ 12-13 23:48:11.259  5185: 5370 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?636907&192000&632190&192000&0&0&247013&110106 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:48:11.259  5185: 5370 D/MusicProxy ]
+getPlaySongUrlInfo:636907,0,4
+
+[ 12-13 23:48:11.307  5185: 5370 D/MusicProxy ]
+filePart:636907,192000,FilePart:
+
+[ 12-13 23:48:11.331  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@befa3b0d,0,0
+
+[ 12-13 23:48:11.511  5185: 5370 D/MusicProxy ]
+download part:0,5924614
+
+[ 12-13 23:48:11.531  5185: 5370 D/MusicProxy ]
+getDataFromServer:0,5924613
+
+[ 12-13 23:48:11.547  5185: 5370 D/MusicProxy ]
+getDataFromServer, start request server:http://m8.music.126.net/20151214001309/c2093c81b3b6e0ca81ade6dacdeb29b0/ymusic/b43b/4589/94d4/c8484edfa5095b43db51ed58c7577148.mp3,0,5924613,192000
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+java.net.SocketException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.maybeThrowAfterSendto(IoBridge.java:506)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:475)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl.write(PlainSocketImpl.java:507)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl.access$100(PlainSocketImpl.java:46)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketOutputStream.write(PlainSocketImpl.java:269)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.b(ProGuard:625)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:525)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.a(ProGuard:516)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at com.netease.cloudmusic.utils.an.run(ProGuard:427)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+Caused by: libcore.io.ErrnoException: sendto failed: ECONNRESET (Connection reset by peer)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.Posix.sendtoBytes(Native Method)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.Posix.sendto(Posix.java:151)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.BlockGuardOs.sendto(BlockGuardOs.java:177)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	at libcore.io.IoBridge.sendto(IoBridge.java:473)
+
+[ 12-13 23:48:11.567  5185: 5389 W/System.err ]
+	... 12 more
+
+[ 12-13 23:48:11.567  5185: 5389 D/MusicProxy ]
+getDataFromServer SocketException:ProxyThread#com.netease.cloudmusic.utils.an@5369585c
+
+[ 12-13 23:48:11.571  5185: 5389 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@5369585c
+
+[ 12-13 23:48:11.607  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1810K, 11% free 37615K/42088K, paused 22ms+11ms, total 147ms
+
+[ 12-13 23:48:11.607  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 126ms
+
+[ 12-13 23:48:11.635  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:48:12.355  5185: 5239 D/com.netease.cloudmusic.utils.u ]
+120ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[636907]&resourceType=4&fixliked=true
+
+[ 12-13 23:48:13.299  5185: 5185 D/PlayService ]
+play music:兄弟,大島ミチル
+
+[ 12-13 23:48:13.583  5185: 5270 D/dalvikvm ]
+GC_FOR_ALLOC freed 2196K, 12% free 37264K/42088K, paused 62ms, total 62ms
+
+[ 12-13 23:48:13.591  5185: 5270 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.893MB for 409612-byte allocation
+
+[ 12-13 23:48:13.643  5185: 5270 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 12% free 37661K/42492K, paused 49ms, total 50ms
+
+[ 12-13 23:48:15.203  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:15.203  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:48:15.487  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:48:15.903  5185: 5185 D/PlayerActivityBase ]
+onStop()
+
+[ 12-13 23:48:15.907  5185: 5185 D/PlayerActivityBase ]
+in onDestroy
+
+[ 12-13 23:48:16.083  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 587K, 12% free 37664K/42492K, paused 41ms, total 42ms
+
+[ 12-13 23:48:16.115  5185: 5372 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.456MB for 1638412-byte allocation
+
+[ 12-13 23:48:16.155  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 6K, 11% free 39258K/44096K, paused 40ms, total 40ms
+
+[ 12-13 23:48:17.779  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3499K, 15% free 37679K/44076K, paused 11ms+2ms, total 51ms
+
+[ 12-13 23:48:18.399  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:18.407  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:48:18.559  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:48:19.959  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1961K, 15% free 37657K/44076K, paused 9ms+4ms, total 55ms
+
+[ 12-13 23:48:21.915  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 9087K, 33% free 29817K/44076K, paused 91ms, total 95ms
+
+[ 12-13 23:48:21.915  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 31.733MB for 2624412-byte allocation
+
+[ 12-13 23:48:22.019  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 27% free 32378K/44076K, paused 101ms, total 101ms
+
+[ 12-13 23:48:22.123  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 39K, 24% free 33505K/44076K, paused 32ms+4ms, total 105ms
+
+[ 12-13 23:48:22.123  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 54ms
+
+[ 12-13 23:48:22.259  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 3664K, 29% free 31430K/44076K, paused 110ms, total 111ms
+
+[ 12-13 23:48:22.263  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 33.271MB for 2585676-byte allocation
+
+[ 12-13 23:48:22.359  5185: 5370 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 23% free 33954K/44076K, paused 94ms, total 94ms
+
+[ 12-13 23:48:22.467  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 17K, 21% free 35080K/44076K, paused 31ms+3ms, total 105ms
+
+[ 12-13 23:48:22.467  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 74ms
+
+[ 12-13 23:48:22.607  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3634K, 25% free 33493K/44076K, paused 28ms+1ms, total 98ms
+
+[ 12-13 23:48:22.607  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 70ms
+
+[ 12-13 23:48:22.631  5185: 5370 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 49ms
+
+[ 12-13 23:48:22.655  5185: 5185 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-13 23:48:22.779  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1599K, 24% free 33789K/44076K, paused 86ms, total 87ms
+
+[ 12-13 23:48:22.903  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1314K, 22% free 34417K/44076K, paused 24ms+3ms, total 77ms
+
+[ 12-13 23:48:22.903  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 53ms
+
+[ 12-13 23:48:22.939  5185: 5185 D/PlayerActivityBase ]
+onResume()
+
+[ 12-13 23:48:23.023  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1339K, 21% free 35124K/44076K, paused 22ms+3ms, total 98ms
+
+[ 12-13 23:48:23.023  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 81ms
+
+[ 12-13 23:48:23.067  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 856K, 21% free 34997K/44076K, paused 43ms, total 43ms
+
+[ 12-13 23:48:23.071  5185: 5370 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 62ms
+
+[ 12-13 23:48:23.079  5185: 5193 W/unknown:CloseableReference ]
+Finalized without closing: 539d4b2c 53ac05f0 (type = CloseableStaticBitmap)
+
+[ 12-13 23:48:23.079  5185: 5193 W/unknown:CloseableReference ]
+Finalized without closing: 537cda10 537ef96c (type = CloseableStaticBitmap)
+
+[ 12-13 23:48:23.079  5185: 5193 W/unknown:CloseableReference ]
+Finalized without closing: 537256e8 5372b8c8 (type = CloseableStaticBitmap)
+
+[ 12-13 23:48:23.079  5185: 5193 W/unknown:CloseableReference ]
+Finalized without closing: 5373f6a8 53740878 (type = CloseableStaticBitmap)
+
+[ 12-13 23:48:23.079  5185: 5193 W/unknown:CloseableReference ]
+Finalized without closing: 534d75c8 534db520 (type = CloseableStaticBitmap)
+
+[ 12-13 23:48:23.099  5185: 5271 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-13 23:48:23.099  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:48:23.147  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:23.151  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:48:23.383  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1297K, 19% free 35715K/44076K, paused 17ms+1ms, total 65ms
+
+[ 12-13 23:48:23.383  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 50ms
+
+[ 12-13 23:48:25.939  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1860K, 19% free 35801K/44076K, paused 47ms+1ms, total 186ms
+
+[ 12-13 23:48:26.103  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:28.339  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1731K, 19% free 36024K/44076K, paused 22ms+13ms, total 112ms
+
+[ 12-13 23:48:28.491  5185: 5370 D/MusicProxy ]
+getPlaySongUrlInfo:632190,0,4
+
+[ 12-13 23:48:28.671  5185: 5370 D/com.netease.cloudmusic.utils.u ]
+167ms on url: http://music.163.com/eapi/song/enhance/player/url?br=192000&ids=%5B%22632190_0%22%5D
+
+[ 12-13 23:48:28.675  5185: 5370 D/MusicProxy ]
+get nextId data:632190,192000,f63481a1b7a36a373f81986c7ffa5011,0,192000
+
+[ 12-13 23:48:28.691  5185: 5370 D/MusicProxy ]
+getDataFromServer:0,479999
+
+[ 12-13 23:48:28.691  5185: 5370 D/MusicProxy ]
+getDataFromServer, start request server:http://m7.music.126.net/20151214001328/68f741036fbb85f5a54a511ba96a3f44/ymusic/ddfc/c646/a82b/f63481a1b7a36a373f81986c7ffa5011.mp3,0,479999,192000
+
+[ 12-13 23:48:30.275  5185: 5370 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@53748770
+
+[ 12-13 23:48:30.987  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:30.987  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:48:31.119  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:48:31.555  5185: 5185 D/PlayerActivityBase ]
+onStop()
+
+[ 12-13 23:48:31.555  5185: 5185 D/PlayerActivityBase ]
+in onDestroy
+
+[ 12-13 23:48:33.227  5185: 5269 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-13 23:48:33.399  5185: 5269 D/com.netease.cloudmusic.utils.u ]
+162ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-13 23:48:33.399  5185: 5269 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-13 23:48:33.491  5185: 5224 W/DebugConnManager ]
+getNetworkInfo() on networkType 1
+
+[ 12-13 23:48:33.495  5185: 5224 W/DebugConnManager ]
+getNetworkInfo() on networkType 0
+
+[ 12-13 23:48:40.935  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:48:41.067  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1873K, 15% free 36125K/42476K, paused 17ms+4ms, total 117ms
+
+[ 12-13 23:48:47.799  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Log:1450021727804
+
+[ 12-13 23:48:50.111  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1450021730112
+
+[ 12-13 23:48:50.239  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 402K, 15% free 36119K/42476K, paused 86ms, total 87ms
+
+[ 12-13 23:48:50.279  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 37.513MB for 2232012-byte allocation
+
+[ 12-13 23:48:50.323  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed 5K, 15% free 38293K/44656K, paused 44ms, total 44ms
+
+[ 12-13 23:48:50.383  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 15% free 38288K/44656K, paused 19ms+2ms, total 55ms
+
+[ 12-13 23:48:50.383  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 27ms
+
+[ 12-13 23:48:50.423  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 39.631MB for 2232012-byte allocation
+
+[ 12-13 23:48:50.463  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 40468K/46836K, paused 41ms, total 41ms
+
+[ 12-13 23:48:50.555  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2261K, 19% free 38324K/46836K, paused 20ms+10ms, total 91ms
+
+[ 12-13 23:48:59.511  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:48:59.515  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:48:59.515  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:48:59.515  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:48:59.539  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:Secret,632190
+
+[ 12-13 23:48:59.551  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:48:59.555  5185: 5271 D/PlayService ]
+downloadSpeed:3177397
+
+[ 12-13 23:48:59.567  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:48:59.571  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:48:59.583  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:48:59.583  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:48:59.611  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?632190&192000&540217&192000&0&0&110106&159346,false
+
+[ 12-13 23:48:59.679  5185: 5370 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@53ad6294
+
+[ 12-13 23:48:59.683  5185: 5370 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?632190&192000&540217&192000&0&0&110106&159346 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:48:59.683  5185: 5370 D/MusicProxy ]
+getPlaySongUrlInfo:632190,0,5
+
+[ 12-13 23:48:59.687  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@42d392d9,0,0
+
+[ 12-13 23:48:59.703  5185: 5370 D/MusicProxy ]
+filePart:632190,192000,FilePart:0-480000,
+
+[ 12-13 23:48:59.727  5185: 5370 D/MusicProxy ]
+download part:0,2642079
+
+[ 12-13 23:48:59.731  5185: 5370 D/MusicProxy ]
+getDataFromFile:0,480000
+
+[ 12-13 23:48:59.831  5185: 5370 D/MusicProxy ]
+getDataFromServer:480000,2642078
+
+[ 12-13 23:48:59.835  5185: 5370 D/MusicProxy ]
+getDataFromServer, start request server:http://m9.music.126.net/20151214001328/68f741036fbb85f5a54a511ba96a3f44/ymusic/ddfc/c646/a82b/f63481a1b7a36a373f81986c7ffa5011.mp3,480000,2642078,192000
+
+[ 12-13 23:49:00.783  5185: 5185 D/PlayService ]
+play music:Secret,岡崎律子
+
+[ 12-13 23:49:01.607  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 4398K, 15% free 35854K/41932K, paused 16ms+1ms, total 89ms
+
+[ 12-13 23:49:02.867  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Log:1450021742874
+
+[ 12-13 23:49:04.795  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1926K, 15% free 35856K/41932K, paused 19ms+4ms, total 201ms
+
+[ 12-13 23:49:05.275  5185: 5370 D/MusicProxy ]
+getPlaySongUrlInfo:540217,0,5
+
+[ 12-13 23:49:05.411  5185: 5370 D/com.netease.cloudmusic.utils.u ]
+132ms on url: http://music.163.com/eapi/song/enhance/player/url?br=192000&ids=%5B%22540217_0%22%5D
+
+[ 12-13 23:49:05.415  5185: 5370 D/MusicProxy ]
+get nextId data:540217,192000,63fbaf5d0d786a5f943d4bd4db23b338,0,192000
+
+[ 12-13 23:49:05.423  5185: 5370 D/MusicProxy ]
+getDataFromServer:0,479999
+
+[ 12-13 23:49:05.427  5185: 5370 D/MusicProxy ]
+getDataFromServer, start request server:http://m7.music.126.net/20151214001405/2f75240b16375ee7ff4421e6e330e62d/ymusic/9945/d045/49a5/63fbaf5d0d786a5f943d4bd4db23b338.mp3,0,479999,192000
+
+[ 12-13 23:49:05.571  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:49:05.571  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:49:05.571  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:49:05.571  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:49:05.579  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:ふたりの気持ち,540217
+
+[ 12-13 23:49:05.583  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:49:05.591  5185: 5271 D/PlayService ]
+downloadSpeed:588089
+
+[ 12-13 23:49:05.591  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:49:05.591  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:49:05.603  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:49:05.603  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:49:05.611  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?540217&192000&25909149&192000&0&0&159346&192000,false
+
+[ 12-13 23:49:06.855  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Log:1450021746859
+
+[ 12-13 23:49:07.239  5185: 5370 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@53ad6294
+
+[ 12-13 23:49:07.255  5185: 5383 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@536e53d0
+
+[ 12-13 23:49:07.259  5185: 5383 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?540217&192000&25909149&192000&0&0&159346&192000 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:49:07.271  5185: 5383 D/MusicProxy ]
+getPlaySongUrlInfo:540217,0,6
+
+[ 12-13 23:49:07.291  5185: 5383 D/MusicProxy ]
+filePart:540217,192000,FilePart:0-480000,
+
+[ 12-13 23:49:07.291  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@d17472e5,0,0
+
+[ 12-13 23:49:07.315  5185: 5383 D/MusicProxy ]
+download part:0,3825739
+
+[ 12-13 23:49:07.355  5185: 5383 D/MusicProxy ]
+getDataFromFile:0,480000
+
+[ 12-13 23:49:07.539  5185: 5383 D/MusicProxy ]
+getDataFromServer:480000,3825738
+
+[ 12-13 23:49:07.551  5185: 5383 D/MusicProxy ]
+getDataFromServer, start request server:http://m7.music.126.net/20151214001405/2f75240b16375ee7ff4421e6e330e62d/ymusic/9945/d045/49a5/63fbaf5d0d786a5f943d4bd4db23b338.mp3,480000,3825738,192000
+
+[ 12-13 23:49:07.743  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 2014K, 15% free 35778K/41932K, paused 17ms+1ms, total 126ms
+
+[ 12-13 23:49:08.439  5185: 5185 D/PlayService ]
+play music:ふたりの気持ち,和田薫
+
+[ 12-13 23:49:10.111  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1941K, 15% free 35773K/41932K, paused 13ms+4ms, total 63ms
+
+[ 12-13 23:49:11.211  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1052K, 15% free 35778K/41932K, paused 86ms, total 87ms
+
+[ 12-13 23:49:11.275  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.123MB for 1123612-byte allocation
+
+[ 12-13 23:49:11.387  5185: 5383 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 15% free 36873K/43032K, paused 109ms, total 109ms
+
+[ 12-13 23:49:11.451  5185: 5185 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-13 23:49:11.659  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1973K, 15% free 36915K/43032K, paused 28ms+1ms, total 79ms
+
+[ 12-13 23:49:11.659  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 53ms
+
+[ 12-13 23:49:11.747  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1484K, 13% free 37479K/43032K, paused 19ms+1ms, total 61ms
+
+[ 12-13 23:49:11.747  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 45ms
+
+[ 12-13 23:49:11.755  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-13 23:49:11.763  5185: 5185 D/PlayerActivityBase ]
+onResume()
+
+[ 12-13 23:49:11.787  5185: 5271 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-13 23:49:11.791  5185: 5185 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-13 23:49:11.879  5185: 5185 W/EGL_emulation ]
+eglSurfaceAttrib not implemented
+
+[ 12-13 23:49:11.887  5185: 5271 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-13 23:49:12.055  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:49:12.431  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 1866K, 13% free 37662K/43032K, paused 45ms+12ms, total 304ms
+
+[ 12-13 23:49:12.431  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 99ms
+
+[ 12-13 23:49:12.611  5185: 5258 D/com.netease.cloudmusic.utils.u ]
+439ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[540217]&resourceType=4&fixliked=true
+
+[ 12-13 23:49:14.007  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 5323K, 23% free 33534K/43032K, paused 54ms, total 55ms
+
+[ 12-13 23:49:14.083  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed 27K, 19% free 35109K/43032K, paused 48ms, total 48ms
+
+[ 12-13 23:49:14.115  5185: 5372 I/dalvikvm-heap ]
+Grow heap (frag case) to 35.951MB for 1628188-byte allocation
+
+[ 12-13 23:49:14.175  5185: 5372 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 36699K/44624K, paused 61ms, total 61ms
+
+[ 12-13 23:49:14.907  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1450021754913
+
+[ 12-13 23:49:15.075  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 285K, 18% free 36752K/44624K, paused 69ms, total 70ms
+
+[ 12-13 23:49:15.171  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 39.518MB for 3686412-byte allocation
+
+[ 12-13 23:49:15.235  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 17% free 40351K/48228K, paused 62ms, total 62ms
+
+[ 12-13 23:49:15.355  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 16% free 40847K/48228K, paused 37ms+2ms, total 119ms
+
+[ 12-13 23:49:15.355  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+
+[ 12-13 23:49:15.387  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.097MB for 1149196-byte allocation
+
+[ 12-13 23:49:15.451  5185: 5383 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 15% free 41966K/49352K, paused 63ms, total 63ms
+
+[ 12-13 23:49:15.523  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 15% free 41966K/49352K, paused 51ms, total 51ms
+
+[ 12-13 23:49:15.619  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 44.610MB for 3686412-byte allocation
+
+[ 12-13 23:49:15.659  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 45566K/52956K, paused 39ms, total 40ms
+
+[ 12-13 23:49:15.675  5185: 5185 I/Choreographer ]
+Skipped 40 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 23:49:15.859  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3615K, 21% free 41973K/52956K, paused 29ms+19ms, total 198ms
+
+[ 12-13 23:49:17.259  5185: 5383 D/MusicProxy ]
+getPlaySongUrlInfo:25909149,0,6
+
+[ 12-13 23:49:17.387  5185: 5383 D/com.netease.cloudmusic.utils.u ]
+109ms on url: http://music.163.com/eapi/song/enhance/player/url?br=192000&ids=%5B%2225909149_0%22%5D
+
+[ 12-13 23:49:17.387  5185: 5383 D/MusicProxy ]
+get nextId data:25909149,192000,30ea92cc67f1f286cf8884ee74f1f8b5,0,192000
+
+[ 12-13 23:49:17.391  5185: 5383 D/MusicProxy ]
+getDataFromServer:0,479999
+
+[ 12-13 23:49:17.407  5185: 5383 D/MusicProxy ]
+getDataFromServer, start request server:http://m8.music.126.net/20151214001417/1ea011ab546c294099b5ca27bb891505/ymusic/abb1/0d0f/083e/30ea92cc67f1f286cf8884ee74f1f8b5.mp3,0,479999,192000
+
+[ 12-13 23:49:17.659  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1450021757664
+
+[ 12-13 23:49:17.839  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 5180K, 22% free 38394K/48924K, paused 71ms, total 71ms
+
+[ 12-13 23:49:17.839  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.122MB for 3686412-byte allocation
+
+[ 12-13 23:49:17.887  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 41993K/48924K, paused 45ms, total 45ms
+
+[ 12-13 23:49:17.975  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 46K, 15% free 41968K/48924K, paused 21ms+1ms, total 83ms
+
+[ 12-13 23:49:18.035  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 24K, 15% free 41968K/48924K, paused 54ms, total 56ms
+
+[ 12-13 23:49:18.163  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 44.612MB for 3686412-byte allocation
+
+[ 12-13 23:49:18.267  5185: 5383 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 45568K/52528K, paused 108ms, total 108ms
+
+[ 12-13 23:49:18.287  5185: 5185 I/Choreographer ]
+Skipped 31 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 23:49:18.559  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3621K, 21% free 41973K/52528K, paused 34ms+21ms, total 289ms
+
+[ 12-13 23:49:18.943  5185: 5383 D/MusicProxy ]
+clean#com.netease.cloudmusic.utils.an@536e53d0
+
+[ 12-13 23:49:19.303  5185: 5185 D/PlayService ]
+next begin
+
+[ 12-13 23:49:19.303  5185: 5271 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-13 23:49:19.303  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-13 23:49:19.303  5185: 5271 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@535c275c
+
+[ 12-13 23:49:19.319  5185: 5271 D/PlayService ]
+getMusicInfo:begin to play:TVエンディングテーマ,25909149
+
+[ 12-13 23:49:19.347  5185: 5271 D/PlayService ]
+getMusicInfo,fileAllDownloaded:false
+
+[ 12-13 23:49:19.359  5185: 5271 D/PlayService ]
+downloadSpeed:1405513
+
+[ 12-13 23:49:19.383  5185: 5271 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:false,bitrate:192000
+
+[ 12-13 23:49:19.383  5185: 5271 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-13 23:49:19.391  5185: 5271 D/PlayService ]
+getMusicInfo, not fileAllDownloaded
+
+[ 12-13 23:49:19.391  5185: 5271 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-13 23:49:19.411  5185: 5271 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:0,http://127.0.0.1:44717/forFuck23?25909149&192000&26380281&192000&0&0&192000&90567,false
+
+[ 12-13 23:49:19.507  5185: 5383 D/MusicProxy ]
+proxyThread:ProxyThread#com.netease.cloudmusic.utils.an@534bac50
+
+[ 12-13 23:49:19.507  5185: 5383 D/MusicProxy ]
+read from mediaplayer:GET /forFuck23?25909149&192000&26380281&192000&0&0&192000&90567 HTTP/1.1
+Host: 127.0.0.1:44717
+Connection: keep-alive
+User-Agent: stagefright/1.2 (Linux;Android 4.2.2)
+Accept-Encoding: gzip,deflate
+
+
+
+[ 12-13 23:49:19.519  5185: 5383 D/MusicProxy ]
+getPlaySongUrlInfo:25909149,0,7
+
+[ 12-13 23:49:19.687  5185: 5383 D/MusicProxy ]
+filePart:25909149,192000,FilePart:0-480000,
+
+[ 12-13 23:49:19.691  5185: 5383 D/MusicProxy ]
+download part:0,4626851
+
+[ 12-13 23:49:19.703  5185: 5383 D/MusicProxy ]
+getDataFromFile:0,480000
+
+[ 12-13 23:49:19.739  5185: 5271 D/PlayService ]
+PlayerHandler,action:58,android.support.v4.util.Pair@335f9454,0,0
+
+[ 12-13 23:49:19.835  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 5573K, 22% free 38448K/48924K, paused 27ms+1ms, total 171ms
+
+[ 12-13 23:49:19.835  5185: 5271 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 87ms
+
+[ 12-13 23:49:19.835  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 72ms
+
+[ 12-13 23:49:19.843  5185: 5383 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 76ms
+
+[ 12-13 23:49:19.879  5185: 5271 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-13 23:49:20.035  5185: 5229 D/com.netease.cloudmusic.utils.u ]
+116ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[25909149]&resourceType=4&fixliked=true
+
+[ 12-13 23:49:20.739  5185: 5383 D/MusicProxy ]
+getDataFromServer:480000,4626850
+
+[ 12-13 23:49:20.743  5185: 5383 D/MusicProxy ]
+getDataFromServer, start request server:http://m7.music.126.net/20151214001417/1ea011ab546c294099b5ca27bb891505/ymusic/abb1/0d0f/083e/30ea92cc67f1f286cf8884ee74f1f8b5.mp3,480000,4626850,192000
+
+[ 12-13 23:49:21.043  5185: 5185 D/PlayService ]
+play music:TVエンディングテーマ,吉田潔
+
+[ 12-13 23:49:21.275  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1450021761282
+
+[ 12-13 23:49:21.439  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1285K, 22% free 38262K/48924K, paused 67ms, total 68ms
+
+[ 12-13 23:49:21.439  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 40.993MB for 3686412-byte allocation
+
+[ 12-13 23:49:21.491  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 15% free 41860K/48924K, paused 50ms, total 50ms
+
+[ 12-13 23:49:21.615  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 28K, 14% free 42349K/48924K, paused 43ms+2ms, total 123ms
+
+[ 12-13 23:49:21.615  5185: 5185 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-13 23:49:21.639  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 42.564MB for 1149196-byte allocation
+
+[ 12-13 23:49:21.687  5185: 5193 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 14% free 43470K/50048K, paused 45ms, total 45ms
+
+[ 12-13 23:49:21.775  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 20K, 13% free 43716K/50048K, paused 64ms, total 64ms
+
+[ 12-13 23:49:21.911  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 46.319MB for 3686412-byte allocation
+
+[ 12-13 23:49:22.055  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 12% free 47315K/53652K, paused 149ms, total 149ms
+
+[ 12-13 23:49:22.083  5185: 5185 I/Choreographer ]
+Skipped 43 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 23:49:22.455  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3619K, 19% free 43722K/53652K, paused 52ms+2ms, total 397ms
+
+[ 12-13 23:49:23.147  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Log:1450021763152
+
+[ 12-13 23:49:23.315  5185: 5252 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1450021763322
+
+[ 12-13 23:49:23.699  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 5651K, 22% free 39510K/50048K, paused 158ms, total 161ms
+
+[ 12-13 23:49:23.855  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 42.211MB for 3686412-byte allocation
+
+[ 12-13 23:49:23.943  5185: 5195 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 20% free 43108K/53652K, paused 82ms, total 82ms
+
+[ 12-13 23:49:24.063  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 12K, 20% free 43105K/53652K, paused 22ms+9ms, total 118ms
+
+[ 12-13 23:49:24.219  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed 45K, 20% free 43102K/53652K, paused 40ms, total 40ms
+
+[ 12-13 23:49:24.323  5185: 5185 I/dalvikvm-heap ]
+Grow heap (frag case) to 45.719MB for 3686412-byte allocation
+
+[ 12-13 23:49:24.391  5185: 5185 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 46702K/57256K, paused 64ms, total 65ms
+
+[ 12-13 23:49:24.419  5185: 5185 I/Choreographer ]
+Skipped 53 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 23:49:24.739  5185: 5186 D/dalvikvm ]
+GC_CONCURRENT freed 3616K, 25% free 43107K/57256K, paused 48ms+8ms, total 347ms
+
+[ 12-13 23:49:24.895  5185: 5252 W/dalvikvm ]
+threadid=28: thread exiting with uncaught exception (group=0xa60df908)
+
+[ 12-13 23:49:24.895  5185: 5252 D/bugrpt   ]
+sendReportsToServer begin
+
+[ 12-13 23:49:25.235  5185: 5537 D/bugrpt   ]
+sendPostReq success
+
+[ 12-13 23:49:25.235  5185: 5252 D/bugrpt   ]
+sendReportsToServer end
+
+--------- beginning of /dev/log/system
+[ 12-13 23:49:25.307  5185: 5252 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-133
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:187)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

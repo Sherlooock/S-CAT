@@ -1,0 +1,712 @@
+--------- beginning of /dev/log/main
+[ 12-13 10:31:06.576 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7b39b510) (w:366 h:105 s:368 f:0x1 u:0x000933)
+
+[ 12-13 10:31:09.409 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.LinearLayout{4283d240 V.E...C. ........ 541,0-1080,135 #7f0a003a app:id/share}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=269.24976, y[0]=70.108765, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34757133, downTime=34757133, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:09.484 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.LinearLayout{4283d240 V.E...C. ...P.... 541,0-1080,135 #7f0a003a app:id/share}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=269.24976, y[0]=70.108765, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34757213, downTime=34757133, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:09.485 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:09.485 29929:0x74e9 V/Provider/Settings ]
+invalidate [system]: current 1230 != cached 1228
+
+[ 12-13 10:31:09.485 29929:0x74e9 V/Provider/Settings ]
+from db cache, name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:09.490 29929:0x74e9 D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-13 10:31:09.498 29929:0x74e9 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{42bf1210 V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#1 ty=1000 fl=#840000 fmt=-3 meizuFlags=0x9 imeOffset=-1 splitActionBarHeight=0Meizu WM.LayoutParams [ flags=0x0] }
+
+[ 12-13 10:31:09.499 29929:0x74e9 V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{42544a98 ,ident = 25}
+
+[ 12-13 10:31:09.555 29929:0x74e9 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:31:09.557 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x7a15c7a8) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:09.605 29929:0x74e9 V/InputMethodManager ]
+onWindowFocus: android.widget.GridView{425d6c78 VFED.VC. .F....ID 0,168-960,681 #7f0a006e app:id/gridView} softInputMode=17 first=true flags=#1840000
+
+[ 12-13 10:31:09.605 29929:0x74e9 V/InputMethodManager ]
+START INPUT: android.widget.GridView{425d6c78 VFED.VC. .F....ID 0,168-960,681 #7f0a006e app:id/gridView} ic=null tba=android.view.inputmethod.EditorInfo@42530ac0 controlFlags=#105
+
+[ 12-13 10:31:09.634 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x792e2818) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:11.397 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.ImageView{425ee2f8 V.ED..C. ........ 414,681-546,813 #7f0a006f app:id/image_cancel}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=34.529144, y[0]=64.361206, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34759126, downTime=34759126, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:11.513 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.ImageView{425ee2f8 V.ED..C. ...P.... 414,681-546,813 #7f0a006f app:id/image_cancel}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=34.529144, y[0]=64.361206, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34759242, downTime=34759126, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:11.514 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:11.514 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:11.560 29929:0x74e9 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:31:11.564 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7a15c7a8) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:11.565 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x792e2818) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:11.578 29929:0x74e9 V/InputMethodManager ]
+onWindowFocus: null softInputMode=32 first=false flags=#1810100
+
+[ 12-13 10:31:11.578 29929:0x74e9 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{424b3d38 V.E..... R.....I. 0,0-1080,1776} ic=null tba=android.view.inputmethod.EditorInfo@428ab250 controlFlags=#100
+
+[ 12-13 10:31:12.090 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.ImageView{42553660 V.ED.... ........ 168,22-258,112}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=18.827011, y[0]=38.114014, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34759817, downTime=34759817, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:12.090 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.LinearLayout{427e09d8 V.E...C. ........ 0,0-538,135 #7f0a0039 app:id/doweload}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=186.82701, y[0]=60.114014, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34759817, downTime=34759817, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:12.146 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.LinearLayout{427e09d8 V.E...C. ...P.... 0,0-538,135 #7f0a0039 app:id/doweload}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=186.82701, y[0]=60.114014, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34759875, downTime=34759817, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:12.147 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:12.147 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:12.148 29929:0x74e9 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-13 10:31:12.148 29929:0x74e9 D/dalvikvm ]
+create new thread
+
+[ 12-13 10:31:12.148 29929:0x74e9 D/dalvikvm ]
+new thread created
+
+[ 12-13 10:31:12.148 29929:0x74e9 D/dalvikvm ]
+update thread list
+
+[ 12-13 10:31:12.148 29929:0x787c D/dalvikvm ]
+threadid=50: interp stack at 0x7cc05000
+
+[ 12-13 10:31:12.148 29929:0x787c D/dalvikvm ]
+threadid=50: created from interp
+
+[ 12-13 10:31:12.148 29929:0x74e9 D/dalvikvm ]
+start new thread
+
+[ 12-13 10:31:12.149 29929:0x787c D/dalvikvm ]
+threadid=50: notify debugger
+
+
+[ 12-13 10:31:12.149 29929:0x787c D/dalvikvm ]
+threadid=50 (RefQueueWorker@org.apache.http.impl.conn.tsccm.ConnPoolByRoute@424e6318): calling run()
+
+[ 12-13 10:31:12.156 29929:0x7783 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:31:12.157 29929:0x7783 I/System.out ]
+propertyValue:true
+
+[ 12-13 10:31:12.157 29929:0x7783 I/System.out ]
+openConnection:2
+
+[ 12-13 10:31:12.157 29929:0x7783 I/System.out ]
+[socket][123] connection /111.13.94.41:80;LocalPort=44970(15000)
+
+[ 12-13 10:31:12.157 29929:0x7783 I/System.out ]
+[CDS]connect[/111.13.94.41:80] tm:15
+
+[ 12-13 10:31:12.159 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:12.159 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = android_id , value = bf76dc43da5f94dd
+
+[ 12-13 10:31:12.161 29929:0x74e9 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-13 10:31:12.161 29929:0x74e9 D/dalvikvm ]
+create new thread
+
+[ 12-13 10:31:12.161 29929:0x74e9 D/dalvikvm ]
+new thread created
+
+[ 12-13 10:31:12.161 29929:0x74e9 D/dalvikvm ]
+update thread list
+
+[ 12-13 10:31:12.161 29929:0x787e D/dalvikvm ]
+threadid=51: interp stack at 0x7cd23000
+
+[ 12-13 10:31:12.161 29929:0x787e D/dalvikvm ]
+threadid=51: created from interp
+
+[ 12-13 10:31:12.161 29929:0x74e9 D/dalvikvm ]
+start new thread
+
+[ 12-13 10:31:12.161 29929:0x787e D/dalvikvm ]
+threadid=51: notify debugger
+
+
+[ 12-13 10:31:12.161 29929:0x787e D/dalvikvm ]
+threadid=51 (Thread-1225): calling run()
+
+[ 12-13 10:31:12.161 29929:0x7783 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :80 
+
+[ 12-13 10:31:12.162 29929:0x787e I/System.out ]
+openConnection:1
+
+[ 12-13 10:31:12.163 29929:0x787e I/System.out ]
+[socket][124] connection /106.120.188.44:8080;LocalPort=44577(0)
+
+[ 12-13 10:31:12.163 29929:0x787e I/System.out ]
+[CDS]connect[/106.120.188.44:8080] tm:90
+
+[ 12-13 10:31:12.163 29929:0x787e D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :8080 
+
+[ 12-13 10:31:12.218 29929:0x7783 I/System.out ]
+[socket][/172.26.206.6:44970] connected
+
+[ 12-13 10:31:12.218 29929:0x7783 I/System.out ]
+[CDS]rx timeout:15000
+
+[ 12-13 10:31:12.218 29929:0x7783 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:31:12.218 29929:0x7783 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-13 10:31:12.218 29929:0x7783 I/System.out ]
+snd buffer size:8192
+
+[ 12-13 10:31:12.219 29929:0x7783 I/System.out ]
+>doSendRequest
+
+[ 12-13 10:31:12.220 29929:0x7783 I/System.out ]
+<doSendRequest
+
+[ 12-13 10:31:12.337 29929:0x787e I/System.out ]
+[socket][/172.26.206.6:44577] connected
+
+[ 12-13 10:31:12.337 29929:0x787e I/System.out ]
+[CDS]rx timeout:0
+
+[ 12-13 10:31:12.337 29929:0x787e I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:31:12.337 29929:0x787e I/System.out ]
+>doSendRequest
+
+[ 12-13 10:31:12.338 29929:0x787e I/System.out ]
+<doSendRequest
+
+[ 12-13 10:31:12.338 29929:0x74ed D/dalvikvm ]
+between the previous GC alloc  8091K
+
+[ 12-13 10:31:12.405 29929:0x74ed D/dalvikvm ]
+GC_CONCURRENT freed 1312K (9883), 25% free 73450K/97760K, paused 3ms+11ms, total 66ms
+
+[ 12-13 10:31:12.406 29929:0x7878 D/dalvikvm ]
+threadid=36: exiting
+
+[ 12-13 10:31:12.406 29929:0x7878 D/dalvikvm ]
+threadid=36: bye!
+
+[ 12-13 10:31:12.408 29929:0x74f1 I/System.out ]
+[CDS]close[38951]
+
+[ 12-13 10:31:12.409 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:38951]
+
+[ 12-13 10:31:12.409 29929:0x74f1 I/System.out ]
+[CDS]close[58430]
+
+[ 12-13 10:31:12.409 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:58430]
+
+[ 12-13 10:31:12.409 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:58430]
+
+[ 12-13 10:31:12.503 29929:0x787e D/dalvikvm ]
+threadid=51: exiting
+
+[ 12-13 10:31:12.503 29929:0x787e D/dalvikvm ]
+threadid=51: bye!
+
+[ 12-13 10:31:12.504 29929:0x74e9 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1ZlkwPcBmGcAAEOJV_rGHA875.jpg
+
+[ 12-13 10:31:12.513 29929:0x74e9 V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{424c9f60 ,ident = 26}
+
+[ 12-13 10:31:12.556 29929:0x74e9 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:31:12.556 29929:0x74e9 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1ZlkwPcBmGcAAEOJV_rGHA875.jpg
+
+[ 12-13 10:31:12.565 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x792865c8) (w:366 h:105 s:368 f:0x1 u:0x000933)
+
+[ 12-13 10:31:12.655 29929:0x74f3 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:31:14.510 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x792865c8) (w:366 h:105 s:368 f:0x1 u:0x000933)
+
+[ 12-13 10:31:17.153 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.TextView{425b94e0 V.ED.... ........ 274,35-370,100}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=29.218323, y[0]=57.09729, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34764877, downTime=34764877, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:17.153 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.LinearLayout{4283d240 V.E...C. ........ 541,0-1080,135 #7f0a003a app:id/share}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=303.21832, y[0]=92.09729, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34764877, downTime=34764877, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:17.287 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.LinearLayout{4283d240 V.E...C. ...P.... 541,0-1080,135 #7f0a003a app:id/share}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=303.21832, y[0]=92.09729, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34765015, downTime=34764877, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:17.287 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:17.287 29929:0x74e9 V/Provider/Settings ]
+invalidate [system]: current 1232 != cached 1230
+
+[ 12-13 10:31:17.288 29929:0x74e9 V/Provider/Settings ]
+from db cache, name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:17.289 29929:0x74e9 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{42740600 V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#1 ty=1000 fl=#840000 fmt=-3 meizuFlags=0x9 imeOffset=-1 splitActionBarHeight=0Meizu WM.LayoutParams [ flags=0x0] }
+
+[ 12-13 10:31:17.290 29929:0x74e9 V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{4267db58 ,ident = 27}
+
+[ 12-13 10:31:17.306 29929:0x74e9 W/ViewRootImpl ]
+mView has no focus, use com.android.internal.policy.impl.PhoneWindow$DecorView{424b3d38 V.E..... R.....I. 0,0-1080,1776} instead
+
+[ 12-13 10:31:17.345 29929:0x74e9 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:31:17.346 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x7934dfb8) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:17.350 29929:0x74e9 V/InputMethodManager ]
+onWindowFocus: android.widget.GridView{425d6c78 VFED.VC. .F....ID 0,168-960,681 #7f0a006e app:id/gridView} softInputMode=17 first=true flags=#1840000
+
+[ 12-13 10:31:17.351 29929:0x74e9 V/InputMethodManager ]
+START INPUT: android.widget.GridView{425d6c78 VFED.VC. .F....ID 0,168-960,681 #7f0a006e app:id/gridView} ic=null tba=android.view.inputmethod.EditorInfo@425ee7b8 controlFlags=#105
+
+[ 12-13 10:31:17.366 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x7d1103d0) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:19.023 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.ImageView{425ee2f8 V.ED..C. ........ 414,681-546,813 #7f0a006f app:id/image_cancel}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=43.520813, y[0]=87.34924, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34766752, downTime=34766752, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:19.093 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.ImageView{425ee2f8 V.ED..C. ...P.... 414,681-546,813 #7f0a006f app:id/image_cancel}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=43.520813, y[0]=87.34924, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34766822, downTime=34766752, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:19.093 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:19.093 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:19.095 29929:0x74e9 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:31:19.097 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7934dfb8) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:19.098 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7d1103d0) (w:960 h:813 s:960 f:0x1 u:0x000900)
+
+[ 12-13 10:31:19.106 29929:0x74e9 V/InputMethodManager ]
+onWindowFocus: null softInputMode=32 first=false flags=#1810100
+
+[ 12-13 10:31:19.106 29929:0x74e9 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{424b3d38 V.E..... R.....I. 0,0-1080,1776} ic=null tba=android.view.inputmethod.EditorInfo@426b7fd8 controlFlags=#100
+
+[ 12-13 10:31:20.278 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.TextView{42570a50 V.ED.... ........ 273,35-369,100}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=14.733582, y[0]=32.11035, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34768007, downTime=34768007, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:20.278 29929:0x74e9 I/View     ]
+Touch down dispatch to android.widget.LinearLayout{427e09d8 V.E...C. ........ 0,0-538,135 #7f0a0039 app:id/doweload}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=287.73358, y[0]=67.11035, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34768007, downTime=34768007, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:20.324 29929:0x74e9 I/View     ]
+Touch up dispatch to android.widget.LinearLayout{427e09d8 V.E...C. ...P.... 0,0-538,135 #7f0a0039 app:id/doweload}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=287.73358, y[0]=67.11035, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34768053, downTime=34768007, deviceId=2, source=0x1002 }
+
+[ 12-13 10:31:20.325 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:20.325 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:31:20.325 29929:0x74e9 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-13 10:31:20.325 29929:0x74e9 D/dalvikvm ]
+create new thread
+
+[ 12-13 10:31:20.325 29929:0x74e9 D/dalvikvm ]
+new thread created
+
+[ 12-13 10:31:20.325 29929:0x74e9 D/dalvikvm ]
+update thread list
+
+[ 12-13 10:31:20.325 29929:0x7886 D/dalvikvm ]
+threadid=36: interp stack at 0x7ca2b000
+
+[ 12-13 10:31:20.325 29929:0x7886 D/dalvikvm ]
+threadid=36: created from interp
+
+[ 12-13 10:31:20.325 29929:0x74e9 D/dalvikvm ]
+start new thread
+
+[ 12-13 10:31:20.325 29929:0x7886 D/dalvikvm ]
+threadid=36: notify debugger
+
+
+[ 12-13 10:31:20.326 29929:0x7886 D/dalvikvm ]
+threadid=36 (RefQueueWorker@org.apache.http.impl.conn.tsccm.ConnPoolByRoute@427297e8): calling run()
+
+[ 12-13 10:31:20.329 29929:0x7518 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:31:20.329 29929:0x7518 I/System.out ]
+propertyValue:true
+
+[ 12-13 10:31:20.330 29929:0x7518 I/System.out ]
+openConnection:2
+
+[ 12-13 10:31:20.330 29929:0x7518 I/System.out ]
+[socket][125] connection /111.13.94.41:80;LocalPort=58388(15000)
+
+[ 12-13 10:31:20.330 29929:0x7518 I/System.out ]
+[CDS]connect[/111.13.94.41:80] tm:15
+
+[ 12-13 10:31:20.331 29929:0x7518 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :80 
+
+[ 12-13 10:31:20.367 29929:0x74e9 V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-13 10:31:20.367 29929:0x74e9 V/Provider/Settings ]
+ from settings cache , name = android_id , value = bf76dc43da5f94dd
+
+[ 12-13 10:31:20.368 29929:0x74e9 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-13 10:31:20.368 29929:0x74e9 D/dalvikvm ]
+create new thread
+
+[ 12-13 10:31:20.368 29929:0x74e9 D/dalvikvm ]
+new thread created
+
+[ 12-13 10:31:20.368 29929:0x74e9 D/dalvikvm ]
+update thread list
+
+[ 12-13 10:31:20.368 29929:0x7888 D/dalvikvm ]
+threadid=51: interp stack at 0x7cd23000
+
+[ 12-13 10:31:20.368 29929:0x7888 D/dalvikvm ]
+threadid=51: created from interp
+
+[ 12-13 10:31:20.368 29929:0x74e9 D/dalvikvm ]
+start new thread
+
+[ 12-13 10:31:20.368 29929:0x7888 D/dalvikvm ]
+threadid=51: notify debugger
+
+
+[ 12-13 10:31:20.368 29929:0x7888 D/dalvikvm ]
+threadid=51 (Thread-1227): calling run()
+
+[ 12-13 10:31:20.370 29929:0x7888 I/System.out ]
+openConnection:1
+
+[ 12-13 10:31:20.370 29929:0x7888 I/System.out ]
+[socket][126] connection /106.120.188.44:8080;LocalPort=58907(0)
+
+[ 12-13 10:31:20.370 29929:0x7888 I/System.out ]
+[CDS]connect[/106.120.188.44:8080] tm:90
+
+[ 12-13 10:31:20.371 29929:0x7888 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :8080 
+
+[ 12-13 10:31:20.401 29929:0x7518 I/System.out ]
+[socket][/172.26.206.6:58388] connected
+
+[ 12-13 10:31:20.401 29929:0x7518 I/System.out ]
+[CDS]rx timeout:15000
+
+[ 12-13 10:31:20.401 29929:0x7518 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:31:20.401 29929:0x7518 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-13 10:31:20.401 29929:0x7518 I/System.out ]
+snd buffer size:8192
+
+[ 12-13 10:31:20.402 29929:0x7518 I/System.out ]
+>doSendRequest
+
+[ 12-13 10:31:20.402 29929:0x7518 I/System.out ]
+<doSendRequest
+
+[ 12-13 10:31:20.822 29929:0x74e9 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1ZlkwPcBmGcAAEOJV_rGHA875.jpg
+
+[ 12-13 10:31:20.830 29929:0x74e9 V/ViewRootImpl ]
+mApplyParallel = false, this = ViewRoot{429931b0 ,ident = 28}
+
+[ 12-13 10:31:20.873 29929:0x74e9 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:31:20.873 29929:0x74e9 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1ZlkwPcBmGcAAEOJV_rGHA875.jpg
+
+[ 12-13 10:31:20.882 29929:0x74e9 D/GraphicBuffer ]
+register, handle(0x7a123998) (w:366 h:105 s:368 f:0x1 u:0x000933)
+
+[ 12-13 10:31:20.913 29929:0x74f4 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:31:21.509 29929:0x7888 I/System.out ]
+[socket][/172.26.206.6:58907] connected
+
+[ 12-13 10:31:21.509 29929:0x7888 I/System.out ]
+[CDS]rx timeout:0
+
+[ 12-13 10:31:21.510 29929:0x7888 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:31:21.510 29929:0x7888 I/System.out ]
+>doSendRequest
+
+[ 12-13 10:31:21.511 29929:0x7888 I/System.out ]
+<doSendRequest
+
+[ 12-13 10:31:22.826 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7a123998) (w:366 h:105 s:368 f:0x1 u:0x000933)
+
+[ 12-13 10:31:23.743 29929:0x752b D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449973883743
+
+[ 12-13 10:31:23.749 29929:0x752b D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-13 10:31:23.749 29929:0x752b D/dalvikvm ]
+create new thread
+
+[ 12-13 10:31:23.749 29929:0x752b D/dalvikvm ]
+new thread created
+
+[ 12-13 10:31:23.749 29929:0x752b D/dalvikvm ]
+update thread list
+
+[ 12-13 10:31:23.749 29929:0x788c D/dalvikvm ]
+threadid=52: interp stack at 0x7cd43000
+
+[ 12-13 10:31:23.749 29929:0x788c D/dalvikvm ]
+threadid=52: created from interp
+
+[ 12-13 10:31:23.749 29929:0x752b D/dalvikvm ]
+start new thread
+
+[ 12-13 10:31:23.750 29929:0x788c D/dalvikvm ]
+threadid=52: notify debugger
+
+
+[ 12-13 10:31:23.750 29929:0x788c D/dalvikvm ]
+threadid=52 (ScreenShotSaver): calling run()
+
+[ 12-13 10:31:23.775 29929:0x74e9 D/dalvikvm ]
+between the previous GC alloc  7975K
+
+[ 12-13 10:31:23.826 29929:0x74e9 D/dalvikvm ]
+GC_FOR_ALLOC freed 454K (6115), 18% free 80971K/97760K, paused 51ms, total 51ms
+
+[ 12-13 10:31:23.833 29929:0x787c D/dalvikvm ]
+threadid=50: exiting
+
+[ 12-13 10:31:23.833 29929:0x787c D/dalvikvm ]
+threadid=50: bye!
+
+[ 12-13 10:31:23.833 29929:0x74f1 I/System.out ]
+[CDS]close[44970]
+
+[ 12-13 10:31:23.834 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:44970]
+
+[ 12-13 10:31:23.834 29929:0x74f1 I/System.out ]
+[CDS]close[44577]
+
+[ 12-13 10:31:23.834 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:44577]
+
+[ 12-13 10:31:23.834 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:44577]
+
+[ 12-13 10:31:23.835 29929:0x74f1 I/System.out ]
+[CDS]close[58388]
+
+[ 12-13 10:31:23.835 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:58388]
+
+[ 12-13 10:31:23.835 29929:0x7886 D/dalvikvm ]
+threadid=36: exiting
+
+[ 12-13 10:31:23.835 29929:0x7886 D/dalvikvm ]
+threadid=36: bye!
+
+[ 12-13 10:31:23.846 29929:0x74e9 D/dalvikvm ]
+between the previous GC alloc  7180K
+
+[ 12-13 10:31:23.894 29929:0x74e9 D/dalvikvm ]
+GC_FOR_ALLOC freed 165K (1216), 10% free 87986K/97760K, paused 48ms, total 48ms
+
+[ 12-13 10:31:23.900 29929:0x74e9 I/dalvikvm-heap ]
+Grow heap (frag case) to 94.935MB for 7672336-byte allocation
+
+[ 12-13 10:31:23.909 29929:0x788c I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-13 10:31:24.073 29929:0x752b I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:31:24.073 29929:0x752b I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-13 10:31:24.660 29929:0x7888 D/dalvikvm ]
+threadid=51: exiting
+
+[ 12-13 10:31:24.661 29929:0x7888 D/dalvikvm ]
+threadid=51: bye!
+
+[ 12-13 10:31:25.382 29929:0x752b D/cn.edu.nju.ise.kikandroid ]
+Log:1449973885382
+
+[ 12-13 10:31:25.419 29929:0x752b I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:31:25.419 29929:0x752b I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+--------- beginning of /dev/log/system
+[ 12-13 10:31:27.648 29929:0x74e9 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{425397d8 token=android.os.BinderProxy@425f3cf8 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:27.659 29929:0x7891 D/dalvikvm ]
+threadid=36: interp stack at 0x7ca2b000
+
+[ 12-13 10:31:27.660 29929:0x7892 D/dalvikvm ]
+threadid=50: interp stack at 0x7cd03000
+
+[ 12-13 10:31:27.666 29929:0x74e9 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@425f3cf8
+
+[ 12-13 10:31:27.812 29929:0x74e9 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:31:27.818 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7927b690) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-13 10:31:27.819 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7a3b36c0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-13 10:31:27.820 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7d03bbb0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-13 10:31:27.820 29929:0x74e9 D/GraphicBuffer ]
+unregister, handle(0x7a3269f0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-13 10:31:28.157 29929:0x74e9 V/ActivityThread ]
+Finishing stop of ActivityRecord{425397d8 token=android.os.BinderProxy@425f3cf8 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@424dd098
+
+[ 12-13 10:31:28.158 29929:0x74e9 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{42625448 com.xp.tugele/com.xp.ui.activity.ImageScanningActivity,ident = 23}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{424b3d38 I.E..... R....... 0,0-1080,1776}
+
+[ 12-13 10:31:28.158 29929:0x74e9 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@425f3cf8
+
+[ 12-13 10:31:31.420 29929:0x78a4 D/dalvikvm ]
+threadid=51: interp stack at 0x7a541000
+
+[ 12-13 10:31:33.018 29929:0x750a I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-13 10:31:33.018 29929:0x750a I/System.out ]
+[CDS]rx timeout:30000
+
+[ 12-13 10:31:33.018 29929:0x750a I/System.out ]
+[CDS]close[36460]
+
+[ 12-13 10:31:33.018 29929:0x750a I/System.out ]
+close [socket][/0.0.0.0:36460]
+
+[ 12-13 10:31:33.023 29929:0x750a D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:31:33.023 29929:0x750a I/System.out ]
+propertyValue:true
+
+[ 12-13 10:31:33.023 29929:0x750a I/System.out ]
+[socket][127] connection api.share.mob.com/120.132.176.50:80;LocalPort=38047(30000)
+
+[ 12-13 10:31:33.023 29929:0x750a I/System.out ]
+[CDS]connect[api.share.mob.com/120.132.176.50:80] tm:30
+
+[ 12-13 10:31:33.024 29929:0x750a D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :80 
+
+[ 12-13 10:31:33.107 29929:0x750a I/System.out ]
+[socket][/172.26.206.6:38047] connected
+
+[ 12-13 10:31:33.107 29929:0x750a I/System.out ]
+[CDS]rx timeout:30000
+
+[ 12-13 10:31:33.110 29929:0x750a I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:31:53.312 29929:0x750a D/dalvikvm ]
+between the previous GC alloc  8004K
+
+[ 12-13 10:31:53.364 29929:0x750a D/dalvikvm ]
+GC_FOR_ALLOC freed 15515K (5173), 18% free 80475K/97760K, paused 52ms, total 52ms
+
+[ 12-13 10:31:53.365 29929:0x74f1 I/System.out ]
+[CDS]close[58907]
+
+[ 12-13 10:31:53.365 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:58907]
+
+[ 12-13 10:31:53.365 29929:0x74f1 I/System.out ]
+close [socket][/0.0.0.0:58907]
+
+[ 12-13 10:31:58.062 29929:0x7744 D/dalvikvm ]
+threadid=44: exiting
+
+[ 12-13 10:31:58.063 29929:0x7744 D/dalvikvm ]
+threadid=44: bye!
+
+[ 12-13 10:32:33.287 29929:0x7502 D/dalvikvm ]
+threadid=19: exiting
+
+[ 12-13 10:32:33.287 29929:0x7502 D/dalvikvm ]
+threadid=19: bye!
+
+[ 12-13 10:32:34.652 29929:0x74ef I/dalvikvm ]
+Jit: resizing JitTable from 8192 to 16384
+

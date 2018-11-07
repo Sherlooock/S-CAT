@@ -1,0 +1,2325 @@
+--------- beginning of system
+[ 12-13 10:32:42.338  5635: 5635 E/ActivityThread ]
+Activity com.xp.ui.activity.SearchResultActivity has leaked ServiceConnection android.media.MediaScannerConnection@231b383b that was originally bound here
+android.app.ServiceConnectionLeaked: Activity com.xp.ui.activity.SearchResultActivity has leaked ServiceConnection android.media.MediaScannerConnection@231b383b that was originally bound here
+	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1123)
+	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1017)
+	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1894)
+	at android.app.ContextImpl.bindService(ContextImpl.java:1877)
+	at android.content.ContextWrapper.bindService(ContextWrapper.java:538)
+	at android.media.MediaScannerConnection.connect(MediaScannerConnection.java:125)
+	at android.media.MediaScannerConnection.scanFile(MediaScannerConnection.java:244)
+	at com.xp.ui.adapter.StaggeredAdapter$4.onSuccess(StaggeredAdapter.java:303)
+	at com.lidroid.xutils.http.HttpHandler.onProgressUpdate(HttpHandler.java:218)
+	at com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler.handleMessage(PriorityAsyncTask.java:385)
+	at android.os.Handler.dispatchMessage(Handler.java:111)
+	at android.os.Looper.loop(Looper.java:194)
+	at android.app.ActivityThread.main(ActivityThread.java:5565)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:965)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:760)
+
+
+--------- beginning of main
+[ 12-13 10:44:11.651  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.exc.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.651  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.651  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.exc.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.651  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:44:11.681  6786: 6814 D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:11.739  6786: 6814 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:44:11.740  6786: 6786 D/jpush    ]
+Failed with errorCode = 6005
+
+[ 12-13 10:44:11.787  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.exc.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.787  6786: 6814 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.799  6786: 6830 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.799  6786: 6830 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.799  6786: 6830 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.799  6786: 6830 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:44:11.802  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.802  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.802  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.802  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:44:11.854  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=s.jpush.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.855  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.855  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=s.jpush.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.855  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:44:11.856  6786: 6826 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:11.856  6786: 6834 D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:44:11.859  6786: 6830 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:11.904  6786: 6786 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:44:11.909  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.909  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.916  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.916  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.917  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.917  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:11.917  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:11.917  6786: 6838 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.006  6786: 6786 D/Dialog   ]
+show
+
+[ 12-13 10:44:12.020  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.020  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.024  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.024  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.024  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.024  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.025  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.026  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.026  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.026  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.026  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.027  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.027  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.029  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.029  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.030  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.030  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.030  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:12.030  6786: 6842 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:12.056  6786: 6833 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:44:12.357  6786: 6786 D/JPushReceiver ]
+[MyReceiver] onReceive - cn.jpush.android.intent.CONNECTION, extras: 
+key:cn.jpush.android.APPKEY, value:98fd1f8cd834614ae1c8330e
+key:cn.jpush.android.CONNECTION_CHANGE, value:true
+
+[ 12-13 10:44:12.357  6786: 6786 W/JPushReceiver ]
+[MyReceiver]cn.jpush.android.intent.CONNECTION connected state change to true
+
+[ 12-13 10:44:14.126  6786: 6786 D/Dialog   ]
+dismissDialog
+
+[ 12-13 10:44:14.180  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.HotFragment$ItemAdapter@2f4ff5e1, startPosition = 0, endPosition = 19, maxHeight = 1125, this = android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,2 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:14.233  6786: 6786 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 10:44:14.253  6786: 6859 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 530, h 742, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.255  6786: 6859 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 530, h 742, sample 2, bsLength 0!!
+
+
+[ 12-13 10:44:14.266  6786: 6861 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 600, h 848, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.271  6786: 6861 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 600, h 848, sample 2, bsLength 0!!
+
+
+[ 12-13 10:44:14.280  6786: 6859 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 440, h 597, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.283  6786: 6859 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 440, h 597, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.293  6786: 6861 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 400, h 600, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.296  6786: 6861 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 400, h 600, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.312  6786: 6859 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 658, h 987, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.315  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,1127 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:14.321  6786: 6859 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 658, h 987, sample 2, bsLength 0!!
+
+
+[ 12-13 10:44:14.326  6786: 6862 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 1920, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:14.331  6786: 6862 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 1080, h 1920, sample 4, bsLength 0!!
+
+
+[ 12-13 10:44:14.354  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.HotFragment$ItemAdapter@2f4ff5e1, startPosition = 0, endPosition = 19, maxHeight = 1125, this = android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,1127 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:14.370  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,1127 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:14.394  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.HotFragment$ItemAdapter@2f4ff5e1, startPosition = 0, endPosition = 19, maxHeight = 1125, this = android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,1127 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:14.398  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2e4818fd VFED.VC. .F....ID 0,2-720,1127 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:16.225  6786: 6786 D/Dialog   ]
+show
+
+[ 12-13 10:44:16.225  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.225  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.227  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.227  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.228  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.231  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.231  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.234  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.234  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.235  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.235  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.235  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.235  6786: 6864 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.384  6786: 6786 D/Dialog   ]
+dismissDialog
+
+[ 12-13 10:44:16.443  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,0 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:16.458  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.458  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.458  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.458  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.460  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:16.460  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.460  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.461  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.461  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.462  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.462  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.462  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.462  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.990  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.990  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:16.990  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:16.990  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:17.939  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:17.941  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:17.961  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:17.961  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:17.969  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:17.972  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:18.424  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:18.425  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:18.443  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:18.443  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:18.448  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:18.450  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:18.614  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:18.617  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:18.645  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:18.647  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:19.582  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:19.584  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:19.618  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:19.621  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:21.040  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:21.041  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:21.068  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:21.070  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:21.498  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:21.498  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:21.828  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:21.828  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:22.540  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:22.540  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:22.651  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:22.653  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:24.449  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:24.449  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:25.064  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:25.066  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:25.539  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:25.539  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:25.588  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:25.591  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:25.668  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:25.668  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:26.034  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:26.036  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:26.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:26.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:28.932  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:28.932  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:28.947  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:28.948  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:28.972  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:28.972  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:29.821  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:29.821  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.850  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.850  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.850  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.850  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.861  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.861  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.861  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.861  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.919  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.919  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:30.919  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:30.919  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.271  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.271  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.271  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.271  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.279  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.279  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.279  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.279  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.439  6786: 6786 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 1080, h 385, sample 1, bsLength 80dd!!
+
+
+[ 12-13 10:44:31.679  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.679  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.680  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.680  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.689  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.689  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:31.689  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:31.689  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:32.269  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:32.269  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:32.269  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:32.269  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:32.961  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:32.963  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:32.981  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:32.981  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:33.093  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:33.094  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:33.109  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:33.109  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:33.996  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:33.997  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.019  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:34.019  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:34.035  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.ClassifyFragment$ItemAdapter@a8b11a9, startPosition = 0, endPosition = 29, maxHeight = 1127, this = android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:34.037  6786: 6861 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.039  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{2b7adf28 VFED.VC. .F....ID 0,0-720,1127 #7f0a0051 app:id/pretag_list}
+
+[ 12-13 10:44:34.039  6786: 6861 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.046  6786: 6862 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.051  6786: 6862 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.801  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:34.803  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:35.979  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:35.981  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:36.730  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:36.732  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1080, h 385, sample 1, bsLength 0!!
+
+
+[ 12-13 10:44:36.784  6786: 6786 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 1080, h 385, sample 1, bsLength 80dd!!
+
+
+[ 12-13 10:44:36.870  6786: 6786 D/Dialog   ]
+show
+
+[ 12-13 10:44:36.873  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.873  6786: 6786 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.874  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.874  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.874  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.874  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.875  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.876  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.876  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:36.876  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:36.876  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:37.159  6786: 6786 D/Dialog   ]
+dismissDialog
+
+[ 12-13 10:44:37.163  6786: 6786 D/ScanImageActivity ]
+[{"childImageNum":"38","imageListCover":"http://106.120.188.44:8080/group1/M00/02/FA/Co4gj1Yg3a2IGzRZAAI2x0svRBs287.png","imageListId":"11","imageListName":"蜡笔小新"},{"childImageNum":"42","imageListCover":"http://106.120.188.44:8080/group1/M00/02/FA/Co4gj1Yg3a74-ugXAAI9B4WZH4A800.png","imageListId":"27","imageListName":"樱桃小丸子"},{"childImageNum":"135","imageListCover":"http://106.120.188.44:8080/group1/M00/00/61/Co4gj1X4JiS4DtpDAAAfYCIAanY.jpeg_w","imageListId":"12","imageListName":"制冷少女"},{"childImageNum":"47","imageListCover":"http://106.120.188.44:8080/group1/M00/00/82/Co4gj1X4KXXEouB6AABySPyVWxc.jpeg_w","imageListId":"13","imageListName":"贵妃娘娘"},{"childImageNum":"112","imageListCover":"http://106.120.188.44:8080/group1/M00/00/03/Co4gj1XxGASEmc1JAACae793plI130.JPG","imageListId":"15","imageListName":"有机表情"},{"childImageNum":"100","imageListCover":"http://106.120.188.44:8080/group1/M00/01/C5/Co4gj1YLixSNDAb0ABArv4WxxeY281.png","imageListId":"28","imageListName":"牛轰轰"},{"childImageNum":"35","imageListCover":"http://106.120.188.44:8080/group1/M00/00/01/Co4gj1XxFYnarUBoAAUoZ4KCvLQ781.JPG","imageListId":"20","imageListName":"八贱"},{"childImageNum":"34","imageListCover":"http://106.120.188.44:8080/group1/M00/00/04/Co4gj1XxGN7MnNomAAIpXVx6-vs55.jpeg","imageListId":"24","imageListName":"嗷大喵"},{"childImageNum":"33","imageListCover":"http://106.120.188.44:8080/group1/M00/01/BE/Co4gj1YLiFrYQ05fAAFtMxdE0mE412.png","imageListId":"35","imageListName":"小Q"},{"childImageNum":"84","imageListCover":"http://106.120.188.44:8080/group1/M00/02/64/Co4gj1YcKKWX8ZD0AACUQsp2HlE052.png","imageListId":"49","imageListName":"脏小白"},{"childImageNum":"17","imageListCover":"http://106.120.188.44:8080/group1/M00/01/B6/Co4gj1YLhXfuSYHmAAIvJhXfpYo926.png","imageListId":"9","imageListName":"贱鸭梨"},{"childImageNum":"63","imageListCover":"http://106.120.188.44:8080/group1/M00/01/C7/Co4gj1YLjQf4z5PEAABye4da1MI839.png","imageListId":"19","imageListName":"全是猫"},{"childImageNum":"19","imageListCover":"http://106.120.188.44:8080/group1/M00/03/12/Co4gj1YosXCsU4kiAAH4P0cEXFU857.jpg","imageListId":"34","imageListName":"阿狸"},{"childImageNum":"20","imageListCover":"http://106.120.188.44:8080/group1/M00/01/AE/Co4gj1YJHR6HJg5dAAI3FPQWlrk718.jpg","imageListId":"64","imageListName":"小幸福"},{"childImageNum":"49","imageListCover":"http://106.120.188.44:8080/group1/M01/04/0B/Co4gj1ZAS6PIzsJZAABD6c6wJjs963.JPG","imageListId":"72","imageListName":"多卡王子"}]
+
+[ 12-13 10:44:37.181  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,260 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:37.195  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:37.195  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:37.200  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:37.200  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:37.207  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:37.207  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:37.235  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:37.679  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:37.679  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:37.680  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:37.680  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:40.013  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:40.013  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:40.013  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:40.013  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:40.013  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:40.013  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:40.016  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:40.023  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:41.913  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:41.919  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:42.152  6786: 6866 D/skia     ]
+skiaWebpDecoder:: org:w 1200, h 1200, out:600 600, decBuf 600 600, sample 2!!
+
+
+[ 12-13 10:44:42.339  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:42.344  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:46.046  6786: 6868 D/skia     ]
+skiaWebpDecoder:: org:w 354, h 354, out:354 354, decBuf 354 354, sample 1!!
+
+
+[ 12-13 10:44:46.079  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:46.084  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:44:52.802  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:52.802  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:52.853  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:52.853  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:52.903  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:52.903  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:53.469  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:53.469  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:53.469  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:53.469  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:53.980  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:53.980  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:53.980  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:53.980  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:54.899  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:54.899  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:54.900  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:54.900  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:56.852  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:56.852  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:44:56.852  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:44:56.853  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:00.458  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:00.458  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:00.463  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:00.470  6786: 6861 D/skia     ]
+skiaWebpDecoder:: org:w 354, h 354, out:354 354, decBuf 354 354, sample 1!!
+
+
+[ 12-13 10:45:00.476  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:00.498  6786: 6861 D/skia     ]
+skiaWebpDecoder:: org:w 1200, h 1200, out:600 600, decBuf 600 600, sample 2!!
+
+
+[ 12-13 10:45:01.275  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 490, h 600, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:01.276  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 490, h 600, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:01.298  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:01.298  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:01.303  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:01.310  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:01.312  6786: 6861 D/skia     ]
+skiaWebpDecoder:: org:w 354, h 354, out:354 354, decBuf 354 354, sample 1!!
+
+
+[ 12-13 10:45:02.638  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:02.645  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:03.116  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:03.131  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:03.134  6786: 6859 D/skia     ]
+skiaWebpDecoder:: org:w 354, h 354, out:354 354, decBuf 354 354, sample 1!!
+
+
+[ 12-13 10:45:20.155  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:20.155  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:20.307  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:20.307  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:21.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:21.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:21.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:21.146  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:21.395  6786: 6861 D/skia     ]
+skiaWebpDecoder:: org:w 354, h 354, out:354 354, decBuf 354 354, sample 1!!
+
+
+[ 12-13 10:45:21.421  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:21.436  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:21.471  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:21.477  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:21.499  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:21.499  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:21.500  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:21.500  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:21.569  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:21.576  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:22.331  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:22.331  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:22.331  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:22.331  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.501  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:23.501  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.502  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:23.502  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.614  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:23.614  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.614  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:23.614  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.980  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 440, h 440, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:23.981  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 440, h 440, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:23.989  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:23.989  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:23.991  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:23.998  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:26.663  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:26.663  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:26.663  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:26.663  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.719  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.719  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.720  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.720  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.785  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.785  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.785  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.785  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.866  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.866  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:27.866  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:27.866  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:28.990  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:28.990  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:28.991  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:28.991  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:34.665  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:34.665  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:36.616  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:36.616  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:36.616  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:36.616  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:36.780  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:36.780  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:36.780  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:36.780  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:37.029  6786: 6861 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1200, h 1200, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:37.031  6786: 6861 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 1200, h 1200, sample 2, bsLength 0!!
+
+
+[ 12-13 10:45:37.077  6786: 6786 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.activity.ScanImageActivity$ItemAdapter@2712abef, startPosition = 0, endPosition = 14, maxHeight = 972, this = android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:37.083  6786: 6786 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=android.widget.ListView{129e08ae VFED.VC. .F....ID 0,260-720,1232 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:45:38.710  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:38.710  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:38.711  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:38.711  6786: 6826 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:45:38.741  6786: 6826 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:45:40.892  6786: 6786 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:45:40.896  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.896  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.899  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.899  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.900  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.900  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.901  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.901  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.901  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.901  6786: 6895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:40.904  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:41.865  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:41.865  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:41.865  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:41.865  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:45:41.881  6786: 6869 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:45:41.949  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:41.949  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:42.053  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 532, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.055  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 532, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.222  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.224  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.296  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.301  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.692  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.694  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 300, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.695  6786: 6869 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:42.696  6786: 6869 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:46.656  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:46.657  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:48.919  6786: 6786 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:45:48.926  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.926  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:48.929  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.929  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:48.929  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.929  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:48.929  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.929  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:48.929  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.930  6786: 6902 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:48.930  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.930  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:45:48.931  6786: 6841 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:45:48.931  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=111.13.94.40; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:48.931  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:49.088  6786: 6786 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1XxGVTXPgq8AACIVdqTy5o974.JPG
+
+[ 12-13 10:45:49.141  6786: 6786 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:45:49.143  6786: 6786 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1XxGVTXPgq8AACIVdqTy5o974.JPG
+
+[ 12-13 10:45:49.239  6786: 6877 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:45:51.418  6786: 6786 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{22f815d6 V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#1 ty=1000 fl=#840000 fmt=-3 surfaceInsets=Rect(0, 0 - 0, 0)}
+
+[ 12-13 10:45:59.044  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:59.044  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:45:59.045  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:59.045  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:45:59.049  6786: 6868 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:45:59.243  6786: 6866 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:59.244  6786: 6866 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 300, h 533, sample 1, bsLength 0!!
+
+
+[ 12-13 10:45:59.755  6786: 6868 D/skia     ]
+skiaWebpDecoder:: org:w 300, h 300, out:300 300, decBuf 300 300, sample 1!!
+
+
+[ 12-13 10:45:59.965  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:45:59.965  6786: 6866 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.146  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.146  6786: 6869 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.182  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.182  6786: 6868 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.260  6786: 6869 D/skia     ]
+skiaWebpDecoder:: org:w 200, h 200, out:200 200, decBuf 200 200, sample 1!!
+
+
+[ 12-13 10:46:00.388  6786: 6868 D/skia     ]
+skiaWebpDecoder:: org:w 200, h 200, out:200 200, decBuf 200 200, sample 1!!
+
+
+[ 12-13 10:46:00.420  6786: 6866 D/skia     ]
+skiaWebpDecoder:: org:w 425, h 425, out:425 425, decBuf 425 425, sample 1!!
+
+
+[ 12-13 10:46:00.430  6786: 6869 D/skia     ]
+skiaWebpDecoder:: org:w 200, h 200, out:200 200, decBuf 200 200, sample 1!!
+
+
+[ 12-13 10:46:00.525  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.525  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.530  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.530  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.531  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.531  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.531  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:00.531  6786: 6909 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:00.750  6786: 6868 D/skia     ]
+skiaWebpDecoder:: org:w 450, h 346, out:450 346, decBuf 450 346, sample 1!!
+
+
+[ 12-13 10:46:00.831  6786: 6866 D/skia     ]
+skiaWebpDecoder:: org:w 467, h 456, out:467 456, decBuf 467 456, sample 1!!
+
+
+[ 12-13 10:46:00.959  6786: 6869 D/skia     ]
+skiaWebpDecoder:: org:w 1200, h 674, out:1200 674, decBuf 1200 674, sample 1!!
+
+
+[ 12-13 10:46:00.981  6786: 6868 D/skia     ]
+skiaWebpDecoder:: org:w 600, h 337, out:600 337, decBuf 600 337, sample 1!!
+
+
+[ 12-13 10:46:01.155  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:01.155  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:01.158  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:01.158  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:01.158  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:01.158  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:01.159  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:01.159  6786: 6910 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:01.481  6786: 6868 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 700, h 456, sample 1, bsLength 0!!
+
+
+[ 12-13 10:46:01.484  6786: 6868 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 700, h 456, sample 1, bsLength 0!!
+
+
+[ 12-13 10:46:02.524  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:02.524  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:02.526  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:02.527  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:02.527  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:02.527  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:02.527  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:02.527  6786: 6911 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:03.129  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:03.129  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:03.134  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:03.134  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:03.134  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:03.134  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:03.135  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:03.135  6786: 6834 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:04.268  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:04.268  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:04.273  6786: 6896 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.253  6786: 6786 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:46:21.254  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.254  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.255  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.255  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:46:21.256  6786: 6863 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:46:21.256  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=111.13.94.40; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.256  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.258  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.258  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:21.261  6786: 6915 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:22.959  6786: 6786 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1YLiVjzSmBZAAKOgFv3Qo0808.png
+
+[ 12-13 10:46:23.002  6786: 6786 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:46:23.002  6786: 6786 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1YLiVjzSmBZAAKOgFv3Qo0808.png
+
+[ 12-13 10:46:23.029  6786: 6802 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:46:45.929  6786: 6786 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-13 10:46:45.931  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.931  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:45.931  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.931  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:46:45.933  6786: 6876 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:46:45.934  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: hostname=111.13.94.40; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.934  6786: 6876 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:45.934  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.934  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:45.937  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.937  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:45.938  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.938  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:45.938  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:45.938  6786: 6922 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:48.181  6786: 6786 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:46:48.226  6786: 6786 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:46:48.226  6786: 6786 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:46:48.252  6786: 6857 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:46:59.194  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.194  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.194  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.194  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.194  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.194  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:46:59.196  6786: 6841 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:46:59.196  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: hostname=111.13.94.40; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.196  6786: 6841 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.198  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.198  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.198  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.198  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.199  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:46:59.199  6786: 6925 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:46:59.641  6786: 6786 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:46:59.676  6786: 6786 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:46:59.676  6786: 6786 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:46:59.817  6786: 6877 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:47:02.820  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.820  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:02.821  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=tugelepic.mt.sogou.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.821  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:47:02.823  6786: 6863 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:47:02.823  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: hostname=111.13.94.40; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.823  6786: 6863 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:02.825  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.825  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:02.827  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.827  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:02.828  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.828  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:02.828  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:47:02.828  6786: 6930 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:47:03.471  6786: 6786 D/doweload_file ]
+/storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:47:03.515  6786: 6786 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:47:03.515  6786: 6786 V/MediaScannerConnection ]
+Scanning file /storage/emulated/0/tugele/Co4gj1YLjWvaPJ_xAAK9lVUMy4Q782.png
+
+[ 12-13 10:47:03.534  6786: 6877 V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:47:25.899  6786: 6856 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974845899
+
+[ 12-13 10:47:25.932  6786: 6856 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974845932
+

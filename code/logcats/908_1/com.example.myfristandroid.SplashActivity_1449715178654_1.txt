@@ -1,0 +1,1997 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:38:31.564 19367:19367 E/Trace    ]
+error opening trace file: Permission denied (13)
+
+[ 12-10 10:38:31.684 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 50K, 5% free 8159K/8515K, paused 16ms, total 16ms
+
+[ 12-10 10:38:31.724 19367:19370 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 4% free 11944K/12359K, paused 17ms+1ms, total 29ms
+
+[ 12-10 10:38:31.894 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 4% free 11944K/12359K, paused 13ms, total 13ms
+
+[ 12-10 10:38:31.934 19367:19370 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 3% free 20461K/20935K, paused 2ms+2ms, total 18ms
+
+[ 12-10 10:38:32.034 19385:19385 E/Trace    ]
+error opening trace file: Permission denied (13)
+
+[ 12-10 10:38:32.054 19367:19367 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130130_Merge_release_AU (Merge)
+Build Date: 01/31/13 Thu
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130130
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:38:32.074 19385:19385 D/dalvikvm ]
+GC_FOR_ALLOC freed 40K, 5% free 8132K/8515K, paused 17ms, total 17ms
+
+[ 12-10 10:38:32.104 19385:19387 D/dalvikvm ]
+GC_CONCURRENT freed 50K, 5% free 9138K/9543K, paused 2ms+7ms, total 22ms
+
+[ 12-10 10:38:32.114 19385:19385 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:38:32.114 19385:19385 D/SocketService ]
+pid:19385 myPid:19385
+
+[ 12-10 10:38:32.134 19385:19385 D/SocketService ]
+start to run current thread!id:681
+
+[ 12-10 10:38:32.334 19385:19406 D/SocketService ]
+ip/172.20.10.2 lport:44825 p:143
+
+--------- beginning of /dev/log/system
+[ 12-10 10:38:32.344 19385:19406 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:38:32.364 19385:19406 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:38:32.364 19385:19406 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:38:32.364 19385:19406 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:38:32.364 19385:19406 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:38:32.384 19385:19406 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:38:32.394 19385:19406 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:38:32.394 19385:19406 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:38:32.394 19385:19406 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:38:32.404 19385:19406 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:38:32.404 19385:19406 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:38:34.204 19367:19367 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:38:34.214 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:184)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:263)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:34.414 19367:19370 D/dalvikvm ]
+GC_CONCURRENT freed 4911K, 23% free 17530K/22727K, paused 14ms+17ms, total 57ms
+
+[ 12-10 10:38:34.414 19367:19367 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 8ms
+
+[ 12-10 10:38:34.614 19367:19370 D/dalvikvm ]
+GC_CONCURRENT freed 1118K, 20% free 18387K/22727K, paused 12ms+26ms, total 62ms
+
+[ 12-10 10:38:36.474 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:36.474 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:36.504 19367:19420 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 10:38:36.514 19367:19421 E/         ]
+generic statfs: /data , size: 115032
+
+[ 12-10 10:38:36.554 19367:19367 D/ProjectsConfigUtils ]
+Error while trying to load all provider config settings.
+java.lang.NullPointerException
+	at android.webkit.utils.ProjectsConfigUtils.getAllProjectMacro(ProjectsConfigUtils.java:34)
+	at android.webkit.utils.ProjectsConfigUtils.getProjectMacro(ProjectsConfigUtils.java:17)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:182)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2578)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.554 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.554 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.584 19367:19367 D/ProjectsConfigUtils ]
+Error while trying to load all provider config settings.
+java.lang.NullPointerException
+	at android.webkit.utils.ProjectsConfigUtils.getAllProjectMacro(ProjectsConfigUtils.java:34)
+	at android.webkit.utils.ProjectsConfigUtils.getProjectMacro(ProjectsConfigUtils.java:17)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:182)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2580)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.584 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.584 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.584 19367:19367 D/ProjectsConfigUtils ]
+Error while trying to load all provider config settings.
+java.lang.NullPointerException
+	at android.webkit.utils.ProjectsConfigUtils.getAllProjectMacro(ProjectsConfigUtils.java:34)
+	at android.webkit.utils.ProjectsConfigUtils.getProjectMacro(ProjectsConfigUtils.java:17)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:182)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2582)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.614 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.614 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.614 19367:19367 D/ProjectsConfigUtils ]
+Error while trying to load all provider config settings.
+java.lang.NullPointerException
+	at android.webkit.utils.ProjectsConfigUtils.getAllProjectMacro(ProjectsConfigUtils.java:34)
+	at android.webkit.utils.ProjectsConfigUtils.getProjectMacro(ProjectsConfigUtils.java:17)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:182)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2585)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.624 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.634 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {423ef310}
+
+[ 12-10 10:38:36.634 19367:19367 D/Bookmarks ]
+read email setting in config file failed
+
+[ 12-10 10:38:36.634 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:36.634 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@423f7170
+
+[ 12-10 10:38:36.634 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@418a9d90
+
+[ 12-10 10:38:36.634 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:36.644 19367:19420 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/103836:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x50bf3010
+
+
+[ 12-10 10:38:36.644 19367:19420 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/103836:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x50be0a08
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=86 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:188)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2578)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=84 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:195)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2578)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=57 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:188)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2580)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=54 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:195)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2580)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=31 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:188)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2582)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=27 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:195)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2582)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=20 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:188)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2585)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19367 D/StrictMode ]
+StrictMode policy violation; ~duration=8 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.webkit.macro.ProjectMacro.getPropertyFromConf(ProjectMacro.java:244)
+	at android.webkit.macro.ProjectMacro.testTargetCopyProcess(ProjectMacro.java:195)
+	at android.webkit.macro.ProjectMacro.testTargetCopy(ProjectMacro.java:65)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2585)
+	at android.webkit.WebViewClassic.loadUrlImpl(WebViewClassic.java:2642)
+	at android.webkit.WebViewClassic.loadUrl(WebViewClassic.java:2635)
+	at android.webkit.WebView.loadUrl(WebView.java:789)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:76)
+	at android.app.Activity.performCreate(Activity.java:5008)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:38:36.644 19367:19420 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 10:38:36.644 19367:19420 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 10:38:36.644 19367:19420 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 10:38:36.644 19367:19420 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 10:38:36.644 19367:19420 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 10:38:36.644 19367:19420 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 10:38:36.644 19367:19420 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 10:38:36.644 19367:19420 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 10:38:36.644 19367:19420 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 10:38:36.644 19367:19420 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:38:36.644 19367:19420 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:38:36.644 19367:19420 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:38:36.644 19367:19420 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:38:36.654 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:36.654 19367:19420 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 10:38:36.654 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:36.654 19367:19420 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 10:38:36.654 19367:19420 D/         ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 10:38:36.654 19367:19420 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 10:38:36.664 19367:19420 V/webcore  ]
+184 arg1=0 arg2=0 obj=[]
+
+[ 12-10 10:38:36.664 19367:19431 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/103836:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 10:38:36.664 19367:19431 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/103836:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 10:38:36.674 19367:19431 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/103836:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 10:38:36.674 19367:19431 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/103836:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 10:38:36.674 19367:19431 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/103836:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:38:36.674 19367:19431 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/103836:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 10:38:36.674 19367:19431 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/103836:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:38:36.674 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:36.674 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@418b92f8
+
+[ 12-10 10:38:36.674 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@418b94d0
+
+[ 12-10 10:38:36.684 19367:19431 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 10:38:36.684 19367:19431 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 10:38:36.704 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:36.704 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:36.734 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:36.734 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:36.744 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:36.744 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:36.744 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:36.744 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:36.744 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@418bc4a0
+
+[ 12-10 10:38:36.744 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:36.744 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:36.874 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:36.874 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:36.874 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:37.064 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:37.064 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:37.274 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:37.274 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:37.274 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:37.344 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:37.344 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:37.344 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:37.344 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:37.354 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:37.354 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:37.354 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:37.354 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:40.384 19367:19409 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715120394
+
+[ 12-10 10:38:40.444 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 1421K, 19% free 18618K/22727K, paused 34ms, total 35ms
+
+[ 12-10 10:38:40.494 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 10K, 12% free 20210K/22727K, paused 20ms, total 20ms
+
+[ 12-10 10:38:41.914 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:42.264 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a65b18
+
+[ 12-10 10:38:42.274 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a65d10
+
+[ 12-10 10:38:42.684 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:42.684 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:42.684 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41a68068}
+
+[ 12-10 10:38:42.684 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:42.694 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a692a0
+
+[ 12-10 10:38:42.694 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41a69730
+
+[ 12-10 10:38:42.694 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:42.714 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:42.714 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:42.724 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:42.734 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a6c028
+
+[ 12-10 10:38:42.734 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a6c2e8
+
+[ 12-10 10:38:42.764 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:42.764 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:42.784 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:42.784 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:42.794 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:42.794 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:42.794 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:42.794 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:42.804 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41a6df78
+
+[ 12-10 10:38:42.804 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:42.804 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:42.834 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:42.844 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:42.954 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:42.954 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:42.964 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:42.964 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:42.964 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:42.964 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:42.964 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:42.964 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:42.964 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:42.964 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:42.964 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:43.694 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:44.034 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a737d8
+
+[ 12-10 10:38:44.044 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a73ca0
+
+[ 12-10 10:38:44.404 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:44.404 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:44.414 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41a77d98}
+
+[ 12-10 10:38:44.414 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:44.414 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a796c0
+
+[ 12-10 10:38:44.414 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41a79b50
+
+[ 12-10 10:38:44.414 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:44.424 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:44.444 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:44.444 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a7caa0
+
+[ 12-10 10:38:44.444 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a7cb00
+
+[ 12-10 10:38:44.464 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:44.464 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:44.464 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:44.484 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:44.484 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:44.494 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:44.494 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:44.494 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:44.494 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:44.494 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41a7ea90
+
+[ 12-10 10:38:44.494 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:44.494 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:44.664 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:44.664 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:44.764 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:44.764 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:44.764 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:44.764 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:44.764 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:44.774 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:44.774 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:44.774 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:44.774 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:44.774 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:44.774 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:45.354 19385:19387 D/dalvikvm ]
+GC_CONCURRENT freed 359K, 7% free 9204K/9799K, paused 12ms+12ms, total 52ms
+
+[ 12-10 10:38:52.004 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:52.314 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a84c18
+
+[ 12-10 10:38:52.324 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a85178
+
+[ 12-10 10:38:52.834 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:52.834 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:52.844 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41a89660}
+
+[ 12-10 10:38:52.844 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:52.844 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a8b0a8
+
+[ 12-10 10:38:52.844 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41a8b798
+
+[ 12-10 10:38:52.844 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:52.854 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:52.854 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:52.874 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:52.874 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a8e558
+
+[ 12-10 10:38:52.874 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a8e8b0
+
+[ 12-10 10:38:52.894 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:52.894 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:52.894 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:52.914 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:52.924 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:52.924 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:52.924 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:52.924 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:52.924 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41a90780
+
+[ 12-10 10:38:52.924 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:52.924 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:53.034 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:53.034 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:53.144 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:53.144 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:53.154 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:53.154 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:53.154 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:53.154 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:53.164 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:53.164 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:53.164 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:53.164 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:53.164 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:53.804 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:54.134 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a96840
+
+[ 12-10 10:38:54.144 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a96da0
+
+[ 12-10 10:38:54.524 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:54.524 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:54.534 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41a9b440}
+
+[ 12-10 10:38:54.534 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:54.544 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41a9d0a0
+
+[ 12-10 10:38:54.544 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41a9d8e8
+
+[ 12-10 10:38:54.544 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:54.554 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:54.554 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:54.564 19367:19370 D/dalvikvm ]
+GC_CONCURRENT freed 3433K, 24% free 18734K/24391K, paused 12ms+3ms, total 44ms
+
+[ 12-10 10:38:54.574 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:54.574 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@423940e0
+
+[ 12-10 10:38:54.574 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@42392530
+
+[ 12-10 10:38:54.594 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:54.594 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:54.614 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:54.624 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:54.624 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:54.624 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:54.624 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:54.624 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:54.624 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@418bcfd8
+
+[ 12-10 10:38:54.624 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:54.624 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:54.804 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:54.804 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:54.924 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:54.924 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:54.924 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:54.924 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:54.924 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:54.924 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:55.374 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:55.704 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aa3a90
+
+[ 12-10 10:38:55.714 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aa3d90
+
+[ 12-10 10:38:56.144 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:56.144 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:56.154 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41aa7648}
+
+[ 12-10 10:38:56.154 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:56.164 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aa8ea8
+
+[ 12-10 10:38:56.164 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41aa9338
+
+[ 12-10 10:38:56.164 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:56.174 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:56.174 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:56.194 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:56.194 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aabc80
+
+[ 12-10 10:38:56.194 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aabce0
+
+[ 12-10 10:38:56.224 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:56.224 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:56.254 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:56.264 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:56.264 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:56.274 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:56.274 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:56.274 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:56.274 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41aadbe0
+
+[ 12-10 10:38:56.274 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:56.274 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:56.414 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:56.414 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:56.524 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:56.524 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:56.524 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:56.534 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:56.534 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:56.534 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:56.534 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:56.534 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:56.534 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:56.534 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:56.534 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:57.174 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:57.504 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ab3440
+
+[ 12-10 10:38:57.514 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ab3908
+
+[ 12-10 10:38:57.944 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:57.944 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:57.944 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41ab7960}
+
+[ 12-10 10:38:57.954 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:57.954 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ab9398
+
+[ 12-10 10:38:57.954 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41ab9828
+
+[ 12-10 10:38:57.954 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:57.964 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:57.974 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:57.984 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:57.984 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41abc460
+
+[ 12-10 10:38:57.984 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41abc7b8
+
+[ 12-10 10:38:58.014 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:58.014 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:58.044 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:58.044 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41abe400
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:58.044 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:58.044 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:58.194 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.194 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.194 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.284 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:58.284 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:58.384 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:58.384 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:38:58.394 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.394 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.394 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:58.404 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:38:58.404 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:38:58.404 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:58.404 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:38:58.414 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:58.414 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:38:59.014 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:38:59.324 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ac4430
+
+[ 12-10 10:38:59.334 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ac47c0
+
+[ 12-10 10:38:59.714 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:38:59.714 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:38:59.724 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41ac8c30}
+
+[ 12-10 10:38:59.724 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:38:59.734 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41aca738
+
+[ 12-10 10:38:59.734 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41acaec0
+
+[ 12-10 10:38:59.734 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:38:59.744 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:38:59.744 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:38:59.764 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:38:59.764 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41acdb70
+
+[ 12-10 10:38:59.764 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41acdec8
+
+[ 12-10 10:38:59.784 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:38:59.784 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:59.794 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:38:59.814 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:38:59.814 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41acfdd0
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:38:59.814 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:38:59.974 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:59.974 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:38:59.974 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:00.014 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:39:00.014 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:39:00.124 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:39:00.124 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:39:00.124 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:00.124 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:00.124 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:00.134 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:39:00.134 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:39:00.134 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:39:00.134 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:39:00.134 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:39:00.134 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:39:00.814 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:39:01.144 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ad5b00
+
+[ 12-10 10:39:01.154 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ad6060
+
+[ 12-10 10:39:01.594 19367:19367 D/webview  ]
+MultitabManagement is false
+
+[ 12-10 10:39:01.594 19367:19367 D/webview  ]
+BrowserManagement sys prop is false
+
+[ 12-10 10:39:01.594 19367:19420 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41ada448}
+
+[ 12-10 10:39:01.594 19367:19420 D/webcore  ]
+MultitabManagement is true
+
+[ 12-10 10:39:01.604 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41adbf80
+
+[ 12-10 10:39:01.604 19367:19420 V/webcore  ]
+LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41adc410
+
+[ 12-10 10:39:01.604 19367:19420 V/webcore  ]
+ CORE loadUrl http://www.baidu.com
+
+[ 12-10 10:39:01.614 19367:19367 V/webview  ]
+WEBCORE_INITIALIZED_MSG_ID
+
+[ 12-10 10:39:01.614 19367:19367 V/webview  ]
+setCertificate=null
+
+[ 12-10 10:39:01.634 19367:19367 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:39:01.634 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41adf2d8
+
+[ 12-10 10:39:01.634 19367:19420 V/webcore  ]
+ADD_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41adf338
+
+[ 12-10 10:39:01.664 19367:19367 V/webview  ]
+MT focusChanged true, 2
+
+[ 12-10 10:39:01.664 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:39:01.684 19367:19367 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:39:01.694 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=1 arg2=0 obj=null
+
+[ 12-10 10:39:01.704 19367:19367 E/ZoomManager.java ]
+wlf reflowText=true
+
+[ 12-10 10:39:01.704 19367:19367 V/webview  ]
+sendOurVisibleRect=(0,106,r=480,b=854
+
+[ 12-10 10:39:01.704 19367:19420 V/webcore  ]
+SET_SCROLL_OFFSET arg1=1 arg2=0 obj=Point(0, 0)
+
+[ 12-10 10:39:01.704 19367:19420 V/webcore  ]
+SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 106 - 480, 854)
+
+[ 12-10 10:39:01.704 19367:19420 V/webcore  ]
+VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebViewClassic$ViewSizeData@41ae1400
+
+[ 12-10 10:39:01.704 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:39:01.704 19367:19420 V/webcore  ]
+viewSizeChanged
+
+[ 12-10 10:39:01.844 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:01.844 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:01.844 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:02.034 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:39:02.034 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:39:02.104 19385:19402 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:13
+
+[ 12-10 10:39:02.154 19367:19420 V/webcore  ]
+WEBKIT_DRAW arg1=0 arg2=0 obj=null
+
+[ 12-10 10:39:02.154 19367:19420 V/webcore  ]
+webkitDraw start
+
+[ 12-10 10:39:02.154 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:02.154 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:02.154 19367:19367 V/webview  ]
+SELECTION_STRING_CHANGED
+
+[ 12-10 10:39:02.164 19367:19420 V/webcore  ]
+didFirstLayout standardLoad =true
+
+[ 12-10 10:39:02.164 19367:19420 V/webcore  ]
+setupViewport mRestoredScale=0.0 mViewScale=1.5 mTextWrapScale=1.5 data.mScale= 1.5
+
+[ 12-10 10:39:02.164 19367:19420 V/webcore  ]
+viewSizeChanged w=320; h=499; textwrapWidth=320; scale=1.5
+
+[ 12-10 10:39:02.164 19367:19367 V/webview  ]
+SAVE_WEBARCHIVE_FINISHED
+
+[ 12-10 10:39:02.164 19367:19420 V/webcore  ]
+webkitDraw NEW_PICTURE_MSG_ID
+
+[ 12-10 10:39:02.164 19367:19367 V/webview  ]
+NEW_PICTURE_MSG_ID
+
+[ 12-10 10:39:02.454 19367:19420 V/webcore  ]
+SET_ACTIVE arg1=0 arg2=0 obj=null
+
+[ 12-10 10:39:02.774 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ae78d0
+
+[ 12-10 10:39:02.784 19367:19420 V/webcore  ]
+REMOVE_JS_INTERFACE arg1=0 arg2=0 obj=android.webkit.WebViewCore$JSInterfaceData@41ae7c60
+
+[ 12-10 10:39:06.894 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:39:08.154 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:39:09.124 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:39:12.114 19385:19402 D/SocketService ]
+start to run current thread!id:683
+
+[ 12-10 10:39:12.264 19385:19622 D/SocketService ]
+ip/172.20.10.2 lport:39032 p:143
+
+[ 12-10 10:39:12.264 19385:19622 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:39:12.274 19385:19622 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:39:12.274 19385:19622 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:39:12.274 19385:19622 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:39:12.274 19385:19622 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:39:12.314 19385:19622 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:39:12.314 19385:19622 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:39:12.314 19385:19622 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:39:12.314 19385:19622 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:39:12.324 19385:19387 D/dalvikvm ]
+GC_CONCURRENT freed 425K, 7% free 9304K/9927K, paused 12ms+29ms, total 56ms
+
+[ 12-10 10:39:12.334 19385:19622 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:39:12.344 19385:19622 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:39:15.454 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:39:22.104 19385:19402 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:26
+
+[ 12-10 10:39:31.064 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:39:31.954 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:39:32.104 19385:19402 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:39
+
+[ 12-10 10:39:32.494 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:39:33.384 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:39:34.364 19367:19367 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:39:38.644 19367:19409 D/cn.edu.nju.ise.kikandroid ]
+Log:1449715178654
+
+[ 12-10 10:39:38.694 19367:19409 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715178703
+
+[ 12-10 10:39:38.764 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 1524K, 23% free 19020K/24391K, paused 22ms, total 23ms
+
+[ 12-10 10:39:38.814 19367:19367 D/dalvikvm ]
+GC_FOR_ALLOC freed 44K, 16% free 20577K/24391K, paused 18ms, total 18ms
+
+[ 12-10 10:39:38.914 19367:19409 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x40f56438)
+
+[ 12-10 10:39:38.914 19367:19409 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-675
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

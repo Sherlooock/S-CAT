@@ -1,0 +1,1731 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:22:14.461 25461:25461 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:22:14.471 25461:25461 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:22:16.691 25461:25461 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:22:16.721 25461:25461 D/MainActivity ]
+MainActivity Send BroadCast Length:19
+
+[ 12-10 10:22:16.721 25461:25461 D/StrictMode ]
+StrictMode policy violation; ~duration=23 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:22:16.721 25461:25461 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:22:16.721 25461:25461 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:22:16.721 25461:25461 D/StrictMode ]
+StrictMode policy violation; ~duration=4 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:22:16.731 25484:25484 D/ForegroundActivity ]
+本次发送帧长:19	总帧长:187
+
+[ 12-10 10:22:16.841 25484:25513 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:821
+
+[ 12-10 10:22:17.691 25484:25504 D/SocketService1 ]
+本次提取1:LoadPtr:821 HeadIndex:808 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:22:23.001 25461:25510 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714143005
+
+[ 12-10 10:22:23.061 25461:25461 D/dalvikvm ]
+GC_FOR_ALLOC freed 2526K, 29% free 20423K/28487K, paused 43ms, total 47ms
+
+[ 12-10 10:22:23.111 25461:25463 D/dalvikvm ]
+GC_CONCURRENT freed 62K, 22% free 22386K/28487K, paused 15ms+3ms, total 43ms
+
+[ 12-10 10:22:23.111 25461:25461 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+
+[ 12-10 10:22:23.161 25461:25463 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 22% free 22391K/28487K, paused 22ms+3ms, total 45ms
+
+[ 12-10 10:22:28.831 25461:25510 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714148845
+
+[ 12-10 10:22:28.891 25461:25510 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714148896
+
+[ 12-10 10:22:28.951 25461:25461 D/dalvikvm ]
+GC_FOR_ALLOC freed 2160K, 29% free 20365K/28487K, paused 19ms, total 21ms
+
+[ 12-10 10:22:28.991 25461:25463 D/dalvikvm ]
+GC_CONCURRENT freed 11K, 22% free 22380K/28487K, paused 12ms+4ms, total 36ms
+
+[ 12-10 10:22:29.041 25461:25463 D/dalvikvm ]
+GC_CONCURRENT freed 2108K, 22% free 22303K/28487K, paused 4ms+16ms, total 41ms
+
+[ 12-10 10:22:29.131 25461:25510 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41b16588)
+
+--------- beginning of /dev/log/system
+[ 12-10 10:22:29.131 25461:25510 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-517
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:23:03.141 26195:26195 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:23:03.181 26195:26195 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:23:03.311 26195:26195 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@424dfc40: null
+
+[ 12-10 10:23:03.341 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 93K, 6% free 9603K/10179K, paused 15ms, total 15ms
+
+[ 12-10 10:23:03.361 26195:26195 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.468MB for 3876224-byte allocation
+
+[ 12-10 10:23:03.371 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 13388K/14023K, paused 2ms+2ms, total 16ms
+
+[ 12-10 10:23:03.491 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 5% free 13388K/14023K, paused 11ms, total 11ms
+
+[ 12-10 10:23:03.511 26195:26195 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.785MB for 8721484-byte allocation
+
+[ 12-10 10:23:03.531 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 4% free 21905K/22599K, paused 11ms+2ms, total 24ms
+
+[ 12-10 10:23:03.591 26218:26218 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:23:03.591 26195:26195 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@424dfc40
+
+[ 12-10 10:23:03.591 26195:26195 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@424dfc40
+
+[ 12-10 10:23:03.621 26218:26218 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:23:03.641 26195:26195 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 10:23:03.641 26195:26195 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 10:23:03.641 26195:26195 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 10:23:03.651 26195:26195 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:23:03.651 26195:26195 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:23:03.661 26218:26218 D/dalvikvm ]
+GC_FOR_ALLOC freed 37K, 6% free 9575K/10179K, paused 15ms, total 16ms
+
+[ 12-10 10:23:03.671 26218:26218 I/dalvikvm-heap ]
+Grow heap (frag case) to 12.721MB for 1024016-byte allocation
+
+[ 12-10 10:23:03.671 26195:26195 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:23:03.681 26218:26220 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 6% free 10622K/11207K, paused 2ms+1ms, total 16ms
+
+[ 12-10 10:23:03.701 26218:26218 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:23:03.711 26218:26218 D/SocketService ]
+pid:26218 myPid:26218
+
+[ 12-10 10:23:03.711 26218:26218 D/SocketService ]
+start to run current thread!id:545
+
+[ 12-10 10:23:03.761 26195:26209 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{424e0cb8 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 10:23:05.671 26195:26195 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@424dfc40
+
+[ 12-10 10:23:05.691 26195:26195 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@424c27c0: null
+
+[ 12-10 10:23:05.851 26195:26195 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:23:05.851 26195:26195 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424c27c0
+
+[ 12-10 10:23:05.851 26195:26195 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424c27c0
+
+[ 12-10 10:23:06.021 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 4993K, 23% free 18835K/24263K, paused 15ms, total 15ms
+
+[ 12-10 10:23:06.111 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 1083K, 19% free 19752K/24263K, paused 2ms+2ms, total 23ms
+
+[ 12-10 10:23:06.111 26195:26195 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-10 10:23:06.561 26195:26195 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@424dfc40
+
+[ 12-10 10:23:06.561 26195:26195 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@424dfc40
+
+[ 12-10 10:23:06.811 26218:26237 D/SocketService ]
+ip/172.20.10.4 lport:34703 p:143
+
+[ 12-10 10:23:06.831 26218:26237 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 10:23:06.831 26218:26237 D/SocketService ]
+success to connect server!id:545 bLogin:false
+
+[ 12-10 10:23:06.971 26218:26267 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:23:07.711 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:23:07.721 26195:26195 D/MainActivity ]
+Unkown Report:ffffffeb ffffff90 ffffffeb ffffff90 ffffffeb ffffff90 d 0 e 1 1 0 ffffff81 
+
+[ 12-10 10:23:07.841 26218:26237 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 10:23:08.001 26195:26195 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:23:08.011 26195:26195 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:23:08.031 26218:26267 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:23:08.741 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:23:08.751 26195:26195 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:23:08.751 26195:26195 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:23:08.761 26195:26195 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:23:08.761 26195:26195 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:23:08.761 26195:26195 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:23:08.761 26195:26195 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:23:08.771 26195:26195 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:23:08.771 26195:26195 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:23:08.771 26195:26195 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:23:08.771 26195:26195 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:23:08.831 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=29 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:08.831 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=13 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:08.831 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=9 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:08.831 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=0 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:08.861 26218:26237 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 10:23:09.061 26218:26267 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:23:09.761 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:23:09.781 26195:26195 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:23:09.821 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714189830
+
+[ 12-10 10:23:10.031 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 1315K, 18% free 20000K/24263K, paused 39ms, total 39ms
+
+[ 12-10 10:23:10.071 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 14K, 10% free 22011K/24263K, paused 12ms+3ms, total 33ms
+
+[ 12-10 10:23:10.111 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 22010K/24263K, paused 16ms, total 16ms
+
+[ 12-10 10:23:10.111 26195:26195 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.866MB for 2073616-byte allocation
+
+[ 12-10 10:23:10.171 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 9% free 24047K/26311K, paused 12ms+15ms, total 56ms
+
+[ 12-10 10:23:12.251 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:12.251 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:13.671 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714193684
+
+[ 12-10 10:23:13.751 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 4183K, 24% free 20003K/26311K, paused 21ms, total 22ms
+
+[ 12-10 10:23:13.791 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 10K, 17% free 22017K/26311K, paused 12ms+3ms, total 33ms
+
+[ 12-10 10:23:13.831 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 2109K, 17% free 21940K/26311K, paused 4ms+3ms, total 27ms
+
+[ 12-10 10:23:14.681 26195:26195 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:23:14.801 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:14.801 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:14.801 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:14.801 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:17.371 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:17.371 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:21.081 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:21.081 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:24.341 26195:26195 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:24.391 26195:26195 D/MainActivity ]
+MainActivity Send BroadCast Length:19
+
+[ 12-10 10:23:24.391 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=38 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:24.391 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=27 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:24.391 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=20 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:24.391 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=4 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:24.401 26218:26218 D/ForegroundActivity ]
+本次发送帧长:19	总帧长:75
+
+[ 12-10 10:23:24.831 26218:26267 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:23:24.841 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:27.001 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714207012
+
+[ 12-10 10:23:27.081 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 2658K, 24% free 20093K/26311K, paused 34ms, total 36ms
+
+[ 12-10 10:23:27.131 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 38K, 17% free 22079K/26311K, paused 12ms+3ms, total 43ms
+
+[ 12-10 10:23:27.131 26195:26195 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-10 10:23:27.171 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22084K/26311K, paused 12ms+3ms, total 37ms
+
+[ 12-10 10:23:29.621 26195:26195 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:29.621 26195:26195 D/MainActivity ]
+MainActivity Send BroadCast Length:19
+
+[ 12-10 10:23:29.631 26218:26218 D/ForegroundActivity ]
+本次发送帧长:19	总帧长:94
+
+[ 12-10 10:23:29.851 26218:26267 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 10:23:29.881 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:33.581 26195:26195 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:23:33.621 26195:26195 D/MainActivity ]
+MainActivity Send BroadCast Length:13
+
+[ 12-10 10:23:33.621 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=40 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:33.621 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=30 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:33.621 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=27 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:33.621 26195:26195 D/StrictMode ]
+StrictMode policy violation; ~duration=4 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:23:33.631 26218:26218 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:107
+
+[ 12-10 10:23:33.861 26218:26267 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 10:23:33.911 26218:26235 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:23:34.281 26218:26220 D/dalvikvm ]
+GC_CONCURRENT freed 454K, 8% free 10607K/11527K, paused 21ms+2ms, total 55ms
+
+[ 12-10 10:23:36.151 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714216164
+
+[ 12-10 10:23:36.221 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 2436K, 24% free 20156K/26311K, paused 32ms, total 34ms
+
+[ 12-10 10:23:36.261 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 100K, 17% free 22081K/26311K, paused 15ms+2ms, total 35ms
+
+[ 12-10 10:23:36.261 26195:26195 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-10 10:23:36.301 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22086K/26311K, paused 13ms+4ms, total 38ms
+
+[ 12-10 10:23:37.701 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714217709
+
+[ 12-10 10:23:40.951 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:40.951 26195:26195 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:23:42.151 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714222163
+
+[ 12-10 10:23:44.241 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714224250
+
+[ 12-10 10:23:44.271 26195:26240 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714224277
+
+[ 12-10 10:23:44.321 26195:26195 D/dalvikvm ]
+GC_FOR_ALLOC freed 2262K, 24% free 20062K/26311K, paused 18ms, total 20ms
+
+[ 12-10 10:23:44.371 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 13K, 17% free 22075K/26311K, paused 12ms+3ms, total 41ms
+
+[ 12-10 10:23:44.411 26195:26197 D/dalvikvm ]
+GC_CONCURRENT freed 2108K, 17% free 21998K/26311K, paused 4ms+4ms, total 25ms
+
+[ 12-10 10:23:44.481 26195:26240 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41b16588)
+
+[ 12-10 10:23:44.481 26195:26240 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-540
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:24:45.061 26542:26542 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:24:45.091 26542:26542 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:24:45.191 26542:26542 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@424d7310: null
+
+[ 12-10 10:24:45.221 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 58K, 6% free 9603K/10179K, paused 14ms, total 14ms
+
+[ 12-10 10:24:45.241 26542:26542 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.468MB for 3876224-byte allocation
+
+[ 12-10 10:24:45.261 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 13388K/14023K, paused 12ms+1ms, total 24ms
+
+[ 12-10 10:24:45.391 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 5% free 13388K/14023K, paused 11ms, total 11ms
+
+[ 12-10 10:24:45.411 26542:26542 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.785MB for 8721484-byte allocation
+
+[ 12-10 10:24:45.441 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 4% free 21905K/22599K, paused 12ms+2ms, total 27ms
+
+[ 12-10 10:24:45.501 26568:26568 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:24:45.501 26542:26542 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@424d7310
+
+[ 12-10 10:24:45.501 26542:26542 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@424d7310
+
+[ 12-10 10:24:45.531 26568:26568 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:24:45.541 26542:26542 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 10:24:45.541 26542:26542 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 10:24:45.551 26542:26542 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 10:24:45.561 26542:26542 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:24:45.561 26542:26542 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:24:45.571 26568:26568 D/dalvikvm ]
+GC_FOR_ALLOC freed 45K, 6% free 9575K/10179K, paused 16ms, total 16ms
+
+[ 12-10 10:24:45.581 26568:26568 I/dalvikvm-heap ]
+Grow heap (frag case) to 12.721MB for 1024016-byte allocation
+
+[ 12-10 10:24:45.581 26542:26542 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:24:45.621 26568:26571 D/dalvikvm ]
+GC_CONCURRENT freed 53K, 6% free 10582K/11207K, paused 12ms+12ms, total 39ms
+
+[ 12-10 10:24:45.731 26568:26568 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:24:45.731 26568:26568 D/SocketService ]
+pid:26568 myPid:26568
+
+[ 12-10 10:24:45.741 26568:26568 D/SocketService ]
+start to run current thread!id:551
+
+[ 12-10 10:24:45.741 26542:26559 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{424c40a0 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 10:24:45.931 26568:26588 D/SocketService ]
+ip/172.20.10.4 lport:60288 p:143
+
+[ 12-10 10:24:45.941 26568:26588 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 10:24:45.941 26568:26588 D/SocketService ]
+success to connect server!id:551 bLogin:false
+
+[ 12-10 10:24:46.101 26568:26594 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:24:46.741 26568:26586 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:24:46.941 26568:26588 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 10:24:47.581 26542:26542 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@424d7310
+
+[ 12-10 10:24:47.601 26542:26542 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@430e55c0: null
+
+[ 12-10 10:24:47.671 26568:26594 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:24:47.751 26568:26586 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:24:47.761 26542:26542 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:24:47.761 26542:26542 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e55c0
+
+[ 12-10 10:24:47.761 26542:26542 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e55c0
+
+[ 12-10 10:24:47.921 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 4995K, 23% free 18838K/24263K, paused 16ms, total 16ms
+
+[ 12-10 10:24:47.941 26568:26588 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 10:24:48.021 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 1083K, 19% free 19755K/24263K, paused 2ms+3ms, total 19ms
+
+[ 12-10 10:24:48.021 26542:26542 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+
+[ 12-10 10:24:48.071 26568:26594 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:24:48.491 26542:26542 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@424d7310
+
+[ 12-10 10:24:48.501 26542:26542 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@424d7310
+
+[ 12-10 10:24:48.781 26568:26586 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:24:48.801 26542:26542 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:24:50.991 26542:26542 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:24:52.421 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:24:55.001 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714295009
+
+[ 12-10 10:24:55.111 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 1103K, 18% free 20001K/24263K, paused 38ms, total 43ms
+
+[ 12-10 10:24:55.161 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 105K, 10% free 21921K/24263K, paused 15ms+12ms, total 50ms
+
+[ 12-10 10:24:55.191 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 21921K/24263K, paused 18ms, total 18ms
+
+[ 12-10 10:24:55.201 26542:26542 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.778MB for 2073616-byte allocation
+
+[ 12-10 10:24:55.221 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 17% free 21927K/26311K, paused 2ms+2ms, total 19ms
+
+[ 12-10 10:24:57.821 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:24:57.901 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:24:57.901 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:24:58.681 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:24:58.781 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:24:58.781 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:24:58.781 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:24:58.781 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:02.361 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714302370
+
+[ 12-10 10:25:02.451 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 2292K, 25% free 19966K/26311K, paused 21ms, total 21ms
+
+[ 12-10 10:25:02.491 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 17% free 21984K/26311K, paused 13ms+3ms, total 40ms
+
+[ 12-10 10:25:02.541 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21989K/26311K, paused 12ms+3ms, total 30ms
+
+[ 12-10 10:25:03.381 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:25:03.381 26542:26542 D/MainActivity ]
+MainActivity Send BroadCast Length:13
+
+[ 12-10 10:25:03.391 26568:26568 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 10:25:03.651 26568:26594 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:25:03.841 26568:26586 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:25:06.831 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714306836
+
+[ 12-10 10:25:06.901 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 2170K, 24% free 20058K/26311K, paused 35ms, total 36ms
+
+[ 12-10 10:25:06.941 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 17% free 22077K/26311K, paused 15ms+3ms, total 38ms
+
+[ 12-10 10:25:06.941 26542:26542 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-10 10:25:06.981 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22083K/26311K, paused 12ms+3ms, total 31ms
+
+[ 12-10 10:25:08.301 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:08.301 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:10.081 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230796
+
+[ 12-10 10:25:12.201 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714312207
+
+[ 12-10 10:25:12.261 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 2156K, 24% free 20101K/26311K, paused 32ms, total 36ms
+
+[ 12-10 10:25:12.301 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 47K, 17% free 22078K/26311K, paused 12ms+3ms, total 37ms
+
+[ 12-10 10:25:12.301 26542:26542 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+
+[ 12-10 10:25:12.351 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22083K/26311K, paused 13ms+3ms, total 39ms
+
+[ 12-10 10:25:13.221 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:13.221 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:13.921 26542:26542 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:25:13.921 26542:26542 D/MainActivity ]
+MainActivity Send BroadCast Length:13
+
+[ 12-10 10:25:13.931 26568:26568 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:82
+
+[ 12-10 10:25:14.111 26568:26594 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 10:25:14.891 26568:26586 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:25:15.281 26568:26571 D/dalvikvm ]
+GC_CONCURRENT freed 389K, 8% free 10609K/11463K, paused 7ms+2ms, total 45ms
+
+[ 12-10 10:25:16.141 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:16.141 26542:26542 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:25:23.761 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714323772
+
+[ 12-10 10:25:25.611 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714325621
+
+[ 12-10 10:25:25.641 26542:26591 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714325652
+
+[ 12-10 10:25:25.691 26542:26542 D/dalvikvm ]
+GC_FOR_ALLOC freed 2270K, 24% free 20104K/26311K, paused 18ms, total 21ms
+
+[ 12-10 10:25:25.741 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 139K, 17% free 21991K/26311K, paused 13ms+2ms, total 45ms
+
+[ 12-10 10:25:25.791 26542:26544 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21995K/26311K, paused 3ms+8ms, total 28ms
+
+[ 12-10 10:25:25.871 26542:26591 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41b16588)
+
+[ 12-10 10:25:25.871 26542:26591 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-546
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:26:54.441 26865:26865 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:26:54.491 26865:26865 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:26:54.581 26865:26865 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@424d9268: null
+
+[ 12-10 10:26:54.621 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 66K, 6% free 9603K/10179K, paused 14ms, total 14ms
+
+[ 12-10 10:26:54.631 26865:26865 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.468MB for 3876224-byte allocation
+
+[ 12-10 10:26:54.651 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 13388K/14023K, paused 2ms+2ms, total 15ms
+
+[ 12-10 10:26:54.771 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 5% free 13388K/14023K, paused 11ms, total 11ms
+
+[ 12-10 10:26:54.811 26865:26865 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.785MB for 8721484-byte allocation
+
+[ 12-10 10:26:54.871 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 4% free 21905K/22599K, paused 16ms+2ms, total 64ms
+
+[ 12-10 10:26:54.921 26886:26886 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:26:54.921 26865:26865 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@424d9268
+
+[ 12-10 10:26:54.921 26865:26865 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@424d9268
+
+[ 12-10 10:26:54.951 26886:26886 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:26:54.961 26865:26865 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 10:26:54.971 26865:26865 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 10:26:54.971 26865:26865 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 10:26:54.971 26865:26865 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:26:54.971 26865:26865 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:26:54.991 26886:26886 D/dalvikvm ]
+GC_FOR_ALLOC freed 52K, 6% free 9576K/10179K, paused 14ms, total 14ms
+
+[ 12-10 10:26:55.001 26886:26886 I/dalvikvm-heap ]
+Grow heap (frag case) to 12.721MB for 1024016-byte allocation
+
+[ 12-10 10:26:55.001 26865:26865 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:26:55.031 26886:26888 D/dalvikvm ]
+GC_CONCURRENT freed 54K, 6% free 10585K/11207K, paused 2ms+12ms, total 28ms
+
+[ 12-10 10:26:55.031 26886:26886 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:26:55.031 26886:26886 D/SocketService ]
+pid:26886 myPid:26886
+
+[ 12-10 10:26:55.041 26886:26886 D/SocketService ]
+start to run current thread!id:558
+
+[ 12-10 10:26:55.101 26865:26879 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{424bc168 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 10:26:55.161 26886:26909 D/SocketService ]
+ip/172.20.10.4 lport:56240 p:143
+
+[ 12-10 10:26:55.181 26886:26909 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 10:26:55.181 26886:26909 D/SocketService ]
+success to connect server!id:558 bLogin:false
+
+[ 12-10 10:26:55.261 26886:26913 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:26:56.031 26886:26907 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:26:56.191 26886:26909 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 10:26:56.291 26886:26913 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:26:57.001 26865:26865 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@424d9268
+
+[ 12-10 10:26:57.011 26865:26865 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@430e5590: null
+
+[ 12-10 10:26:57.071 26886:26907 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:26:57.171 26865:26865 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:26:57.171 26865:26865 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@430e5590
+
+[ 12-10 10:26:57.171 26865:26865 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@430e5590
+
+[ 12-10 10:26:57.191 26886:26909 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 10:26:57.341 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 4995K, 23% free 18838K/24263K, paused 16ms, total 18ms
+
+[ 12-10 10:26:57.411 26886:26913 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:26:57.451 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 1083K, 19% free 19893K/24263K, paused 12ms+3ms, total 38ms
+
+[ 12-10 10:26:57.941 26865:26865 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@424d9268
+
+[ 12-10 10:26:57.941 26865:26865 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@424d9268
+
+[ 12-10 10:26:58.091 26886:26907 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:26:58.111 26865:26865 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:26:59.291 26865:26865 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:27:01.671 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714421684
+
+[ 12-10 10:27:01.751 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 1011K, 18% free 19987K/24263K, paused 21ms, total 22ms
+
+[ 12-10 10:27:01.791 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 16K, 10% free 21996K/24263K, paused 12ms+5ms, total 39ms
+
+[ 12-10 10:27:01.831 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 88K, 10% free 21908K/24263K, paused 19ms, total 19ms
+
+[ 12-10 10:27:01.841 26865:26865 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.765MB for 2073616-byte allocation
+
+[ 12-10 10:27:01.891 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 17% free 21914K/26311K, paused 12ms+17ms, total 53ms
+
+[ 12-10 10:27:02.651 26865:26865 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:27:05.071 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714425084
+
+[ 12-10 10:27:05.151 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 2220K, 25% free 19906K/26311K, paused 19ms, total 19ms
+
+[ 12-10 10:27:05.191 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 17% free 21930K/26311K, paused 12ms+2ms, total 34ms
+
+[ 12-10 10:27:05.231 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21935K/26311K, paused 4ms+4ms, total 33ms
+
+[ 12-10 10:27:06.031 26865:26865 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:27:06.191 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:06.191 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:06.191 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:06.191 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:08.261 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:08.261 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:17.021 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:17.021 26865:26865 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:27:17.991 26865:26865 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:27:18.031 26865:26865 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:27:18.041 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=38 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:18.041 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=22 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:18.041 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:18.041 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=4 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:18.051 26886:26886 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:84
+
+[ 12-10 10:27:18.201 26886:26913 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:27:19.121 26886:26907 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:27:19.201 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=32 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:100)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:85)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:19.201 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=24 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:219)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:19.201 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1085)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:19.211 26865:26865 D/StrictMode ]
+StrictMode policy violation; ~duration=0 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1111)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1875)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4634)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:763)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4802)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:809)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:27:21.861 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714441873
+
+[ 12-10 10:27:21.941 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 2821K, 25% free 19955K/26311K, paused 23ms, total 26ms
+
+[ 12-10 10:27:21.991 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 28K, 17% free 21952K/26311K, paused 13ms+2ms, total 42ms
+
+[ 12-10 10:27:22.041 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21957K/26311K, paused 6ms+4ms, total 28ms
+
+[ 12-10 10:27:24.291 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714444302
+
+[ 12-10 10:27:25.701 26886:26888 D/dalvikvm ]
+GC_CONCURRENT freed 392K, 8% free 10609K/11463K, paused 22ms+1ms, total 65ms
+
+[ 12-10 10:27:26.741 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Log:1449714446747
+
+[ 12-10 10:27:26.761 26865:26912 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449714446773
+
+[ 12-10 10:27:26.831 26865:26865 D/dalvikvm ]
+GC_FOR_ALLOC freed 2201K, 25% free 19931K/26311K, paused 16ms, total 18ms
+
+[ 12-10 10:27:26.851 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 17% free 21954K/26311K, paused 2ms+5ms, total 22ms
+
+[ 12-10 10:27:26.891 26865:26867 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21959K/26311K, paused 3ms+2ms, total 21ms
+
+[ 12-10 10:27:26.971 26865:26912 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41b16588)
+
+[ 12-10 10:27:26.971 26865:26912 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-552
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

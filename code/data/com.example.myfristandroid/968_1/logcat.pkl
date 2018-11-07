@@ -1,0 +1,4994 @@
+(lp0
+(dp1
+S'processID'
+p2
+S'28780'
+p3
+sS'SyscTime'
+p4
+L1449714120998L
+sS'priority'
+p5
+S'E'
+p6
+sS'tag'
+p7
+S'ActivityThread'
+p8
+sS'threadID'
+p9
+S'28780'
+p10
+sS'message'
+p11
+S'Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@448c7260 that was originally registered here. Are you missing a call to unregisterReceiver()?\nandroid.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@448c7260 that was originally registered here. Are you missing a call to unregisterReceiver()?\n\tat android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)\n\tat android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)\n\tat android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)\n\tat android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)\n\tat com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)\n\tat android.app.Activity.performCreate(Activity.java:5065)\n\tat android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)\n\tat android.app.ActivityThread.access$600(ActivityThread.java:136)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loop(Looper.java:137)\n\tat android.app.ActivityThread.main(ActivityThread.java:4875)\n\tat java.lang.reflect.Method.invokeNative(Native Method)\n\tat java.lang.reflect.Method.invoke(Method.java:511)\n\tat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)\n\tat dalvik.system.NativeStart.main(Native Method)\n'
+p12
+sa(dp13
+g2
+S'9459'
+p14
+sg4
+L1449714270548L
+sg5
+g6
+sg7
+S'ActivityThread'
+p15
+sg9
+S' 9459'
+p16
+sg11
+S'Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@444edd70 that was originally registered here. Are you missing a call to unregisterReceiver()?\nandroid.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@444edd70 that was originally registered here. Are you missing a call to unregisterReceiver()?\n\tat android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)\n\tat android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)\n\tat android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)\n\tat android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)\n\tat com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)\n\tat android.app.Activity.performCreate(Activity.java:5065)\n\tat android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)\n\tat android.app.ActivityThread.access$600(ActivityThread.java:136)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loop(Looper.java:137)\n\tat android.app.ActivityThread.main(ActivityThread.java:4875)\n\tat java.lang.reflect.Method.invokeNative(Native Method)\n\tat java.lang.reflect.Method.invoke(Method.java:511)\n\tat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)\n\tat dalvik.system.NativeStart.main(Native Method)\n'
+p17
+sa(dp18
+g2
+S'9459'
+p19
+sg4
+L1449714296946L
+sg5
+g6
+sg7
+S'ActivityThread'
+p20
+sg9
+S' 9459'
+p21
+sg11
+S'Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@449051b8 that was originally registered here. Are you missing a call to unregisterReceiver()?\nandroid.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@449051b8 that was originally registered here. Are you missing a call to unregisterReceiver()?\n\tat android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)\n\tat android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)\n\tat android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)\n\tat android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)\n\tat android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)\n\tat com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)\n\tat android.app.Activity.performCreate(Activity.java:5065)\n\tat android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)\n\tat android.app.ActivityThread.access$600(ActivityThread.java:136)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loop(Looper.java:137)\n\tat android.app.ActivityThread.main(ActivityThread.java:4875)\n\tat java.lang.reflect.Method.invokeNative(Native Method)\n\tat java.lang.reflect.Method.invoke(Method.java:511)\n\tat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)\n\tat dalvik.system.NativeStart.main(Native Method)\n'
+p22
+sa(dp23
+g2
+S'11016'
+p24
+sg4
+L1449714406433L
+sg5
+g6
+sg7
+S'AndroidRuntime'
+p25
+sg9
+S'11069'
+p26
+sg11
+S'FATAL EXCEPTION: Thread-17226\njava.lang.NullPointerException\n\tat android.app.Instrumentation.finish(Instrumentation.java:186)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)\n\tat java.lang.Thread.run(Thread.java:856)\n'
+p27
+sa(dp28
+g2
+S'26944'
+p29
+sg4
+L1449716431765L
+sg5
+S'D'
+p30
+sg7
+S'webcoreglue'
+p31
+sg9
+S'27077'
+p32
+sg11
+S'netstack: Memory Cache feature is ON\n'
+p33
+sa(dp34
+g2
+S'26944'
+p35
+sg4
+L1449716432055L
+sg5
+g30
+sg7
+S'HostStatisticManager'
+p36
+sg9
+S'27077'
+p37
+sg11
+S'netstack: DNS Host Prioritization is: ON, Version: 5.0.1\n'
+p38
+sa(dp39
+g2
+S'26944'
+p40
+sg4
+L1449716432065L
+sg5
+g30
+sg7
+S'        '
+p41
+sg9
+S'27077'
+p42
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded\n'
+p43
+sa(dp44
+g2
+S'26944'
+p45
+sg4
+L1449716432065L
+sg5
+g30
+sg7
+S'        '
+p46
+sg9
+S'27077'
+p47
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so\n'
+p48
+sa(dp49
+g2
+S'26944'
+p50
+sg4
+L1449716432065L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p51
+sg9
+S'27077'
+p52
+sg11
+S'netstack: TCPFinAggregation is 1, Version 5.0.1\n'
+p53
+sa(dp54
+g2
+S'26944'
+p55
+sg4
+L1449716432065L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p56
+sg9
+S'27077'
+p57
+sg11
+S'system property net.tcp.fin.aggregation.wait was set, value: 20\n'
+p58
+sa(dp59
+g2
+S'26944'
+p60
+sg4
+L1449716432065L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p61
+sg9
+S'27077'
+p62
+sg11
+S'system property net.tcp.fin.aggregation.close was set, value: 300\n'
+p63
+sa(dp64
+g2
+S'26944'
+p65
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p66
+sg9
+S'27077'
+p67
+sg11
+S'netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1\n'
+p68
+sa(dp69
+g2
+S'26944'
+p70
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p71
+sg9
+S'27077'
+p72
+sg11
+S'Failed to get network status! received ret: -2\n'
+p73
+sa(dp74
+g2
+S'26944'
+p75
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p76
+sg9
+S'27077'
+p77
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p78
+sa(dp79
+g2
+S'26944'
+p80
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p81
+sg9
+S'27077'
+p82
+sg11
+S'netstack: system net.statistics value: 0\n'
+p83
+sa(dp84
+g2
+S'26944'
+p85
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'        '
+p86
+sg9
+S'27077'
+p87
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded\n'
+p88
+sa(dp89
+g2
+S'26944'
+p90
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'        '
+p91
+sg9
+S'27077'
+p92
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so\n'
+p93
+sa(dp94
+g2
+S'26944'
+p95
+sg4
+L1449716432075L
+sg5
+g30
+sg7
+S'        '
+p96
+sg9
+S'27077'
+p97
+sg11
+S'netstack: Getzip is: ON, Version: 5.0.1\n'
+p98
+sa(dp99
+g2
+S'26944'
+p100
+sg4
+L1449716432125L
+sg5
+g30
+sg7
+S'        '
+p101
+sg9
+S'27087'
+p102
+sg11
+S'netstack: Early Connections is: ON, Version: 5.0.1, Param: 3\n'
+p103
+sa(dp104
+g2
+S'26944'
+p105
+sg4
+L1449716433176L
+sg5
+g30
+sg7
+S'        '
+p106
+sg9
+S'27077'
+p107
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 0\n'
+p108
+sa(dp109
+g2
+S'26944'
+p110
+sg4
+L1449716455170L
+sg5
+g30
+sg7
+S'        '
+p111
+sg9
+S'27077'
+p112
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 1\n'
+p113
+sa(dp114
+g2
+S'26944'
+p115
+sg4
+L1449716490167L
+sg5
+g30
+sg7
+S'        '
+p116
+sg9
+S'27077'
+p117
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 2\n'
+p118
+sa(dp119
+g2
+S'26944'
+p120
+sg4
+L1449716521911L
+sg5
+g30
+sg7
+S'        '
+p121
+sg9
+S'27077'
+p122
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 3\n'
+p123
+sa(dp124
+g2
+S'26944'
+p125
+sg4
+L1449716563385L
+sg5
+g30
+sg7
+S'        '
+p126
+sg9
+S'27087'
+p127
+sg11
+S'netstack: Caching Of Redirection is: ON, Version: 5.0.1\n'
+p128
+sa(dp129
+g2
+S'26944'
+p130
+sg4
+L1449716563605L
+sg5
+g30
+sg7
+S'        '
+p131
+sg9
+S'27077'
+p132
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 4\n'
+p133
+sa(dp134
+g2
+S'26944'
+p135
+sg4
+L1449716568721L
+sg5
+g30
+sg7
+S'        '
+p136
+sg9
+S'27077'
+p137
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 5\n'
+p138
+sa(dp139
+g2
+S'26944'
+p140
+sg4
+L1449716572845L
+sg5
+g30
+sg7
+S'        '
+p141
+sg9
+S'27077'
+p142
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 6\n'
+p143
+sa(dp144
+g2
+S'26944'
+p145
+sg4
+L1449716578061L
+sg5
+g30
+sg7
+S'        '
+p146
+sg9
+S'27077'
+p147
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 7\n'
+p148
+sa(dp149
+g2
+S'26944'
+p150
+sg4
+L1449716649457L
+sg5
+g30
+sg7
+S'        '
+p151
+sg9
+S'27077'
+p152
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 8\n'
+p153
+sa(dp154
+g2
+S'26944'
+p155
+sg4
+L1449716674323L
+sg5
+g6
+sg7
+S'AndroidRuntime'
+p156
+sg9
+S'26994'
+p157
+sg11
+S'FATAL EXCEPTION: Thread-17343\njava.lang.NullPointerException\n\tat android.app.Instrumentation.finish(Instrumentation.java:186)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)\n\tat java.lang.Thread.run(Thread.java:856)\n'
+p158
+sa(dp159
+g2
+S'30759'
+p160
+sg4
+L1449716881945L
+sg5
+g30
+sg7
+S'webcoreglue'
+p161
+sg9
+S'30878'
+p162
+sg11
+S'netstack: Memory Cache feature is ON\n'
+p163
+sa(dp164
+g2
+S'30759'
+p165
+sg4
+L1449716882165L
+sg5
+g30
+sg7
+S'HostStatisticManager'
+p166
+sg9
+S'30878'
+p167
+sg11
+S'netstack: DNS Host Prioritization is: ON, Version: 5.0.1\n'
+p168
+sa(dp169
+g2
+S'30759'
+p170
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'        '
+p171
+sg9
+S'30878'
+p172
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded\n'
+p173
+sa(dp174
+g2
+S'30759'
+p175
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'        '
+p176
+sg9
+S'30878'
+p177
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so\n'
+p178
+sa(dp179
+g2
+S'30759'
+p180
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p181
+sg9
+S'30878'
+p182
+sg11
+S'netstack: TCPFinAggregation is 1, Version 5.0.1\n'
+p183
+sa(dp184
+g2
+S'30759'
+p185
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p186
+sg9
+S'30878'
+p187
+sg11
+S'system property net.tcp.fin.aggregation.wait was set, value: 20\n'
+p188
+sa(dp189
+g2
+S'30759'
+p190
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p191
+sg9
+S'30878'
+p192
+sg11
+S'system property net.tcp.fin.aggregation.close was set, value: 300\n'
+p193
+sa(dp194
+g2
+S'30759'
+p195
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p196
+sg9
+S'30878'
+p197
+sg11
+S'netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1\n'
+p198
+sa(dp199
+g2
+S'30759'
+p200
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p201
+sg9
+S'30878'
+p202
+sg11
+S'Failed to get network status! received ret: -2\n'
+p203
+sa(dp204
+g2
+S'30759'
+p205
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p206
+sg9
+S'30878'
+p207
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p208
+sa(dp209
+g2
+S'30759'
+p210
+sg4
+L1449716882175L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p211
+sg9
+S'30878'
+p212
+sg11
+S'netstack: system net.statistics value: 0\n'
+p213
+sa(dp214
+g2
+S'30759'
+p215
+sg4
+L1449716882185L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p216
+sg9
+S'30878'
+p217
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p218
+sa(dp219
+g2
+S'30759'
+p220
+sg4
+L1449716882185L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p221
+sg9
+S'30878'
+p222
+sg11
+S'netstack: system net.statistics value: 0\n'
+p223
+sa(dp224
+g2
+S'30759'
+p225
+sg4
+L1449716882195L
+sg5
+g30
+sg7
+S'        '
+p226
+sg9
+S'30878'
+p227
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded\n'
+p228
+sa(dp229
+g2
+S'30759'
+p230
+sg4
+L1449716882195L
+sg5
+g30
+sg7
+S'        '
+p231
+sg9
+S'30878'
+p232
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so\n'
+p233
+sa(dp234
+g2
+S'30759'
+p235
+sg4
+L1449716882195L
+sg5
+g30
+sg7
+S'        '
+p236
+sg9
+S'30878'
+p237
+sg11
+S'netstack: Getzip is: ON, Version: 5.0.1\n'
+p238
+sa(dp239
+g2
+S'30759'
+p240
+sg4
+L1449716882215L
+sg5
+g30
+sg7
+S'        '
+p241
+sg9
+S'30891'
+p242
+sg11
+S'netstack: Caching Of Redirection is: ON, Version: 5.0.1\n'
+p243
+sa(dp244
+g2
+S'30759'
+p245
+sg4
+L1449716882215L
+sg5
+g30
+sg7
+S'        '
+p246
+sg9
+S'30891'
+p247
+sg11
+S'netstack: Early Connections is: ON, Version: 5.0.1, Param: 3\n'
+p248
+sa(dp249
+g2
+S'30759'
+p250
+sg4
+L1449716883226L
+sg5
+g30
+sg7
+S'        '
+p251
+sg9
+S'30878'
+p252
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 0\n'
+p253
+sa(dp254
+g2
+S'30759'
+p255
+sg4
+L1449716889703L
+sg5
+g30
+sg7
+S'        '
+p256
+sg9
+S'30878'
+p257
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 1\n'
+p258
+sa(dp259
+g2
+S'30759'
+p260
+sg4
+L1449716899334L
+sg5
+g30
+sg7
+S'        '
+p261
+sg9
+S'30878'
+p262
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 2\n'
+p263
+sa(dp264
+g2
+S'30759'
+p265
+sg4
+L1449716906852L
+sg5
+g30
+sg7
+S'        '
+p266
+sg9
+S'30878'
+p267
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 3\n'
+p268
+sa(dp269
+g2
+S'30759'
+p270
+sg4
+L1449716912588L
+sg5
+g30
+sg7
+S'        '
+p271
+sg9
+S'30878'
+p272
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 4\n'
+p273
+sa(dp274
+g2
+S'30779'
+p275
+sg4
+L1449716916552L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p276
+sg9
+S'30794'
+p277
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:70\n'
+p278
+sa(dp279
+g2
+S'30779'
+p280
+sg4
+L1449716916722L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p281
+sg9
+S'30799'
+p282
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:735\n'
+p283
+sa(dp284
+g2
+S'30759'
+p285
+sg4
+L1449716917473L
+sg5
+S'W'
+p286
+sg7
+S'TextToSpeech'
+p287
+sg9
+S'30759'
+p288
+sg11
+S'stop failed: not bound to TTS engine\n'
+p289
+sa(dp290
+g2
+S'30759'
+p291
+sg4
+L1449716917473L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p292
+sg9
+S'30759'
+p293
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p294
+sa(dp295
+g2
+S'30779'
+p296
+sg4
+L1449716917713L
+sg5
+g30
+sg7
+S'SocketService1'
+p297
+sg9
+S'30796'
+p298
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 0D 00 10 01 \n'
+p299
+sa(dp300
+g2
+S'30759'
+p301
+sg4
+L1449716938205L
+sg5
+g30
+sg7
+S'        '
+p302
+sg9
+S'30878'
+p303
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 5\n'
+p304
+sa(dp305
+g2
+S'30759'
+p306
+sg4
+L1449716939046L
+sg5
+g30
+sg7
+S'MainActivity'
+p307
+sg9
+S'30878'
+p308
+sg11
+S'h:670.006,w:1569.5\n'
+p309
+sa(dp310
+g2
+S'30759'
+p311
+sg4
+L1449716944732L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p312
+sg9
+S'30804'
+p313
+sg11
+S'Log:1449716944741\n'
+p314
+sa(dp315
+g2
+S'30759'
+p316
+sg4
+L1449716945393L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p317
+sg9
+S'30804'
+p318
+sg11
+S'Log:1449716945397\n'
+p319
+sa(dp320
+g2
+S'30759'
+p321
+sg4
+L1449716945483L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p322
+sg9
+S'30804'
+p323
+sg11
+S'Screenshot:1449716945485\n'
+p324
+sa(dp325
+g2
+S'30759'
+p326
+sg4
+L1449716945553L
+sg5
+g30
+sg7
+S'dalvikvm'
+p327
+sg9
+S'30759'
+p328
+sg11
+S'GC_FOR_ALLOC freed 6177K, 18% free 38753K/47111K, paused 45ms, total 60ms\n'
+p329
+sa(dp330
+g2
+S'30759'
+p331
+sg4
+L1449716945643L
+sg5
+g30
+sg7
+S'dalvikvm'
+p332
+sg9
+S'30759'
+p333
+sg11
+S'GC_FOR_ALLOC freed 241K, 11% free 42112K/47111K, paused 29ms, total 30ms\n'
+p334
+sa(dp335
+g2
+S'30759'
+p336
+sg4
+L1449716945963L
+sg5
+g286
+sg7
+S'dalvikvm'
+p337
+sg9
+S'30804'
+p338
+sg11
+S'threadid=14: thread exiting with uncaught exception (group=0x41c35498)\n'
+p339
+sa(dp340
+g2
+S'30759'
+p341
+sg4
+L1449716945963L
+sg5
+g6
+sg7
+S'AndroidRuntime'
+p342
+sg9
+S'30804'
+p343
+sg11
+S'FATAL EXCEPTION: Thread-17361\njava.lang.NullPointerException\n\tat android.app.Instrumentation.finish(Instrumentation.java:186)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)\n\tat java.lang.Thread.run(Thread.java:856)\n'
+p344
+sa(dp345
+g2
+S'1741'
+p346
+sg4
+L1449717239807L
+sg5
+g30
+sg7
+S'ActivityThread'
+p347
+sg9
+S' 1741'
+p348
+sg11
+S'setTargetHeapUtilization:0.25\n'
+p349
+sa(dp350
+g2
+S'1741'
+p351
+sg4
+L1449717239807L
+sg5
+g30
+sg7
+S'ActivityThread'
+p352
+sg9
+S' 1741'
+p353
+sg11
+S'setTargetHeapIdealFree:8388608\n'
+p354
+sa(dp355
+g2
+S'1741'
+p356
+sg4
+L1449717239807L
+sg5
+g30
+sg7
+S'ActivityThread'
+p357
+sg9
+S' 1741'
+p358
+sg11
+S'setTargetHeapConcurrentStart:2097152\n'
+p359
+sa(dp360
+g2
+S'1741'
+p361
+sg4
+L1449717240177L
+sg5
+g30
+sg7
+S'dalvikvm'
+p362
+sg9
+S' 1741'
+p363
+sg11
+S'GC_FOR_ALLOC freed 276K, 22% free 23883K/30275K, paused 27ms, total 28ms\n'
+p364
+sa(dp365
+g2
+S'1741'
+p366
+sg4
+L1449717240247L
+sg5
+g30
+sg7
+S'dalvikvm'
+p367
+sg9
+S' 1747'
+p368
+sg11
+S'GC_CONCURRENT freed 2K, 15% free 39022K/45447K, paused 14ms+3ms, total 36ms\n'
+p369
+sa(dp370
+g2
+S'1741'
+p371
+sg4
+L1449717240357L
+sg5
+S'I'
+p372
+sg7
+S'Adreno200-EGL'
+p373
+sg9
+S' 1741'
+p374
+sg11
+S'<qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build:  (CL3068996)\nBuild Date: 03/07/13 Thu\nLocal Branch: au37\nRemote Branch: \nLocal Patches: \nReconstruct Branch: \n'
+p375
+sa(dp376
+g2
+S'1761'
+p377
+sg4
+L1449717240388L
+sg5
+g30
+sg7
+S'ActivityThread'
+p378
+sg9
+S' 1761'
+p379
+sg11
+S'setTargetHeapUtilization:0.25\n'
+p380
+sa(dp381
+g2
+S'1761'
+p382
+sg4
+L1449717240388L
+sg5
+g30
+sg7
+S'ActivityThread'
+p383
+sg9
+S' 1761'
+p384
+sg11
+S'setTargetHeapIdealFree:8388608\n'
+p385
+sa(dp386
+g2
+S'1761'
+p387
+sg4
+L1449717240388L
+sg5
+g30
+sg7
+S'ActivityThread'
+p388
+sg9
+S' 1761'
+p389
+sg11
+S'setTargetHeapConcurrentStart:2097152\n'
+p390
+sa(dp391
+g2
+S'1761'
+p392
+sg4
+L1449717240578L
+sg5
+g30
+sg7
+S'SocketService'
+p393
+sg9
+S' 1761'
+p394
+sg11
+S'onStartCommand : bLogin:false\n'
+p395
+sa(dp396
+g2
+S'1761'
+p397
+sg4
+L1449717240588L
+sg5
+g30
+sg7
+S'SocketService'
+p398
+sg9
+S' 1761'
+p399
+sg11
+S'pid:1761 myPid:1761\n'
+p400
+sa(dp401
+g2
+S'1761'
+p402
+sg4
+L1449717240588L
+sg5
+g30
+sg7
+S'SocketService'
+p403
+sg9
+S' 1761'
+p404
+sg11
+S'start to run current thread!id:17384\n'
+p405
+sa(dp406
+g2
+S'1761'
+p407
+sg4
+L1449717240638L
+sg5
+g30
+sg7
+S'SocketService'
+p408
+sg9
+S' 1780'
+p409
+sg11
+S'ip/172.20.10.5 lport:46442 p:143\n'
+p410
+sa(dp411
+g2
+S'1761'
+p412
+sg4
+L1449717240638L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p413
+sg9
+S' 1780'
+p414
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:35\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:35\n'
+p415
+sa(dp416
+g2
+S'1761'
+p417
+sg4
+L1449717240638L
+sg5
+g30
+sg7
+S'SocketService'
+p418
+sg9
+S' 1780'
+p419
+sg11
+S'success to connect server!id:17384 bLogin:false\n'
+p420
+sa(dp421
+g2
+S'1761'
+p422
+sg4
+L1449717240728L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p423
+sg9
+S' 1784'
+p424
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:13\n'
+p425
+sa(dp426
+g2
+S'1761'
+p427
+sg4
+L1449717241589L
+sg5
+g30
+sg7
+S'SocketService1'
+p428
+sg9
+S' 1778'
+p429
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 0D 00 0E 01 \n'
+p430
+sa(dp431
+g2
+S'1761'
+p432
+sg4
+L1449717241639L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p433
+sg9
+S' 1780'
+p434
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:11\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:46\n'
+p435
+sa(dp436
+g2
+S'1761'
+p437
+sg4
+L1449717241709L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p438
+sg9
+S' 1784'
+p439
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:642\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:655\n'
+p440
+sa(dp441
+g2
+S'1741'
+p442
+sg4
+L1449717242620L
+sg5
+g30
+sg7
+S'MainActivity'
+p443
+sg9
+S' 1741'
+p444
+sg11
+S'Start One Client\n'
+p445
+sa(dp446
+g2
+S'1761'
+p447
+sg4
+L1449717242620L
+sg5
+g30
+sg7
+S'SocketService1'
+p448
+sg9
+S' 1778'
+p449
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 82 02 14 0A \n'
+p450
+sa(dp451
+g2
+S'1761'
+p452
+sg4
+L1449717242650L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p453
+sg9
+S' 1780'
+p454
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:11\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:57\n'
+p455
+sa(dp456
+g2
+S'1761'
+p457
+sg4
+L1449717242860L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p458
+sg9
+S' 1784'
+p459
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:67\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:722\n'
+p460
+sa(dp461
+g2
+S'1741'
+p462
+sg4
+L1449717242910L
+sg5
+g30
+sg7
+S'MainActivity'
+p463
+sg9
+S' 1741'
+p464
+sg11
+S'page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html\n'
+p465
+sa(dp466
+g2
+S'1741'
+p467
+sg4
+L1449717242910L
+sg5
+g30
+sg7
+S'MainActivity'
+p468
+sg9
+S' 1741'
+p469
+sg11
+S'page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050\n'
+p470
+sa(dp471
+g2
+S'1741'
+p472
+sg4
+L1449717242910L
+sg5
+g30
+sg7
+S'MainActivity'
+p473
+sg9
+S' 1741'
+p474
+sg11
+S'page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052\n'
+p475
+sa(dp476
+g2
+S'1741'
+p477
+sg4
+L1449717242910L
+sg5
+g30
+sg7
+S'MainActivity'
+p478
+sg9
+S' 1741'
+p479
+sg11
+S'page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054\n'
+p480
+sa(dp481
+g2
+S'1741'
+p482
+sg4
+L1449717242910L
+sg5
+g30
+sg7
+S'MainActivity'
+p483
+sg9
+S' 1741'
+p484
+sg11
+S'page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007\n'
+p485
+sa(dp486
+g2
+S'1741'
+p487
+sg4
+L1449717242920L
+sg5
+g30
+sg7
+S'MainActivity'
+p488
+sg9
+S' 1741'
+p489
+sg11
+S'page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047\n'
+p490
+sa(dp491
+g2
+S'1741'
+p492
+sg4
+L1449717242920L
+sg5
+g30
+sg7
+S'MainActivity'
+p493
+sg9
+S' 1741'
+p494
+sg11
+S'page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011\n'
+p495
+sa(dp496
+g2
+S'1741'
+p497
+sg4
+L1449717242920L
+sg5
+g30
+sg7
+S'MainActivity'
+p498
+sg9
+S' 1741'
+p499
+sg11
+S'page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005\n'
+p500
+sa(dp501
+g2
+S'1741'
+p502
+sg4
+L1449717242920L
+sg5
+g30
+sg7
+S'MainActivity'
+p503
+sg9
+S' 1741'
+p504
+sg11
+S'page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148\n'
+p505
+sa(dp506
+g2
+S'1741'
+p507
+sg4
+L1449717242920L
+sg5
+g30
+sg7
+S'MainActivity'
+p508
+sg9
+S' 1741'
+p509
+sg11
+S'page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296\n'
+p510
+sa(dp511
+g2
+S'1761'
+p512
+sg4
+L1449717243631L
+sg5
+g30
+sg7
+S'SocketService1'
+p513
+sg9
+S' 1778'
+p514
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 43 00 15 02 \n'
+p515
+sa(dp516
+g2
+S'1741'
+p517
+sg4
+L1449717243651L
+sg5
+g30
+sg7
+S'MainActivity'
+p518
+sg9
+S' 1741'
+p519
+sg11
+S'ServerVersion:22 LocalVersion:12\n'
+p520
+sa(dp521
+g2
+S'1741'
+p522
+sg4
+L1449717245733L
+sg5
+g30
+sg7
+S'webcoreglue'
+p523
+sg9
+S' 1867'
+p524
+sg11
+S'netstack: Memory Cache feature is ON\n'
+p525
+sa(dp526
+g2
+S'1741'
+p527
+sg4
+L1449717245863L
+sg5
+S'V'
+p528
+sg7
+S'chromium'
+p529
+sg9
+S' 1867'
+p530
+sg11
+S'external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/111405:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x6743e010\n'
+p531
+sa(dp532
+g2
+S'1741'
+p533
+sg4
+L1449717245863L
+sg5
+g528
+sg7
+S'chromium'
+p534
+sg9
+S' 1867'
+p535
+sg11
+S'external/chromium/net/base/host_resolver_impl.cc:1510: [1210/111405:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x671dea58\n'
+p536
+sa(dp537
+g2
+S'1741'
+p538
+sg4
+L1449717245863L
+sg5
+g6
+sg7
+S'Diag_Lib'
+p539
+sg9
+S' 1867'
+p540
+sg11
+S' Diag_LSM_Init: Failed to open handle to diag driver, error = 13\n'
+p541
+sa(dp542
+g2
+S'1741'
+p543
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'HostStatisticManager'
+p544
+sg9
+S' 1867'
+p545
+sg11
+S'netstack: DNS Host Prioritization is: ON, Version: 5.0.1\n'
+p546
+sa(dp547
+g2
+S'1741'
+p548
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'        '
+p549
+sg9
+S' 1867'
+p550
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded\n'
+p551
+sa(dp552
+g2
+S'1741'
+p553
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'        '
+p554
+sg9
+S' 1867'
+p555
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so\n'
+p556
+sa(dp557
+g2
+S'1741'
+p558
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p559
+sg9
+S' 1867'
+p560
+sg11
+S'netstack: TCPFinAggregation is 1, Version 5.0.1\n'
+p561
+sa(dp562
+g2
+S'1741'
+p563
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p564
+sg9
+S' 1867'
+p565
+sg11
+S'system property net.tcp.fin.aggregation.wait was set, value: 20\n'
+p566
+sa(dp567
+g2
+S'1741'
+p568
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p569
+sg9
+S' 1867'
+p570
+sg11
+S'system property net.tcp.fin.aggregation.close was set, value: 300\n'
+p571
+sa(dp572
+g2
+S'1741'
+p573
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p574
+sg9
+S' 1867'
+p575
+sg11
+S'netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1\n'
+p576
+sa(dp577
+g2
+S'1741'
+p578
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p579
+sg9
+S' 1867'
+p580
+sg11
+S'Failed to get network status! received ret: -2\n'
+p581
+sa(dp582
+g2
+S'1741'
+p583
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p584
+sg9
+S' 1867'
+p585
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p586
+sa(dp587
+g2
+S'1741'
+p588
+sg4
+L1449717245863L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p589
+sg9
+S' 1867'
+p590
+sg11
+S'netstack: system net.statistics value: 0\n'
+p591
+sa(dp592
+g2
+S'1741'
+p593
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'netstack'
+p594
+sg9
+S' 1867'
+p595
+sg11
+S'netstack: Request Priority is ON\n'
+p596
+sa(dp597
+g2
+S'1741'
+p598
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p599
+sg9
+S' 1867'
+p600
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p601
+sa(dp602
+g2
+S'1741'
+p603
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p604
+sg9
+S' 1867'
+p605
+sg11
+S'netstack: system net.statistics value: 0\n'
+p606
+sa(dp607
+g2
+S'1741'
+p608
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'        '
+p609
+sg9
+S' 1867'
+p610
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded\n'
+p611
+sa(dp612
+g2
+S'1741'
+p613
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'        '
+p614
+sg9
+S' 1867'
+p615
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so\n'
+p616
+sa(dp617
+g2
+S'1741'
+p618
+sg4
+L1449717245873L
+sg5
+g30
+sg7
+S'        '
+p619
+sg9
+S' 1867'
+p620
+sg11
+S'netstack: Getzip is: ON, Version: 5.0.1\n'
+p621
+sa(dp622
+g2
+S'1741'
+p623
+sg4
+L1449717245893L
+sg5
+g528
+sg7
+S'chromium'
+p624
+sg9
+S' 1878'
+p625
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/111405:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...\n'
+p626
+sa(dp627
+g2
+S'1741'
+p628
+sg4
+L1449717245893L
+sg5
+g528
+sg7
+S'chromium'
+p629
+sg9
+S' 1878'
+p630
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/111405:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded\n'
+p631
+sa(dp632
+g2
+S'1741'
+p633
+sg4
+L1449717245893L
+sg5
+g528
+sg7
+S'chromium'
+p634
+sg9
+S' 1878'
+p635
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/111405:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected\n'
+p636
+sa(dp637
+g2
+S'1741'
+p638
+sg4
+L1449717245893L
+sg5
+g528
+sg7
+S'chromium'
+p639
+sg9
+S' 1878'
+p640
+sg11
+S'external/chromium/net/http/http_cache.cc:1168: [1210/111405:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created\n'
+p641
+sa(dp642
+g2
+S'1741'
+p643
+sg4
+L1449717245893L
+sg5
+g6
+sg7
+S'chromium'
+p644
+sg9
+S' 1878'
+p645
+sg11
+S"external/chromium/net/disk_cache/stat_hub.cc:216: [1210/111405:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.\n"
+p646
+sa(dp647
+g2
+S'1741'
+p648
+sg4
+L1449717245893L
+sg5
+g528
+sg7
+S'chromium'
+p649
+sg9
+S' 1878'
+p650
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/111405:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so\n'
+p651
+sa(dp652
+g2
+S'1741'
+p653
+sg4
+L1449717245893L
+sg5
+g30
+sg7
+S'        '
+p654
+sg9
+S' 1878'
+p655
+sg11
+S'netstack: Early Connections is: ON, Version: 5.0.1, Param: 3\n'
+p656
+sa(dp657
+g2
+S'1741'
+p658
+sg4
+L1449717247805L
+sg5
+g6
+sg7
+S'Web Console'
+p659
+sg9
+S' 1741'
+p660
+sg11
+S"Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@44922908 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80\n"
+p661
+sa(dp662
+g2
+S'1741'
+p663
+sg4
+L1449717251409L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p664
+sg9
+S' 1783'
+p665
+sg11
+S'Screenshot:1449717251416\n'
+p666
+sa(dp667
+g2
+S'1741'
+p668
+sg4
+L1449717251469L
+sg5
+g30
+sg7
+S'dalvikvm'
+p669
+sg9
+S' 1741'
+p670
+sg11
+S'GC_FOR_ALLOC freed 5668K, 17% free 38414K/46215K, paused 45ms, total 45ms\n'
+p671
+sa(dp672
+g2
+S'1741'
+p673
+sg4
+L1449717251539L
+sg5
+g30
+sg7
+S'dalvikvm'
+p674
+sg9
+S' 1741'
+p675
+sg11
+S'GC_FOR_ALLOC freed 146K, 10% free 41867K/46215K, paused 27ms, total 27ms\n'
+p676
+sa(dp677
+g2
+S'1741'
+p678
+sg4
+L1449717252921L
+sg5
+g286
+sg7
+S'IInputConnectionWrapper'
+p679
+sg9
+S' 1741'
+p680
+sg11
+S'clearMetaKeyStates on inactive InputConnection\n'
+p681
+sa(dp682
+g2
+S'1741'
+p683
+sg4
+L1449717253211L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p684
+sg9
+S' 1741'
+p685
+sg11
+S'stop failed: not bound to TTS engine\n'
+p686
+sa(dp687
+g2
+S'1741'
+p688
+sg4
+L1449717253211L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p689
+sg9
+S' 1741'
+p690
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p691
+sa(dp692
+g2
+S'1741'
+p693
+sg4
+L1449717254032L
+sg5
+g30
+sg7
+S'        '
+p694
+sg9
+S' 1867'
+p695
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 0\n'
+p696
+sa(dp697
+g2
+S'1741'
+p698
+sg4
+L1449717255594L
+sg5
+g30
+sg7
+S'MainActivity'
+p699
+sg9
+S' 1867'
+p700
+sg11
+S'h:910.5,w:1687.5\n'
+p701
+sa(dp702
+g2
+S'1741'
+p703
+sg4
+L1449717259748L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p704
+sg9
+S' 1783'
+p705
+sg11
+S'Screenshot:1449717259756\n'
+p706
+sa(dp707
+g2
+S'1741'
+p708
+sg4
+L1449717259798L
+sg5
+g30
+sg7
+S'dalvikvm'
+p709
+sg9
+S' 1741'
+p710
+sg11
+S'GC_FOR_ALLOC freed 7445K, 24% free 38362K/49863K, paused 43ms, total 43ms\n'
+p711
+sa(dp712
+g2
+S'1741'
+p713
+sg4
+L1449717259908L
+sg5
+g30
+sg7
+S'dalvikvm'
+p714
+sg9
+S' 1747'
+p715
+sg11
+S'GC_CONCURRENT freed 3610K, 16% free 41957K/49863K, paused 13ms+6ms, total 59ms\n'
+p716
+sa(dp717
+g2
+S'1741'
+p718
+sg4
+L1449717260829L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p719
+sg9
+S' 1741'
+p720
+sg11
+S'stop failed: not bound to TTS engine\n'
+p721
+sa(dp722
+g2
+S'1741'
+p723
+sg4
+L1449717260829L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p724
+sg9
+S' 1741'
+p725
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p726
+sa(dp727
+g2
+S'1741'
+p728
+sg4
+L1449717262761L
+sg5
+g30
+sg7
+S'        '
+p729
+sg9
+S' 1867'
+p730
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 1\n'
+p731
+sa(dp732
+g2
+S'1741'
+p733
+sg4
+L1449717263853L
+sg5
+g30
+sg7
+S'MainActivity'
+p734
+sg9
+S' 1867'
+p735
+sg11
+S'h:774.256,w:1432\n'
+p736
+sa(dp737
+g2
+S'1741'
+p738
+sg4
+L1449717266015L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p739
+sg9
+S' 1783'
+p740
+sg11
+S'Screenshot:1449717266018\n'
+p741
+sa(dp742
+g2
+S'1741'
+p743
+sg4
+L1449717266225L
+sg5
+g30
+sg7
+S'dalvikvm'
+p744
+sg9
+S' 1741'
+p745
+sg11
+S'GC_FOR_ALLOC freed 3719K, 16% free 42002K/49863K, paused 27ms, total 27ms\n'
+p746
+sa(dp747
+g2
+S'1741'
+p748
+sg4
+L1449717267126L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p749
+sg9
+S' 1741'
+p750
+sg11
+S'stop failed: not bound to TTS engine\n'
+p751
+sa(dp752
+g2
+S'1741'
+p753
+sg4
+L1449717267126L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p754
+sg9
+S' 1741'
+p755
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p756
+sa(dp757
+g2
+S'1741'
+p758
+sg4
+L1449717268317L
+sg5
+g30
+sg7
+S'        '
+p759
+sg9
+S' 1867'
+p760
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 2\n'
+p761
+sa(dp762
+g2
+S'1741'
+p763
+sg4
+L1449717269248L
+sg5
+g30
+sg7
+S'MainActivity'
+p764
+sg9
+S' 1867'
+p765
+sg11
+S'h:710.915,w:1183.07\n'
+p766
+sa(dp767
+g2
+S'1741'
+p768
+sg4
+L1449717271681L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p769
+sg9
+S' 1783'
+p770
+sg11
+S'Screenshot:1449717271689\n'
+p771
+sa(dp772
+g2
+S'1741'
+p773
+sg4
+L1449717271731L
+sg5
+g30
+sg7
+S'dalvikvm'
+p774
+sg9
+S' 1741'
+p775
+sg11
+S'GC_FOR_ALLOC freed 7329K, 23% free 38441K/49863K, paused 38ms, total 39ms\n'
+p776
+sa(dp777
+g2
+S'1741'
+p778
+sg4
+L1449717271831L
+sg5
+g30
+sg7
+S'dalvikvm'
+p779
+sg9
+S' 1747'
+p780
+sg11
+S'GC_CONCURRENT freed 3611K, 16% free 42036K/49863K, paused 4ms+4ms, total 32ms\n'
+p781
+sa(dp782
+g2
+S'1741'
+p783
+sg4
+L1449717272872L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p784
+sg9
+S' 1741'
+p785
+sg11
+S'stop failed: not bound to TTS engine\n'
+p786
+sa(dp787
+g2
+S'1741'
+p788
+sg4
+L1449717272872L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p789
+sg9
+S' 1741'
+p790
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p791
+sa(dp792
+g2
+S'1741'
+p793
+sg4
+L1449717275455L
+sg5
+g30
+sg7
+S'        '
+p794
+sg9
+S' 1878'
+p795
+sg11
+S'netstack: Caching Of Redirection is: ON, Version: 5.0.1\n'
+p796
+sa(dp797
+g2
+S'1741'
+p798
+sg4
+L1449717275745L
+sg5
+g30
+sg7
+S'        '
+p799
+sg9
+S' 1867'
+p800
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 3\n'
+p801
+sa(dp802
+g2
+S'1741'
+p803
+sg4
+L1449717276326L
+sg5
+g30
+sg7
+S'MainActivity'
+p804
+sg9
+S' 1867'
+p805
+sg11
+S'h:710.915,w:1183.07\n'
+p806
+sa(dp807
+g2
+S'1741'
+p808
+sg4
+L1449717278498L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p809
+sg9
+S' 1783'
+p810
+sg11
+S'Log:1449717278505\n'
+p811
+sa(dp812
+g2
+S'1741'
+p813
+sg4
+L1449717279249L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p814
+sg9
+S' 1783'
+p815
+sg11
+S'Log:1449717279260\n'
+p816
+sa(dp817
+g2
+S'1741'
+p818
+sg4
+L1449717279339L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p819
+sg9
+S' 1783'
+p820
+sg11
+S'Screenshot:1449717279350\n'
+p821
+sa(dp822
+g2
+S'1741'
+p823
+sg4
+L1449717279459L
+sg5
+g30
+sg7
+S'dalvikvm'
+p824
+sg9
+S' 1741'
+p825
+sg11
+S'GC_FOR_ALLOC freed 3770K, 16% free 42084K/49863K, paused 34ms, total 34ms\n'
+p826
+sa(dp827
+g2
+S'1741'
+p828
+sg4
+L1449717279669L
+sg5
+g286
+sg7
+S'dalvikvm'
+p829
+sg9
+S' 1783'
+p830
+sg11
+S'threadid=14: thread exiting with uncaught exception (group=0x41c35498)\n'
+p831
+sa(dp832
+g2
+S'1741'
+p833
+sg4
+L1449717279669L
+sg5
+g6
+sg7
+S'AndroidRuntime'
+p834
+sg9
+S' 1783'
+p835
+sg11
+S'FATAL EXCEPTION: Thread-17379\njava.lang.NullPointerException\n\tat android.app.Instrumentation.finish(Instrumentation.java:186)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)\n\tat java.lang.Thread.run(Thread.java:856)\n'
+p836
+sa(dp837
+g2
+S'7808'
+p838
+sg4
+L1449717842320L
+sg5
+g30
+sg7
+S'ActivityThread'
+p839
+sg9
+S' 7808'
+p840
+sg11
+S'setTargetHeapUtilization:0.25\n'
+p841
+sa(dp842
+g2
+S'7808'
+p843
+sg4
+L1449717842320L
+sg5
+g30
+sg7
+S'ActivityThread'
+p844
+sg9
+S' 7808'
+p845
+sg11
+S'setTargetHeapIdealFree:8388608\n'
+p846
+sa(dp847
+g2
+S'7808'
+p848
+sg4
+L1449717842320L
+sg5
+g30
+sg7
+S'ActivityThread'
+p849
+sg9
+S' 7808'
+p850
+sg11
+S'setTargetHeapConcurrentStart:2097152\n'
+p851
+sa(dp852
+g2
+S'7808'
+p853
+sg4
+L1449717842690L
+sg5
+g30
+sg7
+S'dalvikvm'
+p854
+sg9
+S' 7808'
+p855
+sg11
+S'GC_FOR_ALLOC freed 280K, 22% free 23883K/30275K, paused 45ms, total 45ms\n'
+p856
+sa(dp857
+g2
+S'7808'
+p858
+sg4
+L1449717842850L
+sg5
+g30
+sg7
+S'dalvikvm'
+p859
+sg9
+S' 7812'
+p860
+sg11
+S'GC_CONCURRENT freed 2K, 15% free 39022K/45447K, paused 15ms+6ms, total 43ms\n'
+p861
+sa(dp862
+g2
+S'7828'
+p863
+sg4
+L1449717843001L
+sg5
+g30
+sg7
+S'ActivityThread'
+p864
+sg9
+S' 7828'
+p865
+sg11
+S'setTargetHeapUtilization:0.25\n'
+p866
+sa(dp867
+g2
+S'7828'
+p868
+sg4
+L1449717843001L
+sg5
+g30
+sg7
+S'ActivityThread'
+p869
+sg9
+S' 7828'
+p870
+sg11
+S'setTargetHeapIdealFree:8388608\n'
+p871
+sa(dp872
+g2
+S'7828'
+p873
+sg4
+L1449717843001L
+sg5
+g30
+sg7
+S'ActivityThread'
+p874
+sg9
+S' 7828'
+p875
+sg11
+S'setTargetHeapConcurrentStart:2097152\n'
+p876
+sa(dp877
+g2
+S'7808'
+p878
+sg4
+L1449717843011L
+sg5
+g372
+sg7
+S'Adreno200-EGL'
+p879
+sg9
+S' 7808'
+p880
+sg11
+S'<qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build:  (CL3068996)\nBuild Date: 03/07/13 Thu\nLocal Branch: au37\nRemote Branch: \nLocal Patches: \nReconstruct Branch: \n'
+p881
+sa(dp882
+g2
+S'7828'
+p883
+sg4
+L1449717843251L
+sg5
+g30
+sg7
+S'SocketService'
+p884
+sg9
+S' 7828'
+p885
+sg11
+S'onStartCommand : bLogin:false\n'
+p886
+sa(dp887
+g2
+S'7828'
+p888
+sg4
+L1449717843251L
+sg5
+g30
+sg7
+S'SocketService'
+p889
+sg9
+S' 7828'
+p890
+sg11
+S'pid:7828 myPid:7828\n'
+p891
+sa(dp892
+g2
+S'7828'
+p893
+sg4
+L1449717843281L
+sg5
+g30
+sg7
+S'SocketService'
+p894
+sg9
+S' 7828'
+p895
+sg11
+S'start to run current thread!id:17420\n'
+p896
+sa(dp897
+g2
+S'7828'
+p898
+sg4
+L1449717843421L
+sg5
+g30
+sg7
+S'SocketService'
+p899
+sg9
+S' 7849'
+p900
+sg11
+S'ip/172.20.10.5 lport:43180 p:143\n'
+p901
+sa(dp902
+g2
+S'7828'
+p903
+sg4
+L1449717843431L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p904
+sg9
+S' 7849'
+p905
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:35\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:35\n'
+p906
+sa(dp907
+g2
+S'7828'
+p908
+sg4
+L1449717843431L
+sg5
+g30
+sg7
+S'SocketService'
+p909
+sg9
+S' 7849'
+p910
+sg11
+S'success to connect server!id:17420 bLogin:false\n'
+p911
+sa(dp912
+g2
+S'7828'
+p913
+sg4
+L1449717843591L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p914
+sg9
+S' 7850'
+p915
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:13\n'
+p916
+sa(dp917
+g2
+S'7828'
+p918
+sg4
+L1449717844252L
+sg5
+g30
+sg7
+S'SocketService1'
+p919
+sg9
+S' 7847'
+p920
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 0D 00 0E 01 \n'
+p921
+sa(dp922
+g2
+S'7828'
+p923
+sg4
+L1449717844432L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p924
+sg9
+S' 7849'
+p925
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:11\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:46\n'
+p926
+sa(dp927
+g2
+S'7828'
+p928
+sg4
+L1449717844582L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p929
+sg9
+S' 7850'
+p930
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:642\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:655\n'
+p931
+sa(dp932
+g2
+S'7808'
+p933
+sg4
+L1449717845203L
+sg5
+g30
+sg7
+S'MainActivity'
+p934
+sg9
+S' 7808'
+p935
+sg11
+S'Start One Client\n'
+p936
+sa(dp937
+g2
+S'7828'
+p938
+sg4
+L1449717845273L
+sg5
+g30
+sg7
+S'SocketService1'
+p939
+sg9
+S' 7847'
+p940
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 82 02 14 0A \n'
+p941
+sa(dp942
+g2
+S'7828'
+p943
+sg4
+L1449717845433L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p944
+sg9
+S' 7849'
+p945
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:11\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:57\n'
+p946
+sa(dp947
+g2
+S'7828'
+p948
+sg4
+L1449717845693L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p949
+sg9
+S' 7850'
+p950
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:67\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:722\n'
+p951
+sa(dp952
+g2
+S'7808'
+p953
+sg4
+L1449717845763L
+sg5
+g30
+sg7
+S'MainActivity'
+p954
+sg9
+S' 7808'
+p955
+sg11
+S'page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html\n'
+p956
+sa(dp957
+g2
+S'7808'
+p958
+sg4
+L1449717845763L
+sg5
+g30
+sg7
+S'MainActivity'
+p959
+sg9
+S' 7808'
+p960
+sg11
+S'page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050\n'
+p961
+sa(dp962
+g2
+S'7808'
+p963
+sg4
+L1449717845763L
+sg5
+g30
+sg7
+S'MainActivity'
+p964
+sg9
+S' 7808'
+p965
+sg11
+S'page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052\n'
+p966
+sa(dp967
+g2
+S'7808'
+p968
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p969
+sg9
+S' 7808'
+p970
+sg11
+S'page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054\n'
+p971
+sa(dp972
+g2
+S'7808'
+p973
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p974
+sg9
+S' 7808'
+p975
+sg11
+S'page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007\n'
+p976
+sa(dp977
+g2
+S'7808'
+p978
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p979
+sg9
+S' 7808'
+p980
+sg11
+S'page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047\n'
+p981
+sa(dp982
+g2
+S'7808'
+p983
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p984
+sg9
+S' 7808'
+p985
+sg11
+S'page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011\n'
+p986
+sa(dp987
+g2
+S'7808'
+p988
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p989
+sg9
+S' 7808'
+p990
+sg11
+S'page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005\n'
+p991
+sa(dp992
+g2
+S'7808'
+p993
+sg4
+L1449717845774L
+sg5
+g30
+sg7
+S'MainActivity'
+p994
+sg9
+S' 7808'
+p995
+sg11
+S'page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148\n'
+p996
+sa(dp997
+g2
+S'7808'
+p998
+sg4
+L1449717845784L
+sg5
+g30
+sg7
+S'MainActivity'
+p999
+sg9
+S' 7808'
+p1000
+sg11
+S'page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296\n'
+p1001
+sa(dp1002
+g2
+S'7828'
+p1003
+sg4
+L1449717846284L
+sg5
+g30
+sg7
+S'SocketService1'
+p1004
+sg9
+S' 7847'
+p1005
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 43 00 15 02 \n'
+p1006
+sa(dp1007
+g2
+S'7808'
+p1008
+sg4
+L1449717846294L
+sg5
+g30
+sg7
+S'MainActivity'
+p1009
+sg9
+S' 7808'
+p1010
+sg11
+S'ServerVersion:22 LocalVersion:12\n'
+p1011
+sa(dp1012
+g2
+S'7808'
+p1013
+sg4
+L1449717849227L
+sg5
+g30
+sg7
+S'webcoreglue'
+p1014
+sg9
+S' 7899'
+p1015
+sg11
+S'netstack: Memory Cache feature is ON\n'
+p1016
+sa(dp1017
+g2
+S'7808'
+p1018
+sg4
+L1449717849387L
+sg5
+g30
+sg7
+S'HostStatisticManager'
+p1019
+sg9
+S' 7899'
+p1020
+sg11
+S'netstack: DNS Host Prioritization is: ON, Version: 5.0.1\n'
+p1021
+sa(dp1022
+g2
+S'7808'
+p1023
+sg4
+L1449717849397L
+sg5
+g528
+sg7
+S'chromium'
+p1024
+sg9
+S' 7899'
+p1025
+sg11
+S'external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/112409:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x670d6010\n'
+p1026
+sa(dp1027
+g2
+S'7808'
+p1028
+sg4
+L1449717849397L
+sg5
+g528
+sg7
+S'chromium'
+p1029
+sg9
+S' 7899'
+p1030
+sg11
+S'external/chromium/net/base/host_resolver_impl.cc:1510: [1210/112409:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x669584d8\n'
+p1031
+sa(dp1032
+g2
+S'7808'
+p1033
+sg4
+L1449717849407L
+sg5
+g6
+sg7
+S'Diag_Lib'
+p1034
+sg9
+S' 7899'
+p1035
+sg11
+S' Diag_LSM_Init: Failed to open handle to diag driver, error = 13\n'
+p1036
+sa(dp1037
+g2
+S'7808'
+p1038
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'        '
+p1039
+sg9
+S' 7899'
+p1040
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded\n'
+p1041
+sa(dp1042
+g2
+S'7808'
+p1043
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'        '
+p1044
+sg9
+S' 7899'
+p1045
+sg11
+S'external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so\n'
+p1046
+sa(dp1047
+g2
+S'7808'
+p1048
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p1049
+sg9
+S' 7899'
+p1050
+sg11
+S'netstack: TCPFinAggregation is 1, Version 5.0.1\n'
+p1051
+sa(dp1052
+g2
+S'7808'
+p1053
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p1054
+sg9
+S' 7899'
+p1055
+sg11
+S'system property net.tcp.fin.aggregation.wait was set, value: 20\n'
+p1056
+sa(dp1057
+g2
+S'7808'
+p1058
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p1059
+sg9
+S' 7899'
+p1060
+sg11
+S'system property net.tcp.fin.aggregation.close was set, value: 300\n'
+p1061
+sa(dp1062
+g2
+S'7808'
+p1063
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p1064
+sg9
+S' 7899'
+p1065
+sg11
+S'netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1\n'
+p1066
+sa(dp1067
+g2
+S'7808'
+p1068
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'TCPFinAggregation'
+p1069
+sg9
+S' 7899'
+p1070
+sg11
+S'Failed to get network status! received ret: -2\n'
+p1071
+sa(dp1072
+g2
+S'7808'
+p1073
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p1074
+sg9
+S' 7899'
+p1075
+sg11
+S'netstack: CloseUnusedSockets is ON\n'
+p1076
+sa(dp1077
+g2
+S'7808'
+p1078
+sg4
+L1449717849407L
+sg5
+g30
+sg7
+S'Socket_Pool'
+p1079
+sg9
+S' 7899'
+p1080
+sg11
+S'netstack: system net.statistics value: 0\n'
+p1081
+sa(dp1082
+g2
+S'7808'
+p1083
+sg4
+L1449717849427L
+sg5
+g30
+sg7
+S'netstack'
+p1084
+sg9
+S' 7899'
+p1085
+sg11
+S'netstack: Request Priority is ON\n'
+p1086
+sa(dp1087
+g2
+S'7808'
+p1088
+sg4
+L1449717849427L
+sg5
+g30
+sg7
+S'        '
+p1089
+sg9
+S' 7899'
+p1090
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded\n'
+p1091
+sa(dp1092
+g2
+S'7808'
+p1093
+sg4
+L1449717849427L
+sg5
+g30
+sg7
+S'        '
+p1094
+sg9
+S' 7899'
+p1095
+sg11
+S'external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so\n'
+p1096
+sa(dp1097
+g2
+S'7808'
+p1098
+sg4
+L1449717849427L
+sg5
+g30
+sg7
+S'        '
+p1099
+sg9
+S' 7899'
+p1100
+sg11
+S'netstack: Getzip is: ON, Version: 5.0.1\n'
+p1101
+sa(dp1102
+g2
+S'7808'
+p1103
+sg4
+L1449717849447L
+sg5
+g528
+sg7
+S'chromium'
+p1104
+sg9
+S' 7910'
+p1105
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/112409:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...\n'
+p1106
+sa(dp1107
+g2
+S'7808'
+p1108
+sg4
+L1449717849447L
+sg5
+g528
+sg7
+S'chromium'
+p1109
+sg9
+S' 7910'
+p1110
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/112409:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded\n'
+p1111
+sa(dp1112
+g2
+S'7808'
+p1113
+sg4
+L1449717849447L
+sg5
+g528
+sg7
+S'chromium'
+p1114
+sg9
+S' 7910'
+p1115
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/112409:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected\n'
+p1116
+sa(dp1117
+g2
+S'7808'
+p1118
+sg4
+L1449717849447L
+sg5
+g528
+sg7
+S'chromium'
+p1119
+sg9
+S' 7910'
+p1120
+sg11
+S'external/chromium/net/http/http_cache.cc:1168: [1210/112409:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created\n'
+p1121
+sa(dp1122
+g2
+S'7808'
+p1123
+sg4
+L1449717849447L
+sg5
+g6
+sg7
+S'chromium'
+p1124
+sg9
+S' 7910'
+p1125
+sg11
+S"external/chromium/net/disk_cache/stat_hub.cc:216: [1210/112409:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.\n"
+p1126
+sa(dp1127
+g2
+S'7808'
+p1128
+sg4
+L1449717849457L
+sg5
+g528
+sg7
+S'chromium'
+p1129
+sg9
+S' 7910'
+p1130
+sg11
+S'external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/112409:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so\n'
+p1131
+sa(dp1132
+g2
+S'7808'
+p1133
+sg4
+L1449717849457L
+sg5
+g6
+sg7
+S'chromium'
+p1134
+sg9
+S' 7910'
+p1135
+sg11
+S"external/chromium/net/disk_cache/stat_hub.cc:216: [1210/112409:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.\n"
+p1136
+sa(dp1137
+g2
+S'7808'
+p1138
+sg4
+L1449717849457L
+sg5
+g30
+sg7
+S'        '
+p1139
+sg9
+S' 7910'
+p1140
+sg11
+S'netstack: Caching Of Redirection is: ON, Version: 5.0.1\n'
+p1141
+sa(dp1142
+g2
+S'7808'
+p1143
+sg4
+L1449717849457L
+sg5
+g30
+sg7
+S'        '
+p1144
+sg9
+S' 7910'
+p1145
+sg11
+S'netstack: Early Connections is: ON, Version: 5.0.1, Param: 3\n'
+p1146
+sa(dp1147
+g2
+S'7808'
+p1148
+sg4
+L1449717850308L
+sg5
+g30
+sg7
+S'        '
+p1149
+sg9
+S' 7899'
+p1150
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 0\n'
+p1151
+sa(dp1152
+g2
+S'7808'
+p1153
+sg4
+L1449717851009L
+sg5
+g30
+sg7
+S'MainActivity'
+p1154
+sg9
+S' 7899'
+p1155
+sg11
+S'h:910.5,w:1687.5\n'
+p1156
+sa(dp1157
+g2
+S'7808'
+p1158
+sg4
+L1449717852891L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1159
+sg9
+S' 7899'
+p1160
+sg11
+S'getAbsoluteBoundingBox failed for node 0x67b0a370, name RenderSVGContainer\n'
+p1161
+sa(dp1162
+g2
+S'7808'
+p1163
+sg4
+L1449717852891L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1164
+sg9
+S' 7899'
+p1165
+sg11
+S'getAbsoluteBoundingBox failed for node 0x67b0a7c8, name RenderSVGContainer\n'
+p1166
+sa(dp1167
+g2
+S'7808'
+p1168
+sg4
+L1449717852891L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1169
+sg9
+S' 7899'
+p1170
+sg11
+S'getAbsoluteBoundingBox failed for node 0x67a04e70, name RenderSVGContainer\n'
+p1171
+sa(dp1172
+g2
+S'7808'
+p1173
+sg4
+L1449717852901L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1174
+sg9
+S' 7899'
+p1175
+sg11
+S'getAbsoluteBoundingBox failed for node 0x67b0b2c8, name RenderSVGPath\n'
+p1176
+sa(dp1177
+g2
+S'7808'
+p1178
+sg4
+L1449717854463L
+sg5
+g30
+sg7
+S'        '
+p1179
+sg9
+S' 7899'
+p1180
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 1\n'
+p1181
+sa(dp1182
+g2
+S'7808'
+p1183
+sg4
+L1449717859428L
+sg5
+g30
+sg7
+S'        '
+p1184
+sg9
+S' 7899'
+p1185
+sg11
+S'++++++++++++++++ Deleting the canvas with id 0\n'
+p1186
+sa(dp1187
+g2
+S'7808'
+p1188
+sg4
+L1449717859598L
+sg5
+g30
+sg7
+S'MainActivity'
+p1189
+sg9
+S' 7899'
+p1190
+sg11
+S'h:845.75,w:1717.5\n'
+p1191
+sa(dp1192
+g2
+S'7808'
+p1193
+sg4
+L1449717866325L
+sg5
+g30
+sg7
+S'        '
+p1194
+sg9
+S' 7899'
+p1195
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 2\n'
+p1196
+sa(dp1197
+g2
+S'7808'
+p1198
+sg4
+L1449717866826L
+sg5
+g30
+sg7
+S'MainActivity'
+p1199
+sg9
+S' 7899'
+p1200
+sg11
+S'h:910.5,w:1687.5\n'
+p1201
+sa(dp1202
+g2
+S'7808'
+p1203
+sg4
+L1449717867176L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p1204
+sg9
+S' 7808'
+p1205
+sg11
+S'stop failed: not bound to TTS engine\n'
+p1206
+sa(dp1207
+g2
+S'7808'
+p1208
+sg4
+L1449717867176L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p1209
+sg9
+S' 7808'
+p1210
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p1211
+sa(dp1212
+g2
+S'7808'
+p1213
+sg4
+L1449717869259L
+sg5
+g30
+sg7
+S'        '
+p1214
+sg9
+S' 7899'
+p1215
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 3\n'
+p1216
+sa(dp1217
+g2
+S'7808'
+p1218
+sg4
+L1449717869829L
+sg5
+g30
+sg7
+S'MainActivity'
+p1219
+sg9
+S' 7899'
+p1220
+sg11
+S'h:910.5,w:1687.5\n'
+p1221
+sa(dp1222
+g2
+S'7808'
+p1223
+sg4
+L1449717874825L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1224
+sg9
+S' 7899'
+p1225
+sg11
+S'getAbsoluteBoundingBox failed for node 0x69faf990, name RenderSVGContainer\n'
+p1226
+sa(dp1227
+g2
+S'7808'
+p1228
+sg4
+L1449717874825L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1229
+sg9
+S' 7899'
+p1230
+sg11
+S'getAbsoluteBoundingBox failed for node 0x69fafb68, name RenderSVGContainer\n'
+p1231
+sa(dp1232
+g2
+S'7808'
+p1233
+sg4
+L1449717874825L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1234
+sg9
+S' 7899'
+p1235
+sg11
+S'getAbsoluteBoundingBox failed for node 0x69fafd98, name RenderSVGContainer\n'
+p1236
+sa(dp1237
+g2
+S'7808'
+p1238
+sg4
+L1449717874825L
+sg5
+g6
+sg7
+S'webcoreglue'
+p1239
+sg9
+S' 7899'
+p1240
+sg11
+S'getAbsoluteBoundingBox failed for node 0x69fb03f8, name RenderSVGPath\n'
+p1241
+sa(dp1242
+g2
+S'7808'
+p1243
+sg4
+L1449717875495L
+sg5
+g30
+sg7
+S'        '
+p1244
+sg9
+S' 7899'
+p1245
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 4\n'
+p1246
+sa(dp1247
+g2
+S'7808'
+p1248
+sg4
+L1449717877597L
+sg5
+g30
+sg7
+S'MainActivity'
+p1249
+sg9
+S' 7899'
+p1250
+sg11
+S'h:761.443,w:1717.5\n'
+p1251
+sa(dp1252
+g2
+S'7808'
+p1253
+sg4
+L1449717877968L
+sg5
+g30
+sg7
+S'        '
+p1254
+sg9
+S' 7899'
+p1255
+sg11
+S'++++++++++++++++ Deleting the canvas with id 1\n'
+p1256
+sa(dp1257
+g2
+S'7808'
+p1258
+sg4
+L1449717878048L
+sg5
+g30
+sg7
+S'        '
+p1259
+sg9
+S' 7899'
+p1260
+sg11
+S'++++++++++++++++ Deleting the canvas with id 3\n'
+p1261
+sa(dp1262
+g2
+S'7828'
+p1263
+sg4
+L1449717883253L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p1264
+sg9
+S' 7845'
+p1265
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe5\x8f\x91\xe9\x80\x81\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:70\n'
+p1266
+sa(dp1267
+g2
+S'7828'
+p1268
+sg4
+L1449717883524L
+sg5
+g30
+sg7
+S'ForegroundActivity'
+p1269
+sg9
+S' 7850'
+p1270
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x94\xb6\xe5\x88\xb0\xe5\xb8\xa7\xe9\x95\xbf:13\t\xe6\x80\xbb\xe5\xb8\xa7\xe9\x95\xbf:735\n'
+p1271
+sa(dp1272
+g2
+S'7828'
+p1273
+sg4
+L1449717884355L
+sg5
+g30
+sg7
+S'SocketService1'
+p1274
+sg9
+S' 7847'
+p1275
+sg11
+S'\xe6\x9c\xac\xe6\xac\xa1\xe6\x8f\x90\xe5\x8f\x961:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 \xe5\xa4\xb4\xe4\xbf\xa1\xe6\x81\xaf:EB 90 EB 90 EB 90 0D 00 10 01 \n'
+p1276
+sa(dp1277
+g2
+S'7808'
+p1278
+sg4
+L1449717890802L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p1279
+sg9
+S' 7854'
+p1280
+sg11
+S'Screenshot:1449717890811\n'
+p1281
+sa(dp1282
+g2
+S'7808'
+p1283
+sg4
+L1449717890872L
+sg5
+g30
+sg7
+S'dalvikvm'
+p1284
+sg9
+S' 7808'
+p1285
+sg11
+S'GC_FOR_ALLOC freed 6003K, 18% free 38586K/46727K, paused 48ms, total 48ms\n'
+p1286
+sa(dp1287
+g2
+S'7808'
+p1288
+sg4
+L1449717891042L
+sg5
+g30
+sg7
+S'dalvikvm'
+p1289
+sg9
+S' 7808'
+p1290
+sg11
+S'GC_FOR_ALLOC freed 171K, 11% free 42015K/46727K, paused 27ms, total 27ms\n'
+p1291
+sa(dp1292
+g2
+S'7808'
+p1293
+sg4
+L1449717892233L
+sg5
+g30
+sg7
+S'        '
+p1294
+sg9
+S' 7899'
+p1295
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 5\n'
+p1296
+sa(dp1297
+g2
+S'7808'
+p1298
+sg4
+L1449717892814L
+sg5
+g30
+sg7
+S'MainActivity'
+p1299
+sg9
+S' 7899'
+p1300
+sg11
+S'h:910.5,w:1687.5\n'
+p1301
+sa(dp1302
+g2
+S'7808'
+p1303
+sg4
+L1449717893054L
+sg5
+g30
+sg7
+S'        '
+p1304
+sg9
+S' 7899'
+p1305
+sg11
+S'++++++++++++++++ Deleting the canvas with id 4\n'
+p1306
+sa(dp1307
+g2
+S'7808'
+p1308
+sg4
+L1449717896738L
+sg5
+g286
+sg7
+S'webview '
+p1309
+sg9
+S' 7808'
+p1310
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1311
+sa(dp1312
+g2
+S'7808'
+p1313
+sg4
+L1449717897639L
+sg5
+g286
+sg7
+S'webview '
+p1314
+sg9
+S' 7808'
+p1315
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1316
+sa(dp1317
+g2
+S'7808'
+p1318
+sg4
+L1449717897819L
+sg5
+g286
+sg7
+S'webview '
+p1319
+sg9
+S' 7808'
+p1320
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1321
+sa(dp1322
+g2
+S'7808'
+p1323
+sg4
+L1449717897999L
+sg5
+g286
+sg7
+S'webview '
+p1324
+sg9
+S' 7808'
+p1325
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1326
+sa(dp1327
+g2
+S'7808'
+p1328
+sg4
+L1449717898129L
+sg5
+g286
+sg7
+S'webview '
+p1329
+sg9
+S' 7808'
+p1330
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1331
+sa(dp1332
+g2
+S'7808'
+p1333
+sg4
+L1449717898179L
+sg5
+g286
+sg7
+S'webview '
+p1334
+sg9
+S' 7808'
+p1335
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1336
+sa(dp1337
+g2
+S'7808'
+p1338
+sg4
+L1449717898400L
+sg5
+g286
+sg7
+S'webview '
+p1339
+sg9
+S' 7808'
+p1340
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1341
+sa(dp1342
+g2
+S'7808'
+p1343
+sg4
+L1449717898580L
+sg5
+g286
+sg7
+S'webview '
+p1344
+sg9
+S' 7808'
+p1345
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1346
+sa(dp1347
+g2
+S'7808'
+p1348
+sg4
+L1449717898690L
+sg5
+g286
+sg7
+S'webview '
+p1349
+sg9
+S' 7808'
+p1350
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1351
+sa(dp1352
+g2
+S'7808'
+p1353
+sg4
+L1449717898720L
+sg5
+g286
+sg7
+S'webview '
+p1354
+sg9
+S' 7808'
+p1355
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1356
+sa(dp1357
+g2
+S'7808'
+p1358
+sg4
+L1449717898730L
+sg5
+g286
+sg7
+S'webview '
+p1359
+sg9
+S' 7808'
+p1360
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1361
+sa(dp1362
+g2
+S'7808'
+p1363
+sg4
+L1449717899931L
+sg5
+g286
+sg7
+S'webview '
+p1364
+sg9
+S' 7808'
+p1365
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1366
+sa(dp1367
+g2
+S'7808'
+p1368
+sg4
+L1449717899941L
+sg5
+g286
+sg7
+S'webview '
+p1369
+sg9
+S' 7808'
+p1370
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1371
+sa(dp1372
+g2
+S'7808'
+p1373
+sg4
+L1449717900192L
+sg5
+g286
+sg7
+S'webview '
+p1374
+sg9
+S' 7808'
+p1375
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1376
+sa(dp1377
+g2
+S'7808'
+p1378
+sg4
+L1449717900362L
+sg5
+g286
+sg7
+S'webview '
+p1379
+sg9
+S' 7808'
+p1380
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1381
+sa(dp1382
+g2
+S'7808'
+p1383
+sg4
+L1449717900542L
+sg5
+g286
+sg7
+S'webview '
+p1384
+sg9
+S' 7808'
+p1385
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1386
+sa(dp1387
+g2
+S'7808'
+p1388
+sg4
+L1449717900712L
+sg5
+g286
+sg7
+S'webview '
+p1389
+sg9
+S' 7808'
+p1390
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1391
+sa(dp1392
+g2
+S'7808'
+p1393
+sg4
+L1449717900732L
+sg5
+g286
+sg7
+S'webview '
+p1394
+sg9
+S' 7808'
+p1395
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1396
+sa(dp1397
+g2
+S'7808'
+p1398
+sg4
+L1449717900782L
+sg5
+g286
+sg7
+S'webview '
+p1399
+sg9
+S' 7808'
+p1400
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1401
+sa(dp1402
+g2
+S'7808'
+p1403
+sg4
+L1449717900892L
+sg5
+g286
+sg7
+S'webview '
+p1404
+sg9
+S' 7808'
+p1405
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1406
+sa(dp1407
+g2
+S'7808'
+p1408
+sg4
+L1449717900902L
+sg5
+g286
+sg7
+S'webview '
+p1409
+sg9
+S' 7808'
+p1410
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1411
+sa(dp1412
+g2
+S'7808'
+p1413
+sg4
+L1449717901062L
+sg5
+g286
+sg7
+S'webview '
+p1414
+sg9
+S' 7808'
+p1415
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1416
+sa(dp1417
+g2
+S'7808'
+p1418
+sg4
+L1449717901073L
+sg5
+g286
+sg7
+S'webview '
+p1419
+sg9
+S' 7808'
+p1420
+sg11
+S'mInputDispatcher rejected the event!\n'
+p1421
+sa(dp1422
+g2
+S'7808'
+p1423
+sg4
+L1449717902254L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p1424
+sg9
+S' 7808'
+p1425
+sg11
+S'stop failed: not bound to TTS engine\n'
+p1426
+sa(dp1427
+g2
+S'7808'
+p1428
+sg4
+L1449717902254L
+sg5
+g286
+sg7
+S'TextToSpeech'
+p1429
+sg9
+S' 7808'
+p1430
+sg11
+S'shutdown failed: not bound to TTS engine\n'
+p1431
+sa(dp1432
+g2
+S'7808'
+p1433
+sg4
+L1449717910162L
+sg5
+g30
+sg7
+S'        '
+p1434
+sg9
+S' 7899'
+p1435
+sg11
+S'++++++++++++++++++++++Setting up the canvas ID to be 6\n'
+p1436
+sa(dp1437
+g2
+S'7808'
+p1438
+sg4
+L1449717910783L
+sg5
+g30
+sg7
+S'MainActivity'
+p1439
+sg9
+S' 7899'
+p1440
+sg11
+S'h:670.006,w:1569.5\n'
+p1441
+sa(dp1442
+g2
+S'7808'
+p1443
+sg4
+L1449717915628L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p1444
+sg9
+S' 7854'
+p1445
+sg11
+S'Log:1449717915641\n'
+p1446
+sa(dp1447
+g2
+S'7808'
+p1448
+sg4
+L1449717917070L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p1449
+sg9
+S' 7854'
+p1450
+sg11
+S'Log:1449717917080\n'
+p1451
+sa(dp1452
+g2
+S'7808'
+p1453
+sg4
+L1449717917150L
+sg5
+g30
+sg7
+S'cn.edu.nju.ise.kikandroid'
+p1454
+sg9
+S' 7854'
+p1455
+sg11
+S'Screenshot:1449717917158\n'
+p1456
+sa(dp1457
+g2
+S'7808'
+p1458
+sg4
+L1449717917240L
+sg5
+g30
+sg7
+S'dalvikvm'
+p1459
+sg9
+S' 7808'
+p1460
+sg11
+S'GC_FOR_ALLOC freed 7384K, 24% free 38478K/50375K, paused 87ms, total 87ms\n'
+p1461
+sa(dp1462
+g2
+S'7808'
+p1463
+sg4
+L1449717917340L
+sg5
+g30
+sg7
+S'dalvikvm'
+p1464
+sg9
+S' 7812'
+p1465
+sg11
+S'GC_CONCURRENT freed 3614K, 17% free 42071K/50375K, paused 15ms+5ms, total 46ms\n'
+p1466
+sa(dp1467
+g2
+S'7808'
+p1468
+sg4
+L1449717917630L
+sg5
+g286
+sg7
+S'dalvikvm'
+p1469
+sg9
+S' 7854'
+p1470
+sg11
+S'threadid=14: thread exiting with uncaught exception (group=0x41c35498)\n'
+p1471
+sa(dp1472
+g2
+S'7808'
+p1473
+sg4
+L1449717917630L
+sg5
+g6
+sg7
+S'AndroidRuntime'
+p1474
+sg9
+S' 7854'
+p1475
+sg11
+S'FATAL EXCEPTION: Thread-17415\njava.lang.NullPointerException\n\tat android.app.Instrumentation.finish(Instrumentation.java:186)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)\n\tat cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)\n\tat java.lang.Thread.run(Thread.java:856)\n'
+p1476
+sa.

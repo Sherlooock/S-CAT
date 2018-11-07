@@ -1,0 +1,1818 @@
+--------- beginning of system
+[ 12-12 15:42:36.548 16700:16700 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@2cdf7b35,provider,holder.Provider:android.content.ContentProviderProxy@32afcbca
+
+[ 12-12 15:42:37.349 16700:16700 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{2788bb42 com.taobao.ishopping}}
+
+[ 12-12 15:42:37.349 16700:16700 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@f5a9890 className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.350 16700:16700 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@f5a9890 className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.353 16700:16700 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@f5a9890 intent=Intent { act=mtopsdk.xstate.aidl.IXState pkg=com.taobao.ishopping cmp=com.taobao.ishopping/mtopsdk.xstate.XStateService }}
+
+[ 12-12 15:42:37.356 16700:16700 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1700e9a8 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.357 16700:16700 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1700e9a8 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.358 16700:16700 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@1700e9a8 intent=Intent { act=com.taobao.nbcache.IMultiNBCacheService pkg=com.taobao.ishopping cmp=com.taobao.ishopping/com.taobao.nbcache.service.NBCacheService }}
+
+[ 12-12 15:42:37.359 16700:16700 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@2d48bba7 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.393 16700:16700 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@2d48bba7 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:37.393 16700:16700 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@2d48bba7 startId=1 args=Intent { cmp=com.taobao.ishopping/com.laiwang.protocol.android.LWPService }}
+
+[ 12-12 15:42:47.157 16700:16700 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@34f530b9 className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:47.158 16700:16700 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@34f530b9 className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:42:47.159 16700:16700 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@34f530b9 intent=Intent { act=anetwork.channel.aidl.IRemoteNetworkGetter pkg=com.taobao.ishopping cmp=com.taobao.ishopping/anetwork.channel.aidl.NetworkService }}
+
+[ 12-12 15:44:23.326 16850:16850 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@2cdf7b35,provider,holder.Provider:android.content.ContentProviderProxy@32afcbca
+
+[ 12-12 15:44:23.782 16850:16850 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{260dd373 com.taobao.ishopping}}
+
+[ 12-12 15:44:23.782 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:44:23.785 16850:16850 V/ActivityThread ]
+ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:44:24.142 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:44:24.145 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:44:24.145 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:44:24.156 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}} with isForward=true
+
+[ 12-12 15:44:24.156 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:44:24.156 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:44:24.157 16850:16850 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1a55ba1c className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.157 16850:16850 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1a55ba1c className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.159 16850:16850 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@1a55ba1c intent=Intent { act=mtopsdk.xstate.aidl.IXState pkg=com.taobao.ishopping cmp=com.taobao.ishopping/mtopsdk.xstate.XStateService }}
+
+[ 12-12 15:44:24.162 16850:16850 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@97d1987 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.163 16850:16850 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@97d1987 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.164 16850:16850 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@97d1987 intent=Intent { act=com.taobao.nbcache.IMultiNBCacheService pkg=com.taobao.ishopping cmp=com.taobao.ishopping/com.taobao.nbcache.service.NBCacheService }}
+
+[ 12-12 15:44:24.164 16850:16850 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@2d7530b4 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.181 16850:16850 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@2d7530b4 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.181 16850:16850 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@2d7530b4 startId=1 args=Intent { cmp=com.taobao.ishopping/com.laiwang.protocol.android.LWPService }}
+
+[ 12-12 15:44:24.196 16850:16850 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@3d4cf79b className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.196 16850:16850 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@3d4cf79b className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:44:24.197 16850:16850 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@3d4cf79b intent=Intent { act=anetwork.channel.aidl.IRemoteNetworkGetter pkg=com.taobao.ishopping cmp=com.taobao.ishopping/anetwork.channel.aidl.NetworkService }}
+
+[ 12-12 15:44:24.197 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:44:24.197 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:44:30.189 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{28424230 token=android.os.BinderProxy@3580fea9 {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.195 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@3580fea9
+
+[ 12-12 15:44:30.196 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.197 16850:16850 V/ActivityThread ]
+ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:44:30.531 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.543 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.543 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:44:30.549 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} with isForward=true
+
+[ 12-12 15:44:30.549 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.549 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:30.665 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:44:30.665 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:44:31.073 16850:16850 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@3580fea9
+
+[ 12-12 15:44:55.483 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:55.487 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:44:55.488 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:55.489 16850:16850 V/ActivityThread ]
+ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:44:55.623 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:55.628 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:55.628 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:44:55.634 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=true
+
+[ 12-12 15:44:55.635 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:55.635 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:55.677 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:44:55.677 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:44:56.057 16850:16850 V/ActivityThread ]
+Finishing stop of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@13a8eb52
+
+[ 12-12 15:44:56.057 16850:16850 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:44:57.183 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1542efe9 token=android.os.BinderProxy@29cf546e {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:44:57.257 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@29cf546e
+
+[ 12-12 15:44:57.258 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:57.261 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:57.261 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:44:57.261 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} with isForward=false
+
+[ 12-12 15:44:57.261 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:44:57.261 16850:16850 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:44:57.264 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:44:57.264 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:44:57.312 16850:16850 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@29cf546e
+
+[ 12-12 15:45:20.086 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:45:20.090 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:45:20.092 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.094 16850:16850 V/ActivityThread ]
+ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:45:20.135 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.137 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.137 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:45:20.143 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=true
+
+[ 12-12 15:45:20.143 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.143 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.176 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:45:20.176 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:45:20.528 16850:16850 V/ActivityThread ]
+Finishing stop of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@13a8eb52
+
+[ 12-12 15:45:20.528 16850:16850 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:45:22.817 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:22.821 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@17c67607
+
+[ 12-12 15:45:22.821 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.822 16850:16850 V/ActivityThread ]
+ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:45:22.839 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.840 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.840 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:45:22.845 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=true
+
+[ 12-12 15:45:22.846 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.846 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.864 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:45:22.864 16850:16850 D/Activity ]
+translucentStatus = false
+
+--------- beginning of main
+[ 12-12 15:45:23.042 16850:16850 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2af640cb G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.047 16850:16992 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 320, h 217, sample 1, bsLength 7e60!!
+
+
+[ 12-12 15:45:23.050 16850:16992 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 320, h 217, sample 1, bsLength 7e60!!
+
+
+[ 12-12 15:45:23.052 16850:16992 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-12 15:45:23.063 16850:16850 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{94d0769 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.064 16850:16850 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{94d0769 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.065 16850:16850 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{94d0769 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.066 16850:16850 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{124455ee G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.066 16850:16850 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{124455ee G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.067 16850:16850 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{124455ee G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:23.070 16850:17027 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 15:45:23.070 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:23.070 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:45:23.070 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:23.070 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:45:23.095 16850:17022 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:23.099 16850:17129 V/MessageHandler ]
+receive BaseMessageModel
+
+[ 12-12 15:45:23.101 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1032 #102000a android:id/list}
+
+[ 12-12 15:45:23.103 16850:17002 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 80, h 80, sample 1, bsLength 1eaa!!
+
+
+[ 12-12 15:45:23.110 16850:17027 D/libc-netbsd ]
+getaddrinfo: gw.alicdn.com get result from proxy >>
+
+
+[ 12-12 15:45:23.110 16850:17027 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:45:23.110 16850:17027 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:45:23.111 16850:17027 I/System.out ]
+[socket][74] connection gw.alicdn.com/112.25.59.40:443;LocalPort=53594(5000)
+
+[ 12-12 15:45:23.111 16850:17027 I/System.out ]
+[CDS]connect[gw.alicdn.com/112.25.59.40:443] tm:5
+
+[ 12-12 15:45:23.117 16850:17026 E/ImageLoader ]
+UIL doesn't support scheme(protocol) by default [https:http:null_128x128.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+java.lang.UnsupportedOperationException: UIL doesn't support scheme(protocol) by default [https:http:null_128x128.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStreamFromOtherSource(BaseImageDownloader.java:280)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStream(BaseImageDownloader.java:99)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.downloadImage(LoadAndDisplayImageTask.java:291)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryCacheImageOnDisk(LoadAndDisplayImageTask.java:274)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryLoadBitmap(LoadAndDisplayImageTask.java:230)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.run(LoadAndDisplayImageTask.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+[ 12-12 15:45:23.132 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:23.132 16850:17027 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :443 
+
+[ 12-12 15:45:23.133 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6ce0560) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:23.145 16850:17027 I/System.out ]
+[socket][/192.168.88.158:53594] connected
+
+[ 12-12 15:45:23.147 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:23.147 16850:17027 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 NativeCrypto_SSL_do_handshake fd=0xd2151530 shc=0xd2151534 timeout_millis=20000 client_mode=1 npn=0x0
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x10 ret=1
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 handshake start in UNKWN  before/connect initialization
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback calling handshakeCompleted
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback completed
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:UNKWN  before/connect initialization
+
+[ 12-12 15:45:23.148 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.149 16850:16850 D/AbsListView ]
+onSizeChanged w=1080, h=1422, oldw=1080, oldh=1032, getChildCount=4, mSyncPosition=10, mNeedSync=true, mSyncMode=1, mAdaptercom.taobao.ishopping.im.chat.controller.ChatAdapter@3fc272d0, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}, callstack=android.widget.ListView.onSizeChanged:1203 android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:23WCHA SSLv2/v3 write client hello A
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:error exit in 23RSHA SSLv2/v3 read server hello A
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+doing handshake -- ret=-1
+
+[ 12-12 15:45:23.149 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 NativeCrypto_SSL_do_handshake ret=-1 errno=11 sslError=2 timeout_millis=20000
+
+[ 12-12 15:45:23.151 16850:17002 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 80, h 80, sample 1, bsLength 1eaa!!
+
+
+[ 12-12 15:45:23.152 16850:17002 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-12 15:45:23.162 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6772336
+
+[ 12-12 15:45:23.162 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:23.162 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:23.162 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:23.162 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:23.163 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:23.163 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:23.163 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+createInstance(): End = 6772337
+
+[ 12-12 15:45:23.163 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6772337
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:23.163 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:23.164 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:23.164 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:23.164 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:23.164 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:23.164 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:23.164 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:23.164 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:23.164 16850:16850 D/MPlugin  ]
+createInstance(): End = 6772337
+
+[ 12-12 15:45:23.164 16850:16850 D/DefaultWebProtocolNames ]
+getExtendedWebUrlProgocal
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6772344
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:23.171 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:23.171 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:23.171 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:23.171 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:23.171 16850:16850 D/MPlugin  ]
+createInstance(): End = 6772345
+
+[ 12-12 15:45:23.171 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6772346
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:23.173 16850:17044 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:23.173 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:23.173 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:23.173 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:23.173 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:23.173 16850:16850 D/MPlugin  ]
+createInstance(): End = 6772347
+
+[ 12-12 15:45:23.174 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:23.174 16850:17027 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:45:23.174 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.174 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3RSH_A SSLv3 read server hello A
+
+[ 12-12 15:45:23.174 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.176 16850:17027 E/NativeCrypto ]
+ssl=0xd1f7ac00 cert_verify_callback x509_store_ctx=0xd21512f0 arg=0x0
+
+[ 12-12 15:45:23.176 16850:17027 E/NativeCrypto ]
+ssl=0xd1f7ac00 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 cert_verify_callback => 1
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3RSC_A SSLv3 read server certificate A
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3RSD_A SSLv3 read server done A
+
+[ 12-12 15:45:23.176 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3WCKEA SSLv3 write client key exchange A
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3WCCSA SSLv3 write change cipher spec A
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3WFINA SSLv3 write finished A
+
+[ 12-12 15:45:23.177 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3FLUSH SSLv3 flush data
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:error exit in UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:error exit in UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+doing handshake -- ret=-1
+
+[ 12-12 15:45:23.178 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 NativeCrypto_SSL_do_handshake ret=-1 errno=11 sslError=2 timeout_millis=20000
+
+[ 12-12 15:45:23.184 16850:16992 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 200, h 200, sample 1, bsLength 5dae!!
+
+
+[ 12-12 15:45:23.185 16850:17108 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:23.187 16850:17026 E/ImageLoader ]
+UIL doesn't support scheme(protocol) by default [https:http:null_200x200.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+java.lang.UnsupportedOperationException: UIL doesn't support scheme(protocol) by default [https:http:null_200x200.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStreamFromOtherSource(BaseImageDownloader.java:280)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStream(BaseImageDownloader.java:99)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.downloadImage(LoadAndDisplayImageTask.java:291)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryCacheImageOnDisk(LoadAndDisplayImageTask.java:274)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryLoadBitmap(LoadAndDisplayImageTask.java:230)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.run(LoadAndDisplayImageTask.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+[ 12-12 15:45:23.188 16850:16992 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 200, h 200, sample 1, bsLength 5dae!!
+
+
+[ 12-12 15:45:23.189 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:23.194 16850:16992 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-12 15:45:23.209 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:23.210 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6db51a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1001 ret=1
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:3RFINA SSLv3 read finished A
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x20 ret=1
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 handshake done in SSLOK  SSL negotiation finished successfully
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback calling handshakeCompleted
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback completed
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback where=0x1002 ret=1
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 SSL_connect:ok exit in SSLOK  SSL negotiation finished successfully
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 info_callback ignored
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+doing handshake -- ret=1
+
+[ 12-12 15:45:23.213 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 NativeCrypto_SSL_get_certificate => NULL
+
+[ 12-12 15:45:23.214 16850:17027 I/System.out ]
+gba_cipher_suite:TLS_RSA_WITH_AES_128_CBC_SHA
+
+[ 12-12 15:45:23.214 16850:17027 I/System.out ]
+[OkHttp] sendRequest>>
+
+[ 12-12 15:45:23.214 16850:17027 I/System.out ]
+[OkHttp] sendRequest<<
+
+[ 12-12 15:45:23.214 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslWrite buf=0xf48fe000 len=230 write_timeout_millis=0
+
+[ 12-12 15:45:23.214 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=20000
+
+[ 12-12 15:45:23.228 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:23.235 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:23.236 16850:16953 D/GraphicBuffer ]
+register, handle(0xda50d1a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:23.254 16850:17027 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:45:23.254 16850:17027 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:45:23.254 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.254 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.254 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.254 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.282 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.283 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.283 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.283 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.283 16850:17027 D/NativeCrypto ]
+ssl=0xd1f7ac00 sslRead buf=0xf48fe000 len=2048,timeo=100
+
+[ 12-12 15:45:23.283 16850:17027 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:45:23.283 16850:16931 I/System.out ]
+Close in OkHttp
+
+[ 12-12 15:45:23.283 16850:17027 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ssl=0xd113c000 NativeCrypto_SSL_interrupt
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ sslNotify, appData=0xdebe4480 ret=1
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ sslNotify, appData=0xdebe4480 ret=1
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ssl=0xd113c000 info_callback where=0x4008 ret=256
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ssl=0xd113c000 SSL3 alert write:W:CN warning close notify
+
+[ 12-12 15:45:23.283 16850:16931 D/NativeCrypto ]
+ssl=0xd113c000 info_callback ignored
+
+[ 12-12 15:45:23.284 16850:16931 I/System.out ]
+[CDS]close[51364]
+
+[ 12-12 15:45:23.328 16850:16850 V/ActivityThread ]
+Finishing stop of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@320a420c
+
+[ 12-12 15:45:23.328 16850:16850 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@17c67607
+
+[ 12-12 15:45:24.148 16850:16895 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:45:24.149 16850:16895 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:45:24.168 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:45:24.171 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.175 16850:16895 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 15:45:24.175 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:24.175 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:45:24.175 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:24.175 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:45:24.176 16850:16895 D/libc-netbsd ]
+getaddrinfo: adash.m.taobao.com get result from proxy >>
+
+
+[ 12-12 15:45:24.177 16850:16895 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:45:24.177 16850:16895 I/System.out ]
+[CDS]rx timeout:60000
+
+[ 12-12 15:45:24.177 16850:16895 I/System.out ]
+[socket][75] connection adash.m.taobao.com/140.205.35.99:80;LocalPort=36178(10000)
+
+[ 12-12 15:45:24.177 16850:16895 I/System.out ]
+[CDS]connect[adash.m.taobao.com/140.205.35.99:80] tm:10
+
+[ 12-12 15:45:24.177 16850:16895 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :80 
+
+[ 12-12 15:45:24.186 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.203 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.203 16850:16895 I/System.out ]
+[socket][/192.168.88.158:36178] connected
+
+[ 12-12 15:45:24.204 16850:16895 I/System.out ]
+[OkHttp] sendRequest<<
+
+[ 12-12 15:45:24.219 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.238 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.254 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.264 16850:16895 I/System.out ]
+Close in OkHttp
+
+[ 12-12 15:45:24.265 16850:16895 I/System.out ]
+[CDS]close[36178]
+
+[ 12-12 15:45:24.265 16850:16895 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:45:24.267 16850:16895 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:45:24.287 16850:16936 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:24.293 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.299 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.305 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.310 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.321 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.336 16850:16850 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 1006,mMotionPosition = 11,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.336 16850:16850 D/AbsListView ]
+Fling from scroll with initialVelocity = 3394,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -90,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.336 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:45:24.336 16850:16850 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = -3394,mLastFlingY = 2147483647
+
+[ 12-12 15:45:24.339 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.353 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.374 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773548
+
+[ 12-12 15:45:24.374 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.374 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.374 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.374 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.375 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.375 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.375 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.375 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.375 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.375 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.375 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773548
+
+[ 12-12 15:45:24.375 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.376 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773550
+
+[ 12-12 15:45:24.376 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.376 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.376 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.376 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.377 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.377 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.377 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.377 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.377 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.377 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.377 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773550
+
+[ 12-12 15:45:24.377 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.379 16850:16850 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2d8fcd58 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.380 16850:16850 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{2d8fcd58 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.380 16850:16850 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2d8fcd58 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.381 16850:16850 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{270e3f96 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.382 16850:16850 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{270e3f96 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.382 16850:16850 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{270e3f96 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:45:24.384 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773557
+
+[ 12-12 15:45:24.384 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.384 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.384 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.384 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.384 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.384 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.384 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.384 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.385 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.385 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.385 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773558
+
+[ 12-12 15:45:24.385 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.392 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.400 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.410 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.420 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773609
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.436 16850:16938 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.436 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.436 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.436 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.436 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.436 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.437 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.437 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773610
+
+[ 12-12 15:45:24.437 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.443 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.454 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.458 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.471 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.486 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.503 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.521 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.537 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773735
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.562 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.562 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.562 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.562 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.562 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773736
+
+[ 12-12 15:45:24.562 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773737
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.564 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.564 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.564 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.564 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.564 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.565 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773738
+
+[ 12-12 15:45:24.565 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+createInstance(): Begin = 6773740
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:45:24.567 16850:16850 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:45:24.567 16850:16850 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:45:24.567 16850:16982 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:45:24.567 16850:16850 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:45:24.567 16850:16850 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:45:24.567 16850:16850 D/MPlugin  ]
+createInstance(): End = 6773741
+
+[ 12-12 15:45:24.567 16850:16850 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:45:24.574 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.581 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.587 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.591 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.602 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.625 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.636 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.652 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.668 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.685 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.701 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.718 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.737 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.751 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.768 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.787 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.801 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.818 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.834 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.850 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.867 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.888 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.900 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.917 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.934 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.951 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.965 16850:16850 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 4,mFirstPosition = 6
+
+[ 12-12 15:45:24.965 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 6
+
+[ 12-12 15:45:24.965 16850:16850 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 6
+
+[ 12-12 15:45:24.968 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:24.969 16850:17002 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 187, h 320, sample 1, bsLength 7fe8!!
+
+
+[ 12-12 15:45:24.973 16850:17002 D/skia     ]
+jpeg_decoder mode 1, colorType 2, w 187, h 320, sample 1, bsLength 7fe8!!
+
+
+[ 12-12 15:45:24.978 16850:17002 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-12 15:45:24.984 16850:16850 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:24.992 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:26.406 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:26.803 16850:16850 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{1f0569c9 V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(707,717)(150x108) gr=#10000033 sim=#1 ty=1000 fl=#840000 fmt=-3 wanim=0x10302de surfaceInsets=Rect(0, 0 - 0, 0) meizuFlags=0x9 imeOffset=-1 splitActionBarHeight=0Meizu WM.LayoutParams [ flags=0x0] }
+
+[ 12-12 15:45:26.806 16850:16850 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{35ff78ce PopupWindow:1f6e5d0,ident = 6}
+
+[ 12-12 15:45:26.838 16850:16953 D/OpenGLRenderer ]
+CanvasContext() 0xb76dba40 initialize 0xb008e008
+
+[ 12-12 15:45:26.838 16850:16953 D/Surface  ]
+Surface::connect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:26.839 16850:16953 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:45:26.839 16850:16953 D/Surface  ]
+Surface::allocateBuffers(this=0xb008e000)
+
+[ 12-12 15:45:26.840 16850:16850 V/InputMethodManager ]
+onWindowFocus: null softInputMode=33 first=true flags=#1840000
+
+[ 12-12 15:45:26.840 16850:16850 V/InputMethodManager ]
+START INPUT: android.widget.PopupWindow$PopupViewContainer{1f0569c9 V.E..... ......ID 0,0-150,108} ic=null tba=android.view.inputmethod.EditorInfo@36ac8efc controlFlags=#104
+
+[ 12-12 15:45:26.854 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb008e000,w=150,h=108)
+
+[ 12-12 15:45:26.855 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6ce0240) (w:150 h:108 s:160 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:26.860 16850:16850 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:26.860 16850:16850 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 0,mFirstPosition = 6
+
+[ 12-12 15:45:26.860 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 6
+
+[ 12-12 15:45:26.860 16850:16850 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 6
+
+[ 12-12 15:45:26.870 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:27.375 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 6
+
+[ 12-12 15:45:27.811 16850:16850 I/chromium ]
+[INFO:CONSOLE(4)] "view aviable:NaN", source: https://g.alicdn.com/??tb/mguang/2.5.30/p/group_feed/index.js (4)
+
+
+[ 12-12 15:45:28.124 16850:16895 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:45:28.125 16850:16895 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:45:28.142 16850:16895 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 15:45:28.142 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:28.142 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:45:28.142 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:45:28.142 16850:16895 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:45:28.143 16850:16895 D/libc-netbsd ]
+getaddrinfo: adash.m.taobao.com get result from proxy >>
+
+
+[ 12-12 15:45:28.143 16850:16895 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:45:28.144 16850:16895 I/System.out ]
+[CDS]rx timeout:60000
+
+[ 12-12 15:45:28.144 16850:16895 I/System.out ]
+[socket][76] connection adash.m.taobao.com/140.205.35.99:80;LocalPort=59400(10000)
+
+[ 12-12 15:45:28.144 16850:16895 I/System.out ]
+[CDS]connect[adash.m.taobao.com/140.205.35.99:80] tm:10
+
+[ 12-12 15:45:28.144 16850:16895 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :80 
+
+[ 12-12 15:45:28.169 16850:16895 I/System.out ]
+[socket][/192.168.88.158:59400] connected
+
+[ 12-12 15:45:28.169 16850:16895 I/System.out ]
+[OkHttp] sendRequest<<
+
+[ 12-12 15:45:28.217 16850:16895 I/System.out ]
+Close in OkHttp
+
+[ 12-12 15:45:28.217 16850:16895 I/System.out ]
+[CDS]close[59400]
+
+[ 12-12 15:45:28.217 16850:16895 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:45:28.218 16850:16895 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:45:28.949 16850:16850 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 15:45:28.961 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:28.962 16850:16953 D/Surface  ]
+Surface::disconnect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:28.962 16850:16953 D/GraphicBuffer ]
+unregister, handle(0xb6ce0240) (w:150 h:108 s:160 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:28.963 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:28.971 16850:16850 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{17b76300 Toast,ident = 7}
+
+[ 12-12 15:45:28.975 16850:16850 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:28.975 16850:16850 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:45:28.975 16850:16850 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@b3f5739 controlFlags=#101
+
+[ 12-12 15:45:28.989 16850:16953 D/OpenGLRenderer ]
+CanvasContext() 0xb76dbb00 initialize 0xb008e008
+
+[ 12-12 15:45:28.989 16850:16953 D/Surface  ]
+Surface::connect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:28.990 16850:16953 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:45:28.990 16850:16953 D/Surface  ]
+Surface::allocateBuffers(this=0xb008e000)
+
+[ 12-12 15:45:29.005 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb008e000,w=342,h=93)
+
+[ 12-12 15:45:29.005 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6ce0240) (w:342 h:93 s:352 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:30.962 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:30.962 16850:16953 D/Surface  ]
+Surface::disconnect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:30.962 16850:16953 D/GraphicBuffer ]
+unregister, handle(0xb6ce0240) (w:342 h:93 s:352 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:30.963 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:32.334 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:32.739 16850:16850 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{f56b7c4 V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(707,717)(150x108) gr=#10000033 sim=#1 ty=1000 fl=#840000 fmt=-3 wanim=0x10302de surfaceInsets=Rect(0, 0 - 0, 0) meizuFlags=0x9 imeOffset=-1 splitActionBarHeight=0Meizu WM.LayoutParams [ flags=0x0] }
+
+[ 12-12 15:45:32.741 16850:16850 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{198226ad PopupWindow:290312d7,ident = 8}
+
+[ 12-12 15:45:32.768 16850:16953 D/OpenGLRenderer ]
+CanvasContext() 0xb76dbbc0 initialize 0xb008e008
+
+[ 12-12 15:45:32.768 16850:16953 D/Surface  ]
+Surface::connect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:32.769 16850:16953 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:45:32.769 16850:16953 D/Surface  ]
+Surface::allocateBuffers(this=0xb008e000)
+
+[ 12-12 15:45:32.770 16850:16850 V/InputMethodManager ]
+onWindowFocus: null softInputMode=33 first=true flags=#1840000
+
+[ 12-12 15:45:32.770 16850:16850 V/InputMethodManager ]
+START INPUT: android.widget.PopupWindow$PopupViewContainer{f56b7c4 V.E..... ......ID 0,0-150,108} ic=null tba=android.view.inputmethod.EditorInfo@28fc0573 controlFlags=#104
+
+[ 12-12 15:45:32.783 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb008e000,w=150,h=108)
+
+[ 12-12 15:45:32.783 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6ce0240) (w:150 h:108 s:160 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:32.788 16850:16850 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:32.788 16850:16850 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 0,mFirstPosition = 6
+
+[ 12-12 15:45:32.789 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 6
+
+[ 12-12 15:45:32.789 16850:16850 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 6
+
+[ 12-12 15:45:32.801 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xc86c5900,w=1080,h=1920)
+
+[ 12-12 15:45:33.267 16850:16850 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@321b4a6a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 6
+
+[ 12-12 15:45:43.137 16850:16850 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 15:45:43.143 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:43.143 16850:16953 D/Surface  ]
+Surface::disconnect(this=0xb008e000,api=1)
+
+[ 12-12 15:45:43.143 16850:16953 D/GraphicBuffer ]
+unregister, handle(0xb6ce0240) (w:150 h:108 s:160 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:43.144 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:43.148 16850:16850 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:45:43.149 16850:16850 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:45:43.149 16850:16850 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{287a86dc VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@fa0afeb controlFlags=#101
+
+[ 12-12 15:45:43.424 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906336890
+
+[ 12-12 15:45:43.424 16850:16987 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:45:43.425 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906343425
+
+[ 12-12 15:45:43.468 16850:16987 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:45:43.870 16850:16930 I/awcn     ]
+|[seq:AWCN1_1] https://acs.m.taobao.com ping receive 0
+
+[ 12-12 15:45:43.874 16850:16930 I/awcn     ]
+|[seq:AWCN3_1] https://unitacs.m.taobao.com ping receive 0
+
+[ 12-12 15:45:43.897 16850:16850 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{17c6b148 Toast,ident = 9}
+
+[ 12-12 15:45:43.937 16850:16953 D/OpenGLRenderer ]
+CanvasContext() 0xb76dbc80 initialize 0xb008ee08
+
+[ 12-12 15:45:43.937 16850:16953 D/Surface  ]
+Surface::connect(this=0xb008ee00,api=1)
+
+[ 12-12 15:45:43.938 16850:16953 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:45:43.939 16850:16953 D/Surface  ]
+Surface::allocateBuffers(this=0xb008ee00)
+
+[ 12-12 15:45:43.951 16850:16953 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb008ee00,w=342,h=93)
+
+[ 12-12 15:45:43.952 16850:16953 D/GraphicBuffer ]
+register, handle(0xb6ce0240) (w:342 h:93 s:352 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:44.956 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906344748
+
+[ 12-12 15:45:44.957 16850:16987 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:45:45.887 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:45.888 16850:16953 D/Surface  ]
+Surface::disconnect(this=0xb008ee00,api=1)
+
+[ 12-12 15:45:45.888 16850:16953 D/GraphicBuffer ]
+unregister, handle(0xb6ce0240) (w:342 h:93 s:352 f:0x1 u:0x000b00)
+
+[ 12-12 15:45:45.889 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:48.963 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906348963
+
+[ 12-12 15:45:49.003 16850:16987 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:45:50.834 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906350834
+
+[ 12-12 15:45:51.026 16850:16870 I/art      ]
+Background sticky concurrent mark sweep GC freed 263811(13MB) AllocSpace objects, 138(43MB) LOS objects, 41% free, 62MB/106MB, paused 2.500ms total 113.521ms
+
+[ 12-12 15:45:51.029 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:51.030 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:51.033 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:51.038 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:51.062 16850:16953 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:45:51.125 16850:16987 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906350878
+

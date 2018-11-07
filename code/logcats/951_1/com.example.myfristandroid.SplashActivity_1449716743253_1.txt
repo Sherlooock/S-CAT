@@ -1,0 +1,1445 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:50:59.208 17493:17493 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:50:59.488 17493:17493 D/dalvikvm ]
+GC_FOR_ALLOC freed 55K, 30% free 18299K/25792K, paused 18ms, total 18ms
+
+[ 12-10 10:50:59.588 17493:17493 I/dalvikvm-heap ]
+Grow heap (frag case) to 56.213MB for 34885888-byte allocation
+
+[ 12-10 10:50:59.618 17493:17497 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 52367K/59864K, paused 4ms+3ms, total 24ms
+
+[ 12-10 10:50:59.728 17510:17510 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:50:59.788 17493:17493 D/libEGL   ]
+loaded /vendor/lib/egl/libEGL_adreno.so
+
+[ 12-10 10:50:59.798 17493:17493 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+
+[ 12-10 10:50:59.808 17493:17493 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv2_adreno.so
+
+[ 12-10 10:50:59.808 17493:17493 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:316>: EGL 1.4 QUALCOMM build:  (CL4169980)
+OpenGL ES Shader Compiler Version: 17.01.10.SPL
+Build Date: 09/26/13 Thu
+Local Branch: 
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 10:50:59.818 17510:17510 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:50:59.818 17510:17510 D/SocketService ]
+pid:17510 myPid:17510
+
+[ 12-10 10:50:59.818 17510:17510 D/SocketService ]
+start to run current thread!id:2309
+
+[ 12-10 10:50:59.928 17493:17493 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:51:00.919 17510:17529 D/SocketService ]
+ip/192.168.1.188 lport:52066 p:143
+
+[ 12-10 10:51:00.929 17510:17529 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 10:51:00.929 17510:17529 D/SocketService ]
+success to connect server!id:2309 bLogin:false
+
+[ 12-10 10:51:01.140 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:51:01.870 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:51:01.940 17510:17529 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 10:51:02.021 17510:17540 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:51:02.351 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:51:02.931 17510:17529 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 10:51:02.991 17510:17540 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:51:03.432 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:51:39.807 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 10:51:40.018 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:51:40.718 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:52:19.816 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 10:52:19.917 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 10:52:19.927 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:52:59.835 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 10:52:59.966 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 10:53:00.066 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:53:39.885 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-10 10:53:39.965 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 10:53:40.305 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:54:04.859 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 6984K, 40% free 15536K/25792K, paused 3ms+2ms, total 49ms
+
+[ 12-10 10:54:15.389 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 7ms+8ms, total 60ms
+
+[ 12-10 10:54:19.894 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:122
+
+[ 12-10 10:54:20.064 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 10:54:20.534 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:54:25.749 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 396K, 40% free 15536K/25792K, paused 6ms+3ms, total 49ms
+
+[ 12-10 10:54:36.009 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 392K, 40% free 15535K/25792K, paused 3ms+2ms, total 25ms
+
+[ 12-10 10:54:46.299 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 388K, 40% free 15535K/25792K, paused 3ms+2ms, total 21ms
+
+[ 12-10 10:54:56.529 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+1ms, total 20ms
+
+[ 12-10 10:54:59.903 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:135
+
+[ 12-10 10:54:59.953 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 10:55:00.954 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:55:06.949 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 430K, 40% free 15496K/25792K, paused 1ms+4ms, total 40ms
+
+[ 12-10 10:55:18.301 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 421K, 40% free 15496K/25792K, paused 4ms+1ms, total 51ms
+
+[ 12-10 10:55:28.490 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 346K, 40% free 15535K/25792K, paused 6ms+2ms, total 57ms
+
+[ 12-10 10:55:38.851 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 23ms+1ms, total 56ms
+
+[ 12-10 10:55:39.902 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:148
+
+[ 12-10 10:55:39.972 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:813
+
+[ 12-10 10:55:40.232 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:813 HeadIndex:800 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:55:49.071 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 3ms+2ms, total 24ms
+
+[ 12-10 10:55:59.451 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 2ms+2ms, total 21ms
+
+[ 12-10 10:56:09.791 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 2ms+4ms, total 32ms
+
+[ 12-10 10:56:19.931 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:161
+
+[ 12-10 10:56:19.991 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 385K, 40% free 15535K/25792K, paused 3ms+2ms, total 24ms
+
+[ 12-10 10:56:20.011 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:826
+
+[ 12-10 10:56:20.431 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:826 HeadIndex:813 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:56:30.301 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 390K, 40% free 15535K/25792K, paused 6ms+6ms, total 55ms
+
+[ 12-10 10:56:40.541 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 385K, 40% free 15535K/25792K, paused 5ms+2ms, total 61ms
+
+[ 12-10 10:56:50.931 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 4ms+2ms, total 25ms
+
+[ 12-10 10:56:59.930 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:174
+
+[ 12-10 10:57:00.070 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:839
+
+[ 12-10 10:57:00.670 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:839 HeadIndex:826 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:57:01.231 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 3ms+1ms, total 21ms
+
+[ 12-10 10:57:11.571 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 5ms+1ms, total 42ms
+
+[ 12-10 10:57:21.871 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 6ms+2ms, total 47ms
+
+[ 12-10 10:57:32.161 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+2ms, total 21ms
+
+[ 12-10 10:57:39.949 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:187
+
+[ 12-10 10:57:39.989 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:852
+
+[ 12-10 10:57:40.820 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:852 HeadIndex:839 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:57:42.511 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 3ms+2ms, total 19ms
+
+[ 12-10 10:57:52.751 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 5ms+6ms, total 53ms
+
+[ 12-10 10:58:03.021 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 4ms+2ms, total 28ms
+
+[ 12-10 10:58:13.471 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 2ms+1ms, total 19ms
+
+[ 12-10 10:58:19.958 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:200
+
+[ 12-10 10:58:19.978 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:865
+
+[ 12-10 10:58:20.088 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:865 HeadIndex:852 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:58:23.852 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 14ms+1ms, total 39ms
+
+[ 12-10 10:58:34.302 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 2ms+3ms, total 20ms
+
+[ 12-10 10:58:44.572 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+2ms, total 21ms
+
+[ 12-10 10:58:54.872 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+4ms, total 22ms
+
+[ 12-10 10:58:59.967 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:213
+
+[ 12-10 10:58:59.987 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:878
+
+[ 12-10 10:59:00.267 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:878 HeadIndex:865 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:59:05.242 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 5ms+5ms, total 59ms
+
+[ 12-10 10:59:15.492 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 11ms+7ms, total 60ms
+
+[ 12-10 10:59:25.692 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 8ms+5ms, total 58ms
+
+[ 12-10 10:59:35.972 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 6ms+3ms, total 40ms
+
+[ 12-10 10:59:39.986 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:226
+
+[ 12-10 10:59:40.156 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:891
+
+[ 12-10 10:59:40.516 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:891 HeadIndex:878 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:59:46.342 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 7ms+5ms, total 53ms
+
+[ 12-10 10:59:56.732 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+2ms, total 26ms
+
+[ 12-10 11:00:07.022 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 385K, 40% free 15535K/25792K, paused 2ms+2ms, total 18ms
+
+[ 12-10 11:00:17.462 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 6ms+5ms, total 53ms
+
+[ 12-10 11:00:20.015 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:239
+
+[ 12-10 11:00:20.095 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:904
+
+[ 12-10 11:00:20.716 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:904 HeadIndex:891 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:00:27.642 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 429K, 40% free 15496K/25792K, paused 1ms+2ms, total 20ms
+
+[ 12-10 11:00:37.992 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 347K, 40% free 15535K/25792K, paused 2ms+2ms, total 18ms
+
+[ 12-10 11:00:48.252 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 385K, 40% free 15535K/25792K, paused 7ms+5ms, total 54ms
+
+[ 12-10 11:00:58.552 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 4ms+2ms, total 19ms
+
+[ 12-10 11:01:00.024 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:252
+
+[ 12-10 11:01:00.104 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:917
+
+[ 12-10 11:01:00.204 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:917 HeadIndex:904 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:01:08.833 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 7ms+2ms, total 70ms
+
+[ 12-10 11:01:19.063 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 5ms+7ms, total 53ms
+
+[ 12-10 11:01:29.252 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 4ms+4ms, total 37ms
+
+[ 12-10 11:01:39.633 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 5ms+1ms, total 21ms
+
+[ 12-10 11:01:40.033 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:265
+
+[ 12-10 11:01:40.133 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:930
+
+[ 12-10 11:01:40.323 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:930 HeadIndex:917 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:01:49.983 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 5ms+7ms, total 58ms
+
+[ 12-10 11:02:00.193 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15534K/25792K, paused 6ms+2ms, total 58ms
+
+[ 12-10 11:02:10.353 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+2ms, total 22ms
+
+[ 12-10 11:02:20.112 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:278
+
+[ 12-10 11:02:20.222 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:943
+
+[ 12-10 11:02:20.613 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:943 HeadIndex:930 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:02:20.743 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 6ms+5ms, total 88ms
+
+[ 12-10 11:02:30.953 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+1ms, total 20ms
+
+[ 12-10 11:02:41.353 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 385K, 40% free 15535K/25792K, paused 4ms+1ms, total 24ms
+
+[ 12-10 11:02:51.823 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 6ms+2ms, total 57ms
+
+[ 12-10 11:03:00.121 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:291
+
+[ 12-10 11:03:00.231 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:956
+
+[ 12-10 11:03:00.882 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:956 HeadIndex:943 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:03:02.013 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 6ms+2ms, total 47ms
+
+[ 12-10 11:03:12.353 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 6ms+2ms, total 25ms
+
+[ 12-10 11:03:22.893 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+2ms, total 19ms
+
+[ 12-10 11:03:33.173 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+1ms, total 22ms
+
+[ 12-10 11:03:40.120 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:304
+
+[ 12-10 11:03:40.250 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:969
+
+[ 12-10 11:03:41.151 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:969 HeadIndex:956 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:03:43.493 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 40% free 15535K/25792K, paused 2ms+2ms, total 20ms
+
+[ 12-10 11:03:53.854 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 5ms+5ms, total 52ms
+
+[ 12-10 11:04:04.114 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 3ms+1ms, total 20ms
+
+[ 12-10 11:04:14.494 17510:17515 D/dalvikvm ]
+GC_CONCURRENT freed 384K, 40% free 15535K/25792K, paused 4ms+9ms, total 38ms
+
+[ 12-10 11:04:20.139 17510:17525 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:317
+
+[ 12-10 11:04:20.179 17510:17540 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:982
+
+[ 12-10 11:04:20.610 17510:17527 D/SocketService1 ]
+本次提取1:LoadPtr:982 HeadIndex:969 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:04:21.691 20607:20607 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:04:22.481 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 77K, 29% free 18316K/25792K, paused 19ms, total 19ms
+
+[ 12-10 11:04:22.552 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 54.729MB for 34885888-byte allocation
+
+[ 12-10 11:04:22.582 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 52383K/59864K, paused 4ms+5ms, total 25ms
+
+[ 12-10 11:04:22.692 20637:20637 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:04:22.772 20607:20607 D/libEGL   ]
+loaded /vendor/lib/egl/libEGL_adreno.so
+
+[ 12-10 11:04:22.772 20607:20607 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+
+[ 12-10 11:04:22.782 20637:20637 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:04:22.782 20637:20637 D/SocketService ]
+pid:20637 myPid:20637
+
+[ 12-10 11:04:22.782 20637:20637 D/SocketService ]
+start to run current thread!id:2390
+
+[ 12-10 11:04:22.802 20607:20607 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv2_adreno.so
+
+[ 12-10 11:04:22.802 20607:20607 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:316>: EGL 1.4 QUALCOMM build:  (CL4169980)
+OpenGL ES Shader Compiler Version: 17.01.10.SPL
+Build Date: 09/26/13 Thu
+Local Branch: 
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 11:04:22.902 20607:20607 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:04:23.823 20637:20655 D/SocketService ]
+ip/192.168.1.188 lport:45766 p:143
+
+[ 12-10 11:04:23.843 20637:20655 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:04:23.843 20637:20655 D/SocketService ]
+success to connect server!id:2390 bLogin:false
+
+[ 12-10 11:04:23.883 20637:20668 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:04:24.834 20637:20653 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:04:24.854 20637:20655 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:04:24.984 20637:20668 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:04:25.114 20637:20653 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:04:25.264 20607:20607 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:04:25.314 20607:20607 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:04:25.334 20607:20607 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:04:25.384 20607:20607 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:04:25.394 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:04:25.554 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.554 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.765 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 4818K, 13% free 55727K/63696K, paused 3ms+5ms, total 31ms
+
+[ 12-10 11:04:25.765 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-10 11:04:25.805 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.815 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.855 20637:20655 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:04:25.955 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.955 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:25.975 20637:20668 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:04:26.015 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:26.015 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:26.145 20637:20653 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:04:26.155 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:26.245 20607:20607 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:04:26.525 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:26.525 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:27.987 20607:20607 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:04:27.987 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:27.997 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:59.498 20607:20607 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@43237570
+
+[ 12-10 11:04:59.558 20607:20607 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:04:59.578 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=105 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.graphics.Typeface.getFullFlipFont(Typeface.java:523)
+	at android.graphics.Typeface.getFontPathFlipFont(Typeface.java:470)
+	at android.graphics.Typeface.SetFlipFonts(Typeface.java:560)
+	at android.graphics.Typeface.SetAppTypeFace(Typeface.java:691)
+	at android.app.Activity.onCreate(Activity.java:912)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:40)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:04:59.578 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:59.578 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:59.618 20607:20607 D/WebView  ]
+onSizeChanged - w:1080 h:1710
+
+[ 12-10 11:04:59.768 20607:20750 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {432364c0}
+
+[ 12-10 11:04:59.778 20607:20750 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:04:59.778 20607:20750 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:04:59.778 20607:20750 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:04:59.798 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:04:59.798 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:59.798 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:04:59.798 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:04:59.888 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_ERROR</GATE-M>
+
+[ 12-10 11:04:59.908 20607:20750 V/webkit   ]
+reportError errorCode(-6) desc(与服务器的连接不成功)
+
+[ 12-10 11:05:00.088 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:05:00.118 20607:20607 D/TilesManager ]
+Starting TG #0, 0x7a5ffba0
+
+[ 12-10 11:05:00.118 20607:20607 D/TilesManager ]
+new EGLContext from framework: 75d64c58 
+
+[ 12-10 11:05:00.118 20607:20607 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 11:05:00.168 20607:20607 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 11:05:02.791 20637:20651 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:05:02.931 20637:20668 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:05:03.241 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 1560K, 10% free 57908K/63696K, paused 60ms, total 60ms
+
+[ 12-10 11:05:03.261 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.034MB for 8294416-byte allocation
+
+[ 12-10 11:05:03.301 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 48K, 9% free 65960K/71800K, paused 2ms+5ms, total 41ms
+
+[ 12-10 11:05:03.301 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-10 11:05:03.331 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 75.898MB for 8294416-byte allocation
+
+[ 12-10 11:05:03.351 20637:20653 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:05:03.371 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8102K, 18% free 65967K/79904K, paused 3ms+8ms, total 42ms
+
+[ 12-10 11:05:03.542 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716703165
+
+[ 12-10 11:05:04.342 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:04.342 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:04.342 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:04.342 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:04.362 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:04.362 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:06.144 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8234K, 10% free 57870K/63696K, paused 37ms, total 39ms
+
+[ 12-10 11:05:06.174 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.997MB for 8294416-byte allocation
+
+[ 12-10 11:05:06.204 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 12K, 9% free 65958K/71800K, paused 3ms+4ms, total 34ms
+
+[ 12-10 11:05:06.244 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 9% free 65958K/71800K, paused 23ms, total 23ms
+
+[ 12-10 11:05:06.264 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 77.395MB for 8294416-byte allocation
+
+[ 12-10 11:05:06.304 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 65963K/79904K, paused 3ms+5ms, total 43ms
+
+[ 12-10 11:05:06.494 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716706052
+
+[ 12-10 11:05:08.266 20607:20607 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42d1a450
+
+[ 12-10 11:05:08.266 20607:20750 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {430fc8d0}
+
+[ 12-10 11:05:08.286 20607:20607 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:05:08.286 20607:20750 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:05:08.286 20607:20750 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:05:08.286 20607:20750 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:05:08.296 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=42 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.graphics.Typeface.getFullFlipFont(Typeface.java:523)
+	at android.graphics.Typeface.getFontPathFlipFont(Typeface.java:470)
+	at android.graphics.Typeface.SetFlipFonts(Typeface.java:560)
+	at android.graphics.Typeface.SetAppTypeFace(Typeface.java:691)
+	at android.app.Activity.onCreate(Activity.java:912)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:40)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:05:08.296 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:08.306 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:08.336 20607:20607 D/WebView  ]
+onSizeChanged - w:1080 h:1710
+
+[ 12-10 11:05:08.356 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_ERROR</GATE-M>
+
+[ 12-10 11:05:08.356 20607:20750 V/webkit   ]
+reportError errorCode(-6) desc(与服务器的连接不成功)
+
+[ 12-10 11:05:08.386 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:05:08.556 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:08.556 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:08.556 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:08.556 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:10.008 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8336K, 10% free 57921K/63696K, paused 82ms, total 82ms
+
+[ 12-10 11:05:10.028 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.047MB for 8294416-byte allocation
+
+[ 12-10 11:05:10.058 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 9% free 66018K/71800K, paused 2ms+6ms, total 31ms
+
+[ 12-10 11:05:10.058 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+
+[ 12-10 11:05:10.078 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 75.955MB for 8294416-byte allocation
+
+[ 12-10 11:05:10.118 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66023K/79904K, paused 3ms+11ms, total 35ms
+
+[ 12-10 11:05:10.268 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716709927
+
+[ 12-10 11:05:10.969 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:10.969 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:10.969 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:10.969 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:10.989 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:10.989 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:15.433 20607:20750 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42d6bb90}
+
+[ 12-10 11:05:15.433 20607:20607 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42d6c0e0
+
+[ 12-10 11:05:15.453 20607:20607 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:05:15.453 20607:20750 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:05:15.453 20607:20750 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:05:15.453 20607:20750 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:05:15.463 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=40 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.graphics.Typeface.getFullFlipFont(Typeface.java:523)
+	at android.graphics.Typeface.getFontPathFlipFont(Typeface.java:470)
+	at android.graphics.Typeface.SetFlipFonts(Typeface.java:560)
+	at android.graphics.Typeface.SetAppTypeFace(Typeface.java:691)
+	at android.app.Activity.onCreate(Activity.java:912)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:40)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:05:15.463 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:15.463 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:15.493 20607:20607 D/WebView  ]
+onSizeChanged - w:1080 h:1710
+
+[ 12-10 11:05:15.493 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_ERROR</GATE-M>
+
+[ 12-10 11:05:15.493 20607:20750 V/webkit   ]
+reportError errorCode(-6) desc(与服务器的连接不成功)
+
+[ 12-10 11:05:15.523 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:05:15.653 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:15.653 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:15.663 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:15.663 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:16.935 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8370K, 9% free 57981K/63696K, paused 68ms, total 69ms
+
+[ 12-10 11:05:16.945 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.105MB for 8294416-byte allocation
+
+[ 12-10 11:05:16.995 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 15K, 8% free 66066K/71800K, paused 6ms+4ms, total 48ms
+
+[ 12-10 11:05:16.995 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-10 11:05:17.015 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 76.000MB for 8294416-byte allocation
+
+[ 12-10 11:05:17.055 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66071K/79904K, paused 8ms+4ms, total 40ms
+
+[ 12-10 11:05:17.255 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716716860
+
+[ 12-10 11:05:17.855 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:17.855 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:17.855 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:17.855 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:17.875 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:17.875 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:20.788 20607:20607 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42d87140
+
+[ 12-10 11:05:20.788 20607:20750 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42d86e68}
+
+[ 12-10 11:05:20.808 20607:20607 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:05:20.808 20607:20750 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:05:20.808 20607:20750 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:05:20.808 20607:20750 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:05:20.808 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=44 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.graphics.Typeface.getFullFlipFont(Typeface.java:523)
+	at android.graphics.Typeface.getFontPathFlipFont(Typeface.java:470)
+	at android.graphics.Typeface.SetFlipFonts(Typeface.java:560)
+	at android.graphics.Typeface.SetAppTypeFace(Typeface.java:691)
+	at android.app.Activity.onCreate(Activity.java:912)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:40)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:05:20.808 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:20.808 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:20.838 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_ERROR</GATE-M>
+
+[ 12-10 11:05:20.838 20607:20750 V/webkit   ]
+reportError errorCode(-6) desc(与服务器的连接不成功)
+
+[ 12-10 11:05:20.858 20607:20607 D/WebView  ]
+onSizeChanged - w:1080 h:1710
+
+[ 12-10 11:05:20.908 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:05:21.059 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:21.059 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:21.059 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:21.059 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:22.340 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8370K, 9% free 58028K/63696K, paused 65ms, total 65ms
+
+[ 12-10 11:05:22.350 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.151MB for 8294416-byte allocation
+
+[ 12-10 11:05:22.380 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 14K, 8% free 66114K/71800K, paused 2ms+4ms, total 29ms
+
+[ 12-10 11:05:22.380 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-10 11:05:22.400 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 76.048MB for 8294416-byte allocation
+
+[ 12-10 11:05:22.440 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66119K/79904K, paused 4ms+6ms, total 40ms
+
+[ 12-10 11:05:22.570 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716722256
+
+[ 12-10 11:05:23.311 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:23.311 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:23.311 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:23.311 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:23.341 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:23.341 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:23.451 20607:20607 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:05:25.373 20607:20607 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42da27a0
+
+[ 12-10 11:05:25.373 20607:20750 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42da2618}
+
+[ 12-10 11:05:25.393 20607:20607 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:05:25.393 20607:20750 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:05:25.393 20607:20750 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:05:25.393 20607:20750 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:05:25.403 20607:20607 D/StrictMode ]
+StrictMode policy violation; ~duration=36 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1134)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at android.graphics.Typeface.getFullFlipFont(Typeface.java:523)
+	at android.graphics.Typeface.getFontPathFlipFont(Typeface.java:470)
+	at android.graphics.Typeface.SetFlipFonts(Typeface.java:560)
+	at android.graphics.Typeface.SetAppTypeFace(Typeface.java:691)
+	at android.app.Activity.onCreate(Activity.java:912)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:40)
+	at android.app.Activity.performCreate(Activity.java:5372)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2257)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2349)
+	at android.app.ActivityThread.access$700(ActivityThread.java:159)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1316)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5419)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1187)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:05:25.403 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:25.403 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:25.433 20607:20607 D/WebView  ]
+onSizeChanged - w:1080 h:1710
+
+[ 12-10 11:05:25.603 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:25.613 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:25.613 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:05:25.613 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:26.644 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_ERROR</GATE-M>
+
+[ 12-10 11:05:26.644 20607:20750 V/webkit   ]
+reportError errorCode(-6) desc(与服务器的连接不成功)
+
+[ 12-10 11:05:26.714 20607:20750 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:05:28.045 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8370K, 9% free 58076K/63696K, paused 57ms, total 58ms
+
+[ 12-10 11:05:28.065 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.199MB for 8294416-byte allocation
+
+[ 12-10 11:05:28.095 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 14K, 8% free 66162K/71800K, paused 3ms+4ms, total 32ms
+
+[ 12-10 11:05:28.095 20607:20607 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 21ms
+
+[ 12-10 11:05:28.115 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 76.094MB for 8294416-byte allocation
+
+[ 12-10 11:05:28.156 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66167K/79904K, paused 4ms+4ms, total 32ms
+
+[ 12-10 11:05:28.316 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716727992
+
+[ 12-10 11:05:29.066 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:29.066 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:29.066 20607:20607 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:05:29.066 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:29.076 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:29.076 20607:20607 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:31.579 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8241K, 9% free 58063K/63696K, paused 53ms, total 54ms
+
+[ 12-10 11:05:31.599 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.186MB for 8294416-byte allocation
+
+[ 12-10 11:05:31.629 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 13K, 8% free 66150K/71800K, paused 4ms+5ms, total 34ms
+
+[ 12-10 11:05:31.669 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 66150K/71800K, paused 26ms, total 27ms
+
+[ 12-10 11:05:31.689 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 77.583MB for 8294416-byte allocation
+
+[ 12-10 11:05:31.719 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66155K/79904K, paused 3ms+6ms, total 32ms
+
+[ 12-10 11:05:31.979 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716731465
+
+[ 12-10 11:05:33.791 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716733796
+
+[ 12-10 11:05:35.022 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716735034
+
+[ 12-10 11:05:35.142 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed 8256K, 9% free 58054K/63696K, paused 36ms, total 36ms
+
+[ 12-10 11:05:35.162 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.177MB for 8294416-byte allocation
+
+[ 12-10 11:05:35.202 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 8% free 66153K/71800K, paused 4ms+6ms, total 35ms
+
+[ 12-10 11:05:35.232 20607:20607 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 66152K/71800K, paused 23ms, total 23ms
+
+[ 12-10 11:05:35.262 20607:20607 I/dalvikvm-heap ]
+Grow heap (frag case) to 77.585MB for 8294416-byte allocation
+
+[ 12-10 11:05:35.292 20607:20608 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 18% free 66157K/79904K, paused 3ms+5ms, total 33ms
+
+[ 12-10 11:05:35.533 20607:20665 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716735091
+
+[ 12-10 11:05:35.533 20607:20665 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41955898)
+
+--------- beginning of /dev/log/system
+[ 12-10 11:05:35.543 20607:20665 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2385
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 11:05:35.713 21138:21138 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:05:36.604 21138:21138 D/dalvikvm ]
+GC_FOR_ALLOC freed 48K, 29% free 18316K/25792K, paused 17ms, total 17ms
+
+[ 12-10 11:05:36.694 21138:21138 I/dalvikvm-heap ]
+Grow heap (frag case) to 54.729MB for 34885888-byte allocation
+
+[ 12-10 11:05:36.714 21138:21142 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 52383K/59864K, paused 3ms+3ms, total 21ms
+
+[ 12-10 11:05:36.824 21176:21176 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:05:36.904 21138:21138 D/libEGL   ]
+loaded /vendor/lib/egl/libEGL_adreno.so
+
+[ 12-10 11:05:36.904 21138:21138 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+
+[ 12-10 11:05:36.914 21138:21138 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv2_adreno.so
+
+[ 12-10 11:05:36.914 21176:21176 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:05:36.914 21176:21176 D/SocketService ]
+pid:21176 myPid:21176
+
+[ 12-10 11:05:36.914 21138:21138 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:316>: EGL 1.4 QUALCOMM build:  (CL4169980)
+OpenGL ES Shader Compiler Version: 17.01.10.SPL
+Build Date: 09/26/13 Thu
+Local Branch: 
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 11:05:36.924 21176:21176 D/SocketService ]
+start to run current thread!id:2399
+
+[ 12-10 11:05:36.974 21138:21138 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:05:36.994 21176:21194 D/SocketService ]
+ip/192.168.1.188 lport:55805 p:143
+
+[ 12-10 11:05:37.004 21176:21194 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:05:37.004 21176:21194 D/SocketService ]
+success to connect server!id:2399 bLogin:false
+
+[ 12-10 11:05:37.094 21176:21197 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:05:37.965 21176:21192 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:05:38.005 21176:21194 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:05:38.175 21176:21197 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:05:38.996 21176:21192 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:05:39.016 21176:21194 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:05:39.246 21176:21197 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:05:39.256 21176:21192 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:05:39.366 21138:21138 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:05:39.407 21138:21138 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:05:39.427 21138:21138 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:05:39.467 21138:21138 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:05:39.627 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:39.627 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:39.797 21138:21142 D/dalvikvm ]
+GC_CONCURRENT freed 4783K, 13% free 55726K/63676K, paused 3ms+3ms, total 30ms
+
+[ 12-10 11:05:39.797 21138:21138 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+
+[ 12-10 11:05:39.837 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:39.837 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:39.957 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:39.967 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:40.017 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:40.017 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:40.177 21138:21138 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:05:43.250 21138:21200 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716743253
+
+[ 12-10 11:05:43.390 21138:21138 D/dalvikvm ]
+GC_FOR_ALLOC freed 1234K, 11% free 57279K/63676K, paused 21ms, total 21ms
+
+[ 12-10 11:05:43.410 21138:21138 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.420MB for 8294416-byte allocation
+
+[ 12-10 11:05:43.440 21138:21142 D/dalvikvm ]
+GC_CONCURRENT freed 16K, 9% free 65364K/71780K, paused 3ms+4ms, total 25ms
+
+[ 12-10 11:05:43.480 21138:21138 D/dalvikvm ]
+GC_FOR_ALLOC freed 10K, 9% free 65354K/71780K, paused 24ms, total 24ms
+
+[ 12-10 11:05:43.500 21138:21138 I/dalvikvm-heap ]
+Grow heap (frag case) to 76.806MB for 8294416-byte allocation
+
+[ 12-10 11:05:43.541 21138:21142 D/dalvikvm ]
+GC_CONCURRENT freed 8101K, 19% free 65360K/79884K, paused 5ms+5ms, total 36ms
+
+[ 12-10 11:05:43.761 21138:21200 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716743339
+
+[ 12-10 11:05:43.761 21138:21200 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41955898)
+
+[ 12-10 11:05:43.761 21138:21200 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2394
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

@@ -1,0 +1,2176 @@
+--------- beginning of /dev/log/main
+[ 12-09 19:09:48.326 14567:14567 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-09 19:09:48.386 14567:14583 I/Timeline ]
+Timeline: Activity_launch_request time:31675524
+
+[ 12-09 19:09:48.496 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 114K, 27% free 22635K/30796K, paused 15ms, total 15ms
+
+[ 12-09 19:09:48.546 14567:14567 I/dalvikvm-heap ]
+Grow heap (frag case) to 63.417MB for 34885888-byte allocation
+
+[ 12-09 19:09:48.566 14567:14571 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 56702K/64868K, paused 3ms+4ms, total 14ms
+
+[ 12-09 19:09:48.596 14593:14593 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-09 19:09:48.746 14593:14593 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-09 19:09:48.746 14593:14593 D/SocketService ]
+pid:14593 myPid:14593
+
+[ 12-09 19:09:48.746 14593:14593 D/SocketService ]
+start to run current thread!id:1765
+
+[ 12-09 19:09:48.756 14567:14567 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: YWEN_+PATCH[ES]_msm8974_refs/tags/AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.059__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 11/04/15 Wed
+Local Branch: tip
+Remote Branch: quic/kk_3.5_1
+Local Patches: 14b1eae272f4a5ed345b2294a1c76becd9b27371 rb: re-work change "ES2.0 Fix for shadow cached VBO validation"
+                 c63208cf6c1fe92a04d7ed7e26be44f2f51c94e9 Revert "Fix for perf regression from "ES2.0 Fix for shadow cached VBO validation""
+
+[ 12-09 19:09:48.776 14567:14567 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-09 19:09:48.806 14593:14615 D/SocketService ]
+ip/10.98.208.194 lport:54528 p:143
+
+[ 12-09 19:09:48.816 14593:14615 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-09 19:09:48.816 14593:14615 D/SocketService ]
+success to connect server!id:1765 bLogin:false
+
+[ 12-09 19:09:48.896 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-09 19:09:49.306 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ee7148 time:31676444
+
+[ 12-09 19:09:49.746 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-09 19:09:49.816 14593:14615 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-09 19:09:49.886 14593:14622 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-09 19:09:50.606 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31677745
+
+[ 12-09 19:09:50.716 14567:14567 D/MainActivity ]
+Start One Client
+
+[ 12-09 19:09:50.726 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=9 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:50.746 14567:14574 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-09 19:09:50.746 14567:14574 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-09 19:09:50.766 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-09 19:09:50.826 14593:14615 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-09 19:09:50.956 14567:14567 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-09 19:09:50.976 14593:14622 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-09 19:09:50.976 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=22 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:543)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:50.976 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:555)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:50.976 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=13 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:450)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:188)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:596)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:50.976 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=11 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:51.046 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31678182
+
+[ 12-09 19:09:51.786 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-09 19:09:51.786 14567:14567 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-09 19:09:53.616 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-09 19:09:53.716 14567:14567 V/RenderScript ]
+Application requested CPU execution
+
+[ 12-09 19:09:53.736 14567:14567 V/RenderScript ]
+0x75ac3b80 Launching thread(s), CPUs 4
+
+[ 12-09 19:09:53.846 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=44 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:834)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android
+
+[ 12-09 19:09:53.896 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=24 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:710)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.inter
+
+[ 12-09 19:09:54.066 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at
+
+[ 12-09 19:09:55.086 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=16 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:710)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.inter
+
+[ 12-09 19:09:56.226 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=12 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:710)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.inter
+
+[ 12-09 19:09:56.266 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=23 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:834)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android
+
+[ 12-09 19:09:56.896 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-09 19:09:56.916 14567:14567 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-09 19:09:56.916 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:543)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4448)
+	at android.view.View$PerformClick.run(View.java:18461)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:56.916 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=16 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:450)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:188)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:596)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4448)
+	at android.view.View$PerformClick.run(View.java:18461)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:56.916 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4448)
+	at android.view.View$PerformClick.run(View.java:18461)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:56.916 14593:14593 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:85
+
+[ 12-09 19:09:57.096 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-09 19:09:57.796 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-09 19:09:57.856 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=26 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:543)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:57.856 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=23 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:450)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:188)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:596)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:57.856 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1109)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4731)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:761)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:09:57.976 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=6 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:710)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.intern
+
+[ 12-09 19:10:00.716 14567:14567 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-09 19:10:00.876 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=23 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:834)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android
+
+[ 12-09 19:10:04.236 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 3932K, 6% free 63010K/66992K, paused 28ms, total 34ms
+
+[ 12-09 19:10:04.286 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 216K, 6% free 70894K/75096K, paused 14ms, total 14ms
+
+[ 12-09 19:10:04.556 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659404196
+
+[ 12-09 19:10:05.036 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 19:10:05.156 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=11 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:834)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android
+
+[ 12-09 19:10:05.216 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:710)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.inter
+
+[ 12-09 19:10:05.286 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=20 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at
+
+[ 12-09 19:10:05.676 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-09 19:10:07.126 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-09 19:10:07.136 14567:14567 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-09 19:10:07.136 14593:14593 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:96
+
+[ 12-09 19:10:07.246 14593:14622 D/ForegroundActivity ]
+本次收到帧长:124	总帧长:859
+
+[ 12-09 19:10:07.826 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:859 HeadIndex:735 GetSize:124 124 0 头信息:EB 90 EB 90 EB 90 7C 00 02 0C 
+
+[ 12-09 19:10:07.836 14567:14567 D/dialog   ]
+createListView 1
+
+[ 12-09 19:10:07.846 14567:14567 D/dialog   ]
+createListView 2
+
+[ 12-09 19:10:10.286 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=20 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1041)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:842)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:836)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:147)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:136)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:197)
+	at android.database.AbstractCursor.moveToNext(AbstractCursor.java:251)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFromActiveTable(AppPermissionConfigHelper.java:44)
+	at com.lbe.security.bean.AppPermissionConfigHelper.createFirstFromActiveTable(AppPermissionConfigHelper.java:88)
+	at com.lbe.security.service.provider.PermissionManagerProvider.queryPackageByName(PermissionManagerProvider.java:590)
+	at com.lbe.security.service.provider.internal.AppOpsAdapter$1.getDefaultOp(AppOpsAdapter.java:277)
+	at com.android.internal.app.IOpsCallback$Stub.onTransact(IOpsCallback.java:68)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at com.android.internal.app.IOpsCallback$Stub$Proxy.getDefaultOp(IOpsCallback.java:149)
+	at com.android.server.AppOpsService.getSuggestMode(AppOpsService.java:1227)
+	at com.android.server.AppOpsService.checkOperation(AppOpsService.java:588)
+	at android.app.AppOpsManager.checkOp(AppOpsManager.java:1227)
+	at com.android.server.ClipboardService.hasPrimaryClip(ClipboardService.java:244)
+	at android.content.IClipboard$Stub.onTransact(IClipboard.java:103)
+	at com.android.server.ClipboardService.onTransact(ClipboardService.java:144)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1711)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1471)
+	at android.os.Parcel.readException(Parcel.java:1440)
+	at android.content.IClipboard$Stub$Proxy.hasPrimaryClip(IClipboard.java:233)
+	at android.content.ClipboardManager.hasPrimaryClip(ClipboardManager.java:158)
+	at android.widget.TextView.canPaste(TextView.java:8517)
+	at android.widget.TextView.onInitializeAccessibilityNodeInfo(TextView.java:8204)
+	at android.widget.EditText.onInitializeAccessibilityNodeInfo(EditText.java:128)
+	at android.view.View.createAccessibilityNodeInfoInternal(View.java:5156)
+	at android.view.View.createAccessibilityNodeInfo(View.java:5143)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:811)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchDescendantsOfRealNode(AccessibilityInteractionController.java:834)
+	at android.view.AccessibilityInteractionController$AccessibilityNodePrefetcher.prefetchAccessibilityNodeInfos(AccessibilityInteractionController.java:720)
+	at android.view.AccessibilityInteractionController.findAccessibilityNodeInfoByAccessibilityIdUiThread(AccessibilityInteractionController.java:147)
+	at android.view.AccessibilityInteractionController.access$300(AccessibilityInteractionController.java:49)
+	at android.view.AccessibilityInteractionController$PrivateHandler.handleMessage(AccessibilityInteractionController.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android
+
+[ 12-09 19:10:11.526 14567:14567 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 19:10:12.466 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31699607
+
+[ 12-09 19:10:12.516 14567:14567 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {42ed3428}
+
+[ 12-09 19:10:12.516 14567:14567 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-09 19:10:12.516 14567:14567 I/chromium ]
+[INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-09 19:10:12.516 14567:14567 I/BrowserStartupController ]
+Initializing chromium process, renderers=0
+
+[ 12-09 19:10:12.646 14567:14739 W/chromium ]
+[WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+
+
+[ 12-09 19:10:12.666 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:10:12.666 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:10:12.696 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=43 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at java.io.FileInputStream.<init>(FileInputStream.java:105)
+	at java.io.FileReader.<init>(FileReader.java:66)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:56)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:10:12.696 14567:14567 D/StrictMode ]
+StrictMode policy violation; ~duration=41 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:425)
+	at java.io.FileInputStream.read(FileInputStream.java:179)
+	at java.io.InputStreamReader.read(InputStreamReader.java:233)
+	at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+	at java.io.BufferedReader.readLine(BufferedReader.java:397)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:62)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 19:10:12.746 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:12.756 14567:14749 D/miuisdk  ]
+current sdk level is 4
+
+[ 12-09 19:10:12.766 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:12.796 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4598b240 time:31699931
+
+[ 12-09 19:10:12.916 14567:14760 W/chromium ]
+[WARNING:simple_index_file.cc(338)] Could not map Simple Index file.
+
+
+[ 12-09 19:10:12.916 14567:14760 I/chromium ]
+[INFO:simple_index_file.cc(437)] Simple Cache Index is being restored from disk.
+
+
+[ 12-09 19:10:18.126 14567:14752 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-09 19:10:18.926 14567:14567 D/MyWebView ]
+xspeed2:5745 distanceX2:231
+
+[ 12-09 19:10:25.546 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 19432K, 23% free 65257K/84740K, paused 23ms, total 24ms
+
+[ 12-09 19:10:25.586 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 682K, 15% free 72675K/84740K, paused 13ms, total 13ms
+
+[ 12-09 19:10:25.746 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659425533
+
+[ 12-09 19:10:28.886 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:10:29.096 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31716236
+
+[ 12-09 19:10:30.936 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31718076
+
+[ 12-09 19:10:30.976 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:10:30.976 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:10:31.026 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:31.046 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:31.086 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42edd618 time:31718221
+
+[ 12-09 19:10:32.166 14567:14752 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-09 19:10:36.586 14567:14752 D/MainActivity ]
+h:686.605,w:1476.39
+
+[ 12-09 19:10:38.746 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-09 19:10:38.816 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:872
+
+[ 12-09 19:10:38.856 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:872 HeadIndex:859 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:10:40.026 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16535K, 24% free 64657K/84740K, paused 28ms, total 29ms
+
+[ 12-09 19:10:40.076 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 21K, 15% free 72736K/84740K, paused 17ms, total 17ms
+
+[ 12-09 19:10:40.256 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659440007
+
+[ 12-09 19:10:40.986 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:10:41.006 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:10:41.416 14567:14752 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-09 19:10:42.306 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:10:42.496 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31729639
+
+[ 12-09 19:10:43.916 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31731058
+
+[ 12-09 19:10:43.956 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:10:43.956 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:10:44.006 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:44.026 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:44.076 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42f99338 time:31731213
+
+[ 12-09 19:10:45.606 14567:14752 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-09 19:10:49.086 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16509K, 24% free 64700K/84740K, paused 23ms, total 23ms
+
+[ 12-09 19:10:49.116 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 15K, 15% free 72785K/84740K, paused 15ms, total 15ms
+
+[ 12-09 19:10:49.296 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659449068
+
+[ 12-09 19:10:52.636 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:10:52.846 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31739980
+
+[ 12-09 19:10:53.986 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31741123
+
+[ 12-09 19:10:54.026 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:10:54.026 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:10:54.076 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:54.096 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:10:54.136 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@435d4278 time:31741276
+
+[ 12-09 19:11:18.746 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:122
+
+[ 12-09 19:11:18.996 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:885
+
+[ 12-09 19:11:19.886 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:885 HeadIndex:872 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:11:31.856 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:11:31.906 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31779048
+
+[ 12-09 19:11:32.996 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31780134
+
+[ 12-09 19:11:33.026 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:11:33.026 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:11:33.076 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:33.096 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:33.136 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@46b48ab8 time:31780272
+
+[ 12-09 19:11:34.266 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.286 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.296 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.316 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.326 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.346 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.366 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.376 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.396 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.416 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.426 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.446 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.466 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.476 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.496 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.516 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:34.526 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:36.076 14567:14752 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-09 19:11:52.256 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31799390
+
+[ 12-09 19:11:53.396 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31800535
+
+[ 12-09 19:11:53.426 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:11:53.426 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:11:53.476 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:53.496 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:53.526 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@45863788 time:31800664
+
+[ 12-09 19:11:54.666 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.686 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.696 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.716 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.736 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.746 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.766 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.786 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.796 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.816 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.836 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.846 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.866 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.886 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.896 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.916 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:54.936 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:11:58.766 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:135
+
+[ 12-09 19:11:58.896 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:898
+
+[ 12-09 19:11:58.916 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:898 HeadIndex:885 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:12:03.366 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:12:03.426 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31810565
+
+[ 12-09 19:12:04.626 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31811761
+
+[ 12-09 19:12:04.666 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:12:04.666 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:12:04.706 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:04.726 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:04.746 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@458c17b8 time:31811884
+
+[ 12-09 19:12:05.896 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.916 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.936 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.946 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.966 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.986 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:05.996 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.016 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.026 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.046 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.066 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.076 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.096 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.116 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.136 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.146 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:06.166 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:07.186 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:12:07.256 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31814395
+
+[ 12-09 19:12:08.346 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31815486
+
+[ 12-09 19:12:08.386 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:12:08.386 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:12:08.426 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:08.446 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:08.456 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@435d1148 time:31815597
+
+[ 12-09 19:12:09.616 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.636 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.646 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.666 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.686 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.696 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.716 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.736 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.746 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.766 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.786 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.796 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.816 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.836 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.846 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.866 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:09.886 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:10.966 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:12:11.026 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31818165
+
+[ 12-09 19:12:12.726 14567:14752 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-09 19:12:14.656 14567:14752 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-09 19:12:15.166 14567:14752 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-09 19:12:15.506 14567:14752 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-09 19:12:21.936 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31829078
+
+[ 12-09 19:12:21.976 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:12:21.976 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:12:22.026 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:22.036 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:22.086 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4588b438 time:31829223
+
+[ 12-09 19:12:38.776 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:148
+
+[ 12-09 19:12:38.856 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:911
+
+[ 12-09 19:12:38.956 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:911 HeadIndex:898 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:12:48.986 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:12:49.046 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31856183
+
+[ 12-09 19:12:54.116 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31861253
+
+[ 12-09 19:12:54.146 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:12:54.146 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:12:54.186 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:54.206 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:54.236 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@458784f0 time:31861372
+
+[ 12-09 19:12:55.386 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.396 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.416 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.436 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.446 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.466 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.486 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.496 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.516 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.536 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.546 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.566 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.586 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.596 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.616 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.636 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:12:55.646 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:13:02.216 14567:14752 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-09 19:13:03.446 14567:14752 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-09 19:13:09.796 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 17284K, 24% free 65070K/84740K, paused 18ms, total 18ms
+
+[ 12-09 19:13:09.826 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 76K, 14% free 73094K/84740K, paused 14ms, total 14ms
+
+[ 12-09 19:13:10.226 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659589782
+
+[ 12-09 19:13:14.516 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:13:14.716 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31881857
+
+[ 12-09 19:13:17.806 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31884942
+
+[ 12-09 19:13:17.846 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:13:17.846 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:13:17.896 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:13:17.916 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:13:17.946 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42eee150 time:31885086
+
+[ 12-09 19:13:18.776 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:161
+
+[ 12-09 19:13:19.156 14567:14752 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-09 19:13:19.996 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:924
+
+[ 12-09 19:13:20.996 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:924 HeadIndex:911 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:13:23.056 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16579K, 24% free 65055K/84740K, paused 24ms, total 26ms
+
+[ 12-09 19:13:23.086 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 15K, 14% free 73140K/84740K, paused 15ms, total 15ms
+
+[ 12-09 19:13:23.236 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659603032
+
+[ 12-09 19:13:25.636 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:13:25.806 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31892943
+
+[ 12-09 19:13:27.796 14567:14567 I/Timeline ]
+Timeline: Activity_launch_request time:31894937
+
+[ 12-09 19:13:27.836 14567:14567 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-09 19:13:27.836 14567:14567 D/EgretLoader ]
+The context is not activity
+
+[ 12-09 19:13:27.876 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:13:27.896 14567:14567 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-09 19:13:27.936 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42fa1720 time:31895073
+
+[ 12-09 19:13:29.456 14567:14752 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-09 19:13:34.006 14567:14752 D/MainActivity ]
+h:527.062,w:1261.76
+
+[ 12-09 19:13:37.636 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16688K, 24% free 65115K/84740K, paused 29ms, total 30ms
+
+[ 12-09 19:13:37.676 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 22K, 14% free 73192K/84740K, paused 20ms, total 20ms
+
+[ 12-09 19:13:37.876 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659617612
+
+[ 12-09 19:13:40.126 14567:14752 D/MainActivity ]
+h:673.542,w:1321.76
+
+[ 12-09 19:13:43.826 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16402K, 24% free 65101K/84740K, paused 29ms, total 29ms
+
+[ 12-09 19:13:43.856 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 73193K/84740K, paused 17ms, total 17ms
+
+[ 12-09 19:13:44.016 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659623799
+
+[ 12-09 19:13:45.666 14567:14752 D/MainActivity ]
+h:527.062,w:1201.76
+
+[ 12-09 19:13:49.186 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16346K, 24% free 65100K/84740K, paused 26ms, total 26ms
+
+[ 12-09 19:13:49.216 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 73192K/84740K, paused 16ms, total 16ms
+
+[ 12-09 19:13:49.366 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659629166
+
+[ 12-09 19:13:51.626 14567:14752 D/MainActivity ]
+h:653.795,w:1321.76
+
+[ 12-09 19:13:53.916 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16360K, 24% free 65099K/84740K, paused 31ms, total 31ms
+
+[ 12-09 19:13:53.946 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 73192K/84740K, paused 20ms, total 20ms
+
+[ 12-09 19:13:54.106 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659633886
+
+[ 12-09 19:13:56.866 14567:14752 D/MainActivity ]
+h:527.062,w:1201.76
+
+[ 12-09 19:13:58.776 14593:14611 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:174
+
+[ 12-09 19:13:59.326 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16351K, 24% free 65099K/84740K, paused 34ms, total 34ms
+
+[ 12-09 19:13:59.366 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 73191K/84740K, paused 23ms, total 24ms
+
+[ 12-09 19:13:59.536 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659639297
+
+[ 12-09 19:14:00.506 14593:14622 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:937
+
+[ 12-09 19:14:01.036 14593:14613 D/SocketService1 ]
+本次提取1:LoadPtr:937 HeadIndex:924 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 19:14:01.636 14567:14752 D/MainActivity ]
+h:597.344,w:1201.76
+
+[ 12-09 19:14:04.386 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16371K, 24% free 65098K/84740K, paused 35ms, total 36ms
+
+[ 12-09 19:14:04.426 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 73191K/84740K, paused 22ms, total 22ms
+
+[ 12-09 19:14:04.586 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659644358
+
+[ 12-09 19:14:10.536 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:10.546 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:10.906 14567:14752 D/MainActivity ]
+h:527.062,w:1201.76
+
+[ 12-09 19:14:10.996 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:11.026 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:11.426 14567:14752 D/MainActivity ]
+h:653.795,w:1321.76
+
+[ 12-09 19:14:11.896 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:11.896 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:12.266 14567:14752 D/MainActivity ]
+h:527.062,w:1201.76
+
+[ 12-09 19:14:15.246 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:15.616 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:15.636 14567:14752 D/MainActivity ]
+h:673.542,w:1321.76
+
+[ 12-09 19:14:15.716 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:15.716 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:16.146 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:16.396 14567:14752 D/MainActivity ]
+h:527.062,w:1261.76
+
+[ 12-09 19:14:16.456 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:16.466 14567:14567 I/chromium ]
+[INFO:CONSOLE(599)] "No data received from server", source: http://oa.paneng.cn:1143/se9200/dwr/engine.js (599)
+
+
+[ 12-09 19:14:16.736 14567:14567 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-09 19:14:16.926 14567:14567 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ed9f80 time:31944063
+
+[ 12-09 19:14:17.046 14567:14752 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-09 19:14:18.496 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Log:1449659658501
+
+[ 12-09 19:14:18.576 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 16738K, 24% free 65098K/84740K, paused 22ms, total 23ms
+
+[ 12-09 19:14:18.666 14567:14567 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 14% free 73195K/84740K, paused 15ms, total 15ms
+
+[ 12-09 19:14:18.876 14567:14631 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449659658551
+
+[ 12-09 19:14:18.876 14567:14631 W/dalvikvm ]
+threadid=16: thread exiting with uncaught exception (group=0x418bdd58)
+
+--------- beginning of /dev/log/system
+[ 12-09 19:14:18.886 14567:14631 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1761
+Process: com.example.myfristandroid, PID: 14567
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

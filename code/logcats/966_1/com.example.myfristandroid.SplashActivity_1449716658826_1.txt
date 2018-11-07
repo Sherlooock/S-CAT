@@ -1,0 +1,2814 @@
+--------- beginning of /dev/log/system
+[ 12-10 11:03:08.759  3397:0xd45 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:33.549  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{4224b060 token=android.os.BinderProxy@422759e0 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:33.558  3397:0xd45 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@422759e0
+
+[ 12-10 11:03:33.559  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{41efcb80 token=android.os.BinderProxy@41efc2f0 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 11:03:33.565  3397:0xd45 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:34.186  3397:0xd45 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@422759e0
+
+[ 12-10 11:03:35.226  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{41efcb80 token=android.os.BinderProxy@41efc2f0 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 11:03:35.234  3397:0xd45 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:35.286  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{42037d70 token=android.os.BinderProxy@41fe0218 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:35.294  3397:0xd45 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{42037d70 token=android.os.BinderProxy@41fe0218 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:35.722  3397:0xd45 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:54.120  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{42037d70 token=android.os.BinderProxy@41fe0218 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:54.127  3397:0xd45 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@41fe0218
+
+[ 12-10 11:03:54.128  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{41efcb80 token=android.os.BinderProxy@41efc2f0 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 11:03:54.130  3397:0xd45 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:54.593  3397:0xd45 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@41fe0218
+
+[ 12-10 11:03:56.362  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{41efcb80 token=android.os.BinderProxy@41efc2f0 {com.example.myfristandroid/com.example.myfristandroid.MainActivity}}
+
+[ 12-10 11:03:56.372  3397:0xd45 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@41efc2f0
+
+[ 12-10 11:03:56.426  3397:0xd45 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{42eee918 token=android.os.BinderProxy@42eee088 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:56.435  3397:0xd45 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{42eee918 token=android.os.BinderProxy@42eee088 {com.example.myfristandroid/com.example.myfristandroid.graphWebShow}}
+
+[ 12-10 11:03:56.874  3397:0xd45 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@41efc2f0
+
+--------- beginning of /dev/log/main
+[ 12-10 11:04:03.415  3397:0xdf0 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:04:03.480  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x666bd008] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.482  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x666bd008] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.496  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x666bd008] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.498  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:04:03.500  3397:0xd45 D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:04:03.502  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(192)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:04:03.502  3397:0xd45 D/AwPasswordHandler ]
+getSavePassword false
+
+[ 12-10 11:04:03.502  3397:0xd45 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:04:03.502  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(194)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:04:03.556  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:03.556  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:03.562  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:03.562  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:03.571  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.573  3397:0xded I/         ]
+[custom_prop]custom_get_string->module[browser],key[UAProfileURL]
+
+[ 12-10 11:04:03.574  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.575  3397:0xded I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:04:03.576  3397:0xded D/         ]
+InternalDocumentStateData::InternalDocumentStateData, is_overriding_user_agent_ = 0
+
+[ 12-10 11:04:03.577  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:03.577  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:03.580  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:04:03.580  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.580  3397:0xd45 D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.581  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.583  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.584  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.586  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.587  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.594  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.596  3397:0xded I/         ]
+[custom_prop]custom_get_string->module[browser],key[UAProfileURL]
+
+[ 12-10 11:04:03.597  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.599  3397:0xded I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:04:03.600  3397:0xded D/         ]
+InternalDocumentStateData::InternalDocumentStateData, is_overriding_user_agent_ = 0
+
+[ 12-10 11:04:03.601  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:03.601  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:03.601  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:04:03.602  3397:0xd45 D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.603  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.604  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:03.606  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.607  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.608  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.609  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:03.622  3397:0x1348 D/dalvikvm ]
+threadid=49: interp stack at 0x6883e000
+
+[ 12-10 11:04:03.979  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:04.032  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:04.137  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:04:04.139  3397:0xd45 D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148 reload=false
+
+[ 12-10 11:04:04.139  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:04:04.139  3397:0xd45 D/AwPasswordHandler ]
+getSavePassword false
+
+[ 12-10 11:04:04.139  3397:0xd45 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:04:04.139  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:04:04.141  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:04:04.142  3397:0xd45 D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148 reload=false
+
+[ 12-10 11:04:04.142  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:04:04.143  3397:0xd45 D/AwPasswordHandler ]
+getSavePassword false
+
+[ 12-10 11:04:04.143  3397:0xd45 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:04:04.143  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:04:04.245  3397:0xd45 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:04:04.247  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:04.269  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:04:04.269  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:04:04.280  3397:0xd45 D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:04:04.283  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:04.300  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:04:04.300  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:04:04.352  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:04.369  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:04:04.372  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:04:04.805  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:04:04.805  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:04:04.820  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:04.953  3397:0xdf0 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 11:04:05.045  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:05.045  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:05.137  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x652d8648] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:05.139  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:04:05.141  3397:0xd45 D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:05.143  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(192)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:04:05.144  3397:0xd45 D/AwPasswordHandler ]
+getSavePassword false
+
+[ 12-10 11:04:05.144  3397:0xd45 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:04:05.145  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(194)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:04:05.159  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:05.159  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:05.162  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:05.175  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:04:05.176  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:04:05.597  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:04:05.597  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:04:05.611  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:04:05.711  3397:0xdf0 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 11:04:05.764  3397:0xd45 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-10 11:04:05.778  3397:0xd45 I/BufferQueue ]
+[unnamed-3397-11](this:0x691f4b58,id:11,api:0,p:-1,c:3397) setDefaultBufferSize: w=480, h=762
+
+[ 12-10 11:04:05.778  3397:0xd45 I/BufferQueue ]
+[unnamed-3397-11](this:0x691f4b58,id:11,api:0,p:-1,c:3397) setDefaultBufferSize: w=480, h=762
+
+[ 12-10 11:04:05.785  3397:0xd45 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:04:05.786  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 480.00, 800.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:05.786  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:05.792  3397:0xd45 D/ActivityThread ]
+ACT-ACTIVITY_CONFIGURATION_CHANGED handled : 0 / android.os.BinderProxy@42eee088
+
+[ 12-10 11:04:05.823  3397:0xd45 D/OpenGLRenderer ]
+setViewport 800x480 <0x6a42d6d0>
+
+[ 12-10 11:04:05.823  3397:0xd45 D/GraphicBuffer ]
+close handle(0x68e35320) (w:480 h:800 f:1)
+
+[ 12-10 11:04:05.824  3397:0xd45 D/GraphicBuffer ]
+close handle(0x68e1d428) (w:480 h:800 f:1)
+
+[ 12-10 11:04:05.824  3397:0xd45 D/GraphicBuffer ]
+close handle(0x668422b8) (w:480 h:800 f:1)
+
+[ 12-10 11:04:05.824  3397:0xd45 D/GraphicBuffer ]
+close handle(0x66670e48) (w:480 h:800 f:1)
+
+[ 12-10 11:04:05.832  3397:0xd45 D/GraphicBuffer ]
+create handle(0x659499a0) (w:800, h:480, f:1)
+
+[ 12-10 11:04:05.833  3397:0xd45 I/MaliEGL  ]
+[Mali]window_type=1, is_framebuffer=0, errnum = 0
+
+
+[ 12-10 11:04:05.833  3397:0xd45 I/MaliEGL  ]
+[Mali]surface->num_buffers=4, surface->num_frames=3, win_min_undequeued=1
+
+
+[ 12-10 11:04:05.833  3397:0xd45 I/MaliEGL  ]
+[Mali]max_allowed_dequeued_buffers=3
+
+
+[ 12-10 11:04:05.833  3397:0xd45 D/GraphicBuffer ]
+close handle(0x659499a0) (w:800 h:480 f:1)
+
+[ 12-10 11:04:05.836  3397:0xd45 D/GraphicBuffer ]
+create handle(0x65949718) (w:480, h:800, f:1)
+
+[ 12-10 11:04:05.838  3397:0xd45 I/BufferQueue ]
+[unnamed-3397-11](this:0x691f4b58,id:11,api:0,p:-1,c:3397) setDefaultBufferSize: w=800, h=442
+
+[ 12-10 11:04:05.838  3397:0xd45 I/BufferQueue ]
+[unnamed-3397-11](this:0x691f4b58,id:11,api:0,p:-1,c:3397) setDefaultBufferSize: w=800, h=442
+
+[ 12-10 11:04:05.841  3397:0xd45 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:04:05.842  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:05.844  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:05.855  3397:0xd45 D/GraphicBuffer ]
+create handle(0x69020d48) (w:480, h:800, f:1)
+
+[ 12-10 11:04:05.857  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:05.858  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.011  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:06.011  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:06.049  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:06.051  3397:0xd45 D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:04:06.054  3397:0xd45 D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:04:06.054  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(192)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:04:06.054  3397:0xd45 D/AwPasswordHandler ]
+getSavePassword false
+
+[ 12-10 11:04:06.054  3397:0xd45 W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:04:06.054  3397:0xd45 W/chromium ]
+[WARNING:password_handler.cc(194)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:04:06.125  3397:0x1388 D/dalvikvm ]
+threadid=50: interp stack at 0x691a2000
+
+[ 12-10 11:04:06.283  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:06.283  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:06.435  3397:0x1389 D/dalvikvm ]
+threadid=51: interp stack at 0x69c83000
+
+[ 12-10 11:04:06.449  3397:0xd45 D/GraphicBuffer ]
+create handle(0x67fc1268) (w:480, h:800, f:1)
+
+[ 12-10 11:04:06.451  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.492  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x69c81458) err(0)
+
+[ 12-10 11:04:06.493  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x68a756c8) err(0)
+
+[ 12-10 11:04:06.494  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x69cb8540) err(0)
+
+[ 12-10 11:04:06.495  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x693ae440) err(0)
+
+[ 12-10 11:04:06.496  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:64 h:128 f:1) handle(0x693c0c80) err(0)
+
+[ 12-10 11:04:06.498  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.505  3397:0xd45 D/GraphicBuffer ]
+create handle(0x6907fed8) (w:480, h:800, f:1)
+
+[ 12-10 11:04:06.506  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.508  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.510  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.513  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.527  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.530  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.543  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.546  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.558  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.560  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.574  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.578  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.590  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.592  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.605  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.608  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.621  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.624  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.636  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.638  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.652  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.655  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.669  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.674  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.684  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.687  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.699  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.702  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.715  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.718  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.731  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.733  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.747  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.750  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.764  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.767  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.778  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.789  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.794  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.797  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.812  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.815  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.825  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.831  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.939  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x5cfdbc88) err(0)
+
+[ 12-10 11:04:06.939  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x60f6ccd8) err(0)
+
+[ 12-10 11:04:06.940  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x63718960) err(0)
+
+[ 12-10 11:04:06.940  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x66822d98) err(0)
+
+[ 12-10 11:04:06.940  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:64 h:128 f:1) handle(0x65a41d18) err(0)
+
+[ 12-10 11:04:06.952  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:06.955  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:06.975  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:06.999  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:07.003  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:07.030  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:07.030  3397:0xded I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x67d737b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:04:07.073  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:07.083  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:07.131  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:07.131  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:07.140  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:07.142  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:07.145  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x67f8bf68) err(0)
+
+[ 12-10 11:04:07.146  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x690df770) err(0)
+
+[ 12-10 11:04:07.147  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:128 h:64 f:1) handle(0x62823df0) err(0)
+
+[ 12-10 11:04:07.281  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:07.285  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:09.430  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:09.430  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:09.629  3397:0xd45 D/dalvikvm ]
+GC_FOR_ALLOC freed 4428K (25066), 34% free 14572K/22008K, paused 57ms, total 57ms
+
+[ 12-10 11:04:09.661  3397:0xd94 I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-10 11:04:09.792  3397:0xd7d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716649566
+
+[ 12-10 11:04:09.793  3397:0xd7d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 11:04:09.794  3397:0xd7d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 11:04:09.878  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:09.879  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:09.968  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x658235f0) err(0)
+
+[ 12-10 11:04:09.969  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:128 h:64 f:1) handle(0x67e5bc18) err(0)
+
+[ 12-10 11:04:10.018  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:10.021  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:10.049  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:10.053  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:10.063  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:10.065  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:10.181  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:10.182  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:10.190  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:10.190  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.956  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.957  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.957  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.957  3397:0xd45 I/View     ]
+Touch down dispatch to com.example.myfristandroid.MyWebView{4209a168 VFEDHVC. .F...... 0,0-800,442 #7f080022 app:id/id_view_graphWebview}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=619.22595, y[0]=318.25778, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=22080733, downTime=22080733, deviceId=3, source=0x1002 }
+
+[ 12-10 11:04:11.962  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.962  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.962  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.962  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.963  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.964  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.975  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.975  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.976  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.976  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-10 11:04:11.979  3397:0xd45 D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-10 11:04:11.979  3397:0xd45 D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:11.990  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.001  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.006  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.006  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.006  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.006  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.006  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.007  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.010  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.011  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.011  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.011  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.011  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.011  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.022  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.025  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.037  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.037  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.038  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.038  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.038  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.038  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.040  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.040  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.041  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.041  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.041  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.041  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.041  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.053  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.057  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.058  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.058  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.058  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.058  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.058  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.069  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.084  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.084  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.100  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.100  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.105  3397:0xd45 I/GraphicBuffer ]
+allocate buffer (w:384 h:384 f:1) handle(0x690d16a0) err(0)
+
+[ 12-10 11:04:12.107  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.107  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.107  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.108  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.117  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.117  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.118  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.124  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.132  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.132  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.132  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.132  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.135  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.135  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.136  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.147  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.147  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.147  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.147  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.150  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.163  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.163  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.163  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.163  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.166  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.170  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.173  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.179  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.179  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.179  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.179  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.183  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.194  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.194  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.194  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.194  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.197  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.210  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.210  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.210  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.210  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.213  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.226  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.226  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.226  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.226  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.228  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.229  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.242  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.242  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.242  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.242  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.244  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.244  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.244  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.244  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.244  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.245  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.245  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.258  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.258  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.258  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.258  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.261  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.273  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.274  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.274  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.274  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.275  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.275  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.275  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.275  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.276  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.276  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.276  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.289  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.289  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.289  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.289  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.291  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.305  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.305  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.305  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.305  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.307  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.308  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.308  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.308  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.308  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.308  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.321  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.321  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.321  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.321  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.351  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.361  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.361  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.361  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.361  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.361  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.363  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.368  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.369  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.371  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.383  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.384  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.384  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.384  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.387  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.399  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.399  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.399  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.399  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.403  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.407  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:12.409  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.409  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.409  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.409  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.409  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.410  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.415  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.415  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.415  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.415  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.419  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.431  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.431  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.431  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.431  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.434  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.434  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.434  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.435  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.435  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.435  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.435  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.446  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.446  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.446  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.446  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.448  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.462  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.462  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.462  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.462  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.465  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.478  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.478  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.478  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.478  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.481  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.493  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.493  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.493  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.493  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.498  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.509  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.509  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.509  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.509  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.512  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.512  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.512  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.512  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.512  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.513  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.525  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.525  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.525  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.525  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.631  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:12.632  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.633  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.637  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.677  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.678  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.700  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.703  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.703  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.703  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.705  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.710  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.710  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.710  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.710  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.710  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.711  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.712  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.712  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.714  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.714  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.714  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.714  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.747  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.751  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.764  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.765  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.765  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.765  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.765  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.796  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.799  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.800  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.800  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.801  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.801  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.801  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.801  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.825  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.829  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.866  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.867  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.867  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.867  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.867  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.888  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.888  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.889  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.889  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.890  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.890  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.891  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.891  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.891  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.892  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.892  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.892  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.892  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.920  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.923  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.932  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.933  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.934  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.934  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.934  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.934  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.934  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.969  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:12.969  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.979  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:12.984  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:12.987  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.019  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.021  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.030  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.030  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.030  3397:0xd45 I/View     ]
+Touch up dispatch to com.example.myfristandroid.MyWebView{4209a168 VFEDHVC. .F...... 0,0-800,442 #7f080022 app:id/id_view_graphWebview}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=657.50555, y[0]=87.13741, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=22081807, downTime=22080733, deviceId=3, source=0x1002 }
+
+[ 12-10 11:04:13.092  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:13.096  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:13.098  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.098  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.098  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.098  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.098  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.099  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.124  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:13.127  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.139  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.140  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.140  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.140  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.140  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.140  3397:0xd45 D/MotionEvent-JNI ]
+nativeGetAxisValue pointerIndex=0, pointerCount=1
+
+[ 12-10 11:04:13.233  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:13.237  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:13.245  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:13.246  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:13.274  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:13.274  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:13.466  3424:0xd74 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:161
+
+[ 12-10 11:04:13.547  3424:0xd7a D/ForegroundActivity ]
+本次收到帧长:13	总帧长:826
+
+[ 12-10 11:04:13.988  3424:0xd76 D/SocketService1 ]
+本次提取1:LoadPtr:826 HeadIndex:813 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:04:15.788  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:15.789  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.136  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.136  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.248  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:16.251  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:16.263  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:16.266  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:16.273  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.275  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.311  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:16.312  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:18.826  3397:0xd7d D/cn.edu.nju.ise.kikandroid ]
+Log:1449716658826
+
+[ 12-10 11:04:18.841  3397:0xd7d D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-10 11:04:18.842  3397:0xd7d D/dalvikvm ]
+create new thread
+
+[ 12-10 11:04:18.843  3397:0xd7d D/dalvikvm ]
+new thread created
+
+[ 12-10 11:04:18.844  3397:0xd7d D/dalvikvm ]
+update thread list
+
+[ 12-10 11:04:18.845  3397:0x13c0 D/dalvikvm ]
+threadid=52: interp stack at 0x6b216000
+
+[ 12-10 11:04:18.846  3397:0x13c0 D/dalvikvm ]
+threadid=52: created from interp
+
+[ 12-10 11:04:18.847  3397:0xd7d D/dalvikvm ]
+start new thread
+
+[ 12-10 11:04:18.878  3397:0x13c0 D/dalvikvm ]
+threadid=52: notify debugger
+
+
+[ 12-10 11:04:18.879  3397:0x13c0 D/dalvikvm ]
+threadid=52 (java.lang.ProcessManager): calling run()
+
+[ 12-10 11:04:18.923  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:18.923  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:18.923  3397:0xd7d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 11:04:18.924  3397:0xd7d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 11:04:19.230  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.230  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.302  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.302  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.341  3397:0xde5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.342  3397:0xd45 D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:04:19.437  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:19.441  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:19.499  3397:0xd45 D/OpenGLRenderer ]
+prepareDirty (0.00, 0.00, 800.00, 480.00) opaque 1 <0x6a42d6d0>
+
+[ 12-10 11:04:19.502  3397:0xd45 D/OpenGLRenderer ]
+finish <0x6a42d6d0>
+
+[ 12-10 11:04:21.625  3397:0xd7d D/cn.edu.nju.ise.kikandroid ]
+Log:1449716661625
+
+[ 12-10 11:04:21.766  3397:0xd45 D/dalvikvm ]
+GC_FOR_ALLOC freed 3356K (5544), 35% free 14519K/22008K, paused 47ms, total 47ms
+
+[ 12-10 11:04:21.793  3397:0xd94 I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-10 11:04:21.885  3397:0xd7d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716661714
+
+[ 12-10 11:04:21.885  3397:0xd7d I/System.out ]
+[CDS]close[10737]
+
+[ 12-10 11:04:21.887  3397:0xd7d I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-10 11:04:21.887  3397:0xd7d D/dalvikvm ]
+threadid=15: exiting
+
+[ 12-10 11:04:21.887  3397:0xd7d W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x4198dc98)
+
+[ 12-10 11:04:21.887  3397:0xd7d W/dalvikvm ]
+threadid=15: uncaught exception occurred
+
+[ 12-10 11:04:21.890  3397:0xd7d W/System.err ]
+java.lang.NullPointerException
+
+[ 12-10 11:04:21.892  3397:0xd7d W/System.err ]
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+
+[ 12-10 11:04:21.893  3397:0xd7d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+
+[ 12-10 11:04:21.894  3397:0xd7d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+
+[ 12-10 11:04:21.895  3397:0xd7d W/System.err ]
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+
+[ 12-10 11:04:21.896  3397:0xd7d W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-10 11:04:21.896  3397:0xd7d W/dalvikvm ]
+threadid=15: calling UncaughtExceptionHandler
+
+[ 12-10 11:04:21.899  3397:0xd7d E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3733
+Process: com.example.myfristandroid, PID: 3397
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

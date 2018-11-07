@@ -1,0 +1,432 @@
+--------- beginning of /dev/log/main
+[ 12-12 15:00:51.656 27308:27363 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:00:51.706 27308:27363 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:00:52.096 29035:29035 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:00:52.276 29035:29035 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+--------- beginning of /dev/log/system
+[ 12-12 15:00:55.466 29077:29077 W/ActivityThread ]
+perform long-running operations in onReceive, static, ~duration=243ms: io.rong.push.PushReceiver@425e5788 Intent { act=io.rong.push.Connect flg=0x14 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) }
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:02.096 29035:29035 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:12.486 29190:29190 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:01:12.616 29190:29190 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:14.326 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:01:14.336 29190:29190 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:01:58.746 29190:29243 W/dalvikvm ]
+threadid=25: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:01:58.886 29190:29243 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:04:30.436 29665:29665 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:04:30.546 29665:29665 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:04:32.396 29665:29665 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:04:32.396 29665:29665 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:04:32.396 29665:29665 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:04:32.396 29665:29665 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:05:06.856 29665:29720 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:05:06.916 29665:29720 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:07:36.356 30372:30372 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:07:36.476 30372:30372 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:07:56.586 30372:30413 W/System.err ]
+org.apache.http.conn.ConnectTimeoutException: Connect to /116.213.70.17:80 timed out
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:657)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:498)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 15:07:56.596 30372:30413 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-12 15:08:05.196 30372:30372 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:08:05.196 30372:30372 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:492)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:241)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:657)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:498)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 15:08:30.176 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:492)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:241)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 15:08:30.186 30372:30534 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:657)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:498)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 15:08:30.196 30372:30534 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-12 15:08:43.916 30372:30372 E/ExtMediaPlayer-JNI ]
+QCMediaPlayer could not be located....
+
+[ 12-12 15:08:43.916 30372:30372 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 15:08:59.466 30372:30372 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 15:08:59.496 30372:30372 E/VideoPlayerActivity.timeVoid(L:2257) ]
+17200时间s
+
+[ 12-12 15:08:59.506 30372:30372 E/VideoPlayerActivity.setVideoType(L:1537) ]
+这是什么平
+
+[ 12-12 15:08:59.636 30372:30383 W/MediaPlayer ]
+info/warning (3, 0)
+
+[ 12-12 15:09:01.476 30372:30424 W/MediaPlayer ]
+info/warning (703, 0)
+
+[ 12-12 15:09:01.476 30372:30424 W/MediaPlayer ]
+info/warning (701, 0)
+
+[ 12-12 15:09:10.486 30372:30383 W/MediaPlayer ]
+info/warning (702, 0)
+
+[ 12-12 15:09:13.496 30372:30372 E/VideoPlayerActivity.setVideoType(L:1541) ]
+mVideoWidth-------640
+
+[ 12-12 15:09:13.496 30372:30372 E/VideoPlayerActivity.setVideoType(L:1542) ]
+mVideoHeight------360
+
+[ 12-12 15:09:13.506 30372:30372 E/VideoPlayerActivity.setVideoType(L:1544) ]
+screenWidth-------1280
+
+[ 12-12 15:09:13.506 30372:30372 E/VideoPlayerActivity.setVideoType(L:1545) ]
+screenHeight------720
+
+[ 12-12 15:09:13.506 30372:30372 E/VideoPlayerActivity.setVideoType(L:1559) ]
+width-------1280
+
+[ 12-12 15:09:13.506 30372:30372 E/VideoPlayerActivity.setVideoType(L:1560) ]
+height------720
+
+[ 12-12 15:09:14.666 30372:30372 E/VideoPlayerActivity.setVideoType(L:1537) ]
+这是什么平
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1541) ]
+mVideoWidth-------640
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1542) ]
+mVideoHeight------360
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1544) ]
+screenWidth-------1280
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1545) ]
+screenHeight------720
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1559) ]
+width-------1280
+
+[ 12-12 15:09:16.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1560) ]
+height------720
+
+[ 12-12 15:09:17.496 30372:30769 W/MediaPlayer ]
+info/warning (703, 0)
+
+[ 12-12 15:09:17.496 30372:30769 W/MediaPlayer ]
+info/warning (701, 0)
+
+[ 12-12 15:09:22.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1537) ]
+这是什么平
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1541) ]
+mVideoWidth-------640
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1542) ]
+mVideoHeight------360
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1544) ]
+screenWidth-------1280
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1545) ]
+screenHeight------720
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1559) ]
+width-------1280
+
+[ 12-12 15:09:26.056 30372:30372 E/VideoPlayerActivity.setVideoType(L:1560) ]
+height------720
+
+[ 12-12 15:09:28.356 30372:30372 E/VideoPlayerActivity.setVideoType(L:1537) ]
+这是什么平
+
+[ 12-12 15:09:49.286 30372:30372 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-12 15:09:49.286 30372:30372 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-12 15:09:49.286 30372:30372 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=0, downTime=0, deviceId=-1, source=0x0 }
+
+[ 12-12 15:10:34.366 30372:30372 E/ExtMediaPlayer-JNI ]
+QCMediaPlayer could not be located....
+
+[ 12-12 15:10:34.366 30372:30372 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 15:11:34.086 30372:30428 W/dalvikvm ]
+threadid=27: thread exiting with uncaught exception (group=0x417fee00)
+
+[ 12-12 15:11:34.216 30372:30428 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:11:34.496 31322:31322 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:11:34.596 31322:31322 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+

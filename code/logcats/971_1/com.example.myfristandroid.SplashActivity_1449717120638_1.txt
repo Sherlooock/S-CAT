@@ -1,0 +1,976 @@
+--------- beginning of /dev/log/main
+[ 12-10 11:09:33.586 19224:19224 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:09:34.609 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 50K, 11% free 6707K/7508K, paused 31ms, total 31ms
+
+[ 12-10 11:09:34.633 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 10.976MB for 3876224-byte allocation
+
+[ 12-10 11:09:34.672 19224:19233 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 10492K/11296K, paused 34ms, total 34ms
+
+[ 12-10 11:09:34.695 19224:19228 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 8% free 10491K/11296K, paused 3ms+2ms, total 20ms
+
+[ 12-10 11:09:34.977 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 10491K/11296K, paused 20ms, total 20ms
+
+[ 12-10 11:09:35.023 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.292MB for 8721484-byte allocation
+
+[ 12-10 11:09:35.047 19224:19228 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 5% free 19008K/19816K, paused 3ms+1ms, total 26ms
+
+[ 12-10 11:09:35.187 19269:19269 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:09:35.320 19224:19224 D/libEGL   ]
+loaded /system/lib/egl/libEGL_MRVL.so
+
+[ 12-10 11:09:35.344 19224:19224 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_MRVL.so
+
+[ 12-10 11:09:35.359 19269:19269 D/dalvikvm ]
+GC_FOR_ALLOC freed 41K, 11% free 6662K/7456K, paused 19ms, total 19ms
+
+[ 12-10 11:09:35.367 19269:19269 I/dalvikvm-heap ]
+Grow heap (frag case) to 8.212MB for 1024016-byte allocation
+
+[ 12-10 11:09:35.391 19224:19224 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_MRVL.so
+
+[ 12-10 11:09:35.398 19269:19278 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 7661K/8460K, paused 32ms, total 32ms
+
+[ 12-10 11:09:35.406 19224:19224 D/GC       ]
+<tid=19224> OES20 ===> GC Version   : GC Ver rls_pxa988_JB42_R1_RC2_GC13 
+
+
+
+[ 12-10 11:09:35.422 19224:19224 D/v_gal    ]
+[tid=19224] gcmONERROR: status=-13(gcvSTATUS_NOT_SUPPORTED) @ gcoHARDWARE_IsFeatureAvailable(2672)
+
+
+[ 12-10 11:09:35.430 19269:19273 D/dalvikvm ]
+GC_CONCURRENT freed 8K, 10% free 7669K/8460K, paused 2ms+5ms, total 30ms
+
+[ 12-10 11:09:35.430 19269:19269 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:09:35.430 19269:19269 D/SocketService ]
+pid:19269 myPid:19269
+
+[ 12-10 11:09:35.437 19269:19269 D/SocketService ]
+start to run current thread!id:16135
+
+[ 12-10 11:09:35.453 19224:19224 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:09:35.609 19269:19292 D/SocketService ]
+ip/172.20.10.6 lport:45624 p:143
+
+[ 12-10 11:09:35.617 19269:19292 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:09:35.617 19269:19292 D/SocketService ]
+success to connect server!id:16135 bLogin:false
+
+[ 12-10 11:09:36.625 19269:19292 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:09:37.312 19269:19299 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:09:37.414 19269:19299 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:09:37.430 19269:19289 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:09:37.430 19224:19224 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:09:37.437 19269:19289 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:09:37.547 19224:19224 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:09:37.586 19224:19224 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:09:37.625 19269:19292 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:09:37.641 19224:19224 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:09:37.742 19269:19299 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:09:38.164 19224:19228 D/dalvikvm ]
+GC_CONCURRENT freed 4001K, 22% free 17018K/21772K, paused 4ms+3ms, total 27ms
+
+[ 12-10 11:09:38.453 19269:19289 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:09:38.648 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:38.656 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:38.664 19224:19224 I/Choreographer ]
+Skipped 31 frames!  The application may be doing too much work on its main thread.
+
+[ 12-10 11:09:38.836 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:38.836 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:38.867 19224:19224 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:09:38.922 19224:19228 D/dalvikvm ]
+GC_CONCURRENT freed 1323K, 19% free 17638K/21772K, paused 3ms+4ms, total 62ms
+
+[ 12-10 11:09:39.094 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:39.102 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:39.242 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:39.250 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:40.680 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:40.680 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:40.687 19224:19224 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:09:42.320 19224:19224 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@417a7298
+
+[ 12-10 11:09:42.469 19224:19224 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:09:42.516 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:42.523 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:42.570 19224:19224 D/WebView  ]
+onSizeChanged - w:480 h:694
+
+[ 12-10 11:09:42.812 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:42.812 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:42.812 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:42.812 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:42.906 19224:19368 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {4177d028}
+
+[ 12-10 11:09:42.937 19224:19368 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:09:42.937 19224:19368 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:09:42.937 19224:19368 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:09:44.094 19224:19368 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:09:44.109 19224:19224 D/TilesManager ]
+Starting TG #0, 0x5721aad0
+
+[ 12-10 11:09:44.117 19224:19224 D/TilesManager ]
+new EGLContext from framework: 4ff20818 
+
+[ 12-10 11:09:44.117 19224:19224 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 11:09:44.227 19224:19224 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 11:09:47.609 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716987622
+
+[ 12-10 11:09:47.641 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 909K, 15% free 18008K/21040K, paused 21ms, total 21ms
+
+[ 12-10 11:09:47.656 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.781MB for 1536016-byte allocation
+
+[ 12-10 11:09:47.680 19224:19233 D/dalvikvm ]
+GC_FOR_ALLOC freed 9K, 14% free 19498K/22544K, paused 24ms, total 24ms
+
+[ 12-10 11:09:47.719 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 105K, 14% free 19393K/22544K, paused 30ms, total 30ms
+
+[ 12-10 11:09:47.727 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.133MB for 1536016-byte allocation
+
+[ 12-10 11:09:47.758 19224:19233 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 20892K/24048K, paused 33ms, total 33ms
+
+[ 12-10 11:09:51.914 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:09:51.914 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:51.914 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:09:51.914 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:51.937 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:51.937 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:53.734 19269:19273 D/dalvikvm ]
+GC_CONCURRENT freed 364K, 13% free 7696K/8812K, paused 2ms+2ms, total 21ms
+
+[ 12-10 11:09:54.906 19224:19224 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@41816ea0
+
+[ 12-10 11:09:54.914 19224:19368 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {4177c8a0}
+
+[ 12-10 11:09:54.977 19224:19224 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:09:54.977 19224:19368 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:09:54.977 19224:19368 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:09:54.977 19224:19368 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:09:55.039 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:55.039 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:55.078 19224:19224 D/WebView  ]
+onSizeChanged - w:480 h:694
+
+[ 12-10 11:09:55.219 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:55.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:55.227 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:55.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:55.570 19224:19368 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:09:56.680 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716996691
+
+[ 12-10 11:09:56.734 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 3126K, 15% free 17954K/21040K, paused 42ms, total 43ms
+
+[ 12-10 11:09:56.758 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.728MB for 1536016-byte allocation
+
+[ 12-10 11:09:56.781 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 19446K/22544K, paused 21ms, total 22ms
+
+[ 12-10 11:09:56.828 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 19447K/22544K, paused 28ms, total 28ms
+
+[ 12-10 11:09:56.828 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.186MB for 1536016-byte allocation
+
+[ 12-10 11:09:56.867 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 13% free 20947K/24048K, paused 23ms, total 23ms
+
+[ 12-10 11:09:57.500 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:09:57.500 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:57.500 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:09:57.500 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:57.523 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:57.523 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:58.266 19224:19224 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@423bc048
+
+[ 12-10 11:09:58.266 19224:19368 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41716f20}
+
+[ 12-10 11:09:58.281 19224:19224 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:09:58.281 19224:19368 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:09:58.281 19224:19368 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:09:58.281 19224:19368 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:09:58.289 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:58.289 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:58.320 19224:19224 D/WebView  ]
+onSizeChanged - w:480 h:694
+
+[ 12-10 11:09:58.477 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:58.477 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:58.484 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:09:58.484 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:09:58.711 19224:19368 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:10:04.406 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717004418
+
+[ 12-10 11:10:04.437 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 3128K, 15% free 17998K/21040K, paused 28ms, total 30ms
+
+[ 12-10 11:10:04.445 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.771MB for 1536016-byte allocation
+
+[ 12-10 11:10:04.469 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 19491K/22544K, paused 21ms, total 21ms
+
+[ 12-10 11:10:04.492 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 19491K/22544K, paused 22ms, total 22ms
+
+[ 12-10 11:10:04.500 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.229MB for 1536016-byte allocation
+
+[ 12-10 11:10:04.523 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 13% free 20991K/24048K, paused 21ms, total 21ms
+
+[ 12-10 11:10:05.227 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:10:05.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:05.227 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:10:05.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:05.250 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:05.250 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:06.117 19224:19224 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@417ded30
+
+[ 12-10 11:10:06.117 19224:19368 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {41783170}
+
+[ 12-10 11:10:06.133 19224:19224 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 11:10:06.133 19224:19368 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 11:10:06.133 19224:19368 D/webkit   ]
+Firewall not null
+
+[ 12-10 11:10:06.133 19224:19368 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 11:10:06.141 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:06.141 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:06.164 19224:19224 D/WebView  ]
+onSizeChanged - w:480 h:694
+
+[ 12-10 11:10:06.227 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:10:06.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:06.227 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:10:06.227 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:06.500 19224:19368 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 11:10:08.031 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717008044
+
+[ 12-10 11:10:08.070 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 3129K, 15% free 18043K/21040K, paused 27ms, total 29ms
+
+[ 12-10 11:10:08.086 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.815MB for 1536016-byte allocation
+
+[ 12-10 11:10:08.109 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 14% free 19535K/22544K, paused 23ms, total 23ms
+
+[ 12-10 11:10:08.141 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 19535K/22544K, paused 21ms, total 21ms
+
+[ 12-10 11:10:08.141 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.272MB for 1536016-byte allocation
+
+[ 12-10 11:10:08.172 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 13% free 21035K/24048K, paused 23ms, total 23ms
+
+[ 12-10 11:10:13.977 19269:19273 D/dalvikvm ]
+GC_CONCURRENT freed 396K, 13% free 7696K/8844K, paused 4ms+2ms, total 24ms
+
+[ 12-10 11:10:15.422 19269:19287 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:10:15.555 19269:19299 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:10:16.500 19269:19289 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:10:17.594 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:10:17.594 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:17.594 19224:19224 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:10:17.594 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:17.633 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:17.641 19224:19224 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:10:20.305 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717020320
+
+[ 12-10 11:10:20.344 19224:19303 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717020359
+
+[ 12-10 11:10:20.422 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 3123K, 15% free 18037K/21040K, paused 20ms, total 21ms
+
+[ 12-10 11:10:20.422 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.810MB for 1536016-byte allocation
+
+[ 12-10 11:10:20.445 19224:19233 D/dalvikvm ]
+GC_FOR_ALLOC freed 6K, 14% free 19530K/22544K, paused 20ms, total 20ms
+
+[ 12-10 11:10:20.703 19224:19224 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 14% free 19530K/22544K, paused 24ms, total 24ms
+
+[ 12-10 11:10:20.711 19224:19224 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.268MB for 1536016-byte allocation
+
+[ 12-10 11:10:20.742 19224:19233 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 13% free 21030K/24048K, paused 32ms, total 32ms
+
+[ 12-10 11:10:20.828 19224:19303 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x40f98930)
+
+[ 12-10 11:11:09.711 19768:19768 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:11:10.430 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 50K, 11% free 6707K/7508K, paused 25ms, total 26ms
+
+[ 12-10 11:11:10.445 19768:19768 I/dalvikvm-heap ]
+Grow heap (frag case) to 10.976MB for 3876224-byte allocation
+
+[ 12-10 11:11:10.500 19768:19778 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 10491K/11296K, paused 52ms, total 52ms
+
+[ 12-10 11:11:10.516 19768:19773 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 8% free 10491K/11296K, paused 1ms+2ms, total 17ms
+
+[ 12-10 11:11:10.695 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 10491K/11296K, paused 19ms, total 20ms
+
+[ 12-10 11:11:10.734 19768:19768 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.292MB for 8721484-byte allocation
+
+[ 12-10 11:11:10.766 19768:19778 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 5% free 19008K/19816K, paused 31ms, total 31ms
+
+[ 12-10 11:11:10.797 19768:19773 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 19008K/19816K, paused 3ms+2ms, total 32ms
+
+[ 12-10 11:11:11.211 19805:19805 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:11:11.328 19768:19768 D/libEGL   ]
+loaded /system/lib/egl/libEGL_MRVL.so
+
+[ 12-10 11:11:11.352 19768:19768 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_MRVL.so
+
+[ 12-10 11:11:11.375 19768:19768 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_MRVL.so
+
+[ 12-10 11:11:11.398 19768:19768 D/GC       ]
+<tid=19768> OES20 ===> GC Version   : GC Ver rls_pxa988_JB42_R1_RC2_GC13 
+
+
+
+[ 12-10 11:11:11.406 19768:19768 D/v_gal    ]
+[tid=19768] gcmONERROR: status=-13(gcvSTATUS_NOT_SUPPORTED) @ gcoHARDWARE_IsFeatureAvailable(2672)
+
+
+[ 12-10 11:11:11.445 19768:19768 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:11:11.453 19805:19805 D/dalvikvm ]
+GC_FOR_ALLOC freed 40K, 11% free 6662K/7452K, paused 39ms, total 40ms
+
+[ 12-10 11:11:11.461 19805:19805 I/dalvikvm-heap ]
+Grow heap (frag case) to 8.212MB for 1024016-byte allocation
+
+[ 12-10 11:11:11.500 19805:19805 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 7661K/8456K, paused 43ms, total 43ms
+
+[ 12-10 11:11:11.547 19805:19807 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 10% free 7667K/8456K, paused 7ms+2ms, total 42ms
+
+[ 12-10 11:11:11.594 19805:19805 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:11:11.594 19805:19805 D/SocketService ]
+pid:19805 myPid:19805
+
+[ 12-10 11:11:11.594 19805:19805 D/SocketService ]
+start to run current thread!id:16168
+
+[ 12-10 11:11:11.695 19805:19832 D/SocketService ]
+ip/172.20.10.6 lport:40355 p:143
+
+[ 12-10 11:11:11.734 19805:19832 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:11:11.734 19805:19832 D/SocketService ]
+success to connect server!id:16168 bLogin:false
+
+[ 12-10 11:11:11.898 19805:19833 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:11:12.601 19805:19830 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:11:12.742 19805:19832 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:11:12.891 19805:19833 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:11:13.617 19805:19830 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:11:13.742 19805:19832 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:11:13.891 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:13.922 19805:19833 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:11:13.969 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:13.984 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:14.039 19768:19768 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:11:14.250 19768:19773 D/dalvikvm ]
+GC_CONCURRENT freed 4001K, 22% free 17019K/21772K, paused 3ms+3ms, total 24ms
+
+[ 12-10 11:11:14.531 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:14.539 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:14.617 19805:19830 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:11:14.695 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:14.695 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:14.727 19768:19768 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:11:14.781 19768:19773 D/dalvikvm ]
+GC_CONCURRENT freed 1322K, 19% free 17641K/21772K, paused 3ms+4ms, total 53ms
+
+[ 12-10 11:11:14.930 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:14.930 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:15.117 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:15.117 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:18.000 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:18.000 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:18.000 19768:19768 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:11:18.750 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 11:11:18.805 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:19.117 19768:19768 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:11:25.375 19768:19838 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717085385
+
+[ 12-10 11:11:25.625 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 972K, 15% free 17892K/21040K, paused 36ms, total 36ms
+
+[ 12-10 11:11:25.687 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 123K, 9% free 19269K/21040K, paused 19ms, total 19ms
+
+[ 12-10 11:11:25.695 19768:19768 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.013MB for 1536016-byte allocation
+
+[ 12-10 11:11:25.719 19768:19778 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 20769K/22544K, paused 27ms, total 27ms
+
+[ 12-10 11:11:26.352 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:26.359 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:27.453 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:27.461 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:27.859 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:27.867 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:29.781 19805:19807 D/dalvikvm ]
+GC_CONCURRENT freed 371K, 13% free 7696K/8820K, paused 2ms+1ms, total 26ms
+
+[ 12-10 11:11:30.359 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 11:11:30.477 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:30.516 19768:19768 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 11:11:30.516 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:30.648 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:30.695 19768:19768 D/v_gal    ]
+[tid=19768] libGAL: Performing a software resolve!
+
+
+[ 12-10 11:11:30.820 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:30.828 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:32.195 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:32.211 19768:19768 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:11:32.219 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:32.219 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:32.242 19768:19768 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:11:32.930 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:32.937 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:33.883 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:33.891 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:34.227 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:34.234 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:34.391 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:34.398 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:38.164 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 11:11:38.219 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:38.234 19768:19768 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 11:11:38.234 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:38.328 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:38.500 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:38.500 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:41.312 19768:19768 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{423f5918 V.ED.VC. ......ID 8,8-462,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 11:11:41.312 19768:19768 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 11:11:41.312 19768:19768 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:11:41.312 19805:19805 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:79
+
+[ 12-10 11:11:41.336 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:41.336 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:41.336 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:41.352 19768:19768 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:11:41.875 19805:19833 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:739
+
+[ 12-10 11:11:42.648 19805:19830 D/SocketService1 ]
+本次提取1:LoadPtr:739 HeadIndex:722 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 11:11:42.922 19768:19838 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717102932
+
+[ 12-10 11:11:43.039 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 3525K, 20% free 18095K/22544K, paused 28ms, total 31ms
+
+[ 12-10 11:11:43.039 19768:19778 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 11:11:43.039 19768:19778 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 11:11:43.039 19768:19778 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:43.055 19768:19778 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 11:11:43.062 19768:19778 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 11:11:43.062 19768:19778 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:43.102 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 147K, 14% free 19451K/22544K, paused 31ms, total 31ms
+
+[ 12-10 11:11:46.922 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 11:11:46.930 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:47.570 19768:19768 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 11:11:47.617 19768:19768 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:11:47.625 19768:19768 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 11:11:47.625 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:47.750 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:47.875 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:47.875 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:48.992 19805:19807 D/dalvikvm ]
+GC_CONCURRENT freed 389K, 13% free 7696K/8836K, paused 4ms+2ms, total 25ms
+
+[ 12-10 11:11:51.602 19768:19838 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717111614
+
+[ 12-10 11:11:51.719 19768:19773 D/dalvikvm ]
+GC_CONCURRENT freed 3273K, 20% free 18123K/22544K, paused 3ms+3ms, total 76ms
+
+[ 12-10 11:11:51.719 19768:19768 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 28ms
+
+[ 12-10 11:11:51.812 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 11K, 14% free 19612K/22544K, paused 34ms, total 34ms
+
+[ 12-10 11:11:52.453 19768:19768 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:11:52.484 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:52.492 19768:19768 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:11:52.492 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:11:52.492 19768:19768 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:12:00.625 19768:19838 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717120638
+
+[ 12-10 11:12:00.656 19768:19838 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717120668
+
+[ 12-10 11:12:00.734 19768:19778 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 11:12:00.734 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 3156K, 20% free 18116K/22540K, paused 18ms, total 19ms
+
+[ 12-10 11:12:00.742 19768:19778 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 11:12:00.742 19768:19778 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:12:00.773 19768:19768 D/dalvikvm ]
+GC_FOR_ALLOC freed 164K, 14% free 19454K/22540K, paused 17ms, total 17ms
+
+[ 12-10 11:12:00.836 19768:19838 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x40f98930)
+
+--------- beginning of /dev/log/system
+[ 12-10 11:12:00.836 19768:19838 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-16160
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:192)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

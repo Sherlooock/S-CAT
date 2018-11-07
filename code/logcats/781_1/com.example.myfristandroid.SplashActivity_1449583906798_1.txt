@@ -1,0 +1,1495 @@
+--------- beginning of /dev/log/main
+[ 12-08 22:10:04.148 28039:28039 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:10:04.218 28039:28058 I/Timeline ]
+Timeline: Activity_launch_request time:81164714
+
+[ 12-08 22:10:04.398 28039:28039 D/dalvikvm ]
+GC_FOR_ALLOC freed 110K, 27% free 22634K/30772K, paused 17ms, total 17ms
+
+[ 12-08 22:10:04.438 28039:28039 I/dalvikvm-heap ]
+Grow heap (frag case) to 63.394MB for 34885888-byte allocation
+
+[ 12-08 22:10:04.458 28039:28043 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 56702K/64844K, paused 7ms+2ms, total 18ms
+
+[ 12-08 22:10:04.488 28066:28066 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:10:04.528 28039:28039 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: YWEN_+PATCH[ES]_msm8974_refs/tags/AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.059__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 11/04/15 Wed
+Local Branch: tip
+Remote Branch: quic/kk_3.5_1
+Local Patches: 14b1eae272f4a5ed345b2294a1c76becd9b27371 rb: re-work change "ES2.0 Fix for shadow cached VBO validation"
+                 c63208cf6c1fe92a04d7ed7e26be44f2f51c94e9 Revert "Fix for perf regression from "ES2.0 Fix for shadow cached VBO validation""
+
+[ 12-08 22:10:04.548 28066:28066 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:10:04.548 28066:28066 D/SocketService ]
+pid:28066 myPid:28066
+
+[ 12-08 22:10:04.548 28066:28066 D/SocketService ]
+start to run current thread!id:2290
+
+[ 12-08 22:10:04.548 28039:28039 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-08 22:10:05.098 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d1a130 time:81165593
+
+[ 12-08 22:10:06.498 28039:28039 I/Timeline ]
+Timeline: Activity_launch_request time:81166991
+
+[ 12-08 22:10:06.668 28039:28039 D/MainActivity ]
+Start One Client
+
+[ 12-08 22:10:06.668 28039:28039 D/StrictMode ]
+StrictMode policy violation; ~duration=5 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:10:06.778 28039:28046 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-08 22:10:06.778 28039:28046 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-08 22:10:06.988 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d0d168 time:81167486
+
+[ 12-08 22:10:14.448 28039:28039 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-08 22:10:17.288 28039:28039 I/Timeline ]
+Timeline: Activity_launch_request time:81177781
+
+[ 12-08 22:10:17.338 28039:28039 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {42d066b0}
+
+[ 12-08 22:10:17.338 28039:28039 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-08 22:10:17.348 28039:28039 I/chromium ]
+[INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-08 22:10:17.348 28039:28039 I/BrowserStartupController ]
+Initializing chromium process, renderers=0
+
+[ 12-08 22:10:17.478 28039:28158 W/chromium ]
+[WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+
+
+[ 12-08 22:10:17.518 28039:28039 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:10:17.518 28039:28039 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:10:17.588 28039:28039 D/StrictMode ]
+StrictMode policy violation; ~duration=76 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at java.io.FileInputStream.<init>(FileInputStream.java:105)
+	at java.io.FileReader.<init>(FileReader.java:66)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:56)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:10:17.588 28039:28039 D/StrictMode ]
+StrictMode policy violation; ~duration=73 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:425)
+	at java.io.FileInputStream.read(FileInputStream.java:179)
+	at java.io.InputStreamReader.read(InputStreamReader.java:233)
+	at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+	at java.io.BufferedReader.readLine(BufferedReader.java:397)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:62)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:10:17.628 28039:28173 D/miuisdk  ]
+current sdk level is 4
+
+[ 12-08 22:10:17.658 28039:28039 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:10:17.668 28039:28039 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:10:17.698 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@433d2890 time:81178197
+
+[ 12-08 22:10:17.818 28039:28185 W/chromium ]
+[WARNING:simple_index_file.cc(338)] Could not map Simple Index file.
+
+
+[ 12-08 22:10:17.818 28039:28185 I/chromium ]
+[INFO:simple_index_file.cc(437)] Simple Cache Index is being restored from disk.
+
+
+[ 12-08 22:10:22.968 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:22.968 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:10:22.978 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:22.978 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:10:24.288 28039:28039 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:10:24.368 28039:28039 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:10:24.368 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d0d168 time:81184861
+
+[ 12-08 22:10:24.508 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp360': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:24.508 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp360
+
+
+[ 12-08 22:10:24.528 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7279708897694945&_=1449583824535': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:24.528 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7279708897694945&_=1449583824535
+
+
+[ 12-08 22:10:24.688 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but displayed insecure content from 'http://111.13.12.43/static/tj.gif?pagetype=nindexs&sids=101085_100978_102505_102530_102324_101556_100039_102359_100292_102546_101634_102277_100098_102025_100152_102080_101981_101627_101964_101999_102143_102196_102233_102239_102243_102251_101530_102146_102354&logid=14821543061352307158&ta_net=1&header=57&plus_default=90&domc=103&load=4629&combo_net=5880&combo_code=6210&plus_net=6309&plus_code=6366&net1=257&net2=236&net3=186': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:24.978 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp361': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:24.978 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp361
+
+
+[ 12-08 22:10:27.588 28039:28039 I/Timeline ]
+Timeline: Activity_launch_request time:81188078
+
+[ 12-08 22:10:27.628 28039:28039 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:10:27.628 28039:28039 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:10:27.678 28039:28039 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:10:27.698 28039:28039 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:10:27.738 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@457ef518 time:81188239
+
+[ 12-08 22:10:29.268 28039:28039 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:10:29.328 28039:28039 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:10:29.328 28039:28039 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d0d168 time:81189828
+
+[ 12-08 22:10:30.738 28039:28039 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-08 22:10:32.368 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:32.368 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:10:32.378 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:32.378 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:10:32.628 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp585': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:32.628 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp585
+
+
+[ 12-08 22:10:32.648 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.5070442075375468&_=1449583832659': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:32.648 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.5070442075375468&_=1449583832659
+
+
+[ 12-08 22:10:32.658 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp362': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:32.658 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp362
+
+
+[ 12-08 22:10:32.898 28066:28066 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:10:32.898 28039:28039 D/MainActivity ]
+MainActivity onDestroy
+
+--------- beginning of /dev/log/system
+[ 12-08 22:10:32.908 28039:28039 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5368 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5368 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:798)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:599)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1480)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1460)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1454)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:10:33.038 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but displayed insecure content from 'http://111.13.12.43/static/tj.gif?pagetype=nindexs&sids=101085_100978_102505_102530_102324_101556_100039_102359_100292_102546_101634_102277_100098_102025_100152_102080_101981_101627_101964_101999_102143_102196_102233_102239_102243_102251_101530_102146_102354&logid=14687175825523949696&ta_net=1&header=13&plus_default=32&domc=53&load=4388&combo_net=4551&combo_code=4677&plus_net=5011&plus_code=5060&net1=102&net2=79&net3=79': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:33.188 28039:28039 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp586': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:10:33.188 28039:28039 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp586
+
+
+[ 12-08 22:10:34.548 28066:28082 D/SocketService ]
+current thread is runing!id:2290
+
+[ 12-08 22:10:36.878 28385:28385 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:10:36.928 28385:28400 I/Timeline ]
+Timeline: Activity_launch_request time:81197423
+
+[ 12-08 22:10:37.108 28385:28385 D/dalvikvm ]
+GC_FOR_ALLOC freed 82K, 27% free 22634K/30772K, paused 14ms, total 14ms
+
+[ 12-08 22:10:37.168 28385:28385 I/dalvikvm-heap ]
+Grow heap (frag case) to 63.394MB for 34885888-byte allocation
+
+[ 12-08 22:10:37.178 28385:28389 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 56702K/64844K, paused 6ms+1ms, total 16ms
+
+[ 12-08 22:10:37.208 28417:28417 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:10:37.248 28417:28417 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:10:37.248 28417:28417 D/SocketService ]
+pid:28417 myPid:28417
+
+[ 12-08 22:10:37.248 28417:28417 D/SocketService ]
+start to run current thread!id:2302
+
+[ 12-08 22:10:37.258 28385:28385 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: YWEN_+PATCH[ES]_msm8974_refs/tags/AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.059__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 11/04/15 Wed
+Local Branch: tip
+Remote Branch: quic/kk_3.5_1
+Local Patches: 14b1eae272f4a5ed345b2294a1c76becd9b27371 rb: re-work change "ES2.0 Fix for shadow cached VBO validation"
+                 c63208cf6c1fe92a04d7ed7e26be44f2f51c94e9 Revert "Fix for perf regression from "ES2.0 Fix for shadow cached VBO validation""
+
+[ 12-08 22:10:37.288 28385:28385 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-08 22:10:37.768 28385:28385 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d133d8 time:81198269
+
+[ 12-08 22:10:39.208 28385:28385 I/Timeline ]
+Timeline: Activity_launch_request time:81199709
+
+[ 12-08 22:10:39.348 28385:28385 D/MainActivity ]
+Start One Client
+
+[ 12-08 22:10:39.358 28385:28385 D/StrictMode ]
+StrictMode policy violation; ~duration=10 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:10:39.628 28385:28385 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d05010 time:81200129
+
+[ 12-08 22:10:39.708 28385:28392 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-08 22:10:39.708 28385:28392 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-08 22:10:42.128 28417:28417 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:10:42.128 28385:28385 D/MainActivity ]
+MainActivity onDestroy
+
+[ 12-08 22:10:42.148 28385:28385 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5438 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5438 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:798)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:599)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1480)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1460)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1454)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:11:07.248 28417:28433 D/SocketService ]
+current thread is runing!id:2302
+
+[ 12-08 22:11:12.168 28684:28684 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:11:12.208 28684:28703 I/Timeline ]
+Timeline: Activity_launch_request time:81232707
+
+[ 12-08 22:11:12.298 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 90K, 27% free 22634K/30772K, paused 13ms, total 14ms
+
+[ 12-08 22:11:12.348 28684:28684 I/dalvikvm-heap ]
+Grow heap (frag case) to 63.394MB for 34885888-byte allocation
+
+[ 12-08 22:11:12.358 28684:28692 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 13% free 56702K/64844K, paused 3ms+1ms, total 13ms
+
+[ 12-08 22:11:12.398 28719:28719 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-08 22:11:12.538 28684:28684 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: YWEN_+PATCH[ES]_msm8974_refs/tags/AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.059__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 11/04/15 Wed
+Local Branch: tip
+Remote Branch: quic/kk_3.5_1
+Local Patches: 14b1eae272f4a5ed345b2294a1c76becd9b27371 rb: re-work change "ES2.0 Fix for shadow cached VBO validation"
+                 c63208cf6c1fe92a04d7ed7e26be44f2f51c94e9 Revert "Fix for perf regression from "ES2.0 Fix for shadow cached VBO validation""
+
+[ 12-08 22:11:12.558 28719:28719 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:11:12.558 28719:28719 D/SocketService ]
+pid:28719 myPid:28719
+
+[ 12-08 22:11:12.558 28719:28719 D/SocketService ]
+start to run current thread!id:2308
+
+[ 12-08 22:11:12.568 28684:28684 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-08 22:11:13.028 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d15320 time:81233528
+
+[ 12-08 22:11:14.408 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81234900
+
+[ 12-08 22:11:14.538 28684:28684 D/MainActivity ]
+Start One Client
+
+[ 12-08 22:11:14.538 28684:28684 D/StrictMode ]
+StrictMode policy violation; ~duration=8 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:11:14.598 28684:28695 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-08 22:11:14.598 28684:28695 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-08 22:11:14.798 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81235296
+
+[ 12-08 22:11:16.588 28684:28684 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-08 22:11:17.378 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81237871
+
+[ 12-08 22:11:17.408 28684:28684 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {42d010a0}
+
+[ 12-08 22:11:17.408 28684:28684 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-08 22:11:17.408 28684:28684 I/chromium ]
+[INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-08 22:11:17.408 28684:28684 I/BrowserStartupController ]
+Initializing chromium process, renderers=0
+
+[ 12-08 22:11:17.458 28684:28775 W/chromium ]
+[WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+
+
+[ 12-08 22:11:17.478 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:11:17.478 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:11:17.498 28684:28684 D/StrictMode ]
+StrictMode policy violation; ~duration=26 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+	at java.io.FileInputStream.<init>(FileInputStream.java:105)
+	at java.io.FileReader.<init>(FileReader.java:66)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:56)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:11:17.498 28684:28684 D/StrictMode ]
+StrictMode policy violation; ~duration=22 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1135)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:148)
+	at libcore.io.IoBridge.read(IoBridge.java:425)
+	at java.io.FileInputStream.read(FileInputStream.java:179)
+	at java.io.InputStreamReader.read(InputStreamReader.java:233)
+	at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+	at java.io.BufferedReader.readLine(BufferedReader.java:397)
+	at com.android.org.chromium.base.SysUtils.amountOfPhysicalMemoryKB(SysUtils.java:62)
+	at com.android.org.chromium.base.SysUtils.detectLowEndDevice(SysUtils.java:125)
+	at com.android.org.chromium.base.SysUtils.isLowEndDevice(SysUtils.java:99)
+	at com.android.org.chromium.content.browser.BindingManager.createBindingManager(BindingManager.java:126)
+	at com.android.org.chromium.content.browser.ChildProcessLauncher.<clinit>(ChildProcessLauncher.java:211)
+	at com.android.org.chromium.content.browser.ContentViewCore.onShow(ContentViewCore.java:1621)
+	at com.android.org.chromium.android_webview.AwContents.setNewAwContents(AwContents.java:576)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:517)
+	at com.android.org.chromium.android_webview.AwContents.<init>(AwContents.java:464)
+	at com.android.webview.chromium.WebViewChromium.initForReal(WebViewChromium.java:252)
+	at com.android.webview.chromium.WebViewChromium.access$100(WebViewChromium.java:86)
+	at com.android.webview.chromium.WebViewChromium$1.run(WebViewChromium.java:239)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.drainQueue(WebViewChromium.java:113)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue$1.run(WebViewChromium.java:100)
+	at com.android.org.chromium.base.ThreadUtils.runOnUiThread(ThreadUtils.java:144)
+	at com.android.webview.chromium.WebViewChromium$WebViewChromiumRunQueue.addTask(WebViewChromium.java:97)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:236)
+	at android.webkit.WebView.<init>(WebView.java:508)
+	at android.webkit.WebView.<init>(WebView.java:475)
+	at android.webkit.WebView.<init>(WebView.java:455)
+	at android.webkit.WebView.<init>(WebView.java:444)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.constructNative(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:597)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:699)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:495)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:400)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:290)
+	at android.app.Activity.setContentView(Activity.java:1947)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:11:17.528 28684:28785 D/miuisdk  ]
+current sdk level is 4
+
+[ 12-08 22:11:17.548 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:17.578 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:17.598 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@433d29e0 time:81238093
+
+[ 12-08 22:11:17.608 28684:28796 I/chromium ]
+[INFO:simple_index_file.cc(437)] Simple Cache Index is being restored from disk.
+
+
+[ 12-08 22:11:18.388 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:18.388 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:11:18.388 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:18.388 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:11:18.798 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp675': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:18.798 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp675
+
+
+[ 12-08 22:11:18.808 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.1785647466313094&_=1449583878821': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:18.808 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.1785647466313094&_=1449583878821
+
+
+[ 12-08 22:11:19.208 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp676': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:19.208 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp676
+
+
+[ 12-08 22:11:20.758 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 2135K, 4% free 64449K/66608K, paused 19ms, total 20ms
+
+[ 12-08 22:11:20.828 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 54K, 3% free 72494K/74712K, paused 12ms, total 12ms
+
+[ 12-08 22:11:21.058 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583880749
+
+[ 12-08 22:11:23.788 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:11:23.868 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:11:23.868 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81244362
+
+[ 12-08 22:11:26.828 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp677': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:26.828 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp677
+
+
+[ 12-08 22:11:37.958 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81258452
+
+[ 12-08 22:11:37.998 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:11:37.998 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:11:38.048 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:38.068 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:38.108 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@433b36b0 time:81258608
+
+[ 12-08 22:11:42.038 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16378K, 4% free 64474K/66608K, paused 21ms, total 22ms
+
+[ 12-08 22:11:42.078 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 22K, 3% free 72552K/74712K, paused 12ms, total 13ms
+
+[ 12-08 22:11:42.208 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583902030
+
+[ 12-08 22:11:42.558 28719:28738 D/SocketService ]
+current thread is runing!id:2308
+
+[ 12-08 22:11:46.728 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:46.728 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:11:46.738 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:46.738 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:11:46.788 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Log:1449583906798
+
+[ 12-08 22:11:47.868 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:11:47.918 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:11:47.948 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81268447
+
+[ 12-08 22:11:50.928 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp885': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:50.928 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp885
+
+
+[ 12-08 22:11:50.938 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7445115237496793&_=1449583910951': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:50.938 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7445115237496793&_=1449583910951
+
+
+[ 12-08 22:11:52.198 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp886': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:52.198 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp886
+
+
+[ 12-08 22:11:52.528 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81273019
+
+[ 12-08 22:11:52.568 28719:28738 D/SocketService ]
+current thread is runing!id:2308
+
+[ 12-08 22:11:52.568 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:11:52.568 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:11:52.608 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:52.628 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:11:52.658 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d17500 time:81273155
+
+[ 12-08 22:11:58.948 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp887': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:11:58.948 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp887
+
+
+[ 12-08 22:12:02.328 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:02.328 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:02.328 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:02.328 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:02.558 28719:28738 D/SocketService ]
+current thread is runing!id:2308
+
+[ 12-08 22:12:03.988 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp949': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:03.988 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp949
+
+
+[ 12-08 22:12:04.008 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.18987155752256513&_=1449583924017': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:04.008 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.18987155752256513&_=1449583924017
+
+
+[ 12-08 22:12:04.398 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp950': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:04.398 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp950
+
+
+[ 12-08 22:12:10.318 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 17000K, 4% free 64539K/66608K, paused 25ms, total 25ms
+
+[ 12-08 22:12:10.358 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 26K, 3% free 72613K/74712K, paused 13ms, total 13ms
+
+[ 12-08 22:12:10.508 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583930309
+
+[ 12-08 22:12:11.748 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:12:11.798 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:12:11.798 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81292296
+
+[ 12-08 22:12:12.018 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp951': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:12.018 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp951
+
+
+[ 12-08 22:12:12.558 28719:28738 D/SocketService ]
+current thread is runing!id:2308
+
+[ 12-08 22:12:15.668 28719:28742 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ETIMEDOUT (Connection timed out)
+
+[ 12-08 22:12:15.718 28719:28719 W/Toast    ]
+From com.example.myfristandroid, go ahead.
+
+[ 12-08 22:12:18.128 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81298619
+
+[ 12-08 22:12:18.168 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:12:18.168 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:12:18.208 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:18.228 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:18.268 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@433ac7c0 time:81298762
+
+[ 12-08 22:12:22.568 28719:28738 D/SocketService ]
+start to run current thread!id:2309
+
+[ 12-08 22:12:23.828 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16407K, 4% free 64579K/66608K, paused 22ms, total 22ms
+
+[ 12-08 22:12:23.868 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 29K, 3% free 72651K/74712K, paused 12ms, total 12ms
+
+[ 12-08 22:12:24.008 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583943816
+
+[ 12-08 22:12:26.348 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:26.348 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:26.358 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:26.358 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:26.648 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp609': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:26.658 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp609
+
+
+[ 12-08 22:12:26.668 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.26732748467475176&_=1449583946673': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:26.668 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.26732748467475176&_=1449583946673
+
+
+[ 12-08 22:12:26.858 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but displayed insecure content from 'http://111.13.12.43/static/tj.gif?pagetype=nindexs&sids=101085_100978_102280_102323_102017_100039_100819_102552_102406_102545_102278_102277_100100_100152_101598_101980_101626_101964_101999_102144_102510_102195_102232_102240_102242_102251_101530_102361_102451_102355&logid=3359567979936135611&ta_net=1&header=12&plus_default=274&domc=286&load=7807&combo_net=8015&combo_code=8129&plus_net=8274&plus_code=8315&net1=342&net2=83&net3=83': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:27.028 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp610': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:27.028 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp610
+
+
+[ 12-08 22:12:29.458 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16371K, 4% free 64555K/66608K, paused 21ms, total 21ms
+
+[ 12-08 22:12:29.498 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 3% free 72655K/74712K, paused 13ms, total 13ms
+
+[ 12-08 22:12:29.648 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583949448
+
+[ 12-08 22:12:30.608 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:12:30.648 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:12:30.648 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81311149
+
+[ 12-08 22:12:31.848 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81312344
+
+[ 12-08 22:12:31.888 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:12:31.888 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:12:31.938 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:31.958 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:31.988 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42dc6e78 time:81312481
+
+[ 12-08 22:12:32.558 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:12:34.658 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp611': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:34.658 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp611
+
+
+[ 12-08 22:12:38.018 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16385K, 3% free 64622K/66608K, paused 24ms, total 25ms
+
+[ 12-08 22:12:38.058 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 25K, 3% free 72697K/74712K, paused 14ms, total 14ms
+
+[ 12-08 22:12:38.218 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583958008
+
+[ 12-08 22:12:39.078 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:12:39.138 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:12:39.158 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81319659
+
+[ 12-08 22:12:40.348 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:40.348 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:40.348 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:40.348 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:40.578 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81321075
+
+[ 12-08 22:12:40.618 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:12:40.618 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:12:40.668 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:40.678 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:40.718 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42cfae68 time:81321215
+
+[ 12-08 22:12:40.878 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp840': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:40.878 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp840
+
+
+[ 12-08 22:12:40.898 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.10845863586291671&_=1449583960905': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:40.898 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.10845863586291671&_=1449583960905
+
+
+[ 12-08 22:12:41.188 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp841': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:41.188 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp841
+
+
+[ 12-08 22:12:42.568 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:12:43.438 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:43.438 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:43.448 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:43.448 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:43.968 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp913': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:43.968 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp913
+
+
+[ 12-08 22:12:43.988 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.9212900493294001&_=1449583963996': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:43.988 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.9212900493294001&_=1449583963996
+
+
+[ 12-08 22:12:46.238 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp914': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:46.238 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp914
+
+
+[ 12-08 22:12:46.338 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16476K, 3% free 64665K/66608K, paused 23ms, total 23ms
+
+[ 12-08 22:12:46.408 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 23K, 3% free 72742K/74712K, paused 18ms, total 18ms
+
+[ 12-08 22:12:46.588 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583966323
+
+[ 12-08 22:12:48.898 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp842': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:48.898 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp842
+
+
+[ 12-08 22:12:51.998 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp915': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:51.998 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp915
+
+
+[ 12-08 22:12:52.188 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:12:52.238 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:12:52.248 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81332745
+
+[ 12-08 22:12:52.558 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:12:56.938 28684:28684 I/Timeline ]
+Timeline: Activity_launch_request time:81337433
+
+[ 12-08 22:12:56.978 28684:28684 D/EgretLoader ]
+EgretLoader(Context context)
+
+[ 12-08 22:12:56.978 28684:28684 D/EgretLoader ]
+The context is not activity
+
+[ 12-08 22:12:57.028 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:57.048 28684:28684 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-08 22:12:57.078 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d338a0 time:81337578
+
+[ 12-08 22:12:59.128 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:59.128 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:59.128 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:12:59.128 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-08 22:12:59.768 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 16437K, 3% free 64713K/66608K, paused 25ms, total 25ms
+
+[ 12-08 22:12:59.808 28684:28684 D/dalvikvm ]
+GC_FOR_ALLOC freed 23K, 3% free 72790K/74712K, paused 14ms, total 14ms
+
+[ 12-08 22:13:00.008 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583979750
+
+[ 12-08 22:13:00.838 28684:28684 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2184)
+
+[ 12-08 22:13:00.888 28684:28684 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-08 22:13:00.928 28684:28684 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d054a0 time:81341427
+
+[ 12-08 22:13:02.568 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:13:04.418 28684:28684 D/MainActivity ]
+MainActivity onDestroy
+
+[ 12-08 22:13:04.418 28719:28719 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-08 22:13:04.428 28684:28684 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5818 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42de5818 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:798)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:599)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1480)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1460)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1454)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5249)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2165)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2250)
+	at android.app.ActivityThread.access$900(ActivityThread.java:141)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1213)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5072)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-08 22:13:06.298 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Log:1449583986307
+
+[ 12-08 22:13:11.248 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp207': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:13:11.248 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp207
+
+
+[ 12-08 22:13:11.268 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7661106381565332&_=1449583991275': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:13:11.268 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.7661106381565332&_=1449583991275
+
+
+[ 12-08 22:13:11.768 28684:28684 I/chromium ]
+[INFO:CONSOLE(0)] "The page at 'https://m.baidu.com/?from=1010888z' was loaded over HTTPS, but ran insecure content from 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp208': this content should also be loaded over HTTPS.
+", source: https://m.baidu.com/?from=1010888z (0)
+
+
+[ 12-08 22:13:11.768 28684:28684 W/chromium ]
+[WARNING:web_contents_impl.cc(2250)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp208
+
+
+[ 12-08 22:13:12.568 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:13:12.568 28719:28738 D/SocketService ]
+current thread is runing!id:2309
+
+[ 12-08 22:13:16.578 28684:28750 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449583986361
+
+[ 12-08 22:13:16.578 28684:28750 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x416f7d58)
+
+[ 12-08 22:13:16.578 28684:28750 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2303
+Process: com.example.myfristandroid, PID: 28684
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

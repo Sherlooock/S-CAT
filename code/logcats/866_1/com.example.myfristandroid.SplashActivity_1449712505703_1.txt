@@ -1,0 +1,1757 @@
+--------- beginning of main
+[ 12-10 09:49:07.494 20574:20574 I/art      ]
+Late-enabling -Xcheck:jni
+
+[ 12-10 09:49:07.734 20574:20594 I/art      ]
+Background sticky concurrent mark sweep GC freed 1925(103KB) AllocSpace objects, 0(0B) LOS objects, 0% free, 33MB/33MB, paused 11.284ms total 20.602ms
+
+[ 12-10 09:49:07.874 20608:20608 I/art      ]
+Late-enabling -Xcheck:jni
+
+[ 12-10 09:49:07.904 20574:20632 D/OpenGLRenderer ]
+Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+
+[ 12-10 09:49:07.904 20574:20574 D/Atlas    ]
+Validating map...
+
+[ 12-10 09:49:07.914 20608:20608 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 09:49:07.914 20608:20608 D/SocketService ]
+pid:20608 myPid:20608
+
+[ 12-10 09:49:07.914 20608:20608 D/SocketService ]
+start to run current thread!id:4126
+
+[ 12-10 09:49:07.954 20574:20632 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LA.BR.1.1.3.C8.05.01.00.115.055_msm8916_64_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.3.C8.05.01.00.115.055__release_AU (Ie6e6076772)
+OpenGL ES Shader Compiler Version: E031.25.03.04
+Build Date: 07/29/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.3.C8.05.01.00.115.055
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 09:49:07.954 20574:20632 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-10 09:49:07.964 20574:20632 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+PartialUpdate status: Disabled
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Left Align: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Width Align: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Top Align: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Height Align: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Min ROI Width: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Min ROI Height: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Needs ROI Merge: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Dynamic Fps: Disabled
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Min Panel fps: 0
+
+[ 12-10 09:49:07.964 20574:20632 I/qdutils  ]
+Max Panel fps: 0
+
+[ 12-10 09:49:07.994 20608:20638 D/SocketService ]
+ip/10.26.66.90 lport:48847 p:143
+
+[ 12-10 09:49:07.994 20608:20638 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 09:49:07.994 20608:20638 D/SocketService ]
+success to connect server!id:4126 bLogin:false
+
+[ 12-10 09:49:08.314 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 09:49:08.914 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 09:49:08.994 20608:20638 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 09:49:09.084 20608:20640 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 09:49:09.924 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 09:49:09.994 20608:20638 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 09:49:10.034 20574:20574 D/MainActivity ]
+Start One Client
+
+[ 12-10 09:49:10.044 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:202)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:281)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:49:10.314 20608:20640 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 09:49:10.934 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 09:49:10.944 20574:20574 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 09:49:47.914 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 09:49:48.074 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 09:49:48.964 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:50:02.484 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:50:02.554 20574:20632 V/RenderScript ]
+Application requested CPU execution
+
+[ 12-10 09:50:02.564 20574:20632 V/RenderScript ]
+0x55a8b36990 Launching thread(s), CPUs 8
+
+[ 12-10 09:50:23.974 20574:20653 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712223661
+
+[ 12-10 09:50:27.914 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:82
+
+[ 12-10 09:50:28.054 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 09:50:29.004 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:50:36.084 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:38.214 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:38.764 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:39.084 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:39.364 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:40.084 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:50:43.014 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:50:51.674 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 09:50:54.734 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 09:50:56.584 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:50:59.474 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:51:07.254 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:51:07.924 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:95
+
+[ 12-10 09:51:08.054 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 09:51:09.034 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:51:17.494 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:51:25.944 20574:20574 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{1ec1e265 V.ED.VC. ......ID 15,15-1047,15 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 09:51:25.944 20574:20574 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 09:51:25.954 20608:20608 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:117
+
+[ 12-10 09:51:26.064 20608:20640 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:778
+
+[ 12-10 09:51:27.054 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:778 HeadIndex:761 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 09:51:27.264 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:51:29.294 20574:20594 I/art      ]
+Background sticky concurrent mark sweep GC freed 112(2240B) AllocSpace objects, 0(0B) LOS objects, 0% free, 71MB/71MB, paused 7.003ms total 14.593ms
+
+[ 12-10 09:51:29.484 20574:20653 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712289230
+
+[ 12-10 09:51:30.224 20574:20574 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{1ec1e265 V.ED.VC. ......ID 15,15-1047,15 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 09:51:30.224 20574:20574 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 09:51:30.224 20608:20608 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:139
+
+[ 12-10 09:51:30.324 20608:20640 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:795
+
+[ 12-10 09:51:31.074 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:795 HeadIndex:778 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 09:51:32.564 20574:20653 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712292237
+
+[ 12-10 09:51:36.564 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 09:51:37.784 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:51:38.194 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:51:48.994 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:51:52.274 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:51:53.144 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:51:53.824 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:52:00.634 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 09:52:02.774 20574:20574 I/WebViewFactory ]
+Loading com.google.android.webview version 42.0.2311.138 (code 52311138)
+
+[ 12-10 09:52:02.894 20574:20574 I/LibraryLoader ]
+Time to load native libraries: 68 ms (timestamps 6870-6938)
+
+[ 12-10 09:52:02.894 20574:20574 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-10 09:52:02.914 20574:20574 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {3ad9a5fc}
+
+[ 12-10 09:52:02.914 20574:20574 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-10 09:52:02.914 20574:20574 I/chromium ]
+[INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-10 09:52:02.924 20574:20574 I/BrowserStartupController ]
+Initializing chromium process, singleProcess=true
+
+[ 12-10 09:52:02.934 20574:20574 W/art      ]
+Attempt to remove local handle scope entry from IRT, ignoring
+
+[ 12-10 09:52:02.934 20574:20574 E/SysUtils ]
+ApplicationContext is null in ApplicationStatus
+
+[ 12-10 09:52:02.994 20574:21859 W/AudioManagerAndroid ]
+Requires BLUETOOTH permission
+
+[ 12-10 09:52:03.014 20574:20574 W/chromium ]
+[WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+
+
+[ 12-10 09:52:03.014 20574:20574 I/chromium ]
+[INFO:aw_browser_main_parts.cc(63)] Load from apk succesful, fd=73 off=10558220 len=3358
+
+
+[ 12-10 09:52:03.014 20574:20574 I/chromium ]
+[INFO:aw_browser_main_parts.cc(76)] Loading webviewchromium.pak from, fd:74 off:9397000 len:1161174
+
+
+--------- beginning of system
+[ 12-10 09:52:03.074 20574:20664 E/ActivityThread ]
+Failed to find provider info for com.google.settings
+
+[ 12-10 09:52:03.104 20574:21866 W/chromium ]
+[WARNING:data_reduction_proxy_config.cc(150)] SPDY proxy OFF at startup
+
+
+[ 12-10 09:52:03.124 20574:20574 W/art      ]
+Attempt to remove local handle scope entry from IRT, ignoring
+
+[ 12-10 09:52:03.144 20574:20574 W/AwContents ]
+onDetachedFromWindow called when already detached. Ignoring
+
+[ 12-10 09:52:03.154 20574:20574 W/art      ]
+Attempt to remove local handle scope entry from IRT, ignoring
+
+[ 12-10 09:52:03.154 20574:20574 W/art      ]
+Attempt to remove local handle scope entry from IRT, ignoring
+
+[ 12-10 09:52:03.184 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=409 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:67)
+	at java.io.File.doAccess(File.java:283)
+	at java.io.File.exists(File.java:363)
+	at oppo.content.res.OppoThemeZipFile.getThemeZipFile(OppoThemeZipFile.java:115)
+	at oppo.content.res.OppoThemeResources.checkUpdate(OppoThemeResources.java:133)
+	at oppo.content.res.OppoThemeResources.<init>(OppoThemeResources.java:97)
+	at oppo.content.res.OppoThemeResourcesPackage.<init>(OppoThemeResourcesPackage.java:37)
+	at oppo.content.res.OppoThemeResourcesPackage.getTopLevelThemeResources(OppoThemeResourcesPackage.java:62)
+	at oppo.content.res.OppoThemeResourcesPackage.getThemeResources(OppoThemeResourcesPackage.java:51)
+	at android.content.res.Resources.init(Resources.java:2996)
+	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:5423)
+	at android.app.LoadedApk.getResources(LoadedApk.java:548)
+	at android.app.ContextImpl.<init>(ContextImpl.java:2304)
+	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2177)
+	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2161)
+	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:671)
+	at android.webkit.WebViewFactory.getFactoryClass(WebViewFactory.java:151)
+	at android.webkit.WebViewFactory.getProvider(WebViewFactory.java:109)
+	at android.webkit.WebView.getFactory(WebView.java:2194)
+	at android.webkit.WebView.ensureProviderCreated(WebView.java:2189)
+	at android.webkit.WebView.setOverScrollMode(WebView.java:2248)
+	at android.view.View.<init>(View.java:3589)
+	at android.view.View.<init>(View.java:3683)
+	at android.view.ViewGroup.<init>(ViewGroup.java:498)
+	at android.widget.AbsoluteLayout.<init>(AbsoluteLayout.java:55)
+	at android.webkit.WebView.<init>(WebView.java:544)
+	at android.webkit.WebView.<init>(WebView.java:489)
+	at android.webkit.WebView.<init>(WebView.java:472)
+	at android.webkit.WebView.<init>(WebView.java:459)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:407)
+	at android.app.Activity.setContentView(Activity.java:2191)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:52:03.194 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=239 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:67)
+	at java.io.File.doAccess(File.java:283)
+	at java.io.File.exists(File.java:363)
+	at android.app.ContextImpl.getDir(ContextImpl.java:2234)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at org.chromium.base.PathUtils.getDataDirectory(PathUtils.java:40)
+	at org.chromium.content.app.ContentMain.nativeStart(Native Method)
+	at org.chromium.content.app.ContentMain.start(ContentMain.java:34)
+	at org.chromium.content.browser.BrowserStartupController.contentStart(BrowserStartupController.java:220)
+	at org.chromium.content.browser.BrowserStartupController.startBrowserProcessesSync(BrowserStartupController.java:202)
+	at org.chromium.android_webview.AwBrowserProcess$1.run(AwBrowserProcess.java:61)
+	at org.chromium.base.ThreadUtils.runOnUiThreadBlocking(ThreadUtils.java:64)
+	at org.chromium.android_webview.AwBrowserProcess.start(AwBrowserProcess.java:57)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startChromiumLocked(WebViewChromiumFactoryProvider.java:253)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.ensureChromiumStartedLocked(WebViewChromiumFactoryProvider.java:195)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startYourEngines(WebViewChromiumFactoryProvider.java:289)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:214)
+	at android.webkit.WebView.<init>(WebView.java:554)
+	at android.webkit.WebView.<init>(WebView.java:489)
+	at android.webkit.WebView.<init>(WebView.java:472)
+	at android.webkit.WebView.<init>(WebView.java:459)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:407)
+	at android.app.Activity.setContentView(Activity.java:2191)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:52:03.194 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=238 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.mkdir(BlockGuardOs.java:172)
+	at java.io.File.mkdirErrno(File.java:874)
+	at java.io.File.mkdir(File.java:865)
+	at android.app.ContextImpl.getDir(ContextImpl.java:2235)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at org.chromium.base.PathUtils.getDataDirectory(PathUtils.java:40)
+	at org.chromium.content.app.ContentMain.nativeStart(Native Method)
+	at org.chromium.content.app.ContentMain.start(ContentMain.java:34)
+	at org.chromium.content.browser.BrowserStartupController.contentStart(BrowserStartupController.java:220)
+	at org.chromium.content.browser.BrowserStartupController.startBrowserProcessesSync(BrowserStartupController.java:202)
+	at org.chromium.android_webview.AwBrowserProcess$1.run(AwBrowserProcess.java:61)
+	at org.chromium.base.ThreadUtils.runOnUiThreadBlocking(ThreadUtils.java:64)
+	at org.chromium.android_webview.AwBrowserProcess.start(AwBrowserProcess.java:57)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startChromiumLocked(WebViewChromiumFactoryProvider.java:253)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.ensureChromiumStartedLocked(WebViewChromiumFactoryProvider.java:195)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startYourEngines(WebViewChromiumFactoryProvider.java:289)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:214)
+	at android.webkit.WebView.<init>(WebView.java:554)
+	at android.webkit.WebView.<init>(WebView.java:489)
+	at android.webkit.WebView.<init>(WebView.java:472)
+	at android.webkit.WebView.<init>(WebView.java:459)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:407)
+	at android.app.Activity.setContentView(Activity.java:2191)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:52:03.194 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=236 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1111)
+	at libcore.io.BlockGuardOs.chmod(BlockGuardOs.java:72)
+	at android.system.Os.chmod(Os.java:60)
+	at android.os.FileUtils.setPermissions(FileUtils.java:88)
+	at android.app.ContextImpl.setFilePermissionsFromMode(ContextImpl.java:2396)
+	at android.app.ContextImpl.getDir(ContextImpl.java:2236)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at android.content.ContextWrapper.getDir(ContextWrapper.java:257)
+	at org.chromium.base.PathUtils.getDataDirectory(PathUtils.java:40)
+	at org.chromium.content.app.ContentMain.nativeStart(Native Method)
+	at org.chromium.content.app.ContentMain.start(ContentMain.java:34)
+	at org.chromium.content.browser.BrowserStartupController.contentStart(BrowserStartupController.java:220)
+	at org.chromium.content.browser.BrowserStartupController.startBrowserProcessesSync(BrowserStartupController.java:202)
+	at org.chromium.android_webview.AwBrowserProcess$1.run(AwBrowserProcess.java:61)
+	at org.chromium.base.ThreadUtils.runOnUiThreadBlocking(ThreadUtils.java:64)
+	at org.chromium.android_webview.AwBrowserProcess.start(AwBrowserProcess.java:57)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startChromiumLocked(WebViewChromiumFactoryProvider.java:253)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.ensureChromiumStartedLocked(WebViewChromiumFactoryProvider.java:195)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startYourEngines(WebViewChromiumFactoryProvider.java:289)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:214)
+	at android.webkit.WebView.<init>(WebView.java:554)
+	at android.webkit.WebView.<init>(WebView.java:489)
+	at android.webkit.WebView.<init>(WebView.java:472)
+	at android.webkit.WebView.<init>(WebView.java:459)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:407)
+	at android.app.Activity.setContentView(Activity.java:2191)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:52:03.194 20574:20574 D/StrictMode ]
+StrictMode policy violation; ~duration=127 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:67)
+	at java.io.File.doAccess(File.java:283)
+	at java.io.File.exists(File.java:363)
+	at android.app.ContextImpl.createFilesDirLocked(ContextImpl.java:1003)
+	at android.app.ContextImpl.getCacheDir(ContextImpl.java:1088)
+	at android.content.ContextWrapper.getCacheDir(ContextWrapper.java:232)
+	at android.content.ContextWrapper.getCacheDir(ContextWrapper.java:232)
+	at org.chromium.base.PathUtils.getCacheDirectory(PathUtils.java:58)
+	at org.chromium.content.app.ContentMain.nativeStart(Native Method)
+	at org.chromium.content.app.ContentMain.start(ContentMain.java:34)
+	at org.chromium.content.browser.BrowserStartupController.contentStart(BrowserStartupController.java:220)
+	at org.chromium.content.browser.BrowserStartupController.startBrowserProcessesSync(BrowserStartupController.java:202)
+	at org.chromium.android_webview.AwBrowserProcess$1.run(AwBrowserProcess.java:61)
+	at org.chromium.base.ThreadUtils.runOnUiThreadBlocking(ThreadUtils.java:64)
+	at org.chromium.android_webview.AwBrowserProcess.start(AwBrowserProcess.java:57)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startChromiumLocked(WebViewChromiumFactoryProvider.java:253)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.ensureChromiumStartedLocked(WebViewChromiumFactoryProvider.java:195)
+	at com.android.webview.chromium.WebViewChromiumFactoryProvider.startYourEngines(WebViewChromiumFactoryProvider.java:289)
+	at com.android.webview.chromium.WebViewChromium.init(WebViewChromium.java:214)
+	at android.webkit.WebView.<init>(WebView.java:554)
+	at android.webkit.WebView.<init>(WebView.java:489)
+	at android.webkit.WebView.<init>(WebView.java:472)
+	at android.webkit.WebView.<init>(WebView.java:459)
+	at com.example.myfristandroid.MyWebView.<init>(MyWebView.java:36)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:407)
+	at android.app.Activity.setContentView(Activity.java:2191)
+	at com.example.myfristandroid.graphWebShow.onCreate(graphWebShow.java:42)
+	at android.app.Activity.performCreate(Activity.java:6107)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2373)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2493)
+	at android.app.ActivityThread.access$900(ActivityThread.java:164)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1377)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:5408)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+[ 12-10 09:52:03.784 20574:20574 W/BindingManager ]
+Cannot call determinedVisibility() - never saw a connection for the pid: 20574
+
+[ 12-10 09:52:04.144 20574:20574 W/BindingManager ]
+Cannot call determinedVisibility() - never saw a connection for the pid: 20574
+
+[ 12-10 09:52:04.454 20574:20574 W/chromium ]
+[WARNING:web_contents_impl.cc(2795)] https://m.baidu.com ran insecure content from http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-10 09:52:04.464 20574:20574 I/chromium ]
+[INFO:CONSOLE(0)] "Mixed Content: The page at 'https://m.baidu.com/?from=844b&vit=fps' was loaded over HTTPS, but requested an insecure script 'http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test'. This content should also be served over HTTPS.", source: https://m.baidu.com/?from=844b&vit=fps (0)
+
+
+[ 12-10 09:52:04.464 20574:20574 W/chromium ]
+[WARNING:web_contents_impl.cc(2795)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+
+[ 12-10 09:52:04.464 20574:20574 I/chromium ]
+[INFO:CONSOLE(0)] "Mixed Content: The page at 'https://m.baidu.com/?from=844b&vit=fps' was loaded over HTTPS, but requested an insecure script 'http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test'. This content should also be served over HTTPS.", source: https://m.baidu.com/?from=844b&vit=fps (0)
+
+
+[ 12-10 09:52:05.234 20574:20574 W/chromium ]
+[WARNING:web_contents_impl.cc(2795)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp60
+
+
+[ 12-10 09:52:05.234 20574:20574 I/chromium ]
+[INFO:CONSOLE(0)] "Mixed Content: The page at 'https://m.baidu.com/?from=844b&vit=fps' was loaded over HTTPS, but requested an insecure script 'http://127.0.0.1:40310/getsearchboxinfo?mcmdf=inapp_boxserver&callback=_box_jsonp60'. This content should also be served over HTTPS.", source: https://m.baidu.com/?from=844b&vit=fps (0)
+
+
+[ 12-10 09:52:05.274 20574:20574 W/chromium ]
+[WARNING:web_contents_impl.cc(2795)] https://m.baidu.com ran insecure content from http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.94382718577981&_=1449712325279
+
+
+[ 12-10 09:52:05.274 20574:20574 I/chromium ]
+[INFO:CONSOLE(0)] "Mixed Content: The page at 'https://m.baidu.com/?from=844b&vit=fps' was loaded over HTTPS, but requested an insecure script 'http://127.0.0.1:7777/geolocation?timeout=10000&callback=jsonp2&gps=1&t=0.94382718577981&_=1449712325279'. This content should also be served over HTTPS.", source: https://m.baidu.com/?from=844b&vit=fps (0)
+
+
+[ 12-10 09:52:07.924 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:152
+
+[ 12-10 09:52:08.014 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:808
+
+[ 12-10 09:52:08.104 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:808 HeadIndex:795 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:52:11.854 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:52:13.034 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:52:13.274 20574:20574 W/chromium ]
+[WARNING:web_contents_impl.cc(2795)] https://m.baidu.com ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp61
+
+
+[ 12-10 09:52:13.274 20574:20574 I/chromium ]
+[INFO:CONSOLE(0)] "Mixed Content: The page at 'https://m.baidu.com/?from=844b&vit=fps' was loaded over HTTPS, but requested an insecure script 'http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp61'. This content should also be served over HTTPS.", source: https://m.baidu.com/?from=844b&vit=fps (0)
+
+
+[ 12-10 09:52:14.004 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:52:15.084 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:52:24.254 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:52:47.934 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:165
+
+[ 12-10 09:52:47.984 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:821
+
+[ 12-10 09:52:48.144 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:821 HeadIndex:808 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:53:27.934 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:178
+
+[ 12-10 09:53:28.004 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:834
+
+[ 12-10 09:53:28.174 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:834 HeadIndex:821 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:54:07.934 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:191
+
+[ 12-10 09:54:08.084 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:847
+
+[ 12-10 09:54:08.214 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:847 HeadIndex:834 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:54:38.864 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:54:47.934 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:204
+
+[ 12-10 09:54:48.144 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:860
+
+[ 12-10 09:54:48.264 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:860 HeadIndex:847 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:55:05.694 20574:20653 D/cn.edu.nju.ise.kikandroid ]
+Log:1449712505703
+
+[ 12-10 09:55:09.644 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:55:27.934 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:217
+
+[ 12-10 09:55:28.094 20608:20640 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:873
+
+[ 12-10 09:55:28.314 20608:20636 D/SocketService1 ]
+本次提取1:LoadPtr:873 HeadIndex:860 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:56:07.944 20608:20634 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:230
+
+[ 12-10 09:56:17.844 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:56:17.944 20608:20634 D/SocketService ]
+start to run current thread!id:4128
+
+[ 12-10 09:56:18.044 20608:23256 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-10 09:56:24.134 20574:20574 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 09:56:27.944 20608:20634 D/SocketService ]
+start to run current thread!id:4129
+
+[ 12-10 09:56:28.034 20608:23297 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-10 09:56:37.944 20608:20634 D/SocketService ]
+start to run current thread!id:4130
+
+[ 12-10 09:56:38.034 20608:23363 D/SocketService ]
+ip/10.26.66.90 lport:49058 p:143
+
+[ 12-10 09:56:38.034 20608:23363 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:264
+
+[ 12-10 09:56:38.034 20608:23363 D/SocketService ]
+success to connect server!id:4130 bLogin:false
+
+[ 12-10 09:56:39.034 20608:23363 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:275
+
+[ 12-10 09:56:40.034 20608:23363 D/SocketService ]
+current thread is runing!id:4130
+
+[ 12-10 09:56:47.944 20608:20634 D/SocketService ]
+start to run current thread!id:4132
+
+[ 12-10 09:56:48.014 20608:23436 D/SocketService ]
+ip/10.26.66.90 lport:47089 p:143
+
+[ 12-10 09:56:48.014 20608:23436 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:309
+
+[ 12-10 09:56:48.014 20608:23436 D/SocketService ]
+success to connect server!id:4132 bLogin:false
+
+[ 12-10 09:56:49.014 20608:23436 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:320
+
+[ 12-10 09:56:50.024 20608:23436 D/SocketService ]
+current thread is runing!id:4132
+
+[ 12-10 09:56:57.944 20608:20634 D/SocketService ]
+start to run current thread!id:4134
+
+[ 12-10 09:56:57.984 20608:23501 D/SocketService ]
+ip/10.26.66.90 lport:55427 p:143
+
+[ 12-10 09:56:57.984 20608:23501 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:354
+
+[ 12-10 09:56:57.984 20608:23501 D/SocketService ]
+success to connect server!id:4134 bLogin:false
+
+[ 12-10 09:56:58.984 20608:23501 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:365
+
+[ 12-10 09:56:59.994 20608:23501 D/SocketService ]
+current thread is runing!id:4134
+
+[ 12-10 09:57:07.944 20608:20634 D/SocketService ]
+start to run current thread!id:4136
+
+[ 12-10 09:57:08.024 20608:23560 D/SocketService ]
+ip/10.26.66.90 lport:44294 p:143
+
+[ 12-10 09:57:08.024 20608:23560 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:399
+
+[ 12-10 09:57:08.024 20608:23560 D/SocketService ]
+success to connect server!id:4136 bLogin:false
+
+[ 12-10 09:57:09.024 20608:23560 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:410
+
+[ 12-10 09:57:10.024 20608:23560 D/SocketService ]
+current thread is runing!id:4136
+
+[ 12-10 09:57:17.944 20608:20634 D/SocketService ]
+start to run current thread!id:4138
+
+[ 12-10 09:57:17.984 20608:23623 D/SocketService ]
+ip/10.26.66.90 lport:53830 p:143
+
+[ 12-10 09:57:17.984 20608:23623 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:444
+
+[ 12-10 09:57:17.984 20608:23623 D/SocketService ]
+success to connect server!id:4138 bLogin:false
+
+[ 12-10 09:57:18.984 20608:23623 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:455
+
+[ 12-10 09:57:19.984 20608:23623 D/SocketService ]
+current thread is runing!id:4138
+
+[ 12-10 09:57:27.944 20608:20634 D/SocketService ]
+start to run current thread!id:4140
+
+[ 12-10 09:57:27.994 20608:23664 D/SocketService ]
+ip/10.26.66.90 lport:50317 p:143
+
+[ 12-10 09:57:27.994 20608:23664 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:489
+
+[ 12-10 09:57:27.994 20608:23664 D/SocketService ]
+success to connect server!id:4140 bLogin:false
+
+[ 12-10 09:57:28.994 20608:23664 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:500
+
+[ 12-10 09:57:29.994 20608:23664 D/SocketService ]
+current thread is runing!id:4140
+
+[ 12-10 09:57:37.944 20608:20634 D/SocketService ]
+start to run current thread!id:4142
+
+[ 12-10 09:57:37.944 20608:20634 D/SocketService ]
+current thread is runing!id:4142
+
+[ 12-10 09:57:38.004 20608:23718 D/SocketService ]
+ip/10.26.66.90 lport:39932 p:143
+
+[ 12-10 09:57:38.004 20608:23718 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:534
+
+[ 12-10 09:57:38.004 20608:23718 D/SocketService ]
+success to connect server!id:4142 bLogin:false
+
+[ 12-10 09:57:39.004 20608:23718 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:545
+
+[ 12-10 09:57:40.004 20608:23718 D/SocketService ]
+current thread is runing!id:4142
+
+[ 12-10 09:57:47.944 20608:20634 D/SocketService ]
+start to run current thread!id:4144
+
+[ 12-10 09:57:47.944 20608:20634 D/SocketService ]
+current thread is runing!id:4144
+
+[ 12-10 09:57:48.034 20608:23776 D/SocketService ]
+ip/10.26.66.90 lport:32824 p:143
+
+[ 12-10 09:57:48.034 20608:23776 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:579
+
+[ 12-10 09:57:48.034 20608:23776 D/SocketService ]
+success to connect server!id:4144 bLogin:false
+
+[ 12-10 09:57:49.034 20608:23776 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:590
+
+[ 12-10 09:57:50.034 20608:23776 D/SocketService ]
+current thread is runing!id:4144
+
+[ 12-10 09:57:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4146
+
+[ 12-10 09:57:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4146
+
+[ 12-10 09:57:58.174 20608:23827 D/SocketService ]
+ip/10.26.66.90 lport:43493 p:143
+
+[ 12-10 09:57:58.174 20608:23827 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:624
+
+[ 12-10 09:57:58.174 20608:23827 D/SocketService ]
+success to connect server!id:4146 bLogin:false
+
+[ 12-10 09:57:59.174 20608:23827 D/SocketService ]
+current thread is runing!id:4146
+
+[ 12-10 09:58:00.174 20608:23827 D/SocketService ]
+current thread is runing!id:4146
+
+[ 12-10 09:58:07.944 20608:20634 D/SocketService ]
+start to run current thread!id:4148
+
+[ 12-10 09:58:07.944 20608:20634 D/SocketService ]
+current thread is runing!id:4148
+
+[ 12-10 09:58:08.004 20608:23896 D/SocketService ]
+ip/10.26.66.90 lport:52831 p:143
+
+[ 12-10 09:58:08.004 20608:23896 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:658
+
+[ 12-10 09:58:08.004 20608:23896 D/SocketService ]
+success to connect server!id:4148 bLogin:false
+
+[ 12-10 09:58:09.004 20608:23896 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:669
+
+[ 12-10 09:58:10.014 20608:23896 D/SocketService ]
+current thread is runing!id:4148
+
+[ 12-10 09:58:17.944 20608:20634 D/SocketService ]
+start to run current thread!id:4150
+
+[ 12-10 09:58:17.944 20608:20634 D/SocketService ]
+current thread is runing!id:4150
+
+[ 12-10 09:58:18.234 20608:23973 D/SocketService ]
+ip/10.26.66.90 lport:50442 p:143
+
+[ 12-10 09:58:18.234 20608:23973 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:703
+
+[ 12-10 09:58:18.234 20608:23973 D/SocketService ]
+success to connect server!id:4150 bLogin:false
+
+[ 12-10 09:58:19.244 20608:23973 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:714
+
+[ 12-10 09:58:20.244 20608:23973 D/SocketService ]
+current thread is runing!id:4150
+
+[ 12-10 09:58:27.944 20608:20634 D/SocketService ]
+start to run current thread!id:4152
+
+[ 12-10 09:58:27.944 20608:20634 D/SocketService ]
+current thread is runing!id:4152
+
+[ 12-10 09:58:28.034 20608:24035 D/SocketService ]
+ip/10.26.66.90 lport:59390 p:143
+
+[ 12-10 09:58:28.034 20608:24035 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:748
+
+[ 12-10 09:58:28.034 20608:24035 D/SocketService ]
+success to connect server!id:4152 bLogin:false
+
+[ 12-10 09:58:29.034 20608:24035 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:759
+
+[ 12-10 09:58:30.034 20608:24035 D/SocketService ]
+current thread is runing!id:4152
+
+[ 12-10 09:58:37.954 20608:20634 D/SocketService ]
+start to run current thread!id:4154
+
+[ 12-10 09:58:37.954 20608:20634 D/SocketService ]
+current thread is runing!id:4154
+
+[ 12-10 09:58:38.024 20608:24098 D/SocketService ]
+ip/10.26.66.90 lport:44950 p:143
+
+[ 12-10 09:58:38.024 20608:24098 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:793
+
+[ 12-10 09:58:38.024 20608:24098 D/SocketService ]
+success to connect server!id:4154 bLogin:false
+
+[ 12-10 09:58:39.024 20608:24098 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:804
+
+[ 12-10 09:58:40.024 20608:24098 D/SocketService ]
+current thread is runing!id:4154
+
+[ 12-10 09:58:47.954 20608:20634 D/SocketService ]
+start to run current thread!id:4156
+
+[ 12-10 09:58:47.954 20608:20634 D/SocketService ]
+current thread is runing!id:4156
+
+[ 12-10 09:58:48.034 20608:24164 D/SocketService ]
+ip/10.26.66.90 lport:33960 p:143
+
+[ 12-10 09:58:48.044 20608:24164 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:838
+
+[ 12-10 09:58:48.044 20608:24164 D/SocketService ]
+success to connect server!id:4156 bLogin:false
+
+[ 12-10 09:58:49.044 20608:24164 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:849
+
+[ 12-10 09:58:50.044 20608:24164 D/SocketService ]
+current thread is runing!id:4156
+
+[ 12-10 09:58:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4158
+
+[ 12-10 09:58:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4158
+
+[ 12-10 09:58:58.044 20608:24219 D/SocketService ]
+ip/10.26.66.90 lport:49758 p:143
+
+[ 12-10 09:58:58.044 20608:24219 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:883
+
+[ 12-10 09:58:58.044 20608:24219 D/SocketService ]
+success to connect server!id:4158 bLogin:false
+
+[ 12-10 09:58:59.044 20608:24219 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:894
+
+[ 12-10 09:59:00.044 20608:24219 D/SocketService ]
+current thread is runing!id:4158
+
+[ 12-10 09:59:07.944 20608:20634 D/SocketService ]
+start to run current thread!id:4160
+
+[ 12-10 09:59:07.944 20608:20634 D/SocketService ]
+current thread is runing!id:4160
+
+[ 12-10 09:59:08.024 20608:24280 D/SocketService ]
+ip/10.26.66.90 lport:33923 p:143
+
+[ 12-10 09:59:08.034 20608:24280 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:928
+
+[ 12-10 09:59:08.034 20608:24280 D/SocketService ]
+success to connect server!id:4160 bLogin:false
+
+[ 12-10 09:59:09.034 20608:24280 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:939
+
+[ 12-10 09:59:10.034 20608:24280 D/SocketService ]
+current thread is runing!id:4160
+
+[ 12-10 09:59:17.954 20608:20634 D/SocketService ]
+start to run current thread!id:4162
+
+[ 12-10 09:59:17.954 20608:20634 D/SocketService ]
+current thread is runing!id:4162
+
+[ 12-10 09:59:18.024 20608:24345 D/SocketService ]
+ip/10.26.66.90 lport:41369 p:143
+
+[ 12-10 09:59:18.024 20608:24345 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:973
+
+[ 12-10 09:59:18.024 20608:24345 D/SocketService ]
+success to connect server!id:4162 bLogin:false
+
+[ 12-10 09:59:19.024 20608:24345 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:984
+
+[ 12-10 09:59:20.034 20608:24345 D/SocketService ]
+current thread is runing!id:4162
+
+[ 12-10 09:59:27.944 20608:20634 D/SocketService ]
+start to run current thread!id:4164
+
+[ 12-10 09:59:27.954 20608:20634 D/SocketService ]
+current thread is runing!id:4164
+
+[ 12-10 09:59:28.004 20608:24415 D/SocketService ]
+ip/10.26.66.90 lport:52710 p:143
+
+[ 12-10 09:59:28.004 20608:24415 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1018
+
+[ 12-10 09:59:28.004 20608:24415 D/SocketService ]
+success to connect server!id:4164 bLogin:false
+
+[ 12-10 09:59:29.014 20608:24415 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1029
+
+[ 12-10 09:59:30.014 20608:24415 D/SocketService ]
+current thread is runing!id:4164
+
+[ 12-10 09:59:37.944 20608:20634 D/SocketService ]
+start to run current thread!id:4166
+
+[ 12-10 09:59:37.954 20608:20634 D/SocketService ]
+current thread is runing!id:4166
+
+[ 12-10 09:59:38.044 20608:24481 D/SocketService ]
+ip/10.26.66.90 lport:44253 p:143
+
+[ 12-10 09:59:38.054 20608:24481 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1063
+
+[ 12-10 09:59:38.054 20608:24481 D/SocketService ]
+success to connect server!id:4166 bLogin:false
+
+[ 12-10 09:59:39.054 20608:24481 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1074
+
+[ 12-10 09:59:40.054 20608:24481 D/SocketService ]
+current thread is runing!id:4166
+
+[ 12-10 09:59:47.944 20608:20634 D/SocketService ]
+start to run current thread!id:4168
+
+[ 12-10 09:59:47.944 20608:20634 D/SocketService ]
+current thread is runing!id:4168
+
+[ 12-10 09:59:48.014 20608:24543 D/SocketService ]
+ip/10.26.66.90 lport:56650 p:143
+
+[ 12-10 09:59:48.024 20608:24543 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1108
+
+[ 12-10 09:59:48.024 20608:24543 D/SocketService ]
+success to connect server!id:4168 bLogin:false
+
+[ 12-10 09:59:49.024 20608:24543 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1119
+
+[ 12-10 09:59:50.024 20608:24543 D/SocketService ]
+current thread is runing!id:4168
+
+[ 12-10 09:59:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4170
+
+[ 12-10 09:59:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4170
+
+[ 12-10 09:59:58.024 20608:24589 D/SocketService ]
+ip/10.26.66.90 lport:53920 p:143
+
+[ 12-10 09:59:58.024 20608:24589 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1153
+
+[ 12-10 09:59:58.024 20608:24589 D/SocketService ]
+success to connect server!id:4170 bLogin:false
+
+[ 12-10 09:59:59.024 20608:24589 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1164
+
+[ 12-10 10:00:00.024 20608:24589 D/SocketService ]
+current thread is runing!id:4170
+
+[ 12-10 10:00:07.954 20608:20634 D/SocketService ]
+start to run current thread!id:4172
+
+[ 12-10 10:00:07.954 20608:20634 D/SocketService ]
+current thread is runing!id:4172
+
+[ 12-10 10:00:08.014 20608:24634 D/SocketService ]
+ip/10.26.66.90 lport:46410 p:143
+
+[ 12-10 10:00:08.014 20608:24634 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1198
+
+[ 12-10 10:00:08.014 20608:24634 D/SocketService ]
+success to connect server!id:4172 bLogin:false
+
+[ 12-10 10:00:09.014 20608:24634 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1209
+
+[ 12-10 10:00:10.014 20608:24634 D/SocketService ]
+current thread is runing!id:4172
+
+[ 12-10 10:00:17.954 20608:20634 D/SocketService ]
+start to run current thread!id:4174
+
+[ 12-10 10:00:17.954 20608:20634 D/SocketService ]
+current thread is runing!id:4174
+
+[ 12-10 10:00:18.064 20608:24701 D/SocketService ]
+ip/10.26.66.90 lport:38809 p:143
+
+[ 12-10 10:00:18.074 20608:24701 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1243
+
+[ 12-10 10:00:18.074 20608:24701 D/SocketService ]
+success to connect server!id:4174 bLogin:false
+
+[ 12-10 10:00:19.074 20608:24701 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1254
+
+[ 12-10 10:00:20.094 20608:24701 D/SocketService ]
+current thread is runing!id:4174
+
+[ 12-10 10:00:27.954 20608:20634 D/SocketService ]
+start to run current thread!id:4176
+
+[ 12-10 10:00:27.954 20608:20634 D/SocketService ]
+current thread is runing!id:4176
+
+[ 12-10 10:00:28.034 20608:24748 D/SocketService ]
+ip/10.26.66.90 lport:54089 p:143
+
+[ 12-10 10:00:28.044 20608:24748 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1288
+
+[ 12-10 10:00:28.044 20608:24748 D/SocketService ]
+success to connect server!id:4176 bLogin:false
+
+[ 12-10 10:00:29.044 20608:24748 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1299
+
+[ 12-10 10:00:30.044 20608:24748 D/SocketService ]
+current thread is runing!id:4176
+
+[ 12-10 10:00:37.954 20608:20634 D/SocketService ]
+start to run current thread!id:4178
+
+[ 12-10 10:00:37.954 20608:20634 D/SocketService ]
+current thread is runing!id:4178
+
+[ 12-10 10:00:38.024 20608:24802 D/SocketService ]
+ip/10.26.66.90 lport:33476 p:143
+
+[ 12-10 10:00:38.034 20608:24802 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1333
+
+[ 12-10 10:00:38.034 20608:24802 D/SocketService ]
+success to connect server!id:4178 bLogin:false
+
+[ 12-10 10:00:39.034 20608:24802 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1344
+
+[ 12-10 10:00:40.034 20608:24802 D/SocketService ]
+current thread is runing!id:4178
+
+[ 12-10 10:00:47.954 20608:20634 D/SocketService ]
+start to run current thread!id:4180
+
+[ 12-10 10:00:47.964 20608:20634 D/SocketService ]
+current thread is runing!id:4180
+
+[ 12-10 10:00:48.004 20608:24870 D/SocketService ]
+ip/10.26.66.90 lport:53895 p:143
+
+[ 12-10 10:00:48.014 20608:24870 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1378
+
+[ 12-10 10:00:48.014 20608:24870 D/SocketService ]
+success to connect server!id:4180 bLogin:false
+
+[ 12-10 10:00:49.014 20608:24870 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1389
+
+[ 12-10 10:00:50.014 20608:24870 D/SocketService ]
+current thread is runing!id:4180
+
+[ 12-10 10:00:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4182
+
+[ 12-10 10:00:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4182
+
+[ 12-10 10:00:58.104 20608:24921 D/SocketService ]
+ip/10.26.66.90 lport:37119 p:143
+
+[ 12-10 10:00:58.104 20608:24921 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1423
+
+[ 12-10 10:00:58.104 20608:24921 D/SocketService ]
+success to connect server!id:4182 bLogin:false
+
+[ 12-10 10:00:59.104 20608:24921 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1434
+
+[ 12-10 10:01:00.104 20608:24921 D/SocketService ]
+current thread is runing!id:4182
+
+[ 12-10 10:01:07.954 20608:20634 D/SocketService ]
+start to run current thread!id:4184
+
+[ 12-10 10:01:07.954 20608:20634 D/SocketService ]
+current thread is runing!id:4184
+
+[ 12-10 10:01:08.014 20608:24981 D/SocketService ]
+ip/10.26.66.90 lport:48007 p:143
+
+[ 12-10 10:01:08.024 20608:24981 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1468
+
+[ 12-10 10:01:08.024 20608:24981 D/SocketService ]
+success to connect server!id:4184 bLogin:false
+
+[ 12-10 10:01:09.024 20608:24981 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1479
+
+[ 12-10 10:01:10.024 20608:24981 D/SocketService ]
+current thread is runing!id:4184
+
+[ 12-10 10:01:17.954 20608:20634 D/SocketService ]
+start to run current thread!id:4186
+
+[ 12-10 10:01:17.954 20608:20634 D/SocketService ]
+current thread is runing!id:4186
+
+[ 12-10 10:01:18.034 20608:25028 D/SocketService ]
+ip/10.26.66.90 lport:46383 p:143
+
+[ 12-10 10:01:18.034 20608:25028 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1513
+
+[ 12-10 10:01:18.034 20608:25028 D/SocketService ]
+success to connect server!id:4186 bLogin:false
+
+[ 12-10 10:01:19.034 20608:25028 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1524
+
+[ 12-10 10:01:20.034 20608:25028 D/SocketService ]
+current thread is runing!id:4186
+
+[ 12-10 10:01:27.954 20608:20634 D/SocketService ]
+start to run current thread!id:4188
+
+[ 12-10 10:01:27.954 20608:20634 D/SocketService ]
+current thread is runing!id:4188
+
+[ 12-10 10:01:28.004 20608:25071 D/SocketService ]
+ip/10.26.66.90 lport:41953 p:143
+
+[ 12-10 10:01:28.014 20608:25071 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1558
+
+[ 12-10 10:01:28.014 20608:25071 D/SocketService ]
+success to connect server!id:4188 bLogin:false
+
+[ 12-10 10:01:29.014 20608:25071 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1569
+
+[ 12-10 10:01:30.014 20608:25071 D/SocketService ]
+current thread is runing!id:4188
+
+[ 12-10 10:01:37.954 20608:20634 D/SocketService ]
+start to run current thread!id:4190
+
+[ 12-10 10:01:37.954 20608:20634 D/SocketService ]
+current thread is runing!id:4190
+
+[ 12-10 10:01:38.064 20608:25114 D/SocketService ]
+ip/10.26.66.90 lport:55014 p:143
+
+[ 12-10 10:01:38.064 20608:25114 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1603
+
+[ 12-10 10:01:38.064 20608:25114 D/SocketService ]
+success to connect server!id:4190 bLogin:false
+
+[ 12-10 10:01:39.064 20608:25114 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1614
+
+[ 12-10 10:01:40.074 20608:25114 D/SocketService ]
+current thread is runing!id:4190
+
+[ 12-10 10:01:47.954 20608:20634 D/SocketService ]
+start to run current thread!id:4192
+
+[ 12-10 10:01:47.954 20608:20634 D/SocketService ]
+current thread is runing!id:4192
+
+[ 12-10 10:01:48.034 20608:25170 D/SocketService ]
+ip/10.26.66.90 lport:52906 p:143
+
+[ 12-10 10:01:48.044 20608:25170 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1648
+
+[ 12-10 10:01:48.044 20608:25170 D/SocketService ]
+success to connect server!id:4192 bLogin:false
+
+[ 12-10 10:01:49.044 20608:25170 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1659
+
+[ 12-10 10:01:50.044 20608:25170 D/SocketService ]
+current thread is runing!id:4192
+
+[ 12-10 10:01:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4194
+
+[ 12-10 10:01:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4194
+
+[ 12-10 10:01:58.044 20608:25227 D/SocketService ]
+ip/10.26.66.90 lport:37804 p:143
+
+[ 12-10 10:01:58.044 20608:25227 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1693
+
+[ 12-10 10:01:58.044 20608:25227 D/SocketService ]
+success to connect server!id:4194 bLogin:false
+
+[ 12-10 10:01:59.044 20608:25227 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1704
+
+[ 12-10 10:02:00.044 20608:25227 D/SocketService ]
+current thread is runing!id:4194
+
+[ 12-10 10:02:07.954 20608:20634 D/SocketService ]
+start to run current thread!id:4196
+
+[ 12-10 10:02:07.954 20608:20634 D/SocketService ]
+current thread is runing!id:4196
+
+[ 12-10 10:02:08.014 20608:25276 D/SocketService ]
+ip/10.26.66.90 lport:38278 p:143
+
+[ 12-10 10:02:08.014 20608:25276 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1738
+
+[ 12-10 10:02:08.014 20608:25276 D/SocketService ]
+success to connect server!id:4196 bLogin:false
+
+[ 12-10 10:02:09.014 20608:25276 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1749
+
+[ 12-10 10:02:10.014 20608:25276 D/SocketService ]
+current thread is runing!id:4196
+
+[ 12-10 10:02:17.954 20608:20634 D/SocketService ]
+start to run current thread!id:4198
+
+[ 12-10 10:02:17.954 20608:20634 D/SocketService ]
+current thread is runing!id:4198
+
+[ 12-10 10:02:18.064 20608:25320 D/SocketService ]
+ip/10.26.66.90 lport:42441 p:143
+
+[ 12-10 10:02:18.064 20608:25320 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1783
+
+[ 12-10 10:02:18.064 20608:25320 D/SocketService ]
+success to connect server!id:4198 bLogin:false
+
+[ 12-10 10:02:19.064 20608:25320 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1794
+
+[ 12-10 10:02:20.064 20608:25320 D/SocketService ]
+current thread is runing!id:4198
+
+[ 12-10 10:02:27.954 20608:20634 D/SocketService ]
+start to run current thread!id:4200
+
+[ 12-10 10:02:27.954 20608:20634 D/SocketService ]
+current thread is runing!id:4200
+
+[ 12-10 10:02:28.024 20608:25371 D/SocketService ]
+ip/10.26.66.90 lport:59609 p:143
+
+[ 12-10 10:02:28.024 20608:25371 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1828
+
+[ 12-10 10:02:28.034 20608:25371 D/SocketService ]
+success to connect server!id:4200 bLogin:false
+
+[ 12-10 10:02:28.064 20608:23438 D/SocketService ]
+InputStreamThread:java.net.SocketException: recvfrom failed: ECONNRESET (Connection reset by peer)
+
+[ 12-10 10:02:28.064 20608:23438 D/SocketService ]
+current thread is runing!id:4200
+
+[ 12-10 10:02:28.074 20608:23665 W/art      ]
+No such thread id for suspend: 34
+
+[ 12-10 10:02:28.084 20608:24281 W/art      ]
+No such thread id for suspend: 34
+
+[ 12-10 10:02:28.084 20608:23502 W/art      ]
+No such thread id for suspend: 37
+
+[ 12-10 10:02:28.084 20608:24036 W/art      ]
+No such thread id for suspend: 37
+
+[ 12-10 10:02:28.084 20608:25029 W/art      ]
+No such thread id for suspend: 37
+
+[ 12-10 10:02:28.084 20608:24590 W/art      ]
+No such thread id for suspend: 37
+
+[ 12-10 10:02:28.094 20608:24982 W/art      ]
+No such thread id for suspend: 27
+
+[ 12-10 10:02:28.094 20608:23831 W/art      ]
+No such thread id for suspend: 54
+
+[ 12-10 10:02:28.094 20608:23365 W/art      ]
+No such thread id for suspend: 46
+
+[ 12-10 10:02:28.094 20608:24636 W/art      ]
+No such thread id for suspend: 27
+
+[ 12-10 10:02:28.094 20608:25372 W/art      ]
+No such thread id for suspend: 27
+
+[ 12-10 10:02:28.094 20608:24346 W/art      ]
+No such thread id for suspend: 54
+
+[ 12-10 10:02:28.094 20608:24416 W/art      ]
+No such thread id for suspend: 27
+
+[ 12-10 10:02:28.094 20608:24924 W/art      ]
+No such thread id for suspend: 27
+
+[ 12-10 10:02:28.094 20608:20640 W/art      ]
+No such thread id for suspend: 54
+
+[ 12-10 10:02:28.094 20608:24482 W/art      ]
+No such thread id for suspend: 31
+
+[ 12-10 10:02:28.094 20608:25072 W/art      ]
+No such thread id for suspend: 31
+
+[ 12-10 10:02:28.094 20608:23719 W/art      ]
+No such thread id for suspend: 31
+
+[ 12-10 10:02:28.094 20608:25277 W/art      ]
+No such thread id for suspend: 56
+
+[ 12-10 10:02:28.094 20608:24871 W/art      ]
+No such thread id for suspend: 31
+
+[ 12-10 10:02:28.094 20608:25171 W/art      ]
+No such thread id for suspend: 31
+
+[ 12-10 10:02:29.034 20608:25371 D/SocketService ]
+current thread is runing!id:4200
+
+[ 12-10 10:02:30.034 20608:25371 D/SocketService ]
+current thread is runing!id:4200
+
+[ 12-10 10:02:37.964 20608:20634 D/SocketService ]
+start to run current thread!id:4202
+
+[ 12-10 10:02:37.964 20608:20634 D/SocketService ]
+current thread is runing!id:4202
+
+[ 12-10 10:02:38.034 20608:25460 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-10 10:02:47.954 20608:20634 D/SocketService ]
+start to run current thread!id:4203
+
+[ 12-10 10:02:47.964 20608:20634 D/SocketService ]
+current thread is runing!id:4203
+
+[ 12-10 10:02:48.034 20608:25504 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-10 10:02:57.954 20608:20634 D/SocketService ]
+start to run current thread!id:4204
+
+[ 12-10 10:02:57.954 20608:20634 D/SocketService ]
+current thread is runing!id:4204
+
+[ 12-10 10:02:58.054 20608:25550 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-10 10:03:07.964 20608:20634 D/SocketService ]
+start to run current thread!id:4205
+
+[ 12-10 10:03:07.964 20608:20634 D/SocketService ]
+current thread is runing!id:4205
+
+[ 12-10 10:03:08.014 20608:25583 D/SocketService ]
+ip/10.26.66.90 lport:39260 p:143
+
+[ 12-10 10:03:08.014 20608:25583 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1862
+
+[ 12-10 10:03:08.014 20608:25583 D/SocketService ]
+success to connect server!id:4205 bLogin:false
+
+[ 12-10 10:03:09.014 20608:25583 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1873
+
+[ 12-10 10:03:10.024 20608:25583 D/SocketService ]
+current thread is runing!id:4205
+
+[ 12-10 10:03:17.954 20608:20634 D/SocketService ]
+start to run current thread!id:4207
+
+[ 12-10 10:03:17.954 20608:20634 D/SocketService ]
+current thread is runing!id:4207
+
+[ 12-10 10:03:18.094 20608:25651 D/SocketService ]
+ip/10.26.66.90 lport:33408 p:143
+
+[ 12-10 10:03:18.094 20608:25651 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1907
+
+[ 12-10 10:03:18.094 20608:25651 D/SocketService ]
+success to connect server!id:4207 bLogin:false
+
+[ 12-10 10:03:19.094 20608:25651 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1918
+
+[ 12-10 10:03:20.094 20608:25651 D/SocketService ]
+current thread is runing!id:4207
+
+[ 12-10 10:03:27.964 20608:20634 D/SocketService ]
+start to run current thread!id:4209
+
+[ 12-10 10:03:27.964 20608:20634 D/SocketService ]
+current thread is runing!id:4209
+
+[ 12-10 10:03:28.044 20608:25694 D/SocketService ]
+ip/10.26.66.90 lport:45033 p:143
+
+[ 12-10 10:03:28.044 20608:25694 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1952
+
+[ 12-10 10:03:28.044 20608:25694 D/SocketService ]
+success to connect server!id:4209 bLogin:false
+
+[ 12-10 10:03:29.044 20608:25694 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:1963
+
+[ 12-10 10:03:30.044 20608:25694 D/SocketService ]
+current thread is runing!id:4209
+
+[ 12-10 10:03:37.954 20608:20634 D/SocketService ]
+start to run current thread!id:4211
+
+[ 12-10 10:03:37.964 20608:20634 D/SocketService ]
+current thread is runing!id:4211
+
+[ 12-10 10:03:38.024 20608:25732 D/SocketService ]
+ip/10.26.66.90 lport:50938 p:143
+
+[ 12-10 10:03:38.034 20608:25732 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:1997
+
+[ 12-10 10:03:38.034 20608:25732 D/SocketService ]
+success to connect server!id:4211 bLogin:false
+
+[ 12-10 10:03:39.034 20608:25732 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:2008
+
+[ 12-10 10:03:40.034 20608:25732 D/SocketService ]
+current thread is runing!id:4211
+
+[ 12-10 10:03:47.964 20608:20634 D/SocketService ]
+start to run current thread!id:4213
+
+[ 12-10 10:03:47.964 20608:20634 D/SocketService ]
+current thread is runing!id:4213
+
+[ 12-10 10:03:48.034 20608:25780 D/SocketService ]
+ip/10.26.66.90 lport:55981 p:143
+
+[ 12-10 10:03:48.034 20608:25780 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:2042
+
+[ 12-10 10:03:48.034 20608:25780 D/SocketService ]
+success to connect server!id:4213 bLogin:false
+
+[ 12-10 10:03:49.034 20608:25780 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:2053
+
+[ 12-10 10:03:50.044 20608:25780 D/SocketService ]
+current thread is runing!id:4213
+
+[ 12-10 10:03:57.964 20608:20634 D/SocketService ]
+start to run current thread!id:4215
+
+[ 12-10 10:03:57.964 20608:20634 D/SocketService ]
+current thread is runing!id:4215
+
+[ 12-10 10:03:58.034 20608:25827 D/SocketService ]
+ip/10.26.66.90 lport:57023 p:143
+
+[ 12-10 10:03:58.044 20608:25827 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:2087
+
+[ 12-10 10:03:58.044 20608:25827 D/SocketService ]
+success to connect server!id:4215 bLogin:false
+
+[ 12-10 10:03:59.044 20608:25827 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:2098
+
+[ 12-10 10:04:00.044 20608:25827 D/SocketService ]
+current thread is runing!id:4215
+
+[ 12-10 10:04:07.964 20608:20634 D/SocketService ]
+start to run current thread!id:4217
+
+[ 12-10 10:04:07.964 20608:20634 D/SocketService ]
+current thread is runing!id:4217
+
+[ 12-10 10:04:08.004 20608:25876 D/SocketService ]
+ip/10.26.66.90 lport:51707 p:143
+
+[ 12-10 10:04:08.014 20608:25876 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:2132
+
+[ 12-10 10:04:08.014 20608:25876 D/SocketService ]
+success to connect server!id:4217 bLogin:false
+
+[ 12-10 10:04:09.014 20608:25876 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:2143
+
+[ 12-10 10:04:10.024 20608:25876 D/SocketService ]
+current thread is runing!id:4217
+
+[ 12-10 10:04:17.964 20608:20634 D/SocketService ]
+start to run current thread!id:4219
+
+[ 12-10 10:04:17.964 20608:20634 D/SocketService ]
+current thread is runing!id:4219
+
+[ 12-10 10:04:18.054 20608:25936 D/SocketService ]
+ip/10.26.66.90 lport:58520 p:143
+
+[ 12-10 10:04:18.054 20608:25936 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:2177
+
+[ 12-10 10:04:18.054 20608:25936 D/SocketService ]
+success to connect server!id:4219 bLogin:false
+
+[ 12-10 10:04:19.054 20608:25936 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:2188
+
+[ 12-10 10:04:20.054 20608:25936 D/SocketService ]
+current thread is runing!id:4219
+

@@ -1,0 +1,1553 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:03:34.170 21160:0x52a8 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:835)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:606)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1533)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1513)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1507)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5303)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1088)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2304)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2392)
+	at android.app.ActivityThread.access$800(ActivityThread.java:153)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1323)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+--------- beginning of /dev/log/main
+[ 12-10 10:13:21.354 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:22.557 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:23.364 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:24.558 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:25.370 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:26.425 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7b6207e0, delegate = 0x7b8ba030
+
+
+[ 12-10 10:13:26.426 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:13:26.440 25307:0x62db D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:13:26.451 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.453 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.491 25307:0x636a I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:13:26.491 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:26.495 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.497 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.500 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.500 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.513 25307:0x62db D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:13:26.514 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:13:26.524 25307:0x637a D/libc-netbsd ]
+getaddrinfo: www.baidu.com get result from proxy >>
+
+
+[ 12-10 10:13:26.530 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:26.534 25307:0x62db D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:13:26.534 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:13:26.558 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:26.701 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.735 25307:0x62db D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:13:26.768 25307:0x62db D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:13:26.768 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:13:26.768 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:26.768 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:13:26.773 25307:0x62db D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:13:26.791 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713606789
+
+[ 12-10 10:13:26.792 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713606789
+
+[ 12-10 10:13:26.855 25307:0x62db D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:13:26.915 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.915 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.915 25307:0x62db D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:13:26.917 25307:0x62db D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:13:26.920 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7b8c1110] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:26.921 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:13:26.921 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:26.921 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:13:26.952 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:26.954 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:26.954 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:26.956 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:26.957 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:26.959 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:27.371 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:28.252 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713607807
+
+[ 12-10 10:13:28.559 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:29.372 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:30.559 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:31.374 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:31.384 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x805e45e8, delegate = 0x7fabe120
+
+
+[ 12-10 10:13:31.384 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:13:31.403 25307:0x62db D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:13:31.476 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.477 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:31.493 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.515 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:31.524 25307:0x636a I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:13:31.536 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.537 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.538 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.539 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.552 25307:0x62db D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:13:31.553 25307:0x62db D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:13:31.553 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:13:31.562 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:13:31.647 25307:0x62db D/WebViewCallback ]
+onProgressChanged=52
+
+[ 12-10 10:13:31.647 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.749 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713611746
+
+[ 12-10 10:13:31.750 25307:0x62db D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:13:31.751 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:13:31.751 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:31.752 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:13:31.753 25307:0x62db D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:13:31.771 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713611746
+
+[ 12-10 10:13:31.818 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.818 25307:0x62db D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:13:31.818 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.821 25307:0x62db D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:13:31.824 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x83ee9ef0] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:31.825 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:13:31.826 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:31.826 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:13:31.849 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:31.850 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:31.855 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:31.856 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:31.859 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:31.859 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:32.559 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:33.380 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:33.630 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713613226
+
+[ 12-10 10:13:34.559 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:35.381 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:36.556 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7b8c0240, delegate = 0x7f7bdd88
+
+
+[ 12-10 10:13:36.556 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:13:36.561 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:36.573 25307:0x62db D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:13:36.637 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.641 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.641 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:36.675 25307:0x636a I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:13:36.676 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.677 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.677 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.677 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.697 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:36.709 25307:0x62db D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:13:36.710 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:13:36.727 25307:0x62db D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:13:36.727 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:13:36.804 25307:0x62db D/WebViewCallback ]
+onProgressChanged=40
+
+[ 12-10 10:13:36.807 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.857 25307:0x62db D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:13:36.858 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:13:36.858 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:36.858 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:13:36.872 25307:0x62db D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:13:36.902 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713616897
+
+[ 12-10 10:13:36.903 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713616897
+
+[ 12-10 10:13:36.953 25307:0x62db D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:13:36.983 25307:0x62db D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:13:36.983 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.983 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.985 25307:0x62db D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:13:36.988 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f4c6728] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:36.990 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:13:36.990 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:36.990 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:13:37.077 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:37.081 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:37.084 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:37.086 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:37.100 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:37.103 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:37.363 25330:0x6306 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 10:13:37.381 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:37.438 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 10:13:37.516 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:13:38.562 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:38.826 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713618415
+
+[ 12-10 10:13:39.382 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:40.562 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:41.335 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f48a6b8, delegate = 0x7fac9958
+
+
+[ 12-10 10:13:41.336 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:13:41.357 25307:0x62db D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:13:41.383 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:41.451 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.453 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.477 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:41.505 25307:0x636a I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:13:41.509 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.510 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.511 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.512 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.529 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:13:41.539 25307:0x62db D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:13:41.539 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:13:41.561 25307:0x62db D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:13:41.562 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:13:41.641 25307:0x62db D/WebViewCallback ]
+onProgressChanged=19
+
+[ 12-10 10:13:41.643 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.716 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713621713
+
+[ 12-10 10:13:41.717 25307:0x62db D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:13:41.718 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:13:41.718 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:41.718 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:13:41.719 25307:0x62db D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:13:41.745 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713621713
+
+[ 12-10 10:13:41.780 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.780 25307:0x62db D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:13:41.781 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.782 25307:0x62db D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:13:41.784 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f46ff28] pageScaleFactor=[1.000000]
+
+[ 12-10 10:13:41.785 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:13:41.785 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:13:41.786 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:13:41.809 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:41.811 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:41.812 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:41.812 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:13:41.815 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:41.817 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:13:42.562 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:43.383 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:43.512 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713623093
+
+[ 12-10 10:13:44.563 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:45.384 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:46.563 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:47.340 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:13:47.385 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:47.694 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:13:48.407 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:13:48.563 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:49.386 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:49.544 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:13:50.564 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:51.386 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:52.564 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:53.386 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:54.564 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:55.388 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:56.564 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:57.388 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:58.564 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:13:59.388 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:00.565 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:00.919 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f403f80, delegate = 0x7f498400
+
+
+[ 12-10 10:14:00.919 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 10:14:00.938 25307:0x62db D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 10:14:00.951 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:00.953 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.008 25307:0x636a I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 10:14:01.010 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:14:01.012 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.014 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.024 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.024 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.033 25307:0x62db D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 10:14:01.033 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://www.baidu.com/
+
+[ 12-10 10:14:01.044 25307:0x62db W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:14:01.067 25307:0x62db D/WebViewCallback ]
+onPageStarted=http://www.baidu.com/
+
+[ 12-10 10:14:01.068 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://www.baidu.com/
+
+[ 12-10 10:14:01.138 25307:0x62db D/WebViewCallback ]
+onProgressChanged=40
+
+[ 12-10 10:14:01.139 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.182 25307:0x62db D/WebViewCallback ]
+doUpdateVisitedHistory=http://www.baidu.com/ reload=false
+
+[ 12-10 10:14:01.183 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 10:14:01.183 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:14:01.183 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 10:14:01.244 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713641241
+
+[ 12-10 10:14:01.253 25307:0x62db D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 10:14:01.255 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://112.80.10.188:9090/tlbsserver/jsreq?tid=21&cid=3&time=1449713641241
+
+[ 12-10 10:14:01.288 25307:0x62db D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 10:14:01.306 25307:0x62db D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 10:14:01.306 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.307 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.308 25307:0x62db D/WebViewCallback ]
+onPageFinished=http://www.baidu.com/
+
+[ 12-10 10:14:01.314 25307:0x636a I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7f7bb4b8] pageScaleFactor=[1.000000]
+
+[ 12-10 10:14:01.314 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 10:14:01.315 25307:0x62db W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 10:14:01.315 25307:0x62db W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 10:14:01.337 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:14:01.339 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:14:01.342 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:6259/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:14:01.346 25307:0x6362 D/WebViewCallback ]
+shouldInterceptRequest=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:14:01.346 25307:0x62db D/WebViewCallback ]
+onLoadResource=http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test
+
+[ 12-10 10:14:01.348 25307:0x6362 W/chromium ]
+[WARNING:aw_network_delegate.cc(66)] http://127.0.0.1:40310/getapn?callback=getapn&mcmdf=inapp_test#-102#1
+
+
+[ 12-10 10:14:01.389 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:02.565 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:02.582 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713642059
+
+[ 12-10 10:14:03.390 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:04.565 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:05.390 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:06.566 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:07.391 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:08.566 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:09.391 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:10.566 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:11.391 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:12.566 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:13.391 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:14.566 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:15.392 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:16.567 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:17.363 25330:0x6306 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-10 10:14:17.392 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:17.506 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 10:14:17.548 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:14:18.567 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:18.891 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:14:19.393 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:20.039 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230801
+
+[ 12-10 10:14:20.567 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:21.393 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:22.567 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:23.076 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230802
+
+[ 12-10 10:14:23.394 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:24.568 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:25.395 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:26.568 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:27.395 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:28.568 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:29.395 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:30.568 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:31.396 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:32.568 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:33.396 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:34.572 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:35.396 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:36.572 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:37.397 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:38.572 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:39.397 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:40.572 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:41.397 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:42.578 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:43.398 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:44.578 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:45.367 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230802
+
+[ 12-10 10:14:45.398 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:46.579 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:47.067 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230801
+
+[ 12-10 10:14:47.399 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:48.579 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:48.841 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230800
+
+[ 12-10 10:14:49.399 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:50.579 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:51.152 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:14:51.158 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:14:51.174 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:120
+
+[ 12-10 10:14:51.240 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:791
+
+[ 12-10 10:14:51.406 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:51.994 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:791 HeadIndex:774 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:14:52.579 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:53.406 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:54.579 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:55.231 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:14:55.236 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:14:55.241 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:131
+
+[ 12-10 10:14:55.407 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:808
+
+[ 12-10 10:14:55.407 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:56.008 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:808 HeadIndex:791 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:14:56.580 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:57.412 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:58.580 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:14:59.414 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:00.581 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:00.589 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:15:00.595 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:15:00.607 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:142
+
+[ 12-10 10:15:00.762 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:825
+
+[ 12-10 10:15:01.026 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:825 HeadIndex:808 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:15:01.414 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:02.581 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:03.273 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:15:03.278 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:15:03.280 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:153
+
+[ 12-10 10:15:03.350 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:842
+
+[ 12-10 10:15:03.414 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:03.950 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713703914
+
+[ 12-10 10:15:04.046 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:842 HeadIndex:825 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:15:04.582 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:05.415 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:06.582 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:07.415 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:08.582 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:09.415 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:10.582 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:10.852 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230802
+
+[ 12-10 10:15:11.415 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:12.582 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:13.416 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:14.583 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:14.859 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:15:15.416 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:15.953 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:15:16.583 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:17.416 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:18.583 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:19.417 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:20.584 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:21.417 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:22.082 25307:0x62db D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{4211a868 V.ED.VC. ......ID 15,15-1047,15 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:15:22.083 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:15:22.087 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:175
+
+[ 12-10 10:15:22.353 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:859
+
+[ 12-10 10:15:22.584 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:23.076 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:859 HeadIndex:842 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:15:23.418 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:24.584 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:25.418 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:26.584 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:27.418 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:27.808 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:15:28.585 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:28.838 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:15:29.419 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:30.585 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:31.419 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:32.585 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:33.419 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:34.585 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:35.419 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:36.586 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:37.420 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:38.586 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:39.420 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:40.586 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:41.420 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:42.586 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:43.421 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:44.586 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:45.323 25307:0x62db D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{4211a868 V.ED.VC. ......ID 15,15-1047,15 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 10:15:45.324 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:15:45.345 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:197
+
+[ 12-10 10:15:45.432 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:45.460 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:876
+
+[ 12-10 10:15:46.092 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:876 HeadIndex:859 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:15:46.587 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:47.226 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:15:47.432 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:48.329 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:15:48.587 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:49.160 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:15:49.432 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:50.587 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:51.433 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:52.587 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:53.433 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:54.588 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:55.443 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:56.588 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:57.444 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:58.588 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:15:59.444 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:00.588 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:01.445 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:02.589 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:02.849 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:16:03.445 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:03.936 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Log:1449713763935
+
+[ 12-10 10:16:04.589 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:05.218 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:16:05.448 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:05.933 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Log:1449713765933
+
+[ 12-10 10:16:06.589 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:07.448 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:08.590 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:09.449 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:10.590 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:11.450 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:12.590 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:13.450 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:14.590 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:15.451 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:16.591 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:17.367 25330:0x6306 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:210
+
+[ 12-10 10:16:17.451 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:17.542 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:13	总帧长:889
+
+[ 12-10 10:16:18.119 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:889 HeadIndex:876 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:16:18.591 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:19.451 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:20.591 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:21.452 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:22.591 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:23.452 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:24.592 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:25.453 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:26.592 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:27.456 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:28.592 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:29.456 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:29.723 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:16:30.592 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:30.943 25307:0x62db D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:16:30.951 25307:0x62db D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:16:30.953 25330:0x62f2 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:221
+
+[ 12-10 10:16:31.140 25330:0x630d D/ForegroundActivity ]
+本次收到帧长:17	总帧长:906
+
+[ 12-10 10:16:31.457 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:32.140 25330:0x6308 D/SocketService1 ]
+本次提取1:LoadPtr:906 HeadIndex:889 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:16:32.593 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:33.458 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:34.456 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713794013
+
+[ 12-10 10:16:34.593 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:35.459 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:36.593 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:37.459 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:38.593 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:39.460 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:40.594 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:41.460 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:42.594 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:43.461 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:44.594 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:45.461 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:46.594 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:47.461 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:48.595 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:49.462 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:50.595 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:51.471 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:52.595 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:53.471 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:54.595 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:55.472 25330:0x62f8 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:56.595 25307:0x62e1 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 10:16:56.745 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Log:1449713816745
+
+[ 12-10 10:16:57.204 25307:0x6314 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713816787
+
+[ 12-10 10:16:57.205 25307:0x6314 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-955
+Process: com.example.myfristandroid, PID: 25307
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

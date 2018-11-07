@@ -1,0 +1,431 @@
+--------- beginning of /dev/log/system
+[ 12-09 16:48:57.921  6495: 6495 W/LoadedApk ]
+perform long-running operations in onReceive, ordered=false ~duration=143ms: com.example.myfristandroid.MainActivity$CmdReceiver@42536be8 Intent { act=SocketService flg=0x10 (has extras) }
+
+[ 12-09 16:49:03.951  6495: 6495 W/LoadedApk ]
+perform long-running operations in onReceive, ordered=false ~duration=129ms: com.example.myfristandroid.MainActivity$CmdReceiver@42536be8 Intent { act=SocketService flg=0x10 (has extras) }
+
+[ 12-09 16:49:27.491  6495: 6495 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42536be8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42536be8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:818)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:603)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1404)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1384)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:446)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5146)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2191)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2282)
+	at android.app.ActivityThread.access$600(ActivityThread.java:147)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1272)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5265)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:760)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 16:51:15.551  9471:10491 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 16:51:15.691  9471:10503 E/external/chromium/net/host_resolver_helper/dyn_lib_loader.cc ]
+netstack: LIB_MGR - Error loading lib qnet-plugin.so
+
+[ 12-09 16:53:38.431 13471:13471 W/LoadedApk ]
+perform long-running operations in onReceive, ordered=false ~duration=123ms: com.example.myfristandroid.MainActivity$CmdReceiver@425495f0 Intent { act=SocketService flg=0x10 (has extras) }
+
+[ 12-09 16:54:12.521 13471:14352 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 16:55:33.281 13471:13471 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@425495f0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@425495f0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:818)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:603)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1404)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1384)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:446)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5146)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2191)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2282)
+	at android.app.ActivityThread.access$600(ActivityThread.java:147)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1272)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5265)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:760)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 16:55:58.641 13471:13526 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4683
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-09 16:58:52.611 18910:20896 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 16:59:25.941 18910:18910 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42549fc8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42549fc8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:818)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:603)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1404)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1384)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:446)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5146)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2191)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2282)
+	at android.app.ActivityThread.access$600(ActivityThread.java:147)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1272)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5265)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:760)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 17:00:03.961 21614:22417 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 17:00:16.581 21614:21675 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4971
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-09 17:00:53.461 22787:22787 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42541760 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42541760 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:818)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:603)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1404)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1384)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:446)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5146)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2191)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2282)
+	at android.app.ActivityThread.access$600(ActivityThread.java:147)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1272)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5265)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:760)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:576)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+--------- beginning of /dev/log/main
+[ 12-09 17:01:59.671 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:01:59.671 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:03.761 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:03.761 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:04.701 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:04.701 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:13.901 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:13.901 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:37.541 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:02:37.541 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:03.911 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:03.911 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:06.131 22787:26987 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 17:03:06.201 22787:27010 E/external/chromium/net/host_resolver_helper/dyn_lib_loader.cc ]
+netstack: LIB_MGR - Error loading lib qnet-plugin.so
+
+[ 12-09 17:03:12.871 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x635149a8, name RenderSVGContainer
+
+[ 12-09 17:03:12.871 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x63514bd8, name RenderSVGContainer
+
+[ 12-09 17:03:12.871 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x63514d50, name RenderSVGContainer
+
+[ 12-09 17:03:12.871 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x635153e0, name RenderSVGPath
+
+[ 12-09 17:03:13.341 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:13.341 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:28.861 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:28.861 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:36.141 22787:22787 W/LoadedApk ]
+perform long-running operations in onReceive, ordered=false ~duration=101ms: com.example.myfristandroid.MainActivity$CmdReceiver@427455d8 Intent { act=SocketService flg=0x10 (has extras) }
+
+[ 12-09 17:03:38.081 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:38.101 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:54.471 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:03:54.471 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:02.491 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:02.491 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:09.471 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:09.471 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:13.921 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:13.921 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:15.111 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:15.111 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:18.551 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:18.551 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:21.531 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:21.531 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:23.201 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:23.201 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:32.961 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x64d375c0, name RenderSVGContainer
+
+[ 12-09 17:04:32.961 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x64d37830, name RenderSVGContainer
+
+[ 12-09 17:04:32.961 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x64d36308, name RenderSVGContainer
+
+[ 12-09 17:04:32.961 22787:26987 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x64d36420, name RenderSVGPath
+
+[ 12-09 17:04:34.061 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:34.061 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:50.071 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:50.071 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:53.721 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:53.721 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:55.981 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:04:55.981 22787:22787 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:04.901 22787:22842 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x417b7940)
+
+[ 12-09 17:05:04.901 22787:22842 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-5013
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-09 17:05:33.631 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:33.631 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:38.311 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:38.311 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:40.091 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:40.091 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:46.531 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:05:46.531 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:11.561 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:11.561 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:12.831 31563:32676 E/external/chromium/net/disk_cache/stat_hub.cc ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-09 17:06:12.881 31563:32689 E/external/chromium/net/host_resolver_helper/dyn_lib_loader.cc ]
+netstack: LIB_MGR - Error loading lib qnet-plugin.so
+
+[ 12-09 17:06:22.361 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ffb3bc0, name RenderSVGContainer
+
+[ 12-09 17:06:22.361 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ffb3e60, name RenderSVGContainer
+
+[ 12-09 17:06:22.361 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ffb4020, name RenderSVGContainer
+
+[ 12-09 17:06:22.361 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x5ffb46c8, name RenderSVGPath
+
+[ 12-09 17:06:22.841 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:22.841 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:43.181 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:43.201 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:45.751 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:45.751 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:50.681 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:06:50.681 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:07:10.421 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x601d3ac0, name RenderSVGContainer
+
+[ 12-09 17:07:10.421 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x601d3d30, name RenderSVGContainer
+
+[ 12-09 17:07:10.421 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x601d2808, name RenderSVGContainer
+
+[ 12-09 17:07:10.421 31563:32676 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x601d2920, name RenderSVGPath
+
+[ 12-09 17:07:10.911 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:07:10.911 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:07:26.821 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:07:26.821 31563:31563 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 17:07:30.391 31563:31619 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x417b7940)
+
+[ 12-09 17:07:30.391 31563:31619 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-5337
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

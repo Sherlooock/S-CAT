@@ -1,0 +1,363 @@
+--------- beginning of /dev/log/system
+[ 12-12 14:58:57.400 29169:0x7236 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-14897
+Process: com.netease.cloudmusic, PID: 29169
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:03:44.729 30415:0x771a E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-14943
+Process: com.netease.cloudmusic, PID: 30415
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:43:15.239 11544:0x2d5b E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-15613
+Process: com.netease.cloudmusic, PID: 11544
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+--------- beginning of /dev/log/main
+[ 12-12 15:50:08.686 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 15:50:09.306 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:09.306 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:09.633 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:50:09.633 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 15:50:09.792 14362:0x381a W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 15:50:09.792 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 15:50:09.792 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 15:50:10.246 14362:0x3844 D/libc-netbsd ]
+getaddrinfo: ip.ws.126.net get result from proxy >>
+
+
+[ 12-12 15:50:10.404 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 15:50:10.404 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 15:50:10.435 14362:0x384b D/libc-netbsd ]
+getaddrinfo: g1.163.com get result from proxy >>
+
+
+[ 12-12 15:50:10.465 14362:0x381a E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 15:50:10.481 14362:0x3850 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:50:10.537 14362:0x3850 E/NativeCrypto ]
+ssl=0x7c7ae4c0 cert_verify_callback x509_store_ctx=0x7c73f150 arg=0x0
+
+[ 12-12 15:50:10.537 14362:0x3850 E/NativeCrypto ]
+ssl=0x7c7ae4c0 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:50:10.584 14362:0x381a E/         ]
+appName=com.netease.cloudmusic, acAppName=/system/bin/surfaceflinger
+
+[ 12-12 15:50:10.584 14362:0x381a E/         ]
+0
+
+[ 12-12 15:50:10.696 14362:0x3842 D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 15:50:12.634 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 15:50:12.635 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 15:50:12.661 14362:0x381a E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 15:50:12.661 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 15:50:12.662 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.662 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.666 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.666 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.666 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.666 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 15:50:12.890 14362:0x3850 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:50:13.596 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 15:50:13.597 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 15:50:13.599 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 15:50:13.600 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 15:50:14.629 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 15:50:16.129 14473:0x3889 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:16.129 14473:0x3889 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:16.397 14473:0x3889 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:50:16.398 14473:0x3889 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 15:50:16.468 14473:0x3894 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:16.496 14473:0x3889 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 15:50:16.614 14473:0x3889 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:16.620 14473:0x3889 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 15:50:16.637 14473:0x3889 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:16.662 14473:0x38ad D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 15:50:20.021 14519:0x38b7 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:20.021 14519:0x38b7 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:50:20.250 14519:0x38b7 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:50:20.251 14519:0x38b7 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 15:50:20.330 14519:0x38c1 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:20.341 14519:0x38b7 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 15:50:20.406 14519:0x38b7 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:20.410 14519:0x38b7 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 15:50:20.420 14519:0x38d1 D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 15:50:20.433 14519:0x38b7 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:50:26.708 14362:0x384f D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:50:26.748 14362:0x384f E/NativeCrypto ]
+ssl=0x7f21bb70 cert_verify_callback x509_store_ctx=0x7c523150 arg=0x0
+
+[ 12-12 15:50:26.748 14362:0x384f E/NativeCrypto ]
+ssl=0x7f21bb70 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:50:37.364 14362:0x386b D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:50:51.157 14362:0x384f D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:50:52.748 14362:0x386b E/NativeCrypto ]
+ssl=0x81b47478 cert_verify_callback x509_store_ctx=0x7c621150 arg=0x0
+
+[ 12-12 15:50:52.748 14362:0x386b E/NativeCrypto ]
+ssl=0x81b47478 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:50:57.562 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve direct method 16321: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:50:57.594 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve direct method 17443: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:51:01.824 14362:0x381a W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+
+[ 12-12 15:51:01.824 14362:0x381a W/dalvikvm ]
+VFY: unable to resolve virtual method 16471: Landroid/view/WindowInsets;.getSystemWindowInsetBottom ()I
+
+[ 12-12 15:51:01.824 14362:0x381a W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+
+[ 12-12 15:51:20.096 14362:0x386b D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:51:38.504 14362:0x381a E/openSDK_LOG ]
+com.netease.cloudmusic SDK_VERSION:2.9.4.lite
+
+
+[ 12-12 15:51:38.922 14362:0x3a4e D/libc-netbsd ]
+getaddrinfo: cgi.connect.qq.com get result from proxy >>
+
+
+[ 12-12 15:51:38.923 14362:0x3a4c D/libc-netbsd ]
+getaddrinfo: c.isdspeed.qq.com get result from proxy >>
+
+
+[ 12-12 15:51:38.924 14362:0x3a4d D/libc-netbsd ]
+getaddrinfo: cgi.connect.qq.com get result from proxy >>
+
+
+[ 12-12 15:51:39.031 14362:0x3a4f E/openSDK_LOG.Util ]
+getPackageInfo has exception: com.qzone
+
+
+[ 12-12 15:51:49.092 14362:0x3b2e E/SQLiteLog ]
+(10) Failed to do file read, got: 0, amt: 100, last Errno: 2
+
+
+
+[ 12-12 15:51:49.117 14362:0x384f D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:51:49.193 14362:0x384f E/NativeCrypto ]
+ssl=0x80f72560 cert_verify_callback x509_store_ctx=0x7c523150 arg=0x0
+
+[ 12-12 15:51:49.194 14362:0x384f E/NativeCrypto ]
+ssl=0x80f72560 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:51:49.220 14362:0x3b2e D/libc-netbsd ]
+getaddrinfo: appsupport.qq.com get result from proxy >>
+
+
+[ 12-12 15:51:50.348 14362:0x3b36 D/libc-netbsd ]
+getaddrinfo: g1.163.com get result from proxy >>
+
+
+[ 12-12 15:51:50.748 14362:0x3842 D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 15:51:51.455 14362:0x3b5a D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-12 15:51:51.459 14362:0x3b5b D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-12 15:51:52.723 15199:0x3b5f W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:51:52.724 15199:0x3b5f W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 15:51:52.954 15199:0x3b5f W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 15:51:52.955 15199:0x3b5f W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 15:51:53.032 15199:0x3b69 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:51:53.043 15199:0x3b5f E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 15:51:53.086 15199:0x3b5f E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:51:53.090 15199:0x3b5f W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 15:51:53.098 15199:0x3b78 D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 15:51:53.107 15199:0x3b5f E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 15:52:15.879 14362:0x384f D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:52:27.119 14362:0x3b50 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:52:41.905 14362:0x384f D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 15:52:54.614 14362:0x3c68 D/libc-netbsd ]
+getaddrinfo: apk.nis.netease.com get result from proxy >>
+
+
+[ 12-12 15:52:54.777 14362:0x385e E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-15763
+Process: com.netease.cloudmusic, PID: 14362
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

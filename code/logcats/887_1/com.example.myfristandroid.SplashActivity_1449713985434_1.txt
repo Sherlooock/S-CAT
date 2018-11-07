@@ -1,0 +1,1098 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:17:01.050 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 443K, 17% free 10632K/12679K, paused 12ms+12ms, total 39ms
+
+[ 12-10 10:17:10.980 26255:26276 D/SocketService ]
+start to run current thread!id:573
+
+[ 12-10 10:17:11.120 26255:27353 D/SocketService ]
+ip/192.168.43.86 lport:52541 p:143
+
+[ 12-10 10:17:11.120 26255:27353 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:159
+
+[ 12-10 10:17:11.120 26255:27353 D/SocketService ]
+success to connect server!id:573 bLogin:false
+
+[ 12-10 10:17:11.200 26255:27024 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:1469
+
+[ 12-10 10:17:11.420 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:1469 HeadIndex:1456 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:17:11.430 26230:26230 D/MainActivity ]
+Unkown Report:ffffffeb ffffff90 ffffffeb ffffff90 ffffffeb ffffff90 d 0 e 1 1 0 ffffff81 
+
+[ 12-10 10:17:12.130 26255:27353 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:170
+
+[ 12-10 10:17:12.230 26255:27024 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:2111
+
+[ 12-10 10:17:12.460 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:2111 HeadIndex:1469 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:17:12.460 26230:26230 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:17:12.460 26230:26230 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:17:12.460 26230:26230 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:17:12.470 26230:26230 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:17:13.140 26255:27353 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:181
+
+[ 12-10 10:17:13.270 26255:27024 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:2178
+
+[ 12-10 10:17:13.490 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:2178 HeadIndex:2111 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:17:13.490 26230:26230 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+--------- beginning of /dev/log/system
+[ 12-10 10:17:17.380 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:17.400 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@4259b888: null
+
+[ 12-10 10:17:17.410 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:17:17.410 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1565023856
+
+[ 12-10 10:17:17.430 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@4259b888
+
+[ 12-10 10:17:17.430 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@4259b888
+
+[ 12-10 10:17:17.460 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:17:17.520 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:17:17.850 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:18.480 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:18.760 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:19.590 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:19.800 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=GB18030
+
+[ 12-10 10:17:19.830 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:20.090 26230:26230 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@41a6e5c0 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 10:17:26.110 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713846125
+
+[ 12-10 10:17:26.160 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2521K, 26% free 20454K/27591K, paused 42ms, total 44ms
+
+[ 12-10 10:17:26.210 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 112K, 19% free 22366K/27591K, paused 14ms+2ms, total 48ms
+
+[ 12-10 10:17:26.250 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 19% free 22366K/27591K, paused 23ms, total 23ms
+
+[ 12-10 10:17:26.260 26230:26230 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.335MB for 2073616-byte allocation
+
+[ 12-10 10:17:26.290 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 25% free 22371K/29639K, paused 3ms+3ms, total 26ms
+
+[ 12-10 10:17:26.360 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 441K, 17% free 10635K/12679K, paused 7ms+1ms, total 24ms
+
+[ 12-10 10:17:27.270 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:17:27.300 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@4259b888
+
+[ 12-10 10:17:27.310 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:27.310 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:27.720 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@4259b888
+
+[ 12-10 10:17:27.720 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@4259b888
+
+[ 12-10 10:17:29.390 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:29.410 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@425f92a8: null
+
+[ 12-10 10:17:29.420 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:17:29.430 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1567084376
+
+[ 12-10 10:17:29.430 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@425f92a8
+
+[ 12-10 10:17:29.440 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@425f92a8
+
+[ 12-10 10:17:29.570 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:17:29.580 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.630 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:17:29.780 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.800 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.870 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.900 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.930 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.940 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.950 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:29.970 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:29.990 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:30.000 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:30.020 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:30.050 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:32.910 26230:26406 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:17:32.980 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@425f92a8: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.251}
+
+[ 12-10 10:17:38.150 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713858170
+
+[ 12-10 10:17:38.210 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2251K, 32% free 20390K/29639K, paused 44ms, total 44ms
+
+[ 12-10 10:17:38.250 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 11K, 25% free 22404K/29639K, paused 13ms+3ms, total 35ms
+
+[ 12-10 10:17:38.340 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 25% free 22409K/29639K, paused 21ms+3ms, total 51ms
+
+[ 12-10 10:17:39.390 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:17:39.420 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@425f92a8
+
+[ 12-10 10:17:39.590 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:39.590 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:39.660 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@425f92a8
+
+[ 12-10 10:17:39.660 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@425f92a8
+
+[ 12-10 10:17:39.800 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:17:42.270 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:42.300 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@42517668: null
+
+[ 12-10 10:17:42.310 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:17:42.310 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1513550960
+
+[ 12-10 10:17:42.330 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@42517668
+
+[ 12-10 10:17:42.330 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@42517668
+
+[ 12-10 10:17:42.350 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:17:42.390 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:17:42.720 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:42.740 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:43.320 26230:26406 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:17:43.380 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@42517668: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.254}
+
+[ 12-10 10:17:46.530 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:17:46.560 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@42517668
+
+[ 12-10 10:17:46.720 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:46.720 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:46.800 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@42517668
+
+[ 12-10 10:17:46.800 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@42517668
+
+[ 12-10 10:17:46.930 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:17:48.380 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:48.400 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41a7bd28: null
+
+[ 12-10 10:17:48.410 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:17:48.420 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1653528960
+
+[ 12-10 10:17:48.430 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41a7bd28
+
+[ 12-10 10:17:48.430 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41a7bd28
+
+[ 12-10 10:17:48.460 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:17:48.500 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:17:48.540 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:17:48.840 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:49.420 26230:26406 D/MainActivity ]
+h:774.256,w:1432
+
+[ 12-10 10:17:49.470 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@41a7bd28: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.257}
+
+[ 12-10 10:17:50.980 26255:26276 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:194
+
+[ 12-10 10:17:51.160 26255:27024 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:2191
+
+[ 12-10 10:17:51.610 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:2191 HeadIndex:2178 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:17:51.930 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 431K, 17% free 10635K/12679K, paused 14ms+2ms, total 32ms
+
+[ 12-10 10:17:55.650 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713875667
+
+[ 12-10 10:17:55.690 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2229K, 31% free 20473K/29639K, paused 29ms, total 31ms
+
+[ 12-10 10:17:55.750 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 18K, 25% free 22480K/29639K, paused 13ms+3ms, total 40ms
+
+[ 12-10 10:17:55.840 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 25% free 22485K/29639K, paused 12ms+4ms, total 40ms
+
+[ 12-10 10:17:58.210 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:17:58.230 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41a7bd28
+
+[ 12-10 10:17:58.400 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:58.400 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:17:58.520 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41a7bd28
+
+[ 12-10 10:17:58.520 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41a7bd28
+
+[ 12-10 10:17:58.610 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:00.060 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:00.100 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@425f8aa0: null
+
+[ 12-10 10:18:00.120 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:00.130 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1562199920
+
+[ 12-10 10:18:00.130 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@425f8aa0
+
+[ 12-10 10:18:00.130 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@425f8aa0
+
+[ 12-10 10:18:00.150 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:00.200 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:00.310 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:18:00.540 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:01.220 26230:26406 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 10:18:01.260 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@425f8aa0: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.260}
+
+[ 12-10 10:18:06.130 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713886144
+
+[ 12-10 10:18:06.190 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2160K, 31% free 20503K/29639K, paused 52ms, total 52ms
+
+[ 12-10 10:18:06.290 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 25% free 22519K/29639K, paused 34ms+3ms, total 84ms
+
+[ 12-10 10:18:06.350 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 25% free 22524K/29639K, paused 3ms+4ms, total 34ms
+
+[ 12-10 10:18:10.160 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:18:10.190 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@425f8aa0
+
+[ 12-10 10:18:10.370 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:10.370 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:10.460 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@425f8aa0
+
+[ 12-10 10:18:10.460 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@425f8aa0
+
+[ 12-10 10:18:10.560 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:14.490 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:14.510 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41ab2778: null
+
+[ 12-10 10:18:14.520 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:14.520 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1645584616
+
+[ 12-10 10:18:14.530 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41ab2778
+
+[ 12-10 10:18:14.530 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41ab2778
+
+[ 12-10 10:18:14.570 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:14.630 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:14.900 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:18:14.980 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:15.930 26230:26406 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:18:16.040 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@41ab2778: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.263}
+
+[ 12-10 10:18:18.650 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 442K, 17% free 10634K/12679K, paused 25ms+2ms, total 64ms
+
+[ 12-10 10:18:18.770 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713898783
+
+[ 12-10 10:18:18.840 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2179K, 31% free 20542K/29639K, paused 58ms, total 58ms
+
+[ 12-10 10:18:18.910 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 24% free 22558K/29639K, paused 14ms+7ms, total 68ms
+
+[ 12-10 10:18:18.960 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 24% free 22563K/29639K, paused 8ms+14ms, total 47ms
+
+[ 12-10 10:18:19.660 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:18:19.690 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41ab2778
+
+[ 12-10 10:18:19.830 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:19.830 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:19.930 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41ab2778
+
+[ 12-10 10:18:19.930 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41ab2778
+
+[ 12-10 10:18:20.070 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:21.480 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:21.490 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@425a47f8: null
+
+[ 12-10 10:18:21.500 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:21.500 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1655906216
+
+[ 12-10 10:18:21.510 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@425a47f8
+
+[ 12-10 10:18:21.510 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@425a47f8
+
+[ 12-10 10:18:21.520 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+
+[ 12-10 10:18:21.580 26230:26230 D/dalvikvm ]
+GC_EXPLICIT freed 2131K, 31% free 20515K/29639K, paused 2ms+9ms, total 53ms
+
+[ 12-10 10:18:21.590 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:21.630 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:21.700 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:18:21.970 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:22.650 26230:26406 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:18:22.700 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@425a47f8: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.266}
+
+[ 12-10 10:18:24.950 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713904968
+
+[ 12-10 10:18:25.010 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 54K, 31% free 20564K/29639K, paused 44ms, total 45ms
+
+[ 12-10 10:18:25.110 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 24% free 22586K/29639K, paused 13ms+6ms, total 101ms
+
+[ 12-10 10:18:25.110 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-10 10:18:25.200 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 24% free 22591K/29639K, paused 28ms+17ms, total 84ms
+
+[ 12-10 10:18:26.340 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:18:26.370 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@425a47f8
+
+[ 12-10 10:18:26.490 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:26.490 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:26.570 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@425a47f8
+
+[ 12-10 10:18:26.570 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@425a47f8
+
+[ 12-10 10:18:26.730 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:28.370 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:28.390 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41ac8a10: null
+
+[ 12-10 10:18:28.400 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:28.400 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1661542056
+
+[ 12-10 10:18:28.420 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41ac8a10
+
+[ 12-10 10:18:28.420 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41ac8a10
+
+[ 12-10 10:18:28.450 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:28.500 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:28.560 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:18:28.820 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:29.800 26230:26406 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-10 10:18:29.910 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@41ac8a10: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.269}
+
+[ 12-10 10:18:31.020 26255:26276 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:207
+
+[ 12-10 10:18:31.200 26255:27024 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:2204
+
+[ 12-10 10:18:31.670 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:2204 HeadIndex:2191 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:18:33.250 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713913265
+
+[ 12-10 10:18:33.320 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2346K, 31% free 20609K/29639K, paused 46ms, total 49ms
+
+[ 12-10 10:18:33.380 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 24% free 22625K/29639K, paused 3ms+15ms, total 57ms
+
+[ 12-10 10:18:33.380 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+
+[ 12-10 10:18:33.450 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 24% free 22629K/29639K, paused 8ms+15ms, total 66ms
+
+[ 12-10 10:18:38.370 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:18:38.400 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41ac8a10
+
+[ 12-10 10:18:38.540 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:38.540 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:38.610 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41ac8a10
+
+[ 12-10 10:18:38.610 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41ac8a10
+
+[ 12-10 10:18:38.790 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:39.650 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:39.680 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41ae3f80: null
+
+[ 12-10 10:18:39.690 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:39.740 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41ae3f80
+
+[ 12-10 10:18:39.740 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41ae3f80
+
+[ 12-10 10:18:39.760 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1683050528
+
+[ 12-10 10:18:39.780 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:39.870 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:39.900 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:18:40.200 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:44.160 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 433K, 17% free 10634K/12679K, paused 1ms+4ms, total 24ms
+
+[ 12-10 10:18:54.780 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713934795
+
+[ 12-10 10:18:54.820 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2143K, 31% free 20645K/29639K, paused 27ms, total 27ms
+
+[ 12-10 10:18:54.890 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 24% free 22663K/29639K, paused 15ms+3ms, total 58ms
+
+[ 12-10 10:18:54.890 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-10 10:18:54.920 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 24% free 22668K/29639K, paused 2ms+4ms, total 31ms
+
+[ 12-10 10:18:55.420 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:18:55.450 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41ae3f80
+
+[ 12-10 10:18:55.460 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:55.460 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:55.860 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41ae3f80
+
+[ 12-10 10:18:55.860 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41ae3f80
+
+[ 12-10 10:18:56.700 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:18:56.730 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41ae5ea8: null
+
+[ 12-10 10:18:56.740 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:18:56.760 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41ae5ea8
+
+[ 12-10 10:18:56.760 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41ae5ea8
+
+[ 12-10 10:18:56.810 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:18:56.880 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:18:57.230 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:00.120 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713940135
+
+[ 12-10 10:19:00.200 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2134K, 31% free 20684K/29639K, paused 50ms, total 54ms
+
+[ 12-10 10:19:00.310 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 8K, 24% free 22700K/29639K, paused 13ms+16ms, total 96ms
+
+[ 12-10 10:19:00.310 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 62ms
+
+[ 12-10 10:19:00.380 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 24% free 22705K/29639K, paused 6ms+8ms, total 57ms
+
+[ 12-10 10:19:01.400 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:19:01.430 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41ae5ea8
+
+[ 12-10 10:19:01.440 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:01.440 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:01.850 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41ae5ea8
+
+[ 12-10 10:19:01.850 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41ae5ea8
+
+[ 12-10 10:19:03.200 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:03.230 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41af5030: null
+
+[ 12-10 10:19:03.240 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:19:03.260 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41af5030
+
+[ 12-10 10:19:03.260 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41af5030
+
+[ 12-10 10:19:03.290 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:19:03.380 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:19:03.720 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:05.910 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2639K, 26% free 22034K/29639K, paused 12ms+3ms, total 38ms
+
+[ 12-10 10:19:06.890 26230:26406 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 10:19:07.080 26230:26428 I/qtaguid  ]
+Failed write_ctrl(t 89 43297565310976 909455674) res=-1 errno=1
+
+[ 12-10 10:19:07.080 26230:26428 I/qtaguid  ]
+Tagging socket 89 with tag 276100000000(10081) for uid 909455674 failed errno=-1
+
+[ 12-10 10:19:07.080 26230:26428 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 909455674) res=-1 errno=1
+
+[ 12-10 10:19:07.080 26230:26428 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 909455674 failed errno=-1
+
+[ 12-10 10:19:07.090 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1681987216
+
+[ 12-10 10:19:07.090 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1655639344
+
+[ 12-10 10:19:07.200 26230:26428 I/qtaguid  ]
+Failed write_ctrl(u 103) res=-1 errno=22
+
+[ 12-10 10:19:07.200 26230:26428 I/qtaguid  ]
+Untagging socket 103 failed errno=-22
+
+[ 12-10 10:19:07.600 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:19:07.730 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:19:08.230 26230:26406 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 10:19:08.290 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@41af5030: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.274}
+
+[ 12-10 10:19:09.350 26230:26406 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 10:19:10.630 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 439K, 17% free 10634K/12679K, paused 1ms+1ms, total 16ms
+
+[ 12-10 10:19:11.040 26255:26276 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:220
+
+[ 12-10 10:19:11.130 26255:27024 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:2217
+
+[ 12-10 10:19:11.740 26255:26278 D/SocketService1 ]
+本次提取1:LoadPtr:2217 HeadIndex:2204 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:19:13.370 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:19:13.400 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41af5030
+
+[ 12-10 10:19:13.520 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:13.520 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:13.600 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41af5030
+
+[ 12-10 10:19:13.600 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41af5030
+
+[ 12-10 10:19:13.760 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:19:14.930 26230:26237 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 10:19:15.210 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:15.230 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41b022b8: null
+
+[ 12-10 10:19:15.240 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:19:15.240 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1715241288
+
+[ 12-10 10:19:15.260 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41b022b8
+
+[ 12-10 10:19:15.260 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41b022b8
+
+[ 12-10 10:19:15.280 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:19:15.320 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:19:15.480 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:19:15.660 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:16.140 26230:26406 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 10:19:16.190 26230:26230 V/Activity ]
+onConfigurationChanged com.example.myfristandroid.graphWebShow@41b022b8: {1.0 0mcc0mnc zh_CN sw455dp w303dp h360dp smll land finger -keyb/v/h -nav/h s.277}
+
+[ 12-10 10:19:19.960 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713959976
+
+[ 12-10 10:19:20.000 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 2585K, 30% free 20762K/29639K, paused 34ms, total 37ms
+
+[ 12-10 10:19:20.090 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 11K, 24% free 22775K/29639K, paused 22ms+5ms, total 85ms
+
+[ 12-10 10:19:20.160 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 24% free 22780K/29639K, paused 6ms+4ms, total 38ms
+
+[ 12-10 10:19:20.650 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:19:20.680 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41b022b8
+
+[ 12-10 10:19:20.810 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:20.810 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:20.880 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41b022b8
+
+[ 12-10 10:19:20.880 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41b022b8
+
+[ 12-10 10:19:21.050 26230:26230 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:19:21.860 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:21.880 26230:26230 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@41b797f8: null
+
+[ 12-10 10:19:21.890 26230:26230 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:19:21.900 26230:26406 D/webcore  ]
+initialize, mNativeClass is 1660029976
+
+[ 12-10 10:19:21.910 26230:26230 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+
+[ 12-10 10:19:21.910 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@41b797f8
+
+[ 12-10 10:19:21.910 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@41b797f8
+
+[ 12-10 10:19:21.960 26230:26230 D/dalvikvm ]
+GC_EXPLICIT freed 2118K, 31% free 20739K/29639K, paused 3ms+5ms, total 49ms
+
+[ 12-10 10:19:21.980 26230:26230 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:19:22.010 26230:26406 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:19:22.030 26230:26230 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:19:22.370 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:36.060 26230:26230 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:19:36.090 26230:26230 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@41b797f8
+
+[ 12-10 10:19:36.110 26230:26230 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:36.110 26230:26230 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a8e20
+
+[ 12-10 10:19:36.200 26255:26257 D/dalvikvm ]
+GC_CONCURRENT freed 431K, 17% free 10634K/12679K, paused 3ms+1ms, total 26ms
+
+[ 12-10 10:19:36.520 26230:26230 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@41b797f8
+
+[ 12-10 10:19:36.520 26230:26230 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@41b797f8
+
+[ 12-10 10:19:44.680 26230:26406 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 10:19:44.760 26230:26428 I/qtaguid  ]
+Failed write_ctrl(t 96 43297565310976 1522585953) res=-1 errno=1
+
+[ 12-10 10:19:44.760 26230:26428 I/qtaguid  ]
+Tagging socket 96 with tag 276100000000(10081) for uid 1522585953 failed errno=-1
+
+[ 12-10 10:19:44.760 26230:26428 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 1522585953) res=-1 errno=1
+
+[ 12-10 10:19:44.760 26230:26428 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 1522585953 failed errno=-1
+
+[ 12-10 10:19:45.420 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Log:1449713985434
+
+[ 12-10 10:19:45.500 26230:26286 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713985513
+
+[ 12-10 10:19:45.550 26230:26230 D/dalvikvm ]
+GC_FOR_ALLOC freed 155K, 30% free 20887K/29639K, paused 27ms, total 27ms
+
+[ 12-10 10:19:45.590 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 19K, 23% free 22893K/29639K, paused 2ms+3ms, total 34ms
+
+[ 12-10 10:19:45.660 26230:26232 D/dalvikvm ]
+GC_CONCURRENT freed 2109K, 24% free 22815K/29639K, paused 4ms+5ms, total 30ms
+
+[ 12-10 10:19:45.750 26230:26286 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x40db9588)
+
+[ 12-10 10:19:45.750 26230:26286 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-561
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

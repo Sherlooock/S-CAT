@@ -1,0 +1,394 @@
+--------- beginning of /dev/log/main
+[ 12-09 11:23:57.116 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-09 11:23:58.006 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-09 11:24:02.336 19328:19328 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-09 11:24:13.426 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-09 11:24:13.566 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-09 11:24:13.956 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-09 11:24:18.846 19328:19328 D/dalvikvm ]
+GC_FOR_ALLOC freed 1387K, 7% free 26582K/28448K, paused 24ms, total 26ms
+
+[ 12-09 11:24:18.976 19328:19369 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449631458742
+
+[ 12-09 11:24:21.346 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-09 11:24:23.886 19328:19328 D/dalvikvm ]
+GC_FOR_ALLOC freed 7903K, 21% free 22682K/28444K, paused 14ms, total 14ms
+
+[ 12-09 11:24:23.916 19328:19328 D/dalvikvm ]
+GC_FOR_ALLOC freed 300K, 9% free 25983K/28444K, paused 15ms, total 15ms
+
+[ 12-09 11:24:24.026 19328:19369 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449631463793
+
+[ 12-09 11:24:24.726 19346:19362 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-09 11:24:24.916 19346:19370 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-09 11:24:25.806 19346:19364 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-09 11:24:25.926 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 11:24:26.146 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 11:24:26.286 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 11:24:27.166 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 11:24:29.236 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 11:24:29.846 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-09 11:24:30.606 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 11:24:31.486 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 11:24:31.956 19328:19328 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 11:24:34.996 19328:19369 D/cn.edu.nju.ise.kikandroid ]
+Log:1449631474997
+
+[ 12-09 11:24:35.046 19328:19335 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-09 11:24:35.086 19328:19328 D/dalvikvm ]
+GC_FOR_ALLOC freed 9012K, 21% free 22554K/28444K, paused 19ms, total 20ms
+
+[ 12-09 11:24:35.126 19328:19328 D/dalvikvm ]
+GC_FOR_ALLOC freed 9K, 9% free 26145K/28444K, paused 11ms, total 11ms
+
+[ 12-09 11:24:35.276 19328:19369 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449631475035
+
+[ 12-09 11:24:35.276 19328:19369 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41eee898)
+
+--------- beginning of /dev/log/system
+[ 12-09 11:24:35.276 19328:19369 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-18928
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:193)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-09 11:24:40.916 19773:19773 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-09 11:24:40.936 19773:19773 D/dalvikvm ]
+Trying to load lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421cf720
+
+[ 12-09 11:24:40.936 19773:19773 D/dalvikvm ]
+Added shared lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421cf720
+
+[ 12-09 11:24:40.936 19773:19773 D/dalvikvm ]
+Trying to load lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421cf720
+
+[ 12-09 11:24:40.936 19773:19773 D/dalvikvm ]
+Shared lib '/data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x421cf720
+
+[ 12-09 11:24:40.986 19773:19773 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-09 11:24:40.986 19773:19773 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-09 11:24:40.986 19773:19773 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:40.996 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.006 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.006 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.006 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.016 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.016 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.016 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.226 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.226 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.356 19773:19773 D/dalvikvm ]
+GC_FOR_ALLOC freed 888K, 39% free 6838K/11168K, paused 11ms, total 11ms
+
+[ 12-09 11:24:41.366 19773:19773 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.604MB for 15504856-byte allocation
+
+[ 12-09 11:24:41.386 19773:19777 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 17% free 21977K/26312K, paused 3ms+1ms, total 15ms
+
+[ 12-09 11:24:41.606 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.606 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.616 19790:19790 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-09 11:24:41.626 19790:19790 D/dalvikvm ]
+Trying to load lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421d0a18
+
+[ 12-09 11:24:41.626 19790:19790 D/dalvikvm ]
+Added shared lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421d0a18
+
+[ 12-09 11:24:41.636 19790:19790 D/dalvikvm ]
+Trying to load lib /data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x421d0a18
+
+[ 12-09 11:24:41.636 19790:19790 D/dalvikvm ]
+Shared lib '/data/user/0/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x421d0a18
+
+[ 12-09 11:24:41.646 19773:19773 D/libEGL   ]
+loaded /vendor/lib/egl/libEGL_adreno.so
+
+[ 12-09 11:24:41.646 19773:19773 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+
+[ 12-09 11:24:41.656 19773:19773 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv2_adreno.so
+
+[ 12-09 11:24:41.656 19773:19773 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.099_msm8226_JB_3.2_RB2__release_AU ()
+OpenGL ES Shader Compiler Version: 20.00.08
+Build Date: 03/06/14 Thu
+Local Branch: mybranch2706508
+Remote Branch: quic/jb_3.2_rb2.32
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.099 +  NOTHING
+
+[ 12-09 11:24:41.686 19773:19773 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-09 11:24:41.696 19790:19790 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-09 11:24:41.696 19790:19790 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-09 11:24:41.696 19790:19790 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-09 11:24:41.706 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.706 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.706 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.706 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.716 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.716 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.716 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.716 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.716 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.736 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.746 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.746 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.746 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.796 19790:19790 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-09 11:24:41.796 19790:19790 D/SocketService ]
+pid:19790 myPid:19790
+
+[ 12-09 11:24:41.796 19790:19790 D/SocketService ]
+start to run current thread!id:18942
+
+[ 12-09 11:24:41.846 19790:19810 D/SocketService ]
+ip/172.20.10.11 lport:56463 p:143
+
+[ 12-09 11:24:41.856 19790:19810 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.856 19790:19810 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:41.856 19790:19810 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-09 11:24:41.856 19790:19810 D/SocketService ]
+success to connect server!id:18942 bLogin:false
+
+[ 12-09 11:24:41.956 19790:19811 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-09 11:24:42.806 19790:19808 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-09 11:24:42.856 19790:19810 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-09 11:24:43.096 19790:19811 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-09 11:24:43.776 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:43.826 19790:19808 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-09 11:24:43.856 19790:19810 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-09 11:24:43.976 19790:19790 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:44.026 19790:19811 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-09 11:24:44.346 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:44.346 19773:19773 D/MainActivity ]
+Start One Client
+
+[ 12-09 11:24:44.356 19773:19773 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1123)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5193)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1090)
+	at com.qihoo360.mobilesafe.loader.c.callActivityOnCreate(SourceFile:98)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2189)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2286)
+	at android.app.ActivityThread.access$600(ActivityThread.java:144)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1259)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5178)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:745)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:561)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-09 11:24:44.366 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:45.026 19790:19808 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-09 11:24:45.036 19773:19773 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-09 11:24:51.466 19773:19773 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-09 11:24:51.516 19773:19773 V/RenderScript ]
+0x5e457df8 Launching thread(s), CPUs 4
+
+[ 12-09 11:24:51.576 19773:19773 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-09 11:24:51.786 19773:19777 D/dalvikvm ]
+GC_CONCURRENT freed 5777K, 21% free 22462K/28384K, paused 2ms+4ms, total 23ms
+
+[ 12-09 11:24:52.586 19773:19773 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-09 11:24:54.356 19773:19814 D/cn.edu.nju.ise.kikandroid ]
+Log:1449631494360
+
+[ 12-09 11:24:54.446 19773:19773 D/dalvikvm ]
+GC_FOR_ALLOC freed 427K, 9% free 25934K/28384K, paused 12ms, total 12ms
+
+[ 12-09 11:24:54.556 19773:19814 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449631494386
+
+[ 12-09 11:24:54.556 19773:19814 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41eee898)
+
+[ 12-09 11:24:54.556 19773:19814 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-18937
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:193)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

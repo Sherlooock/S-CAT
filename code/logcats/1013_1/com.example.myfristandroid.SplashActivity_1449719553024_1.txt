@@ -1,0 +1,396 @@
+--------- beginning of /dev/log/main
+[ 12-10 11:50:20.956 16240:16240 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:50:20.986 16240:16240 D/ActivityThread ]
+setTargetHeapUtilization:0.75
+
+[ 12-10 11:50:20.986 16240:16240 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:50:21.256 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 55K, 18% free 6659K/8024K, paused 8ms, total 8ms
+
+[ 12-10 11:50:21.286 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.382MB for 15504848-byte allocation
+
+[ 12-10 11:50:21.306 16240:16244 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 6% free 21800K/23168K, paused 2ms+2ms, total 16ms
+
+[ 12-10 11:50:21.536 16263:16263 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:50:21.566 16263:16263 D/ActivityThread ]
+setTargetHeapUtilization:0.75
+
+[ 12-10 11:50:21.566 16263:16263 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:50:21.586 16240:16240 D/libEGL   ]
+loaded /vendor/lib/egl/libEGL_adreno.so
+
+[ 12-10 11:50:21.586 16240:16240 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+
+[ 12-10 11:50:21.596 16240:16240 D/libEGL   ]
+loaded /vendor/lib/egl/libGLESv2_adreno.so
+
+[ 12-10 11:50:21.596 16240:16240 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:316>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.073_msm8226_JB_3.2_RB2__release_AU ()
+OpenGL ES Shader Compiler Version: 20.00.02
+Build Date: 11/15/13 Fri
+Local Branch: 
+Remote Branch: quic/jb_3.2_rb2.22
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_3.2_RB2.04.03.00.129.073 +  NOTHING
+
+[ 12-10 11:50:21.616 16263:16263 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:50:21.616 16263:16263 D/SocketService ]
+pid:16263 myPid:16263
+
+[ 12-10 11:50:21.616 16263:16263 D/SocketService ]
+start to run current thread!id:1808
+
+[ 12-10 11:50:21.626 16240:16240 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:50:21.636 16263:16281 D/SocketService ]
+ip/172.18.198.2 lport:47668 p:143
+
+[ 12-10 11:50:21.636 16263:16281 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 11:50:21.636 16263:16281 D/SocketService ]
+success to connect server!id:1808 bLogin:false
+
+[ 12-10 11:50:21.676 16263:16283 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:50:22.616 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:50:22.646 16263:16281 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 11:50:22.776 16263:16283 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:50:23.636 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:50:23.716 16263:16281 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 11:50:23.806 16263:16283 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:50:23.906 16240:16240 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:50:23.916 16240:16240 D/StrictMode ]
+StrictMode policy violation; ~duration=21 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1126)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5234)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2302)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2388)
+	at android.app.ActivityThread.access$900(ActivityThread.java:148)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1319)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:620)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:50:24.106 16240:16244 D/dalvikvm ]
+GC_CONCURRENT freed 4616K, 17% free 22042K/26516K, paused 2ms+3ms, total 29ms
+
+[ 12-10 11:50:24.726 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:50:24.736 16240:16240 D/MainActivity ]
+ServerVersion:23 LocalVersion:12
+
+[ 12-10 11:50:56.776 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 1420K, 17% free 22198K/26512K, paused 20ms, total 23ms
+
+[ 12-10 11:50:56.806 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.286MB for 3686416-byte allocation
+
+[ 12-10 11:50:56.906 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 142K, 15% free 25656K/30116K, paused 17ms, total 19ms
+
+[ 12-10 11:50:56.926 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 30.664MB for 3686416-byte allocation
+
+[ 12-10 11:50:57.296 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719456697
+
+--------- beginning of /dev/log/system
+[ 12-10 11:50:58.056 16240:16482 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 11:50:58.066 16240:16482 D/JSENGINE ]
+qualcomm.jsengine.version:C.2-patch35-git:7b7ad6f
+
+[ 12-10 11:50:58.116 16240:16482 E/         ]
+netstack: LIB_MGR - Error loading lib libdnshostprio.so
+
+[ 12-10 11:50:58.116 16240:16482 E/         ]
+netstack: STAT_HUB - Failed to load plugin: libdnshostprio.so
+
+[ 12-10 11:50:58.116 16240:16482 E/         ]
+netstack: LIB_MGR - Error loading lib spl_proc_plugin.so
+
+[ 12-10 11:50:58.126 16240:16482 E/         ]
+netstack: STAT_HUB - Failed to load plugin: spl_proc_plugin.so
+
+[ 12-10 11:50:58.126 16240:16482 E/         ]
+netstack: LIB_MGR - Error loading lib pp_proc_plugin.so
+
+[ 12-10 11:50:58.126 16240:16482 E/         ]
+netstack: STAT_HUB - Failed to load plugin: pp_proc_plugin.so
+
+[ 12-10 11:50:58.126 16240:16482 E/         ]
+netstack:  STAT_HUB - App com.example.myfristandroid isn't supported
+
+[ 12-10 11:50:58.136 16240:16482 V/chromium_net ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/115058:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x00000000
+
+
+[ 12-10 11:50:58.136 16240:16482 V/chromium_net ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/115058:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x614e71f8
+
+
+[ 12-10 11:50:58.136 16240:16482 E/         ]
+netstack: LIB_MGR - Error loading lib libdnshostprio.so
+
+[ 12-10 11:50:58.136 16240:16482 D/         ]
+dl error message dlopen failed: library "libtcpfinaggr.so" not found
+
+[ 12-10 11:50:58.136 16240:16482 D/Socket_Pool ]
+Failed to create TCP Fin Aggregation interface.
+
+[ 12-10 11:50:58.136 16240:16482 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:50:58.136 16240:16482 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:50:58.146 16240:16482 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 11:50:58.146 16240:16482 D/Socket_Pool ]
+Failed to create TCP Fin Aggregation interface.
+
+[ 12-10 11:50:58.146 16240:16482 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:50:58.146 16240:16482 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:50:58.146 16240:16482 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: Failed to construct GETzip manager, didn't find the library!
+
+[ 12-10 11:50:58.206 16240:16482 D/WebKit   ]
+ERROR: 
+
+[ 12-10 11:50:58.206 16240:16482 D/WebKit   ]
+alias gb18030 maps to GB18030 already, but someone is trying to make it map to GBK
+
+[ 12-10 11:50:58.206 16240:16482 D/WebKit   ]
+
+
+
+[ 12-10 11:50:58.206 16240:16482 D/WebKit   ]
+external/webkit/Source/WebCore/platform/text/TextEncodingRegistry.cpp(152) : void WebCore::checkExistingName(const char*, const char*)
+
+
+[ 12-10 11:50:58.696 16240:16490 D/         ]
+Failed to load DoObserveConnections symbol in tcp-connections.so
+
+[ 12-10 11:50:58.766 16240:16240 E/Web Console ]
+Uncaught TypeError: Object [object Object] has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 11:50:58.776 16240:16482 E/cutils-trace ]
+Error opening trace file: No such file or directory (2)
+
+[ 12-10 11:50:58.776 16240:16240 D/TilesManager ]
+Starting TG #0, 0x625c7e20
+
+[ 12-10 11:50:58.776 16240:16240 D/TilesManager ]
+new EGLContext from framework: 5f12a558 
+
+[ 12-10 11:50:58.776 16240:16240 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 11:50:58.826 16240:16240 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 11:51:01.626 16263:16277 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 11:51:01.656 16263:16283 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:51:01.846 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:51:02.426 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 7389K, 16% free 22259K/26452K, paused 49ms, total 50ms
+
+[ 12-10 11:51:02.456 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.346MB for 3686416-byte allocation
+
+[ 12-10 11:51:02.496 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 14% free 25855K/30056K, paused 17ms, total 17ms
+
+[ 12-10 11:51:02.506 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 30.858MB for 3686416-byte allocation
+
+[ 12-10 11:51:03.606 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719462377
+
+[ 12-10 11:51:04.596 16240:16490 E/         ]
+netstack: LIB_MGR - Error loading lib qnet-plugin.so
+
+[ 12-10 11:51:05.246 16240:16482 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:51:11.576 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 7471K, 16% free 22389K/26452K, paused 53ms, total 54ms
+
+[ 12-10 11:51:11.606 16240:16240 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.472MB for 3686416-byte allocation
+
+[ 12-10 11:51:11.676 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 11K, 14% free 25977K/30056K, paused 15ms, total 15ms
+
+[ 12-10 11:51:11.946 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719471517
+
+[ 12-10 11:51:18.046 16240:16482 D/MainActivity ]
+h:774.256,w:1432
+
+[ 12-10 11:51:21.426 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 7404K, 10% free 23820K/26452K, paused 39ms, total 40ms
+
+[ 12-10 11:51:21.566 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 11K, 9% free 27408K/30056K, paused 21ms, total 21ms
+
+[ 12-10 11:51:21.786 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719481378
+
+[ 12-10 11:51:23.936 16240:16482 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:51:31.176 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 7403K, 5% free 25250K/26452K, paused 49ms, total 49ms
+
+[ 12-10 11:51:31.246 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 12K, 5% free 28838K/30056K, paused 17ms, total 17ms
+
+[ 12-10 11:51:31.446 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719491129
+
+[ 12-10 11:51:41.616 16263:16277 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:82
+
+[ 12-10 11:51:41.726 16263:16283 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 11:51:41.926 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:51:43.366 16240:16240 D/MyWebView ]
+xspeed2:1056 distanceX2:216
+
+[ 12-10 11:51:43.416 16240:16240 D/MyWebView ]
+xspeed2:1213 distanceX2:276
+
+[ 12-10 11:51:43.426 16240:16240 D/MyWebView ]
+xspeed2:1355 distanceX2:283
+
+[ 12-10 11:51:43.536 16240:16482 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:51:43.726 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d88d8, name RenderSVGContainer
+
+[ 12-10 11:51:43.736 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d8b48, name RenderSVGContainer
+
+[ 12-10 11:51:43.736 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d7550, name RenderSVGContainer
+
+[ 12-10 11:51:43.736 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d7668, name RenderSVGPath
+
+[ 12-10 11:51:44.836 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d7b98, name RenderSVGContainer
+
+[ 12-10 11:51:44.836 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d7e08, name RenderSVGContainer
+
+[ 12-10 11:51:44.856 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d5f68, name RenderSVGContainer
+
+[ 12-10 11:51:44.866 16240:16482 E/webcoreglue ]
+getAbsoluteBoundingBox failed for node 0x665d6080, name RenderSVGPath
+
+[ 12-10 11:51:46.136 16240:16482 D/MainActivity ]
+h:805.135,w:1498.76
+
+[ 12-10 11:51:54.046 16240:16240 D/dalvikvm ]
+GC_FOR_ALLOC freed 7469K, 22% free 27326K/34928K, paused 67ms, total 67ms
+
+[ 12-10 11:51:54.176 16240:16244 D/dalvikvm ]
+GC_CONCURRENT freed 3630K, 12% free 30903K/34928K, paused 7ms+3ms, total 49ms
+
+[ 12-10 11:51:54.516 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719513983
+
+[ 12-10 11:52:08.186 16240:16482 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:52:21.616 16263:16277 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:95
+
+[ 12-10 11:52:21.696 16263:16283 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 11:52:22.046 16263:16279 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:52:33.016 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Log:1449719553024
+
+[ 12-10 11:52:33.226 16240:16244 D/dalvikvm ]
+GC_CONCURRENT freed 7367K, 20% free 30907K/38508K, paused 2ms+4ms, total 58ms
+
+[ 12-10 11:52:33.456 16240:16290 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449719553068
+
+[ 12-10 11:52:33.456 16240:16290 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x415ae808)
+
+[ 12-10 11:52:33.456 16240:16290 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1803
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

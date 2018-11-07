@@ -1,0 +1,4337 @@
+--------- beginning of /dev/log/main
+[ 12-12 15:42:50.539 23367:23379 I/Timeline ]
+Timeline: Activity_launch_request time:1955160
+
+[ 12-12 15:42:50.539 23367:23367 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:50.569 23367:23367 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:50.599 23367:23367 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:42:50.649 23367:23367 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:42:50.659 23367:23367 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:42:50.659 23367:23367 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:42:50.669 23367:23367 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:50.699 23367:23367 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2100
+
+[ 12-12 15:42:50.699 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:42:50.719 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:42:50.729 23367:23367 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:42:50.729 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:42:50.739 23367:23367 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:42:50.759 23367:23367 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:42:50.759 23367:23367 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:42:50.779 23391:23391 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:50.789 23391:23391 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:50.789 23391:23391 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:42:50.799 23391:23391 D/RongService ]
+onCreate, pid=23391
+
+[ 12-12 15:42:50.799 23391:23391 D/RongService ]
+onBind, pid=23391
+
+[ 12-12 15:42:50.809 23367:23367 D/dalvikvm ]
+GC_FOR_ALLOC freed 772K, 26% free 22814K/30660K, paused 13ms, total 13ms
+
+[ 12-12 15:42:50.819 23367:23367 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.203MB for 8294416-byte allocation
+
+[ 12-12 15:42:50.839 23367:23370 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30911K/38764K, paused 3ms+1ms, total 16ms
+
+[ 12-12 15:42:50.849 23391:23391 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:42:50.849 23391:23391 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a21e8
+
+[ 12-12 15:42:50.849 23391:23391 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a21e8
+
+[ 12-12 15:42:50.849 23367:23367 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:42:50.849 23367:23367 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=5eaa5a61-7750-439e-88cb-0b32faf9278f&sign=07E96331D70CB79FCC742151AF5FC20E&appOption=1&accessTokenOption=1
+
+[ 12-12 15:42:50.849 23367:23367 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:42:50.849 23391:23391 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:42:50.879 23367:23367 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430e3860
+
+[ 12-12 15:42:50.889 23367:23367 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:42:50.919 23367:23367 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:42:50.949 23367:23367 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:42:51.009 23367:23367 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430bd430 time:1955632
+
+[ 12-12 15:42:51.019 23367:23436 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:42:51.019 23367:23436 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:42:51.599 23367:23367 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:42:51.599 23367:23367 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:42:48\"}","Message":"成功"}
+
+[ 12-12 15:42:51.599 23367:23367 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:42:48\"}","Message":"成功"}
+
+[ 12-12 15:42:51.619 23367:23367 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:42:48"}
+
+[ 12-12 15:42:51.619 23367:23436 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:42:51.619 23367:23436 I/Process  ]
+Sending signal. PID: 23367 SIG: 9
+
+[ 12-12 15:42:51.649 23391:23391 D/RongService ]
+onUnbind, pid=23391
+
+[ 12-12 15:42:51.649 23391:23391 D/RongService ]
+onDestroy, pid=23391
+
+[ 12-12 15:42:51.649 23391:23391 I/Process  ]
+Sending signal. PID: 23391 SIG: 9
+
+[ 12-12 15:42:52.079 23458:23458 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:52.099 23458:23458 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:52.099 23458:23458 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:42:52.149 23458:23458 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:42:52.149 23458:23458 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:42:52.159 23458:23458 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:42:52.169 23458:23458 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:52.239 23458:23458 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2800
+
+[ 12-12 15:42:52.249 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:42:52.269 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:42:52.279 23458:23458 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:42:52.279 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:42:52.279 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:42:52.279 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:42:52.289 23458:23458 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:42:52.299 23458:23458 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:42:52.309 23458:23494 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:42:52.309 23458:23494 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:42:52.329 23479:23479 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:52.339 23479:23479 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:52.339 23479:23479 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:42:52.349 23479:23479 D/RongService ]
+onCreate, pid=23479
+
+[ 12-12 15:42:52.349 23479:23479 D/RongService ]
+onBind, pid=23479
+
+[ 12-12 15:42:52.379 23479:23479 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:42:52.379 23479:23479 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a3fe8
+
+[ 12-12 15:42:52.389 23479:23479 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a3fe8
+
+[ 12-12 15:42:52.389 23479:23479 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:42:52.389 23458:23458 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43186de0
+
+[ 12-12 15:42:52.419 23458:23458 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:42:53.429 23458:23458 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:42:53.479 23458:23500 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:42:53.479 23458:23500 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:42:53.989 23503:23523 I/Timeline ]
+Timeline: Activity_launch_request time:1958617
+
+[ 12-12 15:42:53.999 23503:23503 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:54.019 23503:23503 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:54.019 23503:23503 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:42:54.069 23503:23503 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:42:54.069 23503:23503 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:42:54.069 23503:23503 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:42:54.079 23503:23503 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:54.119 23503:23503 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+800
+
+[ 12-12 15:42:54.129 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:42:54.149 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:42:54.159 23503:23503 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:42:54.159 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:42:54.189 23503:23503 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:42:54.199 23532:23532 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:54.209 23532:23532 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:54.209 23532:23532 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:42:54.209 23503:23503 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:42:54.209 23503:23503 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:42:54.219 23532:23532 D/RongService ]
+onCreate, pid=23532
+
+[ 12-12 15:42:54.219 23532:23532 D/RongService ]
+onBind, pid=23532
+
+[ 12-12 15:42:54.249 23532:23532 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:42:54.249 23532:23532 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309b830
+
+[ 12-12 15:42:54.259 23532:23532 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309b830
+
+[ 12-12 15:42:54.259 23532:23532 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:42:54.279 23503:23503 D/dalvikvm ]
+GC_FOR_ALLOC freed 781K, 26% free 22815K/30660K, paused 16ms, total 16ms
+
+[ 12-12 15:42:54.289 23503:23503 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.204MB for 8294416-byte allocation
+
+[ 12-12 15:42:54.309 23503:23506 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30910K/38764K, paused 3ms+1ms, total 16ms
+
+[ 12-12 15:42:54.319 23503:23503 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:42:54.319 23503:23503 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=9c2d8a11-bff4-4e47-818f-9bb131002ada&sign=1B96B8ED80F584954FEE9C07483BF42D&appOption=1&accessTokenOption=1
+
+[ 12-12 15:42:54.319 23503:23503 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:42:54.349 23503:23503 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430e4918
+
+[ 12-12 15:42:54.379 23503:23503 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:42:54.419 23503:23503 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:42:54.439 23503:23503 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:42:54.489 23503:23503 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430c5318 time:1959111
+
+[ 12-12 15:42:54.489 23503:23571 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:42:54.489 23503:23571 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:42:54.549 23503:23571 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:42:54.559 23503:23571 I/Process  ]
+Sending signal. PID: 23503 SIG: 9
+
+[ 12-12 15:42:54.579 23532:23532 D/RongService ]
+onUnbind, pid=23532
+
+[ 12-12 15:42:54.579 23532:23532 D/RongService ]
+onDestroy, pid=23532
+
+[ 12-12 15:42:55.039 23581:23581 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:55.049 23581:23581 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:55.059 23581:23581 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:42:55.079 23581:23581 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:42:55.089 23581:23581 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:55.159 23581:23581 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3100
+
+[ 12-12 15:42:55.179 23581:23581 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:42:55.209 23581:23581 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:42:55.219 23581:23581 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:42:55.219 23581:23581 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:42:55.239 23581:23597 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:42:55.239 23581:23597 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:42:55.249 23581:23597 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:42:55.259 23581:23597 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:42:55.259 23581:23597 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906175267
+
+[ 12-12 15:42:55.259 23581:23597 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:42:55.269 23581:23597 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:42:55.269 23581:23597 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:42:55.399 23581:23597 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:42:55.519 23599:23599 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:55.529 23599:23599 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:55.539 23599:23599 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:42:55.649 23599:23599 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:42:55.649 23599:23599 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:42:55.659 23599:23599 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:42:55.669 23599:23599 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:55.749 23599:23599 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2200
+
+[ 12-12 15:42:55.749 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:42:55.789 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:42:55.799 23599:23599 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:42:55.799 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:42:55.799 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:42:55.799 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:42:55.839 23599:23599 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:42:55.839 23618:23618 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:55.849 23599:23599 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:42:55.859 23599:23637 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:42:55.859 23618:23618 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:55.859 23599:23637 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:42:55.859 23618:23618 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:42:55.869 23618:23618 D/RongService ]
+onCreate, pid=23618
+
+[ 12-12 15:42:55.869 23618:23618 D/RongService ]
+onBind, pid=23618
+
+[ 12-12 15:42:55.919 23618:23618 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:42:55.919 23618:23618 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309e5d8
+
+[ 12-12 15:42:55.929 23618:23618 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309e5d8
+
+[ 12-12 15:42:55.929 23618:23618 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:42:55.929 23599:23599 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43180250
+
+[ 12-12 15:42:55.979 23599:23599 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:42:56.029 23581:23616 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:42:56.029 23581:23616 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:42:56.029 23581:23616 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:42:56.029 23581:23616 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:42:57.229 23599:23599 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:42:57.239 23599:23654 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:42:57.239 23599:23654 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:42:57.959 23581:23581 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:42:57.999 23581:23581 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:42:58.009 23581:23597 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:42:58.009 23581:23597 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:42:59.799 23700:23715 I/Timeline ]
+Timeline: Activity_launch_request time:1964428
+
+[ 12-12 15:42:59.809 23700:23700 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:42:59.829 23700:23700 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:42:59.839 23700:23700 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:42:59.889 23700:23700 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:42:59.889 23700:23700 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:42:59.899 23700:23700 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:42:59.909 23700:23700 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:42:59.939 23700:23700 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3900
+
+[ 12-12 15:42:59.939 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:42:59.969 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:42:59.969 23700:23700 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:42:59.979 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:42:59.979 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:42:59.979 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:42:59.989 23700:23700 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:43:00.009 23723:23723 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:43:00.019 23723:23723 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:43:00.019 23723:23723 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:43:00.029 23700:23700 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:43:00.029 23700:23700 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:43:00.029 23723:23723 D/RongService ]
+onCreate, pid=23723
+
+[ 12-12 15:43:00.029 23723:23723 D/RongService ]
+onBind, pid=23723
+
+[ 12-12 15:43:00.059 23723:23723 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:43:00.059 23723:23723 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a26f8
+
+[ 12-12 15:43:00.059 23723:23723 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a26f8
+
+[ 12-12 15:43:00.059 23723:23723 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:43:00.099 23700:23700 D/dalvikvm ]
+GC_FOR_ALLOC freed 771K, 26% free 22815K/30660K, paused 26ms, total 26ms
+
+[ 12-12 15:43:00.119 23700:23700 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.204MB for 8294416-byte allocation
+
+[ 12-12 15:43:00.139 23700:23705 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30910K/38764K, paused 2ms+1ms, total 14ms
+
+[ 12-12 15:43:00.149 23700:23700 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:43:00.149 23700:23700 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=f4435bbf-374e-492f-a3d8-7ea2f8548200&sign=3724F86A1CBB2B8D45499FFE140E5BF0&appOption=1&accessTokenOption=1
+
+[ 12-12 15:43:00.149 23700:23700 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:43:00.189 23700:23700 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430c26e8
+
+[ 12-12 15:43:00.219 23700:23700 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:43:00.249 23700:23700 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:43:00.289 23700:23700 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:43:00.319 23700:23700 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430be408 time:1964949
+
+[ 12-12 15:43:00.339 23700:23759 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:43:00.339 23700:23759 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:43:00.389 23700:23759 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:43:00.389 23700:23759 I/Process  ]
+Sending signal. PID: 23700 SIG: 9
+
+[ 12-12 15:43:00.409 23723:23723 D/RongService ]
+onUnbind, pid=23723
+
+[ 12-12 15:43:00.409 23723:23723 D/RongService ]
+onDestroy, pid=23723
+
+[ 12-12 15:43:00.409 23723:23723 I/Process  ]
+Sending signal. PID: 23723 SIG: 9
+
+[ 12-12 15:43:01.389 23776:23776 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:43:01.419 23776:23776 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:43:01.419 23776:23776 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:43:01.479 23776:23776 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:43:01.489 23776:23776 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:43:01.489 23776:23776 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:43:01.499 23776:23776 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:43:01.579 23776:23776 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3300
+
+[ 12-12 15:43:01.589 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:43:01.619 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:43:01.629 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:43:01.629 23776:23776 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:43:01.629 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:43:01.639 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:43:01.639 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:43:01.649 23776:23776 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:43:01.649 23776:23776 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:43:01.669 23794:23794 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:43:01.669 23776:23810 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:43:01.669 23776:23810 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:43:01.679 23794:23794 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:43:01.679 23794:23794 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:43:01.679 23794:23794 D/RongService ]
+onCreate, pid=23794
+
+[ 12-12 15:43:01.679 23794:23794 D/RongService ]
+onBind, pid=23794
+
+[ 12-12 15:43:01.719 23794:23794 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:43:01.719 23794:23794 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a45a0
+
+[ 12-12 15:43:01.719 23794:23794 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a45a0
+
+[ 12-12 15:43:01.729 23794:23794 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:43:01.729 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43186c58
+
+[ 12-12 15:43:01.749 23776:23776 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:43:02.759 23776:23776 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:43:02.919 23776:23822 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:43:02.919 23776:23822 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:43:05.009 23842:23842 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:43:05.019 23842:23842 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:43:05.019 23842:23842 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:43:05.029 23842:23842 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:43:05.039 23842:23842 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:43:05.109 23842:23842 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2000
+
+[ 12-12 15:43:05.129 23842:23842 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:43:05.149 23842:23842 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:43:05.149 23842:23842 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:43:05.149 23842:23842 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:43:05.159 23842:23868 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:43:05.159 23842:23868 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:43:05.169 23842:23868 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:43:05.169 23842:23868 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:43:05.169 23842:23868 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906185180
+
+[ 12-12 15:43:05.169 23842:23868 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:43:05.179 23842:23868 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:43:05.179 23842:23868 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:43:05.289 23842:23868 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:43:05.799 23842:23873 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:43:05.799 23842:23873 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:43:05.799 23842:23873 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:43:05.799 23842:23873 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:43:07.109 23842:23842 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:43:07.259 23842:23842 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:43:07.269 23842:23868 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:43:07.269 23842:23868 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:43:10.459 23776:23776 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 15:43:10.459 23776:23776 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 15:43:10.459 23776:23776 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+
+[ 12-12 15:43:10.469 23776:23776 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:43:10.489 23776:23776 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:00.459 24637:24649 I/Timeline ]
+Timeline: Activity_launch_request time:2025085
+
+[ 12-12 15:44:00.479 24637:24637 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:00.499 24637:24637 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:00.499 24637:24637 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:44:00.559 24637:24637 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:44:00.559 24637:24637 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:44:00.569 24637:24637 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:44:00.569 24637:24637 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:00.609 24637:24637 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1400
+
+[ 12-12 15:44:00.609 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:44:00.629 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:44:00.639 24637:24637 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:44:00.639 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:44:00.639 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:44:00.639 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:44:00.659 24637:24637 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:44:00.669 24637:24637 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:44:00.669 24637:24637 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:44:00.669 24666:24666 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:00.689 24666:24666 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:00.699 24666:24666 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:44:00.699 24666:24666 D/RongService ]
+onCreate, pid=24666
+
+[ 12-12 15:44:00.699 24666:24666 D/RongService ]
+onBind, pid=24666
+
+[ 12-12 15:44:00.739 24666:24666 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:00.739 24666:24666 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a1390
+
+[ 12-12 15:44:00.739 24666:24666 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a1390
+
+[ 12-12 15:44:00.739 24666:24666 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:44:00.739 24637:24637 D/dalvikvm ]
+GC_FOR_ALLOC freed 764K, 26% free 22814K/30660K, paused 27ms, total 27ms
+
+[ 12-12 15:44:00.749 24637:24637 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.203MB for 8294416-byte allocation
+
+[ 12-12 15:44:00.779 24637:24641 D/dalvikvm ]
+GC_CONCURRENT freed 11K, 21% free 30926K/38764K, paused 12ms+2ms, total 24ms
+
+[ 12-12 15:44:00.779 24637:24637 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:44:00.779 24637:24637 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=62034466-9eba-4599-baa9-8dc6a0cbdd10&sign=AF5EBAF4B677CDFF015BC2E4CBD07185&appOption=1&accessTokenOption=1
+
+[ 12-12 15:44:00.779 24637:24637 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:00.819 24637:24637 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@431488f8
+
+[ 12-12 15:44:00.859 24637:24637 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:44:00.899 24637:24637 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:44:00.929 24637:24637 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:44:00.939 24637:24637 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:44:00.939 24637:24637 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:43:57\"}","Message":"成功"}
+
+[ 12-12 15:44:00.939 24637:24637 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:43:57\"}","Message":"成功"}
+
+[ 12-12 15:44:00.949 24637:24637 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:43:57"}
+
+[ 12-12 15:44:00.969 24637:24637 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:44:01.009 24637:24637 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487139&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:44:01.009 24637:24637 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 15:44:01.009 24637:24637 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487139&sign=DEACA54A5E103AE15FA53D6A79EAD260
+
+[ 12-12 15:44:01.009 24637:24637 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:01.049 24637:24637 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430b6f80 time:2025674
+
+[ 12-12 15:44:01.059 24637:24710 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:44:01.059 24637:24710 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:44:01.079 24637:24710 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:44:01.079 24637:24710 I/Process  ]
+Sending signal. PID: 24637 SIG: 9
+
+[ 12-12 15:44:01.099 24666:24666 D/RongService ]
+onUnbind, pid=24666
+
+[ 12-12 15:44:01.099 24666:24666 D/RongService ]
+onDestroy, pid=24666
+
+[ 12-12 15:44:01.099 24666:24666 I/Process  ]
+Sending signal. PID: 24666 SIG: 9
+
+[ 12-12 15:44:01.999 24721:24721 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:02.019 24721:24721 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:02.019 24721:24721 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:44:02.089 24721:24721 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:44:02.099 24721:24721 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:44:02.099 24721:24721 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:44:02.109 24721:24721 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:02.159 24721:24721 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3000
+
+[ 12-12 15:44:02.169 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:44:02.189 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:44:02.199 24721:24721 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:44:02.199 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:44:02.209 24721:24721 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:44:02.219 24721:24721 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:44:02.239 24721:24757 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:44:02.239 24721:24757 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:44:02.269 24739:24739 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:02.279 24739:24739 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:02.289 24739:24739 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:44:02.289 24754:24754 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:02.289 24739:24739 D/RongService ]
+onCreate, pid=24739
+
+[ 12-12 15:44:02.289 24739:24739 D/RongService ]
+onBind, pid=24739
+
+[ 12-12 15:44:02.309 24754:24754 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:02.309 24754:24754 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:44:02.329 24754:24754 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:44:02.329 24739:24739 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:02.329 24739:24739 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a3190
+
+[ 12-12 15:44:02.339 24739:24739 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a3190
+
+[ 12-12 15:44:02.339 24739:24739 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:44:02.339 24754:24754 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:02.339 24721:24721 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43184cb0
+
+[ 12-12 15:44:02.369 24721:24721 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:44:02.419 24754:24754 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4900
+
+[ 12-12 15:44:02.429 24754:24754 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:44:02.449 24754:24754 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:44:02.449 24754:24754 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:44:02.449 24754:24754 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:44:02.469 24754:24779 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:44:02.469 24754:24779 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:44:02.479 24754:24779 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:02.489 24754:24779 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:44:02.489 24754:24779 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906242494
+
+[ 12-12 15:44:02.489 24754:24779 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:44:02.489 24754:24779 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:44:02.489 24754:24779 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:44:02.589 24754:24779 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:44:02.779 24754:24784 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:44:02.789 24754:24784 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:44:02.789 24754:24784 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:44:02.789 24754:24784 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:44:03.379 24721:24721 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:44:03.399 24721:24785 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:44:03.399 24721:24785 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:44:07.319 24754:24754 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:44:07.339 24754:24754 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:44:07.339 24754:24779 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:44:07.339 24754:24779 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:44:19.109 24721:24721 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:44:19.109 24721:24721 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:44:19.179 24721:24721 D/dalvikvm ]
+GC_FOR_ALLOC freed 791K, 26% free 22812K/30660K, paused 14ms, total 14ms
+
+[ 12-12 15:44:19.189 24721:24721 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.201MB for 8294416-byte allocation
+
+[ 12-12 15:44:19.199 24721:24725 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 21% free 30906K/38764K, paused 3ms+0ms, total 13ms
+
+[ 12-12 15:44:19.209 24721:24721 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:44:19.209 24721:24721 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=7bfbfe74-e67e-4492-ad39-dc1869b5ed38&sign=35F9393C037052AB0E8797576FF024E4&appOption=1&accessTokenOption=1
+
+[ 12-12 15:44:19.209 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:19.289 24721:24721 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:44:19.339 24721:24721 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:44:19.409 24721:24721 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:44:19.409 24721:24721 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:44:16\"}","Message":"成功"}
+
+[ 12-12 15:44:19.409 24721:24721 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:44:16\"}","Message":"成功"}
+
+[ 12-12 15:44:19.419 24721:24721 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:44:16"}
+
+[ 12-12 15:44:19.459 24721:24721 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:44:19.519 24721:24721 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487139&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:44:19.519 24721:24721 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 15:44:19.519 24721:24721 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487139&sign=DEACA54A5E103AE15FA53D6A79EAD260
+
+[ 12-12 15:44:19.519 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:19.529 24721:24721 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43189570 time:2044150
+
+[ 12-12 15:44:19.659 24721:24721 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 15:44:19.659 24721:24721 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:44:19.659 24721:24721 I/Timeline ]
+Timeline: Activity_launch_request time:2044281
+
+[ 12-12 15:44:19.729 24721:24721 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 15:44:19.729 24721:24721 D/http     ]
+请求的参数：
+
+[ 12-12 15:44:19.729 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:44:19.729 24721:24721 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 15:44:19.729 24721:24721 D/http     ]
+请求的参数：userId=xdf004487139&size=big
+
+[ 12-12 15:44:19.729 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:44:19.739 24721:24721 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 15:44:19.739 24721:24721 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 15:44:19.739 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:44:19.809 24721:24721 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 15:44:19.829 24721:24721 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 15:44:19.929 24721:24721 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 15:44:19.934&examstartdate=2015-12-12 15:18:09.758&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 15:44:19.881&resourcestartdate=2015-12-12 15:19:34.792&schoolid=0&userid=xdf004487139&videoenddate=2015-12-12 15:44:19.909&videostartdate=2015-12-12 15:19:47.508&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:44:19.929 24721:24721 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 15:44:19.929 24721:24721 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487139&schoolid=0&resourcestartdate=2015-12-12 15:19:34.792&resourceenddate=2015-12-12 15:44:19.881&videostartdate=2015-12-12 15:19:47.508&videoenddate=2015-12-12 15:44:19.909&examstartdate=2015-12-12 15:18:09.758&examenddate=2015-12-12 15:44:19.934&appid=5004&sign=8245636565AB55A0E65728EAD19B590C
+
+[ 12-12 15:44:19.929 24721:24721 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:44:20.009 24721:24721 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1647
+
+[ 12-12 15:44:20.009 24721:24721 D/PullToRefresh ]
+Setting Padding. L: 0, T: -988, R: 0, B: 0
+
+[ 12-12 15:44:20.009 24721:24721 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 15:44:20.009 24721:24721 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-12 15:44:20.029 24721:24721 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 15:44:20.029 24721:24721 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449906256566}
+
+[ 12-12 15:44:20.029 24721:24721 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449906256566}
+
+[ 12-12 15:44:20.029 24721:24721 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 15:44:20.029 24721:24721 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449906256568}
+
+[ 12-12 15:44:20.029 24721:24721 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449906256568}
+
+[ 12-12 15:44:20.129 24721:24721 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 15:44:20.129 24721:24721 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:44:20.129 24721:24721 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:44:20.219 24721:24749 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 15:44:20.249 24721:24721 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1587
+
+[ 12-12 15:44:20.249 24721:24721 D/PullToRefresh ]
+Setting Padding. L: 0, T: -952, R: 0, B: 0
+
+[ 12-12 15:44:20.399 24721:24721 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@431cb978 time:2045026
+
+[ 12-12 15:44:20.449 24721:24721 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:20.759 24721:24721 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:44:20.759 24721:24721 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:44:20.759 24721:24721 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:44:20.759 24721:24721 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 15:44:24.229 24721:24721 D/long     ]
+cancle request：com.xdf.ucan.MainActivity
+
+[ 12-12 15:44:24.249 24721:24721 D/long     ]
+fragment onDestroy
+
+[ 12-12 15:44:45.279 25130:25143 I/Timeline ]
+Timeline: Activity_launch_request time:2069907
+
+[ 12-12 15:44:45.289 25130:25130 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:45.309 25130:25130 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:45.309 25130:25130 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:44:45.349 25130:25130 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:44:45.359 25130:25130 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:44:45.359 25130:25130 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:44:45.369 25130:25130 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:45.409 25130:25130 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3800
+
+[ 12-12 15:44:45.419 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:44:45.439 25130:25130 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:44:45.439 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:44:45.449 25130:25130 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:44:45.469 25130:25130 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:44:45.469 25130:25130 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:44:45.469 25155:25155 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:45.479 25155:25155 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:45.479 25155:25155 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:44:45.489 25155:25155 D/RongService ]
+onCreate, pid=25155
+
+[ 12-12 15:44:45.489 25155:25155 D/RongService ]
+onBind, pid=25155
+
+[ 12-12 15:44:45.519 25130:25130 D/dalvikvm ]
+GC_FOR_ALLOC freed 757K, 26% free 22814K/30660K, paused 14ms, total 14ms
+
+[ 12-12 15:44:45.519 25155:25155 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:45.519 25155:25155 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309e5f0
+
+[ 12-12 15:44:45.529 25155:25155 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309e5f0
+
+[ 12-12 15:44:45.529 25130:25130 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.203MB for 8294416-byte allocation
+
+[ 12-12 15:44:45.529 25155:25155 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:44:45.539 25130:25134 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 21% free 30912K/38764K, paused 2ms+1ms, total 13ms
+
+[ 12-12 15:44:45.559 25130:25130 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:44:45.559 25130:25130 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=9ccc9ba1-3a8f-4e8e-b7d0-0dd97488c2d5&sign=67990B2C728BF0DB7E5DAB76E40BBFDF&appOption=1&accessTokenOption=1
+
+[ 12-12 15:44:45.559 25130:25130 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:45.589 25130:25130 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430e4aa0
+
+[ 12-12 15:44:45.619 25130:25130 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:44:45.639 25130:25130 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:44:45.669 25130:25130 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:44:45.709 25130:25130 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:44:45.709 25130:25130 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:44:42\"}","Message":"成功"}
+
+[ 12-12 15:44:45.709 25130:25130 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:44:42\"}","Message":"成功"}
+
+[ 12-12 15:44:45.729 25130:25130 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:44:42"}
+
+[ 12-12 15:44:45.749 25130:25130 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:44:45.819 25130:25130 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487139&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:44:45.819 25130:25130 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 15:44:45.819 25130:25130 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487139&sign=DEACA54A5E103AE15FA53D6A79EAD260
+
+[ 12-12 15:44:45.819 25130:25130 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:44:45.819 25130:25130 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430b98e8 time:2070448
+
+[ 12-12 15:44:45.839 25130:25192 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:44:45.839 25130:25192 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:44:45.899 25130:25192 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:44:45.899 25130:25192 I/Process  ]
+Sending signal. PID: 25130 SIG: 9
+
+[ 12-12 15:44:45.919 25155:25155 D/RongService ]
+onUnbind, pid=25155
+
+[ 12-12 15:44:45.919 25155:25155 D/RongService ]
+onDestroy, pid=25155
+
+[ 12-12 15:44:45.919 25155:25155 I/Process  ]
+Sending signal. PID: 25155 SIG: 9
+
+[ 12-12 15:44:46.769 25208:25208 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:46.789 25208:25208 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:46.799 25208:25208 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:44:46.879 25208:25208 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:44:46.889 25208:25208 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:44:46.889 25208:25208 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:44:46.899 25208:25208 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:46.979 25208:25208 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+500
+
+[ 12-12 15:44:47.009 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:44:47.039 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:44:47.049 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:44:47.049 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:44:47.049 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:44:47.059 25208:25208 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:44:47.059 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:44:47.059 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:44:47.059 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:44:47.079 25208:25208 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:44:47.079 25208:25208 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:44:47.099 25208:25243 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:44:47.099 25227:25227 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:47.099 25208:25243 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:44:47.109 25227:25227 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:47.119 25227:25227 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:44:47.119 25227:25227 D/RongService ]
+onCreate, pid=25227
+
+[ 12-12 15:44:47.119 25227:25227 D/RongService ]
+onBind, pid=25227
+
+[ 12-12 15:44:47.159 25227:25227 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:47.159 25227:25227 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a03f8
+
+[ 12-12 15:44:47.169 25227:25227 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a03f8
+
+[ 12-12 15:44:47.169 25227:25227 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:44:47.169 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@431832e0
+
+[ 12-12 15:44:47.199 25208:25208 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:44:47.559 25265:25265 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:44:47.569 25265:25265 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:44:47.569 25265:25265 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:44:47.579 25265:25265 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:44:47.599 25265:25265 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:44:47.669 25265:25265 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3600
+
+[ 12-12 15:44:47.669 25265:25265 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:44:47.699 25265:25265 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:44:47.699 25265:25265 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:44:47.699 25265:25265 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:44:47.709 25265:25282 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:44:47.709 25265:25282 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:44:47.709 25265:25282 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:44:47.719 25265:25282 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:44:47.719 25265:25282 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906287724
+
+[ 12-12 15:44:47.719 25265:25282 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:44:47.719 25265:25282 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:44:47.719 25265:25282 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:44:47.799 25265:25282 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:44:47.969 25265:25288 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:44:47.969 25265:25288 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:44:47.969 25265:25288 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:44:47.969 25265:25288 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:44:48.199 25208:25208 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:44:48.209 25208:25292 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:44:48.209 25208:25292 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:44:51.269 25265:25265 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:44:51.299 25265:25265 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:44:51.309 25265:25282 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:44:51.309 25265:25282 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:44:55.319 25208:25208 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 15:44:55.329 25208:25208 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 15:44:55.329 25208:25208 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+
+[ 12-12 15:44:55.339 25208:25208 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:13.349 25846:25858 I/Timeline ]
+Timeline: Activity_launch_request time:2097975
+
+[ 12-12 15:45:13.359 25846:25846 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:13.369 25846:25846 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:13.399 25846:25846 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:13.449 25846:25846 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:13.459 25846:25846 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:13.459 25846:25846 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:13.469 25846:25846 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:13.509 25846:25846 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+0
+
+[ 12-12 15:45:13.509 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:13.539 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:13.549 25846:25846 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:13.549 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:13.549 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:13.549 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:13.569 25846:25846 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:13.589 25846:25846 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:45:13.589 25846:25846 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:45:13.589 25886:25886 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:13.589 25875:25875 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:13.599 25875:25875 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:13.609 25875:25875 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:45:13.609 25886:25886 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:13.619 25886:25886 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:13.619 25875:25875 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:45:13.619 25886:25886 D/RongService ]
+onCreate, pid=25886
+
+[ 12-12 15:45:13.619 25886:25886 D/RongService ]
+onBind, pid=25886
+
+[ 12-12 15:45:13.629 25875:25875 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:13.629 25846:25846 D/dalvikvm ]
+GC_FOR_ALLOC freed 784K, 26% free 22814K/30660K, paused 13ms, total 13ms
+
+[ 12-12 15:45:13.639 25846:25846 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.203MB for 8294416-byte allocation
+
+[ 12-12 15:45:13.669 25846:25850 D/dalvikvm ]
+GC_CONCURRENT freed 18K, 21% free 30933K/38764K, paused 5ms+2ms, total 24ms
+
+[ 12-12 15:45:13.669 25846:25846 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:45:13.669 25846:25846 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=9bede78d-2ee5-452a-bc81-ef8666c4bf14&sign=8A814465F355B2AB5880EEA2460CCB57&appOption=1&accessTokenOption=1
+
+[ 12-12 15:45:13.669 25846:25846 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:45:13.669 25886:25886 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:13.679 25886:25886 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a5a50
+
+[ 12-12 15:45:13.679 25886:25886 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a5a50
+
+[ 12-12 15:45:13.679 25886:25886 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:13.689 25875:25875 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4800
+
+[ 12-12 15:45:13.699 25846:25846 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@431465a8
+
+[ 12-12 15:45:13.699 25875:25875 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:13.719 25875:25875 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:13.719 25875:25875 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:13.719 25875:25875 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:13.719 25846:25846 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:45:13.719 25875:25921 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:13.719 25875:25921 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:45:13.729 25875:25921 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:13.729 25875:25921 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:45:13.729 25875:25921 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906313739
+
+[ 12-12 15:45:13.729 25875:25921 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:45:13.729 25875:25921 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:45:13.729 25875:25921 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:45:13.759 25846:25846 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:45:13.779 25846:25846 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:13.809 25846:25846 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:45:13.809 25846:25846 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:45:10\"}","Message":"成功"}
+
+[ 12-12 15:45:13.809 25846:25846 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:45:10\"}","Message":"成功"}
+
+[ 12-12 15:45:13.829 25846:25846 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:45:10"}
+
+[ 12-12 15:45:13.829 25875:25921 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:45:13.849 25846:25846 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:45:13.909 25846:25846 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487139&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:45:13.909 25846:25846 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 15:45:13.909 25846:25846 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487139&sign=DEACA54A5E103AE15FA53D6A79EAD260
+
+[ 12-12 15:45:13.909 25846:25846 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:45:13.919 25846:25846 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430c8188 time:2098541
+
+[ 12-12 15:45:13.929 25846:25930 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:45:13.929 25846:25930 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:45:13.979 25875:25926 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:45:13.979 25875:25926 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:45:13.979 25875:25926 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:45:13.979 25875:25926 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:45:13.999 25846:25930 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:45:13.999 25846:25930 I/Process  ]
+Sending signal. PID: 25846 SIG: 9
+
+[ 12-12 15:45:14.029 25886:25886 D/RongService ]
+onUnbind, pid=25886
+
+[ 12-12 15:45:14.029 25886:25886 D/RongService ]
+onDestroy, pid=25886
+
+[ 12-12 15:45:14.029 25886:25886 I/Process  ]
+Sending signal. PID: 25886 SIG: 9
+
+[ 12-12 15:45:14.859 25943:25943 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:14.879 25943:25943 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:14.889 25943:25943 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:14.979 25943:25943 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:14.989 25943:25943 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:14.999 25943:25943 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:15.009 25943:25943 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:15.099 25943:25943 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3400
+
+[ 12-12 15:45:15.099 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:15.129 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:15.129 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:15.129 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:15.129 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:15.139 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:15.149 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:15.149 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:15.159 25943:25943 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:15.159 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:15.169 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:15.169 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:15.179 25943:25943 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:15.179 25943:25943 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:15.199 25943:25976 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:15.199 25943:25976 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:15.309 25961:25961 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:15.319 25961:25961 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:15.319 25961:25961 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:15.329 25961:25961 D/RongService ]
+onCreate, pid=25961
+
+[ 12-12 15:45:15.329 25961:25961 D/RongService ]
+onBind, pid=25961
+
+[ 12-12 15:45:15.369 25961:25961 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:15.369 25961:25961 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309c740
+
+[ 12-12 15:45:15.379 25961:25961 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309c740
+
+[ 12-12 15:45:15.379 25961:25961 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:15.389 25943:25943 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@4317fa98
+
+[ 12-12 15:45:15.409 25943:25943 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:16.419 25943:25943 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:16.439 25943:25988 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:16.439 25943:25988 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:18.589 25990:25990 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:18.609 25990:25990 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:18.609 25990:25990 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:45:18.629 25990:25990 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:45:18.639 25990:25990 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:18.729 25990:25990 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+700
+
+[ 12-12 15:45:18.749 25990:25990 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:18.789 25990:25990 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:18.789 25990:25990 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:18.789 25990:25990 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:18.819 25990:26005 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:18.819 25990:26005 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:45:18.819 25990:26005 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:18.819 25990:26005 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:45:18.829 25990:26005 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906318833
+
+[ 12-12 15:45:18.829 25990:26005 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:45:18.829 25990:26005 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:45:18.829 25990:26005 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:45:18.899 25990:26005 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:45:19.069 25990:26007 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:45:19.069 25990:26007 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:45:19.069 25990:26007 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:45:19.069 25990:26007 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:45:19.439 25990:25990 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:19.489 25990:25990 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:19.509 25990:26005 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:19.509 25990:26005 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:45:24.419 26040:26060 I/Timeline ]
+Timeline: Activity_launch_request time:2109049
+
+[ 12-12 15:45:24.429 26040:26040 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:24.439 26040:26040 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:24.449 26040:26040 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:24.509 26040:26040 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:24.509 26040:26040 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:24.519 26040:26040 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:24.529 26040:26040 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:24.559 26040:26040 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3100
+
+[ 12-12 15:45:24.569 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:24.589 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:24.599 26040:26040 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:24.599 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:24.599 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:24.599 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:24.609 26040:26040 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:24.629 26040:26040 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:45:24.629 26040:26040 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:45:24.649 26069:26069 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:24.659 26069:26069 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:24.659 26069:26069 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:24.669 26069:26069 D/RongService ]
+onCreate, pid=26069
+
+[ 12-12 15:45:24.669 26069:26069 D/RongService ]
+onBind, pid=26069
+
+[ 12-12 15:45:24.679 26040:26040 D/dalvikvm ]
+GC_FOR_ALLOC freed 761K, 26% free 22814K/30660K, paused 13ms, total 14ms
+
+[ 12-12 15:45:24.689 26040:26040 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.203MB for 8294416-byte allocation
+
+[ 12-12 15:45:24.699 26040:26042 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30910K/38764K, paused 3ms+1ms, total 12ms
+
+[ 12-12 15:45:24.719 26069:26069 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:24.719 26069:26069 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a0438
+
+[ 12-12 15:45:24.719 26069:26069 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a0438
+
+[ 12-12 15:45:24.719 26069:26069 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:24.729 26040:26040 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:45:24.729 26040:26040 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=73373d51-25c8-4b63-95c7-04770213a705&sign=00F2CEE190AA88C65D377F542F1A8990&appOption=1&accessTokenOption=1
+
+[ 12-12 15:45:24.729 26040:26040 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:45:24.769 26040:26040 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430e7cf8
+
+[ 12-12 15:45:24.779 26040:26040 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:45:24.809 26040:26040 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:45:24.829 26040:26040 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:24.879 26040:26040 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430bbf80 time:2109507
+
+[ 12-12 15:45:24.899 26040:26107 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:45:24.899 26040:26107 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:45:24.969 26040:26107 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:45:24.979 26040:26107 I/Process  ]
+Sending signal. PID: 26040 SIG: 9
+
+[ 12-12 15:45:24.999 26069:26069 D/RongService ]
+onUnbind, pid=26069
+
+[ 12-12 15:45:24.999 26069:26069 D/RongService ]
+onDestroy, pid=26069
+
+[ 12-12 15:45:24.999 26069:26069 I/Process  ]
+Sending signal. PID: 26069 SIG: 9
+
+[ 12-12 15:45:25.919 26121:26121 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:25.929 26121:26121 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:25.939 26121:26121 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:25.999 26121:26121 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:25.999 26121:26121 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:26.009 26121:26121 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:26.019 26121:26121 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:26.079 26121:26121 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4300
+
+[ 12-12 15:45:26.089 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:26.109 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:26.119 26121:26121 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:26.119 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:26.139 26121:26121 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:26.139 26121:26121 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:26.149 26121:26154 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:26.149 26121:26154 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:26.179 26139:26139 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:26.189 26139:26139 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:26.199 26139:26139 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:26.209 26139:26139 D/RongService ]
+onCreate, pid=26139
+
+[ 12-12 15:45:26.209 26139:26139 D/RongService ]
+onBind, pid=26139
+
+[ 12-12 15:45:26.309 26139:26139 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:26.309 26139:26139 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a2240
+
+[ 12-12 15:45:26.319 26139:26139 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a2240
+
+[ 12-12 15:45:26.319 26139:26139 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:26.319 26121:26121 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43183fe8
+
+[ 12-12 15:45:26.349 26121:26121 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:27.359 26121:26121 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:27.379 26121:26160 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:27.379 26121:26160 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:30.489 26165:26165 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:30.509 26165:26165 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:30.509 26165:26165 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:45:30.529 26165:26165 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:45:30.539 26165:26165 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:30.629 26165:26165 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3900
+
+[ 12-12 15:45:30.639 26165:26165 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:30.659 26165:26165 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:30.669 26165:26165 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:30.669 26165:26165 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:30.679 26165:26180 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:30.679 26165:26180 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:45:30.689 26165:26180 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:30.689 26165:26180 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:45:30.689 26165:26180 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906330702
+
+[ 12-12 15:45:30.699 26165:26180 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:45:30.699 26165:26180 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:45:30.699 26165:26180 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:45:30.799 26165:26180 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:45:30.969 26165:26182 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:45:30.969 26165:26182 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:45:30.969 26165:26182 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:45:30.969 26165:26182 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:45:34.529 26165:26165 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:34.549 26165:26165 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:34.569 26165:26180 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:34.569 26165:26180 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:45:41.109 26202:26219 I/Timeline ]
+Timeline: Activity_launch_request time:2125732
+
+[ 12-12 15:45:41.109 26202:26202 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:41.119 26202:26202 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:41.139 26202:26202 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:41.189 26202:26202 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:41.189 26202:26202 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:41.199 26202:26202 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:41.209 26202:26202 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:41.249 26202:26202 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1400
+
+[ 12-12 15:45:41.259 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:41.279 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:41.289 26202:26202 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:41.289 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:41.299 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:41.299 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:41.409 26202:26202 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:41.419 26232:26232 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:41.429 26232:26232 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:41.429 26232:26232 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:41.429 26232:26232 D/RongService ]
+onCreate, pid=26232
+
+[ 12-12 15:45:41.429 26232:26232 D/RongService ]
+onBind, pid=26232
+
+[ 12-12 15:45:41.439 26202:26202 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:45:41.439 26202:26202 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:45:41.469 26232:26232 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:41.469 26232:26232 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a4f50
+
+[ 12-12 15:45:41.469 26232:26232 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x430a4f50
+
+[ 12-12 15:45:41.469 26232:26232 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:41.499 26202:26202 D/dalvikvm ]
+GC_FOR_ALLOC freed 778K, 26% free 22815K/30660K, paused 17ms, total 17ms
+
+[ 12-12 15:45:41.519 26202:26202 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.204MB for 8294416-byte allocation
+
+[ 12-12 15:45:41.529 26202:26210 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30910K/38764K, paused 2ms+2ms, total 14ms
+
+[ 12-12 15:45:41.549 26202:26202 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:45:41.549 26202:26202 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=228e0c1d-f829-4237-9ad2-babd32fcb019&sign=6E8110FE04F41382883359A1E5015103&appOption=1&accessTokenOption=1
+
+[ 12-12 15:45:41.549 26202:26202 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:45:41.579 26202:26202 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430c7948
+
+[ 12-12 15:45:41.619 26202:26202 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:45:41.639 26202:26202 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:45:41.659 26202:26202 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:41.709 26202:26202 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430c8560 time:2126333
+
+[ 12-12 15:45:41.719 26202:26269 E/cn.edu.nju.ise.kikandroid ]
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+[ 12-12 15:45:41.719 26202:26269 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x41aaad58)
+
+[ 12-12 15:45:41.749 26202:26202 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 15:45:41.749 26202:26202 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:45:38\"}","Message":"成功"}
+
+[ 12-12 15:45:41.749 26202:26202 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487139\",\"NickName\":\"151212140943779_v\",\"HideMobile\":\"152****0824\",\"HideEmail\":\"151****4094377962f39_v@v.com\",\"Mobile\":\"15250680824\",\"Email\":\"15121214094377962f39_v@v.com\",\"LoginToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"Sign\":\"8AFFEC761FB21B3C3D8C92FCC813B4A2\",\"AccessToken\":\"299182c4-40c5-41a7-bcde-9f5900db0b9d\",\"AccessTokenExpireTime\":\"2016-01-31 05:45:38\"}","Message":"成功"}
+
+[ 12-12 15:45:41.759 26202:26202 D/long     ]
+{"UserId":"xdf004487139","NickName":"151212140943779_v","HideMobile":"152****0824","HideEmail":"151****4094377962f39_v@v.com","Mobile":"15250680824","Email":"15121214094377962f39_v@v.com","LoginToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","Sign":"8AFFEC761FB21B3C3D8C92FCC813B4A2","AccessToken":"299182c4-40c5-41a7-bcde-9f5900db0b9d","AccessTokenExpireTime":"2016-01-31 05:45:38"}
+
+[ 12-12 15:45:41.789 26202:26202 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:45:41.819 26202:26269 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:133)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 15:45:41.829 26202:26269 I/Process  ]
+Sending signal. PID: 26202 SIG: 9
+
+[ 12-12 15:45:41.849 26232:26232 D/RongService ]
+onUnbind, pid=26232
+
+[ 12-12 15:45:41.849 26232:26232 D/RongService ]
+onDestroy, pid=26232
+
+[ 12-12 15:45:41.849 26232:26232 I/Process  ]
+Sending signal. PID: 26232 SIG: 9
+
+[ 12-12 15:45:42.739 26286:26286 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:42.749 26286:26286 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:42.759 26286:26286 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:45:42.769 26286:26286 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:45:42.779 26286:26286 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:42.849 26286:26286 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+700
+
+[ 12-12 15:45:42.869 26286:26286 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:42.889 26286:26286 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:42.889 26286:26286 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:42.889 26286:26286 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:45:42.919 26286:26301 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:42.919 26286:26301 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:45:42.919 26286:26301 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:42.929 26286:26301 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:45:42.929 26286:26301 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906342939
+
+[ 12-12 15:45:42.929 26286:26301 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:45:42.939 26286:26301 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:45:42.949 26286:26301 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:45:42.969 26302:26302 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:42.979 26302:26302 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:42.989 26302:26302 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:45:43.029 26286:26301 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:45:43.029 26302:26302 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:45:43.039 26302:26302 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:45:43.039 26302:26302 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:45:43.049 26302:26302 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:45:43.099 26302:26302 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4600
+
+[ 12-12 15:45:43.109 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:45:43.139 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:45:43.149 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:45:43.149 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:45:43.159 26302:26302 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:45:43.159 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:45:43.159 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:45:43.159 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:45:43.179 26302:26302 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:45:43.189 26302:26302 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:43.199 26302:26338 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:43.199 26302:26338 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:43.199 26322:26322 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:45:43.209 26322:26322 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:45:43.219 26322:26322 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:45:43.219 26286:26320 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:45:43.219 26322:26322 D/RongService ]
+onCreate, pid=26322
+
+[ 12-12 15:45:43.219 26286:26320 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:45:43.219 26322:26322 D/RongService ]
+onBind, pid=26322
+
+[ 12-12 15:45:43.219 26286:26320 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:45:43.219 26286:26320 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:45:43.269 26322:26322 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:45:43.269 26322:26322 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309d638
+
+[ 12-12 15:45:43.269 26322:26322 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309d638
+
+[ 12-12 15:45:43.269 26322:26322 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:45:43.279 26302:26302 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@4317f458
+
+[ 12-12 15:45:43.299 26302:26302 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:45:44.319 26302:26302 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:45:44.349 26302:26346 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:45:44.349 26302:26346 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:45:47.699 26286:26286 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:45:47.719 26286:26286 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:45:47.729 26286:26301 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:45:47.729 26286:26301 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:46:29.629 27140:27156 I/Timeline ]
+Timeline: Activity_launch_request time:2174251
+
+[ 12-12 15:46:29.649 27140:27140 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:46:29.669 27140:27140 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:46:29.679 27140:27140 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 15:46:29.729 27140:27140 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 15:46:29.739 27140:27140 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 15:46:29.739 27140:27140 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 15:46:29.749 27140:27140 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:46:29.789 27140:27140 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4900
+
+[ 12-12 15:46:29.799 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 15:46:29.819 27140:27140 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 15:46:29.819 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 15:46:29.849 27140:27140 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 15:46:29.859 27165:27165 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:46:29.869 27165:27165 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:46:29.869 27140:27140 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getTotalMemory ()J
+
+[ 12-12 15:46:29.869 27165:27165 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 15:46:29.869 27140:27140 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/Process;.getFreeMemory ()J
+
+[ 12-12 15:46:29.879 27165:27165 D/RongService ]
+onCreate, pid=27165
+
+[ 12-12 15:46:29.879 27165:27165 D/RongService ]
+onBind, pid=27165
+
+[ 12-12 15:46:29.909 27165:27165 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+866963027376997
+
+[ 12-12 15:46:29.909 27165:27165 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309c6a0
+
+[ 12-12 15:46:29.909 27165:27165 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x4309c6a0
+
+[ 12-12 15:46:29.919 27165:27165 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 15:46:29.949 27140:27140 D/dalvikvm ]
+GC_FOR_ALLOC freed 727K, 26% free 22815K/30660K, paused 18ms, total 19ms
+
+[ 12-12 15:46:29.959 27140:27140 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.204MB for 8294416-byte allocation
+
+[ 12-12 15:46:29.979 27140:27144 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 21% free 30910K/38764K, paused 5ms+1ms, total 17ms
+
+[ 12-12 15:46:29.999 27140:27140 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 15:46:29.999 27140:27140 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=wUQENIrrFZWJKFpqXWwMGA==&encodePwd=+U/rfEmh+ix9Vv5zP+xlag==&guid=8a523702-6a30-4424-b123-675fb41a9b25&sign=177441B51393E2357E8CD3C1C1E6780A&appOption=1&accessTokenOption=1
+
+[ 12-12 15:46:29.999 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:46:30.039 27140:27140 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@430b6208
+
+[ 12-12 15:46:30.059 27140:27140 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052_msm8974_LNX.LA.3.5.2.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/01/15 Wed
+Local Branch: mybranch11515920
+Remote Branch: quic/LNX.LA.3.5.2.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.1_RB1.04.04.04.090.052 +  NOTHING
+
+[ 12-12 15:46:30.109 27140:27140 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:46:30.139 27140:27140 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 15:46:30.189 27140:27140 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@430b2ab8 time:2174818
+
+[ 12-12 15:46:31.149 27140:27140 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 15:46:31.169 27140:27208 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:46:31.169 27140:27208 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 15:46:34.779 27214:27214 D/long     ]
+连接的数据库是：xdf004487139.db
+
+[ 12-12 15:46:34.789 27214:27214 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 15:46:34.799 27214:27214 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:46:34.809 27214:27214 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:46:34.819 27214:27214 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:46:34.889 27214:27214 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+800
+
+[ 12-12 15:46:34.909 27214:27214 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:46:34.939 27214:27214 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:46:34.939 27214:27214 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:46:34.939 27214:27214 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:46:34.949 27214:27242 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:46:34.949 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:46:34.949 27214:27242 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:46:34.959 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:46:34.959 27214:27242 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906394966
+
+[ 12-12 15:46:34.959 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:46:34.959 27214:27242 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:46:34.969 27214:27242 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:46:35.059 27214:27242 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:46:35.589 27214:27250 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:46:35.589 27214:27250 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:46:35.599 27214:27250 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:46:35.599 27214:27250 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:46:35.699 27214:27214 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 15:46:35.869 27214:27214 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 15:46:35.869 27214:27242 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 15:46:35.869 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 15:46:50.019 27140:27189 W/System.err ]
+org.apache.http.conn.ConnectTimeoutException: Connect to /116.213.70.17:80 timed out
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 15:46:50.029 27140:27189 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-12 15:46:50.029 27140:27140 D/http     ]
+返回的结果：org.apache.http.conn.ConnectTimeoutException: Connect to /116.213.70.17:80 timed out
+
+[ 12-12 15:46:50.039 27140:27140 D/long     ]
+DATABASE_NAME:xdf004487139.db
+
+[ 12-12 15:46:50.109 27140:27140 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = CONNECTING, listener = null
+
+[ 12-12 15:46:50.109 27140:27140 D/##IPC_java.lang.String:RongIMClient : connect ]
+service binded, connect
+
+[ 12-12 15:46:50.109 27165:27175 D/##IPC_java.lang.String:connect ]
+remote connect
+
+[ 12-12 15:46:50.109 27165:27175 D/NativeClient ]
+connect
+
+[ 12-12 15:46:50.109 27140:27140 I/##IPC_java.lang.String:RongIMClient ]
+clent:io.rong.imlib.RongIMClient@43151098
+
+[ 12-12 15:46:50.109 27140:27140 I/##KIT_io.rong.imlib.RongIMClient:RongIMClientWrapper ]
+initConnectedData
+
+[ 12-12 15:46:50.109 27140:27140 I/##IPC_null:RongIMClient ： setOnReceiveMessageListener ]
+listener=io.rong.imkit.RongIMClientWrapper$3@43217a98
+
+[ 12-12 15:46:50.109 27140:27140 I/##KIT_io.rong.imlib.RongIMClient:RongIMClientWrapper ]
+client:io.rong.imlib.RongIMClient@43151098
+
+[ 12-12 15:46:53.259 27165:27298 D/##COMMON_io.rong.imlib.LibContext:cancelHeartbeat ]
+com.xdf.ucan
+
+[ 12-12 15:46:53.269 27140:27150 D/##IPC_java.lang.String:RongIMClient : connect ]
+callback : onFailure = 30007
+
+[ 12-12 15:46:53.269 27140:27150 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = CONNECTING, status = NETWORK_UNAVAILABLE, listener = io.rong.imkit.RongIMClientWrapper$1@43130890
+
+[ 12-12 15:46:53.269 27140:27150 D/##KIT_null:RongIMClientWrapper : ConnectStatus ]
+NETWORK_UNAVAILABLE
+
+[ 12-12 15:46:53.269 27140:27150 D/Event    ]
+No subscribers registered for event class io.rong.imlib.RongIMClient$ConnectionStatusListener$ConnectionStatus
+
+[ 12-12 15:46:53.269 27140:27150 D/Event    ]
+No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
+
+[ 12-12 15:46:53.279 27140:27150 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+0 counts, will reconnect.
+
+[ 12-12 15:46:53.279 27140:27140 D/long     ]
+---------onError ----------:RC_NAVI_RESOURCE_ERROR
+
+[ 12-12 15:46:53.279 27140:27140 I/Timeline ]
+Timeline: Activity_launch_request time:2197906
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的参数：
+
+[ 12-12 15:46:53.379 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的参数：userId=xdf004487139&size=big
+
+[ 12-12 15:46:53.379 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 15:46:53.379 27140:27140 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 15:46:53.379 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:46:53.439 27140:27140 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 15:46:53.459 27140:27140 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 15:46:53.549 27140:27140 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 15:46:53.559&examstartdate=2015-12-12 15:18:09.758&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 15:46:53.507&resourcestartdate=2015-12-12 15:19:34.792&schoolid=0&userid=xdf004487139&videoenddate=2015-12-12 15:46:53.534&videostartdate=2015-12-12 15:19:47.508&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:46:53.559 27140:27140 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 15:46:53.559 27140:27140 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487139&schoolid=0&resourcestartdate=2015-12-12 15:19:34.792&resourceenddate=2015-12-12 15:46:53.507&videostartdate=2015-12-12 15:19:47.508&videoenddate=2015-12-12 15:46:53.534&examstartdate=2015-12-12 15:18:09.758&examenddate=2015-12-12 15:46:53.559&appid=5004&sign=ED172B9A990EA8AEB89DAB3E3AC1C05A
+
+[ 12-12 15:46:53.559 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:46:53.609 27140:27146 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-12 15:46:53.609 27140:27146 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-12 15:46:53.639 27140:27140 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1647
+
+[ 12-12 15:46:53.639 27140:27140 D/PullToRefresh ]
+Setting Padding. L: 0, T: -988, R: 0, B: 0
+
+[ 12-12 15:46:53.649 27140:27140 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 15:46:53.649 27140:27140 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449906410199}
+
+[ 12-12 15:46:53.649 27140:27140 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449906410199}
+
+[ 12-12 15:46:53.659 27140:27140 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 15:46:53.659 27140:27140 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-12 15:46:53.679 27140:27140 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 15:46:53.679 27140:27140 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449906410228}
+
+[ 12-12 15:46:53.679 27140:27140 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449906410228}
+
+[ 12-12 15:46:53.789 27140:27140 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 15:46:53.789 27140:27140 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:46:53.789 27140:27140 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:46:53.849 27140:27140 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1587
+
+[ 12-12 15:46:53.849 27140:27140 D/PullToRefresh ]
+Setting Padding. L: 0, T: -952, R: 0, B: 0
+
+[ 12-12 15:46:53.859 27140:27177 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 15:46:53.899 27140:27140 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@432230d0 time:2198525
+
+[ 12-12 15:46:54.079 27140:27140 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 15:46:54.409 27140:27140 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:46:54.419 27140:27140 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 15:46:55.279 27140:27140 D/##IPC_io.rong.imlib.RongIMClient.ReconnectRunnable:ReconnectRunnable ]
+do reconnect!
+
+[ 12-12 15:46:55.289 27140:27140 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x10 cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver }
+
+[ 12-12 15:46:55.319 27140:27325 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 15:46:55.319 27140:27325 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :NETWORK_UNAVAILABLE
+
+[ 12-12 15:46:55.319 27140:27325 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = NETWORK_UNAVAILABLE, status = CONNECTING, listener = io.rong.imkit.RongIMClientWrapper$1@43130890
+
+[ 12-12 15:46:55.319 27140:27325 D/##KIT_null:RongIMClientWrapper : ConnectStatus ]
+CONNECTING
+
+[ 12-12 15:46:55.319 27140:27325 D/Event    ]
+No subscribers registered for event class io.rong.imlib.RongIMClient$ConnectionStatusListener$ConnectionStatus
+
+[ 12-12 15:46:55.319 27140:27325 D/Event    ]
+No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
+
+[ 12-12 15:46:55.319 27140:27325 D/long     ]
+ConnectionStatus:CONNECTING
+
+[ 12-12 15:46:55.319 27140:27325 D/##IPC_java.lang.String:RongIMClient : connect ]
+service binded, connect
+
+[ 12-12 15:46:55.319 27165:27176 D/##IPC_java.lang.String:connect ]
+remote connect
+
+[ 12-12 15:46:55.319 27165:27176 D/NativeClient ]
+connect
+
+[ 12-12 15:46:55.319 27140:27325 I/##IPC_java.lang.String:RongIMClient ]
+clent:io.rong.imlib.RongIMClient@43151098
+
+[ 12-12 15:46:55.449 27165:27326 D/##COMMON_io.rong.imlib.LibContext:cancelHeartbeat ]
+com.xdf.ucan
+
+[ 12-12 15:46:55.459 27140:27150 D/##IPC_java.lang.String:RongIMClient : connect ]
+callback : onFailure = 31004
+
+[ 12-12 15:46:55.459 27140:27150 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = CONNECTING, status = DISCONNECTED, listener = io.rong.imkit.RongIMClientWrapper$1@43130890
+
+[ 12-12 15:46:55.459 27140:27150 D/##KIT_null:RongIMClientWrapper : ConnectStatus ]
+DISCONNECTED
+
+[ 12-12 15:46:55.459 27140:27150 D/Event    ]
+No subscribers registered for event class io.rong.imlib.RongIMClient$ConnectionStatusListener$ConnectionStatus
+
+[ 12-12 15:46:55.459 27140:27150 D/Event    ]
+No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
+
+[ 12-12 15:46:55.459 27140:27150 D/long     ]
+ConnectionStatus:DISCONNECTED
+
+[ 12-12 15:47:00.919 27140:27140 D/long     ]
+onCreate
+
+[ 12-12 15:47:00.919 27140:27140 D/long     ]
+onCreateView
+
+[ 12-12 15:47:00.959 27140:27140 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-12 15:47:01.009 27140:27140 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-12 15:47:08.559 27140:27140 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 15:47:08.579 27140:27140 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 15:47:08.599 27140:27140 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 15:47:08.601&examstartdate=2015-12-12 15:18:09.758&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 15:47:08.591&resourcestartdate=2015-12-12 15:19:34.792&schoolid=0&userid=xdf004487139&videoenddate=2015-12-12 15:47:08.597&videostartdate=2015-12-12 15:19:47.508&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 15:47:08.599 27140:27140 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 15:47:08.599 27140:27140 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487139&schoolid=0&resourcestartdate=2015-12-12 15:19:34.792&resourceenddate=2015-12-12 15:47:08.591&videostartdate=2015-12-12 15:19:47.508&videoenddate=2015-12-12 15:47:08.597&examstartdate=2015-12-12 15:18:09.758&examenddate=2015-12-12 15:47:08.601&appid=5004&sign=39984D00A986AAA8486B312E7F7FE0D3
+
+[ 12-12 15:47:08.599 27140:27140 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 15:47:08.639 27140:27140 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1587
+
+[ 12-12 15:47:08.639 27140:27140 D/PullToRefresh ]
+Setting Padding. L: 0, T: -952, R: 0, B: 0
+
+[ 12-12 15:47:09.939 27140:27140 D/long     ]
+onCreateView
+
+[ 12-12 15:47:11.459 27140:27140 I/Timeline ]
+Timeline: Activity_launch_request time:2216089
+
+[ 12-12 15:47:28.949 27140:27140 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 15:47:28.949 27140:27140 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:47:28.949 27140:27140 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 15:48:13.039 27140:27140 D/dalvikvm ]
+GC_EXPLICIT freed 3706K, 17% free 32428K/38764K, paused 2ms+4ms, total 71ms
+
+[ 12-12 15:48:13.039 27140:27148 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '/data/data/com.xdf.ucan/databases/rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-12 15:49:35.609 27214:27214 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 15:49:35.609 27214:27214 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 15:49:35.619 27214:27242 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.108.12
+
+[ 12-12 15:49:35.619 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-12 15:49:35.619 27214:27242 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:49:35.749 27214:27250 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-12 15:49:35.749 27214:27250 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-12 15:50:24.899 27140:27203 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906614687
+
+[ 12-12 15:51:04.229 27140:27203 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906654020
+
+[ 12-12 15:51:04.229 27140:27203 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906664239
+
+[ 12-12 15:53:43.239 27214:27214 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 15:53:43.239 27214:27214 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 15:53:43.259 27214:27242 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.108.12
+
+[ 12-12 15:53:43.259 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-12 15:53:43.259 27214:27242 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:54:13.289 27214:27242 I/##COMMON_null:runnable ]
+no PINGRESP received. connect again!!!
+
+[ 12-12 15:54:13.289 27214:27250 E/##COMMON_io.rong.push.PushService:ConnectStatus ]
+java.net.SocketException: Socket closed
+
+[ 12-12 15:54:13.289 27214:27242 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+cancel
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushService:DeviceId ]
+866963027376997
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.108.12:8600
+
+[ 12-12 15:54:13.339 27214:27242 I/PushHandler ]
+the saved time = 1449900475831current time = 1449906853349
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.108.12:8600
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 4LTE|19|WIFI|46000
+
+[ 12-12 15:54:13.339 27214:27242 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 4LTE|19|WIFI|46000 push version:2.6
+
+[ 12-12 15:54:13.349 27214:27242 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:54:14.369 27214:27242 W/System.err ]
+java.net.ConnectException: failed to connect to /119.254.108.12 (port 8600) after 4000ms: isConnected failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 15:54:14.369 27214:27242 W/System.err ]
+	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at java.net.Socket.connect(Socket.java:833)
+
+[ 12-12 15:54:14.379 27214:27242 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-12 15:54:14.389 27214:27242 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-12 15:54:14.389 27214:27242 W/System.err ]
+	at io.rong.push.PushService$1.run(PushService.java:92)
+
+[ 12-12 15:54:14.389 27214:27242 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:733)
+
+[ 12-12 15:54:14.389 27214:27242 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-12 15:54:14.399 27214:27242 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 15:54:14.399 27214:27242 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-12 15:54:14.399 27214:27242 W/System.err ]
+Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 15:54:14.399 27214:27242 W/System.err ]
+	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+
+[ 12-12 15:54:14.399 27214:27242 W/System.err ]
+	... 12 more
+
+[ 12-12 15:54:14.399 27214:27242 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+

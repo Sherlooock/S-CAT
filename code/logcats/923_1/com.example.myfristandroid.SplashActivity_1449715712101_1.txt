@@ -1,0 +1,1931 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:45:46.354 20585:20585 E/Trace    ]
+error opening trace file: Permission denied (13)
+
+[ 12-10 10:45:46.454 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 72K, 5% free 8160K/8515K, paused 19ms, total 19ms
+
+[ 12-10 10:45:46.514 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 4% free 11944K/12359K, paused 3ms+2ms, total 38ms
+
+[ 12-10 10:45:46.684 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 4% free 11944K/12359K, paused 13ms, total 13ms
+
+[ 12-10 10:45:46.734 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 3% free 20461K/20935K, paused 12ms+2ms, total 27ms
+
+[ 12-10 10:45:46.844 20605:20605 E/Trace    ]
+error opening trace file: Permission denied (13)
+
+[ 12-10 10:45:46.864 20585:20585 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130130_Merge_release_AU (Merge)
+Build Date: 01/31/13 Thu
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130130
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:45:46.884 20605:20605 D/dalvikvm ]
+GC_FOR_ALLOC freed 61K, 5% free 8132K/8515K, paused 15ms, total 16ms
+
+[ 12-10 10:45:46.904 20605:20605 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:45:46.904 20605:20605 D/SocketService ]
+pid:20605 myPid:20605
+
+[ 12-10 10:45:46.904 20605:20605 D/SocketService ]
+start to run current thread!id:698
+
+[ 12-10 10:45:46.944 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 59K, 5% free 9143K/9543K, paused 1ms+21ms, total 55ms
+
+[ 12-10 10:45:47.034 20605:20624 D/SocketService ]
+ip/172.20.10.2 lport:43400 p:143
+
+--------- beginning of /dev/log/system
+[ 12-10 10:45:47.044 20605:20624 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:45:47.054 20605:20624 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:45:47.054 20605:20624 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:45:47.054 20605:20624 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:45:47.054 20605:20624 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:45:47.064 20605:20624 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:45:47.074 20605:20624 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:45:47.074 20605:20624 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:45:47.074 20605:20624 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:45:47.084 20605:20624 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:45:47.084 20605:20624 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:45:49.024 20585:20585 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:45:49.214 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed 4939K, 23% free 17531K/22663K, paused 12ms+5ms, total 34ms
+
+[ 12-10 10:45:49.214 20585:20585 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 15ms
+
+[ 12-10 10:45:49.384 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed 1121K, 20% free 18333K/22663K, paused 14ms+2ms, total 36ms
+
+[ 12-10 10:45:51.354 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:45:54.834 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:45:54.864 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:45:54.934 20605:20605 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:11
+
+[ 12-10 10:45:55.124 20605:20628 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:17
+
+[ 12-10 10:45:55.934 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:17 HeadIndex:0 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:46:00.074 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 352K, 7% free 9206K/9799K, paused 11ms+12ms, total 45ms
+
+[ 12-10 10:46:24.124 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230801
+
+[ 12-10 10:46:26.294 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:46:26.304 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:46:26.314 20605:20605 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:22
+
+[ 12-10 10:46:26.904 20605:20620 D/SocketService ]
+start to run current thread!id:700
+
+[ 12-10 10:46:27.064 20605:20677 D/SocketService ]
+ip/172.20.10.2 lport:49059 p:143
+
+[ 12-10 10:46:27.074 20605:20677 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:46:27.074 20605:20677 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:46:27.074 20605:20677 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:46:27.074 20605:20677 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:46:27.074 20605:20677 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:46:27.104 20605:20677 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:46:27.124 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 455K, 7% free 9221K/9863K, paused 13ms+12ms, total 40ms
+
+[ 12-10 10:46:27.124 20605:20677 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:46:27.124 20605:20677 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:46:27.124 20605:20677 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:46:27.134 20605:20677 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:46:27.134 20605:20677 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:46:36.904 20605:20620 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:35
+
+[ 12-10 10:46:37.104 20605:20628 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:30
+
+[ 12-10 10:46:37.964 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:30 HeadIndex:17 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:46:48.404 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 421K, 7% free 9195K/9863K, paused 11ms+1ms, total 24ms
+
+[ 12-10 10:47:05.824 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:47:06.824 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:47:07.174 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:47:10.294 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:47:11.064 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:47:16.444 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:47:16.904 20605:20620 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:48
+
+[ 12-10 10:47:18.534 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 425K, 7% free 9196K/9863K, paused 12ms+18ms, total 47ms
+
+[ 12-10 10:47:26.924 20605:20620 D/SocketService ]
+start to run current thread!id:702
+
+[ 12-10 10:47:27.074 20605:20717 D/SocketService ]
+ip/172.20.10.2 lport:47790 p:143
+
+[ 12-10 10:47:27.084 20605:20717 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:47:27.084 20605:20717 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:47:27.084 20605:20717 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:27.084 20605:20717 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:27.084 20605:20717 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:27.084 20605:20717 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:47:27.094 20605:20717 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:27.094 20605:20717 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:27.094 20605:20717 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:27.094 20605:20717 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:27.104 20605:20717 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:47:36.734 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 416K, 7% free 9212K/9863K, paused 3ms+2ms, total 39ms
+
+[ 12-10 10:47:36.904 20605:20620 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:61
+
+[ 12-10 10:47:37.024 20605:20628 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:43
+
+[ 12-10 10:47:37.024 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:43 HeadIndex:30 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:47:40.464 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:40.464 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 10:47:40.464 20605:20605 D/ForegroundActivity ]
+本次发送帧长:32	总帧长:93
+
+[ 12-10 10:47:41.824 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:41.824 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 10:47:41.844 20605:20605 D/SocketService ]
+start to run current thread!id:704
+
+[ 12-10 10:47:41.934 20605:20750 D/SocketService ]
+ip/172.20.10.2 lport:56638 p:143
+
+[ 12-10 10:47:41.934 20605:20750 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:47:41.934 20605:20750 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:47:41.934 20605:20750 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:41.934 20605:20750 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:41.934 20605:20750 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:47:41.944 20605:20750 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:41.944 20605:20750 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:41.944 20605:20750 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:41.944 20605:20750 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:41.944 20605:20750 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:41.944 20605:20750 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:47:45.644 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed 1405K, 17% free 18850K/22663K, paused 11ms+6ms, total 39ms
+
+[ 12-10 10:47:49.504 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:49.554 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:47:49.554 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=41 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:49.564 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=29 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:49.564 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=24 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:49.564 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=5 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4084)
+	at android.view.View$PerformClick.run(View.java:16987)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:49.564 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:121
+
+[ 12-10 10:47:49.714 20605:20628 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:56
+
+[ 12-10 10:47:50.054 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:56 HeadIndex:43 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:47:50.114 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=23 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:50.124 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=18 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:50.124 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:50.124 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=1 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:50.284 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:50.284 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:47:50.294 20605:20605 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:132
+
+[ 12-10 10:47:50.544 20605:20678 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:69
+
+[ 12-10 10:47:51.114 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:69 HeadIndex:56 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 01 01 
+
+[ 12-10 10:47:51.194 20585:20585 D/MainActivity ]
+write Login:false
+
+[ 12-10 10:47:51.194 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:51.194 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:51.204 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=12 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:51.204 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=1 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:47:52.014 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 410K, 7% free 9215K/9863K, paused 23ms+2ms, total 71ms
+
+[ 12-10 10:47:54.164 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:54.164 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:47:54.174 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:160
+
+[ 12-10 10:47:56.404 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:47:56.404 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:47:56.424 20605:20605 D/SocketService ]
+start to run current thread!id:706
+
+[ 12-10 10:47:56.574 20605:20800 D/SocketService ]
+ip/172.20.10.2 lport:53896 p:143
+
+[ 12-10 10:47:56.574 20605:20800 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:47:56.574 20605:20800 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:47:56.574 20605:20800 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:56.574 20605:20800 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:56.574 20605:20800 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:56.574 20605:20800 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:47:56.584 20605:20800 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:56.584 20605:20800 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:47:56.584 20605:20800 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:47:56.584 20605:20800 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:47:56.584 20605:20800 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:47:58.814 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:48:02.044 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230787
+
+[ 12-10 10:48:02.064 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:48:02.074 20605:20605 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:171
+
+[ 12-10 10:48:02.304 20605:20751 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:86
+
+[ 12-10 10:48:03.184 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:86 HeadIndex:69 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 02 01 
+
+[ 12-10 10:48:05.194 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:48:08.254 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 408K, 7% free 9218K/9863K, paused 12ms+12ms, total 37ms
+
+[ 12-10 10:48:10.354 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:10.354 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:10.354 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:199
+
+[ 12-10 10:48:12.454 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:12.454 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:12.464 20605:20605 D/SocketService ]
+start to run current thread!id:708
+
+[ 12-10 10:48:12.644 20605:20841 D/SocketService ]
+ip/172.20.10.2 lport:50641 p:143
+
+[ 12-10 10:48:12.654 20605:20841 E/SettingsProvider ]
+zte+++ ttt s=默认设置
+
+[ 12-10 10:48:12.654 20605:20841 I/SettingsProvider ]
+get translate resource: null
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteOpenHelper ]
+Couldn't open settings.db for writing (will try read-only):
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:873)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:224)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteLog ]
+(14) cannot open file at line 30178 of [00bb9c9ce4]
+
+
+[ 12-10 10:48:12.654 20605:20841 E/SQLiteLog ]
+(14) os_unix.c:30178: (13) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+
+
+[ 12-10 10:48:12.654 20605:20841 D/ActivityThread ]
+Loading provider settings: com.android.providers.settings.SettingsProvider
+
+[ 12-10 10:48:12.664 20605:20841 E/SQLiteDatabase ]
+Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:235)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+	at com.android.providers.settings.SettingsProvider.query(SettingsProvider.java:442)
+	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:323)
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:263)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1129)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:4609)
+	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4279)
+	at android.app.ContextImpl$ApplicationContentResolver.acquireProvider(ContextImpl.java:1757)
+	at android.content.ContentResolver.acquireProvider(ContentResolver.java:1083)
+	at android.provider.Settings$NameValueCache.getString(Settings.java:734)
+	at android.provider.Settings$Secure.getString(Settings.java:2845)
+	at android.provider.Settings$Secure.getInt(Settings.java:2885)
+	at android.telephony.ZTEPrivacyTelephonyManager.isSecurityEnabled(ZTEPrivacyTelephonyManager.java:56)
+	at android.telephony.ZTEPrivacyTelephonyManager.enforceReadPhoneInfoPermission(ZTEPrivacyTelephonyManager.java:81)
+	at android.telephony.ZTEPrivacyTelephonyManager.getDeviceId(ZTEPrivacyTelephonyManager.java:103)
+	at com.example.myfristandroid.SocketService.SendIMCI(SocketService.java:500)
+	at com.example.myfristandroid.SocketService.access$7(SocketService.java:485)
+	at com.example.myfristandroid.SocketService$ConnThread.run(SocketService.java:202)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 10:48:12.664 20605:20841 D/SocketService ]
+failured to connect Server:java.lang.RuntimeException: Unable to get provider com.android.providers.settings.SettingsProvider: android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+
+[ 12-10 10:48:14.414 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:14.414 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:14.424 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:227
+
+[ 12-10 10:48:14.704 20605:20718 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:99
+
+[ 12-10 10:48:14.714 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:14.714 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:14.744 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:255
+
+[ 12-10 10:48:14.924 20605:20718 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:112
+
+[ 12-10 10:48:14.994 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:14.994 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:15.004 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:283
+
+[ 12-10 10:48:15.144 20605:20842 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:125
+
+[ 12-10 10:48:15.234 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:99 HeadIndex:86 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:48:15.254 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:112 HeadIndex:99 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:48:15.264 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=20 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:15.264 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:15.264 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:15.264 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=1 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:15.274 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:125 HeadIndex:112 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:48:15.564 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:15.564 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:11
+
+[ 12-10 10:48:15.584 20605:20605 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:294
+
+[ 12-10 10:48:15.844 20605:20751 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:138
+
+[ 12-10 10:48:16.304 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:138 HeadIndex:125 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 01 01 
+
+[ 12-10 10:48:16.344 20585:20585 D/MainActivity ]
+write Login:false
+
+[ 12-10 10:48:16.344 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=21 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:16.344 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:16.344 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=11 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:16.354 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=1 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:583)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:20.084 20585:20585 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 10:48:20.084 20585:20585 D/MainActivity ]
+MainActivity Send BroadCast Length:28
+
+[ 12-10 10:48:20.094 20605:20605 D/ForegroundActivity ]
+本次发送帧长:28	总帧长:322
+
+[ 12-10 10:48:20.344 20605:20718 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:151
+
+[ 12-10 10:48:20.354 20605:20622 D/SocketService1 ]
+本次提取1:LoadPtr:151 HeadIndex:138 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 00 01 
+
+[ 12-10 10:48:20.384 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=19 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:400)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:20.384 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=15 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:457)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:20.384 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=14 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1086)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+	at android.os.FileUtils.sync(FileUtils.java:121)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:20.394 20585:20585 D/StrictMode ]
+StrictMode policy violation; ~duration=1 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1112)
+	at android.os.StrictMode.noteDiskRead(StrictMode.java:1876)
+	at android.os.FileUtils.getFileStatus(FileUtils.java:88)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:565)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4591)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:755)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4794)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:48:22.454 20605:20609 D/dalvikvm ]
+GC_CONCURRENT freed 407K, 7% free 9221K/9863K, paused 6ms+2ms, total 51ms
+
+[ 12-10 10:48:28.254 20585:20627 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715708262
+
+[ 12-10 10:48:28.324 20585:20587 D/dalvikvm ]
+GC_CONCURRENT freed 2086K, 18% free 18688K/22663K, paused 3ms+3ms, total 40ms
+
+[ 12-10 10:48:28.324 20585:20585 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+
+[ 12-10 10:48:28.354 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 128K, 19% free 18559K/22663K, paused 21ms, total 21ms
+
+[ 12-10 10:48:28.424 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 18% free 20161K/24327K, paused 18ms, total 18ms
+
+[ 12-10 10:48:32.094 20585:20627 D/cn.edu.nju.ise.kikandroid ]
+Log:1449715712101
+
+[ 12-10 10:48:32.124 20585:20627 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715712133
+
+[ 12-10 10:48:32.194 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 3322K, 29% free 18572K/25991K, paused 28ms, total 29ms
+
+[ 12-10 10:48:32.234 20585:20585 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 23% free 20173K/25991K, paused 17ms, total 17ms
+
+[ 12-10 10:48:32.334 20585:20627 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x40f56438)
+
+[ 12-10 10:48:32.334 20585:20627 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-694
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

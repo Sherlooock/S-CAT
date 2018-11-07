@@ -1,0 +1,1644 @@
+--------- beginning of /dev/log/main
+[ 12-13 10:36:20.485 25015:25015 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.facebook.imagepipeline.animated.util.AnimatedDrawableUtil.getSizeOfBitmap
+
+[ 12-13 10:36:20.485 25015:25015 W/dalvikvm ]
+VFY: unable to resolve virtual method 557: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 10:36:20.485 25015:25015 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0006
+
+[ 12-13 10:36:21.970 25015:25015 W/ImageLoader ]
+diskCache(), diskCacheSize() and diskCacheFileCount calls overlap each other
+
+[ 12-13 10:36:21.975 25015:25015 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 10:36:22.245 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 678K, 24% free 9796K/12788K, paused 43ms+3ms, total 108ms
+
+[ 12-13 10:36:22.245 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+
+[ 12-13 10:36:22.250 25015:25072 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-13 10:36:22.250 25015:25074 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-13 10:36:22.250 25015:25047 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-13 10:36:22.280 25015:25015 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xp.tugele-1/libjpush182.so 0x42d6adc0
+
+[ 12-13 10:36:22.295 25015:25015 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xp.tugele-1/libjpush182.so 0x42d6adc0
+
+[ 12-13 10:36:22.330 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 420K, 23% free 9888K/12788K, paused 9ms+12ms, total 50ms
+
+[ 12-13 10:36:22.330 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+
+[ 12-13 10:36:22.330 25015:25072 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+
+[ 12-13 10:36:22.380 25015:25015 D/jpush    ]
+Failed with errorCode = 6005
+
+[ 12-13 10:36:22.430 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 419K, 22% free 9981K/12788K, paused 4ms+6ms, total 37ms
+
+[ 12-13 10:36:22.430 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-13 10:36:22.430 25015:25047 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-13 10:36:22.430 25015:25072 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-13 10:36:22.620 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 892K, 25% free 10021K/13228K, paused 5ms+2ms, total 30ms
+
+[ 12-13 10:36:22.885 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 230K, 23% free 10673K/13704K, paused 22ms, total 22ms
+
+[ 12-13 10:36:22.960 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:36:22.980 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:36:22.980 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:36:22.980 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:36:23.160 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:36:23.160 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:23.170 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:36:23.170 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:23.235 25015:25015 D/libEGL   ]
+loaded /system/lib/egl/libEGL_mali.so
+
+[ 12-13 10:36:23.240 25015:25015 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+
+[ 12-13 10:36:23.245 25015:25015 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_mali.so
+
+[ 12-13 10:36:23.250 25015:25015 E/         ]
+Device driver API match
+Device driver API version: 23
+User space API version: 23 
+
+
+[ 12-13 10:36:23.250 25015:25015 E/         ]
+mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Wed Oct  9 21:05:57 KST 2013 
+
+[ 12-13 10:36:23.275 25015:25015 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-13 10:36:23.280 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:36:23.280 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:36:23.280 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:36:23.280 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:36:23.370 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:23.460 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:23.615 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1017K, 21% free 13237K/16628K, paused 3ms+7ms, total 44ms
+
+[ 12-13 10:36:28.485 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1139K, 21% free 13343K/16788K, paused 4ms+10ms, total 40ms
+
+[ 12-13 10:36:28.720 25015:25015 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 10:36:28.740 25015:25177 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:28.740 25015:25177 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:28.740 25015:25177 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:28.765 25015:25178 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:28.790 25015:25179 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:28.790 25015:25178 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:28.790 25015:25178 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:28.800 25015:25179 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:28.800 25015:25179 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:28.950 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:29.045 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:29.065 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:36:29.200 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 748K, 19% free 13853K/16932K, paused 6ms+6ms, total 71ms
+
+[ 12-13 10:36:29.210 25015:25178 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 52ms
+
+[ 12-13 10:36:29.230 25015:25179 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 73ms
+
+[ 12-13 10:36:29.480 25015:25177 D/ImageLoader ]
+Subsample original image (530x742) to 265x371 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:29.490 25015:25178 D/ImageLoader ]
+Subsample original image (600x848) to 300x424 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:29.530 25015:25178 D/dalvikvm ]
+GC_FOR_ALLOC freed 764K, 21% free 13782K/17320K, paused 36ms, total 36ms
+
+[ 12-13 10:36:29.530 25015:25178 I/dalvikvm-heap ]
+Grow heap (frag case) to 16.202MB for 508816-byte allocation
+
+[ 12-13 10:36:29.565 25015:25023 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 20% free 14279K/17820K, paused 36ms, total 36ms
+
+[ 12-13 10:36:29.580 25015:25177 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:29.580 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:29.580 25015:25177 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:29.580 25015:25177 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:29.580 25015:25177 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:29.630 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:29.655 25015:25179 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:29.655 25015:25179 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:29.655 25015:25179 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:29.655 25015:25179 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:29.675 25015:25178 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:29.680 25015:25178 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:29.680 25015:25178 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:29.680 25015:25178 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:29.700 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:29.710 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:29.745 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:30.165 25015:25178 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:30.165 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:30.170 25015:25178 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:30.170 25015:25178 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:30.170 25015:25178 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:30.185 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:30.250 25015:25179 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:30.250 25015:25179 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:30.250 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:30.255 25015:25179 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:30.255 25015:25179 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:30.285 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:31.520 25015:25178 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:31.520 25015:25178 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:31.520 25015:25178 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:31.520 25015:25178 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:31.525 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:31.545 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:32.010 25015:25178 D/ImageLoader ]
+Subsample original image (1080x1920) to 270x480 (scale = 4) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:32.220 25015:25178 D/dalvikvm ]
+GC_FOR_ALLOC freed 1034K, 18% free 16737K/20376K, paused 208ms, total 208ms
+
+[ 12-13 10:36:32.260 25015:25179 D/ImageLoader ]
+Subsample original image (658x987) to 329x493 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:32.290 25015:25179 D/dalvikvm ]
+GC_FOR_ALLOC freed 223K, 19% free 17123K/20884K, paused 28ms, total 28ms
+
+[ 12-13 10:36:32.290 25015:25179 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.599MB for 650120-byte allocation
+
+[ 12-13 10:36:32.310 25015:25091 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 17758K/21520K, paused 20ms, total 20ms
+
+[ 12-13 10:36:32.355 25015:25178 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:32.355 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:32.365 25015:25179 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:32.385 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:32.400 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:32.415 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:32.505 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:36:32.505 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:36:32.510 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:36:32.515 25015:25244 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:32.515 25015:25244 D/ImageLoader ]
+Image already is loading. Waiting... [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:32.515 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:36:32.520 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:36:32.520 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:36:32.525 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:36:32.525 25015:25015 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:36:32.525 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:32.525 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-13 10:36:32.525 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:32.645 25015:25177 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:32.650 25015:25244 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:32.790 25015:25244 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:32.790 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:36:38.325 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 3180K, 23% free 18550K/24044K, paused 6ms+4ms, total 43ms
+
+[ 12-13 10:36:38.480 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:41.260 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:36:41.260 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:44.200 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:36:44.200 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:36:52.825 25015:25015 I/System.out ]
+QQ
+
+[ 12-13 10:36:53.550 25015:25015 I/Choreographer ]
+Skipped 36 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:36:56.310 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1514K, 21% free 19044K/24044K, paused 14ms+7ms, total 87ms
+
+[ 12-13 10:36:56.310 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 69ms
+
+[ 12-13 10:37:29.635 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:37:29.635 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:37:50.470 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:37:50.470 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:37:50.690 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:37:50.690 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 13
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 14
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 15
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 16
+
+[ 12-13 10:38:14.135 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 17
+
+[ 12-13 10:38:15.225 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:38:15.225 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:16.200 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:22.870 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:38:22.885 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:38:22.885 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:38:22.885 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:38:22.970 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 2018K, 22% free 18807K/24044K, paused 40ms, total 40ms
+
+[ 12-13 10:38:23.075 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:38:23.075 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:23.100 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:38:23.100 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:23.105 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:23.170 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:38:23.170 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:38:23.170 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:38:23.170 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:38:23.350 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:23.815 25015:27155 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-13 10:38:23.935 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:24.475 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:24.570 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:38:24.865 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:38:24.865 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:27.330 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:28.110 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:38:28.110 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:38:38.445 25015:25021 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-13 10:39:15.755 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:39:15.755 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:39:15.755 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:39:16.000 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:39:16.000 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:39:16.000 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:39:16.000 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:39:17.155 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:17.250 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:39:17.250 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:39:17.250 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:39:17.390 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:39:17.390 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:17.885 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:39:17.885 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:39:17.885 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:39:17.885 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:39:18.290 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:18.305 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:18.375 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:18.440 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 995K, 18% free 19754K/24044K, paused 27ms+23ms, total 190ms
+
+[ 12-13 10:39:25.740 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:27.040 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:27.045 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:27.050 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:27.805 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:28.520 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:28.525 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:28.530 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:29.040 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:29.530 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:29.535 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:29.540 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:30.010 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:31.410 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:31.410 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:31.410 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:32.375 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:36.535 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:36.545 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:36.550 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:37.065 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:37.755 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:37.765 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:37.775 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:38.505 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:38.950 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:38.955 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:38.960 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:40.030 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:40.645 25015:25015 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:39:40.650 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:40.655 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:42.165 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:39:42.165 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:42.270 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:42.280 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:42.335 25015:25015 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-13 10:39:45.810 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:39:45.835 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:39:45.835 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:39:45.835 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:39:45.910 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:39:45.910 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:45.915 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:39:45.915 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:45.915 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:45.955 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:39:45.955 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:39:45.955 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:39:45.955 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:39:46.060 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:46.110 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:46.260 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:39:46.260 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:46.805 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:46.850 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:46.860 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:39:47.810 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:39:47.810 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:47.940 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:47.955 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:48.025 25015:25015 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-13 10:39:49.325 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:51.065 25015:25015 I/System.out ]
+WechatMoments
+
+[ 12-13 10:39:51.865 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:53.330 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:58.810 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1466K, 16% free 20262K/24044K, paused 9ms+13ms, total 61ms
+
+[ 12-13 10:39:58.825 25015:25023 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-13 10:39:58.850 25015:25023 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-13 10:39:58.850 25015:25023 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:39:58.895 25015:25023 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-13 10:39:58.895 25015:25023 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-13 10:39:58.895 25015:25023 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:22.755 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:24.040 25015:25021 I/dalvikvm ]
+Total arena pages for JIT: 18
+
+[ 12-13 10:40:27.920 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:40:27.945 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:40:27.945 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:40:27.945 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:40:28.050 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:40:28.050 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:28.055 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:40:28.055 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:28.055 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:28.095 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:40:28.095 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:40:28.095 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:40:28.095 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:40:28.180 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:28.240 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:28.690 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:40:28.690 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:32.910 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:33.010 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:33.030 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:40:34.410 25015:25015 I/Choreographer ]
+Skipped 34 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:40:34.795 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:40:34.795 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:34.910 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:34.985 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:34.990 25015:25015 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-13 10:40:37.950 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:38.010 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 2352K, 21% free 19600K/24596K, paused 38ms, total 38ms
+
+[ 12-13 10:40:38.015 25015:25023 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-13 10:40:38.015 25015:25023 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-13 10:40:38.015 25015:25023 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:39.990 25015:25015 I/System.out ]
+Wechat
+
+[ 12-13 10:40:40.865 25015:25015 I/Choreographer ]
+Skipped 33 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:40:40.920 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:42.495 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:40:53.695 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974453702
+
+[ 12-13 10:41:02.950 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 1697K, 21% free 19596K/24596K, paused 78ms, total 78ms
+
+[ 12-13 10:41:02.950 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.910MB for 3686416-byte allocation
+
+[ 12-13 10:41:02.990 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 18% free 23196K/28200K, paused 40ms, total 40ms
+
+[ 12-13 10:41:03.085 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 480K, 20% free 22717K/28200K, paused 5ms+15ms, total 91ms
+
+[ 12-13 10:41:03.085 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 38ms
+
+[ 12-13 10:41:03.085 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.958MB for 3686416-byte allocation
+
+[ 12-13 10:41:03.195 25015:25023 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 26316K/31804K, paused 109ms, total 109ms
+
+[ 12-13 10:41:06.200 25015:25015 I/Choreographer ]
+Skipped 62 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:41:06.635 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:07.755 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974467763
+
+[ 12-13 10:41:08.025 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 7380K, 21% free 19130K/24044K, paused 109ms, total 115ms
+
+[ 12-13 10:41:08.025 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.455MB for 3686416-byte allocation
+
+[ 12-13 10:41:08.085 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 18% free 22724K/27648K, paused 7ms+5ms, total 62ms
+
+[ 12-13 10:41:08.085 25015:25023 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 55ms
+
+[ 12-13 10:41:08.085 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 56ms
+
+[ 12-13 10:41:08.200 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 335K, 19% free 22658K/27784K, paused 63ms, total 63ms
+
+[ 12-13 10:41:08.200 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.900MB for 3686416-byte allocation
+
+[ 12-13 10:41:08.260 25015:25023 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 17% free 26257K/31388K, paused 61ms, total 61ms
+
+[ 12-13 10:41:09.090 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:10.670 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:10.700 25015:25015 W/Choreographer ]
+Already have a pending vsync event.  There should only be one at a time.
+
+[ 12-13 10:41:11.450 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:14.980 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974474985
+
+[ 12-13 10:41:15.095 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 7863K, 37% free 20182K/31692K, paused 80ms, total 82ms
+
+[ 12-13 10:41:15.100 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.482MB for 3686416-byte allocation
+
+[ 12-13 10:41:15.165 25015:25023 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 25% free 23781K/31692K, paused 65ms, total 65ms
+
+[ 12-13 10:41:15.260 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 449K, 27% free 23332K/31692K, paused 6ms+23ms, total 97ms
+
+[ 12-13 10:41:15.260 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-13 10:41:16.900 25015:25015 I/System.out ]
+Wechat
+
+[ 12-13 10:41:18.865 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 7610K, 38% free 19694K/31692K, paused 17ms+6ms, total 78ms
+
+[ 12-13 10:41:34.440 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:41:34.855 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:41:34.855 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:41:34.855 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:41:35.215 25015:25015 I/Choreographer ]
+Skipped 52 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:41:35.215 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:35.650 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:41:35.650 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:41:35.650 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:41:35.650 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:41:36.075 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:36.130 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1432K, 37% free 20249K/31692K, paused 15ms+34ms, total 143ms
+
+[ 12-13 10:41:36.155 25015:25178 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:36.155 25015:25179 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:36.155 25015:25177 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:36.160 25015:25177 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:36.195 25015:25178 D/ImageLoader ]
+Image already is loading. Waiting... [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:36.210 25015:25179 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.210 25015:25177 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:36.210 25015:25179 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.210 25015:25177 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:36.220 25015:25179 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.235 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-13 10:41:36.235 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:36.785 25015:25179 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.785 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.785 25015:25179 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/07/6B/Co4gj1ZqfI2clnqqAABvdZsGQb4271.jpg_720x258]
+
+[ 12-13 10:41:36.785 25015:25179 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:36.785 25015:25179 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:36.785 25015:25179 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:37.185 25015:25179 D/dalvikvm ]
+GC_FOR_ALLOC freed 1806K, 37% free 20071K/31692K, paused 88ms, total 91ms
+
+[ 12-13 10:41:37.225 25015:25179 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:37.225 25015:25179 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:37.225 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/07/6E/Co4gj1ZqfTS_UwytAADm7k3kOuQ722.jpg_720x258]
+
+[ 12-13 10:41:37.230 25015:25179 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:37.230 25015:25179 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:37.240 25015:25177 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:37.240 25015:25178 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:37.240 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:37.240 25015:25015 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/07/71/Co4gj1ZqfaKi-O1LAAGLeyJtQe8257.jpg_720x258]
+
+[ 12-13 10:41:37.455 25015:25179 D/dalvikvm ]
+GC_FOR_ALLOC freed 246K, 32% free 21636K/31692K, paused 46ms, total 46ms
+
+[ 12-13 10:41:37.525 25015:25179 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:37.525 25015:25015 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/07/92/Co4gj1ZqheuGA9mQAADbEJNFPTA318.jpg_720x258]
+
+[ 12-13 10:41:39.550 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1045K, 29% free 22522K/31692K, paused 8ms+7ms, total 111ms
+
+[ 12-13 10:41:43.980 25015:25015 I/System.out ]
+SinaWeibo
+
+[ 12-13 10:41:44.000 25015:25015 I/Choreographer ]
+Skipped 38 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:41:44.890 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:41:44.890 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:41:45.445 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:41:45.445 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:45.445 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:41:45.445 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+java.lang.Throwable: auth faild!!!!
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at cn.sharesdk.sina.weibo.SinaActivity.a(Unknown Source)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at cn.sharesdk.sina.weibo.SinaActivity.onNewIntent(Unknown Source)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1178)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread.deliverNewIntents(ActivityThread.java:2419)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread.performNewIntents(ActivityThread.java:2432)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread.handleNewIntent(ActivityThread.java:2441)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread.access$1500(ActivityThread.java:160)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1388)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.os.Looper.loop(Looper.java:176)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5454)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:525)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+
+[ 12-13 10:41:50.100 25015:25015 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-13 10:41:51.605 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:41:51.615 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:51.615 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:41:51.615 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:51.735 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:41:51.735 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:09.710 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:09.710 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:11.145 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:11.145 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:48.020 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1470K, 28% free 22984K/31692K, paused 13ms+64ms, total 145ms
+
+[ 12-13 10:42:48.270 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:48.280 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:49.855 25015:25015 I/Choreographer ]
+Skipped 52 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:42:49.875 25015:25015 D/JPushReceiver ]
+[MyReceiver] onReceive - cn.jpush.android.intent.CONNECTION, extras: 
+key:cn.jpush.android.APPKEY, value:98fd1f8cd834614ae1c8330e
+key:cn.jpush.android.CONNECTION_CHANGE, value:true
+
+[ 12-13 10:42:49.875 25015:25015 W/JPushReceiver ]
+[MyReceiver]cn.jpush.android.intent.CONNECTION connected state change to true
+
+[ 12-13 10:42:49.950 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:49.955 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:49.965 25015:25015 W/Choreographer ]
+Already have a pending vsync event.  There should only be one at a time.
+
+[ 12-13 10:42:50.645 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:50.650 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:59.165 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:42:59.170 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:42:59.170 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:42:59.170 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:05.855 25015:31807 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-13 10:43:05.925 25015:31807 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-13 10:43:05.925 25015:31807 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-13 10:43:05.925 25015:31807 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-13 10:43:05.925 25015:31807 W/System.err ]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:304)
+
+[ 12-13 10:43:05.930 25015:31807 W/System.err ]
+	at libcore.net.http.FixedLengthInputStream.read(FixedLengthInputStream.java:45)
+
+[ 12-13 10:43:05.930 25015:31807 W/System.err ]
+	at java.io.InputStream.read(InputStream.java:163)
+
+[ 12-13 10:43:05.930 25015:31807 W/System.err ]
+	at com.xp.service.UpdateService.downloadUpdateFile(UpdateService.java:249)
+
+[ 12-13 10:43:05.930 25015:31807 W/System.err ]
+	at com.xp.service.UpdateService$DownLoadThread.run(UpdateService.java:164)
+
+[ 12-13 10:43:14.550 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:43:14.550 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:14.550 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:43:14.550 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:17.645 25015:25015 I/System.out ]
+Wechat
+
+[ 12-13 10:43:17.825 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 1607K, 27% free 23350K/31692K, paused 18ms+12ms, total 99ms
+
+[ 12-13 10:43:18.190 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:18.195 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:18.725 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:18.725 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:21.395 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:21.400 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:32.955 25015:25015 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-13 10:43:32.975 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:43:32.975 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:43:32.975 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:43:33.075 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:43:33.080 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.085 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:43:33.085 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.085 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.085 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.120 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:43:33.120 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:43:33.120 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:43:33.120 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:43:33.215 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.250 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.410 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:43:33.410 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.410 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:43:33.410 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.715 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.715 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:33.755 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:43:36.000 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:36.215 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-13 10:43:36.215 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:43:59.955 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974639964
+
+[ 12-13 10:44:00.175 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 1534K, 26% free 23670K/31692K, paused 172ms, total 176ms
+
+[ 12-13 10:44:00.175 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 28.888MB for 3686416-byte allocation
+
+[ 12-13 10:44:00.215 25015:25091 D/dalvikvm ]
+GC_FOR_ALLOC freed 743K, 25% free 26526K/35296K, paused 40ms, total 40ms
+
+[ 12-13 10:44:00.310 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 548K, 27% free 25988K/35296K, paused 29ms+18ms, total 91ms
+
+[ 12-13 10:44:11.395 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 7365K, 19% free 22620K/27764K, paused 8ms+18ms, total 159ms
+
+[ 12-13 10:44:14.725 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:44:14.725 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:44:14.725 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:44:14.855 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:44:14.855 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:44:14.855 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:44:14.855 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:44:15.705 25015:25015 I/Choreographer ]
+Skipped 36 frames!  The application may be doing too much work on its main thread.
+
+[ 12-13 10:44:15.785 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:44:15.815 25015:25015 D/ProgressBar ]
+setProgress = 0
+
+[ 12-13 10:44:15.815 25015:25015 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-13 10:44:15.820 25015:25015 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 10000
+
+[ 12-13 10:44:15.855 25015:25015 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-13 10:44:15.865 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:44:16.010 25015:25015 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-13 10:44:16.010 25015:25015 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-13 10:44:16.010 25015:25015 D/ProgressBar ]
+updateDrawableBounds: right = 96
+
+[ 12-13 10:44:16.010 25015:25015 D/ProgressBar ]
+updateDrawableBounds: bottom = 96
+
+[ 12-13 10:44:16.200 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:44:16.255 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:44:16.270 25015:25015 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-13 10:44:28.650 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974668657
+
+[ 12-13 10:44:28.685 25015:25151 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974668691
+
+[ 12-13 10:44:28.755 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed 389K, 16% free 23456K/27764K, paused 60ms, total 60ms
+
+[ 12-13 10:44:28.755 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 28.679MB for 3686416-byte allocation
+
+[ 12-13 10:44:28.815 25015:25015 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 27055K/31368K, paused 60ms, total 60ms
+
+[ 12-13 10:44:28.870 25015:25019 D/dalvikvm ]
+GC_CONCURRENT freed 799K, 17% free 26258K/31368K, paused 4ms+6ms, total 52ms
+
+[ 12-13 10:44:28.870 25015:25015 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+
+[ 12-13 10:44:28.870 25015:25015 I/dalvikvm-heap ]
+Grow heap (frag case) to 31.416MB for 3686416-byte allocation
+
+[ 12-13 10:44:28.910 25015:25023 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 15% free 29857K/34972K, paused 43ms, total 43ms
+
+[ 12-13 10:44:29.110 25015:25151 W/dalvikvm ]
+threadid=32: thread exiting with uncaught exception (group=0x421ed700)
+
+[ 12-13 10:44:30.210 25015:25015 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-13 10:44:30.400 25015:25151 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+--------- beginning of /dev/log/system
+[ 12-13 10:44:32.330 25015:25151 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3579
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 10:47:02.690  2312: 2312 I/dalvikvm ]
+Could not find method android.graphics.Bitmap.getAllocationByteCount, referenced from method com.facebook.imagepipeline.animated.util.AnimatedDrawableUtil.getSizeOfBitmap
+
+[ 12-13 10:47:02.690  2312: 2312 W/dalvikvm ]
+VFY: unable to resolve virtual method 557: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 10:47:02.690  2312: 2312 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0006
+
+[ 12-13 10:47:02.870  2312: 2312 W/ImageLoader ]
+diskCache(), diskCacheSize() and diskCacheFileCount calls overlap each other
+
+[ 12-13 10:47:02.870  2312: 2312 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 10:47:02.995  2312: 2312 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xp.tugele-1/libjpush182.so 0x42d65d60
+
+[ 12-13 10:47:03.005  2312: 2312 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xp.tugele-1/libjpush182.so 0x42d65d60
+
+[ 12-13 10:47:03.015  2312: 2316 D/dalvikvm ]
+GC_CONCURRENT freed 684K, 24% free 9790K/12788K, paused 7ms+2ms, total 37ms
+
+[ 12-13 10:47:03.015  2312: 2349 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-13 10:47:03.015  2312: 2312 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-13 10:47:03.095  2312: 2356 D/dalvikvm ]
+GC_FOR_ALLOC freed 252K, 24% free 9828K/12788K, paused 25ms, total 25ms
+
+[ 12-13 10:47:03.095  2312: 2356 I/dalvikvm-heap ]
+Grow heap (frag case) to 11.918MB for 65552-byte allocation
+
+[ 12-13 10:47:03.110  2312: 2312 D/dalvikvm ]
+GC_FOR_ALLOC freed 14K, 24% free 9878K/12856K, paused 17ms, total 17ms
+
+[ 12-13 10:47:03.125  2312: 2312 D/jpush    ]
+Failed with errorCode = 6005
+
+[ 12-13 10:47:03.230  2312: 2316 D/dalvikvm ]
+GC_CONCURRENT freed 913K, 25% free 9976K/13188K, paused 4ms+2ms, total 29ms
+
+[ 12-13 10:47:03.765  2312: 2316 D/dalvikvm ]
+GC_CONCURRENT freed 1523K, 28% free 9987K/13824K, paused 4ms+3ms, total 30ms
+
+[ 12-13 10:47:05.280  2312: 2316 D/dalvikvm ]
+GC_CONCURRENT freed 404K, 28% free 9985K/13824K, paused 5ms+2ms, total 29ms
+
+[ 12-13 10:47:05.490  2312: 2316 D/dalvikvm ]
+GC_CONCURRENT freed 129K, 26% free 10267K/13824K, paused 4ms+3ms, total 29ms
+

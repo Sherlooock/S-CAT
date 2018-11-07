@@ -1,0 +1,2628 @@
+--------- beginning of /dev/log/main
+[ 12-12 16:04:35.889  1409:0x581 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:04:36.007  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:36.062  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 16:04:36.136  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:37.007  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:04:37.014  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:37.018  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:37.028  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:04:37.029  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:04:37.034  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:04:37.034  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:37.052  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:37.262  1409:0x581 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:04:37.266  1409:0x581 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:04:37.267  1409:0x581 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:04:37.330  1409:0x581 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:04:37.354  1409:0x581 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:04:37.354  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:04:37.444  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:04:37.468  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:04:37.468  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:04:37.470  1409:0x581 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:04:37.470  1409:0x581 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:04:37.470  1409:0x581 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:04:37.471  1409:0x581 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:04:37.471  1409:0x581 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:04:38.540  1409:0x581 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 16:04:38.540  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 16:04:38.540  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 16:04:38.559  1409:0x581 D/skia     ]
+jpeg_decoder mode 1, config 6, w 1080, h 1920, sample 1, bsLength 19b7f!!
+
+
+[ 12-12 16:04:39.046  1409:0x5af D/libc-netbsd ]
+getaddrinfo: ip.ws.126.net get result from proxy >>
+
+
+[ 12-12 16:04:39.144  1409:0x581 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:04:39.177  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:04:39.178  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:04:39.215  1409:0x581 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:04:39.268  1409:0x581 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.cts.openglperf
+
+[ 12-12 16:04:39.268  1409:0x581 E/         ]
+0
+
+[ 12-12 16:04:39.268  1409:0x581 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.browser
+
+[ 12-12 16:04:39.268  1409:0x581 E/         ]
+0
+
+[ 12-12 16:04:39.308  1409:0x5b6 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:04:39.392  1409:0x5c8 D/libc-netbsd ]
+getaddrinfo: g1.163.com get result from proxy >>
+
+
+[ 12-12 16:04:39.395  1409:0x5b6 E/NativeCrypto ]
+ssl=0x5fab1358 cert_verify_callback x509_store_ctx=0x5fd11758 arg=0x0
+
+[ 12-12 16:04:39.395  1409:0x5b6 E/NativeCrypto ]
+ssl=0x5fab1358 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 16:04:39.411  1409:0x5ab D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 16:04:39.549  1409:0x5b6 D/com.netease.cloudmusic.utils.u ]
+327ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:04:39.588  1409:0x5b6 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/Android/,/storage/sdcard0/leci/,/storage/sdcard0/HJApp/,/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/,/storage/sdcard0/towords/,/storage/sdcard0/baicizhan/
+
+[ 12-12 16:04:39.603  1409:0x5b6 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/tencent/QQfile_recv/,/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:04:39.604  1409:0x5b6 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-12 16:04:41.218  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:41.426  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:04:41.428  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 16:04:41.429  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 16:04:41.446  1409:0x581 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:04:41.446  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 16:04:41.446  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.446  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.451  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.452  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.452  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.452  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:04:41.669  1409:0x581 D/skia     ]
+jpeg_decoder mode 1, config 6, w 912, h 519, sample 1, bsLength da59!!
+
+
+[ 12-12 16:04:42.151  1409:0x581 E/dalvikvm ]
+Could not find class 'com.netease.cloudmusic.service.PlayService$43', referenced from method com.netease.cloudmusic.service.PlayService.au
+
+[ 12-12 16:04:42.151  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve new-instance 5703 (Lcom/netease/cloudmusic/service/PlayService$43;) in Lcom/netease/cloudmusic/service/PlayService;
+
+[ 12-12 16:04:42.160  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 1120: Landroid/media/RemoteControlClient;.setPlaybackState (IJF)V
+
+[ 12-12 16:04:42.182  1409:0x581 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:04:42.207  1409:0x5d9 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:04:42.208  1409:0x581 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:04:42.270  1409:0x5db D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:04:42.285  1409:0x5b6 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:04:42.463  1409:0x581 D/PlayService ]
+in onBind
+
+[ 12-12 16:04:42.705  1409:0x5db D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 55
+
+[ 12-12 16:04:42.811  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:04:42.812  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:04:42.812  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:04:42.812  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:04:42.995  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:04:43.022  1409:0x5e8 D/com.netease.cloudmusic.utils.u ]
+71ms on url: http://music.163.com/eapi/song/enhance/privilege
+
+[ 12-12 16:04:43.188  1409:0x5e4 D/AudioMetaIO ]
+supportMediaFormat:m4a,mp3,wma,wav,m3u8,pls,ra,oga,ape,mp2,mpga,rtttl,imy,awb,aac,dcf,ota,xmf,ac3,mxmf,flac,smf,mka,rtx
+
+[ 12-12 16:04:43.582  1409:0x5d9 D/com.netease.cloudmusic.utils.u ]
+1294ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:04:43.599  1409:0x5e7 D/com.netease.cloudmusic.utils.u ]
+42ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:04:43.616  1409:0x5d9 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:04:43.690  1409:0x5b6 D/com.netease.cloudmusic.utils.u ]
+1408ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:04:44.198  1409:0x5b5 D/com.netease.cloudmusic.utils.u ]
+1861ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:04:44.206  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+1866ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449903464646
+
+[ 12-12 16:04:44.403  1409:0x5e8 D/com.netease.cloudmusic.utils.u ]
+807ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:04:44.789  1409:0x5f2 W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:04:44.791  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:04:44.798  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:04:44.798  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:04:44.799  1409:0x5f3 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:04:44.952  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:04:44.955  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:04:44.955  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:04:44.956  1409:0x581 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 16:04:44.958  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:04:44.961  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:04:44.961  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:04:45.019  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 651!!
+
+
+[ 12-12 16:04:45.021  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:04:45.021  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:04:45.069  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 4334!!
+
+
+[ 12-12 16:04:45.070  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:04:45.071  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:04:45.103  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 0!!
+
+
+[ 12-12 16:04:45.105  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:04:45.105  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:04:45.185  1527:0x5f7 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:04:45.194  1409:0x581 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:04:45.194  1409:0x581 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:04:45.195  1409:0x581 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:04:45.195  1409:0x581 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:04:45.198  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:04:45.371  1409:0x581 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 16:04:45.372  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:45.532  1409:0x581 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@420561f0:onReceive msg count is 3 follow count0
+
+[ 12-12 16:04:45.609  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:04:45.684  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1c629!!
+
+
+[ 12-12 16:04:45.686  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:04:45.686  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:04:45.755  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:45.814  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength b98!!
+
+
+[ 12-12 16:04:45.817  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:04:45.817  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:04:45.836  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 24ac!!
+
+
+[ 12-12 16:04:45.840  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:04:45.840  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 31d7!!
+
+
+[ 12-12 16:04:45.840  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:04:45.843  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:04:45.843  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:04:45.904  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27c3!!
+
+
+[ 12-12 16:04:45.906  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:04:45.906  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:04:46.022  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 33de!!
+
+
+[ 12-12 16:04:46.026  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 17d8!!
+
+
+[ 12-12 16:04:46.027  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:04:46.027  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:04:46.032  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:04:46.032  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:04:46.197  1409:0x5e8 D/com.netease.cloudmusic.utils.u ]
+788ms on url: http://music.163.com/eapi/user/location?lat=32.183544&lon=121.37869
+
+[ 12-12 16:04:46.945  1409:0x60d D/com.netease.cloudmusic.utils.u ]
+46ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:04:47.264  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:47.268  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:47.292  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:04:47.293  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:04:47.298  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:04:47.298  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:04:47.608  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:04:48.026  1527:0x5f7 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:04:49.408  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 57d0!!
+
+
+[ 12-12 16:04:49.409  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:04:49.409  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:04:49.525  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:04:49.886  1527:0x5f7 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:04:49.942  1527:0x5f7 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:04:50.008  1527:0x5f7 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:04:50.068  1409:0x5e8 D/com.netease.cloudmusic.utils.u ]
+104ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:04:50.088  1527:0x5f7 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:04:50.088  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:04:50.112  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+35ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:04:50.234  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:04:50.263  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:04:50.264  1527:0x5f7 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:04:50.281  1527:0x5f7 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:04:50.281  1527:0x5f7 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:04:50.281  1527:0x5f7 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:04:50.282  1527:0x5f7 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:04:50.282  1527:0x5f7 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:04:50.299  1527:0x604 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:04:50.345  1527:0x5f7 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:04:50.364  1527:0x5f7 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:04:50.703  1527:0x5f7 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:04:50.730  1527:0x622 D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 16:04:50.958  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+68ms on url: http://music.163.com/eapi/user/location?lat=32.181516&lon=121.382978
+
+[ 12-12 16:04:51.017  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:04:52.217  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:04:52.855  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:04:52.982  1409:0x62a D/com.netease.cloudmusic.utils.u ]
+73ms on url: http://music.163.com/eapi/theme/get/v2
+
+[ 12-12 16:04:53.127  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 215, h 306, sample 1, bsLength 24c9!!
+
+
+[ 12-12 16:04:53.128  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 215, h 306, sample 1, bsLength 34c9!!
+
+
+[ 12-12 16:04:53.128  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 215, h 306, sample 1, bsLength 34c9!!
+
+
+[ 12-12 16:04:53.136  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 262e!!
+
+
+[ 12-12 16:04:53.137  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 362e!!
+
+
+[ 12-12 16:04:53.137  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 362e!!
+
+
+[ 12-12 16:04:53.144  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2cd3!!
+
+
+[ 12-12 16:04:53.145  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 3cd3!!
+
+
+[ 12-12 16:04:53.145  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 3cd3!!
+
+
+[ 12-12 16:04:53.160  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2321!!
+
+
+[ 12-12 16:04:53.161  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 3321!!
+
+
+[ 12-12 16:04:53.161  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 3321!!
+
+
+[ 12-12 16:04:53.165  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 1d2b!!
+
+
+[ 12-12 16:04:53.166  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2d2b!!
+
+
+[ 12-12 16:04:53.167  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 2d2b!!
+
+
+[ 12-12 16:04:53.173  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 26ff!!
+
+
+[ 12-12 16:04:53.175  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 36ff!!
+
+
+[ 12-12 16:04:53.176  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 36ff!!
+
+
+[ 12-12 16:04:53.483  1409:0x581 D/PlayService ]
+in onUnbind
+
+[ 12-12 16:04:53.738  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:00.470  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:05:00.542  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength 1ab3d!!
+
+
+[ 12-12 16:05:00.542  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength e073!!
+
+
+[ 12-12 16:05:00.544  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength 1bb3d!!
+
+
+[ 12-12 16:05:00.544  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength f073!!
+
+
+[ 12-12 16:05:00.544  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 782, sample 1, bsLength 1bb3d!!
+
+
+[ 12-12 16:05:00.544  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 782, sample 1, bsLength f073!!
+
+
+[ 12-12 16:05:06.221  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:06.264  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:06.448  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:06.873  1409:0x5e4 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:05:07.460  1409:0x5e4 D/com.netease.cloudmusic.utils.u ]
+592ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:05:07.926  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:08.391  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+914ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:05:11.964  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 243ce!!
+
+
+[ 12-12 16:05:11.970  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 253ce!!
+
+
+[ 12-12 16:05:11.970  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 253ce!!
+
+
+[ 12-12 16:05:12.006  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:13.455  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:14.469  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:15.948  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:16.977  1409:0x5f1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 8c1a!!
+
+
+[ 12-12 16:05:16.983  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 9c1a!!
+
+
+[ 12-12 16:05:16.983  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 9c1a!!
+
+
+[ 12-12 16:05:16.991  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:18.467  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:22.635  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:05:22.665  1409:0x5d8 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:05:22.675  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:22.735  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:22.859  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+200ms on url: http://music.163.com/eapi/v1/album/3427480?ext=true&private_cloud=true
+
+[ 12-12 16:05:23.031  1409:0x669 D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-12 16:05:23.070  1409:0x669 D/skia     ]
+jpeg_decoder mode 0, config 6, w 266, h 266, sample 1, bsLength 1193!!
+
+
+[ 12-12 16:05:23.073  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 0, config 6, w 266, h 266, sample 1, bsLength 2193!!
+
+
+[ 12-12 16:05:23.073  1409:0x5f6 D/skia     ]
+jpeg_decoder mode 1, config 6, w 266, h 266, sample 1, bsLength 2193!!
+
+
+[ 12-12 16:05:23.121  1409:0x66c D/skia     ]
+jpeg_decoder mode 0, config 6, w 266, h 266, sample 1, bsLength 21f!!
+
+
+[ 12-12 16:05:23.122  1409:0x66c D/skia     ]
+jpeg_decoder mode 1, config 6, w 266, h 266, sample 1, bsLength 21f!!
+
+
+[ 12-12 16:05:23.219  1409:0x581 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 16:05:24.276  1409:0x5c7 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449907524276
+
+[ 12-12 16:05:30.636  1409:0x5d8 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:05:30.712  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+83ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:05:36.933  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:36.988  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:39.248  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:39.722  1409:0x5d8 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:05:39.925  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+210ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:05:39.982  1409:0x5e4 D/com.netease.cloudmusic.utils.u ]
+49ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:05:40.304  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:40.984  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:05:41.005  1409:0x581 D/skia     ]
+jpeg_decoder mode 1, config 6, w 480, h 277, sample 1, bsLength 2363!!
+
+
+[ 12-12 16:05:41.215  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:41.233  1409:0x69e D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 640, sample 1, bsLength ce57!!
+
+
+[ 12-12 16:05:41.235  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 640, sample 1, bsLength de57!!
+
+
+[ 12-12 16:05:41.235  1409:0x5f4 D/skia     ]
+jpeg_decoder mode 1, config 6, w 640, h 640, sample 1, bsLength de57!!
+
+
+[ 12-12 16:05:41.255  1409:0x5e4 D/com.netease.cloudmusic.utils.u ]
+80ms on url: http://music.163.com/eapi/user/playlist/?uid=101431663&limit=10&offset=0
+
+[ 12-12 16:05:41.304  1409:0x6a2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 134, h 134, sample 1, bsLength 0!!
+
+
+[ 12-12 16:05:41.306  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 0, config 6, w 134, h 134, sample 1, bsLength 70f!!
+
+
+[ 12-12 16:05:41.306  1409:0x5f5 D/skia     ]
+jpeg_decoder mode 1, config 6, w 134, h 134, sample 1, bsLength 70f!!
+
+
+[ 12-12 16:05:41.333  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:41.657  1409:0x5e4 E/NativeCrypto ]
+ssl=0x63ca1108 cert_verify_callback x509_store_ctx=0x620e17c8 arg=0x0
+
+[ 12-12 16:05:41.657  1409:0x5e4 E/NativeCrypto ]
+ssl=0x63ca1108 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 16:05:41.743  1409:0x581 D/com.netease.cloudmusic.fragment.ProfileFragment ]
+suitBitmap size:720,720,720
+
+[ 12-12 16:05:41.794  1409:0x5e4 D/com.netease.cloudmusic.utils.u ]
+399ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:05:41.830  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:42.366  1409:0x581 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 16:05:45.813  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:05:45.839  1409:0x5f2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 82, h 82, sample 1, bsLength 0!!
+
+
+[ 12-12 16:05:45.840  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 82, h 82, sample 1, bsLength 488!!
+
+
+[ 12-12 16:05:45.840  1409:0x5f3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 82, h 82, sample 1, bsLength 488!!
+
+
+[ 12-12 16:05:51.550  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:51.581  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:52.972  1409:0x581 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:05:52.995  1409:0x5db D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:05:54.053  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:54.535  1409:0x5e4 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:05:54.618  1409:0x5e4 D/com.netease.cloudmusic.utils.u ]
+90ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:05:54.662  1409:0x5d8 D/com.netease.cloudmusic.utils.u ]
+37ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:05:55.552  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:56.824  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:05:57.649  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:05:58.324  1409:0x581 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:06:00.690  1409:0x581 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:06:02.756  1409:0x581 E/openSDK_LOG ]
+com.netease.cloudmusic SDK_VERSION:2.9.4.lite
+
+
+[ 12-12 16:06:02.761  1409:0x581 I/openSDK_LOG.Tencent ]
+createInstance()  -- start
+
+
+[ 12-12 16:06:02.764  1409:0x581 I/openSDK_LOG.QQAuth ]
+QQAuth -- createInstance() --start
+
+
+[ 12-12 16:06:02.766  1409:0x581 I/openSDK_LOG.QQAuth ]
+new QQAuth() --start
+
+
+[ 12-12 16:06:02.774  1409:0x581 I/openSDK_LOG.AuthAgent ]
+is arm(default) architecture
+
+
+[ 12-12 16:06:02.793  1409:0x581 I/openSDK_LOG.QQAuth ]
+new QQAuth() --end
+
+
+[ 12-12 16:06:02.794  1409:0x581 I/openSDK_LOG.QQAuth ]
+QQAuth -- createInstance()  --end
+
+
+[ 12-12 16:06:02.795  1409:0x581 I/openSDK_LOG.Tencent ]
+createInstance()  -- end
+
+
+[ 12-12 16:06:02.796  1409:0x581 I/openSDK_LOG.Tencent ]
+login() with activity, scope is all
+
+
+[ 12-12 16:06:02.796  1409:0x581 I/openSDK_LOG.QQAuth ]
+login()
+
+
+[ 12-12 16:06:02.796  1409:0x581 I/openSDK_LOG.QQAuth ]
+-->login activity: com.netease.cloudmusic.activity.BindSettingActivity@42c09488
+
+
+[ 12-12 16:06:02.829  1409:0x581 D/openSDK_LOG.QQAuth ]
+-->login channelId is null 
+
+
+[ 12-12 16:06:02.829  1409:0x581 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- start
+
+
+[ 12-12 16:06:02.837  1409:0x581 D/openSDK_LOG.AuthAgent ]
+startAssitActivity activity
+
+
+[ 12-12 16:06:02.876  1409:0x581 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- end, found activity for loginIntent
+
+
+[ 12-12 16:06:02.927  1409:0x581 I/openSDK_LOG.AuthAgent ]
+OpenUi, showUi, return Constants.UI_ACTIVITY
+
+
+[ 12-12 16:06:02.928  1409:0x581 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_via | ext: 100495085
+
+
+[ 12-12 16:06:02.931  1409:0x6da D/openSDK_LOG.ReportManager ]
+-->httpRequest, retryCount: 3
+
+
+[ 12-12 16:06:02.935  1409:0x581 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: true | frequency: 100
+
+
+[ 12-12 16:06:02.961  1409:0x581 D/openSDK_LOG.AssistActivity ]
+--onCreate--
+
+
+[ 12-12 16:06:02.962  1409:0x581 I/openSDK_LOG.AssistActivity ]
+--onCreate--activityIntent not null, will start activity, reqcode = 11101
+
+
+[ 12-12 16:06:02.972  1409:0x6dc D/libc-netbsd ]
+getaddrinfo: cgi.connect.qq.com get result from proxy >>
+
+
+[ 12-12 16:06:02.972  1409:0x6db D/libc-netbsd ]
+getaddrinfo: cgi.connect.qq.com get result from proxy >>
+
+
+[ 12-12 16:06:02.977  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 16:06:02.977  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onResume
+
+
+[ 12-12 16:06:02.987  1409:0x6dd D/openSDK_LOG.ReportManager ]
+-->availableCount, report: report_via | dataSize: 1 | maxcount: 5
+
+
+[ 12-12 16:06:02.989  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onPause
+
+
+[ 12-12 16:06:02.992  1409:0x6da D/libc-netbsd ]
+getaddrinfo: c.isdspeed.qq.com get result from proxy >>
+
+
+[ 12-12 16:06:03.300  1409:0x6da D/openSDK_LOG.ReportManager ]
+-->httpRequest, statusCode: 200
+
+
+[ 12-12 16:06:03.300  1409:0x6da D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread success
+
+
+[ 12-12 16:06:03.300  1409:0x6da D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread request success
+
+
+[ 12-12 16:06:05.598  1409:0x581 D/openSDK_LOG.AssistActivity ]
+--onSaveInstanceState--
+
+
+[ 12-12 16:06:05.598  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 16:06:08.196  1409:0x732 D/openSDK_LOG.ReportManager ]
+-->prepareViaData, mViaList size: 1
+
+
+[ 12-12 16:06:08.247  1409:0x732 D/libc-netbsd ]
+getaddrinfo: appsupport.qq.com get result from proxy >>
+
+
+[ 12-12 16:06:08.401  1409:0x732 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_cgi | ext: 0
+
+
+[ 12-12 16:06:08.402  1409:0x732 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: false | frequency: 10
+
+
+[ 12-12 16:06:08.410  1409:0x732 D/openSDK_LOG.ReportManager ]
+-->doReportVia, uploadSuccess: true
+
+
+[ 12-12 16:06:43.617  1409:0x5d9 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:true
+
+[ 12-12 16:06:43.640  1409:0x5d9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:06:43.725  1409:0x5ab D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 16:06:43.738  1409:0x5d9 D/com.netease.cloudmusic.utils.u ]
+105ms on url: http://music.163.com/eapi/pl/count?backend=true
+
+[ 12-12 16:06:43.761  1409:0x5d9 I/com.netease.cloudmusic.service.PushService ]
+background new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 16:07:40.080  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 16:07:40.116  1409:0x581 I/openSDK_LOG.AssistActivity ]
+--onActivityResult--requestCode: 11101 | resultCode: -1data = null ? false
+
+
+[ 12-12 16:07:40.117  1409:0x581 D/openSDK_LOG.AssistActivity ]
+--setResultDataForLogin-- {"ret":0,"pay_token":"926B1329FE8CE23D4C658ADF7A4786D7","pf":"desktop_m_qq-10000144-android-2002-","query_authority_cost":712,"authority_cost":1638,"expires_in":7776000,"openid":"87C3C06EF9A563C2D671513705C9943E","pfkey":"0873a0353839fcd1afa6aa5ca3326b62","msg":"","login_cost":92592,"access_token":"6BC8A11A899368C478926333B642B4D1"}
+
+
+[ 12-12 16:07:40.117  1409:0x581 I/openSDK_LOG.AssistActivity ]
+--setResultData--openid and token not empty, setResult ACTIVITY_OK
+
+
+[ 12-12 16:07:40.208  1409:0x581 I/openSDK_LOG.Tencent ]
+onActivityResultData() reqcode = 11101, resultcode = -1, data = null ? false, listener = null ? false
+
+
+[ 12-12 16:07:40.208  1409:0x581 I/openSDK_LOG.UIListenerManager ]
+onActivityResult req=11101 res=-1
+
+
+[ 12-12 16:07:40.210  1409:0x581 W/openSDK_LOG.AuthAgent ]
+FeedConfirmListener onComplete There is no value for sendinstall.
+
+
+[ 12-12 16:07:40.244  1409:0x81c D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:07:40.421  1409:0x5ab D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 16:07:40.914  1409:0x81c D/com.netease.cloudmusic.utils.u ]
+674ms on url: http://music.163.com/eapi/user/bindingsns
+
+[ 12-12 16:07:41.003  1409:0x81c D/com.netease.cloudmusic.utils.u ]
+59ms on url: http://music.163.com/eapi/point/sns?snsType=5
+
+[ 12-12 16:07:41.248  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 16:07:41.249  1409:0x581 D/openSDK_LOG.AssistActivity ]
+-->onDestroy
+
+
+[ 12-12 16:08:00.627  1409:0x5c7 D/cn.edu.nju.ise.kikandroid ]
+Log:1449907680626
+
+[ 12-12 16:08:00.675  1409:0x5c7 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449907680675
+
+[ 12-12 16:08:01.042  1409:0x5c7 D/bugrpt   ]
+sendReportsToServer begin
+
+[ 12-12 16:08:01.380  1409:0x83a D/libc-netbsd ]
+getaddrinfo: apk.nis.netease.com get result from proxy >>
+
+
+[ 12-12 16:08:01.466  1409:0x83a D/bugrpt   ]
+sendPostReq success
+
+[ 12-12 16:08:01.467  1409:0x5c7 D/bugrpt   ]
+sendReportsToServer end
+
+--------- beginning of /dev/log/system
+[ 12-12 16:08:01.494  1409:0x5c7 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3397
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+[ 12-12 16:08:09.972  2137:0x859 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:08:10.046  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:10.104  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 16:08:10.180  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:11.038  2137:0x859 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:11.045  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:11.050  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:11.062  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:11.063  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:11.069  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:08:11.069  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:11.086  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:11.304  2137:0x859 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:08:11.307  2137:0x859 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:08:11.308  2137:0x859 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:11.337  2137:0x859 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:08:11.359  2137:0x859 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:08:11.359  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:08:11.443  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:11.470  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:08:11.470  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:08:11.472  2137:0x859 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:08:11.472  2137:0x859 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:08:11.472  2137:0x859 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:08:11.473  2137:0x859 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:08:11.473  2137:0x859 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:08:11.702  2137:0x859 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 16:08:11.702  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 16:08:11.702  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 16:08:11.723  2137:0x859 D/skia     ]
+jpeg_decoder mode 1, config 6, w 1080, h 1920, sample 1, bsLength 19b7f!!
+
+
+[ 12-12 16:08:12.225  2137:0x87b D/libc-netbsd ]
+getaddrinfo: ip.ws.126.net get result from proxy >>
+
+
+[ 12-12 16:08:12.304  2137:0x859 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:08:12.361  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:08:12.361  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:08:12.366  2137:0x87f D/libc-netbsd ]
+getaddrinfo: g1.163.com get result from proxy >>
+
+
+[ 12-12 16:08:12.391  2137:0x859 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:08:12.495  2137:0x884 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:08:12.536  2137:0x884 E/NativeCrypto ]
+ssl=0x603d6840 cert_verify_callback x509_store_ctx=0x5ff717c8 arg=0x0
+
+[ 12-12 16:08:12.536  2137:0x884 E/NativeCrypto ]
+ssl=0x603d6840 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 16:08:12.613  2137:0x884 D/com.netease.cloudmusic.utils.u ]
+121ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:08:12.787  2137:0x859 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.cts.openglperf
+
+[ 12-12 16:08:12.787  2137:0x859 E/         ]
+0
+
+[ 12-12 16:08:12.787  2137:0x859 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.browser
+
+[ 12-12 16:08:12.787  2137:0x859 E/         ]
+0
+
+[ 12-12 16:08:12.823  2137:0x884 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/Android/,/storage/sdcard0/leci/,/storage/sdcard0/HJApp/,/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/,/storage/sdcard0/towords/,/storage/sdcard0/baicizhan/
+
+[ 12-12 16:08:12.849  2137:0x884 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/tencent/QQfile_recv/,/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:12.851  2137:0x884 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-12 16:08:12.900  2137:0x879 D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 16:08:14.393  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:14.532  2137:0x859 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:08:14.534  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 16:08:14.534  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 16:08:14.550  2137:0x859 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:08:14.550  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 16:08:14.551  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.551  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.556  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.556  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.556  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.556  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:14.779  2137:0x859 D/skia     ]
+jpeg_decoder mode 1, config 6, w 912, h 519, sample 1, bsLength da59!!
+
+
+[ 12-12 16:08:15.106  2137:0x859 E/dalvikvm ]
+Could not find class 'com.netease.cloudmusic.service.PlayService$43', referenced from method com.netease.cloudmusic.service.PlayService.au
+
+[ 12-12 16:08:15.106  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve new-instance 5703 (Lcom/netease/cloudmusic/service/PlayService$43;) in Lcom/netease/cloudmusic/service/PlayService;
+
+[ 12-12 16:08:15.115  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 1120: Landroid/media/RemoteControlClient;.setPlaybackState (IJF)V
+
+[ 12-12 16:08:15.134  2137:0x859 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:08:15.140  2137:0x884 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:08:15.149  2137:0x8a6 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:08:15.149  2137:0x859 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:08:15.204  2137:0x8a8 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:08:15.333  2137:0x859 D/PlayService ]
+in onBind
+
+[ 12-12 16:08:15.587  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:15.587  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:15.588  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:15.588  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:15.669  2137:0x8a8 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 55
+
+[ 12-12 16:08:15.725  2137:0x8a4 D/com.netease.cloudmusic.utils.u ]
+548ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449903464646
+
+[ 12-12 16:08:15.728  2137:0x8a6 D/com.netease.cloudmusic.utils.u ]
+552ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:08:15.735  2137:0x8a6 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 16:08:15.932  2137:0x883 D/com.netease.cloudmusic.utils.u ]
+778ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:08:15.948  2137:0x884 D/com.netease.cloudmusic.utils.u ]
+812ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:08:15.986  2137:0x8a4 D/com.netease.cloudmusic.utils.u ]
+141ms on url: http://music.163.com/eapi/song/enhance/privilege
+
+[ 12-12 16:08:16.081  2137:0x8af D/AudioMetaIO ]
+supportMediaFormat:m4a,mp3,wma,wav,m3u8,pls,ra,oga,ape,mp2,mpga,rtttl,imy,awb,aac,dcf,ota,xmf,ac3,mxmf,flac,smf,mka,rtx
+
+[ 12-12 16:08:16.519  2137:0x884 D/com.netease.cloudmusic.utils.u ]
+207ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:08:17.289  2137:0x8bb W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:17.295  2137:0x8bd W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:17.335  2137:0x883 D/com.netease.cloudmusic.utils.u ]
+785ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:08:17.364  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:17.368  2137:0x8be D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:08:17.368  2137:0x8be D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:08:17.590  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:17.591  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:17.594  2137:0x8bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:08:17.594  2137:0x8bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:08:17.597  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:08:17.598  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:08:17.613  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 651!!
+
+
+[ 12-12 16:08:17.615  2137:0x8bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:08:17.615  2137:0x8bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:08:17.770  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:17.773  2137:0x8be D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:08:17.773  2137:0x8be D/skia     ]
+jpeg_decoder mode 1, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:08:17.776  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 4334!!
+
+
+[ 12-12 16:08:17.779  2137:0x8bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:08:17.779  2137:0x8bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:08:17.795  2137:0x859 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 16:08:18.074  2137:0x859 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:08:18.074  2137:0x859 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:08:18.074  2137:0x859 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:08:18.075  2137:0x859 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:08:18.077  2137:0x859 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:08:18.080  2241:0x8c1 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:08:18.101  2137:0x859 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@41321298:onReceive msg count is 3 follow count0
+
+[ 12-12 16:08:18.109  2137:0x859 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 16:08:18.192  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:18.443  2137:0x8a8 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:08:18.718  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1c629!!
+
+
+[ 12-12 16:08:18.720  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:08:18.720  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:08:18.777  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength b98!!
+
+
+[ 12-12 16:08:18.781  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 24ac!!
+
+
+[ 12-12 16:08:18.782  2137:0x8bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:08:18.784  2137:0x8bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:08:18.785  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:18.787  2137:0x8be D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:08:18.787  2137:0x8be D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:08:18.854  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 31d7!!
+
+
+[ 12-12 16:08:18.868  2137:0x8bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:08:18.868  2137:0x8bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:08:18.924  2137:0x883 D/com.netease.cloudmusic.utils.u ]
+794ms on url: http://music.163.com/eapi/user/location?lat=32.183544&lon=121.37869
+
+[ 12-12 16:08:18.944  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27c3!!
+
+
+[ 12-12 16:08:18.947  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:08:18.947  2137:0x8c0 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:08:18.954  2137:0x8bb D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 17d8!!
+
+
+[ 12-12 16:08:18.956  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 33de!!
+
+
+[ 12-12 16:08:18.992  2137:0x8bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:08:18.992  2137:0x8bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:08:18.996  2137:0x8be D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:08:18.996  2137:0x8be D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:08:19.968  2137:0x8d8 D/com.netease.cloudmusic.utils.u ]
+58ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:08:20.761  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:20.767  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:20.777  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:20.778  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:20.783  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:08:20.783  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:20.926  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:21.224  2241:0x8c1 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:08:21.263  2241:0x8c1 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:08:21.383  2241:0x8c1 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:21.571  2241:0x8c1 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:08:21.620  2241:0x8c1 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:08:21.620  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:08:21.758  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:21.784  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:08:21.784  2241:0x8c1 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:08:21.808  2241:0x8c1 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:08:21.808  2241:0x8c1 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:08:21.808  2241:0x8c1 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:08:21.809  2241:0x8c1 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:08:21.809  2241:0x8c1 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:08:21.827  2241:0x8cc E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:22.022  2241:0x8c1 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:22.022  2241:0x8c1 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:08:22.083  2241:0x8c1 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:22.127  2241:0x8c1 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:22.183  2241:0x8ee D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 16:08:22.249  2137:0x8bc D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 57d0!!
+
+
+[ 12-12 16:08:22.273  2137:0x8bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:08:22.273  2137:0x859 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:22.273  2137:0x8bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:08:22.439  2137:0x883 D/com.netease.cloudmusic.utils.u ]
+52ms on url: http://music.163.com/eapi/user/location?lat=32.181557&lon=121.383025
+
+[ 12-12 16:08:23.062  2137:0x859 D/PlayService ]
+in onUnbind
+
+[ 12-12 16:08:23.731  2137:0x859 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:30.433  2324:0x914 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:08:30.513  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:30.556  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 16:08:30.602  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:31.151  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:31.155  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:31.164  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:31.165  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:31.170  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:08:31.170  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:31.185  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:31.390  2324:0x914 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:08:31.392  2324:0x914 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:08:31.393  2324:0x914 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:31.488  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:31.520  2324:0x914 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:08:31.545  2324:0x914 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:08:31.545  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:08:31.615  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:31.639  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:08:31.639  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:08:31.641  2324:0x914 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:08:31.641  2324:0x914 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:08:31.642  2324:0x914 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:08:31.642  2324:0x914 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:08:31.642  2324:0x914 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:08:31.898  2324:0x914 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 16:08:31.898  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 16:08:31.899  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 16:08:31.928  2324:0x914 D/skia     ]
+jpeg_decoder mode 1, config 6, w 1080, h 1920, sample 1, bsLength 19b7f!!
+
+
+[ 12-12 16:08:32.367  2324:0x935 D/libc-netbsd ]
+getaddrinfo: ip.ws.126.net get result from proxy >>
+
+
+[ 12-12 16:08:32.473  2324:0x914 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:08:32.529  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:08:32.530  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:08:32.534  2324:0x939 D/libc-netbsd ]
+getaddrinfo: g1.163.com get result from proxy >>
+
+
+[ 12-12 16:08:32.558  2324:0x914 E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:08:32.571  2324:0x93e D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:08:32.634  2324:0x914 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.cts.openglperf
+
+[ 12-12 16:08:32.634  2324:0x914 E/         ]
+0
+
+[ 12-12 16:08:32.634  2324:0x914 E/         ]
+appName=com.netease.cloudmusic, acAppName=com.android.browser
+
+[ 12-12 16:08:32.634  2324:0x914 E/         ]
+0
+
+[ 12-12 16:08:32.635  2324:0x93e E/NativeCrypto ]
+ssl=0x5f8b1350 cert_verify_callback x509_store_ctx=0x5ff71758 arg=0x0
+
+[ 12-12 16:08:32.635  2324:0x93e E/NativeCrypto ]
+ssl=0x5f8b1350 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 16:08:32.709  2324:0x933 D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-12 16:08:32.784  2324:0x93e D/com.netease.cloudmusic.utils.u ]
+216ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:08:32.829  2324:0x93e D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/Android/,/storage/sdcard0/leci/,/storage/sdcard0/HJApp/,/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/,/storage/sdcard0/towords/,/storage/sdcard0/baicizhan/
+
+[ 12-12 16:08:32.863  2324:0x93e D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/tencent/QQfile_recv/,/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:32.864  2324:0x93e D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-12 16:08:34.567  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:34.714  2324:0x914 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:08:34.716  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 16:08:34.717  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 16:08:34.739  2324:0x914 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:08:34.739  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 16:08:34.740  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.740  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.747  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.748  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.748  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.748  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:08:34.974  2324:0x914 D/skia     ]
+jpeg_decoder mode 1, config 6, w 912, h 519, sample 1, bsLength da59!!
+
+
+[ 12-12 16:08:35.483  2324:0x914 E/dalvikvm ]
+Could not find class 'com.netease.cloudmusic.service.PlayService$43', referenced from method com.netease.cloudmusic.service.PlayService.au
+
+[ 12-12 16:08:35.483  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve new-instance 5703 (Lcom/netease/cloudmusic/service/PlayService$43;) in Lcom/netease/cloudmusic/service/PlayService;
+
+[ 12-12 16:08:35.492  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 1120: Landroid/media/RemoteControlClient;.setPlaybackState (IJF)V
+
+[ 12-12 16:08:35.510  2324:0x914 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:08:35.521  2324:0x95e D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:08:35.521  2324:0x914 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:08:35.580  2324:0x93e D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:08:35.661  2324:0x960 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:08:35.703  2324:0x914 D/PlayService ]
+in onBind
+
+[ 12-12 16:08:35.878  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:35.879  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:35.879  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:35.879  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:08:35.973  2324:0x960 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 55
+
+[ 12-12 16:08:36.371  2324:0x96b D/com.netease.cloudmusic.utils.u ]
+73ms on url: http://music.163.com/eapi/song/enhance/privilege
+
+[ 12-12 16:08:36.507  2324:0x968 D/AudioMetaIO ]
+supportMediaFormat:m4a,mp3,wma,wav,m3u8,pls,ra,oga,ape,mp2,mpga,rtttl,imy,awb,aac,dcf,ota,xmf,ac3,mxmf,flac,smf,mka,rtx
+
+[ 12-12 16:08:36.788  2324:0x96b D/com.netease.cloudmusic.utils.u ]
+41ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:08:36.847  2324:0x95e D/com.netease.cloudmusic.utils.u ]
+1247ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:08:36.849  2324:0x95d D/com.netease.cloudmusic.utils.u ]
+1260ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449903464646
+
+[ 12-12 16:08:36.886  2324:0x95e I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 16:08:37.581  2324:0x93d D/com.netease.cloudmusic.utils.u ]
+1994ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:08:37.642  2324:0x93e D/com.netease.cloudmusic.utils.u ]
+2066ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:08:37.805  2324:0x96e D/com.netease.cloudmusic.utils.u ]
+837ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:08:37.847  2324:0x974 W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:37.855  2324:0x976 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:37.932  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:37.936  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:08:37.936  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength b79!!
+
+
+[ 12-12 16:08:37.943  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:37.947  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:08:37.947  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength bc1!!
+
+
+[ 12-12 16:08:38.079  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 651!!
+
+
+[ 12-12 16:08:38.081  2324:0x979 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:08:38.081  2324:0x979 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength 1651!!
+
+
+[ 12-12 16:08:38.092  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:38.094  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:08:38.094  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 100, h 100, sample 1, bsLength ec1!!
+
+
+[ 12-12 16:08:38.244  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 4334!!
+
+
+[ 12-12 16:08:38.246  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:08:38.246  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 346, h 346, sample 1, bsLength 5334!!
+
+
+[ 12-12 16:08:38.262  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 0!!
+
+
+[ 12-12 16:08:38.265  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:08:38.265  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 128, h 128, sample 1, bsLength 696!!
+
+
+[ 12-12 16:08:38.336  2324:0x914 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 16:08:38.756  2324:0x914 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:08:38.756  2324:0x914 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:08:38.757  2324:0x914 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:08:38.757  2324:0x914 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:08:38.760  2324:0x914 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:08:38.766  2426:0x97a E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 16:08:38.783  2324:0x914 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 16:08:38.935  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:38.950  2324:0x914 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@420566e8:onReceive msg count is 3 follow count0
+
+[ 12-12 16:08:39.025  2324:0x960 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:08:39.114  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:39.220  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1c629!!
+
+
+[ 12-12 16:08:39.226  2324:0x979 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:08:39.228  2324:0x979 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 1d629!!
+
+
+[ 12-12 16:08:39.365  2324:0x96e D/com.netease.cloudmusic.utils.u ]
+548ms on url: http://music.163.com/eapi/user/location?lat=32.183544&lon=121.37869
+
+[ 12-12 16:08:39.441  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength b98!!
+
+
+[ 12-12 16:08:39.442  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 24ac!!
+
+
+[ 12-12 16:08:39.448  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 31d7!!
+
+
+[ 12-12 16:08:39.448  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:08:39.448  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 34ac!!
+
+
+[ 12-12 16:08:39.449  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:08:39.450  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 1b98!!
+
+
+[ 12-12 16:08:39.458  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:08:39.459  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 41d7!!
+
+
+[ 12-12 16:08:39.859  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27c3!!
+
+
+[ 12-12 16:08:39.861  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 33de!!
+
+
+[ 12-12 16:08:39.863  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:08:39.863  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 43de!!
+
+
+[ 12-12 16:08:39.865  2324:0x979 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:08:39.865  2324:0x979 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 37c3!!
+
+
+[ 12-12 16:08:39.936  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 17d8!!
+
+
+[ 12-12 16:08:39.938  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:08:39.938  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 256, h 256, sample 1, bsLength 27d8!!
+
+
+[ 12-12 16:08:40.346  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:40.350  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:40.360  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:40.361  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:08:40.367  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 907: Landroid/graphics/drawable/BitmapDrawable;.setMipMap (Z)V
+
+[ 12-12 16:08:40.367  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 16:08:40.507  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 16:08:40.571  2324:0x992 D/com.netease.cloudmusic.utils.u ]
+74ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:08:40.777  2426:0x97a D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:08:41.043  2426:0x97a D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 16:08:41.486  2426:0x97a D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:08:41.551  2426:0x97a D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:08:41.629  2426:0x97a E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 16:08:41.629  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 16:08:41.952  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 16:08:41.989  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:08:41.989  2426:0x97a W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:08:41.991  2426:0x97a I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:08:41.991  2426:0x97a I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:08:41.992  2426:0x97a I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:08:41.992  2426:0x97a I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:08:41.993  2426:0x97a I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:08:42.073  2426:0x985 E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:42.115  2426:0x97a E/WifiManager ]
+mWifiServiceMessenger == null
+
+[ 12-12 16:08:42.251  2426:0x97a E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:42.355  2426:0x97a E/CellLocation ]
+create GsmCellLocation
+
+[ 12-12 16:08:42.374  2426:0x99d D/libc-netbsd ]
+getaddrinfo: loc.map.baidu.com get result from proxy >>
+
+
+[ 12-12 16:08:42.583  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 57d0!!
+
+
+[ 12-12 16:08:42.588  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:08:42.588  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 67d0!!
+
+
+[ 12-12 16:08:42.604  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:42.703  2324:0x96e D/com.netease.cloudmusic.utils.u ]
+84ms on url: http://music.163.com/eapi/user/location?lat=32.182102&lon=121.382956
+
+[ 12-12 16:08:44.076  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:47.602  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 243ce!!
+
+
+[ 12-12 16:08:47.607  2324:0x979 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 253ce!!
+
+
+[ 12-12 16:08:47.607  2324:0x979 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 253ce!!
+
+
+[ 12-12 16:08:47.609  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:49.095  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:52.620  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 8c1a!!
+
+
+[ 12-12 16:08:52.620  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:52.622  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 9c1a!!
+
+
+[ 12-12 16:08:52.624  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 9c1a!!
+
+
+[ 12-12 16:08:54.111  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:57.630  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 55e8!!
+
+
+[ 12-12 16:08:57.633  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 65e8!!
+
+
+[ 12-12 16:08:57.634  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength 65e8!!
+
+
+[ 12-12 16:08:57.636  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:08:59.125  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:02.651  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength 900a!!
+
+
+[ 12-12 16:09:02.653  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:02.655  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 266, sample 1, bsLength a00a!!
+
+
+[ 12-12 16:09:02.656  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 266, sample 1, bsLength a00a!!
+
+
+[ 12-12 16:09:04.142  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:07.663  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:08.827  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:09.227  2324:0x968 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:09:09.298  2324:0x968 D/com.netease.cloudmusic.utils.u ]
+78ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:09:09.334  2324:0x96e D/com.netease.cloudmusic.utils.u ]
+26ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:09:10.256  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:12.724  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:14.175  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:16.574  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:17.310  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:17.414  2324:0x914 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:09:17.473  2324:0x9b2 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:09:17.572  2324:0x9b2 D/com.netease.cloudmusic.utils.u ]
+103ms on url: http://music.163.com/eapi/theme/get/v2
+
+[ 12-12 16:09:17.730  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 215, h 306, sample 1, bsLength 24c9!!
+
+
+[ 12-12 16:09:17.732  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 215, h 306, sample 1, bsLength 34c9!!
+
+
+[ 12-12 16:09:17.732  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 215, h 306, sample 1, bsLength 34c9!!
+
+
+[ 12-12 16:09:17.742  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2cd3!!
+
+
+[ 12-12 16:09:17.743  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 3cd3!!
+
+
+[ 12-12 16:09:17.744  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 3cd3!!
+
+
+[ 12-12 16:09:17.753  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 262e!!
+
+
+[ 12-12 16:09:17.754  2324:0x979 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 362e!!
+
+
+[ 12-12 16:09:17.754  2324:0x979 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 362e!!
+
+
+[ 12-12 16:09:17.766  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2321!!
+
+
+[ 12-12 16:09:17.767  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 3321!!
+
+
+[ 12-12 16:09:17.768  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 3321!!
+
+
+[ 12-12 16:09:17.770  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 1d2b!!
+
+
+[ 12-12 16:09:17.773  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 2d2b!!
+
+
+[ 12-12 16:09:17.773  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 2d2b!!
+
+
+[ 12-12 16:09:17.775  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 26ff!!
+
+
+[ 12-12 16:09:17.777  2324:0x976 D/skia     ]
+jpeg_decoder mode 0, config 6, w 216, h 306, sample 1, bsLength 36ff!!
+
+
+[ 12-12 16:09:17.778  2324:0x976 D/skia     ]
+jpeg_decoder mode 1, config 6, w 216, h 306, sample 1, bsLength 36ff!!
+
+
+[ 12-12 16:09:17.799  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:18.317  2324:0x914 D/PlayService ]
+in onUnbind
+
+[ 12-12 16:09:18.987  2324:0x914 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:09:19.053  2324:0x975 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength 1ab3d!!
+
+
+[ 12-12 16:09:19.054  2324:0x974 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength e073!!
+
+
+[ 12-12 16:09:19.055  2324:0x978 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength 1bb3d!!
+
+
+[ 12-12 16:09:19.055  2324:0x978 D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 782, sample 1, bsLength 1bb3d!!
+
+
+[ 12-12 16:09:19.056  2324:0x977 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 782, sample 1, bsLength f073!!
+
+
+[ 12-12 16:09:19.056  2324:0x977 D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 782, sample 1, bsLength f073!!
+
+
+[ 12-12 16:09:19.283  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:22.592  2324:0x914 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:09:22.641  2324:0x960 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:09:25.828  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:26.300  2324:0x96e D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-12 16:09:26.419  2324:0x96e D/com.netease.cloudmusic.utils.u ]
+128ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:09:26.467  2324:0x968 D/com.netease.cloudmusic.utils.u ]
+40ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:09:27.328  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:28.537  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:28.959  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:29.761  2324:0x914 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:09:30.441  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:31.425  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:32.915  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:35.875  2324:0x914 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:09:51.416  2324:0x951 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449907791415
+
+[ 12-12 16:09:56.906  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:09:58.407  2324:0x914 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:10:20.093  2324:0x951 D/cn.edu.nju.ise.kikandroid ]
+Log:1449907820093
+
+[ 12-12 16:10:21.010  2324:0x951 D/cn.edu.nju.ise.kikandroid ]
+Log:1449907821010
+
+[ 12-12 16:10:29.396  2324:0x951 D/cn.edu.nju.ise.kikandroid ]
+Log:1449907829396
+
+[ 12-12 16:10:29.431  2324:0x951 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449907829431
+
+[ 12-12 16:10:30.382  2324:0x951 D/bugrpt   ]
+sendReportsToServer begin
+
+[ 12-12 16:10:30.483  2324:0xa3c D/libc-netbsd ]
+getaddrinfo: apk.nis.netease.com get result from proxy >>
+
+
+[ 12-12 16:10:30.564  2324:0xa3c D/bugrpt   ]
+sendPostReq success
+
+[ 12-12 16:10:30.565  2324:0x951 D/bugrpt   ]
+sendReportsToServer end
+
+[ 12-12 16:10:30.583  2324:0x951 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-3419
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+

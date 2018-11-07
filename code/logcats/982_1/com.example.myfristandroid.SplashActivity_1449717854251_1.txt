@@ -1,0 +1,4549 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:03:34.170 21160:0x52a8 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@42137f40 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:835)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:606)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1533)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1513)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1507)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:467)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5303)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1088)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2304)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2392)
+	at android.app.ActivityThread.access$800(ActivityThread.java:153)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1323)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:16:57.205 25307:0x6314 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-955
+Process: com.example.myfristandroid, PID: 25307
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:23:48.850 27097:0x6a0d E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-978
+Process: com.example.myfristandroid, PID: 27097
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:28:07.758 28354:0x6f25 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1005
+Process: com.example.myfristandroid, PID: 28354
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:42:16.891 31204:0x7a2f E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1072
+Process: com.example.myfristandroid, PID: 31204
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:50:42.661  1660:0x6c2 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1146
+Process: com.example.myfristandroid, PID: 1660
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:56:08.152  3557:0xde5 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x48, repeatCount=0, eventTime=8678779, downTime=8678779, deviceId=4, source=0x101 }
+
+[ 12-10 10:56:11.959  3557:0xe6e E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1246
+Process: com.example.myfristandroid, PID: 3557
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 10:59:44.268  5084:0x1418 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1305
+Process: com.example.myfristandroid, PID: 5084
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 11:12:36.450  8399:0x210f E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-1464
+Process: com.example.myfristandroid, PID: 8399
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+--------- beginning of /dev/log/main
+[ 12-10 11:18:41.477 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:42.621 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:43.477 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:44.621 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:45.478 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:46.622 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:47.479 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:48.622 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:49.480 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:50.622 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:51.482 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:52.623 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:53.485 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:54.623 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:55.498 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:56.635 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:57.499 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:58.635 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:18:59.500 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:00.636 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:01.501 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:02.636 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:03.502 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:04.637 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:05.503 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:06.638 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:07.503 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:08.638 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:09.508 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:10.639 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:11.509 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:12.643 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:13.509 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:14.643 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:15.510 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:16.643 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:17.422 11131:0x2b8e D/ForegroundActivity ]
+本次发送帧长:13	总帧长:137
+
+[ 12-10 11:19:17.511 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:17.538 11131:0x2b94 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 11:19:17.773 11131:0x2b90 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:19:18.644 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:19.512 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:20.644 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:21.513 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:22.645 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:23.515 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:24.646 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:25.530 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:26.646 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:27.530 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:28.647 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:29.531 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:30.647 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:31.532 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:32.648 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:33.533 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:34.649 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:35.534 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:36.653 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:37.534 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:38.653 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:39.536 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:40.654 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:41.538 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:42.655 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:43.539 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:44.655 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:45.540 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:46.656 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:47.542 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:48.656 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:49.542 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:50.656 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:51.543 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:52.657 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:53.543 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:54.657 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:55.543 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:56.657 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:57.424 11131:0x2b8e D/ForegroundActivity ]
+本次发送帧长:13	总帧长:150
+
+[ 12-10 11:19:57.532 11131:0x2b94 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 11:19:57.544 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:57.812 11131:0x2b90 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:19:58.658 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:19:59.546 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:00.659 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:01.546 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:02.660 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:03.547 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:04.661 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:05.549 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:06.661 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:07.550 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:08.661 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:09.551 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:10.662 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:11.555 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:12.662 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:13.556 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:14.662 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:15.556 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:16.663 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:17.557 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:18.663 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:19.558 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:20.663 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:21.558 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:22.664 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:23.559 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:24.665 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:25.584 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:26.665 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:27.585 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:28.666 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:29.589 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:30.666 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:31.599 11131:0x2b82 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:32.668 11093:0x2b5a D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:44.453 12176:0x2f90 D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 11:20:44.454 12176:0x2f96 D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 11:20:44.454 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:44.920 12176:0x2f90 D/skia     ]
+jpeg_decoder mode 1, config 6, w 742, h 1306, sample 1, bsLength 9ff0f!!
+
+
+[ 12-10 11:20:44.955 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:45.003 12176:0x2f90 I/dalvikvm ]
+"main" prio=5 tid=1 RUNNABLE
+
+
+[ 12-10 11:20:45.003 12176:0x2f90 I/dalvikvm ]
+  | group="main" sCount=0 dsCount=0 obj=0x41b5bd98 self=0x41b49260
+
+
+[ 12-10 11:20:45.003 12176:0x2f90 I/dalvikvm ]
+  | sysTid=12176 nice=0 sched=0/0 cgrp=apps handle=1074430340
+
+
+[ 12-10 11:20:45.005 12176:0x2f90 I/dalvikvm ]
+  | state=R schedstat=( 133522303 15805314 115 ) utm=9 stm=4 core=3
+
+
+[ 12-10 11:20:45.006 12176:0x2f90 I/dalvikvm ]
+  at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)
+
+
+[ 12-10 11:20:45.006 12176:0x2f90 I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:609)
+
+
+[ 12-10 11:20:45.006 12176:0x2f90 I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:440)
+
+
+[ 12-10 11:20:45.006 12176:0x2f90 I/dalvikvm ]
+  at android.graphics.drawable.Drawable.createFromResourceStream(Drawable.java:842)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.content.res.Resources.loadDrawable(Resources.java:2147)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.content.res.TypedArray.getDrawable(TypedArray.java:604)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:70)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:120)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at java.lang.reflect.Constructor.constructNative(Native Method)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.createView(LayoutInflater.java:555)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:66)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.onCreateView(LayoutInflater.java:669)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:-1)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.rInflate(LayoutInflater.java:742)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:529)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:399)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:304)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.Activity.setContentView(Activity.java:1949)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at com.example.myfristandroid.SplashActivity.onCreate(SplashActivity.java:13)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.Activity.performCreate(Activity.java:5303)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1073)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2246)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2448)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.ActivityThread.access$800(ActivityThread.java:153)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:-1)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.os.Handler.dispatchMessage(Handler.java:110)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.os.Looper.loop(Looper.java:147)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at android.app.ActivityThread.main(ActivityThread.java:5301)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:833)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:610)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+  at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:45.007 12176:0x2f90 I/dalvikvm ]
+
+
+
+[ 12-10 11:20:45.296 12195:0x2fa3 D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 11:20:45.297 12195:0x2fa9 D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 11:20:45.297 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:45.344 12176:0x2f90 E/         ]
+appName=com.example.myfristandroid, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 11:20:45.345 12176:0x2f90 E/         ]
+0
+
+[ 12-10 11:20:45.392 12195:0x2fa3 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:20:45.396 12195:0x2fa3 D/SocketService ]
+pid:12195 myPid:12195
+
+[ 12-10 11:20:45.398 12195:0x2fa3 D/SocketService ]
+start to run current thread!id:1610
+
+[ 12-10 11:20:45.408 12195:0x2fba D/SocketService ]
+ip/192.168.1.162 lport:50391 p:143
+
+[ 12-10 11:20:45.428 12195:0x2fba D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:20:45.429 12195:0x2fba D/SocketService ]
+success to connect server!id:1610 bLogin:false
+
+[ 12-10 11:20:45.476 12195:0x2fbb D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:20:45.705 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:45.798 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:46.389 12195:0x2fb8 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:20:46.432 12195:0x2fba D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:20:46.548 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:46.562 12195:0x2fbb D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:20:46.830 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:47.401 12195:0x2fb8 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:20:47.433 12195:0x2fba D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:20:47.548 12195:0x2fbb D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:20:47.675 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:47.700 12195:0x2fb8 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:20:47.812 12176:0x2f90 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:20:48.518 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:49.363 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:50.519 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:51.364 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:52.520 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:52.542 12176:0x2f90 D/StrictMode ]
+StrictMode policy violation; ~duration=474 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1078)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:52.543 12176:0x2f90 D/StrictMode ]
+StrictMode policy violation; ~duration=471 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1126)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:52.555 12176:0x2f90 D/StrictMode ]
+StrictMode policy violation; ~duration=466 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.appendIndent(FastXmlSerializer.java:127)
+	at com.android.internal.util.FastXmlSerializer.startTag(FastXmlSerializer.java:358)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1097)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:52.562 12176:0x2f90 D/StrictMode ]
+StrictMode policy violation; ~duration=464 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.PreferredComponent.writeToXml(PreferredComponent.java:189)
+	at com.android.server.pm.PreferredActivity.writeToXml(PreferredActivity.java:50)
+	at com.android.server.pm.Settings.writePreferredActivitiesLPr(Settings.java:1044)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1145)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:52.569 12176:0x2f90 D/StrictMode ]
+StrictMode policy violation; ~duration=458 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.PreferredComponent.writeToXml(PreferredComponent.java:183)
+	at com.android.server.pm.PreferredActivity.writeToXml(PreferredActivity.java:50)
+	at com.android.server.pm.Settings.writePreferredActivitiesLPr(Settings.java:1044)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1145)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:20:53.365 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:54.520 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:55.366 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:56.521 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:57.366 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:58.521 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:20:59.367 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:00.521 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:01.368 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:02.522 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:03.369 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:04.522 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:05.369 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:06.522 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:07.370 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:08.523 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:09.371 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:10.525 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:11.372 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:12.526 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:13.373 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:14.526 12176:0x2f96 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:15.374 12195:0x2fa9 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:15.533 12367:0x304f D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 11:21:15.533 12367:0x3055 D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 11:21:15.535 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:16.027 12367:0x304f D/skia     ]
+jpeg_decoder mode 1, config 6, w 742, h 1306, sample 1, bsLength 9ff0f!!
+
+
+[ 12-10 11:21:16.036 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:16.120 12367:0x304f I/dalvikvm ]
+"main" prio=5 tid=1 RUNNABLE
+
+
+[ 12-10 11:21:16.121 12367:0x304f I/dalvikvm ]
+  | group="main" sCount=0 dsCount=0 obj=0x41b5bd98 self=0x41b49260
+
+
+[ 12-10 11:21:16.123 12367:0x304f I/dalvikvm ]
+  | sysTid=12367 nice=0 sched=0/0 cgrp=apps handle=1074430340
+
+
+[ 12-10 11:21:16.124 12367:0x304f I/dalvikvm ]
+  | state=R schedstat=( 131454852 46836148 147 ) utm=6 stm=7 core=1
+
+
+[ 12-10 11:21:16.126 12367:0x304f I/dalvikvm ]
+  at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)
+
+
+[ 12-10 11:21:16.127 12367:0x304f I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:609)
+
+
+[ 12-10 11:21:16.127 12367:0x304f I/dalvikvm ]
+  at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:440)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.graphics.drawable.Drawable.createFromResourceStream(Drawable.java:842)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.content.res.Resources.loadDrawable(Resources.java:2147)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.content.res.TypedArray.getDrawable(TypedArray.java:604)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:70)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.widget.ImageView.<init>(ImageView.java:120)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at java.lang.reflect.Constructor.constructNative(Native Method)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.createView(LayoutInflater.java:555)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:66)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.onCreateView(LayoutInflater.java:669)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:-1)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.rInflate(LayoutInflater.java:742)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:529)
+
+
+[ 12-10 11:21:16.128 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:399)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:304)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.Activity.setContentView(Activity.java:1949)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at com.example.myfristandroid.SplashActivity.onCreate(SplashActivity.java:13)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.Activity.performCreate(Activity.java:5303)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1073)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2246)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2448)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.ActivityThread.access$800(ActivityThread.java:153)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:-1)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.os.Handler.dispatchMessage(Handler.java:110)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.os.Looper.loop(Looper.java:147)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at android.app.ActivityThread.main(ActivityThread.java:5301)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:833)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:610)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+  at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:21:16.129 12367:0x304f I/dalvikvm ]
+
+
+
+[ 12-10 11:21:16.489 12399:0x306f D/jdwp     ]
+prepping for JDWP over ADB
+
+[ 12-10 11:21:16.490 12399:0x3075 D/jdwp     ]
+JDWP: thread running
+
+[ 12-10 11:21:16.491 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:16.542 12367:0x304f E/         ]
+appName=com.example.myfristandroid, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 11:21:16.544 12367:0x304f E/         ]
+0
+
+[ 12-10 11:21:16.579 12399:0x306f D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:21:16.581 12399:0x306f D/SocketService ]
+pid:12399 myPid:12399
+
+[ 12-10 11:21:16.583 12399:0x306f D/SocketService ]
+start to run current thread!id:1616
+
+[ 12-10 11:21:16.607 12399:0x3087 D/SocketService ]
+ip/192.168.1.162 lport:42712 p:143
+
+[ 12-10 11:21:16.614 12399:0x3087 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:21:16.614 12399:0x3087 D/SocketService ]
+success to connect server!id:1616 bLogin:false
+
+[ 12-10 11:21:16.703 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:21:16.786 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:16.992 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:17.576 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:21:17.615 12399:0x3087 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:21:17.742 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:17.912 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:18.606 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:21:18.616 12399:0x3087 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:21:18.722 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:21:18.868 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:18.964 12367:0x304f D/MainActivity ]
+Start One Client
+
+[ 12-10 11:21:19.588 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:21:19.590 12367:0x304f D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:21:19.591 12367:0x304f D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 11:21:19.599 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:19.600 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:21:19.645 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=49 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:652)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:700)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:21:19.645 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=47 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:705)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:21:19.645 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=46 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:154)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:706)
+	at android.app.SharedPreferencesImpl.access$1000(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:620)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:641)
+	at android.app.SharedPreferencesImpl.access$300(SharedPreferencesImpl.java:59)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:563)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4785)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:798)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:21:19.658 12367:0x304f D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:21:20.555 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:21.599 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:22.556 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:23.600 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:24.218 12367:0x304f D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 11:21:24.558 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:25.600 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:26.558 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:27.407 12367:0x304f I/chromium ]
+[INFO:library_loader_hooks.cc(114)] Chromium logging enabled: level = 0, default verbosity = 0 isUserLoad=1
+
+
+[ 12-10 11:21:27.431 12367:0x30b5 W/chromium ]
+[WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 11:21:27.446 12367:0x304f E/         ]
+appName=com.example.myfristandroid, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 11:21:27.446 12367:0x304f E/         ]
+0
+
+[ 12-10 11:21:27.499 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7a8eb008, delegate = 0x7a97cc58
+
+
+[ 12-10 11:21:27.500 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:21:27.574 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:21:27.600 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:27.644 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.652 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:21:27.685 12367:0x30bd I/CustomProp ]
+getReleaseDate->buildDate[2015年 03月 17日 星期二 15:00:42 CST]
+
+[ 12-10 11:21:27.727 12367:0x30bd I/CustomProp ]
+getBrowserVersion->matcher.find:true matcher.group(0): AppleWebKit/537.36  matcher.group(1):537.36
+
+[ 12-10 11:21:27.728 12367:0x30bd I/CustomProp ]
+getBrowserVersion->result:537.36
+
+[ 12-10 11:21:27.730 12367:0x30bd I/CustomProp ]
+getBrowserVersion->matcher.find:true matcher.group(0): AppleWebKit/537.36  matcher.group(1):537.36
+
+[ 12-10 11:21:27.731 12367:0x30bd I/CustomProp ]
+getBrowserVersion->result:537.36
+
+[ 12-10 11:21:27.732 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.743 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:21:27.746 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:21:27.750 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.753 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.755 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:21:27.755 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:21:27.755 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:21:27.755 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.755 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.814 12367:0x30cd D/libc-netbsd ]
+getaddrinfo: oa.paneng.cn get result from proxy >>
+
+
+[ 12-10 11:21:27.885 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:27.945 12367:0x304f D/WebViewCallback ]
+onProgressChanged=22
+
+[ 12-10 11:21:27.995 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/interface/se9200dwr.js
+
+[ 12-10 11:21:27.997 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/engine.js
+
+[ 12-10 11:21:28.002 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/util.js
+
+[ 12-10 11:21:28.005 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_bay.js
+
+[ 12-10 11:21:28.006 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_card.js
+
+[ 12-10 11:21:28.008 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_meter.js
+
+[ 12-10 11:21:28.013 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_thermometer.js
+
+[ 12-10 11:21:28.016 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_slide.js
+
+[ 12-10 11:21:28.018 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_donghua.js
+
+[ 12-10 11:21:28.020 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_caoliu.js
+
+[ 12-10 11:21:28.022 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_curve.js
+
+[ 12-10 11:21:28.036 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007 reload=false
+
+[ 12-10 11:21:28.036 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:21:28.036 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:21:28.036 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:21:28.037 12367:0x304f D/WebViewCallback ]
+onProgressChanged=45
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/interface/se9200dwr.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/engine.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/util.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_bay.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_card.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_meter.js
+
+[ 12-10 11:21:28.038 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_thermometer.js
+
+[ 12-10 11:21:28.039 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_slide.js
+
+[ 12-10 11:21:28.039 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_donghua.js
+
+[ 12-10 11:21:28.039 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_caoliu.js
+
+[ 12-10 11:21:28.039 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_curve.js
+
+[ 12-10 11:21:28.083 12367:0x304f D/WebViewCallback ]
+onProgressChanged=45
+
+[ 12-10 11:21:28.087 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_bar.js
+
+[ 12-10 11:21:28.089 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_bar.js
+
+[ 12-10 11:21:28.179 12367:0x304f D/WebViewCallback ]
+onProgressChanged=46
+
+[ 12-10 11:21:28.281 12367:0x304f D/WebViewCallback ]
+onProgressChanged=47
+
+[ 12-10 11:21:28.383 12367:0x304f D/WebViewCallback ]
+onProgressChanged=48
+
+[ 12-10 11:21:28.502 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:21:28.503 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:21:28.529 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow_pie.js
+
+[ 12-10 11:21:28.530 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow_pie.js
+
+[ 12-10 11:21:28.532 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/js/gshow.js
+
+[ 12-10 11:21:28.534 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/js/gshow.js
+
+[ 12-10 11:21:28.536 12367:0x304f D/WebViewCallback ]
+onProgressChanged=49
+
+[ 12-10 11:21:28.559 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:28.632 12367:0x304f D/WebViewCallback ]
+onProgressChanged=49
+
+[ 12-10 11:21:28.649 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:21:28.650 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:21:29.601 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:30.560 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:30.626 12367:0x304f D/WebViewCallback ]
+onProgressChanged=49
+
+[ 12-10 11:21:30.936 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000007.svg
+
+[ 12-10 11:21:30.936 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000007.svg
+
+[ 12-10 11:21:31.248 12367:0x304f D/WebViewCallback ]
+onProgressChanged=49
+
+[ 12-10 11:21:31.323 12367:0x30c0 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:21:31.594 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:31.596 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:31.601 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:31.695 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:31.707 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:31.710 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:21:31.714 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:21:31.715 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:21:31.715 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:21:31.715 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:21:31.756 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:31.756 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:32.562 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:33.602 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:34.562 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:35.602 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:36.563 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:37.602 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:38.576 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:39.603 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:39.798 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717698380
+
+[ 12-10 11:21:40.577 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:41.603 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:42.577 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:43.603 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:44.578 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:45.604 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:46.579 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:47.604 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:48.580 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:49.019 12367:0x304f D/WebViewCallback ]
+shouldOverrideUrlLoading=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187
+
+[ 12-10 11:21:49.060 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:21:49.064 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187
+
+[ 12-10 11:21:49.094 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187
+
+[ 12-10 11:21:49.095 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187
+
+[ 12-10 11:21:49.097 12367:0x304f D/WebViewCallback ]
+onProgressChanged=23
+
+[ 12-10 11:21:49.162 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:49.195 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187 reload=false
+
+[ 12-10 11:21:49.196 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:21:49.196 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:21:49.196 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:21:49.197 12367:0x304f D/WebViewCallback ]
+onProgressChanged=26
+
+[ 12-10 11:21:49.204 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:21:49.234 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:21:49.237 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:21:49.282 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:21:49.302 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:21:49.339 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:21:49.604 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:49.851 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000187.svg
+
+[ 12-10 11:21:49.862 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000187.svg
+
+[ 12-10 11:21:50.513 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:21:50.582 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:50.920 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:21:50.923 12367:0x30c0 D/MainActivity ]
+h:847.943,w:1722.73
+
+[ 12-10 11:21:50.931 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:21:51.143 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:51.144 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:51.257 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:21:51.259 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:21:51.263 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:21:51.266 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:21:51.268 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:21:51.271 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000187
+
+[ 12-10 11:21:51.536 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:21:51.537 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:21:51.605 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:52.101 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:21:52.102 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:21:52.583 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:53.605 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:54.584 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:55.552 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:21:55.554 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:21:55.606 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:56.324 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:21:56.328 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:21:56.573 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:21:56.585 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:56.694 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:21:56.911 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:21:56.911 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:21:57.606 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:57.692 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:21:58.586 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:21:59.607 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:00.587 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:01.217 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:22:01.218 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getIntValues.dwr
+
+[ 12-10 11:22:01.607 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:01.956 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:01.956 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:02.582 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:22:02.589 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:02.638 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getDevStatus.dwr
+
+[ 12-10 11:22:03.608 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:04.452 12367:0x304f D/MyWebView ]
+xspeed2:3068 distanceX2:209
+
+[ 12-10 11:22:04.467 12367:0x304f D/MyWebView ]
+xspeed2:2099 distanceX2:233
+
+[ 12-10 11:22:04.482 12367:0x304f D/MyWebView ]
+xspeed2:1090 distanceX2:247
+
+[ 12-10 11:22:04.590 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:04.829 12367:0x304f D/MyWebView ]
+xspeed2:1846 distanceX2:203
+
+[ 12-10 11:22:04.832 12367:0x304f D/MyWebView ]
+xspeed2:1869 distanceX2:204
+
+[ 12-10 11:22:05.536 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:22:05.608 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:06.104 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:22:06.105 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:22:06.124 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:22:06.125 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:22:06.591 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:06.659 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:06.698 12367:0x304f D/WebViewCallback ]
+onProgressChanged=77
+
+[ 12-10 11:22:06.700 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:06.701 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007 reload=false
+
+[ 12-10 11:22:06.701 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:22:06.701 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:06.701 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:22:06.713 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:06.729 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:06.729 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:06.762 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:07.064 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000007.svg
+
+[ 12-10 11:22:07.064 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000007.svg
+
+[ 12-10 11:22:07.078 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:07.122 12367:0x30c0 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:22:07.143 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:07.144 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:07.148 12367:0x30bd I/HistoryController ]
+restoreScrollPositionAndViewState restore page scale to 1.000000
+
+[ 12-10 11:22:07.148 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:07.149 12367:0x30bd I/HistoryController ]
+restoreScrollPositionAndViewState restore page scale to 1.000000
+
+[ 12-10 11:22:07.151 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:22:07.190 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:22:07.190 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:07.212 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:22:07.213 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:22:07.608 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:08.591 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:09.609 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:10.360 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:22:10.592 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:10.873 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:10.911 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:10.911 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x823e4250] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:11.609 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:12.593 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:13.609 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:14.595 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:14.610 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x87390120, delegate = 0x7f58a288
+
+
+[ 12-10 11:22:14.611 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:22:14.633 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:22:14.641 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.645 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.710 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:22:14.710 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:14.756 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:14.779 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.784 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.795 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:22:14.795 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:22:14.804 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:22:14.805 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:22:14.810 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.810 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.856 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:14.864 12367:0x304f D/WebViewCallback ]
+onProgressChanged=29
+
+[ 12-10 11:22:14.956 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:14.984 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:14.989 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047 reload=false
+
+[ 12-10 11:22:14.991 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:22:14.992 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:14.993 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:22:14.995 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:22:14.997 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:15.002 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:15.045 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:15.399 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000047.svg
+
+[ 12-10 11:22:15.399 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000047.svg
+
+[ 12-10 11:22:15.509 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:15.550 12367:0x30c0 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:22:15.616 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:15.751 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:15.751 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:15.759 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:15.788 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:15.789 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:15.926 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:22:15.929 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:22:15.930 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:15.930 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:22:15.973 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:22:16.042 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:16.054 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:16.056 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:16.598 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:17.616 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:18.598 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:19.617 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:20.599 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:21.617 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:22.600 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:23.036 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717742518
+
+[ 12-10 11:22:23.617 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:24.603 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:25.302 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:22:25.619 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:25.892 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:25.902 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:25.902 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874d9d88] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:26.606 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:27.619 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:28.606 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:29.304 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x8725f068, delegate = 0x87115978
+
+
+[ 12-10 11:22:29.304 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:22:29.322 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:22:29.399 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.402 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.405 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:29.449 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:22:29.453 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:29.466 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.467 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.473 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.476 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.478 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:22:29.479 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:22:29.510 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:22:29.510 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:22:29.569 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.572 12367:0x304f D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:22:29.616 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011 reload=false
+
+[ 12-10 11:22:29.616 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:22:29.617 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:29.617 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:22:29.619 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:22:29.620 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:29.630 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:29.631 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:29.640 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.641 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.642 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:29.654 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:29.655 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:29.735 12367:0x304f D/WebViewCallback ]
+onProgressChanged=87
+
+[ 12-10 11:22:30.038 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000011.svg
+
+[ 12-10 11:22:30.039 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000011.svg
+
+[ 12-10 11:22:30.267 12367:0x304f D/WebViewCallback ]
+onProgressChanged=88
+
+[ 12-10 11:22:30.341 12367:0x30c0 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-10 11:22:30.412 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.556 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.607 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:30.608 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.658 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.706 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.712 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:22:30.721 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:22:30.721 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:30.721 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:22:30.728 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.745 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:22:30.751 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:30.895 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:30.900 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:30.930 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:31.010 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:31.011 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:31.621 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:32.609 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:33.621 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:33.933 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:33.933 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:34.610 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:35.622 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:35.962 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717755474
+
+[ 12-10 11:22:36.573 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 11:22:36.611 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:36.679 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 11:22:36.747 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:22:36.966 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:36.967 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:37.623 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:38.611 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:38.725 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:22:39.288 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:39.343 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:39.344 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x84b1a9c0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:39.623 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:39.994 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:39.995 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:40.612 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:41.623 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:41.689 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x849f2d00, delegate = 0x80d885d8
+
+
+[ 12-10 11:22:41.689 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:22:41.704 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:22:41.716 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.720 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.774 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:22:41.775 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:41.781 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.782 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.785 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.786 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.807 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:22:41.809 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:22:41.825 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:41.835 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:22:41.835 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:22:41.848 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:41.874 12367:0x304f D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:22:41.881 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005 reload=false
+
+[ 12-10 11:22:41.882 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:22:41.882 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:41.883 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:22:41.899 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:22:41.919 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:41.920 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:22:41.952 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:41.952 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:22:42.027 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:42.346 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000005.svg
+
+[ 12-10 11:22:42.347 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000005.svg
+
+[ 12-10 11:22:42.613 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:42.937 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:42.960 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:42.976 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:42.992 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.007 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.023 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.038 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.054 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.072 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.085 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.102 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.116 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.131 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.146 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.162 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.177 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.193 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:43.624 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:44.614 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:45.624 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:46.614 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:47.625 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:48.615 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:49.625 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:50.616 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:51.625 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:52.618 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:53.626 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:54.626 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:55.626 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:55.748 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:22:56.627 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:57.103 12367:0x30c0 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:22:57.169 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:57.292 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:57.294 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:57.326 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:22:57.375 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:57.377 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:22:57.381 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:22:57.394 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:22:57.394 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:22:57.394 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:22:57.439 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:57.441 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:22:57.627 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:58.493 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:58.500 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:58.500 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:22:58.628 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:22:59.627 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:00.628 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:01.253 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:01.254 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:01.628 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:02.630 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:03.628 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:04.295 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:04.296 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:04.631 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:04.816 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:23:05.283 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:05.368 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:05.370 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x874f21d8] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:05.629 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:06.631 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:07.350 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:07.552 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:07.574 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x84a56598, delegate = 0x87762f30
+
+
+[ 12-10 11:23:07.574 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:23:07.586 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:23:07.597 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.599 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.630 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:07.649 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:23:07.650 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:07.661 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:23:07.662 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:23:07.662 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:23:07.663 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.663 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:23:07.663 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.667 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.667 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.686 12367:0x304f D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:23:07.686 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:07.787 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005 reload=false
+
+[ 12-10 11:23:07.788 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:23:07.790 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:23:07.790 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:23:07.796 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:23:07.798 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:23:07.817 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:23:07.818 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:23:07.847 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:23:07.849 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:23:07.893 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:23:08.235 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000005.svg
+
+[ 12-10 11:23:08.235 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000005.svg
+
+[ 12-10 11:23:08.632 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:09.631 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:10.633 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:11.631 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:12.634 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:13.632 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:14.638 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:15.632 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:16.573 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 11:23:16.639 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:16.649 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 11:23:16.808 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:23:17.632 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:18.640 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:19.633 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:20.641 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:21.633 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:21.779 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:23:22.642 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:23.045 12367:0x30c0 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:23:23.206 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.206 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.241 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.286 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:23:23.291 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:23:23.292 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:23:23.292 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:23:23.294 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:23.296 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:23:23.297 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:23.311 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.311 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.635 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:23.880 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.893 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:23.893 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:24.642 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:25.636 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:26.643 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:26.904 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:26.905 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:27.636 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:28.643 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:28.652 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717808182
+
+[ 12-10 11:23:29.637 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:29.944 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:29.944 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:30.644 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:31.496 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:23:31.637 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:32.098 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:32.140 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:32.141 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x7e1b1d60] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:32.644 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:32.963 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:32.963 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:33.637 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:34.645 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:35.638 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:36.002 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:36.002 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:36.645 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:37.449 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(26)] create-->contents = 0x7f6d9e90, delegate = 0x8148c7d8
+
+
+[ 12-10 11:23:37.450 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(34)] attaching to web_contents 
+
+
+[ 12-10 11:23:37.477 12367:0x304f D/WebViewCallback ]
+getVisitedHistory
+
+[ 12-10 11:23:37.550 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.552 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.557 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:37.597 12367:0x30bd I/WebViewImpl ]
+resetScrollAndScaleState reset page scale to 1
+
+[ 12-10 11:23:37.618 12367:0x304f W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:37.639 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:37.662 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.664 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.668 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.670 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.676 12367:0x304f D/WebViewCallback ]
+onProgressChanged=0
+
+[ 12-10 11:23:37.678 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:23:37.682 12367:0x304f D/WebViewCallback ]
+onPageStarted=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:23:37.683 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:23:37.724 12367:0x304f D/WebViewCallback ]
+onProgressChanged=16
+
+[ 12-10 11:23:37.725 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:37.761 12367:0x304f D/WebViewCallback ]
+doUpdateVisitedHistory=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148 reload=false
+
+[ 12-10 11:23:37.762 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(60)] DidNavigateAnyFrame can_save = 0
+
+
+[ 12-10 11:23:37.766 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:23:37.767 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(64)] DidNavigateAnyFrame IsEnabledSavePassword is false!!
+
+
+[ 12-10 11:23:37.818 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:23:37.847 12367:0x304f D/WebViewCallback ]
+onReceivedTitle
+
+[ 12-10 11:23:37.849 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/__System.pageLoaded.dwr
+
+[ 12-10 11:23:37.877 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:23:37.899 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:23:37.899 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/icons.svg
+
+[ 12-10 11:23:38.286 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:23:38.288 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/graph/1130000148.svg
+
+[ 12-10 11:23:38.469 12367:0x304f D/WebViewCallback ]
+onProgressChanged=50
+
+[ 12-10 11:23:38.560 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:38.561 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:38.565 12367:0x30c0 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 11:23:38.646 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:38.975 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:38.977 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.151 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.154 12367:0x304f D/WebViewCallback ]
+onProgressChanged=100
+
+[ 12-10 11:23:39.158 12367:0x304f D/WebViewCallback ]
+onPageFinished=http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:23:39.159 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(195)] OnPasswordFormsRendered called
+
+
+[ 12-10 11:23:39.159 12367:0x304f W/chromium ]
+[WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+
+[ 12-10 11:23:39.159 12367:0x304f W/chromium ]
+[WARNING:password_handler.cc(197)] OnPasswordFormsRendered IsEnabledSavePassword is false
+
+
+[ 12-10 11:23:39.188 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:39.190 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:39.240 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.241 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.368 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.419 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.420 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:39.640 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:40.647 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:41.640 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:42.222 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:42.223 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:42.374 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:42.376 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:42.649 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:43.207 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717822618
+
+[ 12-10 11:23:43.641 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:44.652 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:45.299 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:45.300 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:45.407 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:45.411 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:45.641 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:46.278 12367:0x304f W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2269)
+
+[ 12-10 11:23:46.657 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:46.789 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:46.847 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:46.847 12367:0x30bd I/dumpMemoryUsage ]
+[WebViewImpl::updateLayerTreeViewport] [0x80d527b0] pageScaleFactor=[1.000000]
+
+[ 12-10 11:23:47.641 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:48.369 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:48.369 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:48.432 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:48.433 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:48.437 12367:0x30cd D/libc-netbsd ]
+getaddrinfo: oa.paneng.cn get result from proxy >>
+
+
+[ 12-10 11:23:48.657 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:49.644 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:50.657 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:51.461 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:51.461 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:51.478 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:51.478 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:51.645 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:52.658 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:53.645 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:54.519 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:54.521 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:54.558 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:54.559 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:54.659 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:55.645 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:56.573 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-10 11:23:56.609 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 11:23:56.659 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:56.856 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:23:57.571 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:57.573 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:57.635 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:57.637 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:23:57.648 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:58.660 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:23:59.649 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:00.597 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:00.597 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:00.661 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:00.708 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:00.709 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:01.649 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:02.661 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:03.631 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:03.633 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:03.649 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:03.772 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:03.774 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:04.662 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:05.650 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:06.663 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:06.669 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:06.669 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:06.846 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:06.847 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:07.650 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:08.663 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:09.650 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:09.710 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:09.711 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:09.910 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:09.912 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:10.664 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:11.651 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:12.665 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:12.733 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:12.734 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:12.972 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:12.974 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:13.651 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:14.251 12367:0x308d D/cn.edu.nju.ise.kikandroid ]
+Log:1449717854251
+
+[ 12-10 11:24:14.666 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:15.652 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:15.775 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:15.775 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:16.056 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:16.057 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:16.667 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:17.653 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:18.668 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:18.830 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:18.832 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:19.126 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:19.127 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:19.653 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:20.668 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:21.537 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=262 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=279 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:437)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1078)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:24:21.538 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=260 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1126)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:24:21.548 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=256 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.appendIndent(FastXmlSerializer.java:127)
+	at com.android.internal.util.FastXmlSerializer.startTag(FastXmlSerializer.java:358)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1097)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:24:21.549 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=255 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.PreferredComponent.writeToXml(PreferredComponent.java:189)
+	at com.android.server.pm.PreferredActivity.writeToXml(PreferredActivity.java:50)
+	at com.android.server.pm.Settings.writePreferredActivitiesLPr(Settings.java:1044)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1145)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:24:21.549 12367:0x304f D/StrictMode ]
+StrictMode policy violation; ~duration=253 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=279 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1120)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:494)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at java.io.BufferedOutputStream.flushInternal(BufferedOutputStream.java:185)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:85)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:254)
+	at com.android.internal.util.FastXmlSerializer.append(FastXmlSerializer.java:92)
+	at com.android.internal.util.FastXmlSerializer.escapeAndAppendString(FastXmlSerializer.java:145)
+	at com.android.internal.util.FastXmlSerializer.attribute(FastXmlSerializer.java:176)
+	at com.android.server.PreferredComponent.writeToXml(PreferredComponent.java:183)
+	at com.android.server.pm.PreferredActivity.writeToXml(PreferredActivity.java:50)
+	at com.android.server.pm.Settings.writePreferredActivitiesLPr(Settings.java:1044)
+	at com.android.server.pm.Settings.writePackageRestrictionsLPr(Settings.java:1145)
+	at com.android.server.pm.PackageManagerService.findPreferredActivity(PackageManagerService.java:3208)
+	at com.android.server.pm.PackageManagerService.chooseBestActivity(PackageManagerService.java:3067)
+	at com.android.server.pm.PackageManagerService.resolveIntent(PackageManagerService.java:2978)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:463)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1789)
+	at android.os.Binder.execTransact(Binder.java:404)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1749)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1454)
+	at android.os.Parcel.readException(Parcel.java:1423)
+	at android.content.pm.IPackageManager$Stub$Proxy.resolveIntent(IPackageManager.java:2408)
+	at android.app.ApplicationPackageManager.resolveActivityAsUser(ApplicationPackageManager.java:492)
+	at android.app.ApplicationPackageManager.resolveActivity(ApplicationPackageManager.java:486)
+	at com.example.myfristandroid.MainActivity$4.onClick(MainActivity.java:1205)
+	at com.example.myfristandroid.HuzAlertController$ButtonHandler.handleMessage(HuzAlertController.java:161)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5321)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:831)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:647)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:24:21.653 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:21.878 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:21.879 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:22.191 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:22.192 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:22.669 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:23.654 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:24.673 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:24.921 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:24.922 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:25.261 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:25.261 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:25.655 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:26.674 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:27.656 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:27.958 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:27.960 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:28.365 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:28.367 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:28.675 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:29.656 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:30.676 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:31.001 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:31.003 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:31.429 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:31.430 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:31.667 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:32.677 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:33.668 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:34.022 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:34.023 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:34.492 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:34.492 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:34.678 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:35.669 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:36.576 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:122
+
+[ 12-10 11:24:36.640 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 11:24:36.678 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:36.878 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:24:37.062 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:37.064 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:37.557 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:37.557 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:37.671 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:38.689 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:39.671 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:40.087 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:40.088 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:40.618 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:40.619 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:40.691 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:41.672 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:42.692 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:43.116 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:43.116 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:43.672 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:43.729 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:43.729 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:44.693 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:45.672 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:46.143 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:46.145 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:46.694 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:46.806 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:46.808 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:47.673 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:48.695 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:49.195 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:49.195 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:49.673 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:49.881 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:49.881 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:50.696 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:51.674 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:52.223 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:52.224 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:52.696 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:52.978 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:52.979 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:53.674 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:54.697 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:55.246 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:55.247 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:55.677 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:56.054 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:56.055 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:56.698 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:57.677 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:58.273 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:58.275 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:58.699 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:24:59.123 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:59.124 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:24:59.678 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:00.699 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:01.313 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:01.313 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:01.678 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:02.190 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:02.191 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:02.708 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:03.679 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:04.348 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:04.348 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:04.351 12367:0x30cd D/libc-netbsd ]
+getaddrinfo: oa.paneng.cn get result from proxy >>
+
+
+[ 12-10 11:25:04.709 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:05.258 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:05.258 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:05.679 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:06.709 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:07.630 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:07.630 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:07.679 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:08.321 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:08.322 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:08.709 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:09.680 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:10.655 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:10.656 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:10.711 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:11.385 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:11.385 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:11.680 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:12.711 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:13.680 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:13.689 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:13.689 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:14.453 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:14.453 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:14.713 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:15.681 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:16.576 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:135
+
+[ 12-10 11:25:16.616 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 11:25:16.714 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:16.742 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:16.743 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:16.908 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:25:17.550 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:17.553 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:17.681 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:18.715 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:19.681 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:19.769 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:19.770 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:20.616 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:20.618 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:20.716 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:21.682 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:22.717 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:22.810 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:22.812 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:23.688 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:23.717 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:23.719 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:24.718 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:25.689 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:25.838 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:25.838 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:26.719 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:26.818 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:26.819 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:27.699 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:28.720 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:28.870 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:28.871 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:29.699 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:29.929 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:29.930 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:30.721 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:31.700 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:31.901 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:31.902 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:32.724 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:33.021 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:33.021 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:33.700 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:34.728 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:34.950 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:34.952 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:35.701 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:36.122 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:36.122 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:36.729 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:37.701 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:37.975 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:37.976 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:38.729 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:39.190 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:39.191 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:39.701 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:40.730 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:41.014 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:41.015 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:41.702 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:42.283 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:42.285 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:42.731 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:43.702 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:44.077 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:44.077 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:44.732 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:45.367 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:45.367 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:45.703 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:46.733 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:47.130 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:47.131 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:47.704 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:48.482 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:48.484 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:48.734 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:49.704 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:50.194 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:50.196 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:50.735 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:51.571 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:51.572 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:51.705 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:52.736 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:53.252 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:53.253 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:53.705 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:54.691 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:54.692 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:54.739 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:55.706 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:56.301 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:56.302 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:56.576 12399:0x3083 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:148
+
+[ 12-10 11:25:56.594 12399:0x3089 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:813
+
+[ 12-10 11:25:56.742 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:56.974 12399:0x3085 D/SocketService1 ]
+本次提取1:LoadPtr:813 HeadIndex:800 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:25:57.706 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:57.789 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:57.790 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:58.743 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:25:59.338 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:59.338 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:25:59.707 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:26:00.743 12399:0x3075 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:26:00.870 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:26:00.870 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:26:01.707 12367:0x3055 D/jdwp     ]
+Can't connect to ADB control socket:Connection refused
+
+[ 12-10 11:26:02.394 12367:0x30b5 D/WebViewCallback ]
+shouldInterceptRequest=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+
+[ 12-10 11:26:02.395 12367:0x304f D/WebViewCallback ]
+onLoadResource=http://oa.paneng.cn:1143/se9200/dwr/call/plaincall/se9200dwr.getFloatValues.dwr
+

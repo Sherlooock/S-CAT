@@ -1,0 +1,384 @@
+--------- beginning of /dev/log/system
+[ 12-13 15:59:07.220 29654:0x7419 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-26568
+Process: com.netease.cloudmusic, PID: 29654
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+--------- beginning of /dev/log/main
+[ 12-13 16:01:45.234 30368:0x76d8 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:01:45.469 30368:0x7755 D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-13 16:01:56.237 30368:0x76f4 D/libc-netbsd ]
+getaddrinfo: m9.music.126.net get result from proxy >>
+
+
+[ 12-13 16:02:04.801 30368:0x76f5 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:02:04.982 30368:0x76cb D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-13 16:02:37.470 30368:0x7752 D/libc-netbsd ]
+getaddrinfo: p2.music.126.net get result from proxy >>
+
+
+[ 12-13 16:02:38.086 30368:0x794d D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:02:38.195 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:38.196 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:38.740 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:38.746 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:39.506 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:39.508 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:02:54.073 30368:0x76f4 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:04:05.227 30368:0x76f5 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:04:05.593 30368:0x76cb D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-13 16:04:46.167 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:04:47.395 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:04:48.283 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:04:48.445 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:04:48.446 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:04:52.154 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: m9.music.126.net get result from proxy >>
+
+
+[ 12-13 16:04:53.967 30368:0x7b6e D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:04:54.273 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:04:54.275 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:04:59.876 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:05:08.359 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:05:11.474 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:05:12.716 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:05:12.779 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:12.782 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:16.866 30368:0x7baf D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:05:17.002 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:17.005 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:29.582 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:05:30.651 30368:0x7754 D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-13 16:05:30.806 30368:0x7b22 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:05:32.984 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:05:33.144 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:33.146 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:05:53.095 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:06:02.525 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:06:02.661 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m9.music.126.net get result from proxy >>
+
+
+[ 12-13 16:06:03.325 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:06:04.024 30368:0x7752 D/libc-netbsd ]
+getaddrinfo: p2.music.126.net get result from proxy >>
+
+
+[ 12-13 16:06:05.623 30368:0x76cb D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-13 16:06:07.256 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:06:07.259 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:06:19.029 30368:0x7cb9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:06:19.162 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:06:19.163 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:06:44.173 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:06:44.440 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m9.music.126.net get result from proxy >>
+
+
+[ 12-13 16:06:44.526 30368:0x7755 D/libc-netbsd ]
+getaddrinfo: p1.music.126.net get result from proxy >>
+
+
+[ 12-13 16:06:45.299 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:06:45.353 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:06:45.355 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:00.375 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:07:00.721 30368:0x7754 D/libc-netbsd ]
+getaddrinfo: p2.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:00.738 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:04.206 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:07:04.293 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:04.295 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:07.103 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:07.106 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:12.695 30368:0x7be9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:07:18.524 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:30.482 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:41.279 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:07:41.379 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:41.498 30368:0x7752 D/libc-netbsd ]
+getaddrinfo: p2.music.126.net get result from proxy >>
+
+
+[ 12-13 16:07:42.209 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:07:42.534 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:42.535 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:44.159 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:07:44.162 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:06.861 30368:0x76f5 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:08:06.938 30368:0x76cb D/libc-netbsd ]
+getaddrinfo: mr.da.netease.com get result from proxy >>
+
+
+[ 12-13 16:08:12.753 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:08:32.521 30368:0x7b20 D/libc-netbsd ]
+getaddrinfo: m7.music.126.net get result from proxy >>
+
+
+[ 12-13 16:08:32.727 30368:0x7755 D/libc-netbsd ]
+getaddrinfo: p2.music.126.net get result from proxy >>
+
+
+[ 12-13 16:08:32.921 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:08:32.984 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:32.985 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:36.102 30368:0x7be9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:08:36.240 30368:0x7be9 D/libc-netbsd ]
+getaddrinfo: m9.music.126.net get result from proxy >>
+
+
+[ 12-13 16:08:37.004 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:08:37.081 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:37.083 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:46.303 30368:0x7eb9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:08:46.593 30368:0x7eb9 D/libc-netbsd ]
+getaddrinfo: m8.music.126.net get result from proxy >>
+
+
+[ 12-13 16:08:52.207 30368:0x76a0 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-13 16:08:52.230 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:52.234 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:08:58.854 30368:0x7eb9 D/libc-netbsd ]
+getaddrinfo: m8.music.126.net get result from proxy >>
+
+
+[ 12-13 16:09:02.570 30368:0x76f0 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:09:02.677 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:09:02.679 30368:0x76f6 E/RemoteViews ]
+ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+
+[ 12-13 16:09:03.187 30368:0x7eb9 D/libc-netbsd ]
+getaddrinfo: m8.music.126.net get result from proxy >>
+
+
+[ 12-13 16:09:18.876 30368:0x7be9 D/libc-netbsd ]
+getaddrinfo: music.163.com get result from proxy >>
+
+
+[ 12-13 16:09:31.370 30368:0x7eb9 D/libc-netbsd ]
+getaddrinfo: m8.music.126.net get result from proxy >>
+
+
+[ 12-13 16:09:37.953 30368:0x7fb3 D/libc-netbsd ]
+getaddrinfo: apk.nis.netease.com get result from proxy >>
+
+
+[ 12-13 16:09:38.307 30368:0x76e6 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-26604
+Process: com.netease.cloudmusic, PID: 30368
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

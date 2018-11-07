@@ -1,0 +1,818 @@
+--------- beginning of main
+[ 12-12 16:52:58.746 19418:19418 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 16:52:58.746 19418:19418 I/MultiDex ]
+install
+
+[ 12-12 16:52:58.746 19418:19418 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 16:52:59.466 19418:19418 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:52:59.476 19418:19418 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/Yixin/,/storage/sdcard0/tencent/
+
+[ 12-12 16:52:59.476 19418:19418 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:53:01.849 19418:19418 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:53:02.039 19418:19418 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:53:02.039 19418:19418 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:53:02.039 19418:19418 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:53:02.039 19418:19418 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:53:02.039 19418:19418 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:53:02.589 19418:19510 D/OpenGLRenderer ]
+Render dirty regions requested: true
+
+[ 12-12 16:53:02.599 19418:19418 D/Atlas    ]
+Validating map...
+
+[ 12-12 16:53:02.680 19418:19510 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: C_BHUSH_AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020+PATCH[ES]_msm8960_refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.25.03.06
+Build Date: 06/17/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020
+Local Patches: 3c2e57b3adbc73f968451c2fa01bb8033d91cf9c Revert "Fixes wobbly boolean return code."
+                 4b7526a1059d940e4b6d4c6ab96389010918de6e rb: fix shadow cach
+
+[ 12-12 16:53:02.680 19418:19510 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-12 16:53:02.710 19418:19510 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 16:53:02.820 19418:19520 D/com.netease.cloudmusic.utils.u ]
+72ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYyNjIwMDI0MDYwODQyCWY4OmE0OjVmOjFjOmFkOmNiCTMwM2ZiZjY3MWY5NTVhMjQJYTcwNmVkY2E%3D_android&wifi=true
+
+[ 12-12 16:53:02.840 19418:19418 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1066aca8 time:16028670
+
+[ 12-12 16:53:02.870 19418:19508 D/com.netease.cloudmusic.utils.u ]
+119ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYyNjIwMDI0MDYwODQyCWY4OmE0OjVmOjFjOmFkOmNiCTMwM2ZiZjY3MWY5NTVhMjQJYTcwNmVkY2E%3D_android&wifi=true
+
+[ 12-12 16:53:02.900 19418:19508 D/com.netease.cloudmusic.utils.u ]
+29ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 16:53:03.070 19418:19418 I/Timeline ]
+Timeline: Activity_launch_request time:16028901
+
+[ 12-12 16:53:03.701 19418:19418 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:53:03.921 19418:19418 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@236f0205 time:16029759
+
+[ 12-12 16:53:08.095 19418:19418 I/Choreographer ]
+Skipped 126 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 16:53:09.927 19418:19509 D/com.netease.cloudmusic.utils.u ]
+118ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:53:09.957 19418:19509 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/leci/,/storage/sdcard0/moji/,/storage/sdcard0/Android/,/storage/sdcard0/tencent/,/storage/sdcard0/Tencent/,/storage/sdcard0/Yixin/,/storage/sdcard0/baicizhan/,/storage/sdcard0/towords/,/storage/sdcard0/HJApp/
+
+[ 12-12 16:53:09.957 19418:19509 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/,/storage/sdcard0/tencent/QQfile_recv/
+
+[ 12-12 16:53:09.957 19418:19509 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:53:10.677 19418:19508 D/com.netease.cloudmusic.utils.u ]
+678ms on url: http://music.163.com/eapi/user/init/playlist
+
+[ 12-12 16:54:28.003 20561:20561 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 16:54:28.003 20561:20561 I/MultiDex ]
+install
+
+[ 12-12 16:54:28.003 20561:20561 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 16:54:28.033 20561:20588 I/Timeline ]
+Timeline: Activity_launch_request time:16113864
+
+[ 12-12 16:54:28.744 20561:20561 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:54:28.764 20561:20561 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/Yixin/,/storage/sdcard0/tencent/
+
+[ 12-12 16:54:28.784 20561:20561 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:54:28.824 20561:20561 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:54:28.944 20561:20561 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:54:28.944 20561:20561 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:54:28.944 20561:20561 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:54:28.944 20561:20561 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:54:28.944 20561:20561 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:54:29.434 20561:20561 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:54:29.494 20561:20632 D/OpenGLRenderer ]
+Render dirty regions requested: true
+
+[ 12-12 16:54:29.504 20561:20561 D/Atlas    ]
+Validating map...
+
+[ 12-12 16:54:29.574 20561:20632 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: C_BHUSH_AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020+PATCH[ES]_msm8960_refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.25.03.06
+Build Date: 06/17/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020
+Local Patches: 3c2e57b3adbc73f968451c2fa01bb8033d91cf9c Revert "Fixes wobbly boolean return code."
+                 4b7526a1059d940e4b6d4c6ab96389010918de6e rb: fix shadow cach
+
+[ 12-12 16:54:29.574 20561:20632 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-12 16:54:29.604 20561:20632 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 16:54:29.664 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@2458fafd time:16115497
+
+[ 12-12 16:54:29.684 20561:20630 D/com.netease.cloudmusic.utils.u ]
+52ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYyNjIwMDI0MDYwODQyCWY4OmE0OjVmOjFjOmFkOmNiCTMwM2ZiZjY3MWY5NTVhMjQJYTcwNmVkY2E%3D_android&wifi=true
+
+[ 12-12 16:54:29.724 20561:20630 D/com.netease.cloudmusic.utils.u ]
+32ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 16:54:29.755 20561:20631 D/com.netease.cloudmusic.utils.u ]
+118ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:54:29.765 20561:20631 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/leci/,/storage/sdcard0/moji/,/storage/sdcard0/Android/,/storage/sdcard0/tencent/,/storage/sdcard0/Tencent/,/storage/sdcard0/Yixin/,/storage/sdcard0/baicizhan/,/storage/sdcard0/towords/,/storage/sdcard0/HJApp/
+
+[ 12-12 16:54:29.775 20561:20631 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/,/storage/sdcard0/tencent/QQfile_recv/
+
+[ 12-12 16:54:29.775 20561:20631 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:54:31.466 20561:20561 I/Timeline ]
+Timeline: Activity_launch_request time:16117297
+
+[ 12-12 16:54:31.506 20561:20561 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:54:31.947 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@13d47a26 time:16117774
+
+[ 12-12 16:54:35.560 20561:20561 I/Timeline ]
+Timeline: Activity_launch_request time:16121397
+
+[ 12-12 16:54:38.213 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@13d47a26 time:16124041
+
+[ 12-12 16:54:38.383 20561:20631 D/com.netease.cloudmusic.utils.u ]
+255ms on url: https://music.163.com/eapi/login/sns
+
+[ 12-12 16:54:38.483 20561:20561 I/Timeline ]
+Timeline: Activity_launch_request time:16124314
+
+[ 12-12 16:54:38.643 20561:20561 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:54:39.024 20561:20561 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:54:39.234 20561:20631 D/com.netease.cloudmusic.utils.u ]
+287ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:54:40.165 20561:20561 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:54:40.185 20561:20890 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:54:40.255 20561:20631 D/com.netease.cloudmusic.utils.u ]
+68ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:54:40.275 20561:20630 D/com.netease.cloudmusic.utils.u ]
+60ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-12 16:54:40.275 20561:20890 D/com.netease.cloudmusic.utils.u ]
+73ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:54:40.275 20561:20890 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=2, follow=0, pushMsg=你收到了2条消息：2条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:54:40.275 20561:20561 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 16:54:40.285 20561:20895 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:54:40.315 20561:20561 D/PlayService ]
+in onBind
+
+[ 12-12 16:54:40.315 20561:20561 I/Choreographer ]
+Skipped 76 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 16:54:40.325 20561:20583 I/art      ]
+Background sticky concurrent mark sweep GC freed 71179(3MB) AllocSpace objects, 30(480KB) LOS objects, 11% free, 31MB/35MB, paused 4.150ms total 129.150ms
+
+[ 12-12 16:54:40.485 20561:20630 D/com.netease.cloudmusic.utils.u ]
+187ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-12 16:54:40.525 20561:20631 D/AudioMetaIO ]
+supportMediaFormat:mxmf,mp3,flac,xmf,rtttl,rtx,mka,ec3,oga,pls,m4a,aac,wma,mpga,wav,qcp,ac3,imy,awb,ota,smf,ape,m3u8
+
+[ 12-12 16:54:40.605 20561:20630 D/com.netease.cloudmusic.utils.u ]
+70ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:54:40.615 20561:20921 D/com.netease.cloudmusic.utils.u ]
+65ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:54:40.725 20561:20583 I/art      ]
+Background partial concurrent mark sweep GC freed 49272(2MB) AllocSpace objects, 15(1246KB) LOS objects, 32% free, 32MB/48MB, paused 3.692ms total 106.048ms
+
+[ 12-12 16:54:40.895 20561:20922 D/com.netease.cloudmusic.utils.u ]
+343ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:54:40.895 20561:20920 D/com.netease.cloudmusic.utils.u ]
+346ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:54:41.076 20561:20561 W/View     ]
+requestLayout() improperly called by android.widget.ListView{1a5335a5 VFED..C. ......ID 0,0-592,1280 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 16:54:41.076 20561:20561 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{11810fce VFED.VC. .F....ID 0,0-720,1038 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 16:54:41.396 20561:20561 I/MusicActivityBase ]
+onReceive msg count is 2 follow count0
+
+[ 12-12 16:54:41.396 20561:20561 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:54:41.406 20561:20561 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:54:41.426 20561:20561 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@3415e22e:onReceive msg count is 2 follow count0
+
+[ 12-12 16:54:41.436 20561:20561 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:54:41.446 20936:20936 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 16:54:41.446 20936:20936 I/MultiDex ]
+install
+
+[ 12-12 16:54:41.446 20936:20936 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 16:54:41.466 20561:20561 I/Choreographer ]
+Skipped 67 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 16:54:41.706 20561:20895 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:54:41.826 20561:20921 D/com.netease.cloudmusic.utils.u ]
+111ms on url: http://music.163.com/eapi/user/location?lat=32.180143&lon=121.381437
+
+[ 12-12 16:54:41.896 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@2967ed9e time:16127729
+
+[ 12-12 16:54:42.207 20936:20936 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:54:42.217 20936:20936 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/Yixin/,/storage/sdcard0/tencent/
+
+[ 12-12 16:54:42.347 20936:20936 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 16:54:42.357 20936:20936 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:54:42.437 20936:20936 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:54:42.437 20936:20936 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:54:42.437 20936:20936 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:54:42.437 20936:20936 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:54:42.437 20936:20936 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at java.lang.Class.getMethod(Class.java:664)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:626)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2734)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:147)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1366)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.os.Looper.loop(Looper.java:135)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5235)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at java.lang.reflect.Method.invoke(Native Method)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:906)
+
+[ 12-12 16:54:42.887 20936:20936 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:701)
+
+[ 12-12 16:54:44.129 20561:20884 D/com.netease.cloudmusic.utils.u ]
+33ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:54:45.330 20936:20936 D/baidu_location_service ]
+baidu location service start1 ...20936
+
+[ 12-12 16:54:45.330 20561:20561 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 16:54:45.410 20936:20936 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+
+[ 12-12 16:54:45.690 20561:20922 D/com.netease.cloudmusic.utils.u ]
+57ms on url: http://music.163.com/eapi/user/location?lat=32.178291&lon=121.386173
+
+[ 12-12 16:54:45.700 20936:20936 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 16:54:45.700 20936:20936 I/Process  ]
+Sending signal. PID: 20936 SIG: 9
+
+--------- beginning of system
+[ 12-12 16:54:49.063 20561:20613 W/FileUtils ]
+Failed to chmod(/storage/sdcard0/netease/wakeup/wakeup.dat): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+[ 12-12 16:54:49.214 20561:20922 D/com.netease.cloudmusic.utils.u ]
+69ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:54:49.314 20561:20920 D/com.netease.cloudmusic.utils.u ]
+169ms on url: http://music.163.com/eapi/discovery/recommend/artist/hasdata
+
+[ 12-12 16:54:49.344 20561:21051 D/DownloadManager ]
+download notify
+
+[ 12-12 16:54:49.774 20561:20583 I/art      ]
+Background partial concurrent mark sweep GC freed 21886(1091KB) AllocSpace objects, 11(904KB) LOS objects, 27% free, 42MB/58MB, paused 1.739ms total 119.140ms
+
+[ 12-12 16:54:50.655 20561:20561 I/Timeline ]
+Timeline: Activity_launch_request time:16136481
+
+[ 12-12 16:54:50.725 20561:20631 D/com.netease.cloudmusic.utils.u ]
+101ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 16:54:50.805 20561:20561 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:54:50.875 20561:20561 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:54:51.205 20561:20561 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:54:51.266 20561:20895 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:54:51.526 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@64002b0 time:16137355
+
+[ 12-12 16:54:52.216 20561:20561 I/MusicActivityBase ]
+onReceive msg count is 2 follow count0
+
+[ 12-12 16:54:53.728 20561:20631 I/art      ]
+Explicit concurrent mark sweep GC freed 145261(7MB) AllocSpace objects, 19(2MB) LOS objects, 28% free, 40MB/56MB, paused 1.708ms total 169.403ms
+
+[ 12-12 16:55:08.082 20561:20561 I/Timeline ]
+Timeline: Activity_launch_request time:16153914
+
+[ 12-12 16:55:08.332 20561:20561 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:55:08.452 20561:20561 D/PlayerActivityBase ]
+onResume()
+
+[ 12-12 16:55:08.462 20561:20895 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-12 16:55:08.462 20561:20561 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:55:08.482 20561:20895 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-12 16:55:08.482 20561:20895 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 21
+
+[ 12-12 16:55:08.492 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:唱着情歌流着泪,-3
+
+[ 12-12 16:55:08.492 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:55:08.492 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:191000
+
+[ 12-12 16:55:08.492 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:55:08.502 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:55:08.622 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@7e94596 time:16154458
+
+[ 12-12 16:55:08.693 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:248294,/storage/sdcard0/MIUI/music/mp3_hd/唱着情歌流着泪_祁隆.mp3,false
+
+[ 12-12 16:55:08.723 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:55:08.723 20561:20895 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:55:08.743 20561:20561 D/PlayService ]
+play music:唱着情歌流着泪,祁隆
+
+[ 12-12 16:55:08.793 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:55:08.793 20561:20920 D/com.netease.cloudmusic.utils.u ]
+54ms on url: http://music.163.com/eapi/song/enhance/privilege
+
+[ 12-12 16:55:08.873 20561:20626 D/com.netease.cloudmusic.utils.u ]
+50ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[26600083]&resourceType=4&fixliked=true
+
+[ 12-12 16:55:16.110 20561:20920 D/com.netease.cloudmusic.utils.u ]
+103ms on url: http://music.163.com/eapi/song/lyric?id=26600083&cp=false&lv=0&tv=0&kv=0
+
+[ 12-12 16:55:17.531 20561:20583 I/art      ]
+Background sticky concurrent mark sweep GC freed 153036(5MB) AllocSpace objects, 33(1368KB) LOS objects, 12% free, 49MB/56MB, paused 4.058ms total 100.830ms
+
+[ 12-12 16:55:19.633 20561:20895 D/PlayService ]
+PlayerHandler,action:2,null,30428,0
+
+[ 12-12 16:55:19.663 20561:20561 D/PlayService ]
+in OnSeekCompleteListener
+
+[ 12-12 16:55:39.062 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:55:39.062 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-12 16:55:39.062 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:55:39.062 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:55:39.072 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:传奇,-20
+
+[ 12-12 16:55:39.072 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:55:39.072 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:128000
+
+[ 12-12 16:55:39.072 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:55:39.082 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:55:39.122 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:296000,/storage/sdcard0/tencent/QQfile_recv/王菲 - 传奇.mp3,false
+
+[ 12-12 16:55:39.162 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:55:39.172 20561:20561 D/PlayService ]
+play music:传奇,王菲
+
+[ 12-12 16:55:39.322 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:55:39.362 20561:20920 D/com.netease.cloudmusic.utils.u ]
+75ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 16:55:39.372 20561:20633 D/com.netease.cloudmusic.utils.u ]
+47ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[0]&resourceType=4&fixliked=true
+
+[ 12-12 16:55:51.404 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:55:51.404 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,0
+
+[ 12-12 16:55:51.404 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:55:51.404 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:55:51.404 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:倒带,-2
+
+[ 12-12 16:55:51.414 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:55:51.414 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:193000
+
+[ 12-12 16:55:51.414 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:55:51.414 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:55:51.444 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:264699,/storage/sdcard0/MIUI/music/mp3_hd/倒带_蔡依林.mp3,false
+
+[ 12-12 16:55:51.544 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:55:51.564 20561:20561 D/PlayService ]
+play music:倒带,蔡依林
+
+[ 12-12 16:55:51.724 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:55:51.785 20561:20946 D/com.netease.cloudmusic.utils.u ]
+55ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[209758]&resourceType=4&fixliked=true
+
+[ 12-12 16:55:58.301 20561:20583 I/art      ]
+Background partial concurrent mark sweep GC freed 33708(1653KB) AllocSpace objects, 21(2MB) LOS objects, 23% free, 53MB/69MB, paused 1.007ms total 106.506ms
+
+[ 12-12 16:55:59.272 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,0
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:单车,-15
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:55:59.282 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:315000
+
+[ 12-12 16:55:59.292 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:55:59.292 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:55:59.332 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:211251,/storage/sdcard0/tencent/QQfile_recv/陈奕迅 - 单车.mp3,false
+
+[ 12-12 16:55:59.372 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:55:59.382 20561:20561 D/PlayService ]
+play music:单车,陈奕迅
+
+[ 12-12 16:55:59.532 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:55:59.922 20561:20884 D/com.netease.cloudmusic.utils.u ]
+397ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[65592]&resourceType=4&fixliked=true
+
+[ 12-12 16:56:00.153 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,0
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:Fairy Tale,-6
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:319000
+
+[ 12-12 16:56:00.153 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:56:00.163 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:56:00.193 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:299937,/storage/sdcard0/tencent/QQfile_recv/Michael Learns To Rock - Fairy Tale.mp3,false
+
+[ 12-12 16:56:00.223 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:56:00.243 20561:20561 D/PlayService ]
+play music:Fairy Tale,Michael Learns To Rock
+
+[ 12-12 16:56:00.403 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:56:00.463 20561:20619 D/com.netease.cloudmusic.utils.u ]
+56ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[4172882]&resourceType=4&fixliked=true
+
+[ 12-12 16:56:02.305 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:56:02.305 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,0
+
+[ 12-12 16:56:02.305 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:56:02.305 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:56:02.305 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:富士山下,-14
+
+[ 12-12 16:56:02.315 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:56:02.315 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:192000
+
+[ 12-12 16:56:02.315 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:56:02.315 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:56:02.345 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:259213,/storage/sdcard0/MIUI/music/mp3_hd/富士山下_陈奕迅.mp3,false
+
+[ 12-12 16:56:02.405 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:56:02.415 20561:20561 D/PlayService ]
+play music:富士山下,陈奕迅
+
+[ 12-12 16:56:02.555 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:56:02.595 20561:20626 D/com.netease.cloudmusic.utils.u ]
+39ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[65766]&resourceType=4&fixliked=true
+
+[ 12-12 16:56:04.377 20561:20920 D/com.netease.cloudmusic.utils.u ]
+96ms on url: http://music.163.com/eapi/song/lyric?id=65766&cp=false&lv=0&tv=0&kv=0
+
+[ 12-12 16:56:10.383 20561:20561 D/PlayService ]
+next begin
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@30e61b8b
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+getMusicInfo:begin to play:好久不见,-11
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:192000
+
+[ 12-12 16:56:10.383 20561:20895 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:56:10.393 20561:20895 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:56:10.423 20561:20895 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:250000,/storage/sdcard0/MIUI/music/mp3_hd/好久不见_陈奕迅.mp3,false
+
+[ 12-12 16:56:10.463 20561:20561 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:56:10.473 20561:20561 D/PlayService ]
+play music:好久不见,陈奕迅
+
+[ 12-12 16:56:10.623 20561:20895 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:56:10.713 20561:20633 D/com.netease.cloudmusic.utils.u ]
+84ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[65538]&resourceType=4&fixliked=true
+
+[ 12-12 16:56:11.204 20561:20920 D/com.netease.cloudmusic.utils.u ]
+86ms on url: http://music.163.com/eapi/song/lyric?id=65538&cp=false&lv=0&tv=0&kv=0
+
+[ 12-12 16:56:14.066 20561:20561 D/PlayerActivityBase ]
+onStop()
+
+[ 12-12 16:56:14.096 20561:20561 D/PlayService ]
+in onUnbind
+
+[ 12-12 16:56:15.488 20561:20561 D/PlayerActivityBase ]
+onResume()
+
+[ 12-12 16:56:15.568 20561:20561 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:56:15.588 20561:20895 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:56:15.618 20561:20561 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@7e94596 time:16221447
+
+[ 12-12 16:56:17.610 20561:20561 D/PlayerActivityBase ]
+onStop()
+
+[ 12-12 16:56:21.514 20561:20651 D/cn.edu.nju.ise.kikandroid ]
+Log:1449910581526
+
+[ 12-12 16:56:22.354 20561:20651 D/cn.edu.nju.ise.kikandroid ]
+Log:1449910582365
+
+[ 12-12 16:56:23.075 20561:20651 D/cn.edu.nju.ise.kikandroid ]
+Log:1449910583088
+
+[ 12-12 16:56:40.272 20561:20890 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:true
+
+[ 12-12 16:56:40.332 20561:20890 D/com.netease.cloudmusic.utils.u ]
+50ms on url: http://music.163.com/eapi/pl/count?backend=true
+
+[ 12-12 16:56:40.332 20561:20890 I/com.netease.cloudmusic.service.PushService ]
+background new message : PushMessage [code=200, at=0, notice=0, msg=2, follow=0, pushMsg=你收到了2条消息：2条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+

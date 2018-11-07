@@ -1,0 +1,30 @@
+--------- beginning of /dev/log/main
+[ 12-09 11:29:43.496 22646:22646 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-09 11:29:49.066 22646:22686 D/cn.edu.nju.ise.kikandroid ]
+Log:1449631789074
+
+[ 12-09 11:29:49.156 22646:22646 D/dalvikvm ]
+GC_FOR_ALLOC freed 2412K, 8% free 29490K/32048K, paused 19ms, total 21ms
+
+[ 12-09 11:29:49.226 22646:22646 D/dalvikvm ]
+GC_FOR_ALLOC freed 57K, 8% free 33034K/35652K, paused 14ms, total 14ms
+
+[ 12-09 11:29:49.436 22646:22686 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449631789105
+
+[ 12-09 11:29:49.436 22646:22686 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41eee898)
+
+--------- beginning of /dev/log/system
+[ 12-09 11:29:49.446 22646:22686 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-19027
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:193)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

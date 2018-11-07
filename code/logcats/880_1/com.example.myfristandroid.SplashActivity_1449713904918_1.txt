@@ -1,0 +1,870 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:14:19.913  8674: 8674 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:14:19.958  8674: 8674 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d1808
+
+[ 12-10 10:14:19.958  8674: 8674 D/dalvikvm ]
+Added shared lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d1808
+
+[ 12-10 10:14:19.963  8674: 8674 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d1808
+
+[ 12-10 10:14:19.963  8674: 8674 D/dalvikvm ]
+Shared lib '/data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x428d1808
+
+[ 12-10 10:14:20.028  8674: 8674 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-10 10:14:20.028  8674: 8674 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-10 10:14:20.028  8674: 8674 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-10 10:14:20.273  8674: 8674 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 10:14:20.273  8674: 8674 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 10:14:20.383  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 1060K, 12% free 17059K/19216K, paused 16ms, total 18ms
+
+[ 12-10 10:14:20.538  8674: 8674 I/dalvikvm-heap ]
+Grow heap (frag case) to 50.995MB for 34885888-byte allocation
+
+[ 12-10 10:14:20.558  8674: 8683 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 5% free 51124K/53288K, paused 18ms, total 18ms
+
+[ 12-10 10:14:20.573  8674: 8678 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 51126K/53288K, paused 3ms+5ms, total 18ms
+
+[ 12-10 10:14:20.618  8722: 8722 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:14:20.633  8674: 8674 I/         ]
+PLATFORM VERSION : JB-MR-2
+
+[ 12-10 10:14:20.653  8722: 8722 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428c8780
+
+[ 12-10 10:14:20.653  8722: 8722 D/dalvikvm ]
+Added shared lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428c8780
+
+[ 12-10 10:14:20.653  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:14:20.663  8722: 8722 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428c8780
+
+[ 12-10 10:14:20.663  8722: 8722 D/dalvikvm ]
+Shared lib '/data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x428c8780
+
+[ 12-10 10:14:20.683  8674: 8674 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:14:20.753  8722: 8722 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-10 10:14:20.753  8722: 8722 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-10 10:14:20.753  8722: 8722 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-10 10:14:20.843  8722: 8722 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:14:20.843  8722: 8722 D/SocketService ]
+pid:8722 myPid:8722
+
+[ 12-10 10:14:20.848  8722: 8722 D/SocketService ]
+start to run current thread!id:2140
+
+[ 12-10 10:14:20.873  8722: 8752 D/SocketService ]
+ip/192.168.1.159 lport:33998 p:143
+
+[ 12-10 10:14:20.898  8722: 8752 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 10:14:20.898  8722: 8752 D/SocketService ]
+success to connect server!id:2140 bLogin:false
+
+[ 12-10 10:14:20.993  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:14:21.843  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:14:21.903  8722: 8752 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 10:14:22.008  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:14:22.618  8674: 8674 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 10:14:22.668  8674: 8674 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 10:14:22.718  8674: 8674 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 10:14:22.733  8674: 8674 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 10:14:22.773  8674: 8674 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:14:22.778  8674: 8674 D/StrictMode ]
+StrictMode policy violation; ~duration=11 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5389)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at com.qihoo360.mobilesafe.loader.c.callActivityOnCreate(SourceFile:98)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2256)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2350)
+	at android.app.ActivityThread.access$800(ActivityThread.java:163)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1257)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:157)
+	at android.app.ActivityThread.main(ActivityThread.java:5335)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:14:22.798  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:22.803  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:22.858  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:14:22.878  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:14:22.903  8722: 8752 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 10:14:22.958  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:22.963  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:22.993  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:14:23.043  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:23.043  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 10:14:23.048  8674: 8674 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 10:14:23.078  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:23.078  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:23.888  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:14:23.903  8674: 8674 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:14:23.973  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:14:24.028  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:24.033  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:25.583  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:25.583  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:25.588  8674: 8674 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 10:14:31.683  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:14:31.683  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:31.703  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:31.713  8674: 8674 V/RenderScript ]
+Application requested CPU execution
+
+[ 12-10 10:14:31.713  8674: 8674 V/RenderScript ]
+0x79368220 Launching thread(s), CPUs 4
+
+[ 12-10 10:14:32.053  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:14:32.053  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:14:45.198  8722: 8726 D/dalvikvm ]
+GC_CONCURRENT freed 1731K, 14% free 18056K/20884K, paused 7ms+2ms, total 39ms
+
+[ 12-10 10:15:00.843  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 10:15:00.943  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 1577K, 4% free 65574K/68252K, paused 20ms, total 20ms
+
+[ 12-10 10:15:00.973  8674: 8674 I/dalvikvm-heap ]
+Grow heap (frag case) to 73.014MB for 8294416-byte allocation
+
+[ 12-10 10:15:01.003  8674: 8683 D/dalvikvm ]
+GC_FOR_ALLOC freed 16K, 4% free 73658K/76356K, paused 26ms, total 26ms
+
+[ 12-10 10:15:01.033  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:15:01.038  8674: 8678 D/dalvikvm ]
+GC_CONCURRENT freed 8386K, 15% free 65279K/76356K, paused 5ms+7ms, total 36ms
+
+[ 12-10 10:15:01.193  8674: 8757 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713700872
+
+[ 12-10 10:15:01.913  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:15:16.023  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:15:16.023  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:16.073  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:16.383  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:15:16.383  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:17.918  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:15:17.918  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:17.943  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:18.398  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:15:18.398  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:18.398  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:15:18.398  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:24.768  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:15:24.768  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:24.773  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:24.798  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:25.208  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:15:25.208  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:15:40.843  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 10:15:40.968  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 10:15:41.938  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:15:57.073  8722: 8726 D/dalvikvm ]
+GC_CONCURRENT freed 1932K, 15% free 18063K/21096K, paused 7ms+6ms, total 69ms
+
+[ 12-10 10:16:11.588  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:11.588  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:16.553  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:16.553  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:20.843  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 10:16:20.933  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 10:16:20.963  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:16:30.378  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:16:30.378  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:30.383  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:30.808  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:16:30.808  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:30.808  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:16:30.808  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:31.688  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:16:31.688  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:31.693  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:31.713  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:32.133  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:16:32.133  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:32.143  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:16:32.143  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:32.148  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:32.148  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:34.093  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:16:34.093  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:16:34.093  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:16:34.108  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:00.848  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-10 10:17:00.968  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 10:17:00.988  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:17:05.463  8722: 8726 D/dalvikvm ]
+GC_CONCURRENT freed 1947K, 15% free 18065K/21112K, paused 3ms+2ms, total 21ms
+
+[ 12-10 10:17:14.348  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:17:14.348  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:14.358  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:15.843  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:17:15.843  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:17:15.843  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:15.848  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:28.518  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:17:28.518  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:28.523  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:29.623  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:17:29.623  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:17:29.623  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:29.643  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:40.848  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:122
+
+[ 12-10 10:17:40.938  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 10:17:41.023  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:17:43.768  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:43.768  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:43.768  8674: 8674 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 10:17:43.788  8674: 8674 V/WebViewChromium ]
+Binding Chromium to the background looper Looper (main, tid 1) {428d0e58}
+
+[ 12-10 10:17:43.793  8674: 8674 I/chromium ]
+[INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-10 10:17:43.793  8674: 8674 I/BrowserProcessMain ]
+Initializing chromium process, renderers=0
+
+[ 12-10 10:17:43.823  8674: 9108 W/chromium ]
+[WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 10:17:43.823  8674: 8674 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 10:17:43.938  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:17:43.948  8674: 8674 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:17:43.978  8674: 8674 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:17:44.108  8674: 8674 I/chromium ]
+[INFO:CONSOLE(5)] "Viewport target-densitydpi is not supported.", source: http://oa.paneng.cn:1143/se9200/realdata/realdata.html (5)
+
+
+[ 12-10 10:17:44.318  8674: 8674 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 10:17:44.333  8674: 8674 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 10:17:44.363  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 10:17:44.363  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:44.363  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 10:17:44.363  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:44.513  8674: 8674 I/chromium ]
+[INFO:CONSOLE(80)] "Uncaught TypeError: Object [object Object] has no method 'startWait'", source: http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js (80)
+
+
+[ 12-10 10:17:46.408  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 10:17:46.408  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:46.413  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 10:17:46.413  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:46.428  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:17:46.428  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:46.428  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:46.473  8674: 8674 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 10:17:46.473  8674: 8674 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 10:17:46.473  8674: 8674 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 10:17:47.453  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:47.453  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:47.458  8674: 8674 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 10:17:47.518  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:17:47.528  8674: 8674 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:17:47.563  8674: 8674 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 10:17:47.898  8674: 8674 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 10:17:47.918  8674: 8674 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 10:17:47.953  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 10:17:47.953  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:47.953  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 10:17:47.953  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:48.223  8674: 9119 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 10:17:48.388  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:17:50.693  8674: 8674 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 10:17:50.833  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 10:17:50.833  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:50.833  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 10:17:50.833  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:50.858  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:17:50.863  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:50.863  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:50.908  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:50.908  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:58.103  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:17:58.103  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:58.113  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:58.113  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:58.468  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:17:58.468  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:59.493  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:17:59.508  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:17:59.888  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:17:59.928  8674: 8674 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 10:17:59.948  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 10:17:59.948  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:00.008  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:00.028  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:18:00.063  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:00.128  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:00.128  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:05.913  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:18:05.913  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:05.933  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:05.933  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:05.938  8674: 8674 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 10:18:05.948  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:06.518  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:18:06.528  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:07.103  8674: 8674 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:18:07.133  8674: 8674 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 10:18:07.138  8674: 8674 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 10:18:07.138  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:07.178  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:07.198  8674: 8674 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 10:18:07.203  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:07.278  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:07.278  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:12.788  8722: 8726 D/dalvikvm ]
+GC_CONCURRENT freed 1931K, 15% free 18065K/21112K, paused 1ms+1ms, total 14ms
+
+[ 12-10 10:18:13.438  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 12262K, 13% free 59608K/68248K, paused 31ms, total 31ms
+
+[ 12-10 10:18:13.458  8674: 8674 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.188MB for 8294416-byte allocation
+
+[ 12-10 10:18:13.478  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 6K, 12% free 67702K/76352K, paused 19ms, total 19ms
+
+[ 12-10 10:18:13.498  8674: 8683 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 10:18:13.498  8674: 8683 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 10:18:13.498  8674: 8683 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:13.508  8674: 8678 D/dalvikvm ]
+GC_CONCURRENT freed 105K, 12% free 67599K/76352K, paused 2ms+3ms, total 32ms
+
+[ 12-10 10:18:13.533  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 130K, 12% free 67468K/76352K, paused 18ms, total 18ms
+
+[ 12-10 10:18:13.718  8674: 8757 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713893401
+
+[ 12-10 10:18:16.803  8674: 8674 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 10:18:16.803  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:16.818  8674: 8674 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-10 10:18:16.818  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:16.818  8674: 8674 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:16.823  8674: 8674 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 10:18:20.858  8722: 8748 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:135
+
+[ 12-10 10:18:20.953  8722: 8753 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 10:18:21.048  8722: 8750 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:18:24.913  8674: 8757 D/cn.edu.nju.ise.kikandroid ]
+Log:1449713904918
+
+[ 12-10 10:18:25.003  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed 16363K, 14% free 59371K/68248K, paused 22ms, total 23ms
+
+[ 12-10 10:18:25.018  8674: 8674 I/dalvikvm-heap ]
+Grow heap (frag case) to 66.956MB for 8294416-byte allocation
+
+[ 12-10 10:18:25.033  8674: 8683 D/dalvikvm ]
+GC_FOR_ALLOC freed 12K, 12% free 67458K/76352K, paused 17ms, total 17ms
+
+[ 12-10 10:18:25.063  8674: 8678 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 12% free 67457K/76352K, paused 2ms+6ms, total 29ms
+
+[ 12-10 10:18:25.083  8674: 8674 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 12% free 67457K/76352K, paused 14ms, total 14ms
+
+[ 12-10 10:18:25.088  8674: 8683 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 10:18:25.098  8674: 8683 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 10:18:25.098  8674: 8683 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 10:18:25.203  8674: 8757 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449713904973
+
+[ 12-10 10:18:25.203  8674: 8757 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41752c08)
+
+--------- beginning of /dev/log/system
+[ 12-10 10:18:25.208  8674: 8757 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2129
+Process: com.example.myfristandroid, PID: 8674
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

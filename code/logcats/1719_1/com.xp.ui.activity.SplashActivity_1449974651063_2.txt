@@ -1,0 +1,175 @@
+--------- beginning of /dev/log/main
+[ 12-13 10:34:05.962 17894:0x460d D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:15.077 18947:0x4a1f D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:15.241 18947:0x4a35 D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:38:15.251 18947:0x4a2f D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:15.283 18947:0x4a2c D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:45.852 19101:0x4ab3 D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:46.036 19101:0x4abf D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:46.036 19101:0x4ac3 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:38:46.044 19101:0x4ac7 D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:38:46.402 19101:0x4a9d E/         ]
+appName=com.xp.tugele, acAppName=/system/bin/surfaceflinger
+
+[ 12-13 10:38:46.402 19101:0x4a9d E/         ]
+0
+
+[ 12-13 10:38:46.622 19101:0x4a9d E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 10:38:48.162 19101:0x4b0e D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:38:55.936 19101:0x4ab3 D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:39:27.719 19101:0x4abf D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:40:27.590 19101:0x4abf D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:40:29.512 19101:0x4b50 D/libc-netbsd ]
+getaddrinfo: freewifi.360.cn get result from proxy >>
+
+
+[ 12-13 10:40:49.196 19101:0x4ace D/libc-netbsd ]
+getaddrinfo: freewifi.360.cn get result from proxy >>
+
+
+[ 12-13 10:41:24.322 19101:0x4ae8 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 10:41:25.185 19101:0x4f4f D/libc-netbsd ]
+getaddrinfo: rqd.uu.qq.com get result from proxy >>
+
+
+--------- beginning of /dev/log/system
+[ 12-13 10:41:25.328 19101:0x4ae8 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-24735
+Process: com.xp.tugele, PID: 19101
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 10:43:11.269 21191:0x52e1 D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:43:11.407 21191:0x52ee D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:43:11.410 21191:0x52f4 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:43:11.422 21191:0x52f9 D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:43:11.684 21191:0x52c7 E/         ]
+appName=com.xp.tugele, acAppName=/system/bin/surfaceflinger
+
+[ 12-13 10:43:11.684 21191:0x52c7 E/         ]
+0
+
+[ 12-13 10:43:13.567 21191:0x52c7 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 10:43:16.855 21191:0x534e D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:11.273 21191:0x5309 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 10:44:11.982 21191:0x5486 D/libc-netbsd ]
+getaddrinfo: rqd.uu.qq.com get result from proxy >>
+
+
+[ 12-13 10:44:12.174 21191:0x5309 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-24853
+Process: com.xp.tugele, PID: 21191
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 10:44:12.958 21647:0x54ac D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:13.090 21647:0x54c1 D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:44:13.115 21647:0x54b8 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:13.126 21647:0x54bd D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:13.329 21647:0x548f E/         ]
+appName=com.xp.tugele, acAppName=/system/bin/surfaceflinger
+
+[ 12-13 10:44:13.329 21647:0x548f E/         ]
+0
+
+[ 12-13 10:44:13.679 21647:0x548f E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+

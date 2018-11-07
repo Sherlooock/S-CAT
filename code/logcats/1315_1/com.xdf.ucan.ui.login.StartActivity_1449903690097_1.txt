@@ -1,0 +1,400 @@
+--------- beginning of system
+[ 12-12 14:46:54.114  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:46:54.123  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:46:54.124  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.127  4851: 4851 V/ActivityThread ]
+ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=true
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.416  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:55.008  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:46:55.008  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:03.080  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:03.091  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.143  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.691  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:03.692  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:16.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.376  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.699  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.802  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:24.827  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.831  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.832  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:24.835  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.835  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:25.414  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:28.070  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:28.082  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:28.082  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.083  4851: 4851 V/ActivityThread ]
+ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:28.165  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:28.171  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:28.172  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.172  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.754  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:28.754  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:31.372  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.372  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:31.374  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.376  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.861  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.922  4936: 4936 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) }, receiver=io.rong.push.PushReceiver@2367e5eb
+
+[ 12-12 14:47:31.929  4936: 4936 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 14:47:31.930  4936: 4936 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@3851e6a9 startId=4 args=Intent { act=io.rong.push.HeartBeat cmp=com.xdf.ucan/io.rong.push.PushService (has extras) }}
+
+[ 12-12 14:47:32.350  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:32.520  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:32.520  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.526  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 14:47:32.528  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.528  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:32.997  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:34.690  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:34.701  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:34.843  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.843  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.844  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:34.852  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 14:47:34.853  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.853  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:35.459  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:47:35.459  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:45.768  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:45.780  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2f935b07
+
+[ 12-12 14:47:46.806  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@243f1f7
+
+[ 12-12 14:47:46.807  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2f935b07
+
+--------- beginning of main
+[ 12-12 14:59:24.926  7353: 7353 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 15:00:30.700  7353: 7353 D/long     ]
+platform.getName():Wechat
+
+[ 12-12 15:00:30.701  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:00:36.565  7353: 7353 D/long     ]
+platform.getName():WechatMoments
+
+[ 12-12 15:00:36.565  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:00:40.181  7353: 7353 D/long     ]
+platform.getName():QQ
+
+[ 12-12 15:00:40.181  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:00:40.359  7611: 7611 D/long     ]
+连接的数据库是：xdf004487177.db
+
+[ 12-12 15:00:40.532  7611: 7611 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:00:40.602  7611: 7611 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:00:40.688  7611: 7611 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:00:41.054  7611: 7611 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 15:00:41.055  7611: 7611 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 15:00:41.070  7611: 7611 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:00:41.070  7611: 7611 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:00:41.080  7611: 7642 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:00:41.081  7611: 7642 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-12 15:00:41.100  7611: 7642 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867995029414474
+
+[ 12-12 15:00:41.121  7611: 7642 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.101.137:8609
+
+[ 12-12 15:00:41.122  7611: 7642 I/PushHandler ]
+the saved time = 1449902491548current time = 1449903641121
+
+[ 12-12 15:00:41.125  7611: 7642 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.101.137:8609
+
+[ 12-12 15:00:41.134  7611: 7642 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:vivo|vivo Y33|21||46000
+
+[ 12-12 15:00:41.146  7611: 7642 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:vivo|vivo Y33|21||46000 push version:2.6
+
+[ 12-12 15:00:41.213  7611: 7642 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:00:41.215  7611: 7642 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.101.137; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:00:41.215  7611: 7642 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:00:41.411  7611: 7644 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:00:41.412  7611: 7644 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:00:41.412  7611: 7644 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:00:41.413  7611: 7644 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:01:09.904  7353: 7353 D/long     ]
+platform.getName():Wechat
+
+[ 12-12 15:01:09.904  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:01:17.077  7353: 7353 D/long     ]
+platform.getName():WechatMoments
+
+[ 12-12 15:01:17.077  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:01:22.753  7353: 7353 D/long     ]
+platform.getName():QQ
+
+[ 12-12 15:01:22.753  7353: 7353 D/long     ]
+ResourcePreviewUrl:http://student.xue.xdf.cn/resource/iframepreviewUrl/59882
+
+[ 12-12 15:01:30.103  7353: 7427 D/cn.edu.nju.ise.kikandroid ]
+Log:1449903690097
+
+[ 12-12 15:01:30.154  7353: 7427 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449903690153
+
+[ 12-12 15:01:40.458  7353: 7353 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = NETWORK_UNAVAILABLE
+
+[ 12-12 15:01:40.465  7353: 7353 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = NETWORK_UNAVAILABLE, status = DISCONNECTED, listener = io.rong.imkit.RongIMClientWrapper$1@168c18b9
+
+[ 12-12 15:01:40.467  7353: 7353 D/##KIT_null:RongIMClientWrapper : ConnectStatus ]
+DISCONNECTED
+
+[ 12-12 15:01:40.478  7353: 7353 D/long     ]
+ConnectionStatus:DISCONNECTED
+

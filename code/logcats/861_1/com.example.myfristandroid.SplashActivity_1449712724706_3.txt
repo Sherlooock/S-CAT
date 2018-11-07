@@ -1,0 +1,906 @@
+--------- beginning of /dev/log/main
+[ 12-10 09:51:04.556 25479:25497 D/SocketService ]
+ip/192.168.1.190 lport:33443 p:143
+
+[ 12-10 09:51:04.576 25479:25497 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 09:51:04.576 25479:25497 D/SocketService ]
+success to connect server!id:14672 bLogin:false
+
+[ 12-10 09:51:04.686 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 09:51:05.526 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 09:51:05.526 25460:25460 D/MainActivity ]
+Unkown Report:ffffffeb ffffff90 ffffffeb ffffff90 ffffffeb ffffff90 d 0 e 1 1 0 ffffff81 
+
+[ 12-10 09:51:05.576 25479:25497 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 09:51:05.676 25479:25585 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 09:51:06.096 25460:25460 W/Web Console ]
+The page at https://m.baidu.com/?from=844b&vit=fps ran insecure content from http://127.0.0.1:40310/geolocation?timeout=10000&gps=1&mcmdf=inapp_wiselocation&callback=_box_jsonp931.
+ at null:1
+
+[ 12-10 09:51:06.546 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 09:51:06.546 25460:25460 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 09:51:06.616 25479:25497 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 09:51:06.646 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=34 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1126)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:543)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4774)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:792)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:51:06.646 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=31 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1126)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:555)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4774)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:792)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:51:06.646 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=21 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1100)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:450)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:596)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4774)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:792)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:51:06.646 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1100)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:77)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity$3.AnalysisMessage(MainActivity.java:809)
+	at com.example.myfristandroid.MainActivity$3.run(MainActivity.java:478)
+	at android.app.Activity.runOnUiThread(Activity.java:4774)
+	at com.example.myfristandroid.MainActivity.AnalysisBroadCastReport(MainActivity.java:470)
+	at com.example.myfristandroid.MainActivity.access$1(MainActivity.java:468)
+	at com.example.myfristandroid.MainActivity$CmdReceiver.onReceive(MainActivity.java:371)
+	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:792)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:51:06.656 25479:25585 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 09:51:07.636 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 09:51:07.636 25460:25460 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 09:51:38.416 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:51:38.486 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 2039K, 20% free 14186K/17524K, paused 2ms+10ms, total 46ms
+
+[ 12-10 09:51:38.556 25460:25460 V/RenderScript ]
+0x626633f8 Launching thread(s), CPUs 4
+
+[ 12-10 09:51:39.536 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 09:51:39.666 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 09:51:39.746 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:51:46.186 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed 455K, 16% free 14117K/16792K, paused 17ms, total 17ms
+
+[ 12-10 09:51:46.206 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 17.931MB for 2073616-byte allocation
+
+[ 12-10 09:51:46.236 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 15K, 15% free 16127K/18820K, paused 2ms+7ms, total 29ms
+
+[ 12-10 09:51:46.256 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 16127K/18820K, paused 14ms, total 14ms
+
+[ 12-10 09:51:46.256 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.895MB for 2073616-byte allocation
+
+[ 12-10 09:51:46.346 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712306117
+
+[ 12-10 09:52:05.506 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 09:52:07.026 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 09:52:07.076 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 4272K, 12% free 14825K/16792K, paused 2ms+13ms, total 33ms
+
+[ 12-10 09:52:09.696 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:52:10.566 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 09:52:11.796 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:52:15.716 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Log:1449712335722
+
+[ 12-10 09:52:16.556 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 1421K, 14% free 16191K/18820K, paused 4ms+8ms, total 47ms
+
+[ 12-10 09:52:16.646 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712336483
+
+[ 12-10 09:52:18.366 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed 4195K, 16% free 14161K/16792K, paused 17ms, total 17ms
+
+[ 12-10 09:52:18.366 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 17.974MB for 2073616-byte allocation
+
+[ 12-10 09:52:18.386 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 14% free 16185K/18820K, paused 2ms+2ms, total 18ms
+
+[ 12-10 09:52:18.386 25460:25460 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+
+[ 12-10 09:52:18.386 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 19.952MB for 2073616-byte allocation
+
+[ 12-10 09:52:18.466 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712338304
+
+[ 12-10 09:52:19.166 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:52:19.536 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:82
+
+[ 12-10 09:52:19.626 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 09:52:19.796 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:52:20.426 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:52:20.706 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:52:21.606 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 09:52:22.266 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:52:22.396 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 4452K, 16% free 14175K/16792K, paused 3ms+6ms, total 26ms
+
+[ 12-10 09:52:29.826 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Log:1449712349838
+
+[ 12-10 09:52:30.796 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed 242K, 15% free 14330K/16792K, paused 23ms, total 24ms
+
+[ 12-10 09:52:30.806 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 18.139MB for 2073616-byte allocation
+
+[ 12-10 09:52:30.836 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 14% free 16350K/18820K, paused 2ms+2ms, total 27ms
+
+[ 12-10 09:52:30.836 25460:25460 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+
+[ 12-10 09:52:30.916 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712350742
+
+[ 12-10 09:52:33.576 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed 4161K, 15% free 14325K/16792K, paused 31ms, total 31ms
+
+[ 12-10 09:52:33.576 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 18.134MB for 2073616-byte allocation
+
+[ 12-10 09:52:33.596 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 14% free 16349K/18820K, paused 2ms+2ms, total 16ms
+
+[ 12-10 09:52:33.596 25460:25460 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+
+[ 12-10 09:52:33.686 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712353509
+
+[ 12-10 09:52:34.906 25460:25460 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{42d847c0 V.ED.VC. ......ID 8,8-522,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 09:52:34.906 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 09:52:34.926 25479:25479 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:104
+
+[ 12-10 09:52:35.026 25479:25585 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:765
+
+[ 12-10 09:52:35.856 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:765 HeadIndex:748 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 09:52:36.626 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 09:52:36.696 25460:25467 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 09:52:37.016 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 4450K, 15% free 14386K/16792K, paused 3ms+3ms, total 33ms
+
+[ 12-10 09:52:37.746 25460:25460 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView{42d847c0 V.ED.VC. ......ID 8,8-522,8 #7f08003c app:id/id_lv_logView}
+
+[ 12-10 09:52:37.746 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 09:52:37.766 25479:25585 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:782
+
+[ 12-10 09:52:37.766 25479:25479 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:126
+
+[ 12-10 09:52:37.876 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:782 HeadIndex:765 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 09:52:50.066 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:52:51.046 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:53:09.546 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:139
+
+[ 12-10 09:53:09.656 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:795
+
+[ 12-10 09:53:09.986 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:795 HeadIndex:782 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:53:49.546 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:152
+
+[ 12-10 09:53:49.666 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:808
+
+[ 12-10 09:53:50.046 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:808 HeadIndex:795 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:54:29.556 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:165
+
+[ 12-10 09:54:29.676 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:821
+
+[ 12-10 09:54:30.096 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:821 HeadIndex:808 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:54:57.906 25479:25483 D/dalvikvm ]
+GC_CONCURRENT freed 3940K, 53% free 3810K/8040K, paused 4ms+2ms, total 50ms
+
+[ 12-10 09:55:09.556 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:178
+
+[ 12-10 09:55:09.646 25479:25585 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:834
+
+[ 12-10 09:55:10.146 25479:25495 D/SocketService1 ]
+本次提取1:LoadPtr:834 HeadIndex:821 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 09:56:55.457 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:191
+
+[ 12-10 09:56:55.717 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 09:57:05.457 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:204
+
+[ 12-10 09:57:07.577 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 09:57:15.457 25479:25493 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:217
+
+[ 12-10 09:57:15.457 25479:25493 D/SocketService ]
+start to run current thread!id:14674
+
+[ 12-10 09:57:15.467 25479:26132 D/SocketService ]
+ip/192.168.1.190 lport:53785 p:143
+
+[ 12-10 09:57:15.477 25479:26132 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:251
+
+[ 12-10 09:57:15.477 25479:26132 D/SocketService ]
+success to connect server!id:14674 bLogin:false
+
+[ 12-10 09:57:16.477 25479:26132 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:262
+
+[ 12-10 09:57:17.477 25479:26132 D/SocketService ]
+current thread is runing!id:14674
+
+[ 12-10 09:57:19.057 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 09:57:25.467 25479:25493 D/SocketService ]
+start to run current thread!id:14676
+
+[ 12-10 09:57:25.467 25479:25493 D/SocketService ]
+current thread is runing!id:14676
+
+[ 12-10 09:57:25.477 25479:26151 D/SocketService ]
+ip/192.168.1.190 lport:42259 p:143
+
+[ 12-10 09:57:25.487 25479:26151 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:296
+
+[ 12-10 09:57:25.487 25479:26151 D/SocketService ]
+success to connect server!id:14676 bLogin:false
+
+[ 12-10 09:57:26.487 25479:26151 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:307
+
+[ 12-10 09:57:27.487 25479:26151 D/SocketService ]
+current thread is runing!id:14676
+
+[ 12-10 09:57:27.597 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:27.617 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:27.617 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=17 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1126)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:106)
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:543)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:591)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4242)
+	at android.view.View$PerformClick.run(View.java:17754)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:57:27.617 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=12 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1100)
+	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:196)
+	at libcore.io.IoBridge.write(IoBridge.java:450)
+	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:232)
+	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:253)
+	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:198)
+	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:182)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:596)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4242)
+	at android.view.View$PerformClick.run(View.java:17754)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:57:27.617 25460:25460 D/StrictMode ]
+StrictMode policy violation; ~duration=9 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=23 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1100)
+	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:96)
+	at java.io.FileDescriptor.sync(FileDescriptor.java:74)
+	at android.os.FileUtils.sync(FileUtils.java:77)
+	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:597)
+	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:511)
+	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:532)
+	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:52)
+	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:454)
+	at com.example.myfristandroid.MainActivity.SaveCfg(MainActivity.java:2050)
+	at com.example.myfristandroid.MainActivity.onClick(MainActivity.java:1681)
+	at android.view.View.performClick(View.java:4242)
+	at android.view.View$PerformClick.run(View.java:17754)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5473)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:806)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:622)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 09:57:27.627 25479:25479 D/SocketService ]
+start to run current thread!id:14678
+
+[ 12-10 09:57:27.637 25479:26163 D/SocketService ]
+ip/192.168.1.190 lport:58270 p:143
+
+[ 12-10 09:57:27.637 25479:26163 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:341
+
+[ 12-10 09:57:27.637 25479:26163 D/SocketService ]
+success to connect server!id:14678 bLogin:false
+
+[ 12-10 09:57:28.637 25479:26163 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:352
+
+[ 12-10 09:57:29.637 25479:26163 D/SocketService ]
+current thread is runing!id:14678
+
+[ 12-10 09:57:33.977 25479:25483 D/dalvikvm ]
+GC_CONCURRENT freed 1424K, 53% free 3817K/8040K, paused 2ms+3ms, total 17ms
+
+[ 12-10 09:57:35.467 25479:25493 D/SocketService ]
+start to run current thread!id:14680
+
+[ 12-10 09:57:35.467 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:40.407 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:40.407 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:40.407 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:41.107 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:41.107 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:41.107 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:45.227 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:45.227 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:45.227 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:45.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:45.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:45.987 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:45.987 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:45.987 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:46.117 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 1938K, 15% free 14288K/16792K, paused 2ms+2ms, total 23ms
+
+[ 12-10 09:57:49.917 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:49.917 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:49.917 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:50.247 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:50.247 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:50.257 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:50.507 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:50.507 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:50.507 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:50.777 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:50.777 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:50.777 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:50.967 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:50.977 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:50.977 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:51.167 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:51.167 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:51.167 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:51.877 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:51.877 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:51.877 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:52.067 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:52.067 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:52.067 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:52.247 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:52.247 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:52.247 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:52.597 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:52.597 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:52.597 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:52.777 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:52.777 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:52.777 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:52.967 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:52.967 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:52.967 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:53.147 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:53.147 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:53.147 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:53.327 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:53.327 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:53.337 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:54.797 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:57:54.797 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:57:54.807 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:55.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:57:55.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:05.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:05.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:11.307 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:58:11.307 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:58:11.307 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:11.847 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:58:11.847 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:58:11.847 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:15.217 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:58:15.217 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:58:15.217 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:15.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:15.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:25.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:25.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:28.537 25460:25460 D/MainActivity ]
+V.getTag:null v.id:2131230799
+
+[ 12-10 09:58:28.537 25460:25460 D/MainActivity ]
+MainActivity Send BroadCast Length:32
+
+[ 12-10 09:58:28.547 25479:25479 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:35.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:35.457 25479:25493 D/SocketService ]
+current thread is runing!id:14680
+
+[ 12-10 09:58:38.617 25479:26170 D/SocketService ]
+failured to connect Server:java.net.ConnectException: failed to connect to /218.94.19.234 (port 143): connect failed: ETIMEDOUT (Connection timed out)
+
+[ 12-10 09:58:44.697 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Log:1449712724706
+
+[ 12-10 09:58:45.477 25479:25493 D/SocketService ]
+start to run current thread!id:14681
+
+[ 12-10 09:58:45.477 25479:25493 D/SocketService ]
+current thread is runing!id:14681
+
+[ 12-10 09:58:45.487 25479:26204 D/SocketService ]
+ip/192.168.1.190 lport:50665 p:143
+
+[ 12-10 09:58:45.487 25479:26204 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:386
+
+[ 12-10 09:58:45.487 25479:26204 D/SocketService ]
+success to connect server!id:14681 bLogin:false
+
+[ 12-10 09:58:46.487 25479:26204 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:397
+
+[ 12-10 09:58:47.487 25479:26204 D/SocketService ]
+current thread is runing!id:14681
+
+[ 12-10 09:58:52.987 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Log:1449712732996
+
+[ 12-10 09:58:53.047 25460:25460 D/dalvikvm ]
+GC_FOR_ALLOC freed 854K, 15% free 14323K/16792K, paused 17ms, total 17ms
+
+[ 12-10 09:58:53.057 25460:25460 I/dalvikvm-heap ]
+Grow heap (frag case) to 18.132MB for 2073616-byte allocation
+
+[ 12-10 09:58:53.087 25460:25464 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 14% free 16345K/18820K, paused 2ms+2ms, total 29ms
+
+[ 12-10 09:58:53.187 25460:25505 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449712733021
+
+[ 12-10 09:58:53.187 25460:25505 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41d698e0)
+
+--------- beginning of /dev/log/system
+[ 12-10 09:58:53.187 25460:25505 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-14667
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

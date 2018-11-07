@@ -1,0 +1,1015 @@
+--------- beginning of system
+[ 12-12 14:46:54.114  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:46:54.123  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:46:54.124  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.127  4851: 4851 V/ActivityThread ]
+ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=true
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.416  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:55.008  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:46:55.008  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:03.080  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:03.091  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.143  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.691  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:03.692  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:16.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.376  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.699  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.802  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:24.827  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.831  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.832  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:24.835  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.835  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:25.414  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:28.070  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:28.082  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:28.082  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.083  4851: 4851 V/ActivityThread ]
+ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:28.165  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:28.171  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:28.172  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.172  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.754  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:28.754  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:31.372  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.372  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:31.374  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.376  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.861  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.922  4936: 4936 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) }, receiver=io.rong.push.PushReceiver@2367e5eb
+
+[ 12-12 14:47:31.929  4936: 4936 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 14:47:31.930  4936: 4936 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@3851e6a9 startId=4 args=Intent { act=io.rong.push.HeartBeat cmp=com.xdf.ucan/io.rong.push.PushService (has extras) }}
+
+[ 12-12 14:47:32.350  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:32.520  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:32.520  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.526  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 14:47:32.528  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.528  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:32.997  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:34.690  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:34.701  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:34.843  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.843  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.844  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:34.852  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 14:47:34.853  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.853  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:35.459  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:47:35.459  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:45.768  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:45.780  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2f935b07
+
+[ 12-12 14:47:46.806  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@243f1f7
+
+[ 12-12 14:47:46.807  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2f935b07
+
+--------- beginning of main
+[ 12-12 15:24:43.694  8722: 8722 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 55
+
+[ 12-12 15:24:43.694  8722: 8722 D/PullToRefresh ]
+Setting Padding. L: 0, T: -33, R: 0, B: 0
+
+[ 12-12 15:24:43.735  8722: 8722 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{20842454 VFED.VC. ......ID 0,0-720,619 #102000a android:id/list}
+
+[ 12-12 15:24:43.735  8722: 8722 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:13
+
+[ 12-12 15:24:43.735  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ......I. 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:43.736  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:43.737  8722: 8722 I/SurfaceView ]
+Punch a hole(dispatchDraw), w = 640, h = 360, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:43.792  8722: 8722 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{20842454 VFED.VC. ......ID 0,0-720,55 #102000a android:id/list}
+
+[ 12-12 15:24:43.792  8722: 8722 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:13
+
+[ 12-12 15:24:43.792  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:43.793  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:43.843  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.172  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.188  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.205  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.221  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.238  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.255  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.271  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.288  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.304  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.321  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.338  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.353  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.370  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.387  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.402  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.419  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.435  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.674  9094: 9094 D/long     ]
+连接的数据库是：xdf004487177.db
+
+[ 12-12 15:24:44.731  9094: 9094 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 15:24:44.752  8722: 8722 I/SurfaceView ]
+updateWindow -- setFrame, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ......I. 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.752  8722: 8722 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 619
+
+[ 12-12 15:24:44.752  8722: 8722 D/PullToRefresh ]
+Setting Padding. L: 0, T: -372, R: 0, B: 0
+
+[ 12-12 15:24:44.764  9094: 9094 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 15:24:44.767  8722: 8722 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{20842454 VFED.VC. ......ID 0,0-720,55 #102000a android:id/list}
+
+[ 12-12 15:24:44.767  8722: 8722 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:13
+
+[ 12-12 15:24:44.770  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ......I. 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.773  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:44.774  8722: 8722 I/SurfaceView ]
+Punch a hole(dispatchDraw), w = 640, h = 360, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.787  9094: 9094 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 15:24:44.862  9094: 9094 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 15:24:44.863  9094: 9094 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 15:24:44.876  9094: 9094 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 15:24:44.876  9094: 9094 I/PushService ]
+PushService OnCreate
+
+[ 12-12 15:24:44.886  9094: 9115 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 15:24:44.887  9094: 9115 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-12 15:24:44.892  9094: 9115 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867995029414474
+
+[ 12-12 15:24:44.900  9094: 9115 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.101.137:8609
+
+[ 12-12 15:24:44.900  9094: 9115 I/PushHandler ]
+the saved time = 1449902491548current time = 1449905084900
+
+[ 12-12 15:24:44.901  9094: 9115 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.101.137:8609
+
+[ 12-12 15:24:44.904  9094: 9115 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:vivo|vivo Y33|21||46000
+
+[ 12-12 15:24:44.911  9094: 9115 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:vivo|vivo Y33|21||46000 push version:2.6
+
+[ 12-12 15:24:44.941  8722: 8722 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{20842454 VFED.VC. ......ID 0,0-720,619 #102000a android:id/list}
+
+[ 12-12 15:24:44.941  8722: 8722 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:13
+
+[ 12-12 15:24:44.942  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:44.943  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:44.944  9094: 9115 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 15:24:44.944  9094: 9115 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.101.137; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:44.944  9094: 9115 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:44.998  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:45.145  9094: 9117 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 15:24:45.145  9094: 9117 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 15:24:45.146  9094: 9117 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 15:24:45.146  9094: 9117 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 15:24:45.489  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:45.984  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:46.495  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:46.990  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... ........ 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.393  8722: 8722 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 626
+
+[ 12-12 15:24:47.393  8722: 8722 D/PullToRefresh ]
+Setting Padding. L: 0, T: -375, R: 0, B: 0
+
+[ 12-12 15:24:47.393  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F....ID 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.395  8722: 8722 I/SurfaceView ]
+Punch a hole(dispatchDraw), w = 640, h = 360, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.538  8722: 8722 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{20842454 VFED.VC. ......ID 0,0-720,626 #102000a android:id/list}
+
+[ 12-12 15:24:47.538  8722: 8722 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:13
+
+[ 12-12 15:24:47.539  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.539  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.570  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -144
+
+[ 12-12 15:24:47.572  8722: 8722 D/PullToRefresh ]
+State: RESET
+
+[ 12-12 15:24:47.580  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.580  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.616  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -126
+
+[ 12-12 15:24:47.633  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -104
+
+[ 12-12 15:24:47.633  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.634  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.652  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -83
+
+[ 12-12 15:24:47.652  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.652  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.666  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -69
+
+[ 12-12 15:24:47.666  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.666  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.706  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -34
+
+[ 12-12 15:24:47.706  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.706  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.715  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -28
+
+[ 12-12 15:24:47.715  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.715  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.731  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -19
+
+[ 12-12 15:24:47.732  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.732  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.748  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -11
+
+[ 12-12 15:24:47.748  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.749  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.765  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -5
+
+[ 12-12 15:24:47.765  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.765  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.781  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: -2
+
+[ 12-12 15:24:47.781  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.782  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.798  8722: 8722 D/PullToRefresh ]
+setHeaderScroll: 0
+
+[ 12-12 15:24:47.798  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:47.798  8722: 8722 I/SurfaceView ]
+updateWindow -- OnScrollChangedListener, this = android.view.SurfaceView$2@15390de6
+
+[ 12-12 15:24:47.814  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:48.602  8722: 8722 D/http     ]
+请求的地址：http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=47187
+
+[ 12-12 15:24:48.602  8722: 8722 D/http     ]
+请求的参数：
+
+[ 12-12 15:24:48.602  8722: 8722 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoPlayerActivity
+
+[ 12-12 15:24:48.670  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:50.159  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: hostname=v.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:50.159  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:50.159  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: hostname=v.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:50.159  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:24:50.162  8722: 8774 D/libc-netbsd ]
+getaddrinfo: v.xdf.cn get result from proxy >>
+
+
+[ 12-12 15:24:50.162  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.25; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:50.162  8722: 8774 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:50.343  8722: 8722 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 15:24:50.355  8722: 8722 E/shareurl ]
+http://p.bokecc.com/qrplay.bo?uid=9623CE22237FB8F2&vid=EF620185D7CA1D799C33DC5901307461
+
+[ 12-12 15:24:50.384  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:50.497  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:51.067  8722: 9073 D/libc-netbsd ]
+getaddrinfo: p.bokecc.com get result from proxy >>
+
+
+[ 12-12 15:24:51.067  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.91.28; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:51.067  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:51.636  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: hostname=2.img.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:51.636  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:51.636  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: hostname=2.img.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:51.636  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:24:51.657  8722: 9123 D/libc-netbsd ]
+getaddrinfo: 2.img.bokecc.com get result from proxy >>
+
+
+[ 12-12 15:24:51.657  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: hostname=122.228.237.161; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:51.657  8722: 9123 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:52.163  8722: 8722 I/SurfaceView ]
+updateWindow -- onWindowVisibilityChanged, visibility = 4, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.164  8722: 8722 I/SurfaceView ]
+Changes: creating=false format=false size=false visible=true left=false top=false mUpdateWindowNeeded=false mReportDrawNeeded=false redrawNeeded=false forceSizeChanged=false mVisible=true mRequestedVisible=false, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.164  8722: 8722 I/SurfaceView ]
+Cur surface: Surface(name=null)/@0x19523f, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.169  8722: 8722 I/SurfaceView ]
+New surface: Surface(name=null)/@0x1d91670c, vis=false, frame=Rect(0, 136 - 720, 552), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.170  8722: 8722 I/SurfaceView ]
+Callback --> surfaceDestroyed, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.170  8722: 8722 I/SurfaceView ]
+surfaceDestroyed callback +, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.170  8722: 8722 I/SurfaceView ]
+surfaceDestroyed callback -, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.171  8722: 9073 I/http response code ]
+200
+
+[ 12-12 15:24:52.171  8722: 8722 V/SurfaceView ]
+Layout: x=0 y=136 w=720 h=416, frame=Rect(0, 0 - 720, 416), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.179  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: hostname=p.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:52.179  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:52.180  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.91.28; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:24:52.180  8722: 9073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:24:52.187  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.351  8722: 9073 I/http response code ]
+200
+
+[ 12-12 15:24:52.353  8722: 9073 E/MediaPlayer ]
+setDataSource: IOException! uri=http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912348&key=DF47E12CC98DDFC72C768A172A4561F2
+java.io.FileNotFoundException: No content provider: http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912348&key=DF47E12CC98DDFC72C768A172A4561F2
+	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1099)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:937)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:864)
+	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:992)
+	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:966)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.b(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.a(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.a(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer$1.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+[ 12-12 15:24:52.356  8722: 9073 V/DefaultOmaSettingHelper ]
+setSettingHeader: with uri=http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912348&key=DF47E12CC98DDFC72C768A172A4561F2
+
+[ 12-12 15:24:52.356  8722: 9073 V/DefaultOmaSettingHelper ]
+isOMAEnabled: enabled=true
+
+[ 12-12 15:24:52.356  8722: 9073 I/DefaultOmaSettingHelper ]
+setOmaSettingHeader(com.xdf.ucan.ui.video.VideoPlayerActivity@19668500,null)
+
+[ 12-12 15:24:52.359  8722: 9073 V/DefaultOmaSettingHelper ]
+setOmaSettingHeader: params:minUdpPort=1024minUdpPort=1024maxUdpPort=65535rtspProxyEnable=0rtspProxyHost=nullrtspProxyPort=-1httpProxyEnable=0httpProxyHost=nullhttpProxyPort=-1httpBufferSize=10rtspBufferSize=4
+
+[ 12-12 15:24:52.360  8722: 9073 E/play info error ]
+java.lang.IllegalStateException
+
+[ 12-12 15:24:52.364  8722: 9073 D/VideoView ]
+Error: -10,-1
+
+[ 12-12 15:24:52.575  8722: 8722 I/SurfaceView ]
+updateWindow -- onWindowVisibilityChanged, visibility = 8, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:52.586  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:24:53.004  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.092  8722: 8722 I/SurfaceView ]
+updateWindow -- onWindowVisibilityChanged, visibility = 0, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.092  8722: 8722 I/SurfaceView ]
+Changes: creating=false format=false size=false visible=true left=false top=false mUpdateWindowNeeded=false mReportDrawNeeded=false redrawNeeded=false forceSizeChanged=false mVisible=false mRequestedVisible=true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.092  8722: 8722 I/SurfaceView ]
+Cur surface: Surface(name=null)/@0x19523f, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.103  8722: 8722 I/SurfaceView ]
+New surface: Surface(name=null)/@0x1d91670c, vis=true, frame=Rect(0, 136 - 720, 552), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.103  8722: 8722 I/SurfaceView ]
+Callback --> surfaceCreated, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.103  8722: 8722 I/SurfaceView ]
+surfaceCreated callback +, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.109  8722: 8722 I/SurfaceView ]
+surfaceCreated callback -, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.109  8722: 8722 I/SurfaceView ]
+surfaceChanged -- format=4 w=640 h=360, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.109  8722: 8722 I/SurfaceView ]
+surfaceChanged callback +, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.109  8722: 8722 I/SurfaceView ]
+surfaceChanged callback -, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.114  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: hostname=p.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:25:24.114  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:25:24.114  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: hostname=p.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:25:24.114  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:25:24.120  8722: 9219 D/libc-netbsd ]
+getaddrinfo: p.bokecc.com get result from proxy >>
+
+
+[ 12-12 15:25:24.120  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.91.28; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:25:24.120  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:25:24.123  8722: 8722 V/SurfaceView ]
+Layout: x=0 y=136 w=720 h=416, frame=Rect(0, 0 - 720, 416), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.138  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.138  8722: 8722 I/SurfaceView ]
+Changes: creating=false format=false size=false visible=false left=false top=false mUpdateWindowNeeded=false mReportDrawNeeded=true redrawNeeded=false forceSizeChanged=false mVisible=true mRequestedVisible=true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.139  8722: 8722 I/SurfaceView ]
+Cur surface: Surface(name=null)/@0x19523f, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.152  8722: 8722 I/SurfaceView ]
+New surface: Surface(name=null)/@0x1d91670c, vis=true, frame=Rect(0, 136 - 720, 552), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.152  8722: 8722 I/SurfaceView ]
+surfaceRedrawNeeded, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.152  8722: 8722 I/SurfaceView ]
+finishedDrawing, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.158  8722: 8722 V/SurfaceView ]
+Layout: x=0 y=136 w=720 h=416, frame=Rect(0, 0 - 720, 416), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.167  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.168  8722: 8722 I/SurfaceView ]
+Changes: creating=false format=false size=false visible=false left=false top=false mUpdateWindowNeeded=false mReportDrawNeeded=true redrawNeeded=false forceSizeChanged=false mVisible=true mRequestedVisible=true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.168  8722: 8722 I/SurfaceView ]
+Cur surface: Surface(name=null)/@0x19523f, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.174  8722: 8722 I/SurfaceView ]
+New surface: Surface(name=null)/@0x1d91670c, vis=true, frame=Rect(0, 136 - 720, 552), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.175  8722: 8722 I/SurfaceView ]
+surfaceRedrawNeeded, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.175  8722: 8722 I/SurfaceView ]
+finishedDrawing, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.175  8722: 8722 V/SurfaceView ]
+Layout: x=0 y=136 w=720 h=416, frame=Rect(0, 0 - 720, 416), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.177  8722: 8722 I/SurfaceView ]
+Punch a hole(dispatchDraw), w = 640, h = 360, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.256  8722: 8722 I/SurfaceView ]
+updateWindow -- onWindowVisibilityChanged, visibility = 4, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.256  8722: 8722 I/SurfaceView ]
+Changes: creating=false format=false size=false visible=true left=false top=false mUpdateWindowNeeded=false mReportDrawNeeded=true redrawNeeded=false forceSizeChanged=false mVisible=true mRequestedVisible=false, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.256  8722: 8722 I/SurfaceView ]
+Cur surface: Surface(name=null)/@0x19523f, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.262  8722: 8722 I/SurfaceView ]
+New surface: Surface(name=null)/@0x1d91670c, vis=false, frame=Rect(0, 136 - 720, 552), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.262  8722: 8722 I/SurfaceView ]
+Callback --> surfaceDestroyed, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.262  8722: 8722 I/SurfaceView ]
+surfaceDestroyed callback +, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.262  8722: 8722 I/SurfaceView ]
+surfaceDestroyed callback -, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.262  8722: 8722 I/SurfaceView ]
+finishedDrawing, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.265  8722: 8722 V/SurfaceView ]
+Layout: x=0 y=136 w=720 h=416, frame=Rect(0, 0 - 720, 416), this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.273  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.298  8722: 9219 I/http response code ]
+200
+
+[ 12-12 15:25:24.303  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: hostname=p.bokecc.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:25:24.303  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:25:24.303  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.91.28; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:25:24.303  8722: 9219 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:25:24.450  8722: 9219 I/http response code ]
+200
+
+[ 12-12 15:25:24.451  8722: 9219 E/MediaPlayer ]
+setDataSource: IOException! uri=http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912380&key=6750ECC0A28F7D21F80F066A08729DE5
+java.io.FileNotFoundException: No content provider: http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912380&key=6750ECC0A28F7D21F80F066A08729DE5
+	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1099)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:937)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:864)
+	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:992)
+	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:966)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.b(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.a(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer.a(Unknown Source)
+	at com.bokecc.sdk.mobile.play.DWMediaPlayer$1.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+[ 12-12 15:25:24.452  8722: 9219 V/DefaultOmaSettingHelper ]
+setSettingHeader: with uri=http://bm1.31.play.bokecc.com/flvs/ca/QxF1C/ubbliiqsbe-10.mp4?t=1449912380&key=6750ECC0A28F7D21F80F066A08729DE5
+
+[ 12-12 15:25:24.452  8722: 9219 V/DefaultOmaSettingHelper ]
+isOMAEnabled: enabled=true
+
+[ 12-12 15:25:24.452  8722: 9219 I/DefaultOmaSettingHelper ]
+setOmaSettingHeader(com.xdf.ucan.ui.video.VideoPlayerActivity@19668500,null)
+
+[ 12-12 15:25:24.452  8722: 9219 V/DefaultOmaSettingHelper ]
+setOmaSettingHeader: params:minUdpPort=1024minUdpPort=1024maxUdpPort=65535rtspProxyEnable=0rtspProxyHost=nullrtspProxyPort=-1httpProxyEnable=0httpProxyHost=nullhttpProxyPort=-1httpBufferSize=10rtspBufferSize=4
+
+[ 12-12 15:25:24.452  8722: 9219 E/play info error ]
+java.lang.IllegalStateException
+
+[ 12-12 15:25:24.452  8722: 9219 D/VideoView ]
+Error: -10,-1
+
+[ 12-12 15:25:24.836  8722: 8722 I/SurfaceView ]
+updateWindow -- onWindowVisibilityChanged, visibility = 8, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:24.846  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:25.331  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:25:25.364  8722: 8722 I/SurfaceView ]
+updateWindow -- OnPreDrawListener, mHaveFrame = true, this = com.xdf.ucan.views.VideoView{75cf06 VFE..... .F...... 0,0-720,416 #7f0c028d app:id/playerSurfaceView}
+
+[ 12-12 15:26:40.952  8722: 8796 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905200945
+
+[ 12-12 15:26:41.019  8722: 8796 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905201013
+
+[ 12-12 15:26:51.299  8722: 8722 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 15:26:51.334  8722: 8722 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 15:26:51.337  8722: 8722 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+

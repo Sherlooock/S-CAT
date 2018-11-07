@@ -1,0 +1,2173 @@
+--------- beginning of system
+[ 12-12 16:18:24.199 20743:20743 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:18:24.441 20773:20773 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:18:24.459 20743:20743 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{2a33a259 com.xdf.ucan}}
+
+[ 12-12 16:18:24.460 20743:20743 V/ActivityThread ]
+Handling launch of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:24.461 20743:20743 V/ActivityThread ]
+ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:18:24.478 20773:20773 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{3550300e com.xdf.ucan}}
+
+[ 12-12 16:18:24.479 20773:20773 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:18:24.480 20773:20773 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:18:24.515 20773:20773 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@1a9cea2f intent=Intent { cmp=com.xdf.ucan/io.rong.imlib.ipc.RongService }}
+
+[ 12-12 16:18:24.554 20743:20743 V/ActivityThread ]
+Performing resume of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:24.577 20743:20743 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:24.577 20743:20743 V/ActivityThread ]
+Resume ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:18:24.590 20743:20743 V/ActivityThread ]
+Resuming ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} with isForward=true
+
+[ 12-12 16:18:24.590 20743:20743 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:24.591 20743:20743 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:24.621 20743:20743 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:18:24.621 20743:20743 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:18:25.116 20743:20743 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:18:25.120 20743:20743 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:18:25.120 20743:20743 V/ActivityThread ]
+Handling launch of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:25.121 20743:20743 V/ActivityThread ]
+ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.MainActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:18:25.170 20743:20743 V/ActivityThread ]
+Performing resume of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:25.171 20743:20743 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:25.171 20743:20743 V/ActivityThread ]
+Resume ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:18:25.176 20743:20743 V/ActivityThread ]
+Resuming ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=true
+
+[ 12-12 16:18:25.176 20743:20743 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:25.176 20743:20743 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:25.348 20743:20743 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:18:25.348 20743:20743 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:18:25.765 20743:20743 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:18:27.392 20743:20743 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:18:27.403 20743:20743 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:18:27.922 20743:20743 V/ActivityThread ]
+Finishing stop of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@1fb7b5ac
+
+[ 12-12 16:18:27.923 20743:20743 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:18:29.659 20743:20743 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }, receiver=io.rong.imlib.ConnectChangeReceiver@299af275
+
+[ 12-12 16:18:29.662 20743:20743 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 16:18:29.663 20743:20743 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@2857120a className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:18:29.664 20743:20743 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@2857120a className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:18:29.664 20743:20743 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@2857120a startId=1 args=Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }}
+
+[ 12-12 16:18:29.666 20743:20743 D/ActivityThread ]
+SVC-Destroying service: io.rong.imlib.ReConnectService@324dea7b
+
+[ 12-12 16:18:29.666 20743:20743 D/ActivityThread ]
+SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@2857120a
+
+[ 12-12 16:19:00.967 20885:20885 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:19:01.187 20914:20914 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:19:01.207 20885:20885 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{2a33a259 com.xdf.ucan}}
+
+[ 12-12 16:19:01.208 20885:20885 V/ActivityThread ]
+Handling launch of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:01.210 20885:20885 V/ActivityThread ]
+ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:19:01.229 20914:20914 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{3550300e com.xdf.ucan}}
+
+[ 12-12 16:19:01.230 20914:20914 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:19:01.231 20914:20914 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:19:01.272 20914:20914 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@1a9cea2f intent=Intent { cmp=com.xdf.ucan/io.rong.imlib.ipc.RongService }}
+
+[ 12-12 16:19:01.304 20885:20885 V/ActivityThread ]
+Performing resume of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:01.326 20885:20885 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:01.326 20885:20885 V/ActivityThread ]
+Resume ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:19:01.340 20885:20885 V/ActivityThread ]
+Resuming ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} with isForward=true
+
+[ 12-12 16:19:01.341 20885:20885 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:01.341 20885:20885 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:01.373 20885:20885 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:19:01.373 20885:20885 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:19:06.411 20885:20885 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }, receiver=io.rong.imlib.ConnectChangeReceiver@124d1a24
+
+[ 12-12 16:19:06.423 20885:20885 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 16:19:06.424 20885:20885 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@24a3498d className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:19:06.429 20885:20885 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@24a3498d className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:19:06.430 20885:20885 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@24a3498d startId=1 args=Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }}
+
+[ 12-12 16:19:06.436 20885:20885 D/ActivityThread ]
+SVC-Destroying service: io.rong.imlib.ReConnectService@9fd7742
+
+[ 12-12 16:19:06.436 20885:20885 D/ActivityThread ]
+SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@24a3498d
+
+[ 12-12 16:19:16.736 20885:20885 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:19:16.740 20885:20885 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:19:16.740 20885:20885 V/ActivityThread ]
+Handling launch of ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:16.742 20885:20885 V/ActivityThread ]
+ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.MainActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:19:16.791 20885:20885 V/ActivityThread ]
+Performing resume of ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:16.792 20885:20885 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:16.792 20885:20885 V/ActivityThread ]
+Resume ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:19:16.797 20885:20885 V/ActivityThread ]
+Resuming ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=true
+
+[ 12-12 16:19:16.797 20885:20885 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:16.797 20885:20885 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:16.971 20885:20885 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:19:16.971 20885:20885 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:19:17.402 20885:20885 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:19:20.271 20885:20885 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:20.276 20885:20885 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2c03b6ba
+
+[ 12-12 16:19:20.277 20885:20885 V/ActivityThread ]
+Handling launch of ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:20.278 20885:20885 V/ActivityThread ]
+ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:19:20.518 20885:20885 V/ActivityThread ]
+Performing resume of ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:20.518 20885:20885 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:20.518 20885:20885 V/ActivityThread ]
+Resume ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:19:20.524 20885:20885 V/ActivityThread ]
+Resuming ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 16:19:20.524 20885:20885 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:20.525 20885:20885 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:20.609 20885:20885 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:19:20.609 20885:20885 D/Activity ]
+translucentStatus = false
+
+--------- beginning of main
+[ 12-12 16:19:21.032 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.033 20885:20885 V/ActivityThread ]
+Finishing stop of ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@be526da
+
+[ 12-12 16:19:21.034 20885:20885 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{38372746 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{3301ecc8 I.E..... R....... 0,0-1080,1920}
+
+[ 12-12 16:19:21.034 20885:20885 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2c03b6ba
+
+[ 12-12 16:19:21.034 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f7a657ba0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:21.103 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.104 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c5447a0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:21.203 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.204 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c5dc920) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:21.302 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.401 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.500 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.599 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.699 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.749 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.750 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c544700) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:21.765 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.766 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c5dcf60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:21.782 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.799 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.801 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.817 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.833 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.850 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.867 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.883 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.900 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.902 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:21.916 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.933 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.949 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.966 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:21.983 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:22.000 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:22.002 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.015 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:19:22.097 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.197 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.296 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.395 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.494 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.593 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.693 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.791 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.891 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:22.990 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.089 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.188 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.290 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.390 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.490 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.589 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.689 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.794 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.892 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:23.990 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.089 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.189 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.295 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.389 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.489 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.587 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.687 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.790 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.888 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:24.989 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.089 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.187 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.282 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.380 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.479 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.578 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.682 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.776 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.877 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:25.975 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.075 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.174 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.280 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.378 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.478 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.577 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.680 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.772 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.870 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:26.969 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.069 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.174 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.285 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.389 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.489 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.591 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.688 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.782 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.883 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:27.982 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.079 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.181 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.279 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.376 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.476 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.575 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.678 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.773 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.873 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:28.972 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.069 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.170 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.270 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.369 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.467 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.567 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.667 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.767 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.867 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:29.964 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.064 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.171 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.275 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.369 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.469 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.569 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.668 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.765 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.863 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:30.962 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.061 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.161 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.259 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.359 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.458 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.557 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.656 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.755 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.855 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:31.953 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.069 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.171 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.268 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.367 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.466 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.566 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.666 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.764 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.863 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:32.962 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.060 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.160 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.265 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.369 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.462 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.563 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.664 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.760 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.860 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:33.959 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.059 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.159 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.257 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.355 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.455 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.553 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=960,h=1845)
+
+[ 12-12 16:19:34.627 20885:20885 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-12 16:19:34.629 20885:20885 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-12 16:19:34.630 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:34.630 20885:20949 D/Surface  ]
+Surface::disconnect(this=0x7f87234c00,api=1)
+
+[ 12-12 16:19:34.630 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c510020) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:34.631 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f7a657ba0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:34.631 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c5447a0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:34.631 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c5dc920) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:34.633 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:34.644 20885:20885 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-12 16:19:34.644 20885:20885 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{119e3fe0 VFED.VC. .F...... 0,0-1080,1713 #102000a android:id/list}
+
+[ 12-12 16:19:34.644 20885:20885 V/InputMethodManager ]
+onWindowFocus: com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{119e3fe0 VFED.VC. .F...... 0,0-1080,1713 #102000a android:id/list} softInputMode=288 first=true flags=#1810100
+
+[ 12-12 16:19:34.644 20885:20885 V/InputMethodManager ]
+START INPUT: com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{119e3fe0 VFED.VC. .F...... 0,0-1080,1713 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@904270b controlFlags=#105
+
+[ 12-12 16:19:35.893 20885:20885 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:19:35.895 20885:20885 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1503375f token=android.os.BinderProxy@1fb7b5ac {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:35.899 20885:20885 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1fb7b5ac
+
+[ 12-12 16:19:35.899 20885:20885 V/ActivityThread ]
+Performing resume of ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:35.899 20885:20885 D/long     ]
+onRestart
+
+[ 12-12 16:19:35.899 20885:20885 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 16:19:35.899 20885:20885 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 16:19:35.899 20885:20885 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 16:19:35.900 20885:20976 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:19:35.900 20885:20976 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:19:35.900 20885:20976 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:19:35.900 20885:20976 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:19:35.900 20885:20885 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 16:19:35.900 20885:20976 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 16:19:35.901 20885:20885 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 16:19:35.904 20885:20885 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:35.904 20885:20885 V/ActivityThread ]
+Resume ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:19:35.904 20885:20885 V/ActivityThread ]
+Resuming ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 16:19:35.904 20885:20885 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 16:19:35.905 20885:20885 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{38372746 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{3301ecc8 V.E..... R.....ID 0,0-1080,1920}
+
+[ 12-12 16:19:35.905 20885:20885 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:35.905 20885:20885 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@2c03b6ba
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:19:35.906 20885:20976 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:19:35.913 20885:20949 D/OpenGLRenderer ]
+CanvasContext() 0x7f7a423600 initialize 0x7f87234c10
+
+[ 12-12 16:19:35.913 20885:20949 D/Surface  ]
+Surface::connect(this=0x7f87234c00,api=1)
+
+[ 12-12 16:19:35.914 20885:20949 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:19:35.914 20885:20949 D/Surface  ]
+Surface::allocateBuffers(this=0x7f87234c00)
+
+[ 12-12 16:19:35.914 20885:20885 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:19:35.914 20885:20885 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:19:35.914 20885:20885 V/InputMethodManager ]
+onWindowFocus: android.support.v4.app.FragmentTabHost{2e478ce0 VFE..... .F...... 0,1705-1080,1845 #1020012 android:id/tabhost} softInputMode=16 first=true flags=#1810100
+
+[ 12-12 16:19:35.914 20885:20885 V/InputMethodManager ]
+START INPUT: android.support.v4.app.FragmentTabHost{2e478ce0 VFE..... .F...... 0,1705-1080,1845 #1020012 android:id/tabhost} ic=null tba=android.view.inputmethod.EditorInfo@234c28e7 controlFlags=#105
+
+[ 12-12 16:19:35.927 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:35.928 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6fa6e7e0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:35.941 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:35.942 20885:20949 D/Surface  ]
+Surface::disconnect(this=0x7f87235a00,api=1)
+
+[ 12-12 16:19:35.942 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c545060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:35.942 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c544ac0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:35.942 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c544700) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:35.943 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c5dcf60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:35.945 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:35.949 20885:20885 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{119e3fe0 VFED.VC. .F...... 0,0-1080,1713 #102000a android:id/list}
+
+[ 12-12 16:19:36.021 20885:20885 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 16:19:36.021 20885:20885 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449908371521}
+
+[ 12-12 16:19:36.021 20885:20885 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449908371521}
+
+[ 12-12 16:19:36.274 20885:20885 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-12 16:19:36.275 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:36.275 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:36.282 20885:20885 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1fb7b5ac
+
+[ 12-12 16:19:37.119 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.120 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c5dcf60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:37.133 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.137 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c5451a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:37.155 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.158 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c545a60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:37.172 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.185 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.202 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.222 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.239 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.254 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.272 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.288 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.304 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.321 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.339 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.354 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.372 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:37.386 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:38.927 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:38.944 20885:20885 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:19:38.950 20885:20885 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:19:38.954 20885:20885 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2c03b6ba
+
+[ 12-12 16:19:38.959 20885:20885 V/ActivityThread ]
+Handling launch of ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:38.960 20885:20885 V/ActivityThread ]
+ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:19:38.960 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=1080,h=1920)
+
+[ 12-12 16:19:38.970 20885:20885 D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-12 16:19:38.971 20885:20885 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{302cc60 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.972 20885:20885 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{302cc60 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.972 20885:20885 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{302cc60 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.976 20885:20885 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{3ee516b6 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.976 20885:20885 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{3ee516b6 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.977 20885:20885 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{3ee516b6 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.980 20885:20885 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{db272bc G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.981 20885:20885 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{db272bc G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.981 20885:20885 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{db272bc G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.984 20885:20885 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{c0ae5f2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.985 20885:20885 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{c0ae5f2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.985 20885:20885 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{c0ae5f2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:19:38.987 20885:20885 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 16:19:38.988 20885:20885 D/AbsListView ]
+setOnScrollListener: OnScrollListener=com.handmark.pulltorefresh.library.PullToRefreshListView{3f4a06eb V.ED.... ......I. 0,0-0,0 #7f0c0165 app:id/ptr_video}, this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{562bc48 V.ED.VC. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-12 16:19:38.988 20885:20885 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 16:19:38.996 20885:20885 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 16:19:38.996 20885:20885 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 16:19:38.999 20885:20885 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{71c4552 V.ED.... ......I. 0,0-0,0 #7f0c020e app:id/progressBar2}
+
+[ 12-12 16:19:38.999 20885:20885 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{71c4552 V.ED.... ......I. 0,0-0,0 #7f0c020e app:id/progressBar2}
+
+[ 12-12 16:19:39.000 20885:20885 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{71c4552 V.ED.... ......I. 0,0-0,0 #7f0c020e app:id/progressBar2}
+
+[ 12-12 16:19:39.002 20885:20885 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{9f362d9 com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity,ident = 4}
+
+[ 12-12 16:19:39.008 20885:20885 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 16:19:39.0&userid=xdf004487452&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 16:19:39.008 20885:20885 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 16:19:39.008 20885:20885 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&timestamp=2015-12-12 16:19:39.0&filetype=1&appid=5004&userid=xdf004487452&orderbydatedes=1&isread=2&pageindex=1&pagesize=10&sign=E65BC233B72D3DF385E7322137FFFCFD
+
+[ 12-12 16:19:39.008 20885:20885 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-12 16:19:39.009 20885:20976 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:19:39.009 20885:20976 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:19:39.009 20885:20976 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:19:39.009 20885:20976 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:19:39.009 20885:20976 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:19:39.009 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:19:39.009 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:19:39.009 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:19:39.009 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 16:19:39.010 20885:20976 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 16:19:39.010 20885:20976 I/System.out ]
+propertyValue:true
+
+[ 12-12 16:19:39.010 20885:20976 I/System.out ]
+openConnection:1
+
+[ 12-12 16:19:39.010 20885:20976 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:19:39.010 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.76; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:19:39.010 20885:20976 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:19:39.010 20885:20976 I/System.out ]
+[socket][6] connection /116.213.70.76:80;LocalPort=48344(20000)
+
+[ 12-12 16:19:39.010 20885:20976 I/System.out ]
+[CDS]connect[/116.213.70.76:80] tm:20
+
+[ 12-12 16:19:39.011 20885:20976 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 16:19:39.017 20885:20885 V/ActivityThread ]
+Performing resume of ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:39.017 20885:20885 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 16:19:39.017 20885:20885 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 16:19:39.017 20885:20885 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:39.017 20885:20885 V/ActivityThread ]
+Resume ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:19:39.017 20885:20885 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b1b732 I.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:19:39.019 20885:20885 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{3def2caa com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity,ident = 5}
+
+[ 12-12 16:19:39.022 20885:20885 V/ActivityThread ]
+Resuming ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 16:19:39.022 20885:20885 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 16:19:39.022 20885:20885 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{3def2caa com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity,ident = 5}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b1b732 V.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:19:39.022 20885:20885 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:39.022 20885:20885 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{58dfc94 token=android.os.BinderProxy@ee1d33d {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:19:39.040 20885:20976 I/System.out ]
+[socket][/192.168.88.158:48344] connected
+
+[ 12-12 16:19:39.040 20885:20976 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:19:39.040 20885:20976 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 16:19:39.040 20885:20976 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 16:19:39.040 20885:20976 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 16:19:39.041 20885:20949 D/OpenGLRenderer ]
+CanvasContext() 0x7f7a767200 initialize 0x7f87235a10
+
+[ 12-12 16:19:39.041 20885:20949 D/Surface  ]
+Surface::connect(this=0x7f87235a00,api=1)
+
+[ 12-12 16:19:39.042 20885:20976 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:19:39.042 20885:20949 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:19:39.042 20885:20949 D/Surface  ]
+Surface::allocateBuffers(this=0x7f87235a00)
+
+[ 12-12 16:19:39.042 20885:20976 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:19:39.043 20885:20885 V/InputMethodManager ]
+Not IME target window, ignoring
+
+[ 12-12 16:19:39.056 20885:20949 D/OpenGLRenderer ]
+CanvasContext() 0x7f7a767340 initialize 0x7f8722b210
+
+[ 12-12 16:19:39.056 20885:20949 D/Surface  ]
+Surface::connect(this=0x7f8722b200,api=1)
+
+[ 12-12 16:19:39.056 20885:20885 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1713
+
+[ 12-12 16:19:39.056 20885:20885 D/PullToRefresh ]
+Setting Padding. L: 0, T: -1028, R: 0, B: -1028
+
+[ 12-12 16:19:39.057 20885:20949 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:19:39.057 20885:20949 D/Surface  ]
+Surface::allocateBuffers(this=0x7f8722b200)
+
+[ 12-12 16:19:39.058 20885:20885 D/AbsListView ]
+onSizeChanged w=1080, h=1713, oldw=0, oldh=0, getChildCount=0, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdapterandroid.widget.HeaderViewListAdapter@30d7ca50, this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{562bc48 VFED.VC. ......I. 0,0-1080,1713 #102000a android:id/list}, callstack=android.widget.ListView.onSizeChanged:1203 android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 
+
+[ 12-12 16:19:39.102 20885:20885 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{562bc48 VFED.VC. ......ID 0,0-1080,1713 #102000a android:id/list}
+
+[ 12-12 16:19:39.102 20885:20885 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 16:19:39.108 20885:20885 V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#1800000
+
+[ 12-12 16:19:39.108 20885:20885 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{2650008f V.E..... R.....ID 0,0-960,1845} ic=null tba=android.view.inputmethod.EditorInfo@1c6ced17 controlFlags=#104
+
+[ 12-12 16:19:39.109 20885:20885 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:19:39.109 20885:20885 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:19:39.117 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.118 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c6547e0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.162 20885:20885 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{562bc48 VFED.VC. .F....ID 0,0-1080,1713 #102000a android:id/list}
+
+[ 12-12 16:19:39.162 20885:20885 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 16:19:39.164 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:39.165 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c68d7a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.207 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:39.208 20885:20949 D/Surface  ]
+Surface::disconnect(this=0x7f87234c00,api=1)
+
+[ 12-12 16:19:39.208 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6fa6e7e0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.208 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c5dcf60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.209 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c5451a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.209 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c545a60) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.212 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:39.258 20885:20885 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{562bc48 VFED.VC. .F....ID 0,0-1080,1713 #102000a android:id/list}
+
+[ 12-12 16:19:39.258 20885:20885 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 16:19:39.539 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:39.540 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6f8357a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.544 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.544 20885:20885 V/ActivityThread ]
+Finishing stop of ActivityRecord{3b157be5 token=android.os.BinderProxy@2c03b6ba {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@be526da
+
+[ 12-12 16:19:39.545 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6fa6e4c0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.545 20885:20885 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{38372746 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{3301ecc8 I.E..... R....... 0,0-1080,1920}
+
+[ 12-12 16:19:39.545 20885:20885 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2c03b6ba
+
+[ 12-12 16:19:39.569 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.569 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c545ba0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.670 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.671 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c6f52e0) (w:960 h:1845 s:960 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:39.769 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.868 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:39.966 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.064 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.164 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.250 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.251 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c6f5600) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:40.266 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.267 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6f835f20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:40.269 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.281 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.297 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.313 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.330 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.347 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.364 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.367 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.380 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.399 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.415 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.432 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.448 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.465 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.468 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.482 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.498 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.514 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8722b200,w=1080,h=1920)
+
+[ 12-12 16:19:40.516 20885:20980 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:19:40.516 20885:20980 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:19:40.516 20885:20980 I/System.out ]
+[CDS]close[46169]
+
+[ 12-12 16:19:40.516 20885:20980 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:497)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:42)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:242)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:108)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:196)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:88)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:179)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:185)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:264)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:294)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:136)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:433)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:602)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:522)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.lang.Thread.run(Thread.java:818)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:497)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:42)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:242)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:108)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:196)
+
+[ 12-12 16:19:40.517 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:88)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:179)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:185)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:264)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:294)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:136)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:433)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:602)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:522)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 16:19:40.518 20885:20980 W/System.err ]
+	at java.lang.Thread.run(Thread.java:818)
+
+[ 12-12 16:19:40.519 20885:20885 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 16:19:40.527 20885:20885 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{493cf9e Toast,ident = 6}
+
+[ 12-12 16:19:40.554 20885:20949 D/OpenGLRenderer ]
+CanvasContext() 0x7f7a423ec0 initialize 0x7f87234c10
+
+[ 12-12 16:19:40.554 20885:20949 D/Surface  ]
+Surface::connect(this=0x7f87234c00,api=1)
+
+[ 12-12 16:19:40.554 20885:20949 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:19:40.554 20885:20949 D/Surface  ]
+Surface::allocateBuffers(this=0x7f87234c00)
+
+[ 12-12 16:19:40.570 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87234c00,w=210,h=90)
+
+[ 12-12 16:19:40.570 20885:20949 D/GraphicBuffer ]
+register, handle(0x7f6c6f5240) (w:210 h:90 s:224 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:40.576 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.666 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.764 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.864 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:40.962 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.061 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.160 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.263 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.359 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.458 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.557 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.656 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.755 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.855 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:41.954 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.053 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.153 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.254 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.354 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.454 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.528 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:42.529 20885:20949 D/Surface  ]
+Surface::disconnect(this=0x7f87234c00,api=1)
+
+[ 12-12 16:19:42.529 20885:20949 D/GraphicBuffer ]
+unregister, handle(0x7f6c6f5240) (w:210 h:90 s:224 f:0x1 u:0x000b00)
+
+[ 12-12 16:19:42.531 20885:20949 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:19:42.555 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.672 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.772 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.869 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:42.971 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.073 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.168 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.270 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.369 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.470 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.568 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.671 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.766 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.866 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:43.964 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.064 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.164 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.262 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.360 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.459 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.559 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.660 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.758 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.857 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:44.955 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.055 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.157 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.253 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.353 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.451 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.551 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.668 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.765 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.865 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:45.963 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.063 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.160 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.267 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.362 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.461 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.561 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.660 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.759 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.858 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:46.957 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.056 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.156 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.256 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.350 20885:20970 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449908387350
+
+[ 12-12 16:19:47.364 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.457 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.465 20885:20970 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 16:19:47.554 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.654 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.753 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.855 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:47.953 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.052 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.151 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.251 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.350 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.449 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.548 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.647 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.746 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.846 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:48.945 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.044 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.143 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.207 20885:20970 D/cn.edu.nju.ise.kikandroid ]
+Log:1449908389207
+
+[ 12-12 16:19:49.224 20885:20970 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 16:19:49.242 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.341 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.440 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.540 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.639 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.738 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.837 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:49.936 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.035 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.134 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.234 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.333 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.432 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.531 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.630 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.729 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.828 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:50.936 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.034 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.133 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.234 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.334 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.433 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.531 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.630 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.729 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.828 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:51.928 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.027 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.126 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.225 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.325 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.426 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.524 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.623 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.723 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.823 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:52.920 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.020 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.119 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.222 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.322 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.423 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.523 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.622 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.721 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.819 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:53.919 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.018 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.117 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.215 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.317 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.424 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.533 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.632 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.731 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.830 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:54.930 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.029 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.129 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.229 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.328 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.427 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.527 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.626 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.725 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.824 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:55.923 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.023 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.120 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.219 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.321 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.424 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.523 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.621 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.720 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.820 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:56.919 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.018 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.118 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.214 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.312 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.335 20885:20970 D/cn.edu.nju.ise.kikandroid ]
+Log:1449908397335
+
+[ 12-12 16:19:57.355 20885:20970 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449908397355
+
+[ 12-12 16:19:57.412 20885:20949 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=960,h=1845)
+
+[ 12-12 16:19:57.487 20885:20885 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 16:19:57.487 20885:20885 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 16:19:57.488 20885:20885 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+

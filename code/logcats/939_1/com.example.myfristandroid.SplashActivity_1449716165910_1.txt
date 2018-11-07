@@ -1,0 +1,1144 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:44:33.352  1399: 1399 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@418a1de8: null
+
+[ 12-10 10:44:33.672  1399: 1399 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@418a1de8
+
+[ 12-10 10:44:33.672  1399: 1399 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@418a1de8
+
+[ 12-10 10:44:35.832  1399: 1399 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@418a1de8
+
+[ 12-10 10:44:35.852  1399: 1399 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@41885890: null
+
+[ 12-10 10:44:36.002  1399: 1399 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@41885890
+
+[ 12-10 10:44:36.002  1399: 1399 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@41885890
+
+[ 12-10 10:44:36.772  1399: 1399 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@418a1de8
+
+[ 12-10 10:44:36.772  1399: 1399 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@418a1de8
+
+[ 12-10 10:47:50.612  1399: 1446 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-636
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+--------- beginning of /dev/log/main
+[ 12-10 10:54:31.972  2645: 2645 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:54:31.972  2645: 2645 D/dalvikvm ]
+DexOpt: load 89ms, verify+opt 254ms, 1199452 bytes
+
+[ 12-10 10:54:39.992  2772: 2772 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:54:39.992  2772: 2772 D/dalvikvm ]
+DexOpt: load 84ms, verify+opt 227ms, 1199452 bytes
+
+[ 12-10 10:54:50.012  2983: 2983 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:54:50.062  2983: 2983 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:54:50.252  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@4189fd70: null
+
+[ 12-10 10:54:50.292  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 81K, 16% free 9606K/11331K, paused 17ms, total 17ms
+
+[ 12-10 10:54:50.312  2983: 2983 I/dalvikvm-heap ]
+Grow heap (frag case) to 16.593MB for 3876224-byte allocation
+
+[ 12-10 10:54:50.332  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 12% free 13390K/15175K, paused 3ms+7ms, total 23ms
+
+[ 12-10 10:54:50.502  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 12% free 13390K/15175K, paused 11ms, total 11ms
+
+[ 12-10 10:54:50.532  2983: 2983 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.910MB for 8721484-byte allocation
+
+[ 12-10 10:54:50.562  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 8% free 21908K/23751K, paused 12ms+2ms, total 27ms
+
+[ 12-10 10:54:50.632  3011: 3011 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:54:50.632  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@4189fd70
+
+[ 12-10 10:54:50.632  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@4189fd70
+
+[ 12-10 10:54:50.672  3011: 3011 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:54:50.702  2983: 2983 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 10:54:50.702  2983: 2983 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 10:54:50.712  2983: 2983 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 10:54:50.712  2983: 2983 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:54:50.712  2983: 2983 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:54:50.732  3011: 3011 D/dalvikvm ]
+GC_FOR_ALLOC freed 66K, 16% free 9578K/11331K, paused 20ms, total 20ms
+
+[ 12-10 10:54:50.732  3011: 3011 I/dalvikvm-heap ]
+Grow heap (frag case) to 13.846MB for 1024016-byte allocation
+
+[ 12-10 10:54:50.752  2983: 2983 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:54:50.762  3011: 3014 D/dalvikvm ]
+GC_CONCURRENT freed 8K, 15% free 10586K/12359K, paused 2ms+5ms, total 23ms
+
+[ 12-10 10:54:50.762  3011: 3011 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:54:50.762  3011: 3011 D/SocketService ]
+pid:3011 myPid:3011
+
+[ 12-10 10:54:50.772  3011: 3011 D/SocketService ]
+start to run current thread!id:668
+
+[ 12-10 10:54:50.872  2983: 2996 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{418a0fb0 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 10:54:50.872  2983: 2996 I/Environment ]
+This apk install on sd and we call getExternalAppStorageDirectory()!
+
+[ 12-10 10:54:50.902  3011: 3033 D/SocketService ]
+ip/192.168.43.86 lport:44547 p:143
+
+[ 12-10 10:54:50.912  3011: 3033 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 10:54:50.912  3011: 3033 D/SocketService ]
+success to connect server!id:668 bLogin:false
+
+[ 12-10 10:54:50.972  3011: 3040 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:54:51.772  3011: 3031 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:54:51.922  3011: 3033 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 10:54:52.132  3011: 3040 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:54:52.702  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@4189fd70
+
+[ 12-10 10:54:52.722  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@424a9018: null
+
+[ 12-10 10:54:52.792  3011: 3031 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:54:52.902  2983: 2983 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:54:52.902  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:54:52.902  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:54:52.932  3011: 3033 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 10:54:53.152  3011: 3040 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:54:53.212  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 4940K, 26% free 19045K/25543K, paused 2ms+3ms, total 36ms
+
+[ 12-10 10:54:53.212  2983: 2983 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-10 10:54:53.362  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 1141K, 23% free 19836K/25543K, paused 12ms+20ms, total 60ms
+
+[ 12-10 10:54:53.812  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@4189fd70
+
+[ 12-10 10:54:53.812  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@4189fd70
+
+[ 12-10 10:54:53.822  3011: 3031 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:54:53.822  2983: 2983 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:54:55.302  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:00.072  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716100080
+
+[ 12-10 10:55:00.152  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 946K, 22% free 19987K/25543K, paused 17ms, total 17ms
+
+[ 12-10 10:55:00.202  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 16K, 14% free 21996K/25543K, paused 4ms+16ms, total 42ms
+
+[ 12-10 10:55:00.242  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 88K, 15% free 21908K/25543K, paused 20ms, total 20ms
+
+[ 12-10 10:55:00.252  2983: 2983 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.888MB for 2073616-byte allocation
+
+[ 12-10 10:55:00.292  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2027K, 21% free 21915K/27591K, paused 12ms+4ms, total 38ms
+
+[ 12-10 10:55:03.932  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:03.952  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@42517928: null
+
+[ 12-10 10:55:03.992  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:03.992  2983: 3099 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:55:03.992  2983: 3099 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 10:55:04.042  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@42517928
+
+[ 12-10 10:55:04.042  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@42517928
+
+[ 12-10 10:55:04.072  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:04.112  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1558010744
+
+[ 12-10 10:55:04.122  2983: 3099 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/105504:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x5c58d010
+
+
+[ 12-10 10:55:04.122  2983: 3099 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/105504:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x5c32b198
+
+
+[ 12-10 10:55:04.122  2983: 3099 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 10:55:04.132  2983: 3099 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 10:55:04.132  2983: 3099 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 10:55:04.132  2983: 3099 D/external/chromium/net/socket/tcp_fin_aggregation_factory.cc ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 10:55:04.132  2983: 3099 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 10:55:04.132  2983: 3099 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 10:55:04.132  2983: 3099 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 10:55:04.132  2983: 3099 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 10:55:04.132  2983: 3099 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 10:55:04.132  2983: 3099 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:55:04.132  2983: 3099 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:55:04.132  2983: 3099 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:55:04.132  2983: 3099 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:55:04.132  2983: 3099 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 10:55:04.132  2983: 3099 D/external/chromium/net/http/http_getzip_factory.cc ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 10:55:04.132  2983: 3099 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 10:55:04.142  2983: 3099 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:55:04.142  2983: 3099 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:55:04.142  2983: 3099 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:55:04.142  2983: 3099 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:55:04.152  2983: 3099 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 10:55:04.162  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/105504:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/105504:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/105504:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/105504:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 10:55:04.292  2983: 3124 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/105504:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/105504:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 10:55:04.292  2983: 3124 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/105504:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 10:55:04.292  2983: 3124 V/chromium ]
+external/chromium/net/proxy/proxy_config_service_android.cc:28: [1210/105504:INFO:proxy_config_service_android.cc(28)] property_get persist.sys.proxy:
+
+
+[ 12-10 10:55:04.302  2983: 3124 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 10:55:04.502  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:04.642  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 110 43297565310976 1549908368) res=-1 errno=1
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Tagging socket 110 with tag 276100000000(10081) for uid 1549908368 failed errno=-1
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 116 43297565310976 1549908368) res=-1 errno=1
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Tagging socket 116 with tag 276100000000(10081) for uid 1549908368 failed errno=-1
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 121 43297565310976 1549908368) res=-1 errno=1
+
+[ 12-10 10:55:04.712  2983: 3124 I/qtaguid  ]
+Tagging socket 121 with tag 276100000000(10081) for uid 1549908368 failed errno=-1
+
+[ 12-10 10:55:04.902  2983: 2983 D/TilesManager ]
+new EGLContext from framework: 5d0db890 
+
+[ 12-10 10:55:04.902  2983: 2983 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 10:55:04.922  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 110) res=-1 errno=22
+
+[ 12-10 10:55:04.932  2983: 3124 I/qtaguid  ]
+Untagging socket 110 failed errno=-22
+
+[ 12-10 10:55:04.932  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 116) res=-1 errno=22
+
+[ 12-10 10:55:04.932  2983: 3124 I/qtaguid  ]
+Untagging socket 116 failed errno=-22
+
+[ 12-10 10:55:04.932  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 121) res=-1 errno=22
+
+[ 12-10 10:55:04.932  2983: 3124 I/qtaguid  ]
+Untagging socket 121 failed errno=-22
+
+[ 12-10 10:55:05.062  2983: 2983 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 10:55:07.902  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716107914
+
+[ 12-10 10:55:07.952  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2193K, 28% free 20084K/27591K, paused 38ms, total 39ms
+
+[ 12-10 10:55:07.992  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 20% free 22104K/27591K, paused 12ms+2ms, total 31ms
+
+[ 12-10 10:55:08.072  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 20% free 22109K/27591K, paused 15ms+6ms, total 46ms
+
+[ 12-10 10:55:10.092  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:10.122  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@42517928
+
+[ 12-10 10:55:10.132  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:10.132  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:10.202  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:10.202  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:10.542  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@42517928
+
+[ 12-10 10:55:10.542  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@42517928
+
+[ 12-10 10:55:14.392  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:14.422  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@424d8df0: null
+
+[ 12-10 10:55:14.432  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:14.442  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1551857688
+
+[ 12-10 10:55:14.452  2983: 3124 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 10:55:14.452  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@424d8df0
+
+[ 12-10 10:55:14.452  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@424d8df0
+
+[ 12-10 10:55:14.492  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:14.552  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:14.602  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 101 43297565310976 1553775456) res=-1 errno=1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Tagging socket 101 with tag 276100000000(10081) for uid 1553775456 failed errno=-1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 102 43297565310976 1553775456) res=-1 errno=1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Tagging socket 102 with tag 276100000000(10081) for uid 1553775456 failed errno=-1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 1553775456) res=-1 errno=1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 1553775456 failed errno=-1
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 101) res=-1 errno=22
+
+[ 12-10 10:55:14.782  2983: 3124 I/qtaguid  ]
+Untagging socket 101 failed errno=-22
+
+[ 12-10 10:55:14.792  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 102) res=-1 errno=22
+
+[ 12-10 10:55:14.792  2983: 3124 I/qtaguid  ]
+Untagging socket 102 failed errno=-22
+
+[ 12-10 10:55:14.792  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 103) res=-1 errno=22
+
+[ 12-10 10:55:14.792  2983: 3124 I/qtaguid  ]
+Untagging socket 103 failed errno=-22
+
+[ 12-10 10:55:14.902  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:15.352  3011: 3014 D/dalvikvm ]
+GC_CONCURRENT freed 393K, 16% free 10611K/12615K, paused 22ms+1ms, total 66ms
+
+[ 12-10 10:55:25.862  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:25.862  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:27.472  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716127484
+
+[ 12-10 10:55:27.532  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2140K, 28% free 20127K/27591K, paused 30ms, total 31ms
+
+[ 12-10 10:55:27.592  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 8K, 20% free 22143K/27591K, paused 13ms+3ms, total 41ms
+
+[ 12-10 10:55:27.662  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 20% free 22149K/27591K, paused 13ms+13ms, total 51ms
+
+[ 12-10 10:55:28.552  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:28.582  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@424d8df0
+
+[ 12-10 10:55:28.602  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:28.602  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:28.672  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:28.672  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:29.012  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@424d8df0
+
+[ 12-10 10:55:29.012  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@424d8df0
+
+[ 12-10 10:55:30.662  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:30.682  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@424cfeb8: null
+
+[ 12-10 10:55:30.692  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:30.692  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1553774432
+
+[ 12-10 10:55:30.712  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@424cfeb8
+
+[ 12-10 10:55:30.712  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@424cfeb8
+
+[ 12-10 10:55:30.732  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:30.752  3011: 3029 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:69
+
+[ 12-10 10:55:30.792  3011: 3040 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 10:55:30.792  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:30.842  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:30.852  3011: 3031 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 10:55:30.992  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 89 43297565310976 1650808677) res=-1 errno=1
+
+[ 12-10 10:55:30.992  2983: 3124 I/qtaguid  ]
+Tagging socket 89 with tag 276100000000(10081) for uid 1650808677 failed errno=-1
+
+[ 12-10 10:55:31.002  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 97 43297565310976 1650808677) res=-1 errno=1
+
+[ 12-10 10:55:31.002  2983: 3124 I/qtaguid  ]
+Tagging socket 97 with tag 276100000000(10081) for uid 1650808677 failed errno=-1
+
+[ 12-10 10:55:31.002  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 98 43297565310976 1650808677) res=-1 errno=1
+
+[ 12-10 10:55:31.002  2983: 3124 I/qtaguid  ]
+Tagging socket 98 with tag 276100000000(10081) for uid 1650808677 failed errno=-1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 101 43297565310976 1869562656) res=-1 errno=1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Tagging socket 101 with tag 276100000000(10081) for uid 1869562656 failed errno=-1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 102 43297565310976 1869562656) res=-1 errno=1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Tagging socket 102 with tag 276100000000(10081) for uid 1869562656 failed errno=-1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 1869562656) res=-1 errno=1
+
+[ 12-10 10:55:31.012  2983: 3124 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 1869562656 failed errno=-1
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 89) res=-1 errno=22
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Untagging socket 89 failed errno=-22
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 97) res=-1 errno=22
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Untagging socket 97 failed errno=-22
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 98) res=-1 errno=22
+
+[ 12-10 10:55:31.022  2983: 3124 I/qtaguid  ]
+Untagging socket 98 failed errno=-22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 101) res=-1 errno=22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Untagging socket 101 failed errno=-22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 102) res=-1 errno=22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Untagging socket 102 failed errno=-22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 103) res=-1 errno=22
+
+[ 12-10 10:55:31.032  2983: 3124 I/qtaguid  ]
+Untagging socket 103 failed errno=-22
+
+[ 12-10 10:55:31.132  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:32.652  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716132662
+
+[ 12-10 10:55:32.722  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2140K, 27% free 20169K/27591K, paused 22ms, total 22ms
+
+[ 12-10 10:55:32.772  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 10K, 20% free 22184K/27591K, paused 14ms+4ms, total 47ms
+
+[ 12-10 10:55:32.812  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 20% free 22189K/27591K, paused 4ms+3ms, total 27ms
+
+[ 12-10 10:55:33.452  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:33.492  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@424cfeb8
+
+[ 12-10 10:55:33.512  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:33.512  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:33.572  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:33.572  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:33.912  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@424cfeb8
+
+[ 12-10 10:55:33.912  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@424cfeb8
+
+[ 12-10 10:55:34.492  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:34.512  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@424bdc88: null
+
+[ 12-10 10:55:34.522  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:34.522  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1552560136
+
+[ 12-10 10:55:34.532  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@424bdc88
+
+[ 12-10 10:55:34.532  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@424bdc88
+
+[ 12-10 10:55:34.572  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:34.612  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:34.792  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:34.932  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 89 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.932  2983: 3124 I/qtaguid  ]
+Tagging socket 89 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.932  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 97 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.942  2983: 3124 I/qtaguid  ]
+Tagging socket 97 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.942  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 98 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.942  2983: 3124 I/qtaguid  ]
+Tagging socket 98 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 101 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Tagging socket 101 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 102 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Tagging socket 102 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 4128878) res=-1 errno=1
+
+[ 12-10 10:55:34.952  2983: 3124 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 4128878 failed errno=-1
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 89) res=-1 errno=22
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Untagging socket 89 failed errno=-22
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 97) res=-1 errno=22
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Untagging socket 97 failed errno=-22
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 98) res=-1 errno=22
+
+[ 12-10 10:55:34.962  2983: 3124 I/qtaguid  ]
+Untagging socket 98 failed errno=-22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 101) res=-1 errno=22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Untagging socket 101 failed errno=-22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 102) res=-1 errno=22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Untagging socket 102 failed errno=-22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 103) res=-1 errno=22
+
+[ 12-10 10:55:34.972  2983: 3124 I/qtaguid  ]
+Untagging socket 103 failed errno=-22
+
+[ 12-10 10:55:34.982  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:36.812  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716136823
+
+[ 12-10 10:55:36.862  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2139K, 27% free 20206K/27591K, paused 47ms, total 48ms
+
+[ 12-10 10:55:36.942  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 20% free 22222K/27591K, paused 35ms+3ms, total 70ms
+
+[ 12-10 10:55:36.942  2983: 2983 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-10 10:55:36.992  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 20% free 22226K/27591K, paused 17ms+4ms, total 51ms
+
+[ 12-10 10:55:37.682  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:37.712  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@424bdc88
+
+[ 12-10 10:55:37.732  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:37.732  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:37.812  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:37.812  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:38.152  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@424bdc88
+
+[ 12-10 10:55:38.152  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@424bdc88
+
+[ 12-10 10:55:38.862  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:38.882  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@4265b410: null
+
+[ 12-10 10:55:38.902  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:38.902  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1514469984
+
+[ 12-10 10:55:38.912  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@4265b410
+
+[ 12-10 10:55:38.912  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@4265b410
+
+[ 12-10 10:55:38.942  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:39.022  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:39.222  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:39.342  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 89 43297565310976 7143463) res=-1 errno=1
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Tagging socket 89 with tag 276100000000(10081) for uid 7143463 failed errno=-1
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 97 43297565310976 7143463) res=-1 errno=1
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Tagging socket 97 with tag 276100000000(10081) for uid 7143463 failed errno=-1
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(t 103 43297565310976 7143463) res=-1 errno=1
+
+[ 12-10 10:55:39.392  2983: 3124 I/qtaguid  ]
+Tagging socket 103 with tag 276100000000(10081) for uid 7143463 failed errno=-1
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 89) res=-1 errno=22
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Untagging socket 89 failed errno=-22
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 97) res=-1 errno=22
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Untagging socket 97 failed errno=-22
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Failed write_ctrl(u 103) res=-1 errno=22
+
+[ 12-10 10:55:39.412  2983: 3124 I/qtaguid  ]
+Untagging socket 103 failed errno=-22
+
+[ 12-10 10:55:39.982  3011: 3014 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 16% free 10611K/12615K, paused 1ms+1ms, total 51ms
+
+[ 12-10 10:55:40.792  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716140805
+
+[ 12-10 10:55:40.852  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2138K, 27% free 20243K/27591K, paused 44ms, total 45ms
+
+[ 12-10 10:55:40.922  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 20% free 22259K/27591K, paused 13ms+3ms, total 71ms
+
+[ 12-10 10:55:40.922  2983: 2983 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+
+[ 12-10 10:55:40.972  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 20% free 22264K/27591K, paused 3ms+4ms, total 32ms
+
+[ 12-10 10:55:43.422  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:43.552  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@4265b410
+
+[ 12-10 10:55:43.562  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:43.562  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:43.622  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:43.622  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:43.972  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@4265b410
+
+[ 12-10 10:55:43.972  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@4265b410
+
+[ 12-10 10:55:44.452  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:44.472  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@425a78c0: null
+
+[ 12-10 10:55:44.492  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:44.492  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1557004056
+
+[ 12-10 10:55:44.512  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@425a78c0
+
+[ 12-10 10:55:44.512  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@425a78c0
+
+[ 12-10 10:55:44.532  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:44.582  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:44.682  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:44.922  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:46.412  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:46.442  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@425a78c0
+
+[ 12-10 10:55:46.462  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:46.462  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:46.522  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:46.522  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:46.872  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@425a78c0
+
+[ 12-10 10:55:46.872  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@425a78c0
+
+[ 12-10 10:55:47.652  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:47.672  2983: 2983 V/Activity ]
+onCreate com.example.myfristandroid.graphWebShow@425ebba0: null
+
+[ 12-10 10:55:47.682  2983: 2983 D/webcore  ]
+New send INITIALIZE msg to WebCoreThread
+
+[ 12-10 10:55:47.682  2983: 3099 D/webcore  ]
+initialize, mNativeClass is 1556406168
+
+[ 12-10 10:55:47.702  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.graphWebShow@425ebba0
+
+[ 12-10 10:55:47.702  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.graphWebShow@425ebba0
+
+[ 12-10 10:55:47.852  2983: 2983 I/TextToSpeech ]
+Sucessfully bound to com.svox.pico
+
+[ 12-10 10:55:47.892  2983: 3099 D/[encoding] ]
+detectTextEncoding encoding=UTF-8
+
+[ 12-10 10:55:47.922  2983: 2983 I/TextToSpeech ]
+Connected to ComponentInfo{com.svox.pico/com.svox.pico.PicoService}
+
+[ 12-10 10:55:48.272  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:51.322  2983: 2983 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:55:51.352  2983: 2983 V/Activity ]
+onPause com.example.myfristandroid.graphWebShow@425ebba0
+
+[ 12-10 10:55:51.362  2983: 2983 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:51.362  2983: 2983 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424a9018
+
+[ 12-10 10:55:51.432  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:51.432  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:51.772  2983: 2983 V/Activity ]
+onStop com.example.myfristandroid.graphWebShow@425ebba0
+
+[ 12-10 10:55:51.772  2983: 2983 V/Activity ]
+onDestroy com.example.myfristandroid.graphWebShow@425ebba0
+
+[ 12-10 10:55:53.882  2983: 2983 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 10:55:54.442  2983: 2983 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:55:54.522  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:54.522  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:55.132  2983: 2983 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 10:55:55.232  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:55.232  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:55.232  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:55.232  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:55.942  2983: 2983 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 10:55:56.022  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:55:56.022  2983: 2983 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:56:04.022  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716164037
+
+[ 12-10 10:56:04.102  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 3266K, 27% free 20403K/27591K, paused 33ms, total 33ms
+
+[ 12-10 10:56:04.162  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 32K, 19% free 22396K/27591K, paused 12ms+13ms, total 51ms
+
+[ 12-10 10:56:04.232  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 19% free 22401K/27591K, paused 4ms+14ms, total 48ms
+
+[ 12-10 10:56:05.382  3011: 3014 D/dalvikvm ]
+GC_CONCURRENT freed 397K, 16% free 10611K/12615K, paused 20ms+1ms, total 69ms
+
+[ 12-10 10:56:05.902  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716165910
+
+[ 12-10 10:56:05.942  2983: 3039 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716165951
+
+[ 12-10 10:56:06.002  2983: 2983 D/dalvikvm ]
+GC_FOR_ALLOC freed 2139K, 27% free 20374K/27591K, paused 22ms, total 22ms
+
+[ 12-10 10:56:06.042  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 19% free 22398K/27591K, paused 12ms+4ms, total 36ms
+
+[ 12-10 10:56:06.092  2983: 2985 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 19% free 22403K/27591K, paused 4ms+5ms, total 29ms
+
+[ 12-10 10:56:06.182  2983: 3039 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x40db9588)
+
+[ 12-10 10:56:06.182  2983: 3039 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-664
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

@@ -1,0 +1,1757 @@
+--------- beginning of system
+[ 12-12 16:22:58.206 21023:21023 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{fd45d8f token=android.os.BinderProxy@1d87981c {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:22:58.210 21023:21023 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1d87981c
+
+[ 12-12 16:22:58.210 21023:21023 V/ActivityThread ]
+Performing resume of ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:22:58.217 21023:21023 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:22:58.217 21023:21023 V/ActivityThread ]
+Resume ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:22:58.217 21023:21023 V/ActivityThread ]
+Resuming ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 16:22:58.221 21023:21023 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:22:58.222 21023:21023 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@2b30111a
+
+[ 12-12 16:22:58.232 21023:21023 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:22:58.232 21023:21023 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:22:58.608 21023:21023 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1d87981c
+
+[ 12-12 16:22:58.944 21023:21023 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:22:58.974 21023:21023 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2b30111a
+
+[ 12-12 16:22:59.510 21023:21023 V/ActivityThread ]
+Finishing stop of ActivityRecord{2deb43c5 token=android.os.BinderProxy@2b30111a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@273fc71a
+
+[ 12-12 16:22:59.510 21023:21023 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2b30111a
+
+[ 12-12 16:23:42.788 21861:21861 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:23:43.140 21890:21890 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@c89860d,provider,holder.Provider:android.content.ContentProviderProxy@387439c2
+
+[ 12-12 16:23:43.172 21861:21861 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{2a33a259 com.xdf.ucan}}
+
+[ 12-12 16:23:43.172 21861:21861 V/ActivityThread ]
+Handling launch of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.176 21861:21861 V/ActivityThread ]
+ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:23:43.182 21890:21890 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{3550300e com.xdf.ucan}}
+
+[ 12-12 16:23:43.184 21890:21890 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:23:43.185 21890:21890 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@1a9cea2f className=io.rong.imlib.ipc.RongService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:23:43.231 21890:21890 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@1a9cea2f intent=Intent { cmp=com.xdf.ucan/io.rong.imlib.ipc.RongService }}
+
+[ 12-12 16:23:43.283 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.316 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.317 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:23:43.331 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} with isForward=true
+
+[ 12-12 16:23:43.331 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.332 21861:21861 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.347 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:23:43.347 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:23:43.701 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1d496e1e token=android.os.BinderProxy@210536ff {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:23:43.705 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:23:43.705 21861:21861 V/ActivityThread ]
+Handling launch of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:43.707 21861:21861 V/ActivityThread ]
+ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.MainActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:23:43.762 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:43.763 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:43.763 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:23:43.768 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=true
+
+[ 12-12 16:23:43.768 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:43.768 21861:21861 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:43.962 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:23:43.962 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:23:44.412 21861:21861 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@210536ff
+
+[ 12-12 16:23:45.540 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:45.544 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:23:45.544 21861:21861 V/ActivityThread ]
+Handling launch of ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:45.545 21861:21861 V/ActivityThread ]
+ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:23:45.644 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:45.644 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:45.644 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:23:45.649 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 16:23:45.649 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:45.649 21861:21861 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:45.740 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:23:45.740 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:23:46.136 21861:21861 V/ActivityThread ]
+Finishing stop of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@15c73264
+
+[ 12-12 16:23:46.137 21861:21861 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:23:48.378 21861:21861 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }, receiver=io.rong.imlib.ConnectChangeReceiver@14831ccd
+
+[ 12-12 16:23:48.381 21861:21861 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 16:23:48.382 21861:21861 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@227e982 className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:23:48.383 21861:21861 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@227e982 className=io.rong.imlib.ReConnectService packageName=com.xdf.ucan intent=null}
+
+[ 12-12 16:23:48.383 21861:21861 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@227e982 startId=1 args=Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }}
+
+[ 12-12 16:23:48.385 21861:21861 D/ActivityThread ]
+SVC-Destroying service: io.rong.imlib.ReConnectService@30b03893
+
+[ 12-12 16:23:48.385 21861:21861 D/ActivityThread ]
+SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@227e982
+
+[ 12-12 16:23:53.512 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2142ed68 token=android.os.BinderProxy@1444f581 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 16:23:53.516 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1444f581
+
+[ 12-12 16:23:53.517 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:53.525 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:53.525 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:23:53.525 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 16:23:53.526 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:53.527 21861:21861 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:23:53.535 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:23:53.535 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:23:53.892 21861:21861 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1444f581
+
+[ 12-12 16:23:55.234 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:23:55.244 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:23:56.711 21861:21861 V/ActivityThread ]
+Finishing stop of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@15c73264
+
+[ 12-12 16:23:56.711 21861:21861 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:24:12.481 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:12.488 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:12.488 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:24:12.488 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 16:24:12.489 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:12.489 21861:21861 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 W/ViewRootImpl ]
+Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x28, repeatCount=0, eventTime=9024980, downTime=9024980, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:12.503 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:24:12.503 21861:21861 D/Activity ]
+translucentStatus = false
+
+--------- beginning of main
+[ 12-12 16:24:34.297 21861:21861 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:24:34.320 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.335 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.344 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.360 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.377 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.394 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.410 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.427 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.445 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.461 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.477 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.493 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.510 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.526 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.543 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.559 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.578 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.595 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.610 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.627 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.643 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.660 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.676 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.693 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.710 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.726 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.742 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.759 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.775 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.792 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.808 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.825 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.841 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.858 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.875 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.892 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.908 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.925 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.941 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:34.958 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.536 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.553 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.570 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.588 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.604 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.621 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.638 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.654 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.671 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.687 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.704 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.720 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.737 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.754 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.771 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.787 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.804 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:35.985 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.002 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.019 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.035 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.052 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.068 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.088 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.102 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.119 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.137 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.152 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.614 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.631 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.649 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.666 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.682 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.699 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.716 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.731 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.748 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.766 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.781 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.798 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.815 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.831 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.848 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.865 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.882 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.898 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:36.915 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.318 21861:21861 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:24:39.327 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.353 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.360 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.376 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.400 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.416 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.433 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.449 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.467 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.483 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.500 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.516 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.533 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.550 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.566 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.584 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.599 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.615 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.632 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.648 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.665 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.682 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.699 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.715 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.732 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.749 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.765 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.782 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.798 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.814 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.831 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.847 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.864 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.881 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.897 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.914 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.931 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.947 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:39.964 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:42.851 21861:21947 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449908682851
+
+[ 12-12 16:24:43.042 21861:21947 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 16:24:43.722 21861:21861 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-12 16:24:43.727 21861:21861 I/View     ]
+Key down dispatch to android.support.v4.app.FragmentTabHost{3ae3dae3 VFE..... .F...... 0,1705-1080,1845 #1020012 android:id/tabhost}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=9056258, downTime=9056258, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:43.728 21861:21861 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-12 16:24:43.728 21861:21861 I/View     ]
+Key up dispatch to android.support.v4.app.FragmentTabHost{3ae3dae3 VFE..... .F...... 0,1705-1080,1845 #1020012 android:id/tabhost}, event = KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=9056258, downTime=9056258, deviceId=-1, source=0x101 }
+
+[ 12-12 16:24:43.747 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:43.754 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:24:43.755 21861:21861 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=android.widget.GridView{2ccd7c73 VFED.VC. ........ 0,0-1080,153}
+
+[ 12-12 16:24:43.892 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:43.893 21861:21925 D/Surface  ]
+Surface::disconnect(this=0x7f87235a00,api=1)
+
+[ 12-12 16:24:43.893 21861:21925 D/GraphicBuffer ]
+unregister, handle(0x7f6cb689c0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:43.893 21861:21925 D/GraphicBuffer ]
+unregister, handle(0x7f6cbe8ac0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:43.894 21861:21925 D/GraphicBuffer ]
+unregister, handle(0x7f6cbe92e0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:43.894 21861:21925 D/GraphicBuffer ]
+unregister, handle(0x7f6f94d920) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:43.898 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:44.279 21861:21861 V/ActivityThread ]
+Finishing stop of ActivityRecord{3329bedc token=android.os.BinderProxy@3b157be5 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@15c73264
+
+[ 12-12 16:24:44.280 21861:21861 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{dd6721 com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2d1da96b I.E..... R....... 0,0-1080,1920}
+
+[ 12-12 16:24:44.280 21861:21861 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@3b157be5
+
+[ 12-12 16:24:45.478 21861:21861 V/ActivityThread ]
+Handling launch of ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.478 21861:21861 V/ActivityThread ]
+ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:24:45.495 21861:21861 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 16:24:45.495 21861:21861 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=Pr+Vh85KftWFpJdP7lxHVA==&encodePwd=SwKY1PjCWs6UC5jR8uodvw==&guid=b1506eb1-a375-462f-ba20-d91a0b2fbf26&sign=551FB81CEA2D94D440CED3C9D91C03C8&appOption=1&accessTokenOption=1
+
+[ 12-12 16:24:45.495 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 16:24:45.496 21861:21951 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:24:45.496 21861:21951 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:24:45.496 21861:21951 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:24:45.496 21861:21951 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.496 21861:21951 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 16:24:45.497 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.497 21861:21861 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 16:24:45.498 21861:21861 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 16:24:45.499 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.499 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:24:45.500 21861:21861 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2cfbc384 I.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:24:45.503 21861:21951 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:24:45.503 21861:21951 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:24:45.503 21861:21951 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.503 21861:21951 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.503 21861:21951 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.504 21861:21951 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.505 21861:21861 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{75616ab com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity,ident = 6}
+
+[ 12-12 16:24:45.508 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}} with isForward=true
+
+[ 12-12 16:24:45.508 21861:21861 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 16:24:45.509 21861:21861 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{75616ab com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity,ident = 6}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2cfbc384 V.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:24:45.509 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.509 21861:21861 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.539 21861:21925 D/OpenGLRenderer ]
+CanvasContext() 0x7f6f8296c0 initialize 0x7f87235a10
+
+[ 12-12 16:24:45.539 21861:21925 D/Surface  ]
+Surface::connect(this=0x7f87235a00,api=1)
+
+[ 12-12 16:24:45.539 21861:21925 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:24:45.539 21861:21925 D/Surface  ]
+Surface::allocateBuffers(this=0x7f87235a00)
+
+[ 12-12 16:24:45.541 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:24:45.541 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:24:45.541 21861:21861 V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#1810500
+
+[ 12-12 16:24:45.541 21861:21861 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{2cfbc384 V.E..... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@dd1f108 controlFlags=#104
+
+[ 12-12 16:24:45.550 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87235a00,w=1080,h=1920)
+
+[ 12-12 16:24:45.551 21861:21925 D/GraphicBuffer ]
+register, handle(0x7f6c8ecf20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:45.573 21861:21861 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 16:24:45.573 21861:21861 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487452\",\"NickName\":\"151212160734680_v\",\"HideMobile\":\"186****5367\",\"HideEmail\":\"151****6073468046ae2_v@v.com\",\"Mobile\":\"18662935367\",\"Email\":\"15121216073468046ae2_v@v.com\",\"LoginToken\":\"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3\",\"Sign\":\"77C710828311A11C51B0CC6430F9DDE4\",\"AccessToken\":\"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3\",\"AccessTokenExpireTime\":\"2016-01-31 06:24:41\"}","Message":"成功"}
+
+[ 12-12 16:24:45.573 21861:21861 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487452\",\"NickName\":\"151212160734680_v\",\"HideMobile\":\"186****5367\",\"HideEmail\":\"151****6073468046ae2_v@v.com\",\"Mobile\":\"18662935367\",\"Email\":\"15121216073468046ae2_v@v.com\",\"LoginToken\":\"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3\",\"Sign\":\"77C710828311A11C51B0CC6430F9DDE4\",\"AccessToken\":\"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3\",\"AccessTokenExpireTime\":\"2016-01-31 06:24:41\"}","Message":"成功"}
+
+[ 12-12 16:24:45.573 21861:21861 D/long     ]
+{"UserId":"xdf004487452","NickName":"151212160734680_v","HideMobile":"186****5367","HideEmail":"151****6073468046ae2_v@v.com","Mobile":"18662935367","Email":"15121216073468046ae2_v@v.com","LoginToken":"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3","Sign":"77C710828311A11C51B0CC6430F9DDE4","AccessToken":"26d26d7d-98f4-47e1-8f5d-78c7a4f9dbe3","AccessTokenExpireTime":"2016-01-31 06:24:41"}
+
+[ 12-12 16:24:45.605 21861:21861 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487452&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 16:24:45.605 21861:21861 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 16:24:45.605 21861:21861 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487452&sign=1CC4DAE2C3F0EEA1A308F1FDADB95839
+
+[ 12-12 16:24:45.605 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 16:24:45.611 21861:21951 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:24:45.611 21861:21951 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:24:45.611 21861:21951 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:24:45.611 21861:21951 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.612 21861:21951 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:45.612 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.612 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:45.612 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.612 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 16:24:45.633 21861:21951 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 16:24:45.634 21861:21951 I/System.out ]
+propertyValue:true
+
+[ 12-12 16:24:45.634 21861:21951 I/System.out ]
+openConnection:1
+
+[ 12-12 16:24:45.634 21861:21951 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:45.634 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.76; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.634 21861:21951 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:45.634 21861:21951 I/System.out ]
+[socket][8] connection /116.213.70.76:80;LocalPort=49346(20000)
+
+[ 12-12 16:24:45.634 21861:21951 I/System.out ]
+[CDS]connect[/116.213.70.76:80] tm:20
+
+[ 12-12 16:24:45.636 21861:21951 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+[socket][/10.22.75.186:49346] connected
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 16:24:45.684 21861:21951 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.685 21861:21951 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.764 21861:21861 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 16:24:45.765 21861:21861 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 16:24:45.775 21861:21861 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{22162816 token=android.os.BinderProxy@1aa9f597 {com.xdf.ucan/com.xdf.ucan.ui.login.StartActivity}}
+
+[ 12-12 16:24:45.779 21861:21861 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@1aa9f597
+
+[ 12-12 16:24:45.779 21861:21861 V/ActivityThread ]
+Handling launch of ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:45.779 21861:21861 V/ActivityThread ]
+ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}: app=com.xdf.ucan.BaseApplication@3cf5c7b3, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.MainActivity}, dir=/data/app/com.xdf.ucan-1/base.apk
+
+[ 12-12 16:24:45.819 21861:21861 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 16:24:45.819 21861:21861 D/http     ]
+请求的参数：
+
+[ 12-12 16:24:45.819 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 16:24:45.820 21861:21861 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 16:24:45.820 21861:21861 D/http     ]
+请求的参数：userId=xdf004487452&size=big
+
+[ 12-12 16:24:45.820 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 16:24:45.820 21861:21951 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:24:45.820 21861:21951 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:24:45.820 21861:21951 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:24:45.820 21861:21951 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.820 21861:21919 I/System.out ]
+isEmailSend:GET
+
+[ 12-12 16:24:45.820 21861:21919 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.820 21861:21951 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 16:24:45.820 21861:21919 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:45.820 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.820 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:45.820 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.820 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 16:24:45.821 21861:21861 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 16:24:45.821 21861:21861 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 16:24:45.821 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 16:24:45.821 21861:21919 D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-12 16:24:45.821 21861:21919 I/System.out ]
+propertyValue:true
+
+[ 12-12 16:24:45.822 21861:21919 I/System.out ]
+openConnection:1
+
+[ 12-12 16:24:45.822 21861:21919 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:45.822 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.23; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:45.822 21861:21919 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:45.822 21861:21861 V/ActivityThread ]
+Performing resume of ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:45.822 21861:21861 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 16:24:45.822 21861:22073 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:24:45.822 21861:22073 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:24:45.822 21861:22073 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:24:45.822 21861:21919 I/System.out ]
+[socket][9] connection /116.213.70.23:80;LocalPort=58196(20000)
+
+[ 12-12 16:24:45.822 21861:22073 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.822 21861:21919 I/System.out ]
+[CDS]connect[/116.213.70.23:80] tm:20
+
+[ 12-12 16:24:45.822 21861:22073 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 16:24:45.822 21861:21861 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 16:24:45.822 21861:21861 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:45.822 21861:21861 V/ActivityThread ]
+Resume ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 16:24:45.822 21861:21919 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 16:24:45.822 21861:21861 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{1394b023 I.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.823 21861:21951 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.823 21861:22073 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.825 21861:21861 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{1dba480a com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 7}
+
+[ 12-12 16:24:45.827 21861:21861 V/ActivityThread ]
+Resuming ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=true
+
+[ 12-12 16:24:45.827 21861:21861 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 16:24:45.827 21861:21861 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{1dba480a com.xdf.ucan/com.xdf.ucan.MainActivity,ident = 7}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{1394b023 V.E..... R.....ID 0,0-0,0}
+
+[ 12-12 16:24:45.827 21861:21861 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:45.827 21861:21861 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{128345dd token=android.os.BinderProxy@71c4552 {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 16:24:45.841 21861:21861 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2939400c G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.841 21861:21861 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{2939400c G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.842 21861:21861 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2939400c G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.845 21861:21861 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2b5225c2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.846 21861:21861 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{2b5225c2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.846 21861:21861 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{2b5225c2 G.ED.... ......I. 0,0-0,0 #7f0c029b app:id/pull_to_refresh_progress}
+
+[ 12-12 16:24:45.849 21861:21861 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+[socket][/10.22.75.186:58196] connected
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.872 21861:21919 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.873 21861:21861 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 16:24:45.877 21861:21861 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 16:24:45.8&examstartdate=2015-12-12 16:20:53.3&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 16:24:45.8&resourcestartdate=2015-12-12 16:23:45.6&schoolid=0&userid=xdf004487452&videoenddate=2015-12-12 16:24:45.8&videostartdate=2015-12-12 16:22:03.4&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 16:24:45.878 21861:21861 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 16:24:45.878 21861:21861 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487452&schoolid=0&resourcestartdate=2015-12-12 16:23:45.6&resourceenddate=2015-12-12 16:24:45.8&videostartdate=2015-12-12 16:22:03.4&videoenddate=2015-12-12 16:24:45.8&examstartdate=2015-12-12 16:20:53.3&examenddate=2015-12-12 16:24:45.8&appid=5004&sign=0831F424817F94405C8B436BEB1F592C
+
+[ 12-12 16:24:45.878 21861:21861 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 16:24:45.878 21861:21861 V/InputMethodManager ]
+Not IME target window, ignoring
+
+[ 12-12 16:24:45.879 21861:22074 I/System.out ]
+isEmailSend:POST
+
+[ 12-12 16:24:45.879 21861:22074 I/System.out ]
+getAllHeaders:POST
+
+[ 12-12 16:24:45.879 21861:22074 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-12 16:24:45.879 21861:22074 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@3a1ff394
+
+[ 12-12 16:24:45.879 21861:22074 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-12 16:24:45.881 21861:22073 I/System.out ]
+[CDS]close[40548]
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+[CDS]EAGAIN in Recvfrom
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+[CDS]read byte is 0
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:45.883 21861:22074 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:45.899 21861:21925 D/OpenGLRenderer ]
+CanvasContext() 0x7f6c972040 initialize 0x7f8723d810
+
+[ 12-12 16:24:45.899 21861:21925 D/Surface  ]
+Surface::connect(this=0x7f8723d800,api=1)
+
+[ 12-12 16:24:45.900 21861:21925 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 16:24:45.900 21861:21861 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1647
+
+[ 12-12 16:24:45.900 21861:21925 D/Surface  ]
+Surface::allocateBuffers(this=0x7f8723d800)
+
+[ 12-12 16:24:45.900 21861:21861 D/PullToRefresh ]
+Setting Padding. L: 0, T: -988, R: 0, B: 0
+
+[ 12-12 16:24:45.901 21861:21861 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 16:24:45.901 21861:21861 D/Activity ]
+translucentStatus = false
+
+[ 12-12 16:24:45.909 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:45.910 21861:21925 D/GraphicBuffer ]
+register, handle(0x7f6ca96740) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:45.913 21861:21861 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 16:24:45.913 21861:21861 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449908681874}
+
+[ 12-12 16:24:45.913 21861:21861 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449908681874}
+
+[ 12-12 16:24:45.915 21861:21861 V/InputMethodManager ]
+onWindowFocus: android.support.v4.app.FragmentTabHost{33ee009b VFE..... .F....I. 0,1780-1080,1920 #1020012 android:id/tabhost} softInputMode=272 first=true flags=#1810100
+
+[ 12-12 16:24:45.915 21861:21861 V/InputMethodManager ]
+START INPUT: android.support.v4.app.FragmentTabHost{33ee009b VFE..... .F....I. 0,1780-1080,1920 #1020012 android:id/tabhost} ic=null tba=android.view.inputmethod.EditorInfo@e53fce8 controlFlags=#105
+
+[ 12-12 16:24:45.937 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:45.937 21861:21925 D/GraphicBuffer ]
+register, handle(0x7f6ca96380) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:45.947 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:45.947 21861:21925 D/Surface  ]
+Surface::disconnect(this=0x7f87235a00,api=1)
+
+[ 12-12 16:24:45.947 21861:21925 D/GraphicBuffer ]
+unregister, handle(0x7f6c8ecf20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:45.949 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:45.966 21861:21861 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1572
+
+[ 12-12 16:24:45.966 21861:21861 D/PullToRefresh ]
+Setting Padding. L: 0, T: -943, R: 0, B: 0
+
+[ 12-12 16:24:45.966 21861:21861 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 16:24:45.966 21861:21861 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-12 16:24:45.981 21861:21861 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 16:24:45.982 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:45.982 21861:21925 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 16:24:45.985 21861:21861 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1aa9f597
+
+[ 12-12 16:24:46.021 21861:21861 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 16:24:46.021 21861:21861 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 16:24:46.021 21861:21861 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 16:24:46.310 21861:21912 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 16:24:46.366 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:46.367 21861:21925 D/GraphicBuffer ]
+register, handle(0x7f6cbb35c0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:46.833 21861:21861 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 16:24:46.833 21861:21861 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 16:24:46.833 21861:21861 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 16:24:46.833 21861:21861 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 16:24:47.092 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.093 21861:21925 D/GraphicBuffer ]
+register, handle(0x7f6c8ed240) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 16:24:47.109 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.125 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.142 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.158 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.175 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.191 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.209 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.225 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.242 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.258 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.275 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.292 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.309 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.325 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.342 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.358 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.381 21861:22073 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:47.381 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: hostname=ims.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:47.381 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:47.381 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: hostname=ims.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:47.381 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 16:24:47.382 21861:22073 D/libc-netbsd ]
+getaddrinfo: ims.xdf.cn get result from proxy >>
+
+
+[ 12-12 16:24:47.382 21861:22073 I/System.out ]
+propertyValue:true
+
+[ 12-12 16:24:47.382 21861:22073 I/System.out ]
+openConnection:1
+
+[ 12-12 16:24:47.382 21861:22073 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 16:24:47.382 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.23; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 16:24:47.382 21861:22073 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 16:24:47.383 21861:22073 I/System.out ]
+[socket][10] connection /116.213.70.23:80;LocalPort=34933(20000)
+
+[ 12-12 16:24:47.383 21861:22073 I/System.out ]
+[CDS]connect[/116.213.70.23:80] tm:20
+
+[ 12-12 16:24:47.388 21861:22073 D/Posix    ]
+[Posix_connect Debug]Process com.xdf.ucan :80 
+
+[ 12-12 16:24:47.400 21861:21861 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:24:47.409 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.409 21861:21861 D/long     ]
+onCreate
+
+[ 12-12 16:24:47.409 21861:21861 D/long     ]
+onCreateView
+
+[ 12-12 16:24:47.419 21861:21861 D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-12 16:24:47.421 21861:21861 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-12 16:24:47.436 21861:21861 D/AbsListView ]
+onSizeChanged w=1080, h=153, oldw=0, oldh=0, getChildCount=0, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdaptercom.xdf.ucan.ui.component.CalendarWeekAdapter@369da78, this=android.widget.GridView{31880cad VFED.VC. ......I. 0,0-1080,153}, callstack=android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 android.widget.LinearLayout.setChildFrame:1959 
+
+[ 12-12 16:24:47.437 21861:21861 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-12 16:24:47.443 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+[socket][/10.22.75.186:34933] connected
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+snd buffer size:8192
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+>doSendRequest
+
+[ 12-12 16:24:47.446 21861:22073 I/System.out ]
+<doSendRequest
+
+[ 12-12 16:24:47.459 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:47.512 21861:22073 I/System.out ]
+[CDS]close[34933]
+
+[ 12-12 16:24:47.512 21861:21861 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 16:24:47.512 21861:21861 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449908683498}
+
+[ 12-12 16:24:47.512 21861:21861 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449908683498}
+
+[ 12-12 16:24:48.648 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.667 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.682 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.697 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.717 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.735 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.752 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.768 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.785 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.802 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.818 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.835 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.852 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.868 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.886 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:48.902 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:54.638 21861:21947 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449908694638
+
+[ 12-12 16:24:54.824 21861:21947 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 16:24:55.828 21861:21861 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 16:24:55.844 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.873 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.878 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.892 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.910 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.927 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.944 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.960 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.977 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:55.994 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.010 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.027 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.043 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.060 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.076 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.093 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.109 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.126 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.143 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.160 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.176 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.193 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.209 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.226 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.242 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.259 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.275 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.292 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.308 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.325 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.341 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.358 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.375 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.392 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.408 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.425 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.441 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.458 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.475 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:56.491 21861:21925 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f8723d800,w=1080,h=1920)
+
+[ 12-12 16:24:58.752 21861:21947 D/cn.edu.nju.ise.kikandroid ]
+Log:1449908698752
+
+[ 12-12 16:24:58.776 21861:21947 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 16:25:05.232 21861:21947 D/cn.edu.nju.ise.kikandroid ]
+Log:1449908705232
+
+[ 12-12 16:25:05.258 21861:21947 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449908705258
+
+[ 12-12 16:25:05.454 21861:21861 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 16:25:05.455 21861:21861 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 16:25:05.455 21861:21861 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+

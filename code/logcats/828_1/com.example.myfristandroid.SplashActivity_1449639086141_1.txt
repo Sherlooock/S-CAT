@@ -1,0 +1,27 @@
+--------- beginning of /dev/log/main
+[ 12-09 13:29:59.153 11087:11087 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 13:29:59.153 11087:11087 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 13:30:25.483 11087:11087 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 13:30:25.483 11087:11087 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-09 13:31:26.433 11087:11187 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x417b7940)
+
+--------- beginning of /dev/log/system
+[ 12-09 13:31:26.443 11087:11187 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2556
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

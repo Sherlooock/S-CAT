@@ -1,0 +1,1879 @@
+--------- beginning of /dev/log/system
+[ 12-12 15:33:53.445 29919:0x74df D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{43dc5e68 token=android.os.BinderProxy@4270b130 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:33:53.459 29919:0x74df D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@4270b130
+
+[ 12-12 15:33:53.459 29919:0x74df V/ActivityThread ]
+Performing resume of ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} finished=false
+
+[ 12-12 15:33:53.462 29919:0x74df D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:33:53.462 29919:0x74df V/ActivityThread ]
+Resume ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:33:53.462 29919:0x74df V/ActivityThread ]
+Resuming ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=false
+
+[ 12-12 15:33:53.462 29919:0x74df V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:33:53.463 29919:0x74df D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@42a65448
+
+[ 12-12 15:33:53.551 29919:0x74df D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@4270b130
+
+[ 12-12 15:34:05.281 29919:0x74df D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:34:05.289 29919:0x74df D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@42a65448
+
+[ 12-12 15:34:05.292 29919:0x74df V/ActivityThread ]
+ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}: app=com.taobao.ishopping.IShoppingApplication@425b4930, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}, dir=/data/app/com.taobao.ishopping-1.apk
+
+[ 12-12 15:34:05.418 29919:0x74df V/ActivityThread ]
+Performing resume of ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}} finished=false
+
+[ 12-12 15:34:05.421 29919:0x74df D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}
+
+[ 12-12 15:34:05.421 29919:0x74df V/ActivityThread ]
+Resume ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:34:05.426 29919:0x74df V/ActivityThread ]
+Resuming ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}} with isForward=true
+
+[ 12-12 15:34:05.427 29919:0x74df V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}
+
+[ 12-12 15:34:05.427 29919:0x74df D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}
+
+[ 12-12 15:34:06.346 29919:0x74df V/ActivityThread ]
+Finishing stop of ActivityRecord{43e4e208 token=android.os.BinderProxy@42a65448 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@42a2e128
+
+[ 12-12 15:34:06.346 29919:0x74df D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@42a65448
+
+--------- beginning of /dev/log/main
+[ 12-12 15:34:07.203 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.204 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x940aee5c
+
+
+[ 12-12 15:34:07.205 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.205 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x940aee5c
+
+
+[ 12-12 15:34:07.208 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x838feaf8) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.208 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[404] buffer=[0x9bc11000] stride=[1536]
+
+
+[ 12-12 15:34:07.213 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.214 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x8f4cbb2c
+
+
+[ 12-12 15:34:07.214 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.214 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x8f4cbb2c
+
+
+[ 12-12 15:34:07.215 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8a98df70) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.215 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[405] buffer=[0x9bd21000] stride=[1536]
+
+
+[ 12-12 15:34:07.218 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.219 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x8f5bda5c
+
+
+[ 12-12 15:34:07.220 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.220 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x8f5bda5c
+
+
+[ 12-12 15:34:07.220 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8f94ac38) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.221 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[406] buffer=[0x9beb1000] stride=[1536]
+
+
+[ 12-12 15:34:07.224 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.225 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x841b326c
+
+
+[ 12-12 15:34:07.226 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.226 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x841b326c
+
+
+[ 12-12 15:34:07.227 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8f94acd8) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.228 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[407] buffer=[0x9bf41000] stride=[1536]
+
+
+[ 12-12 15:34:07.233 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.234 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x858fee44
+
+
+[ 12-12 15:34:07.234 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.235 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x858fee44
+
+
+[ 12-12 15:34:07.235 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8e1e8500) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.236 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[408] buffer=[0x9c0d1000] stride=[1536]
+
+
+[ 12-12 15:34:07.238 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.242 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[403]
+
+
+[ 12-12 15:34:07.243 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[404]
+
+
+[ 12-12 15:34:07.243 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[405]
+
+
+[ 12-12 15:34:07.244 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[406]
+
+
+[ 12-12 15:34:07.244 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[407]
+
+
+[ 12-12 15:34:07.244 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[408]
+
+
+[ 12-12 15:34:07.277 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[399] buffer=[0x9b399000] stride=[1280]
+
+
+[ 12-12 15:34:07.279 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.321 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[393] buffer=[0x99dc0000] stride=[1536]
+
+
+[ 12-12 15:34:07.326 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.328 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[394] buffer=[0x99e50000] stride=[1536]
+
+
+[ 12-12 15:34:07.335 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.336 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[395] buffer=[0x99ee0000] stride=[1536]
+
+
+[ 12-12 15:34:07.339 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.340 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x92dfec8c
+
+
+[ 12-12 15:34:07.340 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.340 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x92dfec8c
+
+
+[ 12-12 15:34:07.341 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8ad14638) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.342 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[409] buffer=[0x9b69f000] stride=[1536]
+
+
+[ 12-12 15:34:07.345 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.346 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x8eeb9c54
+
+
+[ 12-12 15:34:07.347 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.347 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x8eeb9c54
+
+
+[ 12-12 15:34:07.348 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x73aa7af8) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.349 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[410] buffer=[0x9ba01000] stride=[1536]
+
+
+[ 12-12 15:34:07.351 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.352 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x930395b4
+
+
+[ 12-12 15:34:07.353 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.353 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x930395b4
+
+
+[ 12-12 15:34:07.353 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8dddc568) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.354 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[411] buffer=[0x9bdb1000] stride=[1536]
+
+
+[ 12-12 15:34:07.356 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.357 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x90ea12f4
+
+
+[ 12-12 15:34:07.358 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.358 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x90ea12f4
+
+
+[ 12-12 15:34:07.359 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x93f18988) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.359 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[412] buffer=[0x9bfd1000] stride=[1536]
+
+
+[ 12-12 15:34:07.362 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.363 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x915b74fc
+
+
+[ 12-12 15:34:07.364 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.364 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x915b74fc
+
+
+[ 12-12 15:34:07.365 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x843c7298) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.365 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[413] buffer=[0x9c161000] stride=[1536]
+
+
+[ 12-12 15:34:07.365 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[409]
+
+
+[ 12-12 15:34:07.366 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[410]
+
+
+[ 12-12 15:34:07.367 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[411]
+
+
+[ 12-12 15:34:07.367 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[412]
+
+
+[ 12-12 15:34:07.368 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[413]
+
+
+[ 12-12 15:34:07.371 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.372 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x90ecedec
+
+
+[ 12-12 15:34:07.372 29919:0x781c I/[MALI][Gralloc] ]
+usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+
+[ 12-12 15:34:07.373 29919:0x781c I/[MALI][Gralloc] ]
+[MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x90ecedec
+
+
+[ 12-12 15:34:07.373 29919:0x781c D/GraphicBuffer ]
+alloc, handle(0x8dddf588) (w:384 h:384 s:384 f:0x1 u:0x000133) err(0)
+
+[ 12-12 15:34:07.374 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[414] buffer=[0x9c1f1000] stride=[1536]
+
+
+[ 12-12 15:34:07.377 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.379 29919:0x74df I/chromium ]
+[INFO:gpu_control_service.cc(76)] [GpuControlService::RegisterGpuBuffer] [29919] id=[414]
+
+
+[ 12-12 15:34:07.417 29919:0x781c I/chromium ]
+[INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[399] buffer=[0x9b399000] stride=[1280]
+
+
+[ 12-12 15:34:07.421 29919:0x781c I/chromium ]
+[INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+
+
+[ 12-12 15:34:07.434 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.LinearLayout{44dcdd40 V.E...C. ........ 0,885-1080,1418}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=196.81776, y[0]=16.491394, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42609285, downTime=42609285, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:07.618 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=110.37804, y[0]=635.0946, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42609471, downTime=42609285, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:07.619 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:07.619 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:07.619 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:07.619 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:07.620 29919:0x7823 D/dalvikvm ]
+threadid=124: interp stack at 0x93d16000
+
+[ 12-12 15:34:07.620 29919:0x7823 D/dalvikvm ]
+threadid=124: created from interp
+
+[ 12-12 15:34:07.620 29919:0x7578 D/NO       ]
+type is: 1
+
+[ 12-12 15:34:07.620 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:07.621 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:07.621 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:07.621 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:07.621 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:07.622 29919:0x7824 D/dalvikvm ]
+threadid=125: interp stack at 0x93d36000
+
+[ 12-12 15:34:07.622 29919:0x7824 D/dalvikvm ]
+threadid=125: created from interp
+
+[ 12-12 15:34:07.623 29919:0x7823 D/dalvikvm ]
+threadid=124: notify debugger
+
+
+[ 12-12 15:34:07.623 29919:0x7823 D/dalvikvm ]
+threadid=124 (Global-pool-4-thread-4): calling run()
+
+[ 12-12 15:34:07.623 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:07.623 29919:0x7824 D/dalvikvm ]
+threadid=125: notify debugger
+
+
+[ 12-12 15:34:07.624 29919:0x7824 D/dalvikvm ]
+threadid=125 (Global-pool-5-thread-5): calling run()
+
+[ 12-12 15:34:07.625 29919:0x7823 D/NO       ]
+type is: 1
+
+[ 12-12 15:34:07.626 29919:0x7824 D/NO       ]
+type is: 1
+
+[ 12-12 15:34:07.640 29919:0x7824 I/awcn     ]
+ host:api.m.taobao.com result:[{106.11.53.98:{80 spdy N}}, {106.11.53.98:{8002 spdy N}}, {106.11.53.98:{8003 spdy-ssl N}}, {106.11.53.98:{443 https N}}, {106.11.53.98:{80 http N}}]
+
+[ 12-12 15:34:07.642 29919:0x7823 I/awcn     ]
+ host:api.m.taobao.com result:[{106.11.53.98:{80 spdy N}}, {106.11.53.98:{8002 spdy N}}, {106.11.53.98:{8003 spdy-ssl N}}, {106.11.53.98:{443 https N}}, {106.11.53.98:{80 http N}}]
+
+[ 12-12 15:34:07.644 29919:0x7578 I/awcn     ]
+ host:api.m.taobao.com result:[{106.11.53.98:{80 spdy N}}, {106.11.53.98:{8002 spdy N}}, {106.11.53.98:{8003 spdy-ssl N}}, {106.11.53.98:{443 https N}}, {106.11.53.98:{80 http N}}]
+
+[ 12-12 15:34:07.660 29919:0x7824 D/dalvikvm ]
+threadid=125: exiting
+
+[ 12-12 15:34:07.660 29919:0x7824 D/dalvikvm ]
+threadid=125: bye!
+
+[ 12-12 15:34:07.664 29919:0x7823 D/dalvikvm ]
+threadid=124: exiting
+
+[ 12-12 15:34:07.664 29919:0x7823 D/dalvikvm ]
+threadid=124: bye!
+
+[ 12-12 15:34:07.719 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:07.720 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:07.720 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:07.740 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:07.740 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:07.740 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:07.740 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:07.741 29919:0x7825 D/dalvikvm ]
+threadid=124: interp stack at 0x93d16000
+
+[ 12-12 15:34:07.741 29919:0x7825 D/dalvikvm ]
+threadid=124: created from interp
+
+[ 12-12 15:34:07.741 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:07.741 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:07.741 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:07.742 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:07.742 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:07.742 29919:0x7825 D/dalvikvm ]
+threadid=124: notify debugger
+
+
+[ 12-12 15:34:07.742 29919:0x7825 D/dalvikvm ]
+threadid=124 (Global-pool-6-thread-6): calling run()
+
+[ 12-12 15:34:07.742 29919:0x7826 D/dalvikvm ]
+threadid=125: interp stack at 0x93d36000
+
+[ 12-12 15:34:07.743 29919:0x7826 D/dalvikvm ]
+threadid=125: created from interp
+
+[ 12-12 15:34:07.743 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:07.743 29919:0x7826 D/dalvikvm ]
+threadid=125: notify debugger
+
+
+[ 12-12 15:34:07.743 29919:0x7826 D/dalvikvm ]
+threadid=125 (Global-pool-7-thread-7): calling run()
+
+[ 12-12 15:34:07.753 29919:0x7825 D/dalvikvm ]
+threadid=124: exiting
+
+[ 12-12 15:34:07.754 29919:0x7825 D/dalvikvm ]
+threadid=124: bye!
+
+[ 12-12 15:34:07.769 29919:0x7578 D/dalvikvm ]
+threadid=80: exiting
+
+[ 12-12 15:34:07.770 29919:0x7578 D/dalvikvm ]
+threadid=80: bye!
+
+[ 12-12 15:34:07.821 29919:0x750e V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:07.821 29919:0x750e V/websync  ]
+CookieSyncManager::syncFromRamToFlash STARTS
+
+[ 12-12 15:34:07.851 29919:0x750e V/websync  ]
+CookieSyncManager::syncFromRamToFlash DONE
+
+[ 12-12 15:34:07.862 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:07.862 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:07.862 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:07.862 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=201.81314, y[0]=824.5315, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42609707, downTime=42609707, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:08.029 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:08.030 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:08.030 29919:0x7521 V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:08.073 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:08.074 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:08.074 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:08.074 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:08.074 29919:0x7827 D/dalvikvm ]
+threadid=80: interp stack at 0x892d6000
+
+[ 12-12 15:34:08.075 29919:0x7827 D/dalvikvm ]
+threadid=80: created from interp
+
+[ 12-12 15:34:08.075 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:08.076 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:08.076 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:08.076 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:08.076 29919:0x7827 D/dalvikvm ]
+threadid=80: notify debugger
+
+
+[ 12-12 15:34:08.076 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:08.076 29919:0x7827 D/dalvikvm ]
+threadid=80 (Global-pool-8-thread-8): calling run()
+
+[ 12-12 15:34:08.077 29919:0x7828 D/dalvikvm ]
+threadid=124: interp stack at 0x892f6000
+
+[ 12-12 15:34:08.077 29919:0x7828 D/dalvikvm ]
+threadid=124: created from interp
+
+[ 12-12 15:34:08.077 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:08.077 29919:0x7828 D/dalvikvm ]
+threadid=124: notify debugger
+
+
+[ 12-12 15:34:08.077 29919:0x7828 D/dalvikvm ]
+threadid=124 (Global-pool-9-thread-9): calling run()
+
+[ 12-12 15:34:08.077 29919:0x7577 D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:08.077 29919:0x7577 D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:08.078 29919:0x7577 D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:08.078 29919:0x7577 D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:08.078 29919:0x7829 D/dalvikvm ]
+threadid=126: interp stack at 0x89318000
+
+[ 12-12 15:34:08.079 29919:0x7829 D/dalvikvm ]
+threadid=126: created from interp
+
+[ 12-12 15:34:08.079 29919:0x7577 D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:08.080 29919:0x7829 D/dalvikvm ]
+threadid=126: notify debugger
+
+
+[ 12-12 15:34:08.080 29919:0x7829 D/dalvikvm ]
+threadid=126 (Global-pool-10-thread-10): calling run()
+
+[ 12-12 15:34:08.088 29919:0x7827 D/dalvikvm ]
+threadid=80: exiting
+
+[ 12-12 15:34:08.089 29919:0x7827 D/dalvikvm ]
+threadid=80: bye!
+
+[ 12-12 15:34:08.091 29919:0x7829 D/dalvikvm ]
+threadid=126: exiting
+
+[ 12-12 15:34:08.091 29919:0x7828 D/dalvikvm ]
+threadid=124: exiting
+
+[ 12-12 15:34:08.092 29919:0x7829 D/dalvikvm ]
+threadid=126: bye!
+
+[ 12-12 15:34:08.093 29919:0x7828 D/dalvikvm ]
+threadid=124: bye!
+
+[ 12-12 15:34:08.131 29919:0x750e V/websync  ]
+*** WebSyncManager sync ***
+
+[ 12-12 15:34:08.131 29919:0x750e V/websync  ]
+CookieSyncManager::syncFromRamToFlash STARTS
+
+[ 12-12 15:34:08.137 29919:0x750e V/websync  ]
+CookieSyncManager::syncFromRamToFlash DONE
+
+[ 12-12 15:34:08.178 29919:0x74e3 D/dalvikvm ]
+between the previous GC alloc  8064K
+
+[ 12-12 15:34:08.278 29919:0x74e3 D/dalvikvm ]
+JIT code cache reset in 1 ms (1535880 bytes 1/0)
+
+[ 12-12 15:34:08.291 29919:0x74e3 D/dalvikvm ]
+GC_CONCURRENT freed 8490K (97650), 29% free 58093K/80976K, paused 5ms+16ms, total 113ms
+
+[ 12-12 15:34:08.291 29919:0x74df D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 100ms
+
+[ 12-12 15:34:08.352 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.353 29919:0x7586 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.354 29919:0x7586 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.357 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.357 29919:0x7586 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.364 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.365 29919:0x7585 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.365 29919:0x7585 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.367 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.368 29919:0x7585 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.375 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.376 29919:0x7587 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.377 29919:0x7587 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.379 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.380 29919:0x7587 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.458 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.459 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.462 29919:0x7586 D/skia     ]
+jpeg_decoder mode 0, config 5, w 196, h 143, sample 1, bsLength 3afd!!
+
+
+[ 12-12 15:34:08.464 29919:0x7586 D/skia     ]
+jpeg_decoder mode 1, config 3, w 196, h 143, sample 1, bsLength 3afd!!
+
+
+[ 12-12 15:34:08.466 29919:0x7586 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:08.467 29919:0x7586 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.474 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.474 29919:0x7586 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.475 29919:0x7586 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.477 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=173.83904, y[0]=1047.4154, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42610247, downTime=42609707, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:08.477 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.478 29919:0x7586 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.531 29919:0x7587 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.532 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.535 29919:0x7587 D/skia     ]
+jpeg_decoder mode 0, config 5, w 196, h 196, sample 1, bsLength 4971!!
+
+
+[ 12-12 15:34:08.537 29919:0x7587 D/skia     ]
+jpeg_decoder mode 1, config 3, w 196, h 196, sample 1, bsLength 4971!!
+
+
+[ 12-12 15:34:08.539 29919:0x7587 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:08.540 29919:0x7587 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.542 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.543 29919:0x7587 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.543 29919:0x7587 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.544 29919:0x7585 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.544 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.546 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.547 29919:0x7587 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.549 29919:0x7585 D/skia     ]
+jpeg_decoder mode 0, config 5, w 196, h 196, sample 1, bsLength 76ba!!
+
+
+[ 12-12 15:34:08.552 29919:0x7585 D/skia     ]
+jpeg_decoder mode 1, config 3, w 196, h 196, sample 1, bsLength 76ba!!
+
+
+[ 12-12 15:34:08.555 29919:0x7585 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:08.556 29919:0x7585 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.558 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.559 29919:0x7585 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.559 29919:0x7585 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.561 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.562 29919:0x7585 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.565 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.580 29919:0x7586 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.581 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.582 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.582 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.583 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.583 29919:0x7586 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.584 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.585 29919:0x7586 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.585 29919:0x7586 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.588 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.589 29919:0x7586 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.602 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.626 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:08.893 29919:0x7585 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.893 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.899 29919:0x7585 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength 60f3!!
+
+
+[ 12-12 15:34:08.902 29919:0x7585 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength 60f3!!
+
+
+[ 12-12 15:34:08.906 29919:0x7585 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:08.912 29919:0x7585 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.914 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.915 29919:0x7585 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.916 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.916 29919:0x7585 D/ImageLoader ]
+Image already is loading. Waiting... [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.930 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:08.930 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.934 29919:0x7586 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength a969!!
+
+
+[ 12-12 15:34:08.937 29919:0x7586 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength a969!!
+
+
+[ 12-12 15:34:08.942 29919:0x7586 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:08.943 29919:0x7586 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.944 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.945 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.945 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.946 29919:0x7586 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.946 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.947 29919:0x7586 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.947 29919:0x7586 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.949 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:08.949 29919:0x7586 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:08.974 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:08.985 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.001 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.002 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.102 29919:0x7587 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:09.102 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.107 29919:0x7587 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength 1fbe7!!
+
+
+[ 12-12 15:34:09.110 29919:0x7587 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength 1fbe7!!
+
+
+[ 12-12 15:34:09.121 29919:0x7587 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:09.121 29919:0x7587 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.123 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.123 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.123 29919:0x7585 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.124 29919:0x7587 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.124 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.125 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.125 29919:0x7587 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.125 29919:0x7587 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.126 29919:0x7585 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.126 29919:0x7585 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.128 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.129 29919:0x7587 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:09.130 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:09.130 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:09.130 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:09.131 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.view.SquareImageView{429b98f8 V.ED..C. ........ 0,0-338,338 #7f0e02cc app:id/goods_left_urlImg}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=243.7493, y[0]=148.51276, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42610987, downTime=42610987, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:09.132 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.132 29919:0x7585 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:09.139 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.144 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.149 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i3/TB1N3DzIpXXXXXMXpXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.161 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.305 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=274.7456, y[0]=1313.2769, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42611162, downTime=42610987, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:09.385 29919:0x7587 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:09.385 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.388 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:09.389 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.392 29919:0x7587 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 245, sample 1, bsLength 9229!!
+
+
+[ 12-12 15:34:09.394 29919:0x7586 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength c3fe!!
+
+
+[ 12-12 15:34:09.394 29919:0x7587 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 245, sample 1, bsLength 9229!!
+
+
+[ 12-12 15:34:09.397 29919:0x7586 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength c3fe!!
+
+
+[ 12-12 15:34:09.400 29919:0x7587 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:09.401 29919:0x7587 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.404 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.405 29919:0x7587 D/ImageLoader ]
+Image already is loading. Waiting... [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.409 29919:0x7586 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:09.410 29919:0x7586 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.411 29919:0x7587 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.411 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.411 29919:0x7586 D/ImageLoader ]
+Image already is loading. Waiting... [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.412 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.412 29919:0x7587 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.413 29919:0x7587 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.414 29919:0x7587 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.414 29919:0x7587 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.417 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.418 29919:0x7587 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:09.425 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.446 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.447 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.447 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.451 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.461 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.498 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:09.498 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:09.498 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:09.499 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=330.69382, y[0]=947.46747, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42611339, downTime=42611339, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:09.582 29919:0x7585 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:09.583 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.591 29919:0x7585 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength 12137!!
+
+
+[ 12-12 15:34:09.596 29919:0x7585 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength 12137!!
+
+
+[ 12-12 15:34:09.604 29919:0x7585 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:09.605 29919:0x7585 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.606 29919:0x7586 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.607 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.607 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.608 29919:0x7585 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.608 29919:0x7586 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.609 29919:0x7586 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.610 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.612 29919:0x7585 D/ImageLoader ]
+Load image from network [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.613 29919:0x7585 D/ImageLoader ]
+Cache image on disk [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.616 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.617 29919:0x7586 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:09.618 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.618 29919:0x7585 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:09.630 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.631 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.631 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.645 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i2/TB1kUK_GVXXXXXiXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.651 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i2/TB1pTG4GVXXXXXoXVXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.656 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i1/TB1CbfxGpXXXXbPaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:09.911 29919:0x7539 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:34:09.916 29919:0x7539 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:34:09.942 29919:0x7585 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:09.942 29919:0x7585 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:09.952 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=298.64566, y[0]=1125.5692, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42611808, downTime=42611339, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:09.986 29919:0x74e3 D/dalvikvm ]
+between the previous GC alloc  8064K
+
+[ 12-12 15:34:09.994 29919:0x7585 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength cfa6!!
+
+
+[ 12-12 15:34:10.129 29919:0x74e3 D/dalvikvm ]
+GC_CONCURRENT freed 6679K (44880), 27% free 59606K/80976K, paused 7ms+17ms, total 143ms
+
+[ 12-12 15:34:10.129 29919:0x74df D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 51ms
+
+[ 12-12 15:34:10.129 29919:0x7585 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 131ms
+
+[ 12-12 15:34:10.131 29919:0x7587 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 30ms
+
+[ 12-12 15:34:10.132 29919:0x7586 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-12 15:34:10.133 29919:0x7585 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength cfa6!!
+
+
+[ 12-12 15:34:10.140 29919:0x7585 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:10.140 29919:0x7585 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.142 29919:0x7585 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB1CpEZIpXXXXcsXVXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:10.143 29919:0x7585 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i5/LB1bFnDHpXXXXcZXXXXXXXXXXXX_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:10.143 29919:0x7585 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:10.144 29919:0x7585 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:10.144 29919:0x7585 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_196x196.jpg_1080x1920]
+
+[ 12-12 15:34:10.162 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.175 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.182 29919:0x7585 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.182 29919:0x7585 D/ImageLoader ]
+Image already is loading. Waiting... [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.277 29919:0x7586 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:10.277 29919:0x7586 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:10.301 29919:0x7587 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:34:10.301 29919:0x7587 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:34:10.306 29919:0x7587 D/skia     ]
+jpeg_decoder mode 0, config 5, w 336, h 336, sample 1, bsLength 210f0!!
+
+
+[ 12-12 15:34:10.308 29919:0x7586 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.310 29919:0x7586 D/ImageLoader ]
+Start display image task [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.310 29919:0x7585 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.311 29919:0x7587 D/skia     ]
+jpeg_decoder mode 1, config 3, w 336, h 336, sample 1, bsLength 210f0!!
+
+
+[ 12-12 15:34:10.313 29919:0x7586 D/ImageLoader ]
+Image already is loading. Waiting... [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.318 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.319 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.322 29919:0x7587 D/skia     ]
+jpeg_decoder finish successfully, L:1879!!!
+
+
+[ 12-12 15:34:10.323 29919:0x7587 D/ImageLoader ]
+Cache image in memory [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.324 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i3/TB1iINGHXXXXXcgaXXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.325 29919:0x7586 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.330 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i3/TB1Bq24IXXXXXaJXVXXXXXXXXXX_!!2-item_pic.png_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.338 29919:0x74df D/ImageLoader ]
+Load image from memory cache [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.372 29919:0x74df D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.372 29919:0x74df D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://gw.alicdn.com/bao/uploaded/i2/TB10ZG6HVXXXXX3XFXXXXXXXXXX_!!0-item_pic.jpg_336x336.jpg_338x1920]
+
+[ 12-12 15:34:10.539 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.TextView{42c14f10 V.ED.... ........ 27,297-1053,394 #7f0e02bd app:id/tv_desc}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=377.62534, y[0]=63.611633, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42612396, downTime=42612396, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:10.540 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.LinearLayout{425df5c0 V.E..... ........ 0,310-1080,885}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=404.62534, y[0]=360.61163, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42612396, downTime=42612396, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:10.540 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.widget.observablescrollview.ObservableTRecyclerView{43a62890 V.ED...L ........ 0,0-1080,1557 #7f0e0159 app:id/list}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=404.62534, y[0]=670.61163, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42612396, downTime=42612396, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:12.022 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.VerticalViewPager{425640e8 VFED.... ........ 0,0-1080,1557 #7f0e015c app:id/vvp_detail_main}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=412.61795, y[0]=662.6158, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42613874, downTime=42612396, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:12.324 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:12.324 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:12.324 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:12.325 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.TextView{42c14f10 V.ED.... ........ 27,297-1053,394 #7f0e02bd app:id/tv_desc}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=352.64847, y[0]=26.63092, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42614181, downTime=42614181, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:12.325 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.LinearLayout{425df5c0 V.E..... ........ 0,310-1080,885}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=379.64847, y[0]=323.63092, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42614181, downTime=42614181, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:12.325 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.widget.observablescrollview.ObservableTRecyclerView{43a62890 V.ED...L ........ 0,0-1080,1557 #7f0e0159 app:id/list}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=379.64847, y[0]=633.6309, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42614181, downTime=42614181, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:13.329 29919:0x7506 D/libc-netbsd ]
+getaddrinfo: adash.m.taobao.com get result from proxy >>
+
+
+[ 12-12 15:34:13.329 29919:0x7506 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:34:13.331 29919:0x7506 I/System.out ]
+[socket][95] connection adash.m.taobao.com/140.205.36.99:80;LocalPort=33543(10000)
+
+[ 12-12 15:34:13.331 29919:0x7506 I/System.out ]
+[CDS]connect[adash.m.taobao.com/140.205.36.99:80] tm:10
+
+[ 12-12 15:34:13.332 29919:0x7506 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :80 
+
+[ 12-12 15:34:13.353 29919:0x7506 I/System.out ]
+[socket][/172.26.206.6:33543] connected
+
+[ 12-12 15:34:13.353 29919:0x7506 I/System.out ]
+[CDS]rx timeout:60000
+
+[ 12-12 15:34:13.357 29919:0x7506 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:13.438 29919:0x7506 I/System.out ]
+[CDS]close[33543]
+
+[ 12-12 15:34:13.438 29919:0x7506 I/System.out ]
+close [socket][/0.0.0.0:33543]
+
+[ 12-12 15:34:13.438 29919:0x7506 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:34:13.440 29919:0x7506 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:34:14.516 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.observablescrollview.ObservableTRecyclerView{43a62890 V.ED...L ........ 0,0-1080,1557 #7f0e0159 app:id/list}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=379.64847, y[0]=633.6309, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42616374, downTime=42614181, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+Couldn't open '/dev/touch' (Permission denied)
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+tpd read x fail: Bad file number
+
+[ 12-12 15:34:14.894 29919:0x74df D/VelocityTracker ]
+tpd read y fail: Bad file number
+
+[ 12-12 15:34:14.894 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.TextView{42c14f10 V.ED.... ........ 27,297-1053,394 #7f0e02bd app:id/tv_desc}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=302.69473, y[0]=15.636658, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42616751, downTime=42616751, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:14.895 29919:0x74df I/View     ]
+Touch down dispatch to android.widget.LinearLayout{425df5c0 V.E..... ........ 0,310-1080,885}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=329.69473, y[0]=312.63666, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42616751, downTime=42616751, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:14.895 29919:0x74df I/View     ]
+Touch down dispatch to com.taobao.ishopping.widget.observablescrollview.ObservableTRecyclerView{43a62890 V.ED...L ........ 0,0-1080,1557 #7f0e0159 app:id/list}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=329.69473, y[0]=622.63666, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42616751, downTime=42616751, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:17.830 29919:0x74df I/View     ]
+Touch up dispatch to com.taobao.ishopping.widget.observablescrollview.ObservableTRecyclerView{43a62890 V.ED...L ........ 0,0-1080,1557 #7f0e0159 app:id/list}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=287.23618, y[0]=662.7402, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=42619686, downTime=42616751, deviceId=2, source=0x1002 }
+
+[ 12-12 15:34:20.688 29919:0x755f D/dalvikvm ]
+create interp thread : stack size=128KB
+
+[ 12-12 15:34:20.689 29919:0x755f D/dalvikvm ]
+create new thread
+
+[ 12-12 15:34:20.689 29919:0x755f D/dalvikvm ]
+new thread created
+
+[ 12-12 15:34:20.689 29919:0x755f D/dalvikvm ]
+update thread list
+
+[ 12-12 15:34:20.689 29919:0x784b D/dalvikvm ]
+threadid=80: interp stack at 0x843ef000
+
+[ 12-12 15:34:20.690 29919:0x784b D/dalvikvm ]
+threadid=80: created from interp
+
+[ 12-12 15:34:20.690 29919:0x755f D/dalvikvm ]
+start new thread
+
+[ 12-12 15:34:20.691 29919:0x784b D/dalvikvm ]
+threadid=80: notify debugger
+
+
+[ 12-12 15:34:20.691 29919:0x784b D/dalvikvm ]
+threadid=80 (ScreenShotSaver): calling run()
+
+[ 12-12 15:34:20.708 29919:0x74df D/dalvikvm ]
+between the previous GC alloc  2787K
+
+[ 12-12 15:34:20.827 29919:0x74df D/dalvikvm ]
+GC_FOR_ALLOC freed 4173K (28810), 29% free 58220K/80976K, paused 119ms, total 119ms
+
+[ 12-12 15:34:20.835 29919:0x74df I/dalvikvm-heap ]
+Grow heap (frag case) to 65.864MB for 7672336-byte allocation
+
+[ 12-12 15:34:20.897 29919:0x74df D/dalvikvm ]
+between the previous GC alloc  7493K
+
+[ 12-12 15:34:20.988 29919:0x74df D/dalvikvm ]
+GC_FOR_ALLOC freed 22K (554), 26% free 65691K/88472K, paused 90ms, total 91ms
+
+[ 12-12 15:34:20.994 29919:0x74df I/dalvikvm-heap ]
+Grow heap (frag case) to 72.257MB for 6726256-byte allocation
+
+[ 12-12 15:34:21.001 29919:0x74df D/dalvikvm ]
+between the previous GC alloc  6569K
+
+[ 12-12 15:34:21.090 29919:0x74df D/dalvikvm ]
+GC_FOR_ALLOC freed <1K (3), 24% free 72260K/95044K, paused 89ms, total 89ms
+
+[ 12-12 15:34:21.097 29919:0x74df I/dalvikvm-heap ]
+Grow heap (frag case) to 79.575MB for 7672336-byte allocation
+
+[ 12-12 15:34:21.105 29919:0x784b I/System.out ]
+mkdir failed: EEXIST (File exists) path = /sdcard/kikbuglog
+
+[ 12-12 15:34:21.288 29919:0x755f D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905660657
+
+[ 12-12 15:34:21.288 29919:0x755f I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:34:21.289 29919:0x755f I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-12 15:34:21.967 29919:0x755f D/cn.edu.nju.ise.kikandroid ]
+Log:1449905661967
+
+[ 12-12 15:34:22.022 29919:0x755f I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:34:22.022 29919:0x755f I/System.out ]
+close [socket][/0.0.0.0:10737]
+
+[ 12-12 15:34:28.915 29919:0x74df D/WebView  ]
+onPause
+
+[ 12-12 15:34:28.916 29919:0x74df W/AwContents ]
+onPause com.android.org.chromium.android_webview.AwContents@43a34210
+
+[ 12-12 15:34:28.916 29919:0x74df D/AwPasswordHandler ]
+setViewInfo, awcontents = null
+
+[ 12-12 15:34:28.918 29919:0x74df D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}
+
+[ 12-12 15:34:28.940 29919:0x74df D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@42a6ebc0
+
+[ 12-12 15:34:28.940 29919:0x74df D/WebView  ]
+evaluateJavascript=window.WindVane && window.WindVane.fireEvent('WV.Event.APP.Background', '{}', null);
+
+[ 12-12 15:34:28.946 29919:0x74df V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{4510f660 com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity,ident = 18}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{4264bbe8 I.E..... R....... 0,0-1080,1776}
+
+[ 12-12 15:34:28.947 29919:0x74df D/ActivityThread ]
+ACT-HIDE_WINDOW handled : 0 / android.os.BinderProxy@42a65448
+
+[ 12-12 15:34:28.954 29919:0x74df V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{426fb620 com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity,ident = 16}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{425563b8 I.E..... R....... 0,0-1080,1776}
+
+[ 12-12 15:34:28.954 29919:0x74df D/ActivityThread ]
+ACT-HIDE_WINDOW handled : 0 / android.os.BinderProxy@42b75c68
+
+[ 12-12 15:34:28.964 29919:0x74df D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:34:28.967 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x7a7bc188) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:28.969 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8e819640) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:28.970 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8cd9f798) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:28.972 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8f6a4708) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:28.997 29919:0x74df D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:34:29.000 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x851d5cf8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.001 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x849c6528) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.002 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8f3ebf30) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.003 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8cd75968) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.091 29919:0x74df D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:34:29.092 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8a7e9e28) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.093 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x91529778) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.094 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x8ea244f0) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.095 29919:0x74df D/GraphicBuffer ]
+unregister, handle(0x94176db8) (w:1080 h:1776 s:1088 f:0x1 u:0x000900)
+
+[ 12-12 15:34:29.121 29919:0x74df D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:34:29.129 29919:0x74df D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:34:29.468 29919:0x74df V/ActivityThread ]
+Finishing stop of ActivityRecord{42af84a0 token=android.os.BinderProxy@42a6ebc0 {com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@425c3468
+
+[ 12-12 15:34:29.469 29919:0x74df V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{44396948 com.taobao.ishopping/com.taobao.ishopping.activity.detail.DetailActivity,ident = 20}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{4247f4a8 I.E..... R......D 0,0-1080,1776}
+
+[ 12-12 15:34:29.469 29919:0x74df D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@42a6ebc0
+
+[ 12-12 15:34:30.185 29919:0x7521 I/awcn     ]
+|[seq:AWCN1_1]  errorCode::-2032
+
+[ 12-12 15:34:30.185 29919:0x7521 I/awcn     ]
+|[seq:AWCN1_1] status:DISCONNECTED
+
+[ 12-12 15:34:30.186 29919:0x7517 D/awcn     ]
+|[seq:AWCN1_1] Session:anet.channel.session.AccsSession@427fb7e8 EventType:DISCONNECTED Event:anet.channel.entity.DisconnectedEvent@42b7c550
+
+[ 12-12 15:34:30.188 29919:0x7521 D/awcn     ]
+ sdkv=1.0.16,connectionTime=19,liveTime=480,requestCount=1,sendSizeCount=0,recvSizeCount=0,inceptCount=0,ackTime=0,closeReason=null,ppkgCount=0,pRate=45000,retryTimes=0,errorCode=-2032,conntype=ACCS,utdid=VQYLl/y3d2cDALH699XC27uf,sessionid=_1449905189429,isProxy=false,isTunnel=false,authTime=45,sslTime=25,isKL=1,sslCalTime=1,lastPingInterval=480751,isBackground=true,cfRCount=0,stdRCount=1
+
+[ 12-12 15:34:30.191 29919:0x7517 D/awcn     ]
+|[seq:AWCN1_1] session:anet.channel.session.AccsSession@427fb7e8 host:https://acs.m.taobao.com appIsBg:true isHandleFinish:false
+
+[ 12-12 15:34:30.193 29919:0x7517 D/awcn     ]
+  SessionRequestStatist:seq=AWCN1,host=https://acs.m.taobao.com,cacheCount=0,waitCount=0,waitAndSuccess=0,liveTime=481025,emsg=,rawStrategys=[{140.205.163.80:{443 spdy-bio A}}, {140.205.163.80:{80 spdy-bio N}}],strategySuccess=true,strategyRetryTimes=1,links=[link={ip=140.205.163.80,port=443,type=ACCS,msg=START-313-CONNECTED-357-AUTH_SUCC-481020-DISCONNECTED}]
+
+[ 12-12 15:34:30.194 29919:0x7517 D/awcn     ]
+|[seq:AWCN1_1] app background,return session:anet.channel.session.AccsSession@427fb7e8
+
+[ 12-12 15:34:30.464 29919:0x7505 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:34:30.466 29919:0x7505 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:34:30.482 29919:0x7506 D/libc-netbsd ]
+getaddrinfo: adash.m.taobao.com get result from proxy >>
+
+
+[ 12-12 15:34:30.483 29919:0x7506 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:34:30.483 29919:0x7506 I/System.out ]
+[socket][96] connection adash.m.taobao.com/140.205.36.99:80;LocalPort=41599(10000)
+
+[ 12-12 15:34:30.483 29919:0x7506 I/System.out ]
+[CDS]connect[adash.m.taobao.com/140.205.36.99:80] tm:10
+
+[ 12-12 15:34:30.484 29919:0x7506 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :80 
+
+[ 12-12 15:34:30.490 29919:0x7506 I/System.out ]
+[socket][/172.26.206.6:41599] connected
+
+[ 12-12 15:34:30.490 29919:0x7506 I/System.out ]
+[CDS]rx timeout:60000
+
+[ 12-12 15:34:30.496 29919:0x7506 D/dalvikvm ]
+between the previous GC alloc  8004K
+
+[ 12-12 15:34:30.593 29919:0x7506 D/dalvikvm ]
+GC_FOR_ALLOC freed 15521K (5320), 32% free 64743K/95036K, paused 98ms, total 98ms
+
+[ 12-12 15:34:30.594 29919:0x7506 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-12 15:34:30.662 29919:0x7506 I/System.out ]
+[CDS]close[41599]
+
+[ 12-12 15:34:30.662 29919:0x7506 I/System.out ]
+close [socket][/0.0.0.0:41599]
+
+[ 12-12 15:34:30.663 29919:0x7506 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:34:30.664 29919:0x7506 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:35:01.263 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.263 29919:0x74df V/Provider/Settings ]
+invalidate [system]: current 3794 != cached 3793
+
+[ 12-12 15:35:01.267 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_caps , value = null
+
+[ 12-12 15:35:01.267 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.272 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_replace , value = null
+
+[ 12-12 15:35:01.272 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.278 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_punctuate , value = null
+
+[ 12-12 15:35:01.278 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.280 29919:0x74df V/Provider/Settings ]
+from db cache, name = show_password , value = null
+
+[ 12-12 15:35:01.293 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.293 29919:0x74df V/Provider/Settings ]
+invalidate [system]: current 3795 != cached 3794
+
+[ 12-12 15:35:01.294 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_caps , value = null
+
+[ 12-12 15:35:01.294 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.296 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_replace , value = null
+
+[ 12-12 15:35:01.296 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.297 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_punctuate , value = null
+
+[ 12-12 15:35:01.297 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:01.298 29919:0x74df V/Provider/Settings ]
+from db cache, name = show_password , value = null
+
+[ 12-12 15:35:08.138 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.138 29919:0x74df V/Provider/Settings ]
+invalidate [system]: current 3796 != cached 3795
+
+[ 12-12 15:35:08.143 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_caps , value = null
+
+[ 12-12 15:35:08.143 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.150 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_replace , value = null
+
+[ 12-12 15:35:08.150 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.158 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_punctuate , value = null
+
+[ 12-12 15:35:08.158 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.160 29919:0x74df V/Provider/Settings ]
+from db cache, name = show_password , value = null
+
+[ 12-12 15:35:08.171 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.171 29919:0x74df V/Provider/Settings ]
+invalidate [system]: current 3797 != cached 3796
+
+[ 12-12 15:35:08.173 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_caps , value = null
+
+[ 12-12 15:35:08.173 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.175 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_replace , value = null
+
+[ 12-12 15:35:08.175 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.176 29919:0x74df V/Provider/Settings ]
+from db cache, name = auto_punctuate , value = null
+
+[ 12-12 15:35:08.176 29919:0x74df V/Provider/Settings ]
+get setting for user 0 by user 0 so skipping cache
+
+[ 12-12 15:35:08.185 29919:0x74df V/Provider/Settings ]
+from db cache, name = show_password , value = null
+
+[ 12-12 15:35:10.190 29919:0x781f D/dalvikvm ]
+threadid=122: exiting
+
+[ 12-12 15:35:10.191 29919:0x781f D/dalvikvm ]
+threadid=122: bye!
+
+[ 12-12 15:35:13.206 29919:0x7539 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:35:13.207 29919:0x7539 D/SQLiteDatabase ]
+endTransaction()
+

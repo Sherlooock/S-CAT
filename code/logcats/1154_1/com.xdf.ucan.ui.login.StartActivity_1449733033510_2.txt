@@ -1,0 +1,2339 @@
+--------- beginning of /dev/log/main
+[ 12-10 15:31:05.313  5811: 5811 D/long     ]
+连接的数据库是：xdf004483326.db
+
+[ 12-10 15:31:05.328  5811: 5811 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:31:05.333  5811: 5811 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:31:05.348  5811: 5811 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:31:05.358  5811: 5811 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:31:05.418  5811: 5811 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4400
+
+[ 12-10 15:31:05.428  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 15:31:05.428  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 15:31:05.498  5811: 5811 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:31:05.498  5811: 5811 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:31:05.513  5811: 5826 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:31:05.518  5811: 5826 I/##COMMON_io.rong.push.PushService:DeviceId ]
+357512059381999
+
+[ 12-10 15:31:05.533  5811: 5826 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.18:8611
+
+[ 12-10 15:31:05.533  5811: 5826 I/PushHandler ]
+the saved time = 1449726629899current time = 1449732665538
+
+[ 12-10 15:31:05.533  5811: 5826 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.18:8611
+
+[ 12-10 15:31:05.543  5811: 5826 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-I9500|19|WIFI|46001
+
+[ 12-10 15:31:05.548  5811: 5826 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-I9500|19|WIFI|46001 push version:2.6
+
+[ 12-10 15:31:05.668  5811: 5826 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:31:05.823  5811: 5833 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:31:05.828  5811: 5833 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:31:05.828  5811: 5833 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:31:05.833  5811: 5833 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:31:09.828  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:31:09.848  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:31:09.868  5811: 5826 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:31:09.868  5811: 5826 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 15:34:11.403  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 15:34:11.408  5811: 5811 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 15:34:11.443  5811: 5826 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.18
+
+[ 12-10 15:34:11.443  5811: 5826 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 15:34:11.443  5811: 5826 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:34:11.693  5811: 5833 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 15:34:11.693  5811: 5833 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 15:34:41.843  6376: 6376 D/long     ]
+连接的数据库是：xdf004483326.db
+
+[ 12-10 15:34:41.853  6376: 6376 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:34:41.908  6376: 6376 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 15:34:41.973  6376: 6376 W/ContextImpl ]
+Failed to ensure directory: /storage/extSdCard/Android/data/com.xdf.ucan/cache
+
+[ 12-10 15:34:41.983  6376: 6376 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-10 15:34:41.988  6376: 6376 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-10 15:34:41.993  6376: 6376 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 15:34:42.003  6376: 6376 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:34:42.133  6376: 6376 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+300
+
+[ 12-10 15:34:42.138  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 15:34:42.153  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 15:34:42.153  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 15:34:42.153  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 15:34:42.153  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 15:34:42.153  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 15:34:42.158  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 15:34:42.163  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 15:34:42.168  6376: 6376 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 15:34:42.168  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 15:34:42.168  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 15:34:42.168  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 15:34:42.253  6376: 6376 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 15:34:42.273  6396: 6396 D/long     ]
+连接的数据库是：xdf004483326.db
+
+[ 12-10 15:34:42.283  6396: 6396 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:34:42.283  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:34:42.298  6396: 6396 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 15:34:42.383  6396: 6396 D/RongService ]
+onCreate, pid=6396
+
+[ 12-10 15:34:42.383  6396: 6396 D/RongService ]
+onBind, pid=6396
+
+[ 12-10 15:34:42.423  6396: 6396 W/ContextImpl ]
+Failed to ensure directory: /storage/extSdCard/Android/data/com.xdf.ucan/cache
+
+[ 12-10 15:34:42.438  6396: 6396 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+357512059381999
+
+[ 12-10 15:34:42.448  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 737K, 13% free 17132K/19572K, paused 27ms, total 27ms
+
+[ 12-10 15:34:42.503  6396: 6396 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x429dbe70
+
+[ 12-10 15:34:42.508  6396: 6396 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x429dbe70
+
+[ 12-10 15:34:42.513  6396: 6396 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 15:34:42.528  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.301MB for 8294416-byte allocation
+
+[ 12-10 15:34:42.543  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 9% free 25227K/27676K, paused 17ms, total 17ms
+
+[ 12-10 15:34:42.563  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 9% free 25231K/27676K, paused 3ms+3ms, total 16ms
+
+[ 12-10 15:34:42.568  6376: 6376 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 15:34:42.568  6376: 6376 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=O1gsAYb6y5o9tzXYPTdw5g==&encodePwd=NccAIMfVSflC57NBCz1kzQ==&guid=81bae694-3e04-4f8b-854a-d7e254b048e8&sign=D182CF17FB5465DBC19A7DF4E20E1A44&appOption=1&accessTokenOption=1
+
+[ 12-10 15:34:42.568  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:34:42.573  6414: 6414 D/long     ]
+连接的数据库是：xdf004483326.db
+
+[ 12-10 15:34:42.583  6414: 6414 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:34:42.583  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:34:42.583  6414: 6414 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:34:42.598  6376: 6376 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42a31c68
+
+[ 12-10 15:34:42.608  6414: 6414 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:34:42.623  6414: 6414 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:34:42.663  6376: 6431 I/System.out ]
+pool-4-thread-1 calls detatch()
+
+[ 12-10 15:34:42.693  6414: 6414 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1600
+
+[ 12-10 15:34:42.693  6376: 6376 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 15:34:42.708  6414: 6414 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:34:42.718  6414: 6414 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:34:42.718  6414: 6414 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:34:42.718  6414: 6414 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:34:42.723  6376: 6376 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-10 15:34:42.733  6376: 6376 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-10 15:34:42.733  6376: 6376 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483326\",\"NickName\":\"151210152424454_v\",\"HideMobile\":\"151****3566\",\"HideEmail\":\"151****524244543dc31_v@v.com\",\"Mobile\":\"15152663566\",\"Email\":\"1512101524244543dc31_v@v.com\",\"LoginToken\":\"3165cedd-eafd-41d3-93b0-62c74e431224\",\"Sign\":\"567E10725ADDD44FD8C2113761C87A73\",\"AccessToken\":\"3165cedd-eafd-41d3-93b0-62c74e431224\",\"AccessTokenExpireTime\":\"2016-01-29 05:34:37\"}","Message":"成功"}
+
+[ 12-10 15:34:42.733  6376: 6376 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004483326\",\"NickName\":\"151210152424454_v\",\"HideMobile\":\"151****3566\",\"HideEmail\":\"151****524244543dc31_v@v.com\",\"Mobile\":\"15152663566\",\"Email\":\"1512101524244543dc31_v@v.com\",\"LoginToken\":\"3165cedd-eafd-41d3-93b0-62c74e431224\",\"Sign\":\"567E10725ADDD44FD8C2113761C87A73\",\"AccessToken\":\"3165cedd-eafd-41d3-93b0-62c74e431224\",\"AccessTokenExpireTime\":\"2016-01-29 05:34:37\"}","Message":"成功"}
+
+[ 12-10 15:34:42.738  6414: 6442 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:34:42.738  6414: 6442 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:34:42.743  6376: 6376 D/long     ]
+{"UserId":"xdf004483326","NickName":"151210152424454_v","HideMobile":"151****3566","HideEmail":"151****524244543dc31_v@v.com","Mobile":"15152663566","Email":"1512101524244543dc31_v@v.com","LoginToken":"3165cedd-eafd-41d3-93b0-62c74e431224","Sign":"567E10725ADDD44FD8C2113761C87A73","AccessToken":"3165cedd-eafd-41d3-93b0-62c74e431224","AccessTokenExpireTime":"2016-01-29 05:34:37"}
+
+[ 12-10 15:34:42.743  6414: 6442 I/##COMMON_io.rong.push.PushService:DeviceId ]
+357512059381999
+
+[ 12-10 15:34:42.748  6414: 6442 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.18:8611
+
+[ 12-10 15:34:42.748  6414: 6442 I/PushHandler ]
+the saved time = 1449726629899current time = 1449732882751
+
+[ 12-10 15:34:42.748  6414: 6442 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.18:8611
+
+[ 12-10 15:34:42.748  6414: 6442 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-I9500|19|WIFI|46001
+
+[ 12-10 15:34:42.748  6414: 6442 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-I9500|19|WIFI|46001 push version:2.6
+
+[ 12-10 15:34:42.753  6376: 6376 D/long     ]
+DATABASE_NAME:xdf004483326.db
+
+[ 12-10 15:34:42.778  6376: 6376 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:34:42.783  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 15:34:42.803  6376: 6376 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483326&sign=4A31F9353608DA7F8D010EC271FBBD04
+
+[ 12-10 15:34:42.803  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:34:42.823  6414: 6442 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:34:42.843  6376: 6438 I/System.out ]
+pool-6-thread-1 calls detatch()
+
+[ 12-10 15:34:42.878  6376: 6431 I/System.out ]
+pool-4-thread-1 calls detatch()
+
+[ 12-10 15:34:42.878  6376: 6376 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:34:42.883  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:34:42.958  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:34:42.963  6414: 6448 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:34:42.968  6414: 6448 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:34:42.968  6414: 6448 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:34:42.968  6414: 6448 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:34:43.018  6376: 6376 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 15:34:43.018  6376: 6376 D/http     ]
+请求的参数：
+
+[ 12-10 15:34:43.018  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:34:43.018  6376: 6376 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:34:43.018  6376: 6376 D/http     ]
+请求的参数：userId=xdf004483326&size=big
+
+[ 12-10 15:34:43.018  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:34:43.023  6376: 6376 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:34:43.023  6376: 6376 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:34:43.023  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:34:43.098  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:34:43.118  6376: 6454 I/System.out ]
+pool-4-thread-2 calls detatch()
+
+[ 12-10 15:34:43.118  6376: 6431 I/System.out ]
+pool-4-thread-1 calls detatch()
+
+[ 12-10 15:34:43.118  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:34:43.133  6376: 6376 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 15:34:43.218  6376: 6376 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 15:34:43.223&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 15:34:43.174&resourcestartdate=2015-12-10 15:12:52.267&schoolid=0&userid=xdf004483326&videoenddate=2015-12-10 15:34:43.199&videostartdate=2015-12-10 15:08:29.393&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:34:43.223  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:34:43.223  6376: 6376 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483326&schoolid=0&resourcestartdate=2015-12-10 15:12:52.267&resourceenddate=2015-12-10 15:34:43.174&videostartdate=2015-12-10 15:08:29.393&videoenddate=2015-12-10 15:34:43.199&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 15:34:43.223&appid=5004&sign=D53E992A9719428A766323A8C06ED92D
+
+[ 12-10 15:34:43.223  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:34:43.288  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:34:43.318  6376: 6376 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1572
+
+[ 12-10 15:34:43.318  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: -943, R: 0, B: 0
+
+[ 12-10 15:34:43.323  6376: 6376 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:34:43.323  6376: 6376 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-10 15:34:43.343  6376: 6376 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 15:34:43.343  6376: 6376 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449732877949}
+
+[ 12-10 15:34:43.343  6376: 6376 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449732877949}
+
+[ 12-10 15:34:43.343  6376: 6376 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:34:43.348  6376: 6376 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732877953}
+
+[ 12-10 15:34:43.348  6376: 6376 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732877953}
+
+[ 12-10 15:34:43.423  6376: 6376 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:34:43.423  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:34:43.423  6376: 6376 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:34:43.498  6376: 6408 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 15:34:43.768  6376: 6376 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 15:34:43.858  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:34:43.873  6376: 6461 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 15:34:43.878  6376: 6461 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 15:34:44.058  6376: 6376 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 15:34:44.058  6376: 6376 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 15:34:44.058  6376: 6376 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 15:34:44.058  6376: 6376 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 15:34:44.313  6414: 6414 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:34:44.348  6414: 6414 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:34:44.373  6414: 6442 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:34:44.373  6414: 6442 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 15:35:02.743  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 2291K, 14% free 26645K/30640K, paused 34ms, total 34ms
+
+[ 12-10 15:35:02.763  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 35.591MB for 8294416-byte allocation
+
+[ 12-10 15:35:02.788  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 11% free 34742K/38744K, paused 24ms, total 24ms
+
+[ 12-10 15:35:02.818  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 74K, 11% free 34668K/38744K, paused 3ms+4ms, total 31ms
+
+[ 12-10 15:35:03.158  6376: 6376 D/long     ]
+onCreate
+
+[ 12-10 15:35:03.158  6376: 6376 D/long     ]
+onCreateView
+
+[ 12-10 15:35:03.193  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732902661
+
+[ 12-10 15:35:03.203  6376: 6376 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 15:35:03.223  6376: 6376 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-10 15:35:03.253  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:03.278  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:03.278  6376: 6376 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-10 15:35:05.368  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16537K, 13% free 26781K/30640K, paused 43ms, total 44ms
+
+[ 12-10 15:35:05.388  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 35.725MB for 8294416-byte allocation
+
+[ 12-10 15:35:05.418  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 10% free 34878K/38744K, paused 30ms, total 30ms
+
+[ 12-10 15:35:05.448  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 6K, 10% free 34872K/38744K, paused 4ms+3ms, total 29ms
+
+[ 12-10 15:35:05.858  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732905313
+
+[ 12-10 15:35:06.793  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 15:35:06.793  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:09.518  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16440K, 13% free 26802K/30640K, paused 37ms, total 38ms
+
+[ 12-10 15:35:09.533  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 35.745MB for 8294416-byte allocation
+
+[ 12-10 15:35:09.563  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 34901K/38744K, paused 27ms, total 27ms
+
+[ 12-10 15:35:09.598  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 10% free 34896K/38744K, paused 5ms+7ms, total 37ms
+
+[ 12-10 15:35:09.928  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732909467
+
+[ 12-10 15:35:17.018  6376: 6376 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 15:35:17.018  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:17.093  6376: 6376 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:35:17.093  6376: 6376 D/http     ]
+请求的参数：userId=xdf004483326&size=big
+
+[ 12-10 15:35:17.098  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:35:17.163  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:17.168  6376: 6376 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:35:17.173  6376: 6519 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:17.173  6376: 6519 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:17.193  6376: 6519 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:17.198  6376: 6376 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:18.078  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:35:18.123  6376: 6523 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_120x120]
+
+[ 12-10 15:35:18.128  6376: 6523 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_120x120]
+
+[ 12-10 15:35:18.128  6376: 6522 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-10 15:35:18.138  6376: 6523 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_120x120]
+
+[ 12-10 15:35:18.208  6376: 6376 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_120x120]
+
+[ 12-10 15:35:21.683  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16904K, 42% free 27346K/46960K, paused 37ms, total 38ms
+
+[ 12-10 15:35:21.688  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.276MB for 8294416-byte allocation
+
+[ 12-10 15:35:21.723  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 25% free 35442K/46960K, paused 34ms, total 34ms
+
+[ 12-10 15:35:21.763  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 10K, 25% free 35432K/46960K, paused 4ms+5ms, total 40ms
+
+[ 12-10 15:35:22.153  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:35:22.153  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732921645
+
+[ 12-10 15:35:24.633  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16433K, 41% free 28135K/47660K, paused 30ms, total 30ms
+
+[ 12-10 15:35:24.633  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 37.046MB for 8294416-byte allocation
+
+[ 12-10 15:35:24.663  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 24% free 36231K/47660K, paused 29ms, total 29ms
+
+[ 12-10 15:35:24.698  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 24% free 36228K/47660K, paused 3ms+5ms, total 33ms
+
+[ 12-10 15:35:25.098  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732924600
+
+[ 12-10 15:35:41.243  6376: 6376 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_120x120]
+
+[ 12-10 15:35:41.243  6376: 6376 D/long     ]
+path:null
+
+[ 12-10 15:35:41.678  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.ToBindingActivity
+
+[ 12-10 15:35:44.763  6376: 6376 D/long     ]
+onRestart
+
+[ 12-10 15:35:44.768  6376: 6376 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:35:44.768  6376: 6376 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:35:44.768  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:35:44.778  6376: 6572 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:44.783  6376: 6572 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:44.788  6376: 6572 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:44.848  6376: 6376 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:35:45.173  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyInfoActivity
+
+[ 12-10 15:35:46.103  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:35:46.138  6376: 6376 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 15:35:46.158  6376: 6376 D/long     ]
+prestr：appid=5004&method=GetSubscribtionListByUserId&pageindex=1&pagesize=200&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:46.158  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:46.163  6376: 6376 D/http     ]
+请求的参数：method=GetSubscribtionListByUserId&appid=5004&userid=xdf004483326&pageindex=1&pagesize=200&sign=A1EB3BAD14288FF3E5149B479A6919C6
+
+[ 12-10 15:35:46.163  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 15:35:46.163  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:35:46.163  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.173  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:35:46.173  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.213  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 15:35:46.213  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 15:35:46.213  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: right = 90
+
+[ 12-10 15:35:46.213  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: bottom = 90
+
+[ 12-10 15:35:46.218  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.253  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.268  6376: 6581 I/System.out ]
+pool-4-thread-4 calls detatch()
+
+[ 12-10 15:35:46.333  6376: 6376 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:35:46.333  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:35:46.333  6376: 6376 D/long     ]
+response:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:35:46.393  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.398  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:46.428  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:46.433  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:46.438  6376: 6376 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:35:46.438  6376: 6376 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732941241}
+
+[ 12-10 15:35:46.438  6376: 6376 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732941241}
+
+[ 12-10 15:35:47.958  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:47.963  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:35:47.993  6376: 6376 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 15:35:48.013  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:35:48.018  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:35:48.033  6376: 6376 D/long     ]
+prestr：appid=5004&isrecommendedflag=1&method=GetSubscribtionListByFuzzyQuery&pageindex=1&pagesize=25&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:48.033  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:48.033  6376: 6376 D/http     ]
+请求的参数：method=GetSubscribtionListByFuzzyQuery&appid=5004&userid=xdf004483326&isrecommendedflag=1&pageindex=1&pagesize=25&sign=6F81B57B8FE17C27635E2C5FD1F7E92B
+
+[ 12-10 15:35:48.033  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:35:48.033  6376: 6376 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:35:48.033  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:35:48.038  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:35:48.038  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.043  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:35:48.053  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.108  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 15:35:48.108  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 15:35:48.108  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: right = 90
+
+[ 12-10 15:35:48.108  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: bottom = 90
+
+[ 12-10 15:35:48.118  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.158  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:48.168  6376: 6376 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1452
+
+[ 12-10 15:35:48.168  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: -871, R: 0, B: -871
+
+[ 12-10 15:35:48.173  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:35:48.173  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.183  6376: 6376 V/AsyncHttpRH ]
+Progress 1193 from 14052 ( 8%)
+
+
+[ 12-10 15:35:48.183  6376: 6376 V/AsyncHttpRH ]
+Progress 2641 from 14052 (19%)
+
+
+[ 12-10 15:35:48.213  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:35:48.213  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.248  6376: 6376 V/AsyncHttpRH ]
+Progress 4089 from 14052 (29%)
+
+
+[ 12-10 15:35:48.248  6376: 6376 V/AsyncHttpRH ]
+Progress 5537 from 14052 (39%)
+
+
+[ 12-10 15:35:48.248  6376: 6376 V/AsyncHttpRH ]
+Progress 6985 from 14052 (50%)
+
+
+[ 12-10 15:35:48.248  6376: 6376 V/AsyncHttpRH ]
+Progress 8433 from 14052 (60%)
+
+
+[ 12-10 15:35:48.253  6376: 6376 V/AsyncHttpRH ]
+Progress 9881 from 14052 (70%)
+
+
+[ 12-10 15:35:48.253  6376: 6376 V/AsyncHttpRH ]
+Progress 13977 from 14052 (99%)
+
+
+[ 12-10 15:35:48.253  6376: 6376 V/AsyncHttpRH ]
+Progress 14052 from 14052 (100%)
+
+
+[ 12-10 15:35:48.258  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1596,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007434",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 9
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2995,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007423",
+      "UserType": 5,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 5
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2157,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007432",
+      "UserType": 5,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 8
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00005",
+      "Name": "初中英语非应试",
+      "KeyWord": "初英",
+      "KeyColor": "7",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2277,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007426",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中英语教研组，是京城最权威的英语教学团队之一，具有独到的“输入输出”相结合的教学体系。通过一年四季细致规划及监控落实，在提升学员英语能力的基础上快速提分，成就了上万名初中英语精英。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 6
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00003",
+      "Name": "初中语文",
+      "KeyWord": "初语",
+      "KeyColor": "9",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 3027,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007421",
+      "UserType": 5,
+      "Description": "最新最全的初中语文资讯哪里有？最具权威的初中语文名师哪里有？最有效最好学的提分方法哪里有？不用四处寻找，动动你的手指，一切你想要的就在新东方初中语文订阅号！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 4
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00009",
+      "Name": "初中英语住宿",
+      "KeyWord": "初住",
+      "KeyColor": "1",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 786,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "
+
+[ 12-10 15:35:48.338  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:48.403  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:48.403  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.438  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.448  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:48.598  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:48.598  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:48.653  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:35:48.653  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:51.103  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:35:51.103  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:51.143  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:51.233  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:51.538  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:35:51.548  6376: 6376 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 15:35:51.548  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.138  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 17778K, 40% free 29877K/49360K, paused 43ms, total 43ms
+
+[ 12-10 15:35:53.143  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.749MB for 8294416-byte allocation
+
+[ 12-10 15:35:53.188  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 139K, 24% free 37838K/49360K, paused 5ms+5ms, total 45ms
+
+[ 12-10 15:35:53.188  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+
+[ 12-10 15:35:53.193  6376: 6384 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-10 15:35:53.193  6376: 6384 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 15:35:53.193  6376: 6384 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 15:35:53.198  6376: 6384 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.248  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 1152K, 26% free 36689K/49360K, paused 33ms, total 33ms
+
+[ 12-10 15:35:53.553  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732953093
+
+[ 12-10 15:35:53.753  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.758  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:35:53.788  6376: 6376 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 15:35:53.803  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:35:53.808  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:35:53.823  6376: 6376 D/long     ]
+prestr：appid=5004&isrecommendedflag=1&method=GetSubscribtionListByFuzzyQuery&pageindex=1&pagesize=25&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:53.823  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:53.823  6376: 6376 D/http     ]
+请求的参数：method=GetSubscribtionListByFuzzyQuery&appid=5004&userid=xdf004483326&isrecommendedflag=1&pageindex=1&pagesize=25&sign=6F81B57B8FE17C27635E2C5FD1F7E92B
+
+[ 12-10 15:35:53.823  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:35:53.823  6376: 6376 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:35:53.823  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:35:53.828  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:35:53.828  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.833  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:35:53.833  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.883  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 15:35:53.883  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 15:35:53.883  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: right = 90
+
+[ 12-10 15:35:53.888  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: bottom = 90
+
+[ 12-10 15:35:53.888  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:53.893  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.928  6376: 6376 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1452
+
+[ 12-10 15:35:53.928  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: -871, R: 0, B: -871
+
+[ 12-10 15:35:53.933  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:35:53.933  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.968  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:35:53.968  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:53.998  6376: 6376 V/AsyncHttpRH ]
+Progress 1193 from 14052 ( 8%)
+
+
+[ 12-10 15:35:53.998  6376: 6376 V/AsyncHttpRH ]
+Progress 5289 from 14052 (38%)
+
+
+[ 12-10 15:35:53.998  6376: 6376 V/AsyncHttpRH ]
+Progress 9385 from 14052 (67%)
+
+
+[ 12-10 15:35:53.998  6376: 6376 V/AsyncHttpRH ]
+Progress 13481 from 14052 (96%)
+
+
+[ 12-10 15:35:53.998  6376: 6376 V/AsyncHttpRH ]
+Progress 14052 from 14052 (100%)
+
+
+[ 12-10 15:35:54.003  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1596,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007434",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 9
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2995,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007423",
+      "UserType": 5,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 5
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2157,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007432",
+      "UserType": 5,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 8
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00005",
+      "Name": "初中英语非应试",
+      "KeyWord": "初英",
+      "KeyColor": "7",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2277,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007426",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中英语教研组，是京城最权威的英语教学团队之一，具有独到的“输入输出”相结合的教学体系。通过一年四季细致规划及监控落实，在提升学员英语能力的基础上快速提分，成就了上万名初中英语精英。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 6
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00003",
+      "Name": "初中语文",
+      "KeyWord": "初语",
+      "KeyColor": "9",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 3027,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007421",
+      "UserType": 5,
+      "Description": "最新最全的初中语文资讯哪里有？最具权威的初中语文名师哪里有？最有效最好学的提分方法哪里有？不用四处寻找，动动你的手指，一切你想要的就在新东方初中语文订阅号！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 4
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00009",
+      "Name": "初中英语住宿",
+      "KeyWord": "初住",
+      "KeyColor": "1",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 786,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "
+
+[ 12-10 15:35:54.078  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:54.083  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:54.093  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:54.163  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:54.163  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:54.288  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:54.288  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:54.378  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:35:54.378  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:55.753  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16850K, 40% free 29741K/49360K, paused 37ms, total 37ms
+
+[ 12-10 15:35:55.753  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.616MB for 8294416-byte allocation
+
+[ 12-10 15:35:55.798  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 24% free 37839K/49360K, paused 41ms, total 41ms
+
+[ 12-10 15:35:55.833  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 21K, 24% free 37818K/49360K, paused 6ms+6ms, total 37ms
+
+[ 12-10 15:35:56.118  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:56.133  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:56.148  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:56.198  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:56.208  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:56.233  6376: 6376 D/long     ]
+prestr：appid=5004&method=AddAttention&subcribcode=DYH00008&userid=xdf004483326&usertype=1&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:56.238  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:56.238  6376: 6376 D/http     ]
+请求的参数：method=AddAttention&appid=5004&userid=xdf004483326&usertype=1&subcribcode=DYH00008&sign=536CB5237D84CE2BC52CBD84E982CECF
+
+[ 12-10 15:35:56.238  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:35:56.273  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732955706
+
+[ 12-10 15:35:56.313  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:56.348  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:56.348  6376: 6376 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:35:56.348  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 15:35:56.393  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:56.403  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:56.428  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:56.428  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:57.013  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.033  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.048  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.063  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.078  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.098  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.108  6376: 6376 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 9
+
+[ 12-10 15:35:57.118  6376: 6376 D/long     ]
+prestr：appid=5004&method=AddAttention&subcribcode=DYH00004&userid=xdf004483326&usertype=1&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:57.118  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:57.123  6376: 6376 D/http     ]
+请求的参数：method=AddAttention&appid=5004&userid=xdf004483326&usertype=1&subcribcode=DYH00004&sign=76174F82BA294451D576F4C9FD0CC286
+
+[ 12-10 15:35:57.123  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:35:57.193  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:57.218  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:57.218  6376: 6376 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:35:57.218  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 15:35:57.268  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:57.278  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:35:57.298  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 10. Total Items:20
+
+[ 12-10 15:35:57.303  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:58.458  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16572K, 40% free 29846K/49360K, paused 39ms, total 39ms
+
+[ 12-10 15:35:58.458  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 38.718MB for 8294416-byte allocation
+
+[ 12-10 15:35:58.488  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 24% free 37943K/49360K, paused 29ms, total 29ms
+
+[ 12-10 15:35:58.523  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 40K, 24% free 37902K/49360K, paused 3ms+4ms, total 34ms
+
+[ 12-10 15:35:58.783  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732958409
+
+[ 12-10 15:35:59.318  6376: 6376 D/long     ]
+prestr：appid=5004&method=GetSubscribtionListByUserId&pageindex=1&pagesize=200&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:35:59.318  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:35:59.318  6376: 6376 D/http     ]
+请求的参数：method=GetSubscribtionListByUserId&appid=5004&userid=xdf004483326&pageindex=1&pagesize=200&sign=A1EB3BAD14288FF3E5149B479A6919C6
+
+[ 12-10 15:35:59.318  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 15:35:59.323  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:35:59.323  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:35:59.403  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:35:59.478  6376: 6376 V/AsyncHttpRH ]
+Progress 1194 from 1516 (79%)
+
+
+[ 12-10 15:35:59.478  6376: 6376 V/AsyncHttpRH ]
+Progress 1516 from 1516 (100%)
+
+
+[ 12-10 15:35:59.478  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1597,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2996,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": "数学",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 2
+}
+
+[ 12-10 15:35:59.478  6376: 6376 D/long     ]
+response:{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1597,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2996,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": "数学",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 2
+}
+
+[ 12-10 15:35:59.668  6376: 6382 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 15:35:59.743  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 18640K, 40% free 31553K/51896K, paused 4ms+5ms, total 41ms
+
+[ 12-10 15:35:59.743  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-10 15:36:00.153  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 1938K, 34% free 34536K/51896K, paused 2ms+8ms, total 61ms
+
+[ 12-10 15:36:00.158  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 52ms
+
+[ 12-10 15:36:00.238  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:36:00.238  6376: 6376 I/Choreographer ]
+Skipped 45 frames!  The application may be doing too much work on its main thread.
+
+--------- beginning of /dev/log/system
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.238  6376: 6376 W/ViewRootImpl ]
+Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=19736058, downTime=19736058, deviceId=5, displayId=0, source=0x101 }
+
+[ 12-10 15:36:00.268  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:00.268  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:00.273  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:00.278  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:36:00.358  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:36:00.363  6376: 6376 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 15:36:00.363  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:00.403  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:02.423  6376: 6384 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 15:36:02.423  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 364K, 33% free 35198K/51896K, paused 76ms, total 78ms
+
+[ 12-10 15:36:02.428  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 43.944MB for 8294416-byte allocation
+
+[ 12-10 15:36:02.493  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 17% free 43296K/51896K, paused 64ms, total 64ms
+
+[ 12-10 15:36:02.498  6376: 6384 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 15:36:02.498  6376: 6384 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:02.568  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 26K, 17% free 43273K/51896K, paused 4ms+5ms, total 72ms
+
+[ 12-10 15:36:02.568  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-10 15:36:02.583  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 51.831MB for 8294416-byte allocation
+
+[ 12-10 15:36:02.648  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 1093K, 17% free 50280K/60000K, paused 67ms, total 67ms
+
+[ 12-10 15:36:02.813  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732962345
+
+[ 12-10 15:36:05.293  6376: 6376 D/long     ]
+onRestart
+
+[ 12-10 15:36:05.298  6376: 6376 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:36:05.298  6376: 6376 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:36:05.298  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:36:05.298  6376: 6376 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:36:05.388  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:36:05.408  6376: 6376 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:36:05.408  6376: 6376 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732960228}
+
+[ 12-10 15:36:05.408  6376: 6376 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732960228}
+
+[ 12-10 15:36:05.408  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:05.778  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 15:36:05.783  6376: 6376 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 15:36:05.783  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.248  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:06.268  6376: 6376 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 15:36:06.293  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:36:06.293  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:36:06.293  6376: 6376 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:36:06.293  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:36:06.323  6376: 6376 D/long     ]
+prestr：appid=5004&filetype=0&method=GetFileStoreListByUserId&pageindex=1&pagesize=10&userid=xdf004483326&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:36:06.323  6376: 6376 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:36:06.328  6376: 6376 D/http     ]
+请求的参数：method=GetFileStoreListByUserId&appid=5004&userid=xdf004483326&filetype=0&pageindex=1&pagesize=10&sign=B108BFBADCBD8016E66066425D3B5994
+
+[ 12-10 15:36:06.328  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 15:36:06.333  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 15:36:06.333  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.338  6376: 6376 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 15:36:06.338  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.388  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:36:06.398  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 15:36:06.398  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 15:36:06.398  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: right = 90
+
+[ 12-10 15:36:06.398  6376: 6376 D/ProgressBar ]
+updateDrawableBounds: bottom = 90
+
+[ 12-10 15:36:06.403  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.453  6376: 6376 D/PullToRefresh ]
+onSizeChanged. W: 1080, H: 1713
+
+[ 12-10 15:36:06.453  6376: 6376 D/PullToRefresh ]
+Setting Padding. L: 0, T: -1028, R: 0, B: -1028
+
+[ 12-10 15:36:06.493  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:36:06.493  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.528  6376: 6376 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:36:06.528  6376: 6376 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:36:06.658  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 15:36:06.658  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.718  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:36:06.718  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.778  6376: 6376 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 15:36:06.778  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:06.883  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:36:08.748  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 17840K, 37% free 43137K/68104K, paused 106ms, total 107ms
+
+[ 12-10 15:36:08.753  6376: 6384 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 15:36:08.753  6376: 6384 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 15:36:08.758  6376: 6384 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:08.838  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 9230K, 30% free 42014K/60000K, paused 4ms+4ms, total 87ms
+
+[ 12-10 15:36:08.938  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732968586
+
+[ 12-10 15:36:13.433  6376: 6376 D/long     ]
+onRestart
+
+[ 12-10 15:36:13.433  6376: 6376 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:36:13.433  6376: 6376 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:36:13.433  6376: 6376 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:36:13.438  6376: 6376 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_210x210]
+
+[ 12-10 15:36:13.488  6376: 6456 I/System.out ]
+pool-4-thread-3 calls detatch()
+
+[ 12-10 15:36:13.523  6376: 6376 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:36:13.523  6376: 6376 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732968331}
+
+[ 12-10 15:36:13.523  6376: 6376 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732968331}
+
+[ 12-10 15:36:13.573  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:13.883  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 15:36:13.883  6376: 6376 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 15:36:13.883  6376: 6376 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:14.443  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:16.173  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 8577K, 35% free 33918K/51896K, paused 83ms, total 83ms
+
+[ 12-10 15:36:16.178  6376: 6384 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 15:36:16.193  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 42.695MB for 8294416-byte allocation
+
+[ 12-10 15:36:16.253  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 20% free 42014K/51896K, paused 59ms, total 59ms
+
+[ 12-10 15:36:16.258  6376: 6384 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 15:36:16.258  6376: 6384 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 15:36:16.333  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 20K, 20% free 41994K/51896K, paused 2ms+4ms, total 79ms
+
+[ 12-10 15:36:16.333  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 58ms
+
+[ 12-10 15:36:16.353  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 50.582MB for 8294416-byte allocation
+
+[ 12-10 15:36:16.428  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 1135K, 19% free 48958K/60000K, paused 71ms, total 71ms
+
+[ 12-10 15:36:16.658  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732976092
+
+[ 12-10 15:36:16.708  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:16.728  6376: 6376 V/WebViewChromium ]
+Binding Chromium to the background looper Looper (main, tid 1) {429e1ec8}
+
+[ 12-10 15:36:16.728  6376: 6376 I/chromium ]
+[INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-10 15:36:16.733  6376: 6376 I/BrowserProcessMain ]
+Initializing chromium process, renderers=0
+
+[ 12-10 15:36:16.743  6376: 6679 W/chromium ]
+[WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 15:36:16.743  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:16.793  6376: 6376 D/data     ]
+jsData:null
+
+[ 12-10 15:36:16.973  6376: 6376 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 15:36:17.373  6376: 6376 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 15:36:17.393  6376: 6376 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 15:36:18.628  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16475K, 37% free 32884K/51896K, paused 84ms, total 84ms
+
+[ 12-10 15:36:18.633  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.685MB for 8294416-byte allocation
+
+[ 12-10 15:36:18.703  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 22% free 40983K/51896K, paused 71ms, total 71ms
+
+[ 12-10 15:36:18.793  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 22% free 40978K/51896K, paused 5ms+5ms, total 91ms
+
+[ 12-10 15:36:18.793  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 34ms
+
+[ 12-10 15:36:18.808  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 49.588MB for 8294416-byte allocation
+
+[ 12-10 15:36:18.888  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 49078K/60000K, paused 79ms, total 79ms
+
+[ 12-10 15:36:19.293  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732978546
+
+[ 12-10 15:36:23.058  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16327K, 37% free 32883K/51896K, paused 91ms, total 91ms
+
+[ 12-10 15:36:23.058  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.683MB for 8294416-byte allocation
+
+[ 12-10 15:36:23.128  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 22% free 40982K/51896K, paused 68ms, total 68ms
+
+[ 12-10 15:36:23.208  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 22% free 40982K/51896K, paused 6ms+4ms, total 80ms
+
+[ 12-10 15:36:23.208  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 17ms
+
+[ 12-10 15:36:23.228  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 49.592MB for 8294416-byte allocation
+
+[ 12-10 15:36:23.293  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 49082K/60000K, paused 60ms, total 60ms
+
+[ 12-10 15:36:23.568  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732982968
+
+[ 12-10 15:36:31.338  6376: 6376 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2182)
+
+[ 12-10 15:36:31.903  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 15:36:45.653  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732995445
+
+[ 12-10 15:36:52.058  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:52.093  6376: 6376 D/data     ]
+jsData:2.1.0
+
+[ 12-10 15:36:52.233  6376: 6376 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 15:36:52.628  6376: 6376 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 15:36:52.643  6376: 6376 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 15:36:53.993  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16729K, 37% free 32973K/51896K, paused 82ms, total 84ms
+
+[ 12-10 15:36:53.998  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.772MB for 8294416-byte allocation
+
+[ 12-10 15:36:54.068  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 15K, 21% free 41058K/51896K, paused 71ms, total 71ms
+
+[ 12-10 15:36:54.153  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 76K, 22% free 40982K/51896K, paused 3ms+5ms, total 82ms
+
+[ 12-10 15:36:54.153  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+
+[ 12-10 15:36:54.168  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 49.592MB for 8294416-byte allocation
+
+[ 12-10 15:36:54.238  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 49082K/60000K, paused 71ms, total 71ms
+
+[ 12-10 15:36:54.588  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449733013910
+
+[ 12-10 15:36:54.668  6376: 6376 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2182)
+
+[ 12-10 15:36:55.273  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 15:36:56.613  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:36:58.598  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16540K, 37% free 33057K/51896K, paused 80ms, total 80ms
+
+[ 12-10 15:36:58.598  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 41.854MB for 8294416-byte allocation
+
+[ 12-10 15:36:58.668  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 13K, 21% free 41144K/51896K, paused 69ms, total 69ms
+
+[ 12-10 15:36:58.748  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 63K, 21% free 41081K/51896K, paused 6ms+3ms, total 78ms
+
+[ 12-10 15:36:58.748  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 48ms
+
+[ 12-10 15:36:58.778  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 49.690MB for 8294416-byte allocation
+
+[ 12-10 15:36:58.848  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 49181K/60000K, paused 62ms, total 62ms
+
+[ 12-10 15:36:58.968  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449733018516
+
+[ 12-10 15:36:59.703  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.ui.me.HelpFeedbackActivity
+
+[ 12-10 15:37:00.183  6376: 6376 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 15:37:00.338  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16434K, 36% free 33437K/51896K, paused 68ms, total 68ms
+
+[ 12-10 15:37:00.343  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 42.224MB for 8294416-byte allocation
+
+[ 12-10 15:37:00.403  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed 13K, 20% free 41523K/51896K, paused 62ms, total 62ms
+
+[ 12-10 15:37:00.473  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 20% free 41521K/51896K, paused 3ms+4ms, total 69ms
+
+[ 12-10 15:37:00.478  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-10 15:37:00.493  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 50.120MB for 8294416-byte allocation
+
+[ 12-10 15:37:00.548  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 49621K/60000K, paused 54ms, total 54ms
+
+[ 12-10 15:37:00.638  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 49622K/60000K, paused 48ms, total 49ms
+
+[ 12-10 15:37:00.653  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 58.030MB for 8294416-byte allocation
+
+[ 12-10 15:37:00.703  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 16% free 57722K/68104K, paused 49ms, total 49ms
+
+[ 12-10 15:37:00.798  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 16% free 57722K/68104K, paused 47ms, total 47ms
+
+[ 12-10 15:37:00.813  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 65.941MB for 8294416-byte allocation
+
+[ 12-10 15:37:00.888  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 65822K/76208K, paused 74ms, total 74ms
+
+[ 12-10 15:37:00.968  6376: 6376 I/System.out ]
+间距: 69
+
+[ 12-10 15:37:02.748  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 61K, 14% free 65898K/76208K, paused 94ms, total 94ms
+
+[ 12-10 15:37:02.768  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 73.925MB for 8294416-byte allocation
+
+[ 12-10 15:37:02.853  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 48K, 13% free 73950K/84312K, paused 83ms, total 83ms
+
+[ 12-10 15:37:02.948  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 112K, 13% free 73838K/84312K, paused 7ms+6ms, total 96ms
+
+[ 12-10 15:37:02.948  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 65ms
+
+[ 12-10 15:37:02.958  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 81.678MB for 8294416-byte allocation
+
+[ 12-10 15:37:03.033  6376: 6384 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 12% free 81938K/92416K, paused 71ms, total 71ms
+
+[ 12-10 15:37:03.218  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449733022654
+
+[ 12-10 15:37:04.113  6376: 6376 D/long     ]
+cancle request：com.xdf.ucan.splash.SplashActivity
+
+[ 12-10 15:37:08.268  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Log:1449733028271
+
+[ 12-10 15:37:13.078  6376: 6376 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 15:37:13.508  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Log:1449733033510
+
+[ 12-10 15:37:13.623  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 16520K, 14% free 65809K/76200K, paused 68ms, total 69ms
+
+[ 12-10 15:37:13.638  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 73.837MB for 8294416-byte allocation
+
+[ 12-10 15:37:13.698  6376: 6376 D/dalvikvm ]
+GC_FOR_ALLOC freed 13K, 13% free 73895K/84304K, paused 59ms, total 59ms
+
+[ 12-10 15:37:13.763  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed 32971K, 52% free 40925K/84304K, paused 4ms+4ms, total 64ms
+
+[ 12-10 15:37:13.763  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+
+[ 12-10 15:37:13.773  6376: 6376 I/dalvikvm-heap ]
+Grow heap (frag case) to 49.537MB for 8294416-byte allocation
+
+[ 12-10 15:37:13.848  6376: 6380 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 42% free 49025K/84304K, paused 5ms+5ms, total 77ms
+
+[ 12-10 15:37:13.848  6376: 6376 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 73ms
+
+[ 12-10 15:37:13.853  6376: 6384 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 74ms
+
+[ 12-10 15:37:14.043  6376: 6451 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449733033550
+
+[ 12-10 15:37:14.043  6376: 6451 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x417d0c08)
+
+[ 12-10 15:37:14.098  6376: 6451 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 15:37:14.103  6376: 6451 I/Process  ]
+Sending signal. PID: 6376 SIG: 9
+
+[ 12-10 15:37:14.228  6396: 6396 D/RongService ]
+onUnbind, pid=6396
+
+[ 12-10 15:37:14.228  6396: 6396 D/RongService ]
+onDestroy, pid=6396
+
+[ 12-10 15:37:14.233  6396: 6396 I/Process  ]
+Sending signal. PID: 6396 SIG: 9
+
+[ 12-10 15:37:43.103  7724: 7724 D/long     ]
+连接的数据库是：xdf004483326.db
+
+[ 12-10 15:37:43.123  7724: 7724 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:37:43.133  7724: 7724 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:37:43.178  7724: 7724 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:37:43.213  7724: 7724 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:37:43.373  7724: 7724 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3600
+
+[ 12-10 15:37:43.398  7724: 7724 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 15:37:43.398  7724: 7724 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 15:37:43.428  7724: 7724 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:37:43.428  7724: 7724 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:37:43.448  7724: 7739 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:37:43.463  7724: 7739 I/##COMMON_io.rong.push.PushService:DeviceId ]
+357512059381999
+
+[ 12-10 15:37:43.478  7724: 7739 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.18:8611
+
+[ 12-10 15:37:43.478  7724: 7739 I/PushHandler ]
+the saved time = 1449726629899current time = 1449733063484
+
+[ 12-10 15:37:43.483  7724: 7739 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.18:8611
+
+[ 12-10 15:37:43.493  7724: 7739 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-I9500|19|WIFI|46001
+
+[ 12-10 15:37:43.498  7724: 7739 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-I9500|19|WIFI|46001 push version:2.6
+
+[ 12-10 15:37:43.628  7724: 7739 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:37:43.773  7724: 7741 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:37:43.778  7724: 7741 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:37:43.778  7724: 7741 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:37:43.778  7724: 7741 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:37:46.973  7724: 7724 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:37:46.993  7724: 7724 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:37:47.003  7724: 7739 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:37:47.003  7724: 7739 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+

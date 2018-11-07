@@ -1,0 +1,1216 @@
+--------- beginning of /dev/log/system
+[ 12-10 10:13:24.657 28780:28780 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@4490e2e0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@4490e2e0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5065)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)
+	at android.app.ActivityThread.access$600(ActivityThread.java:136)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4875)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:14:55.464 28780: 1824 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 10:14:55.734 28780: 1824 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 10:14:55.734 28780: 1824 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 10:14:55.734 28780: 1824 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 10:14:55.734 28780: 1824 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 10:14:55.734 28780: 1824 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 10:14:55.734 28780: 1824 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 10:14:55.734 28780: 1824 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 10:14:55.744 28780: 1824 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 10:14:55.744 28780: 1824 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:14:55.744 28780: 1824 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:14:55.744 28780: 1824 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 10:14:55.744 28780: 1824 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 10:14:55.744 28780: 1824 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 10:14:55.744 28780: 1824 D/         ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 10:14:55.744 28780: 1824 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 10:14:55.824 28780: 1833 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 10:14:59.799 28780: 1833 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 10:17:15.103 28780:28780 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@4498ddc8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@4498ddc8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5065)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)
+	at android.app.ActivityThread.access$600(ActivityThread.java:136)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4875)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:22:00.998 28780:28780 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@448c7260 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@448c7260 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5065)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)
+	at android.app.ActivityThread.access$600(ActivityThread.java:136)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4875)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:24:30.548  9459: 9459 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@444edd70 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@444edd70 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5065)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)
+	at android.app.ActivityThread.access$600(ActivityThread.java:136)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4875)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:24:56.946  9459: 9459 E/ActivityThread ]
+Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@449051b8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+android.app.IntentReceiverLeaked: Activity com.example.myfristandroid.MainActivity has leaked IntentReceiver com.example.myfristandroid.MainActivity$CmdReceiver@449051b8 that was originally registered here. Are you missing a call to unregisterReceiver()?
+	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:796)
+	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:597)
+	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1141)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1127)
+	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1121)
+	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:365)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:311)
+	at android.app.Activity.performCreate(Activity.java:5065)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2044)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2105)
+	at android.app.ActivityThread.access$600(ActivityThread.java:136)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1201)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4875)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:804)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:571)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 10:26:46.433 11016:11069 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-17226
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+--------- beginning of /dev/log/main
+[ 12-10 11:00:22.295 26944:26944 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:00:22.295 26944:26944 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:00:22.295 26944:26944 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:00:22.595 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 273K, 22% free 23883K/30275K, paused 35ms, total 35ms
+
+[ 12-10 11:00:22.695 26944:26954 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 15% free 39023K/45447K, paused 6ms+5ms, total 55ms
+
+[ 12-10 11:00:22.765 26944:26944 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build:  (CL3068996)
+Build Date: 03/07/13 Thu
+Local Branch: au37
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 11:00:22.795 26971:26971 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:00:22.795 26971:26971 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:00:22.795 26971:26971 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:00:22.935 26971:26971 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:00:22.935 26971:26971 D/SocketService ]
+pid:26971 myPid:26971
+
+[ 12-10 11:00:22.945 26971:26971 D/SocketService ]
+start to run current thread!id:17348
+
+[ 12-10 11:00:23.065 26971:26990 D/SocketService ]
+ip/172.20.10.5 lport:36302 p:143
+
+[ 12-10 11:00:23.065 26971:26990 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:00:23.075 26971:26990 D/SocketService ]
+success to connect server!id:17348 bLogin:false
+
+[ 12-10 11:00:23.206 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:00:23.936 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:00:24.076 26971:26990 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:00:24.197 26971:26991 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:00:24.957 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:00:25.057 26944:26944 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:00:25.078 26971:26990 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:00:25.178 26971:26991 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:00:25.978 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:00:25.978 26944:26944 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:00:31.765 26944:27077 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 11:00:32.055 26944:27077 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 11:00:32.065 26944:27077 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/110032:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x67136010
+
+
+[ 12-10 11:00:32.065 26944:27077 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/110032:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x66f0fe50
+
+
+[ 12-10 11:00:32.065 26944:27077 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 11:00:32.065 26944:27077 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 11:00:32.065 26944:27077 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 11:00:32.065 26944:27077 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 11:00:32.065 26944:27077 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 11:00:32.075 26944:27077 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 11:00:32.075 26944:27077 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 11:00:32.075 26944:27077 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 11:00:32.075 26944:27077 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 11:00:32.075 26944:27077 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:00:32.075 26944:27077 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:00:32.075 26944:27077 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:00:32.075 26944:27077 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:00:32.075 26944:27077 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 11:00:32.075 26944:27077 D/         ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 11:00:32.075 26944:27077 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 11:00:32.115 26944:27087 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/110032:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 11:00:32.115 26944:27087 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/110032:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 11:00:32.115 26944:27087 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/110032:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 11:00:32.115 26944:27087 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/110032:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 11:00:32.115 26944:27087 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/110032:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:00:32.115 26944:27087 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/110032:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 11:00:32.115 26944:27087 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/110032:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:00:32.125 26944:27087 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 11:00:33.176 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 0
+
+[ 12-10 11:00:35.789 26944:27077 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:00:44.048 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716444063
+
+[ 12-10 11:00:44.098 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 5770K, 18% free 38447K/46343K, paused 28ms, total 28ms
+
+[ 12-10 11:00:44.158 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 148K, 10% free 41899K/46343K, paused 25ms, total 25ms
+
+[ 12-10 11:00:50.925 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:00:50.925 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:00:55.170 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 1
+
+[ 12-10 11:00:56.121 26944:27077 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:01:02.928 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:01:03.198 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:01:04.029 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:01:05.230 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716465240
+
+[ 12-10 11:01:05.300 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 7322K, 24% free 38361K/49991K, paused 50ms, total 50ms
+
+[ 12-10 11:01:05.411 26944:26954 D/dalvikvm ]
+GC_CONCURRENT freed 3611K, 17% free 41957K/49991K, paused 16ms+5ms, total 73ms
+
+[ 12-10 11:01:18.635 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:01:18.635 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:01:30.167 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 2
+
+[ 12-10 11:01:31.989 26944:27077 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-10 11:01:42.931 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 11:01:43.061 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 11:01:43.091 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:01:51.570 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716511580
+
+[ 12-10 11:01:51.660 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 3909K, 16% free 42001K/49991K, paused 29ms, total 30ms
+
+[ 12-10 11:01:58.217 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:01:58.217 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:02:01.911 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 3
+
+[ 12-10 11:02:22.943 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 11:02:23.043 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 11:02:23.164 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:02:39.991 26944:26954 D/dalvikvm ]
+GC_CONCURRENT freed 8300K, 22% free 40452K/51399K, paused 15ms+17ms, total 82ms
+
+[ 12-10 11:02:40.502 26944:26944 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-10 11:02:40.802 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:02:40.802 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:02:40.812 26944:26944 E/InputEventReceiver ]
+channel '44f81338 Panel:com.example.myfristandroid/com.example.myfristandroid.graphWebShow (client)' ~ Publisher closed input channel or an error occurred.  events=0x9
+
+[ 12-10 11:02:41.083 26944:27077 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:02:43.385 26944:27087 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 11:02:43.605 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 4
+
+[ 12-10 11:02:44.216 26944:27077 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:02:46.448 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:02:46.448 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:02:48.721 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 5
+
+[ 12-10 11:02:49.381 26944:27077 D/MainActivity ]
+h:766.083,w:1687.5
+
+[ 12-10 11:02:51.304 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:02:51.304 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:02:52.845 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 6
+
+[ 12-10 11:02:54.617 26944:27077 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:02:56.399 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:02:56.399 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:02:58.061 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 7
+
+[ 12-10 11:03:02.946 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:109
+
+[ 12-10 11:03:03.006 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:774
+
+[ 12-10 11:03:03.246 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:774 HeadIndex:761 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:03:35.671 26944:27077 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:03:42.949 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:122
+
+[ 12-10 11:03:43.119 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:787
+
+[ 12-10 11:03:43.329 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:787 HeadIndex:774 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:03:44.821 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716624831
+
+[ 12-10 11:03:44.931 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 2705K, 17% free 42938K/51399K, paused 44ms, total 44ms
+
+[ 12-10 11:03:48.695 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716628703
+
+[ 12-10 11:03:48.775 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 7321K, 24% free 39282K/51399K, paused 65ms, total 66ms
+
+[ 12-10 11:03:48.835 26944:26954 D/dalvikvm ]
+GC_CONCURRENT freed 3602K, 17% free 42886K/51399K, paused 6ms+6ms, total 39ms
+
+[ 12-10 11:03:55.492 26944:26944 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:03:55.492 26944:26944 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:04:09.457 26944:27077 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 8
+
+[ 12-10 11:04:10.508 26944:27077 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 11:04:16.975 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716656977
+
+[ 12-10 11:04:17.115 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 3724K, 17% free 42935K/51399K, paused 37ms, total 37ms
+
+[ 12-10 11:04:22.431 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716662443
+
+[ 12-10 11:04:22.481 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 7275K, 24% free 39325K/51399K, paused 41ms, total 41ms
+
+[ 12-10 11:04:22.601 26944:26954 D/dalvikvm ]
+GC_CONCURRENT freed 3602K, 17% free 42929K/51399K, paused 6ms+6ms, total 51ms
+
+[ 12-10 11:04:22.951 26971:26986 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:135
+
+[ 12-10 11:04:23.152 26971:26991 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:800
+
+[ 12-10 11:04:23.402 26971:26988 D/SocketService1 ]
+本次提取1:LoadPtr:800 HeadIndex:787 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:04:29.148 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716669160
+
+[ 12-10 11:04:33.643 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716673652
+
+[ 12-10 11:04:33.723 26944:26994 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716673734
+
+[ 12-10 11:04:33.883 26944:26944 D/dalvikvm ]
+GC_FOR_ALLOC freed 3720K, 17% free 42929K/51399K, paused 41ms, total 41ms
+
+[ 12-10 11:04:34.323 26944:26994 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41c35498)
+
+[ 12-10 11:04:34.323 26944:26994 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-17343
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 11:07:55.678 30759:30759 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:07:55.678 30759:30759 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:07:55.678 30759:30759 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:07:56.029 30759:30759 D/dalvikvm ]
+GC_FOR_ALLOC freed 294K, 22% free 23883K/30275K, paused 24ms, total 24ms
+
+[ 12-10 11:07:56.099 30759:30765 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 15% free 39022K/45447K, paused 4ms+3ms, total 24ms
+
+[ 12-10 11:07:56.419 30779:30779 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:07:56.419 30779:30779 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:07:56.419 30779:30779 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:07:56.419 30759:30759 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build:  (CL3068996)
+Build Date: 03/07/13 Thu
+Local Branch: au37
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 11:07:56.559 30779:30779 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:07:56.559 30779:30779 D/SocketService ]
+pid:30779 myPid:30779
+
+[ 12-10 11:07:56.579 30779:30779 D/SocketService ]
+start to run current thread!id:17366
+
+[ 12-10 11:07:56.629 30779:30798 D/SocketService ]
+ip/172.20.10.5 lport:56769 p:143
+
+[ 12-10 11:07:56.639 30779:30798 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:07:56.639 30779:30798 D/SocketService ]
+success to connect server!id:17366 bLogin:false
+
+[ 12-10 11:07:56.739 30779:30799 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:07:57.550 30779:30796 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:07:57.640 30779:30798 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:07:57.751 30779:30799 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:07:58.601 30779:30796 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:07:58.611 30759:30759 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:07:58.642 30779:30798 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:07:58.832 30779:30799 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:07:59.623 30779:30796 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:07:59.633 30759:30759 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:08:01.945 30759:30878 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 11:08:02.165 30759:30878 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/110802:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x66ef8010
+
+
+[ 12-10 11:08:02.165 30759:30878 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/110802:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x66e74f80
+
+
+[ 12-10 11:08:02.165 30759:30878 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 11:08:02.175 30759:30878 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 11:08:02.175 30759:30878 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 11:08:02.175 30759:30878 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 11:08:02.175 30759:30878 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 11:08:02.175 30759:30878 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 11:08:02.175 30759:30878 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 11:08:02.175 30759:30878 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 11:08:02.175 30759:30878 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 11:08:02.175 30759:30878 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:08:02.175 30759:30878 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:08:02.185 30759:30878 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:08:02.185 30759:30878 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:08:02.195 30759:30878 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 11:08:02.195 30759:30878 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 11:08:02.195 30759:30878 D/         ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 11:08:02.195 30759:30878 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 11:08:02.215 30759:30891 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/110802:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 11:08:02.215 30759:30891 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/110802:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 11:08:02.215 30759:30891 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/110802:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 11:08:02.215 30759:30891 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/110802:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 11:08:02.215 30759:30891 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/110802:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:08:02.215 30759:30891 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/110802:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 11:08:02.215 30759:30891 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/110802:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:08:02.215 30759:30891 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 11:08:02.215 30759:30891 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 11:08:03.226 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 0
+
+[ 12-10 11:08:03.957 30759:30878 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:08:07.121 30759:30759 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:08:07.121 30759:30759 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:08:09.703 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 1
+
+[ 12-10 11:08:12.076 30759:30878 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:08:17.482 30759:30759 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:08:17.482 30759:30759 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:08:19.334 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 2
+
+[ 12-10 11:08:19.964 30759:30878 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:08:25.600 30759:30759 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:08:25.600 30759:30759 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:08:26.852 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 3
+
+[ 12-10 11:08:27.432 30759:30878 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:08:31.016 30759:30759 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:08:31.016 30759:30759 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:08:32.588 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 4
+
+[ 12-10 11:08:33.258 30759:30878 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:08:36.552 30779:30794 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:08:36.722 30779:30799 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:08:37.473 30759:30759 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:08:37.473 30759:30759 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:08:37.713 30779:30796 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:08:58.205 30759:30878 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 5
+
+[ 12-10 11:08:59.046 30759:30878 D/MainActivity ]
+h:670.006,w:1569.5
+
+[ 12-10 11:09:04.732 30759:30804 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716944741
+
+[ 12-10 11:09:05.393 30759:30804 D/cn.edu.nju.ise.kikandroid ]
+Log:1449716945397
+
+[ 12-10 11:09:05.483 30759:30804 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449716945485
+
+[ 12-10 11:09:05.553 30759:30759 D/dalvikvm ]
+GC_FOR_ALLOC freed 6177K, 18% free 38753K/47111K, paused 45ms, total 60ms
+
+[ 12-10 11:09:05.643 30759:30759 D/dalvikvm ]
+GC_FOR_ALLOC freed 241K, 11% free 42112K/47111K, paused 29ms, total 30ms
+
+[ 12-10 11:09:05.963 30759:30804 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41c35498)
+
+[ 12-10 11:09:05.963 30759:30804 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-17361
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-10 11:13:59.807  1741: 1741 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:13:59.807  1741: 1741 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:13:59.807  1741: 1741 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:14:00.177  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 276K, 22% free 23883K/30275K, paused 27ms, total 28ms
+
+[ 12-10 11:14:00.247  1741: 1747 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 15% free 39022K/45447K, paused 14ms+3ms, total 36ms
+
+[ 12-10 11:14:00.357  1741: 1741 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build:  (CL3068996)
+Build Date: 03/07/13 Thu
+Local Branch: au37
+Remote Branch: 
+Local Patches: 
+Reconstruct Branch: 
+
+[ 12-10 11:14:00.388  1761: 1761 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 11:14:00.388  1761: 1761 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-10 11:14:00.388  1761: 1761 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 11:14:00.578  1761: 1761 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:14:00.588  1761: 1761 D/SocketService ]
+pid:1761 myPid:1761
+
+[ 12-10 11:14:00.588  1761: 1761 D/SocketService ]
+start to run current thread!id:17384
+
+[ 12-10 11:14:00.638  1761: 1780 D/SocketService ]
+ip/172.20.10.5 lport:46442 p:143
+
+[ 12-10 11:14:00.638  1761: 1780 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:14:00.638  1761: 1780 D/SocketService ]
+success to connect server!id:17384 bLogin:false
+
+[ 12-10 11:14:00.728  1761: 1784 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:14:01.589  1761: 1778 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:14:01.639  1761: 1780 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:14:01.709  1761: 1784 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:14:02.620  1741: 1741 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:14:02.620  1761: 1778 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:14:02.650  1761: 1780 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:14:02.860  1761: 1784 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:14:02.910  1741: 1741 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 11:14:02.910  1741: 1741 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 11:14:02.910  1741: 1741 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 11:14:02.910  1741: 1741 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 11:14:02.910  1741: 1741 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:14:02.920  1741: 1741 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:14:02.920  1741: 1741 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:14:02.920  1741: 1741 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:14:02.920  1741: 1741 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:14:02.920  1741: 1741 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 11:14:03.631  1761: 1778 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:14:03.651  1741: 1741 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:14:05.733  1741: 1867 D/webcoreglue ]
+netstack: Memory Cache feature is ON
+
+[ 12-10 11:14:05.863  1741: 1867 V/chromium ]
+external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [1210/111405:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x6743e010
+
+
+[ 12-10 11:14:05.863  1741: 1867 V/chromium ]
+external/chromium/net/base/host_resolver_impl.cc:1510: [1210/111405:INFO:host_resolver_impl.cc(1510)] HostResolverImpl::SetPreresolver preresolver:0x671dea58
+
+
+[ 12-10 11:14:05.863  1741: 1867 E/Diag_Lib ]
+ Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+
+[ 12-10 11:14:05.863  1741: 1867 D/HostStatisticManager ]
+netstack: DNS Host Prioritization is: ON, Version: 5.0.1
+
+[ 12-10 11:14:05.863  1741: 1867 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+
+[ 12-10 11:14:05.863  1741: 1867 D/         ]
+external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+
+[ 12-10 11:14:05.863  1741: 1867 D/TCPFinAggregation ]
+netstack: TCPFinAggregation is 1, Version 5.0.1
+
+[ 12-10 11:14:05.863  1741: 1867 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.wait was set, value: 20
+
+[ 12-10 11:14:05.863  1741: 1867 D/TCPFinAggregation ]
+system property net.tcp.fin.aggregation.close was set, value: 300
+
+[ 12-10 11:14:05.863  1741: 1867 D/TCPFinAggregation ]
+netstack: CloseUnusedSockets is ON, (TCPFinAggregation), Version 5.0.1
+
+[ 12-10 11:14:05.863  1741: 1867 D/TCPFinAggregation ]
+Failed to get network status! received ret: -2
+
+[ 12-10 11:14:05.863  1741: 1867 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:05.863  1741: 1867 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:05.873  1741: 1867 D/netstack ]
+netstack: Request Priority is ON
+
+[ 12-10 11:14:05.873  1741: 1867 D/Socket_Pool ]
+netstack: CloseUnusedSockets is ON
+
+[ 12-10 11:14:05.873  1741: 1867 D/Socket_Pool ]
+netstack: system net.statistics value: 0
+
+[ 12-10 11:14:05.873  1741: 1867 D/         ]
+external/chromium/net/http/http_getzip_factory.cc: libgetzip.so successfully loaded
+
+[ 12-10 11:14:05.873  1741: 1867 D/         ]
+external/chromium/net/http/http_getzip_factory.cc,: GETzip initializing method was found in libgetzip.so
+
+[ 12-10 11:14:05.873  1741: 1867 D/         ]
+netstack: Getzip is: ON, Version: 5.0.1
+
+[ 12-10 11:14:05.893  1741: 1878 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [1210/111405:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+
+
+[ 12-10 11:14:05.893  1741: 1878 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [1210/111405:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+
+
+[ 12-10 11:14:05.893  1741: 1878 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [1210/111405:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+
+
+[ 12-10 11:14:05.893  1741: 1878 V/chromium ]
+external/chromium/net/http/http_cache.cc:1168: [1210/111405:INFO:http_cache.cc(1168)] HttpCache::OnBackendCreated HostStat created
+
+
+[ 12-10 11:14:05.893  1741: 1878 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/111405:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:14:05.893  1741: 1878 V/chromium ]
+external/chromium/net/disk_cache/hostres_plugin_bridge.cc:73: [1210/111405:INFO:hostres_plugin_bridge.cc(73)] netstack: Failed to find symbols in plugin: libdnshostprio.so
+
+
+[ 12-10 11:14:05.893  1741: 1878 E/chromium ]
+external/chromium/net/disk_cache/stat_hub.cc:216: [1210/111405:ERROR:stat_hub.cc(216)] StatHub::Init - App com.example.myfristandroid isn't supported.
+
+
+[ 12-10 11:14:05.893  1741: 1878 D/         ]
+netstack: Early Connections is: ON, Version: 5.0.1, Param: 3
+
+[ 12-10 11:14:07.805  1741: 1741 E/Web Console ]
+Uncaught TypeError: Object com.example.myfristandroid.graphWebShow$DemoJavaScriptInterface@44922908 has no method 'startWait' at http://oa.paneng.cn:1143/se9200/realdata/js/realdata.js:80
+
+[ 12-10 11:14:11.409  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717251416
+
+[ 12-10 11:14:11.469  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 5668K, 17% free 38414K/46215K, paused 45ms, total 45ms
+
+[ 12-10 11:14:11.539  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 146K, 10% free 41867K/46215K, paused 27ms, total 27ms
+
+[ 12-10 11:14:12.921  1741: 1741 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-10 11:14:12.921  1741: 1741 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-10 11:14:13.211  1741: 1741 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:14:13.211  1741: 1741 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:14:14.032  1741: 1867 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 0
+
+[ 12-10 11:14:15.594  1741: 1867 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:14:19.748  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717259756
+
+[ 12-10 11:14:19.798  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 7445K, 24% free 38362K/49863K, paused 43ms, total 43ms
+
+[ 12-10 11:14:19.908  1741: 1747 D/dalvikvm ]
+GC_CONCURRENT freed 3610K, 16% free 41957K/49863K, paused 13ms+6ms, total 59ms
+
+[ 12-10 11:14:20.829  1741: 1741 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:14:20.829  1741: 1741 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:14:22.761  1741: 1867 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 1
+
+[ 12-10 11:14:23.853  1741: 1867 D/MainActivity ]
+h:774.256,w:1432
+
+[ 12-10 11:14:26.015  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717266018
+
+[ 12-10 11:14:26.225  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 3719K, 16% free 42002K/49863K, paused 27ms, total 27ms
+
+[ 12-10 11:14:27.126  1741: 1741 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:14:27.126  1741: 1741 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:14:28.317  1741: 1867 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 2
+
+[ 12-10 11:14:29.248  1741: 1867 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:14:31.681  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717271689
+
+[ 12-10 11:14:31.731  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 7329K, 23% free 38441K/49863K, paused 38ms, total 39ms
+
+[ 12-10 11:14:31.831  1741: 1747 D/dalvikvm ]
+GC_CONCURRENT freed 3611K, 16% free 42036K/49863K, paused 4ms+4ms, total 32ms
+
+[ 12-10 11:14:32.872  1741: 1741 W/TextToSpeech ]
+stop failed: not bound to TTS engine
+
+[ 12-10 11:14:32.872  1741: 1741 W/TextToSpeech ]
+shutdown failed: not bound to TTS engine
+
+[ 12-10 11:14:35.455  1741: 1878 D/         ]
+netstack: Caching Of Redirection is: ON, Version: 5.0.1
+
+[ 12-10 11:14:35.745  1741: 1867 D/         ]
+++++++++++++++++++++++Setting up the canvas ID to be 3
+
+[ 12-10 11:14:36.326  1741: 1867 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:14:38.498  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717278505
+
+[ 12-10 11:14:39.249  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717279260
+
+[ 12-10 11:14:39.339  1741: 1783 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717279350
+
+[ 12-10 11:14:39.459  1741: 1741 D/dalvikvm ]
+GC_FOR_ALLOC freed 3770K, 16% free 42084K/49863K, paused 34ms, total 34ms
+
+[ 12-10 11:14:39.669  1741: 1783 W/dalvikvm ]
+threadid=14: thread exiting with uncaught exception (group=0x41c35498)
+
+[ 12-10 11:14:39.669  1741: 1783 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-17379
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:186)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

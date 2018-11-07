@@ -1,0 +1,2746 @@
+--------- beginning of /dev/log/system
+[ 12-13 10:28:13.273  5656:0x165a E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4029
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+[ 12-13 10:32:19.179  6370:0x1921 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4040
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+[ 12-13 10:34:20.251  6913:0x1b40 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4043
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+--------- beginning of /dev/log/main
+[ 12-13 10:43:04.681  7527:0x1d67 D/JPushReceiver ]
+[MyReceiver] onReceive - cn.jpush.android.intent.CONNECTION, extras: 
+key:cn.jpush.android.APPKEY, value:98fd1f8cd834614ae1c8330e
+key:cn.jpush.android.CONNECTION_CHANGE, value:false
+
+[ 12-13 10:43:04.682  7527:0x1d67 W/JPushReceiver ]
+[MyReceiver]cn.jpush.android.intent.CONNECTION connected state change to false
+
+[ 12-13 10:43:04.712  7527:0x23ba D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:43:05.245  7527:0x1d67 D/JPushReceiver ]
+[MyReceiver] onReceive - cn.jpush.android.intent.CONNECTION, extras: 
+key:cn.jpush.android.APPKEY, value:98fd1f8cd834614ae1c8330e
+key:cn.jpush.android.CONNECTION_CHANGE, value:true
+
+[ 12-13 10:43:05.246  7527:0x1d67 W/JPushReceiver ]
+[MyReceiver]cn.jpush.android.intent.CONNECTION connected state change to true
+
+[ 12-13 10:44:23.407  9335:0x2477 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 10:44:23.473  9335:0x2477 W/dalvikvm ]
+VFY: unable to resolve virtual method 557: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-13 10:44:23.529  9335:0x2477 W/ImageLoader ]
+diskCache(), diskCacheSize() and diskCacheFileCount calls overlap each other
+
+[ 12-13 10:44:23.531  9335:0x2477 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 10:44:23.603  9335:0x248f D/libc-netbsd ]
+getaddrinfo: api.exc.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:23.621  9335:0x2477 D/jpush    ]
+Failed with errorCode = 6005
+
+[ 12-13 10:44:23.779  9335:0x249f D/libc-netbsd ]
+getaddrinfo: s.jpush.cn get result from proxy >>
+
+
+[ 12-13 10:44:23.829  9335:0x24a6 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:24.338  9335:0x2477 E/         ]
+appName=com.xp.tugele, acAppName=com.android.cts.openglperf
+
+[ 12-13 10:44:24.339  9335:0x2477 E/         ]
+0
+
+[ 12-13 10:44:24.339  9335:0x2477 E/         ]
+appName=com.xp.tugele, acAppName=com.android.browser
+
+[ 12-13 10:44:24.339  9335:0x2477 E/         ]
+0
+
+[ 12-13 10:44:25.501  9335:0x2477 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 10:44:25.509  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:44:25.510  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:44:25.517  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:44:25.518  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:44:25.519  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 530, h 742, sample 1, bsLength fa88!!
+
+
+[ 12-13 10:44:25.522  9335:0x24bd D/ImageLoader ]
+Subsample original image (530x742) to 265x371 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:44:25.523  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 600, h 848, sample 1, bsLength b520!!
+
+
+[ 12-13 10:44:25.524  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 530, h 742, sample 2, bsLength fa88!!
+
+
+[ 12-13 10:44:25.579  9335:0x24be D/ImageLoader ]
+Subsample original image (600x848) to 300x424 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:44:25.581  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 600, h 848, sample 2, bsLength b520!!
+
+
+[ 12-13 10:44:25.582  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:44:25.583  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:44:25.608  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:44:25.608  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:44:25.609  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:44:25.610  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:44:25.611  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:44:25.613  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:44:25.614  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:44:25.658  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:44:25.660  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:44:25.661  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:44:25.661  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:44:25.703  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:44:25.704  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:44:25.762  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:44:25.762  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:44:25.763  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:44:25.772  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:44:25.772  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:44:25.773  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:44:25.778  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 658, h 987, sample 1, bsLength 1df20!!
+
+
+[ 12-13 10:44:25.779  9335:0x24bd D/ImageLoader ]
+Subsample original image (658x987) to 329x493 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:44:25.780  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 658, h 987, sample 2, bsLength 1df20!!
+
+
+[ 12-13 10:44:25.827  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:44:25.828  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:44:25.829  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:44:25.833  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 1080, h 1920, sample 1, bsLength 1897d!!
+
+
+[ 12-13 10:44:25.834  9335:0x24bf D/ImageLoader ]
+Subsample original image (1080x1920) to 270x480 (scale = 4) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:44:25.834  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 1080, h 1920, sample 4, bsLength 1897d!!
+
+
+[ 12-13 10:44:25.842  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:44:25.857  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:44:25.864  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:44:25.864  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:44:25.865  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:44:25.865  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:44:25.866  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:44:25.867  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:44:25.868  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:44:25.868  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:44:25.869  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:44:25.949  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:44:27.070  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:27.303  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:44:27.305  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:44:27.308  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:44:27.309  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 400, sample 1, bsLength 5065!!
+
+
+[ 12-13 10:44:27.310  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:44:27.311  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 400, sample 1, bsLength 5065!!
+
+
+[ 12-13 10:44:27.374  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:44:27.375  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:44:27.460  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:44:27.462  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 607, h 756, sample 1, bsLength 76a5!!
+
+
+[ 12-13 10:44:27.462  9335:0x24bf D/ImageLoader ]
+Subsample original image (607x756) to 303x378 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:44:27.463  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 607, h 756, sample 2, bsLength 76a5!!
+
+
+[ 12-13 10:44:27.472  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:44:27.486  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:27.487  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:44:27.488  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:44:27.506  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:44:27.520  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:44:27.553  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:44:27.554  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:44:27.556  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:44:27.559  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:44:27.560  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:44:27.562  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:44:27.563  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:44:27.563  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:44:27.567  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:44:27.577  9335:0x24c3 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:27.578  9335:0x24c1 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:27.578  9335:0x24c2 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:27.595  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:27.659  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:44:27.666  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:44:27.666  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:44:27.671  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:44:27.671  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:44:27.675  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:44:27.677  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:44:27.681  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:44:27.681  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/02/6C/Co4gj1YcwUew6DRhAAEsSIoEfTs591.jpg_240x376]
+
+[ 12-13 10:44:27.682  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/1E/Co4gj1X2slP8vsXWAAAa7jbX4Cc539.jpg_240x376]
+
+[ 12-13 10:44:27.683  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:44:27.684  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:44:27.685  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:44:27.685  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:44:27.686  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:44:27.687  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:44:27.687  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:44:27.688  9335:0x2477 D/JPushReceiver ]
+[MyReceiver] onReceive - cn.jpush.android.intent.CONNECTION, extras: 
+key:cn.jpush.android.APPKEY, value:98fd1f8cd834614ae1c8330e
+key:cn.jpush.android.CONNECTION_CHANGE, value:true
+
+[ 12-13 10:44:27.688  9335:0x2477 W/JPushReceiver ]
+[MyReceiver]cn.jpush.android.intent.CONNECTION connected state change to true
+
+[ 12-13 10:44:27.760  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:44:27.763  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:44:27.764  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/11/Co4gj1ZUWC2ygGVRAACQ4wM8p6I389.jpg_240x376]
+
+[ 12-13 10:44:27.766  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/C5/Co4gj1ZPOTqkO1-NAAIt4qvAt3w779.jpg_240x376]
+
+[ 12-13 10:44:27.767  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/08/Co4gj1XxGk2F1cKMAAA7MxRBiuo709.jpg_240x376]
+
+[ 12-13 10:44:27.768  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/B5/Co4gj1Y222TBAJAYAAC1vCmf25I865.jpg_240x376]
+
+[ 12-13 10:44:27.769  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/C1/Co4gj1ZOuiu06oivAAE4SJG7g5A07.jpeg_240x376]
+
+[ 12-13 10:44:27.770  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/CA/Co4gj1Zg7A33nfa2AAAWD9B49ME675.jpg_240x376]
+
+[ 12-13 10:44:27.771  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C5/Co4gj1YLiynEP7aGAAMJzFMjcOU649.png_240x376]
+
+[ 12-13 10:44:27.771  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:44:27.772  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:44:27.773  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:44:27.776  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:44:27.778  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:44:27.782  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:44:27.782  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:44:27.783  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:44:27.784  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:44:27.785  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:44:27.785  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:44:27.787  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:44:27.787  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:44:27.856  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:44:27.859  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:44:27.860  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/0C/Co4gj1YlvHKWAccmAAE0O9A7zP4102.jpg_240x376]
+
+[ 12-13 10:44:27.861  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/E5/Co4gj1ZS8-a-pfjAAABCLpTGjmw730.jpg_240x376]
+
+[ 12-13 10:44:27.862  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/0A/Co4gj1X5GznA4KU5AABFZ1N1gFo51.jpeg_240x376]
+
+[ 12-13 10:44:27.864  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:27.866  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:27.866  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:27.926  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:44:27.930  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:44:27.930  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:27.933  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:44:27.933  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:27.934  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:27.937  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:44:27.937  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:44:27.939  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:44:27.939  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:44:27.951  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:28.391  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 352, h 312, sample 1, bsLength 351a!!
+
+
+[ 12-13 10:44:28.391  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 352, h 312, sample 1, bsLength 351a!!
+
+
+[ 12-13 10:44:28.413  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:44:28.414  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:44:28.415  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/62/Co4gj1ZJKBKc0RTYAAUcQ0Y2OCI12.jpeg_240x376]
+
+[ 12-13 10:44:28.416  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:44:28.418  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:44:28.421  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/DF/Co4gj1ZS0SLTlVX5AAAcbyX7bnk142.jpg_240x376]
+
+[ 12-13 10:44:28.422  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C6/Co4gj1ZPO_f24Oy5AAFPSX2bfBM876.jpg_240x376]
+
+[ 12-13 10:44:28.423  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/05/2D/Co4gj1ZVvNmdxMgfAAIURcw-Rrs793.jpg_240x376]
+
+[ 12-13 10:44:28.424  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/05/2D/Co4gj1ZVvXXS4s26AABrS9l-kBQ440.jpg_240x376]
+
+[ 12-13 10:44:28.425  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZAF3K6z9LmAACjiR8rf7o612.jpg_240x376]
+
+[ 12-13 10:44:28.426  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:44:28.427  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:44:28.428  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/4C/Co4gj1ZFcJaE2PU6AAG1OJbQaMU381.jpg_240x376]
+
+[ 12-13 10:44:28.429  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:44:28.430  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:44:28.431  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:44:28.433  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:28.436  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:28.437  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:28.438  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:28.440  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:28.441  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:28.459  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:44:28.464  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:29.244  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:29.493  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 700, h 1149, sample 1, bsLength 1bb30!!
+
+
+[ 12-13 10:44:29.494  9335:0x24c1 D/ImageLoader ]
+Subsample original image (700x1149) to 350x574 (scale = 2) [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:29.495  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 700, h 1149, sample 2, bsLength 1bb30!!
+
+
+[ 12-13 10:44:29.527  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:29.548  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:29.548  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:29.549  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:29.549  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:29.558  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:44:31.021  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:31.083  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 641, h 911, sample 1, bsLength 15e7d!!
+
+
+[ 12-13 10:44:31.084  9335:0x24c3 D/ImageLoader ]
+Subsample original image (641x911) to 320x455 (scale = 2) [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:31.085  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 641, h 911, sample 2, bsLength 15e7d!!
+
+
+[ 12-13 10:44:31.161  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:31.162  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:31.163  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:31.164  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:31.167  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/04/56/Co4gj1ZHUACPexV6AAFefZhWetE498.jpg_240x376]
+
+[ 12-13 10:44:31.425  9335:0x2477 D/skia     ]
+SkGIFMovie:SkGIFMovie: GIF 0,Cidx -1,LDidx -1
+
+
+[ 12-13 10:44:33.829  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 658, h 465, sample 1, bsLength 3241c!!
+
+
+[ 12-13 10:44:33.829  9335:0x24c2 D/ImageLoader ]
+Subsample original image (658x465) to 329x232 (scale = 2) [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:33.830  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 658, h 465, sample 2, bsLength 3241c!!
+
+
+[ 12-13 10:44:33.863  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:33.864  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:33.864  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:44:33.866  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:33.867  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:35.048  9335:0x24dc D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:35.737  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 635, h 829, sample 1, bsLength 16ffc!!
+
+
+[ 12-13 10:44:35.738  9335:0x24c1 D/ImageLoader ]
+Subsample original image (635x829) to 317x414 (scale = 2) [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:35.739  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 635, h 829, sample 2, bsLength 16ffc!!
+
+
+[ 12-13 10:44:35.778  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:35.778  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:35.778  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/03/E0/Co4gj1Y9nMOodyeUAAFv_Eiz7Ac750.jpg_240x376]
+
+[ 12-13 10:44:35.779  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:35.779  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:35.909  9335:0x2477 D/doweload_file ]
+/storage/sdcard0/tugele/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg
+
+[ 12-13 10:44:35.971  9335:0x2477 V/MediaScannerConnection ]
+Connected to Media Scanner
+
+[ 12-13 10:44:35.972  9335:0x2477 V/MediaScannerConnection ]
+Scanning file /storage/sdcard0/tugele/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg
+
+[ 12-13 10:44:36.094  9335:0x24bb V/MediaScannerConnection ]
+Disconnecting from Media Scanner
+
+[ 12-13 10:44:37.508  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 700, h 1244, sample 1, bsLength 20962!!
+
+
+[ 12-13 10:44:37.509  9335:0x24c2 D/ImageLoader ]
+Subsample original image (700x1244) to 350x622 (scale = 2) [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:37.509  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 700, h 1244, sample 2, bsLength 20962!!
+
+
+[ 12-13 10:44:37.586  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:37.588  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/6D/Co4gj1ZKgA6qQDzsAAGxtG4olwU588.jpg_240x376]
+
+[ 12-13 10:44:37.589  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/6D/Co4gj1ZKgA6qQDzsAAGxtG4olwU588.jpg_240x376]
+
+[ 12-13 10:44:37.589  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/6D/Co4gj1ZKgA6qQDzsAAGxtG4olwU588.jpg_240x376]
+
+[ 12-13 10:44:37.595  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZARw38zQLcAAIJYtqoeYA90.jpeg_240x376]
+
+[ 12-13 10:44:38.550  9335:0x24a1 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:44:39.249  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:39.510  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:39.743  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:39.966  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:40.160  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:40.365  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:40.561  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:40.742  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:40.948  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:41.142  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:41.319  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:41.515  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:41.712  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:41.904  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:42.098  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:42.292  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:42.494  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:42.684  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:42.896  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:43.101  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:44.079  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 349, sample 1, bsLength 1b1b4!!
+
+
+[ 12-13 10:44:44.080  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 349, sample 1, bsLength 1b1b4!!
+
+
+[ 12-13 10:44:44.095  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/6D/Co4gj1ZKgA6qQDzsAAGxtG4olwU588.jpg_240x376]
+
+[ 12-13 10:44:44.096  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/04/6D/Co4gj1ZKgA6qQDzsAAGxtG4olwU588.jpg_240x376]
+
+[ 12-13 10:44:44.096  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.097  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.097  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.188  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 658, h 931, sample 1, bsLength 3bf69!!
+
+
+[ 12-13 10:44:44.189  9335:0x24c3 D/ImageLoader ]
+Subsample original image (658x931) to 329x465 (scale = 2) [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:44.190  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 658, h 931, sample 2, bsLength 3bf69!!
+
+
+[ 12-13 10:44:44.248  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:44.249  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:44.249  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/02/F9/Co4gj1YguhWow5ksAAO_aeqYvgQ616.jpg_240x376]
+
+[ 12-13 10:44:44.250  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:44.250  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:44.576  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 1024, h 1024, sample 1, bsLength 1a6c7!!
+
+
+[ 12-13 10:44:44.577  9335:0x24c1 D/ImageLoader ]
+Subsample original image (1024x1024) to 256x256 (scale = 4) [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:44.578  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 1024, h 1024, sample 4, bsLength 1a6c7!!
+
+
+[ 12-13 10:44:44.602  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:44:44.613  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:44.614  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:44.616  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:44.617  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:44.621  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/03/BF/Co4gj1Y4Hmm8lgB-AAGmx9qT7Ew838.jpg_240x376]
+
+[ 12-13 10:44:44.645  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 720, h 600, sample 1, bsLength 4bca!!
+
+
+[ 12-13 10:44:44.647  9335:0x24c2 D/ImageLoader ]
+Subsample original image (720x600) to 360x300 (scale = 2) [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.649  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 720, h 600, sample 2, bsLength 4bca!!
+
+
+[ 12-13 10:44:44.748  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.749  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.749  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:44.750  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:44.751  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:44.752  9335:0x24c2 D/ImageLoader ]
+Image already is loading. Waiting... [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:45.462  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 478, h 597, sample 1, bsLength 8cc2!!
+
+
+[ 12-13 10:44:45.463  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 478, h 597, sample 1, bsLength 8cc2!!
+
+
+[ 12-13 10:44:45.506  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:45.507  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:45.507  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:45.508  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:45.508  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:45.509  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:45.509  9335:0x24c3 D/ImageLoader ]
+Image already is loading. Waiting... [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.978  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.979  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:52.979  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.980  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:52.981  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.982  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:52.983  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:52.984  9335:0x24c2 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.984  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.985  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.986  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:52.987  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.987  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:52.988  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C3/Co4gj1ZO4EmedMasAACMwhOaPK4955.jpg_240x376]
+
+[ 12-13 10:44:52.988  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.989  9335:0x24c1 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:52.990  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/C0/Co4gj1YLiTX1vtu5AAK7pgNH3CY156.png_240x376]
+
+[ 12-13 10:44:52.990  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/01/38/Co4gj1X8Z3bk_0iyAABLyurXzbk952.jpg_240x376]
+
+[ 12-13 10:44:52.991  9335:0x24c2 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:52.992  9335:0x24c3 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.090  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.091  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.092  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.093  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.094  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.128  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.129  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.130  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.131  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.134  9335:0x24c3 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:53.137  9335:0x24c2 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:53.140  9335:0x24c1 D/libc-netbsd ]
+getaddrinfo: tugelepic.mt.sogou.com get result from proxy >>
+
+
+[ 12-13 10:44:53.311  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 193, sample 1, bsLength 70ff!!
+
+
+[ 12-13 10:44:53.318  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 193, sample 1, bsLength 70ff!!
+
+
+[ 12-13 10:44:53.396  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.397  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.399  9335:0x24c2 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.400  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 225, sample 1, bsLength b613!!
+
+
+[ 12-13 10:44:53.401  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 225, sample 1, bsLength b613!!
+
+
+[ 12-13 10:44:53.409  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.409  9335:0x24c3 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.411  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.500  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.501  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.501  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.512  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.513  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.514  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.601  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 424, sample 1, bsLength 18dfa!!
+
+
+[ 12-13 10:44:53.602  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 424, sample 1, bsLength 18dfa!!
+
+
+[ 12-13 10:44:53.630  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.631  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.631  9335:0x24c1 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.661  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 213, sample 1, bsLength 3acb!!
+
+
+[ 12-13 10:44:53.662  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 213, sample 1, bsLength 3acb!!
+
+
+[ 12-13 10:44:53.672  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.673  9335:0x24c2 D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:53.673  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.696  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 500, h 369, sample 1, bsLength c498!!
+
+
+[ 12-13 10:44:53.697  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 4, w 500, h 369, sample 1, bsLength c498!!
+
+
+[ 12-13 10:44:53.730  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.732  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.732  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.734  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.736  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.738  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.739  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.740  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.742  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.742  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:44:53.743  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:44:53.745  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.747  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:44:53.748  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.748  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.750  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.751  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.751  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:44:53.752  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.753  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.754  9335:0x24c3 D/ImageLoader ]
+Image already is loading. Waiting... [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:53.755  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:44:53.775  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:53.776  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:53.778  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.072  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 701, sample 1, bsLength e3c8!!
+
+
+[ 12-13 10:44:54.073  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 4, w 640, h 701, sample 1, bsLength e3c8!!
+
+
+[ 12-13 10:44:54.137  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:54.139  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:54.142  9335:0x24c3 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:54.144  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.145  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:44:54.146  9335:0x24c1 D/ImageLoader ]
+Image already is loading. Waiting... [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.148  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:44:54.149  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:44:54.151  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:44:54.487  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 408, h 303, sample 1, bsLength 1ca4c!!
+
+
+[ 12-13 10:44:54.488  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 4, w 408, h 303, sample 1, bsLength 1ca4c!!
+
+
+[ 12-13 10:44:54.532  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.533  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.536  9335:0x24c1 D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.537  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:44:54.538  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:44:54.540  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:44:54.541  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:44:54.541  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:44:54.543  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:44:54.545  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:44:54.784  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 184, sample 1, bsLength 8a8c!!
+
+
+[ 12-13 10:44:54.785  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 184, sample 1, bsLength 8a8c!!
+
+
+[ 12-13 10:44:54.844  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 358, sample 1, bsLength 18f2b!!
+
+
+[ 12-13 10:44:54.847  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:44:54.849  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:44:54.851  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 358, sample 1, bsLength 18f2b!!
+
+
+[ 12-13 10:44:54.852  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:44:54.863  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 239, sample 1, bsLength b897!!
+
+
+[ 12-13 10:44:54.864  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:44:54.866  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:44:54.871  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 239, sample 1, bsLength b897!!
+
+
+[ 12-13 10:44:54.893  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:44:54.895  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:44:54.897  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:44:54.899  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:44:54.901  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:44:54.902  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:44:54.904  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:44:54.906  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:44:54.907  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:44:54.909  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:44:55.045  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 187, sample 1, bsLength 53b9!!
+
+
+[ 12-13 10:44:55.047  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 187, sample 1, bsLength 53b9!!
+
+
+[ 12-13 10:44:55.065  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:44:55.066  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:44:55.070  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:44:55.078  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:44:55.079  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:44:55.168  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 195, sample 1, bsLength ae9c!!
+
+
+[ 12-13 10:44:55.173  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 195, sample 1, bsLength ae9c!!
+
+
+[ 12-13 10:44:55.188  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 400, sample 1, bsLength 15e53!!
+
+
+[ 12-13 10:44:55.190  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 400, sample 1, bsLength 15e53!!
+
+
+[ 12-13 10:44:55.204  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:44:55.204  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:44:55.207  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:44:55.208  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:44:55.210  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:44:55.214  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:44:55.217  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:44:55.219  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:44:55.221  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:44:55.224  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:44:55.344  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 186, sample 1, bsLength d79b!!
+
+
+[ 12-13 10:44:55.345  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 186, sample 1, bsLength d79b!!
+
+
+[ 12-13 10:44:55.366  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:44:55.376  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:44:55.390  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:44:55.399  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 231, sample 1, bsLength 6fb3!!
+
+
+[ 12-13 10:44:55.400  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:44:55.401  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:44:55.403  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 231, sample 1, bsLength 6fb3!!
+
+
+[ 12-13 10:44:55.410  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:44:55.412  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:44:55.416  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:44:55.418  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:44:55.419  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:44:55.462  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 199, sample 1, bsLength cfcb!!
+
+
+[ 12-13 10:44:55.463  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 199, sample 1, bsLength cfcb!!
+
+
+[ 12-13 10:44:55.474  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:44:55.475  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:44:55.477  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:44:55.480  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:44:55.482  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:44:55.569  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 300, sample 1, bsLength 5acb!!
+
+
+[ 12-13 10:44:55.572  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 300, sample 1, bsLength 5acb!!
+
+
+[ 12-13 10:44:55.644  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:44:55.647  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:44:55.652  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:44:55.654  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:44:55.656  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 300, sample 1, bsLength cf38!!
+
+
+[ 12-13 10:44:55.657  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 300, sample 1, bsLength cf38!!
+
+
+[ 12-13 10:44:55.659  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:44:55.672  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:44:55.673  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:44:55.677  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:44:55.680  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:44:55.682  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:44:55.865  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 0, config 6, w 368, h 220, sample 1, bsLength 51ed!!
+
+
+[ 12-13 10:44:55.868  9335:0x24c1 D/skia     ]
+jpeg_decoder mode 1, config 6, w 368, h 220, sample 1, bsLength 51ed!!
+
+
+[ 12-13 10:44:55.896  9335:0x24c1 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:44:55.897  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:44:55.906  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 262, sample 1, bsLength bcd1!!
+
+
+[ 12-13 10:44:55.907  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 262, sample 1, bsLength bcd1!!
+
+
+[ 12-13 10:44:55.918  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 414, sample 1, bsLength 13afb!!
+
+
+[ 12-13 10:44:55.923  9335:0x24c3 D/skia     ]
+jpeg_decoder mode 1, config 6, w 300, h 414, sample 1, bsLength 13afb!!
+
+
+[ 12-13 10:44:55.937  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:44:55.937  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:44:55.949  9335:0x24c3 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:44:55.950  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:45:00.719  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:00.991  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:01.260  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:45:01.277  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:45:01.319  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:01.324  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:45:01.326  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:45:01.346  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:45:01.374  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:45:01.376  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:45:01.409  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:45:01.411  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:45:01.501  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:01.503  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:01.561  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:45:01.563  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:01.582  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:01.690  9335:0x24a1 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:45:02.034  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:02.254  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:02.489  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:02.719  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:02.940  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:03.190  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:03.356  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:03.358  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:03.361  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:03.363  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:03.461  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:03.646  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:03.647  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:03.649  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:03.650  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:03.921  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:03.923  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:03.924  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:03.926  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:03.950  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:04.252  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:04.793  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:05.007  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:05.096  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:05.098  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:05.101  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:05.103  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:05.697  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:05.966  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:05.968  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:05.970  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:05.973  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:07.181  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:12.419  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:12.678  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:12.732  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:12.733  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:12.735  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:12.736  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA6XO7ILAABR7SgrXbA486.jpg_720x1280]
+
+[ 12-13 10:45:12.971  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:12.973  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:45:12.999  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoG_SXjoAABTuQ3_Zis028.png_720x1280]
+
+[ 12-13 10:45:13.001  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoTDfvLuAADXmyCixso000.png_720x1280]
+
+[ 12-13 10:45:13.004  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcPRw1sXAADPyz-6-Wo794.png_720x1280]
+
+[ 12-13 10:45:13.006  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHcqtbCrcAABvsyEyErs064.png_720x1280]
+
+[ 12-13 10:45:13.008  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHc_BOjxHAABay3ubXm4204.png_720x1280]
+
+[ 12-13 10:45:13.010  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdCwfncFAADPOPe7D2w541.png_720x1280]
+
+[ 12-13 10:45:13.012  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8A/Co4gj1ZLHdaQ_Z3eAAE6--9-530869.png_720x1280]
+
+[ 12-13 10:45:13.014  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M00/03/E6/Co4gj1Y9tVjZZ_mfAAC80aXh8i0787.jpg_720x1280]
+
+[ 12-13 10:45:13.031  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLH_rhZCFbAACunDWllqc164.png_720x1280]
+
+[ 12-13 10:45:13.055  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAC09UhYAAFeU3Yr4Gg113.png_720x1280]
+
+[ 12-13 10:45:13.111  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAba2NjNAACKjDGcfx0532.png_720x1280]
+
+[ 12-13 10:45:13.193  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3b14e7AAC4lx3nUlU298.jpg_720x1280]
+
+[ 12-13 10:45:13.195  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3rd_JyAAGPK3AbiQo400.jpg_720x1280]
+
+[ 12-13 10:45:13.235  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:45:13.239  9335:0x24be D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:13.277  9335:0x24bf D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:13.278  9335:0x24bd D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:13.340  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:13.341  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:13.343  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 701, sample 1, bsLength e3c8!!
+
+
+[ 12-13 10:45:13.344  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 4, w 640, h 701, sample 1, bsLength e3c8!!
+
+
+[ 12-13 10:45:13.378  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:13.379  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:13.380  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:13.384  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:13.388  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 500, h 369, sample 1, bsLength c498!!
+
+
+[ 12-13 10:45:13.391  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 213, sample 1, bsLength 3acb!!
+
+
+[ 12-13 10:45:13.392  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 4, w 500, h 369, sample 1, bsLength c498!!
+
+
+[ 12-13 10:45:13.394  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 213, sample 1, bsLength 3acb!!
+
+
+[ 12-13 10:45:13.399  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:13.399  9335:0x24bd D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:13.414  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:13.415  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:13.416  9335:0x24bf D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:13.418  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:13.419  9335:0x24be D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:13.436  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:13.437  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:13.451  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:13.500  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:13.501  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:13.504  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 193, sample 1, bsLength 70ff!!
+
+
+[ 12-13 10:45:13.506  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 193, sample 1, bsLength 70ff!!
+
+
+[ 12-13 10:45:13.517  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:13.518  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:13.521  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:13.523  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:13.532  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:13.549  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:13.601  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 225, sample 1, bsLength b613!!
+
+
+[ 12-13 10:45:13.602  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 225, sample 1, bsLength b613!!
+
+
+[ 12-13 10:45:13.604  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 424, sample 1, bsLength 18dfa!!
+
+
+[ 12-13 10:45:13.605  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 424, sample 1, bsLength 18dfa!!
+
+
+[ 12-13 10:45:13.614  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:13.623  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:13.624  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:13.635  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:13.663  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:14.011  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:14.013  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:14.016  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6C/Co4gj1ZKgAyBH6HkAAA6y5W6IYM002.jpg_720x1280]
+
+[ 12-13 10:45:15.151  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:15.329  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:16.821  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:17.637  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/82/Co4gj1ZLGoCt0ezNAAGN-q0tIGs155.png_720x1280]
+
+[ 12-13 10:45:17.639  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIAvTc6GSAAC2E_jYjHc876.png_720x1280]
+
+[ 12-13 10:45:17.641  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/8F/Co4gj1ZLIA2QuWnMAABw_xLPHw4167.png_720x1280]
+
+[ 12-13 10:45:17.643  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA228Ko2AADEmCM1NGg225.jpg_720x1280]
+
+[ 12-13 10:45:17.645  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA2pvAG5AADjyH7FlvQ827.jpg_720x1280]
+
+[ 12-13 10:45:17.647  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/04/6D/Co4gj1ZKgA3RZgsNAAHKTP45iUw884.jpg_720x1280]
+
+[ 12-13 10:45:20.678  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:45:20.680  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:45:20.681  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:45:20.682  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:45:20.683  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:45:20.684  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:45:20.686  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:45:20.687  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:45:20.688  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:45:20.703  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:20.894  9335:0x24bd D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:45:20.894  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:45:20.896  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 700, h 1149, sample 1, bsLength 1bb30!!
+
+
+[ 12-13 10:45:20.897  9335:0x24bf D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:45:20.898  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:45:20.899  9335:0x24bd D/ImageLoader ]
+Subsample original image (700x1149) to 350x574 (scale = 2) [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:45:20.900  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 700, h 1149, sample 2, bsLength 1bb30!!
+
+
+[ 12-13 10:45:20.901  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 658, h 465, sample 1, bsLength 3241c!!
+
+
+[ 12-13 10:45:20.902  9335:0x24be D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:45:20.903  9335:0x24bf D/ImageLoader ]
+Subsample original image (658x465) to 329x232 (scale = 2) [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:45:20.903  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:45:20.906  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 6, w 658, h 465, sample 2, bsLength 3241c!!
+
+
+[ 12-13 10:45:20.910  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 352, h 312, sample 1, bsLength 351a!!
+
+
+[ 12-13 10:45:20.911  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 352, h 312, sample 1, bsLength 351a!!
+
+
+[ 12-13 10:45:20.924  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:45:20.929  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://106.120.188.44:8080/group1/M01/05/5D/Co4gj1ZcXbqsAicoAAA1Gkz5pcA152.jpg_240x376]
+
+[ 12-13 10:45:20.933  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:45:20.939  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:45:20.947  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/DA/Co4gj1ZSeCL5uvg5AAAtxRfk6Nc77.jpeg_240x376]
+
+[ 12-13 10:45:20.948  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:45:20.949  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:45:20.949  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:45:20.950  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:45:20.957  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://106.120.188.44:8080/group1/M01/04/27/Co4gj1ZEJdbRuvNvAAMkHDtzjfI990.jpg_240x376]
+
+[ 12-13 10:45:20.958  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:20.965  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:45:20.967  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://106.120.188.44:8080/group1/M00/03/C1/Co4gj1Y4dom0hbpcAAG7MEs5Uuc54.jpeg_240x376]
+
+[ 12-13 10:45:20.970  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/0C/Co4gj1ZAbImJ9gJVAAcZ6GEil90937.jpg_240x376]
+
+[ 12-13 10:45:20.971  9335:0x24c3 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:45:20.972  9335:0x24c3 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:45:20.973  9335:0x24c3 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:45:21.212  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:21.243  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:45:21.248  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/00/08/Co4gj1XxGkXqTxV8AAFY5UuWndE995.JPG_240x376]
+
+[ 12-13 10:45:21.248  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/4C/Co4gj1ZFcJaE2PU6AAG1OJbQaMU381.jpg_240x376]
+
+[ 12-13 10:45:21.249  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/05/2D/Co4gj1ZVvNmdxMgfAAIURcw-Rrs793.jpg_240x376]
+
+[ 12-13 10:45:21.250  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/05/2D/Co4gj1ZVvXXS4s26AABrS9l-kBQ440.jpg_240x376]
+
+[ 12-13 10:45:21.251  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/0A/Co4gj1ZAF3K6z9LmAACjiR8rf7o612.jpg_240x376]
+
+[ 12-13 10:45:21.251  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:45:21.252  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:45:21.253  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:45:21.426  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:45:21.430  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C2/Co4gj1ZOwzSisOXpAADkakYsWuI300.jpg_240x376]
+
+[ 12-13 10:45:21.431  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/DF/Co4gj1ZS0SLTlVX5AAAcbyX7bnk142.jpg_240x376]
+
+[ 12-13 10:45:21.432  9335:0x24c2 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/C6/Co4gj1ZPO_f24Oy5AAFPSX2bfBM876.jpg_240x376]
+
+[ 12-13 10:45:21.433  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.434  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.435  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.484  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:21.524  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:45:21.529  9335:0x24c1 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M01/04/E3/Co4gj1ZS7H64zz0EAAZvw7RxBcw784.png_240x376]
+
+[ 12-13 10:45:21.529  9335:0x24c1 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/04/62/Co4gj1ZJKBKc0RTYAAUcQ0Y2OCI12.jpeg_240x376]
+
+[ 12-13 10:45:21.531  9335:0x24c1 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/04/62/Co4gj1ZJKBKc0RTYAAUcQ0Y2OCI12.jpeg_240x376]
+
+[ 12-13 10:45:21.531  9335:0x24c1 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/04/62/Co4gj1ZJKBKc0RTYAAUcQ0Y2OCI12.jpeg_240x376]
+
+[ 12-13 10:45:21.606  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:45:21.607  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:45:21.610  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 400, sample 1, bsLength 5065!!
+
+
+[ 12-13 10:45:21.611  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 400, sample 1, bsLength 5065!!
+
+
+[ 12-13 10:45:21.612  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:45:21.613  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:45:21.617  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:45:21.618  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:45:21.620  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 607, h 756, sample 1, bsLength 76a5!!
+
+
+[ 12-13 10:45:21.627  9335:0x24bd D/ImageLoader ]
+Subsample original image (607x756) to 303x378 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:45:21.628  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 607, h 756, sample 2, bsLength 76a5!!
+
+
+[ 12-13 10:45:21.641  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:45:21.646  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:45:21.647  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:45:21.652  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:45:21.653  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.653  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.655  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 658, h 987, sample 1, bsLength 1df20!!
+
+
+[ 12-13 10:45:21.656  9335:0x24bd D/ImageLoader ]
+Subsample original image (658x987) to 329x493 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.656  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 658, h 987, sample 2, bsLength 1df20!!
+
+
+[ 12-13 10:45:21.728  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 960, h 1280, sample 1, bsLength bf49!!
+
+
+[ 12-13 10:45:21.729  9335:0x24c2 D/ImageLoader ]
+Subsample original image (960x1280) to 480x640 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.730  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:45:21.730  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 960, h 1280, sample 2, bsLength bf49!!
+
+
+[ 12-13 10:45:21.731  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.732  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.737  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 1080, h 1920, sample 1, bsLength 1897d!!
+
+
+[ 12-13 10:45:21.738  9335:0x24be D/ImageLoader ]
+Subsample original image (1080x1920) to 270x480 (scale = 4) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.739  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 1080, h 1920, sample 4, bsLength 1897d!!
+
+
+[ 12-13 10:45:21.746  9335:0x24bf D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C0/Co4gj1YLiSDtYLKhAASWZpvsERM851.png_240x376]
+
+[ 12-13 10:45:21.747  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:45:21.748  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:45:21.755  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.756  9335:0x2477 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/42/Co4gj1Zm4yzFz9UoAABQZbj3KDY354.jpg_240x376]
+
+[ 12-13 10:45:21.756  9335:0x2477 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/E0/Co4gj1Y9nMOnl6BlAAB2pf_d9QM235.jpg_240x376]
+
+[ 12-13 10:45:21.757  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:45:21.759  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:45:21.766  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:45:21.768  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:45:21.769  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:45:21.822  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.826  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.827  9335:0x24c2 D/ImageLoader ]
+Start display image task [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:45:21.828  9335:0x24c2 D/ImageLoader ]
+Load image from network [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:45:21.829  9335:0x24c2 D/ImageLoader ]
+Cache image on disk [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:45:21.831  9335:0x2477 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_240x376]
+
+[ 12-13 10:45:21.832  9335:0x2477 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_240x376]
+
+[ 12-13 10:45:21.836  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.837  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:45:21.838  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:45:21.840  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:45:21.841  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 6, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:45:21.844  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:45:21.846  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:45:21.847  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:45:21.849  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 530, h 742, sample 1, bsLength fa88!!
+
+
+[ 12-13 10:45:21.850  9335:0x24bd D/ImageLoader ]
+Subsample original image (530x742) to 265x371 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:45:21.850  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://tugelepic.mt.sogou.com/group1/M01/05/63/Co4gj1ZdIcKHKf0cAAC_SVRVqow041.jpg_240x376]
+
+[ 12-13 10:45:21.851  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 530, h 742, sample 2, bsLength fa88!!
+
+
+[ 12-13 10:45:21.851  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.884  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:45:21.884  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:45:21.885  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:45:21.887  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 600, h 848, sample 1, bsLength b520!!
+
+
+[ 12-13 10:45:21.887  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:45:21.887  9335:0x24bd D/ImageLoader ]
+Subsample original image (600x848) to 300x424 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:45:21.888  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 6, w 600, h 848, sample 2, bsLength b520!!
+
+
+[ 12-13 10:45:21.888  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:45:21.889  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:45:21.892  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_240x376]
+
+[ 12-13 10:45:21.892  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:45:21.895  9335:0x24bf D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_240x376]
+
+[ 12-13 10:45:21.906  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:45:21.910  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:45:21.923  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_240x376]
+
+[ 12-13 10:45:21.924  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_240x376]
+
+[ 12-13 10:45:21.925  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_240x376]
+
+[ 12-13 10:45:21.948  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_240x376]
+
+[ 12-13 10:45:21.948  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_240x376]
+
+[ 12-13 10:45:22.265  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:45:22.270  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://106.120.188.44:8080/group1/M00/03/B9/Co4gj1Y3OkXCcxmgAAJeZ4nJpyU411.png_240x376]
+
+[ 12-13 10:45:22.271  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/0C/Co4gj1YlvHKWAccmAAE0O9A7zP4102.jpg_240x376]
+
+[ 12-13 10:45:22.272  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/E5/Co4gj1ZS8-a-pfjAAABCLpTGjmw730.jpg_240x376]
+
+[ 12-13 10:45:22.273  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/0A/Co4gj1X5GznA4KU5AABFZ1N1gFo51.jpeg_240x376]
+
+[ 12-13 10:45:22.274  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/FF/Co4gj1ZTv_OjXDwcAAClKns4xzE442.jpg_240x376]
+
+[ 12-13 10:45:22.275  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/C2/Co4gj1Y4dorQjPswAAFGAdxaD38904.jpg_240x376]
+
+[ 12-13 10:45:22.276  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C9/Co4gj1YLjbHCWaaWAACyXV8qBz4474.png_240x376]
+
+[ 12-13 10:45:22.277  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/C1/Co4gj1ZOuiu06oivAAE4SJG7g5A07.jpeg_240x376]
+
+[ 12-13 10:45:22.278  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/CA/Co4gj1Zg7A33nfa2AAAWD9B49ME675.jpg_240x376]
+
+[ 12-13 10:45:22.278  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/01/C5/Co4gj1YLiynEP7aGAAMJzFMjcOU649.png_240x376]
+
+[ 12-13 10:45:22.279  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/C5/Co4gj1ZPOTqkO1-NAAIt4qvAt3w779.jpg_240x376]
+
+[ 12-13 10:45:22.280  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/08/Co4gj1XxGk2F1cKMAAA7MxRBiuo709.jpg_240x376]
+
+[ 12-13 10:45:22.281  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/B5/Co4gj1Y222TBAJAYAAC1vCmf25I865.jpg_240x376]
+
+[ 12-13 10:45:22.282  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/04/EC/Co4gj1ZTDcyhVw18AADRx0Cilzw60.jpeg_240x376]
+
+[ 12-13 10:45:22.282  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/10/Co4gj1ZjuEbAyy-RAAAev5IJL3Q383.jpg_240x376]
+
+[ 12-13 10:45:22.283  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/05/11/Co4gj1ZUWC2ygGVRAACQ4wM8p6I389.jpg_240x376]
+
+[ 12-13 10:45:22.283  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/23/Co4gj1ZlLLvXtUoOAABMZ4gXLZg235.jpg_240x376]
+
+[ 12-13 10:45:22.284  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/02/6C/Co4gj1YcwUew6DRhAAEsSIoEfTs591.jpg_240x376]
+
+[ 12-13 10:45:22.285  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/1E/Co4gj1X2slP8vsXWAAAa7jbX4Cc539.jpg_240x376]
+
+[ 12-13 10:45:22.286  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGNKe5ZMHAAFOCqeIJ-Y612.JPG_240x376]
+
+[ 12-13 10:45:22.286  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M00/03/99/Co4gj1YzWdqcLqw5AACLaXRLrIc802.jpg_240x376]
+
+[ 12-13 10:45:22.288  9335:0x24c3 D/ImageLoader ]
+ImageAware is reused for another image. Task is cancelled. [http://tugelepic.mt.sogou.com/group1/M01/06/29/Co4gj1Zlk0fAsyzFAAAO68IJCBY700.jpg_240x376]
+
+[ 12-13 10:45:22.736  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:23.162  9335:0x2477 D/skia     ]
+SkGIFMovie:SkGIFMovie: GIF 0,Cidx -1,LDidx -1
+
+
+[ 12-13 10:45:23.548  9335:0x24bf D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/04/71/Co4gj1ZLEs7IbT_0AAC2W64uQio683.png_720x1280]
+
+[ 12-13 10:45:23.561  9335:0x24bd D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3L9dU6hAAC6j1vAY0Q915.jpg_720x1280]
+
+[ 12-13 10:45:23.571  9335:0x24be D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.649  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/71/Co4gj1ZLEs7IbT_0AAC2W64uQio683.png_720x1280]
+
+[ 12-13 10:45:23.650  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/71/Co4gj1ZLEs7IbT_0AAC2W64uQio683.png_720x1280]
+
+[ 12-13 10:45:23.653  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 300, h 300, sample 1, bsLength b65b!!
+
+
+[ 12-13 10:45:23.654  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 4, w 300, h 300, sample 1, bsLength b65b!!
+
+
+[ 12-13 10:45:23.663  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3L9dU6hAAC6j1vAY0Q915.jpg_720x1280]
+
+[ 12-13 10:45:23.663  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3L9dU6hAAC6j1vAY0Q915.jpg_720x1280]
+
+[ 12-13 10:45:23.668  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/71/Co4gj1ZLEs7IbT_0AAC2W64uQio683.png_720x1280]
+
+[ 12-13 10:45:23.670  9335:0x24bf D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.670  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/71/Co4gj1ZLEs7IbT_0AAC2W64uQio683.png_720x1280]
+
+[ 12-13 10:45:23.670  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 960, sample 1, bsLength ba8f!!
+
+
+[ 12-13 10:45:23.672  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 4, w 640, h 960, sample 1, bsLength ba8f!!
+
+
+[ 12-13 10:45:23.673  9335:0x24be D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.674  9335:0x24be D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.679  9335:0x24be D/skia     ]
+jpeg_decoder mode 0, config 6, w 900, h 1179, sample 1, bsLength 21e0d!!
+
+
+[ 12-13 10:45:23.680  9335:0x24be D/skia     ]
+jpeg_decoder mode 1, config 4, w 900, h 1179, sample 1, bsLength 21e0d!!
+
+
+[ 12-13 10:45:23.759  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3L9dU6hAAC6j1vAY0Q915.jpg_720x1280]
+
+[ 12-13 10:45:23.759  9335:0x24bd D/ImageLoader ]
+Delay 100 ms before loading...  [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.776  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.776  9335:0x24bf D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.778  9335:0x24bf D/skia     ]
+jpeg_decoder mode 0, config 6, w 640, h 960, sample 1, bsLength ab01!!
+
+
+[ 12-13 10:45:23.779  9335:0x24bf D/skia     ]
+jpeg_decoder mode 1, config 4, w 640, h 960, sample 1, bsLength ab01!!
+
+
+[ 12-13 10:45:23.804  9335:0x24bf D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.812  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3L9dU6hAAC6j1vAY0Q915.jpg_720x1280]
+
+[ 12-13 10:45:23.823  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.827  9335:0x24be D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.860  9335:0x24bd D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.860  9335:0x24bd D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.862  9335:0x24bd D/skia     ]
+jpeg_decoder mode 0, config 6, w 550, h 540, sample 1, bsLength 10882!!
+
+
+[ 12-13 10:45:23.863  9335:0x24bd D/skia     ]
+jpeg_decoder mode 1, config 4, w 550, h 540, sample 1, bsLength 10882!!
+
+
+[ 12-13 10:45:23.868  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.883  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:23.886  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:23.889  9335:0x24bf D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.890  9335:0x24bf D/ImageLoader ]
+Image already is loading. Waiting... [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.890  9335:0x24bd D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.891  9335:0x24bf D/ImageLoader ]
+...Get cached bitmap from memory after waiting. [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.943  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:23.944  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from MEMORY_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:24.223  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:24.813  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 0, config 6, w 440, h 289, sample 1, bsLength 184b1!!
+
+
+[ 12-13 10:45:24.814  9335:0x24c2 D/skia     ]
+jpeg_decoder mode 1, config 6, w 440, h 289, sample 1, bsLength 184b1!!
+
+
+[ 12-13 10:45:24.828  9335:0x24c2 D/ImageLoader ]
+Cache image in memory [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:45:24.944  9335:0x2477 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-13 10:45:24.945  9335:0x2477 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://106.120.188.44:8080/group1/M01/05/11/Co4gj1ZUWWXeOB_PAAGEsaqkNCw485.jpg_240x376]
+
+[ 12-13 10:45:24.986  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3K9J_drAACrAYG272A018.jpg_720x1280]
+
+[ 12-13 10:45:24.988  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3Lz2tj6AAIeDUCcZAM409.jpg_720x1280]
+
+[ 12-13 10:45:24.991  9335:0x2477 D/ImageLoader ]
+Load image from memory cache [http://tugelepic.mt.sogou.com/group1/M01/05/05/Co4gj1ZUI3LGaURqAAEIgh3s6jA644.jpg_720x1280]
+
+[ 12-13 10:45:37.963  9335:0x24a7 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974737963
+
+[ 12-13 10:45:43.060  9335:0x24a7 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974743059
+
+[ 12-13 10:45:43.093  9335:0x24a7 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974743093
+
+[ 12-13 10:45:43.619  9335:0x24a7 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+[ 12-13 10:45:44.339  9335:0x258b D/libc-netbsd ]
+getaddrinfo: rqd.uu.qq.com get result from proxy >>
+
+
+[ 12-13 10:45:44.509  9335:0x24a7 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-4213
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:197)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+

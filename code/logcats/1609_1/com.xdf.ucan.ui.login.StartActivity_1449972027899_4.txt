@@ -1,0 +1,2030 @@
+--------- beginning of /dev/log/main
+[ 12-13 08:03:37.700 10766:10766 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 08:03:37.700 10766:10766 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 08:03:37.700 10766:10766 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 08:03:37.700 10766:10766 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 08:03:38.190 10766:10766 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 08:03:38.200 10766:10766 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-13 08:03:38.270 10766:10766 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-13 08:03:38.270 10766:10766 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-13 08:03:38.280 10766:10766 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-13 08:03:38.300 10766:10766 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 08:03:38.840 10766:10766 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3000
+
+[ 12-13 08:03:38.840 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-13 08:03:38.860 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-13 08:03:38.870 10766:10766 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-13 08:03:38.870 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-13 08:03:38.870 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-13 08:03:38.870 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-13 08:03:38.910 10788:10788 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 08:03:38.910 10788:10788 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 08:03:38.910 10788:10788 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 08:03:38.910 10788:10788 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 08:03:39.240 10766:10766 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-13 08:03:39.290 10788:10788 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 08:03:39.290 10788:10788 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-13 08:03:39.300 10788:10788 D/RongService ]
+onCreate, pid=10788
+
+[ 12-13 08:03:39.300 10788:10788 D/RongService ]
+onBind, pid=10788
+
+[ 12-13 08:03:39.420 10766:10766 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-13 08:03:39.520 10766:10766 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041_msm8660_surf_JB_REL_RB1.2_Merge_release_AU (Merge)
+Build Date: 11/05/12 Mon
+Local Branch: mybranch425650
+Remote Branch: quic/jb_rel_rb1.2
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041 +  NOTHING
+
+[ 12-13 08:03:39.560 10788:10788 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+867746013051545
+
+[ 12-13 08:03:40.170 10788:10788 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-13 08:03:40.230 10766:10766 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42be10b8
+
+[ 12-13 08:03:40.540 10766:10766 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-13 08:03:40.980 10766:10766 D/dalvikvm ]
+GC_FOR_ALLOC freed 5018K, 40% free 9264K/15363K, paused 42ms, total 44ms
+
+[ 12-13 08:03:41.500 10766:10766 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-13 08:03:41.740 10766:10766 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-13 08:03:41.830 10766:10824 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-13 08:03:41.830 10766:10824 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-13 08:03:41.900 10825:10825 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 08:03:41.900 10825:10825 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 08:03:41.900 10825:10825 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 08:03:41.900 10825:10825 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 08:03:42.240 10825:10825 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 08:03:42.250 10825:10825 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-13 08:03:42.270 10825:10825 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-13 08:03:42.280 10825:10825 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 08:03:42.370 10825:10825 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2400
+
+[ 12-13 08:03:42.380 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 08:03:42.390 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 08:03:42.400 10825:10825 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-13 08:03:42.400 10825:10825 I/PushService ]
+PushService OnCreate
+
+[ 12-13 08:03:42.420 10825:10840 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 08:03:42.420 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-13 08:03:42.570 10825:10840 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867746013051545
+
+[ 12-13 08:03:42.580 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.62:8605
+
+[ 12-13 08:03:42.580 10825:10840 I/PushHandler ]
+the saved time = 1449922701281current time = 1449965022584
+
+[ 12-13 08:03:42.580 10825:10840 I/PushHandler ]
+return true
+
+[ 12-13 08:03:42.790 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,the httpString is = {"code":200,"server":"119.254.110.62:8605"}
+
+[ 12-13 08:03:42.800 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the new IP, IP = 119.254.110.62:8605time is:1449965022801
+
+[ 12-13 08:03:42.830 10825:10840 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 1S|16|WIFI|46000
+
+[ 12-13 08:03:42.830 10825:10840 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 1S|16|WIFI|46000 push version:2.6
+
+[ 12-13 08:03:42.830 10825:10840 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-13 08:03:42.980 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-13 08:03:42.980 10825:10845 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-13 08:03:42.980 10825:10845 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-13 08:03:42.980 10825:10845 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:03:43.300 10766:10766 I/MiuiMagnifierController ]
+MagnifierController is created
+
+[ 12-13 08:03:43.350 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:03:43.350 10766:10766 I/MiuiHandleView ]
+To hide the MagnifierInsertionHandleView, just delay
+
+[ 12-13 08:03:43.370 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController show:[false, false, true, true]
+
+[ 12-13 08:03:43.370 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is shown with hidden panels and shown handle
+
+[ 12-13 08:03:43.370 10766:10766 I/MiuiHandleView ]
+HandleView [0] is shown
+
+[ 12-13 08:03:43.370 10766:10766 I/MiuiCursorController ]
+Show InsertionPointCursorController in one shot context
+
+[ 12-13 08:03:44.770 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 08:03:44.790 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 08:03:44.800 10825:10840 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 08:03:44.800 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-13 08:03:45.510 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:03:45.810 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:03:50.950 10766:10766 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-13 08:03:50.950 10766:10766 D/http     ]
+请求的参数：method=SmsLoginSendSmsCodeV5&appid=90116&mobile=18771021239&guid=61472b14-bfb0-4d76-b437-b427f1f3ed24&sign=FBB508402FC0EB78666005659D145F51
+
+[ 12-13 08:03:50.950 10766:10766 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-13 08:03:51.260 10766:10766 V/AsyncHttpRH ]
+Progress 41 from 41 (100%)
+
+
+[ 12-13 08:03:51.260 10766:10766 D/http     ]
+返回的结果：{"Status":1,"Data":"","Message":"成功"}
+
+[ 12-13 08:04:18.810 10766:10766 I/MiuiMagnifierController ]
+MagnifierController is created
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiHandleView ]
+To hide the MagnifierInsertionHandleView, just delay
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController show:[false, false, true, true]
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is shown with hidden panels and shown handle
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiHandleView ]
+HandleView [0] is shown
+
+[ 12-13 08:04:18.900 10766:10766 I/MiuiCursorController ]
+Show InsertionPointCursorController in one shot context
+
+[ 12-13 08:04:36.970 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:04:41.080 10766:10766 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-13 08:04:41.080 10766:10766 D/http     ]
+请求的参数：method=SmsLoginSendSmsCodeV5&appid=90116&mobile=18771021239&guid=bf4631dc-1c19-4f38-a057-0fbdef0ab56e&sign=C4CB34364994F3CD1F61479C49A9ABBB
+
+[ 12-13 08:04:41.080 10766:10766 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-13 08:04:41.190 10766:10766 V/AsyncHttpRH ]
+Progress 79 from 79 (100%)
+
+
+[ 12-13 08:04:41.190 10766:10766 D/http     ]
+返回的结果：{"Status":-2,"Data":"","Message":"相同手机1分钟内请勿重复发短信"}
+
+[ 12-13 08:04:53.100 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:04:53.230 10766:10766 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 08:04:53.420 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+beginBatchEdit on inactive InputConnection
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+getTextBeforeCursor on inactive InputConnection
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+endBatchEdit on inactive InputConnection
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+beginBatchEdit on inactive InputConnection
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+getTextBeforeCursor on inactive InputConnection
+
+[ 12-13 08:05:26.390 10766:10766 W/IInputConnectionWrapper ]
+endBatchEdit on inactive InputConnection
+
+[ 12-13 08:05:33.130 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 08:06:43.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:06:43.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:06:43.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:06:43.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:06:43.060 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:06:45.890 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:06:45.940 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:09:52.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:09:52.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:09:52.080 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:09:52.090 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:09:52.090 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:09:53.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:09:53.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:12:52.100 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:12:52.100 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:12:52.120 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:12:52.120 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:12:52.120 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:12:53.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:12:53.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:15:53.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:15:53.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:15:53.090 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:15:53.090 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:15:53.090 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:15:54.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:15:54.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:18:53.120 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:18:53.120 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:18:53.140 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:18:53.140 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:18:53.140 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:18:54.910 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:18:54.920 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:21:53.140 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:21:53.140 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:21:53.180 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:21:53.180 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:21:53.180 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:21:54.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:21:54.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:24:54.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:24:54.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:24:54.100 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:24:54.100 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:24:54.100 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:24:55.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:24:55.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:27:54.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:27:54.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:27:54.150 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:27:54.150 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:27:54.150 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:27:55.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:27:55.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:30:54.160 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:30:54.160 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:30:54.190 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:30:54.190 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:30:54.190 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:30:55.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:30:55.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:33:54.220 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:33:54.220 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:33:54.240 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:33:54.240 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:33:54.240 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:33:55.910 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:33:55.910 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:36:55.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:36:55.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:36:55.050 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:36:55.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:36:55.060 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:36:56.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:36:56.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:39:55.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:39:55.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:39:55.100 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:39:55.100 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:39:55.100 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:39:56.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:39:56.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:42:55.120 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:42:55.120 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:42:55.150 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:42:55.150 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:42:55.150 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:42:56.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:42:56.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:45:55.170 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:45:55.170 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:45:55.200 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:45:55.200 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:45:55.200 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:45:56.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:45:56.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:48:55.220 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:48:55.220 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:48:55.420 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:48:55.420 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:48:55.420 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:48:56.910 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:48:56.910 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:51:57.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:51:57.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:51:57.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:51:57.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:51:57.060 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:51:58.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:51:58.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:54:58.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:54:58.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:54:58.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:54:58.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:54:58.070 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:54:59.910 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:54:59.910 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 08:57:59.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 08:57:59.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 08:57:59.110 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 08:57:59.110 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 08:57:59.110 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 08:58:00.646 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 08:58:00.646 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:00:57.930 10766:10766 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-13 09:01:11.950 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+android.net.conn.CONNECTIVITY_CHANGE
+
+[ 12-13 09:01:11.950 10825:10825 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message start 
+
+[ 12-13 09:01:11.950 10825:10825 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message end
+
+[ 12-13 09:01:11.950 10825:10825 I/##COMMON_io.rong.push.PushReceiver:STATUS_WIFI ]
+mStatus is 2,the network has changed to be WIFI
+
+[ 12-13 09:01:11.950 10825:10825 I/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+The network is same as before, do nothing!!
+
+[ 12-13 09:01:11.960 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:01:11.960 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:01:11.970 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:01:11.970 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:01:11.970 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:01:12.180 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:01:12.180 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:01:37.630 10766:10766 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-13 09:01:37.660 10766:14442 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-13 09:01:37.660 10766:14442 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-13 09:04:16.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:04:16.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:04:16.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:04:16.070 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:04:16.070 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:04:16.170 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:04:16.170 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:07:17.030 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:07:17.030 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:07:17.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:07:17.070 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:07:17.070 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:07:17.210 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:07:17.210 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:10:22.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:10:22.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:10:22.090 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:10:22.090 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:10:22.090 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:10:22.230 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:10:22.230 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:13:23.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:13:23.060 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:13:23.560 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:13:23.560 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:13:23.560 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:13:23.710 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:13:23.710 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:15:52.900 10766:10766 W/IInputConnectionWrapper ]
+beginBatchEdit on inactive InputConnection
+
+[ 12-13 09:15:52.900 10766:10766 W/IInputConnectionWrapper ]
+getTextBeforeCursor on inactive InputConnection
+
+[ 12-13 09:15:52.920 10766:10766 W/IInputConnectionWrapper ]
+endBatchEdit on inactive InputConnection
+
+[ 12-13 09:15:52.920 10766:10766 W/IInputConnectionWrapper ]
+beginBatchEdit on inactive InputConnection
+
+[ 12-13 09:15:52.920 10766:10766 W/IInputConnectionWrapper ]
+getTextBeforeCursor on inactive InputConnection
+
+[ 12-13 09:15:52.920 10766:10766 W/IInputConnectionWrapper ]
+endBatchEdit on inactive InputConnection
+
+[ 12-13 09:15:58.500 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 09:16:23.880 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:16:23.880 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:16:23.950 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:16:23.950 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:16:23.950 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:16:25.710 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:16:25.710 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:19:24.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:19:24.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:19:24.110 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:19:24.110 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:19:24.110 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:19:25.700 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:19:25.700 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:20:42.060 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 09:20:42.190 10766:10766 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 09:20:42.380 10766:10766 I/MiuiCursorController ]
+InsertionPointCursorController is hidden including all panels and handle
+
+[ 12-13 09:22:24.180 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:22:24.190 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:22:24.230 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:22:24.240 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:22:24.240 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:22:25.990 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:22:25.990 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:25:24.240 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:25:24.240 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:25:24.260 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:25:24.260 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:25:24.260 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:25:26.000 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:25:26.000 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:28:30.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:28:30.050 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:28:30.090 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:28:30.090 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:28:30.090 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:28:31.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:28:31.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:31:30.160 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:31:30.160 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:31:30.180 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:31:30.180 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:31:30.180 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:31:31.900 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:31:31.900 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:34:31.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:34:31.070 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:34:31.080 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:34:31.090 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:34:31.090 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:34:32.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:34:32.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:37:32.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:37:32.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:37:32.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:37:32.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:37:32.060 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:37:33.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:37:33.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:40:32.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:40:32.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:40:32.100 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:40:32.100 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:40:32.100 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:40:33.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:40:33.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:43:32.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:43:32.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:43:32.160 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:43:32.160 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:43:32.160 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:43:32.990 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:43:32.990 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:46:32.270 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:46:32.270 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:46:32.300 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:46:32.300 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:46:32.300 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:46:33.900 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:46:33.900 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:49:33.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:49:33.040 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:49:33.060 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:49:33.060 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:49:33.060 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:49:34.810 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:49:34.810 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:52:33.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:52:33.080 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:52:33.100 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:52:33.110 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:52:33.110 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:52:34.800 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:52:34.800 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:55:33.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:55:33.110 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:55:33.130 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:55:33.130 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:55:33.130 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:55:34.820 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:55:34.820 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:58:43.810 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+android.net.conn.CONNECTIVITY_CHANGE
+
+[ 12-13 09:58:43.810 10825:10825 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message start 
+
+[ 12-13 09:58:43.810 10825:10825 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message end
+
+[ 12-13 09:58:43.810 10825:10825 I/##COMMON_io.rong.push.PushReceiver:STATUS_WIFI ]
+mStatus is 2,the network has changed to be WIFI
+
+[ 12-13 09:58:43.810 10825:10825 I/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+The network is same as before, do nothing!!
+
+[ 12-13 09:58:45.250 10825:10825 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-13 09:58:45.250 10825:10825 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-13 09:58:45.290 10825:10840 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.110.62
+
+[ 12-13 09:58:45.330 10825:10840 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-13 09:58:45.330 10825:10840 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:58:45.430 10825:10845 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-13 09:58:45.430 10825:10845 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-13 09:59:01.370 18508:18508 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:01.370 18508:18508 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:01.370 18508:18508 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:01.370 18508:18508 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:01.940 18508:18508 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:01.950 18508:18508 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-13 09:59:02.020 18508:18508 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-13 09:59:02.030 18508:18508 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-13 09:59:02.030 18508:18508 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-13 09:59:02.060 18508:18508 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 09:59:02.790 18508:18508 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2100
+
+[ 12-13 09:59:02.800 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-13 09:59:02.820 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-13 09:59:02.830 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-13 09:59:02.830 18508:18508 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-13 09:59:02.830 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-13 09:59:02.830 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-13 09:59:02.830 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-13 09:59:02.860 18529:18529 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:02.860 18529:18529 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:02.860 18529:18529 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:02.860 18529:18529 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:02.860 18508:18508 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-13 09:59:03.030 18508:18508 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-13 09:59:03.420 18529:18529 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:03.430 18508:18508 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041_msm8660_surf_JB_REL_RB1.2_Merge_release_AU (Merge)
+Build Date: 11/05/12 Mon
+Local Branch: mybranch425650
+Remote Branch: quic/jb_rel_rb1.2
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041 +  NOTHING
+
+[ 12-13 09:59:03.440 18529:18529 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-13 09:59:03.450 18529:18529 D/RongService ]
+onCreate, pid=18529
+
+[ 12-13 09:59:03.450 18529:18529 D/RongService ]
+onBind, pid=18529
+
+[ 12-13 09:59:03.850 18529:18529 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+867746013051545
+
+[ 12-13 09:59:03.900 18529:18529 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-13 09:59:03.900 18508:18508 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42c447e8
+
+[ 12-13 09:59:03.950 18508:18508 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-13 09:59:04.060 18508:18510 D/dalvikvm ]
+GC_CONCURRENT freed 5196K, 40% free 9319K/15363K, paused 12ms+7ms, total 99ms
+
+[ 12-13 09:59:04.060 18508:18508 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+
+[ 12-13 09:59:04.760 18508:18508 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-13 09:59:04.940 18569:18569 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:04.940 18569:18569 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:04.940 18569:18569 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:04.940 18569:18569 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:05.370 18569:18569 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:05.370 18569:18569 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-13 09:59:05.390 18569:18569 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-13 09:59:05.410 18569:18569 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 09:59:05.500 18569:18569 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4100
+
+[ 12-13 09:59:05.510 18569:18569 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 09:59:05.520 18569:18569 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 09:59:05.520 18569:18569 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-13 09:59:05.520 18569:18569 I/PushService ]
+PushService OnCreate
+
+[ 12-13 09:59:05.540 18508:18508 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-13 09:59:05.550 18569:18584 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 09:59:05.550 18569:18584 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-13 09:59:05.570 18508:18585 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-13 09:59:05.570 18508:18585 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-13 09:59:05.680 18569:18584 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867746013051545
+
+[ 12-13 09:59:05.690 18569:18584 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.62:8605
+
+[ 12-13 09:59:05.690 18569:18584 I/PushHandler ]
+the saved time = 1449965022801current time = 1449971945696
+
+[ 12-13 09:59:05.690 18569:18584 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.110.62:8605
+
+[ 12-13 09:59:05.690 18569:18584 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 1S|16|WIFI|46000
+
+[ 12-13 09:59:05.690 18569:18584 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 1S|16|WIFI|46000 push version:2.6
+
+[ 12-13 09:59:05.700 18569:18584 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-13 09:59:05.850 18569:18587 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-13 09:59:05.850 18569:18587 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-13 09:59:05.850 18569:18587 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-13 09:59:05.850 18569:18587 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:59:07.540 18508:18508 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 09:59:09.600 18569:18569 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 09:59:09.620 18569:18569 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 09:59:09.630 18569:18584 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 09:59:09.630 18569:18584 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-13 09:59:25.150 18529:18529 D/RongService ]
+onUnbind, pid=18529
+
+[ 12-13 09:59:25.150 18529:18529 D/RongService ]
+onDestroy, pid=18529
+
+[ 12-13 09:59:25.260 18615:18615 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:25.260 18615:18615 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:25.260 18615:18615 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:25.260 18615:18615 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:25.820 18615:18615 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:25.830 18615:18615 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-13 09:59:25.950 18615:18615 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-13 09:59:25.960 18615:18615 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-13 09:59:25.960 18615:18615 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-13 09:59:25.980 18615:18615 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 09:59:26.060 18615:18615 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3900
+
+[ 12-13 09:59:26.070 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-13 09:59:26.090 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-13 09:59:26.090 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-13 09:59:26.090 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-13 09:59:26.100 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-13 09:59:26.110 18615:18615 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-13 09:59:26.110 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-13 09:59:26.110 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-13 09:59:26.110 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-13 09:59:26.150 18634:18634 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:26.150 18634:18634 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:26.150 18634:18634 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:26.150 18634:18634 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:26.160 18615:18615 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-13 09:59:26.280 18615:18615 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-13 09:59:26.560 18615:18615 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041_msm8660_surf_JB_REL_RB1.2_Merge_release_AU (Merge)
+Build Date: 11/05/12 Mon
+Local Branch: mybranch425650
+Remote Branch: quic/jb_rel_rb1.2
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041 +  NOTHING
+
+[ 12-13 09:59:26.740 18634:18634 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:26.750 18634:18634 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-13 09:59:26.760 18634:18634 D/RongService ]
+onCreate, pid=18634
+
+[ 12-13 09:59:26.760 18634:18634 D/RongService ]
+onBind, pid=18634
+
+[ 12-13 09:59:26.940 18634:18634 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+867746013051545
+
+[ 12-13 09:59:26.940 18634:18634 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-13 09:59:26.940 18615:18615 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42beac50
+
+[ 12-13 09:59:26.990 18615:18615 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-13 09:59:27.340 18615:18617 D/dalvikvm ]
+GC_CONCURRENT freed 4809K, 38% free 9589K/15363K, paused 2ms+2ms, total 27ms
+
+[ 12-13 09:59:27.340 18615:18615 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 21ms
+
+[ 12-13 09:59:28.000 18615:18615 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-13 09:59:30.000 18672:18672 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:30.000 18672:18672 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:30.000 18672:18672 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:30.000 18672:18672 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:30.440 18672:18672 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:30.460 18672:18672 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-13 09:59:30.480 18615:18615 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 09:59:30.490 18672:18672 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-13 09:59:30.550 18672:18672 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 09:59:30.680 18672:18672 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+0
+
+[ 12-13 09:59:30.700 18672:18672 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 09:59:30.960 18672:18672 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 09:59:30.970 18672:18672 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-13 09:59:30.970 18672:18672 I/PushService ]
+PushService OnCreate
+
+[ 12-13 09:59:30.970 18672:18672 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 09:59:31.000 18672:18672 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 09:59:31.000 18672:18693 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 09:59:31.000 18672:18693 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-13 09:59:31.190 18672:18693 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867746013051545
+
+[ 12-13 09:59:31.210 18672:18693 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.62:8605
+
+[ 12-13 09:59:31.210 18672:18693 I/PushHandler ]
+the saved time = 1449965022801current time = 1449971971221
+
+[ 12-13 09:59:31.210 18672:18693 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.110.62:8605
+
+[ 12-13 09:59:31.220 18672:18693 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 1S|16|WIFI|46000
+
+[ 12-13 09:59:31.220 18672:18693 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 1S|16|WIFI|46000 push version:2.6
+
+[ 12-13 09:59:31.230 18672:18693 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-13 09:59:31.380 18672:18695 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-13 09:59:31.380 18672:18695 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-13 09:59:31.380 18672:18695 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-13 09:59:31.380 18672:18695 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 09:59:31.390 18672:18693 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 09:59:31.390 18672:18693 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-13 09:59:32.560 18615:18615 D/long     ]
+cancle request：com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-13 09:59:32.650 18634:18634 D/RongService ]
+onUnbind, pid=18634
+
+[ 12-13 09:59:32.650 18634:18634 D/RongService ]
+onDestroy, pid=18634
+
+[ 12-13 09:59:58.280 18855:18855 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:58.280 18855:18855 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:58.280 18855:18855 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:58.280 18855:18855 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:58.760 18855:18855 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:58.790 18855:18855 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-13 09:59:58.860 18855:18855 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-13 09:59:58.870 18855:18855 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-13 09:59:58.880 18855:18855 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-13 09:59:58.900 18855:18855 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 09:59:58.970 18855:18855 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4300
+
+[ 12-13 09:59:58.980 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-13 09:59:59.000 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-13 09:59:59.010 18855:18855 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-13 09:59:59.010 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-13 09:59:59.010 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-13 09:59:59.010 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-13 09:59:59.030 18855:18855 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-13 09:59:59.060 18885:18885 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 09:59:59.060 18885:18885 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 09:59:59.060 18885:18885 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 09:59:59.060 18885:18885 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 09:59:59.120 18855:18855 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-13 09:59:59.220 18855:18855 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041_msm8660_surf_JB_REL_RB1.2_Merge_release_AU (Merge)
+Build Date: 11/05/12 Mon
+Local Branch: mybranch425650
+Remote Branch: quic/jb_rel_rb1.2
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041 +  NOTHING
+
+[ 12-13 09:59:59.590 18885:18885 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 09:59:59.600 18885:18885 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-13 09:59:59.600 18885:18885 D/RongService ]
+onCreate, pid=18885
+
+[ 12-13 09:59:59.600 18885:18885 D/RongService ]
+onBind, pid=18885
+
+[ 12-13 09:59:59.800 18885:18885 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+867746013051545
+
+[ 12-13 09:59:59.800 18885:18885 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-13 09:59:59.810 18855:18855 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42bf00c0
+
+[ 12-13 09:59:59.850 18855:18855 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-13 10:00:00.230 18855:18857 D/dalvikvm ]
+GC_CONCURRENT freed 4806K, 38% free 9614K/15363K, paused 13ms+4ms, total 54ms
+
+[ 12-13 10:00:00.230 18855:18855 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 42ms
+
+[ 12-13 10:00:00.880 18855:18855 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-13 10:00:03.340 18931:18931 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-13 10:00:03.340 18931:18931 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-13 10:00:03.340 18931:18931 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-13 10:00:03.340 18931:18931 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-13 10:00:03.710 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Log:1449972003715
+
+[ 12-13 10:00:03.940 18931:18931 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-13 10:00:03.950 18931:18931 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-13 10:00:03.970 18931:18931 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-13 10:00:03.990 18931:18931 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-13 10:00:04.390 18931:18931 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1400
+
+[ 12-13 10:00:04.400 18931:18931 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 10:00:04.420 18931:18931 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 10:00:04.420 18931:18931 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-13 10:00:04.420 18931:18931 I/PushService ]
+PushService OnCreate
+
+[ 12-13 10:00:04.440 18931:18949 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 10:00:04.440 18931:18949 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-13 10:00:04.570 18931:18949 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867746013051545
+
+[ 12-13 10:00:04.580 18931:18949 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.62:8605
+
+[ 12-13 10:00:04.580 18931:18949 I/PushHandler ]
+the saved time = 1449965022801current time = 1449972004586
+
+[ 12-13 10:00:04.580 18931:18949 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.110.62:8605
+
+[ 12-13 10:00:04.580 18931:18949 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:Xiaomi|MI 1S|16|WIFI|46000
+
+[ 12-13 10:00:04.580 18931:18949 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:Xiaomi|MI 1S|16|WIFI|46000 push version:2.6
+
+[ 12-13 10:00:04.580 18931:18949 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-13 10:00:04.750 18931:18951 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-13 10:00:04.750 18931:18951 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-13 10:00:04.750 18931:18951 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-13 10:00:04.750 18931:18951 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-13 10:00:04.760 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449972004769
+
+[ 12-13 10:00:05.810 18931:18931 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-13 10:00:05.830 18931:18931 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-13 10:00:05.840 18931:18949 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-13 10:00:05.840 18931:18949 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-13 10:00:06.720 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Log:1449972006728
+
+[ 12-13 10:00:07.640 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449972007646
+
+[ 12-13 10:00:07.700 18855:18855 D/dalvikvm ]
+GC_FOR_ALLOC freed 3994K, 35% free 11230K/17031K, paused 26ms, total 27ms
+
+[ 12-13 10:00:14.880 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Log:1449972014890
+
+[ 12-13 10:00:15.730 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449972015739
+
+[ 12-13 10:00:20.910 18855:18855 D/long     ]
+cancle request：com.xdf.ucan.ui.login.ForgetActivity
+
+[ 12-13 10:00:27.890 18855:18909 D/cn.edu.nju.ise.kikandroid ]
+Log:1449972027899
+
+[ 12-13 10:00:29.240 18855:18855 D/long     ]
+cancle request：com.xdf.ucan.ui.login.RegActivity
+
+[ 12-13 10:00:31.390 18855:18855 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 10:00:31.880 18855:18855 D/long     ]
+cancle request：com.xdf.ucan.ui.login.LoginActivity
+

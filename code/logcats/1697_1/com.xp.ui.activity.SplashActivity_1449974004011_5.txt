@@ -1,0 +1,1672 @@
+--------- beginning of system
+[ 12-13 10:30:38.627 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:30:38.630 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:30:38.630 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:30:38.631 26044:26044 V/ActivityThread ]
+ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:30:38.687 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:30:38.687 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:30:38.687 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:30:38.693 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=true
+
+[ 12-13 10:30:38.693 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:30:38.693 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:30:38.728 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:30:38.728 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:30:39.155 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@170165a7
+
+[ 12-13 10:30:39.155 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:31:13.818 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1a4bf9e7 token=android.os.BinderProxy@827f994 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:13.823 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@827f994
+
+[ 12-13 10:31:13.824 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:31:13.826 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:31:13.826 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:31:13.826 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} with isForward=false
+
+[ 12-13 10:31:13.827 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:31:13.827 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:31:13.841 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:31:13.841 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:31:14.225 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@827f994
+
+[ 12-13 10:31:43.589 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:31:43.593 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:31:43.593 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:43.593 26044:26044 V/ActivityThread ]
+ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:31:43.639 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:43.640 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:43.640 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:31:43.646 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=true
+
+[ 12-13 10:31:43.647 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:43.648 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:43.665 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:31:43.665 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:31:44.078 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@170165a7
+
+[ 12-13 10:31:44.079 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:31:45.205 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:31:45.209 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@1c6db41d
+
+[ 12-13 10:31:45.209 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:45.211 26044:26044 V/ActivityThread ]
+ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:31:45.234 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:45.235 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:45.235 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:31:45.239 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} with isForward=true
+
+[ 12-13 10:31:45.239 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:45.240 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:31:45.282 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:31:45.282 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:31:45.674 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@36b87e59
+
+[ 12-13 10:31:45.674 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@1c6db41d
+
+[ 12-13 10:32:31.265 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2b5225c2 token=android.os.BinderProxy@2f875fd3 {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:31.268 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@2f875fd3
+
+[ 12-13 10:32:31.269 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:31.273 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:31.273 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:31.273 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=false
+
+[ 12-13 10:32:31.275 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:31.275 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@1c6db41d
+
+[ 12-13 10:32:31.281 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:31.282 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:31.662 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@2f875fd3
+
+[ 12-13 10:32:32.968 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{70b54f4 token=android.os.BinderProxy@1c6db41d {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:32.972 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1c6db41d
+
+[ 12-13 10:32:32.973 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:32:32.974 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:32:32.974 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:32.974 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} with isForward=false
+
+[ 12-13 10:32:32.975 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:32:32.976 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:32:32.984 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:32.984 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:33.367 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1c6db41d
+
+[ 12-13 10:32:35.642 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:32:35.646 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:32:35.647 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:35.647 26044:26044 V/ActivityThread ]
+ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:32:35.687 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:35.687 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:35.687 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:35.698 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=true
+
+[ 12-13 10:32:35.698 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:35.699 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:35.721 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:35.722 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:36.145 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@170165a7
+
+[ 12-13 10:32:36.145 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:32:41.679 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:41.682 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:32:41.683 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:41.683 26044:26044 V/ActivityThread ]
+ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:32:41.692 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:41.692 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:41.693 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:41.701 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} with isForward=true
+
+[ 12-13 10:32:41.701 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:41.701 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:41.752 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:41.752 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:42.112 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@3ef497f
+
+[ 12-13 10:32:42.115 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:32:55.563 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3dba1caf token=android.os.BinderProxy@1b55b8bc {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:55.567 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1b55b8bc
+
+[ 12-13 10:32:55.568 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:55.570 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:55.570 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:55.570 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=false
+
+[ 12-13 10:32:55.571 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:55.571 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:32:55.581 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:55.581 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:55.951 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1b55b8bc
+
+[ 12-13 10:32:56.612 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:32:56.616 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:32:56.616 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:56.616 26044:26044 V/ActivityThread ]
+ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:32:56.625 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:56.626 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:56.626 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:32:56.630 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}} with isForward=true
+
+[ 12-13 10:32:56.631 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:56.631 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:32:56.674 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:32:56.674 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:32:57.050 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@3ef497f
+
+[ 12-13 10:32:57.051 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@19f9b305
+
+--------- beginning of main
+[ 12-13 10:33:01.263 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Log:1449973981263
+
+[ 12-13 10:33:01.298 26044:26143 I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:33:02.188 26044:26044 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:33:02.201 26044:26044 D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-13 10:33:02.215 26044:26044 D/PopupWindow ]
+invokePopup: mPopupView = android.widget.PopupWindow$PopupViewContainer{293cb00d V.E..... ......I. 0,0-0,0}, WindowManager.LayoutParams = WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#1 ty=1000 fl=#840000 fmt=-3 surfaceInsets=Rect(0, 0 - 0, 0) meizuFlags=0x9 imeOffset=-1 splitActionBarHeight=0Meizu WM.LayoutParams [ flags=0x0] }
+
+[ 12-13 10:33:02.218 26044:26044 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{3891bc2 PopupWindow:66a0aa4,ident = 14}
+
+[ 12-13 10:33:02.256 26044:26122 D/OpenGLRenderer ]
+CanvasContext() 0x7f6f5ad8c0 initialize 0x7f52f6e210
+
+[ 12-13 10:33:02.256 26044:26122 D/Surface  ]
+Surface::connect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:02.257 26044:26122 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:33:02.258 26044:26122 D/Surface  ]
+Surface::allocateBuffers(this=0x7f52f6e200)
+
+[ 12-13 10:33:02.260 26044:26044 D/AbsListView ]
+onSizeChanged w=960, h=505, oldw=0, oldh=0, getChildCount=0, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdaptercom.xp.util.PopupWindowUtils$ItemAdapter@29e3e741, this=android.widget.GridView{55c3e5b VFED.VC. ......I. 0,168-960,673 #7f0a006e app:id/gridView}, callstack=android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.RelativeLayout.onLayout:1195 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 
+
+[ 12-13 10:33:02.302 26044:26044 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=android.widget.GridView{55c3e5b VFED.VC. .F....ID 0,168-960,673 #7f0a006e app:id/gridView}
+
+[ 12-13 10:33:02.302 26044:26044 V/InputMethodManager ]
+onWindowFocus: android.widget.GridView{55c3e5b VFED.VC. .F....ID 0,168-960,673 #7f0a006e app:id/gridView} softInputMode=17 first=true flags=#1840000
+
+[ 12-13 10:33:02.302 26044:26044 V/InputMethodManager ]
+START INPUT: android.widget.GridView{55c3e5b VFED.VC. .F....ID 0,168-960,673 #7f0a006e app:id/gridView} ic=null tba=android.view.inputmethod.EditorInfo@47a060f controlFlags=#105
+
+[ 12-13 10:33:02.320 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:02.320 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52d6c700) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:02.356 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:02.356 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52cb55c0) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:03.443 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.447 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f51fd9c00) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:03.471 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.474 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f6c537060) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:03.483 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.500 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.516 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.534 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.551 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.567 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.582 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.601 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.617 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.634 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.651 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.665 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.678 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.695 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:03.711 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=960,h=805)
+
+[ 12-13 10:33:05.522 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449973985522
+
+[ 12-13 10:33:11.682 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-13 10:33:11.684 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-13 10:33:11.687 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:11.688 26044:26122 D/Surface  ]
+Surface::disconnect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:11.688 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52d6c700) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:11.688 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52cb55c0) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:11.689 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f51fd9c00) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:11.689 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f6c537060) (w:960 h:805 s:960 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:11.692 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:11.708 26044:26044 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-13 10:33:11.709 26044:26044 V/InputMethodManager ]
+onWindowFocus: null softInputMode=32 first=false flags=#1810100
+
+[ 12-13 10:33:11.709 26044:26044 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{16b3906f V.E..... R.....I. 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@1e62ec59 controlFlags=#100
+
+[ 12-13 10:33:11.720 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87241e00,w=1080,h=1920)
+
+[ 12-13 10:33:11.721 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f51fd9a20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:11.920 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:11.922 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:11.931 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:11.934 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:12.068 26044:26143 I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:33:12.069 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Log:1449973992069
+
+[ 12-13 10:33:12.103 26044:26143 I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:33:12.830 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-13 10:33:12.831 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-13 10:33:12.833 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{204ba249 token=android.os.BinderProxy@191c874e {com.xp.tugele/com.xp.ui.activity.ImageScanningActivity}}
+
+[ 12-13 10:33:12.840 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@191c874e
+
+[ 12-13 10:33:12.840 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:33:12.842 26044:26044 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-13 10:33:12.842 26044:26044 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-13 10:33:12.842 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:33:12.842 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:33:12.843 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}} with isForward=false
+
+[ 12-13 10:33:12.843 26044:26044 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-13 10:33:12.845 26044:26044 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{31dc4799 com.xp.tugele/com.xp.ui.activity.HotDetailsActivity,ident = 10}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{1ebaef5a V.E..... R.....ID 0,0-1080,1920}
+
+[ 12-13 10:33:12.845 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:33:12.846 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:33:12.861 26044:26122 D/OpenGLRenderer ]
+CanvasContext() 0x7f6f5ae540 initialize 0x7f52f6e210
+
+[ 12-13 10:33:12.861 26044:26122 D/Surface  ]
+Surface::connect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:12.861 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:33:12.861 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:33:12.862 26044:26122 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:33:12.862 26044:26122 D/Surface  ]
+Surface::allocateBuffers(this=0x7f52f6e200)
+
+[ 12-13 10:33:12.862 26044:26044 V/InputMethodManager ]
+onWindowFocus: com.xp.view.XListView{148305f1 VFED.VC. .F....ID 0,144-1080,1845 #7f0a0033 app:id/list} softInputMode=16 first=true flags=#1810100
+
+[ 12-13 10:33:12.862 26044:26044 V/InputMethodManager ]
+START INPUT: com.xp.view.XListView{148305f1 VFED.VC. .F....ID 0,144-1080,1845 #7f0a0033 app:id/list} ic=null tba=android.view.inputmethod.EditorInfo@39f7f01e controlFlags=#105
+
+[ 12-13 10:33:12.881 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:12.882 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52d25ba0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:12.908 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:12.909 26044:26122 D/Surface  ]
+Surface::disconnect(this=0x7f87241e00,api=1)
+
+[ 12-13 10:33:12.910 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52de8c00) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:12.910 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f51fd9a20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:12.914 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:13.238 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:13.239 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:13.245 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@191c874e
+
+[ 12-13 10:33:14.066 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.069 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f4ffeb2a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.072 26044:26122 W/MALI     ]
+glDrawArrays:714: [MALI] glDrawArrays takes more than 5ms here. Total elapse time(us): 6029
+
+
+[ 12-13 10:33:14.085 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.090 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f51fd9340) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.091 26044:26122 W/MALI     ]
+glDrawArrays:714: [MALI] glDrawArrays takes more than 5ms here. Total elapse time(us): 5918
+
+
+[ 12-13 10:33:14.101 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.103 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52de8ca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.116 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.132 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.148 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.165 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.183 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.189 26044:26122 W/MALI     ]
+glDrawArrays:714: [MALI] glDrawArrays takes more than 5ms here. Total elapse time(us): 5960
+
+
+[ 12-13 10:33:14.197 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.215 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.231 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.248 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.264 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.281 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.297 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.306 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-13 10:33:14.307 26044:26044 I/View     ]
+Key down dispatch to com.xp.view.XListView{148305f1 VFED.VC. .F....ID 0,144-1080,1845 #7f0a0033 app:id/list}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=63152774, downTime=63152774, deviceId=-1, source=0x101 }
+
+[ 12-13 10:33:14.307 26044:26044 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-13 10:33:14.308 26044:26044 I/View     ]
+Key up dispatch to com.xp.view.XListView{148305f1 VFED.VC. .F....ID 0,144-1080,1845 #7f0a0033 app:id/list}, event = KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=63152775, downTime=63152775, deviceId=-1, source=0x101 }
+
+[ 12-13 10:33:14.313 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.316 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{37edde7c token=android.os.BinderProxy@19f9b305 {com.xp.tugele/com.xp.ui.activity.HotDetailsActivity}}
+
+[ 12-13 10:33:14.325 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:33:14.331 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:14.332 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:14.333 26044:26044 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-13 10:33:14.334 26044:26044 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-13 10:33:14.334 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:14.334 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:33:14.334 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} with isForward=false
+
+[ 12-13 10:33:14.334 26044:26044 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-13 10:33:14.336 26044:26044 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{1d3704a com.xp.tugele/com.xp.ui.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{1d496e1e V.E..... R.....ID 0,0-1080,1920}
+
+[ 12-13 10:33:14.336 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:14.336 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:33:14.350 26044:26122 D/OpenGLRenderer ]
+CanvasContext() 0x7f7a60af80 initialize 0x7f87241e10
+
+[ 12-13 10:33:14.350 26044:26122 D/Surface  ]
+Surface::connect(this=0x7f87241e00,api=1)
+
+[ 12-13 10:33:14.351 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:33:14.351 26044:26122 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:33:14.351 26044:26122 D/Surface  ]
+Surface::allocateBuffers(this=0x7f87241e00)
+
+[ 12-13 10:33:14.352 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:33:14.352 26044:26044 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=android.widget.ListView{794298a VFED.VC. .F....ID 0,3-1080,1688 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:33:14.352 26044:26044 V/InputMethodManager ]
+onWindowFocus: android.widget.ListView{794298a VFED.VC. .F....ID 0,3-1080,1688 #7f0a003c app:id/theme_list} softInputMode=32 first=true flags=#1810100
+
+[ 12-13 10:33:14.353 26044:26044 V/InputMethodManager ]
+START INPUT: android.widget.ListView{794298a VFED.VC. .F....ID 0,3-1080,1688 #7f0a003c app:id/theme_list} ic=null tba=android.view.inputmethod.EditorInfo@eee90ff controlFlags=#105
+
+[ 12-13 10:33:14.372 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87241e00,w=1080,h=1920)
+
+[ 12-13 10:33:14.373 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52cb6240) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.398 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:14.399 26044:26122 D/Surface  ]
+Surface::disconnect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:14.399 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52d25ba0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.400 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f4ffeb2a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.400 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f51fd9340) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.401 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52de8ca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:14.404 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:14.729 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:14.729 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:14.736 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@19f9b305
+
+[ 12-13 10:33:15.194 26044:26044 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:33:15.209 26044:26044 D/ListView ]
+measureHeightOfChildren adapter = com.xp.ui.fragment.HotFragment$ItemAdapter@579b4c2, startPosition = 0, endPosition = 19, maxHeight = 1541, this = android.widget.ListView{794298a VFED.VC. .F...... 0,3-1080,1688 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:33:15.211 26044:26044 D/AbsListView ]
+onSizeChanged w=1080, h=1541, oldw=1080, oldh=1685, getChildCount=3, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdaptercom.xp.ui.fragment.HotFragment$ItemAdapter@579b4c2, this=android.widget.ListView{794298a VFED.VC. .F....ID 0,3-1080,1544 #7f0a003c app:id/theme_list}, callstack=android.widget.ListView.onSizeChanged:1203 android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.LinearLayout.setChildFrame:1959 android.widget.LinearLayout.layoutVertical:1813 android.widget.LinearLayout.onLayout:1722 android.view.View.layout:16100 
+
+[ 12-13 10:33:15.214 26044:26153 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_360x564]
+
+[ 12-13 10:33:15.215 26044:26152 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_360x564]
+
+[ 12-13 10:33:15.215 26044:26152 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_360x564]
+
+[ 12-13 10:33:15.216 26044:26154 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_360x564]
+
+[ 12-13 10:33:15.217 26044:26154 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_360x564]
+
+[ 12-13 10:33:15.217 26044:26153 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_360x564]
+
+[ 12-13 10:33:15.220 26044:26152 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 600, h 848, sample 1, bsLength b520!!
+
+
+[ 12-13 10:33:15.221 26044:26153 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 530, h 742, sample 1, bsLength fa88!!
+
+
+[ 12-13 10:33:15.225 26044:26153 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 530, h 742, sample 1, bsLength fa88!!
+
+
+[ 12-13 10:33:15.227 26044:26152 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 600, h 848, sample 1, bsLength b520!!
+
+
+[ 12-13 10:33:15.241 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87241e00,w=1080,h=1920)
+
+[ 12-13 10:33:15.245 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f6c537420) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:15.251 26044:26154 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_360x564]
+
+[ 12-13 10:33:15.252 26044:26154 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_360x564]
+
+[ 12-13 10:33:15.258 26044:26154 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_360x564]
+
+[ 12-13 10:33:15.260 26044:26152 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.260 26044:26044 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.260 26044:26044 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.262 26044:26152 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_360x564]
+
+[ 12-13 10:33:15.262 26044:26152 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_360x564]
+
+[ 12-13 10:33:15.263 26044:26152 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_360x564]
+
+[ 12-13 10:33:15.264 26044:26152 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:33:15.266 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.266 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.267 26044:26152 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 440, h 597, sample 1, bsLength a79e!!
+
+
+[ 12-13 10:33:15.267 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.267 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.268 26044:26232 I/System.out ]
+isEmailSend:POST
+
+[ 12-13 10:33:15.268 26044:26232 I/System.out ]
+getAllHeaders:POST
+
+[ 12-13 10:33:15.268 26044:26232 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-13 10:33:15.268 26044:26232 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@2422bd1f
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.268 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.270 26044:26232 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-13 10:33:15.270 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.270 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.270 26044:26232 I/System.out ]
+openConnection:1
+
+[ 12-13 10:33:15.271 26044:26232 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-13 10:33:15.272 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:15.272 26044:26232 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:15.274 26044:26232 I/System.out ]
+[socket][50] connection /106.120.188.44:8080;LocalPort=60415(15000)
+
+[ 12-13 10:33:15.274 26044:26232 I/System.out ]
+[CDS]connect[/106.120.188.44:8080] tm:15
+
+[ 12-13 10:33:15.275 26044:26232 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :8080 
+
+[ 12-13 10:33:15.280 26044:26152 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.283 26044:26152 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_360x564]
+
+[ 12-13 10:33:15.283 26044:26152 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_360x564]
+
+[ 12-13 10:33:15.284 26044:26152 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_360x564]
+
+[ 12-13 10:33:15.286 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq4_rW5tnrAAD2qyUHgag220.png_360x564]
+
+[ 12-13 10:33:15.287 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/0A/Co4gj1ZUOR2Tn3bbAAC1INrBjDs07.jpeg_360x564]
+
+[ 12-13 10:33:15.287 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/04/68/Co4gj1ZJkBixDkEsAACnnn3j9c4852.jpg_360x564]
+
+[ 12-13 10:33:15.290 26044:26153 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.290 26044:26153 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_360x564]
+
+[ 12-13 10:33:15.291 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/08/50/Co4gj1Zq14WSNPn2AAD6iMZ7SHw333.jpg_360x564]
+
+[ 12-13 10:33:15.291 26044:26153 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_360x564]
+
+[ 12-13 10:33:15.291 26044:26153 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_360x564]
+
+[ 12-13 10:33:15.298 26044:26152 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:33:15.300 26044:26152 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 400, h 600, sample 1, bsLength bf4c!!
+
+
+[ 12-13 10:33:15.301 26044:26153 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_360x564]
+
+[ 12-13 10:33:15.302 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/93/Co4gj1ZovyqbIpyrAAGGkCHM2eo190.png_360x564]
+
+[ 12-13 10:33:15.302 26044:26153 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_360x564]
+
+[ 12-13 10:33:15.303 26044:26153 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_360x564]
+
+[ 12-13 10:33:15.306 26044:26153 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 658, h 987, sample 1, bsLength 1df20!!
+
+
+[ 12-13 10:33:15.307 26044:26153 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 658, h 987, sample 1, bsLength 1df20!!
+
+
+[ 12-13 10:33:15.314 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87241e00,w=1080,h=1920)
+
+[ 12-13 10:33:15.318 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f4ffec600) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:15.321 26044:26152 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.322 26044:26152 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_360x564]
+
+[ 12-13 10:33:15.322 26044:26152 D/ImageLoader ]
+Start display image task [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_360x564]
+
+[ 12-13 10:33:15.322 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/19/Co4gj1X2mePw6XyXAAC_THEVl9k030.jpg_360x564]
+
+[ 12-13 10:33:15.323 26044:26152 D/ImageLoader ]
+Load image from disk cache [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_360x564]
+
+[ 12-13 10:33:15.324 26044:26152 D/skia     ]
+jpeg_decoder mode 0, colorType 4, w 1080, h 1920, sample 1, bsLength 1897d!!
+
+
+[ 12-13 10:33:15.326 26044:26152 D/ImageLoader ]
+Subsample original image (1080x1920) to 540x960 (scale = 2) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_360x564]
+
+[ 12-13 10:33:15.326 26044:26152 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 1080, h 1920, sample 2, bsLength 1897d!!
+
+
+[ 12-13 10:33:15.343 26044:26154 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_360x564]
+
+[ 12-13 10:33:15.343 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/06/9F/Co4gj1ZqJva10npTAAWPHr8vePg701.png_360x564]
+
+[ 12-13 10:33:15.344 26044:26153 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.345 26044:26153 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_360x564]
+
+[ 12-13 10:33:15.346 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M01/05/29/Co4gj1ZVn_jZqOV5AAHfIPr55bc895.jpg_360x564]
+
+[ 12-13 10:33:15.350 26044:26152 D/skia     ]
+jpeg_decoder finish successfully, L:1888!!!
+
+
+[ 12-13 10:33:15.351 26044:26152 D/ImageLoader ]
+Cache image in memory [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_360x564]
+
+[ 12-13 10:33:15.351 26044:26044 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://tugelepic.mt.sogou.com/group1/M00/00/04/Co4gj1XxGN-L-sn2AAGJfVUFc2Q953.JPG_360x564]
+
+[ 12-13 10:33:15.465 26044:26232 I/System.out ]
+[socket][/192.168.88.158:60415] connected
+
+[ 12-13 10:33:15.465 26044:26232 I/System.out ]
+[CDS]rx timeout:15000
+
+[ 12-13 10:33:15.465 26044:26232 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:33:15.465 26044:26232 I/System.out ]
+[CDS]SO_SNDBUF:8192
+
+[ 12-13 10:33:15.466 26044:26232 I/System.out ]
+snd buffer size:8192
+
+[ 12-13 10:33:15.467 26044:26232 I/System.out ]
+>doSendRequest
+
+[ 12-13 10:33:15.467 26044:26232 I/System.out ]
+<doSendRequest
+
+[ 12-13 10:33:15.620 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f87241e00,w=1080,h=1920)
+
+[ 12-13 10:33:15.621 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52d24e80) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:16.629 26044:26044 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:33:16.630 26044:26044 V/SettingsInterface ]
+ from settings cache , name = android_id , value = 5cd773e41b3ed96b
+
+[ 12-13 10:33:16.636 26044:26044 D/Environment ]
+getStorageVolume,  volume:StorageVolume:
+    mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040810 
+    mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=10 
+    mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+    mUserLabel=null mState=mounted 
+
+[ 12-13 10:33:16.640 26044:26044 D/Environment ]
+getStorageVolume,  volume:StorageVolume:
+    mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040810 
+    mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=10 
+    mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+    mUserLabel=null mState=mounted 
+
+[ 12-13 10:33:16.655 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:16.656 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+isEmailSend:POST
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+getAllHeaders:POST
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+httpHeader:Content-Type: application/x-www-form-urlencoded
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+this.mCheckHandler:android.net.Proxy$DefaultHttpRequestCheckHandler@2422bd1f
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+openConnection:1
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: hostname=106.120.188.44; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:16.663 26044:26233 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+[socket][51] connection /106.120.188.44:8080;LocalPort=45978(0)
+
+[ 12-13 10:33:16.663 26044:26233 I/System.out ]
+[CDS]connect[/106.120.188.44:8080] tm:90
+
+[ 12-13 10:33:16.664 26044:26233 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :8080 
+
+[ 12-13 10:33:16.667 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:16.671 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:33:16.671 26044:26044 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=android.widget.ListView{794298a VFED.VC. ......ID 0,3-1080,1544 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:33:16.671 26044:26044 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 0
+
+[ 12-13 10:33:16.671 26044:26044 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = null, mScrollY = 0, mTouchMode = -1, mFirstPosition = 0
+
+[ 12-13 10:33:16.671 26044:26044 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 0
+
+[ 12-13 10:33:16.671 26044:26044 V/ActivityThread ]
+Handling launch of ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:16.671 26044:26044 V/ActivityThread ]
+ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}: app=com.xp.constant.MyApplication@3af50c7d, appName=com.xp.tugele, pkg=com.xp.tugele, comp={com.xp.tugele/com.mob.tools.MobUIShell}, dir=/data/app/com.xp.tugele-1/base.apk
+
+[ 12-13 10:33:16.709 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:16.712 26044:26044 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-13 10:33:16.712 26044:26044 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-13 10:33:16.712 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:16.712 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:33:16.712 26044:26044 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{10891a19 I.E..... R.....I. 0,0-0,0}
+
+[ 12-13 10:33:16.714 26044:26044 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{1b1af351 com.xp.tugele/com.mob.tools.MobUIShell,ident = 15}
+
+[ 12-13 10:33:16.717 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}} with isForward=true
+
+[ 12-13 10:33:16.717 26044:26044 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-13 10:33:16.717 26044:26044 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{1b1af351 com.xp.tugele/com.mob.tools.MobUIShell,ident = 15}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{10891a19 V.E..... R.....I. 0,0-0,0}
+
+[ 12-13 10:33:16.717 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:16.718 26044:26044 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:16.766 26044:26122 D/OpenGLRenderer ]
+CanvasContext() 0x7f6f5afa80 initialize 0x7f52f6e210
+
+[ 12-13 10:33:16.766 26044:26122 D/Surface  ]
+Surface::connect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:16.767 26044:26122 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-13 10:33:16.767 26044:26122 D/Surface  ]
+Surface::allocateBuffers(this=0x7f52f6e200)
+
+[ 12-13 10:33:16.768 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:33:16.768 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:33:16.768 26044:26044 V/InputMethodManager ]
+onWindowFocus: null softInputMode=274 first=true flags=#1810100
+
+[ 12-13 10:33:16.768 26044:26044 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{10891a19 V.E..... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@2253124a controlFlags=#104
+
+[ 12-13 10:33:16.787 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.788 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f6c536ca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:16.797 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.798 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f6c5042e0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:16.810 26044:26233 I/System.out ]
+[socket][/192.168.88.158:45978] connected
+
+[ 12-13 10:33:16.811 26044:26233 I/System.out ]
+[CDS]rx timeout:0
+
+[ 12-13 10:33:16.811 26044:26233 I/System.out ]
+[CDS]SO_SND_TIMEOUT:0
+
+[ 12-13 10:33:16.811 26044:26233 I/System.out ]
+>doSendRequest
+
+[ 12-13 10:33:16.816 26044:26233 I/System.out ]
+<doSendRequest
+
+[ 12-13 10:33:16.817 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.819 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f52d6c7a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:16.829 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.830 26044:26122 D/GraphicBuffer ]
+register, handle(0x7f6c504560) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:16.846 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.862 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.879 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.896 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.913 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.929 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.945 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.962 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.978 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:16.995 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.034 26044:26122 D/OpenGLRenderer ]
+[TaskMgr] Running thread hwuiTask1 (26236)
+
+[ 12-13 10:33:17.034 26044:26122 D/OpenGLRenderer ]
+[TaskMgr] Running thread hwuiTask2 (26237)
+
+[ 12-13 10:33:17.034 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.040 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.064 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.078 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.094 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.111 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.127 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:17.130 26044:26044 V/ActivityThread ]
+Finishing stop of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@170165a7
+
+[ 12-13 10:33:17.130 26044:26044 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:33:19.031 26044:26110 I/System.out ]
+[CDS]rx timeout:1
+
+[ 12-13 10:33:19.032 26044:26110 I/System.out ]
+[CDS]rx timeout:30000
+
+[ 12-13 10:33:19.033 26044:26110 I/System.out ]
+Close in OkHttp
+
+[ 12-13 10:33:19.035 26044:26110 I/System.out ]
+[CDS]close[54613]
+
+[ 12-13 10:33:19.036 26044:26110 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-13 10:33:19.038 26044:26110 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:19.039 26044:26110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-13 10:33:19.041 26044:26110 D/libc-netbsd ]
+[getaddrinfo]: hostname=api.share.mob.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-13 10:33:19.041 26044:26110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-13 10:33:19.079 26044:26110 D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-13 10:33:19.079 26044:26110 I/System.out ]
+propertyValue:true
+
+[ 12-13 10:33:19.079 26044:26110 I/System.out ]
+[CDS]rx timeout:30000
+
+[ 12-13 10:33:19.079 26044:26110 I/System.out ]
+[socket][52] connection api.share.mob.com/120.132.176.50:80;LocalPort=42020(30000)
+
+[ 12-13 10:33:19.079 26044:26110 I/System.out ]
+[CDS]connect[api.share.mob.com/120.132.176.50:80] tm:30
+
+[ 12-13 10:33:19.081 26044:26110 D/Posix    ]
+[Posix_connect Debug]Process com.xp.tugele :80 
+
+[ 12-13 10:33:19.201 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449973999201
+
+[ 12-13 10:33:19.386 26044:26143 I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:33:24.011 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974004011
+
+[ 12-13 10:33:24.047 26044:26143 I/System.out ]
+[CDS]close[10737]
+
+[ 12-13 10:33:24.924 26044:26044 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-13 10:33:24.934 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:24.951 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:24.968 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:24.984 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.000 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.011 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.028 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.044 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.061 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.077 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.094 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.112 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.127 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.144 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.161 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.177 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.194 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.210 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.227 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.243 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.246 26044:26044 D/Environment ]
+getStorageVolume,  volume:StorageVolume:
+    mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040810 
+    mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=10 
+    mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+    mUserLabel=null mState=mounted 
+
+[ 12-13 10:33:25.251 26044:26044 D/Environment ]
+getStorageVolume,  volume:StorageVolume:
+    mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040810 
+    mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=10 
+    mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+    mUserLabel=null mState=mounted 
+
+[ 12-13 10:33:25.259 26044:26122 D/Surface  ]
+Surface::setBuffersDimensions(this=0x7f52f6e200,w=1080,h=1920)
+
+[ 12-13 10:33:25.262 26044:26044 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{b4c9a2e token=android.os.BinderProxy@142bd9cf {com.xp.tugele/com.mob.tools.MobUIShell}}
+
+[ 12-13 10:33:25.302 26044:26044 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@142bd9cf
+
+[ 12-13 10:33:25.302 26044:26044 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-13 10:33:25.302 26044:26044 V/ActivityThread ]
+Performing resume of ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:25.303 26044:26044 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-13 10:33:25.303 26044:26044 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:25.303 26044:26044 V/ActivityThread ]
+Resume ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-13 10:33:25.303 26044:26044 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-13 10:33:25.303 26044:26044 V/ActivityThread ]
+Resuming ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}} with isForward=false
+
+[ 12-13 10:33:25.303 26044:26044 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{1d3704a com.xp.tugele/com.xp.ui.MainActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{1d496e1e V.E..... R....... 0,0-1080,1920}
+
+[ 12-13 10:33:25.303 26044:26044 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{79ab6d2 token=android.os.BinderProxy@190003a3 {com.xp.tugele/com.xp.ui.MainActivity}}
+
+[ 12-13 10:33:25.305 26044:26044 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@190003a3
+
+[ 12-13 10:33:25.305 26044:26044 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=android.widget.ListView{794298a VFED.VC. ......ID 0,3-1080,1544 #7f0a003c app:id/theme_list}
+
+[ 12-13 10:33:25.305 26044:26044 V/InputMethodManager ]
+onWindowFocus: null softInputMode=32 first=false flags=#1810100
+
+[ 12-13 10:33:25.306 26044:26044 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{1d496e1e V.E..... R....... 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@724c297 controlFlags=#100
+
+[ 12-13 10:33:25.308 26044:26044 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-13 10:33:25.309 26044:26044 D/Activity ]
+translucentStatus = false
+
+[ 12-13 10:33:25.310 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:25.311 26044:26122 D/Surface  ]
+Surface::disconnect(this=0x7f52f6e200,api=1)
+
+[ 12-13 10:33:25.311 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f6c536ca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:25.312 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f6c5042e0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:25.312 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f52d6c7a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:25.312 26044:26122 D/GraphicBuffer ]
+unregister, handle(0x7f6c504560) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-13 10:33:25.318 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:25.331 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:25.331 26044:26122 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-13 10:33:25.334 26044:26044 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@142bd9cf
+
+[ 12-13 10:33:26.672 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Log:1449974006671
+
+[ 12-13 10:33:26.707 26044:26143 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449974006707
+

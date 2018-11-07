@@ -1,0 +1,108 @@
+--------- beginning of /dev/log/main
+[ 12-10 14:30:59.259 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:30:59.459 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:30:59.678 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.121 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.122 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.267 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.466 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.666 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:00.867 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:01.081 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:01.282 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:01.498 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:01.699 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:01.900 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:02.101 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:02.302 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:02.502 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:02.704 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:02.905 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:03.105 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:03.858 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:03.859 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:03.866 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:04.133 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:04.146 27356:0x6adc D/MediaPlayer ]
+handleMessage msg:(3, 75, 0)
+
+[ 12-10 14:31:04.449 27356:0x6adc D/long     ]
+cancle request：com.xdf.ucan.ui.video.VideoPlayerActivity
+
+[ 12-10 14:31:06.424 27356:0x6b1d D/cn.edu.nju.ise.kikandroid ]
+Log:1449729066424
+
+[ 12-10 14:31:08.389 27356:0x6d4f D/libc-netbsd ]
+getaddrinfo: api.share.mob.com get result from proxy >>
+
+
+[ 12-10 14:31:09.125 27356:0x6b1d D/cn.edu.nju.ise.kikandroid ]
+Log:1449729069125
+
+[ 12-10 14:31:09.682 27356:0x6b1d D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729069186
+
+[ 12-10 14:31:09.686 27356:0x6b1d F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 14:31:09.775 27383:0x6af7 D/RongService ]
+onUnbind, pid=27383
+
+[ 12-10 14:31:09.785 27383:0x6af7 D/RongService ]
+onDestroy, pid=27383
+

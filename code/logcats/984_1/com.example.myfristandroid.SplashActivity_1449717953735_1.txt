@@ -1,0 +1,1354 @@
+--------- beginning of /dev/log/main
+[ 12-10 11:23:29.558 17726:17726 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:23:29.583 17726:17726 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428cf1e0
+
+[ 12-10 11:23:29.583 17726:17726 D/dalvikvm ]
+Added shared lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428cf1e0
+
+[ 12-10 11:23:29.588 17726:17726 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428cf1e0
+
+[ 12-10 11:23:29.588 17726:17726 D/dalvikvm ]
+Shared lib '/data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x428cf1e0
+
+[ 12-10 11:23:29.643 17726:17726 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-10 11:23:29.643 17726:17726 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-10 11:23:29.643 17726:17726 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-10 11:23:29.743 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:23:29.743 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:23:29.838 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 1033K, 12% free 17059K/19188K, paused 21ms, total 21ms
+
+[ 12-10 11:23:29.908 17726:17726 I/dalvikvm-heap ]
+Grow heap (frag case) to 50.995MB for 34885888-byte allocation
+
+[ 12-10 11:23:29.923 17726:17735 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 5% free 51124K/53260K, paused 13ms, total 13ms
+
+[ 12-10 11:23:29.938 17726:17730 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 51124K/53260K, paused 2ms+1ms, total 14ms
+
+[ 12-10 11:23:29.983 17742:17742 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 11:23:30.003 17726:17726 I/         ]
+PLATFORM VERSION : JB-MR-2
+
+[ 12-10 11:23:30.018 17742:17742 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d0140
+
+[ 12-10 11:23:30.018 17742:17742 D/dalvikvm ]
+Added shared lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d0140
+
+[ 12-10 11:23:30.023 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:30.028 17742:17742 D/dalvikvm ]
+Trying to load lib /data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so 0x428d0140
+
+[ 12-10 11:23:30.028 17742:17742 D/dalvikvm ]
+Shared lib '/data/data/com.qihoo360.mobilesafe/files/libavb.so.4x.so' already loaded in same CL 0x428d0140
+
+[ 12-10 11:23:30.048 17726:17726 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 11:23:30.098 17742:17742 D/dalvikvm ]
+GetMethodID: not returning static method Landroid/os/SystemProperties;.native_get (Ljava/lang/String;)Ljava/lang/String;
+
+[ 12-10 11:23:30.098 17742:17742 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/ProcessManager;.exec ([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Ljava/io/FileDescriptor;Z)I
+
+[ 12-10 11:23:30.103 17742:17742 D/dalvikvm ]
+GetMethodID: not returning static method Ljava/lang/Class;.classForName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+
+[ 12-10 11:23:30.188 17742:17742 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 11:23:30.193 17742:17742 D/SocketService ]
+pid:17742 myPid:17742
+
+[ 12-10 11:23:30.193 17742:17742 D/SocketService ]
+start to run current thread!id:2623
+
+[ 12-10 11:23:30.208 17742:17769 D/SocketService ]
+ip/192.168.1.159 lport:53310 p:143
+
+[ 12-10 11:23:30.233 17742:17769 D/ForegroundActivity ]
+本次发送帧长:35	总帧长:35
+
+[ 12-10 11:23:30.238 17742:17769 D/SocketService ]
+success to connect server!id:2623 bLogin:false
+
+[ 12-10 11:23:30.283 17742:17770 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 11:23:31.188 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 11:23:31.238 17742:17769 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:46
+
+[ 12-10 11:23:31.288 17742:17770 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 11:23:31.998 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:23:32.043 17726:17726 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:23:32.073 17726:17726 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:23:32.083 17726:17726 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 11:23:32.118 17726:17726 D/MainActivity ]
+Start One Client
+
+[ 12-10 11:23:32.123 17726:17726 D/StrictMode ]
+StrictMode policy violation; ~duration=11 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=23 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1146)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:203)
+	at android.app.SharedPreferencesImpl.edit(SharedPreferencesImpl.java:282)
+	at com.example.myfristandroid.MainActivity.initCfg(MainActivity.java:454)
+	at com.example.myfristandroid.MainActivity.onCreate(MainActivity.java:295)
+	at android.app.Activity.performCreate(Activity.java:5389)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at com.qihoo360.mobilesafe.loader.c.callActivityOnCreate(SourceFile:98)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2256)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2350)
+	at android.app.ActivityThread.access$800(ActivityThread.java:163)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1257)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:157)
+	at android.app.ActivityThread.main(ActivityThread.java:5335)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 11:23:32.143 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.143 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.203 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:32.203 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 11:23:32.243 17742:17769 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:57
+
+[ 12-10 11:23:32.278 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.283 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.343 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.348 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page0:http://oa.paneng.cn:1143/se9200/realdata/realdata.html
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page1:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000050
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page2:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000052
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page3:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000054
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page4:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000007
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page5:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000047
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page6:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000011
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page7:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000005
+
+[ 12-10 11:23:32.353 17726:17726 D/MainActivity ]
+page8:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000148
+
+[ 12-10 11:23:32.358 17726:17726 D/MainActivity ]
+page9:http://oa.paneng.cn:1143/se9200/graph/gshow.jsp?mRID=1130000296
+
+[ 12-10 11:23:32.363 17742:17770 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 11:23:32.373 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:32.373 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:33.218 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 11:23:33.233 17726:17726 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 11:23:33.298 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:33.323 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:33.328 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:33.488 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:23:33.503 17726:17726 V/WebViewChromium ]
+Binding Chromium to the background looper Looper (main, tid 1) {428ce830}
+
+[ 12-10 11:23:33.508 17726:17726 I/chromium ]
+[INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-10 11:23:33.508 17726:17726 I/BrowserProcessMain ]
+Initializing chromium process, renderers=0
+
+[ 12-10 11:23:33.523 17726:17791 W/chromium ]
+[WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 11:23:33.528 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:23:33.613 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:33.638 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:33.668 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:33.738 17726:17811 I/chromium ]
+[INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+
+
+[ 12-10 11:23:34.013 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:23:34.038 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:23:34.128 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:23:34.128 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:34.128 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:23:34.128 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:34.368 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:34.648 17726:17726 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 11:23:34.648 17726:17726 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 11:23:34.648 17726:17726 E/ion      ]
+ioctl c0044901 failed with code -1: Invalid argument
+
+
+[ 12-10 11:23:34.653 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:36.468 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:36.703 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:23:36.703 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.703 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:23:36.703 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.728 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:36.728 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.733 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.738 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:36.758 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.758 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.793 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:36.798 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:38.253 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:38.253 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:38.253 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:38.898 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:23:38.898 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:23:38.953 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:38.958 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:23:39.038 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:39.038 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:39.333 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:23:39.333 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:39.333 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:23:39.333 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:23:39.438 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:39.558 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:23:39.578 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:23:39.608 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:42.668 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:43.338 17726:17802 D/MainActivity ]
+h:805.135,w:1497.81
+
+[ 12-10 11:23:43.488 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:44.878 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:45.373 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:46.398 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:46.843 17726:17802 D/MainActivity ]
+h:805.135,w:1496.51
+
+[ 12-10 11:23:46.943 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:47.798 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:48.308 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:49.768 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:50.363 17726:17802 D/MainActivity ]
+h:795.972,w:1718.77
+
+[ 12-10 11:23:50.618 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:51.618 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:52.163 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:52.378 17742:17746 D/dalvikvm ]
+GC_CONCURRENT freed 1711K, 14% free 18058K/20864K, paused 4ms+1ms, total 30ms
+
+[ 12-10 11:23:53.268 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:53.713 17726:17802 D/MainActivity ]
+h:805.135,w:1498.76
+
+[ 12-10 11:23:53.818 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:54.698 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:55.278 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:56.023 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:56.533 17726:17802 D/MainActivity ]
+h:805.135,w:1543
+
+[ 12-10 11:23:56.633 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:23:57.288 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:23:57.868 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:23:58.943 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:23:59.548 17726:17802 D/MainActivity ]
+h:837.086,w:1990.38
+
+[ 12-10 11:23:59.723 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:00.588 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:01.073 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:02.463 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:02.898 17726:17802 D/MainActivity ]
+h:808.635,w:1451.27
+
+[ 12-10 11:24:02.978 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:03.538 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:03.958 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:05.778 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:06.298 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:06.298 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:06.298 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:06.298 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:06.333 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:06.343 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:06.343 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:06.383 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:06.383 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:10.188 17742:17765 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:70
+
+[ 12-10 11:24:10.248 17742:17770 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:735
+
+[ 12-10 11:24:10.248 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:735 HeadIndex:722 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:24:10.548 17726:17726 D/MainActivity ]
+V.getTag:null v.id:2131230736
+
+[ 12-10 11:24:10.548 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:10.558 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:10.563 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:10.578 17726:17726 V/RenderScript ]
+Application requested CPU execution
+
+[ 12-10 11:24:10.583 17726:17726 V/RenderScript ]
+0x8055a868 Launching thread(s), CPUs 4
+
+[ 12-10 11:24:11.778 17726:17726 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 11:24:11.783 17726:17726 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:24:11.783 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:11.803 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:12.353 17726:17726 D/MainActivity ]
+V.getTag:null v.id:2131230740
+
+[ 12-10 11:24:12.353 17726:17726 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:24:12.353 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:13.793 17726:17726 D/MainActivity ]
+V.getTag:null v.id:2131230734
+
+[ 12-10 11:24:13.793 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:13.793 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:13.808 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:14.233 17726:17726 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 11:24:14.233 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:30.528 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:30.528 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:30.528 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:24:30.528 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:24:30.588 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:30.593 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:30.618 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:30.953 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:30.953 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:30.953 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:30.953 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:31.033 17726:17802 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:24:31.163 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:31.178 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:31.218 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:32.743 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:32.898 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:32.898 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:32.898 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:32.898 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:32.918 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:32.923 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:32.923 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:32.958 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:32.958 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:33.978 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:33.978 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:33.983 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:24:33.983 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:24:34.033 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:34.038 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:34.058 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:34.398 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:34.398 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:34.398 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:34.398 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:34.423 17726:17802 D/MainActivity ]
+h:710.915,w:1183.07
+
+[ 12-10 11:24:34.568 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:34.583 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:34.618 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:38.768 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 4637K, 9% free 59669K/65404K, paused 24ms, total 24ms
+
+[ 12-10 11:24:38.798 17726:17726 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.248MB for 8294416-byte allocation
+
+[ 12-10 11:24:38.818 17726:17735 D/dalvikvm ]
+GC_FOR_ALLOC freed 14K, 8% free 67755K/73508K, paused 21ms, total 21ms
+
+[ 12-10 11:24:38.853 17726:17730 D/dalvikvm ]
+GC_CONCURRENT freed 324K, 9% free 67432K/73508K, paused 2ms+4ms, total 31ms
+
+[ 12-10 11:24:38.878 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 116K, 9% free 67315K/73508K, paused 17ms, total 17ms
+
+[ 12-10 11:24:39.088 17726:17773 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717878745
+
+[ 12-10 11:24:40.133 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:40.563 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:40.563 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:40.563 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:40.563 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:40.588 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:40.593 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:40.593 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:40.633 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:40.633 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:42.438 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:42.438 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:42.438 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:24:42.443 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:24:42.493 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:42.498 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:42.538 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:42.858 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:42.858 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:42.858 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:42.858 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:42.933 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:43.063 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:43.083 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:43.123 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:43.953 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:44.263 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:44.263 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:44.263 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:44.263 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:44.293 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:44.298 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:44.298 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:44.313 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:44.313 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:45.633 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:45.638 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:45.643 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:24:45.643 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:24:45.693 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:45.703 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:45.733 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:46.068 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:46.068 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:46.068 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:46.068 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:46.088 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:46.098 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:46.153 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:46.313 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:46.958 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:47.293 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:47.293 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:47.293 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:24:47.293 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:47.333 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:47.338 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:47.338 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:47.353 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:47.353 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:48.243 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:48.243 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:48.248 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:24:48.248 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:24:48.293 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:48.298 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:48.313 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:24:48.643 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:48.643 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:48.643 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:24:48.643 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:24:48.708 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:48.833 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:48.848 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:24:48.893 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:49.783 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:50.183 17742:17765 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:83
+
+[ 12-10 11:24:50.208 17726:17802 D/MainActivity ]
+h:692.605,w:1476.39
+
+[ 12-10 11:24:50.283 17742:17770 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:748
+
+[ 12-10 11:24:50.308 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:51.228 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:51.283 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:748 HeadIndex:735 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:24:51.628 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:52.523 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:53.158 17726:17802 D/MainActivity ]
+h:688.979,w:1476.39
+
+[ 12-10 11:24:53.243 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:53.943 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:54.348 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:55.273 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:55.988 17726:17802 D/MainActivity ]
+h:684.605,w:1476.39
+
+[ 12-10 11:24:56.113 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:56.703 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:57.148 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:24:57.893 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:24:58.528 17726:17802 D/MainActivity ]
+h:688.995,w:1444.27
+
+[ 12-10 11:24:58.633 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:24:59.783 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:24:59.963 17742:17746 D/dalvikvm ]
+GC_CONCURRENT freed 1941K, 15% free 18065K/21108K, paused 5ms+1ms, total 24ms
+
+[ 12-10 11:25:00.243 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:25:01.028 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:01.688 17726:17802 D/MainActivity ]
+h:696.14,w:1476.39
+
+[ 12-10 11:25:01.783 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:25:02.668 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:25:03.118 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:25:03.868 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:04.393 17726:17802 D/MainActivity ]
+h:694.294,w:1444.27
+
+[ 12-10 11:25:04.473 17726:17726 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 11:25:05.073 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:25:05.418 17726:17802 D/MainActivity ]
+h:910.5,w:1687.5
+
+[ 12-10 11:25:07.098 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:25:07.553 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:07.553 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:07.553 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:07.553 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:07.578 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:07.588 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:07.588 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:07.608 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:07.608 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:09.893 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:09.893 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:09.898 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:25:09.898 17726:17726 I/PersonaManager ]
+getPersonaService() name persona_policy
+
+[ 12-10 11:25:09.953 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:09.958 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:10.318 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:25:10.318 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:10.318 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:25:10.318 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:11.163 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:25:11.188 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:25:14.453 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:25:14.488 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:14.488 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:14.488 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:14.488 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:14.498 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:14.503 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:14.503 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:14.528 17726:17726 W/IInputConnectionWrapper ]
+clearMetaKeyStates on inactive InputConnection
+
+[ 12-10 11:25:16.983 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:16.983 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:16.983 17726:17726 W/ApplicationPackageManager ]
+getCSCPackageItemText()
+
+[ 12-10 11:25:17.038 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:17.043 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:17.073 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:17.388 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:25:17.388 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:17.388 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 11:25:17.388 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:18.228 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.243 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.263 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.278 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.293 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.313 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.328 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.343 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.363 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.378 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.393 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.413 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.428 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.443 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.463 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.478 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:18.493 17726:17726 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 11:25:22.603 17726:17802 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:25:30.183 17742:17765 D/ForegroundActivity ]
+本次发送帧长:13	总帧长:96
+
+[ 12-10 11:25:30.253 17742:17770 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:761
+
+[ 12-10 11:25:30.313 17742:17767 D/SocketService1 ]
+本次提取1:LoadPtr:761 HeadIndex:748 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 10 01 
+
+[ 12-10 11:25:43.078 17726:17802 D/MainActivity ]
+h:5684.15,w:7950.53
+
+[ 12-10 11:25:43.273 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:25:43.288 17726:17726 I/chromium ]
+[INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+
+
+[ 12-10 11:25:43.318 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:46.303 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 18854K, 9% free 59662K/65404K, paused 28ms, total 28ms
+
+[ 12-10 11:25:46.318 17726:17726 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.241MB for 8294416-byte allocation
+
+[ 12-10 11:25:46.338 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 12K, 8% free 67750K/73508K, paused 17ms, total 17ms
+
+[ 12-10 11:25:46.368 17726:17730 D/dalvikvm ]
+GC_CONCURRENT freed 147K, 9% free 67603K/73508K, paused 4ms+3ms, total 32ms
+
+[ 12-10 11:25:46.393 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 9% free 67603K/73508K, paused 15ms, total 15ms
+
+[ 12-10 11:25:46.543 17726:17773 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717946277
+
+[ 12-10 11:25:47.028 17726:17726 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2179)
+
+[ 12-10 11:25:47.423 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:47.423 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:47.423 17726:17726 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 11:25:47.423 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:47.463 17726:17726 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-10 11:25:47.468 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:47.468 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:47.503 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:47.503 17726:17726 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 11:25:53.728 17726:17773 D/cn.edu.nju.ise.kikandroid ]
+Log:1449717953735
+
+[ 12-10 11:25:53.823 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 16526K, 10% free 59514K/65404K, paused 22ms, total 22ms
+
+[ 12-10 11:25:53.838 17726:17726 I/dalvikvm-heap ]
+Grow heap (frag case) to 67.095MB for 8294416-byte allocation
+
+[ 12-10 11:25:53.853 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed 11K, 9% free 67602K/73508K, paused 15ms, total 15ms
+
+[ 12-10 11:25:53.873 17726:17730 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 9% free 67600K/73508K, paused 3ms+2ms, total 20ms
+
+[ 12-10 11:25:53.918 17726:17726 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 9% free 67600K/73508K, paused 13ms, total 13ms
+
+[ 12-10 11:25:54.148 17726:17773 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449717953795
+
+[ 12-10 11:25:54.148 17726:17773 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41752c08)
+
+--------- beginning of /dev/log/system
+[ 12-10 11:25:54.148 17726:17773 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2618
+Process: com.example.myfristandroid, PID: 17726
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

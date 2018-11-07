@@ -1,0 +1,2073 @@
+--------- beginning of system
+[ 12-12 14:46:54.114  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:46:54.123  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:46:54.124  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.127  4851: 4851 V/ActivityThread ]
+ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.411  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=true
+
+[ 12-12 14:46:54.416  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:54.416  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:46:55.008  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:46:55.008  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:03.080  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:03.091  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.092  4851: 4851 V/ActivityThread ]
+ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.136  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:03.143  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.143  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:03.691  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:03.692  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:16.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.376  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:16.692  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:16.699  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.802  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3b85a1b5 token=android.os.BinderProxy@1629304a {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:24.827  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:24.831  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.832  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:24.834  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:24.835  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:24.835  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:25.414  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1629304a
+
+[ 12-12 14:47:28.070  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:28.082  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:28.082  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.083  4851: 4851 V/ActivityThread ]
+ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:28.165  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.166  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:28.171  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}} with isForward=true
+
+[ 12-12 14:47:28.172  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.172  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:28.754  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@d95d5ed
+
+[ 12-12 14:47:28.754  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.362  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2637540d token=android.os.BinderProxy@3038efc2 {com.xdf.ucan/com.xdf.ucan.ui.subscript.AddSubscriptionActivity}}
+
+[ 12-12 14:47:31.372  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.372  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:31.373  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}} with isForward=false
+
+[ 12-12 14:47:31.374  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:31.376  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:31.861  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@3038efc2
+
+[ 12-12 14:47:31.922  4936: 4936 D/ActivityThread ]
+BDC-Calling onReceive: intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) }, receiver=io.rong.push.PushReceiver@2367e5eb
+
+[ 12-12 14:47:31.929  4936: 4936 D/ActivityThread ]
+BDC-RECEIVER handled : 0 / ReceiverData{intent=Intent { act=io.rong.push.HeartBeat flg=0x114 cmp=com.xdf.ucan/io.rong.push.PushReceiver (has extras) } packageName=com.xdf.ucan resultCode=0 resultData=null resultExtras=null}
+
+[ 12-12 14:47:31.930  4936: 4936 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@3851e6a9 startId=4 args=Intent { act=io.rong.push.HeartBeat cmp=com.xdf.ucan/io.rong.push.PushService (has extras) }}
+
+[ 12-12 14:47:32.350  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3d5fe172 token=android.os.BinderProxy@28afe9c3 {com.xdf.ucan/com.xdf.ucan.ui.test.MyTestActivity}}
+
+[ 12-12 14:47:32.520  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:32.520  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.526  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:32.527  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}} with isForward=false
+
+[ 12-12 14:47:32.528  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:32.528  4851: 4851 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:32.997  4851: 4851 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@28afe9c3
+
+[ 12-12 14:47:34.690  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}
+
+[ 12-12 14:47:34.701  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+Handling launch of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.703  4851: 4851 V/ActivityThread ]
+ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: app=com.xdf.ucan.BaseApplication@124fd18c, appName=com.xdf.ucan, pkg=com.xdf.ucan, comp={com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}, dir=/mnt/asec/com.xdf.ucan-1/base.apk
+
+[ 12-12 14:47:34.843  4851: 4851 V/ActivityThread ]
+Performing resume of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.843  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.844  4851: 4851 V/ActivityThread ]
+Resume ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 14:47:34.852  4851: 4851 V/ActivityThread ]
+Resuming ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}} with isForward=true
+
+[ 12-12 14:47:34.853  4851: 4851 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:34.853  4851: 4851 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:35.459  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{27759af5 token=android.os.BinderProxy@30c7d08a {com.xdf.ucan/com.xdf.ucan.MainActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@364dcf33
+
+[ 12-12 14:47:35.459  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@30c7d08a
+
+[ 12-12 14:47:45.768  4851: 4851 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}
+
+[ 12-12 14:47:45.780  4851: 4851 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@2f935b07
+
+[ 12-12 14:47:46.806  4851: 4851 V/ActivityThread ]
+Finishing stop of ActivityRecord{1038fd46 token=android.os.BinderProxy@2f935b07 {com.xdf.ucan/com.xdf.ucan.ui.material.MaterialListActivity}}: show=false win=com.android.internal.policy.impl.PhoneWindow@243f1f7
+
+[ 12-12 14:47:46.807  4851: 4851 D/ActivityThread ]
+ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@2f935b07
+
+--------- beginning of main
+[ 12-12 14:54:29.106  6790: 6871 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:54:29.106  6790: 6871 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.76; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:29.106  6790: 6871 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:29.418  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:29.418  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:29.471  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{18e6dbb0 VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:54:29.471  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:54:30.432  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.454  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.471  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.488  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.505  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.527  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.539  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.547  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:30.563  6790: 6790 D/long     ]
+prestr：appid=5004&attribute=subscription&method=AddPraise&schoolid=0&sourcefiletype=1&sourceid=59882&userid=xdf004487177&usertype=&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:30.563  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:30.564  6790: 6790 D/http     ]
+请求的参数：method=AddPraise&appid=5004&userid=xdf004487177&usertype=&schoolid=0&sourceid=59882&sourcefiletype=1&attribute=subscription&sign=15706D3D8A21933B418A864EF1DC6378
+
+[ 12-12 14:54:30.564  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:54:30.686  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:30.686  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:30.732  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{18e6dbb0 VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:54:30.732  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:54:36.194  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.222  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.239  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.255  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.273  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.284  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:36.295  6790: 6790 D/long     ]
+prestr：appid=5004&code=DYH00008&fileid=59235&filetype=1&from=subscription&method=AddFileStore&schoolid=0&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:36.295  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:36.295  6790: 6790 D/http     ]
+请求的参数：method=AddFileStore&appid=5004&userid=xdf004487177&code=DYH00008&from=subscription&schoolid=0&fileid=59235&filetype=1&sign=92CC0EACFF1468F745196447AF33190A
+
+[ 12-12 14:54:36.295  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:54:36.427  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:36.427  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:38.533  6934: 6934 D/long     ]
+连接的数据库是：xdf004487177.db
+
+[ 12-12 14:54:38.571  6934: 6934 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 14:54:38.595  6934: 6934 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 14:54:38.622  6934: 6934 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:54:38.701  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.725  6934: 6934 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 14:54:38.726  6934: 6934 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 14:54:38.735  6934: 6934 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 14:54:38.735  6934: 6934 I/PushService ]
+PushService OnCreate
+
+[ 12-12 14:54:38.741  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.755  6934: 6954 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 14:54:38.756  6934: 6954 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-12 14:54:38.762  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.770  6934: 6954 I/##COMMON_io.rong.push.PushService:DeviceId ]
+867995029414474
+
+[ 12-12 14:54:38.775  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.779  6934: 6954 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.101.137:8609
+
+[ 12-12 14:54:38.780  6934: 6954 I/PushHandler ]
+the saved time = 1449902491548current time = 1449903278779
+
+[ 12-12 14:54:38.781  6934: 6954 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.101.137:8609
+
+[ 12-12 14:54:38.783  6934: 6954 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:vivo|vivo Y33|21||46000
+
+[ 12-12 14:54:38.789  6934: 6954 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:vivo|vivo Y33|21||46000 push version:2.6
+
+[ 12-12 14:54:38.793  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.809  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.825  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.830  6934: 6954 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 14:54:38.830  6934: 6954 D/libc-netbsd ]
+[getaddrinfo]: hostname=119.254.101.137; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:38.830  6934: 6954 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:38.842  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.858  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.874  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.882  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:38.888  6790: 6790 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59235&method=DeleteFileStore&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:38.888  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:38.888  6790: 6790 D/http     ]
+请求的参数：method=DeleteFileStore&appid=5004&id=59235&filetype=1&userid=xdf004487177&attribute=subscription&sign=E06A508E1A9377871FA68893DAAD0FE0
+
+[ 12-12 14:54:38.888  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:54:39.013  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:39.013  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:39.031  6934: 6956 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 14:54:39.031  6934: 6956 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 14:54:39.032  6934: 6956 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 14:54:39.032  6934: 6956 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 14:54:40.250  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.274  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.290  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.307  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.324  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.340  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.361  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.366  6790: 6790 D/long     ]
+prestr：appid=5004&code=DYH00008&fileid=59235&filetype=1&from=subscription&method=AddFileStore&schoolid=0&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:40.367  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:40.367  6790: 6790 D/http     ]
+请求的参数：method=AddFileStore&appid=5004&userid=xdf004487177&code=DYH00008&from=subscription&schoolid=0&fileid=59235&filetype=1&sign=92CC0EACFF1468F745196447AF33190A
+
+[ 12-12 14:54:40.367  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:54:40.508  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:40.508  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:40.877  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.899  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.916  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.934  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.949  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.966  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.982  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.993  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:40.999  6790: 6790 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59235&method=DeleteFileStore&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:41.000  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:41.000  6790: 6790 D/http     ]
+请求的参数：method=DeleteFileStore&appid=5004&id=59235&filetype=1&userid=xdf004487177&attribute=subscription&sign=E06A508E1A9377871FA68893DAAD0FE0
+
+[ 12-12 14:54:41.000  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:54:41.116  6790: 6790 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:54:41.116  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:41.557  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:41.575  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:41.592  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:41.611  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:41.618  6790: 6790 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:54:41.706  6790: 6790 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:54:41.706  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:54:41.749  6790: 6790 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:54:41.750  6790: 6790 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:54:41.761  6790: 6790 D/long     ]
+prestr：appid=5004&method=GetCommentList&pageindex=1&pagesize=10&parentid=0&sourceattr=subscription&sourceid=59882&sourcetype=1&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:41.762  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:41.762  6790: 6790 D/http     ]
+请求的参数：method=GetCommentList&appid=5004&sourceid=59882&sourcetype=1&sourceattr=subscription&parentid=0&pageindex=1&pagesize=10&sign=0041DB7722349D5DD5D38A70C4284636
+
+[ 12-12 14:54:41.762  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:54:41.858  6790: 6790 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1036
+
+[ 12-12 14:54:41.858  6790: 6790 D/PullToRefresh ]
+Setting Padding. L: 0, T: -621, R: 0, B: -621
+
+[ 12-12 14:54:41.930  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:54:41.930  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:54:42.000  6790: 6790 V/AsyncHttpRH ]
+Progress 2642 from 3569 (74%)
+
+
+[ 12-12 14:54:42.028  6790: 6790 V/AsyncHttpRH ]
+Progress 3569 from 3569 (100%)
+
+
+[ 12-12 14:54:42.029  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "Id": 2504,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "1234567890",
+      "CreateTime": "2015-12-12 14:50:08",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004487140",
+      "UserName": "150****3834",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2503,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "好",
+      "CreateTime": "2015-12-12 14:47:47",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004487188",
+      "UserName": "150****4091",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2497,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "卡",
+      "CreateTime": "2015-12-12 14:30:44",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004487168",
+      "UserName": "138****2938",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2468,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "测试下",
+      "CreateTime": "2015-12-11 10:45:43",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004482638",
+      "UserName": "152****6097",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2430,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "好",
+      "CreateTime": "2015-12-10 15:12:58",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004483191",
+      "UserName": "130****9219",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2426,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "好",
+      "CreateTime": "2015-12-10 14:45:56",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004483191",
+      "UserName": "130****9219",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2412,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "很好",
+      "CreateTime": "2015-12-10 14:22:50",
+      "ParentId": 0,
+      "SchoolId": 0,
+      "UserCode": "GUEST",
+      "UserId": "xdf004425006",
+      "UserName": "131****4960",
+      "UserType": 5,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    },
+    {
+      "Id": 2409,
+      "SourceId": 59882,
+      "SourceType": 1,
+      "SourceAttribute": "subscription",
+      "Comment": "j la de",
+      "CreateTime": "2015-12-10 13:08:11",
+      "ParentId": 0,
+      "SchoolId": 1,
+      "UserCode": "BJ1840325",
+      "UserId": "xdf003635941",
+      "UserName": "孙潇晗",
+      "UserType": 1,
+      "Client": "UPOC",
+      "ReplyTo": null,
+      "ReplyToUserId": null
+    }
+  ],
+  "Error": "",
+  "DataCount": 8
+}
+
+[ 12-12 14:54:42.169  6790: 6790 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 102, h 103, sample 1, bsLength b1c!!
+
+
+[ 12-12 14:54:42.271  6790: 6961 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:42.271  6790: 6961 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:42.271  6790: 6961 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:42.271  6790: 6961 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:54:42.273  6790: 6961 D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:54:42.312  6790: 6968 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:42.312  6790: 6968 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:42.359  6790: 6973 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:42.359  6790: 6973 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:42.380  6790: 6790 D/skia     ]
+jpeg_decoder mode 1, colorType 4, w 102, h 103, sample 1, bsLength b1c!!
+
+
+[ 12-12 14:54:42.481  6790: 6988 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:54:42.482  6790: 6988 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:54:42.487  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:54:42.487  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 8. Total Items:11
+
+[ 12-12 14:54:42.601  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.601  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.602  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.610  6790: 6790 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-12 14:54:42.616  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.616  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.616  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.617  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.617  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.617  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.618  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.618  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.618  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.619  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.619  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.619  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.621  6790: 6790 D/Response ]
+http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.621  6790: 6790 D/http     ]
+返回的结果：http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:42.621  6790: 6790 D/liang    ]
+img url:http://my.xdf.cn/public/images/User/_Middle.jpg
+
+[ 12-12 14:54:43.099  6790: 6790 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 472
+
+[ 12-12 14:54:43.099  6790: 6790 D/PullToRefresh ]
+Setting Padding. L: 0, T: -283, R: 0, B: -283
+
+[ 12-12 14:54:43.142  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:54:43.142  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 8. Total Items:11
+
+[ 12-12 14:54:43.264  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,472 #102000a android:id/list}
+
+[ 12-12 14:54:43.264  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:11
+
+[ 12-12 14:54:51.505  6790: 6790 D/long     ]
+prestr：appid=5004&comment=评论&method=AddComment&parentid=0&schoolid=0&sourceattribute=subscription&sourceid=59882&sourcetype=1&usercode=GUEST&userid=xdf004487177&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:54:51.505  6790: 6790 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:54:51.505  6790: 6790 D/http     ]
+请求的参数：method=AddComment&appid=5004&sourceattribute=subscription&sourceid=59882&sourcetype=1&comment=评论&parentid=0&userid=xdf004487177&schoolid=0&usertype=5&usercode=GUEST&sign=506B68404E2942F8A049807AFBF21257
+
+[ 12-12 14:54:51.505  6790: 6790 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:54:51.601  6790: 6790 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1036
+
+[ 12-12 14:54:51.601  6790: 6790 D/PullToRefresh ]
+Setting Padding. L: 0, T: -621, R: 0, B: -621
+
+[ 12-12 14:54:51.634  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,472 #102000a android:id/list}
+
+[ 12-12 14:54:51.634  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:11
+
+[ 12-12 14:54:51.652  6790: 6790 V/AsyncHttpRH ]
+Progress 87 from 87 (100%)
+
+
+[ 12-12 14:54:51.653  6790: 6790 D/http     ]
+返回的结果：{
+  "State": 0,
+  "Data": null,
+  "Error": "userName is empty",
+  "DataCount": 0
+}
+
+[ 12-12 14:54:51.918  6790: 6790 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{370232b0 VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:54:51.918  6790: 6790 D/PullToRefresh ]
+First Visible: 0. Visible Count: 8. Total Items:11
+
+[ 12-12 14:55:03.788  6790: 6864 D/cn.edu.nju.ise.kikandroid ]
+Log:1449903303788
+
+[ 12-12 14:55:03.824  6790: 6864 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449903303823
+
+[ 12-12 14:55:09.175  6790: 6790 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 14:55:09.181  6790: 6790 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = io.rong.imkit.RongIMClientWrapper$1@103d5bd6
+
+[ 12-12 14:55:09.187  6790: 6790 E/##IPC_io.rong.imlib.RongIMClient.AidlConnection:onServiceDisconnected ]
+Receiver not registered
+
+[ 12-12 14:55:09.187  6790: 6790 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 14:55:09.199  6790: 6790 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:55:09.248  6790: 6790 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 14:55:09.796  7031: 7031 D/long     ]
+连接的数据库是：xdf004487177.db
+
+[ 12-12 14:55:09.843  7031: 7031 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 14:55:10.006  7031: 7031 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 14:55:10.022  7031: 7031 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 14:55:10.031  7031: 7031 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 14:55:10.049  7031: 7031 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:55:10.106  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 14:55:10.135  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 14:55:10.136  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 14:55:10.137  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 14:55:10.137  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 14:55:10.138  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 14:55:10.139  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 14:55:10.140  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 14:55:10.140  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 14:55:10.141  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 14:55:10.142  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 14:55:10.142  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 14:55:10.143  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 14:55:10.144  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 14:55:10.145  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 14:55:10.145  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 14:55:10.150  7031: 7031 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 14:55:10.159  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 14:55:10.160  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 14:55:10.161  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 14:55:10.188  7060: 7060 D/long     ]
+连接的数据库是：xdf004487177.db
+
+[ 12-12 14:55:10.207  7031: 7031 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 14:55:10.210  7060: 7060 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 14:55:10.215  7060: 7060 D/RongService ]
+onCreate, pid=7060
+
+[ 12-12 14:55:10.216  7060: 7060 D/RongService ]
+onBind, pid=7060
+
+[ 12-12 14:55:10.291  7031: 7042 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '/data/data/com.xdf.ucan/databases/rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-12 14:55:10.337  7060: 7060 E/MPlugin  ]
+Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+
+[ 12-12 14:55:10.337  7031: 7031 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 14:55:10.338  7031: 7031 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=zTONknVKYTf0aXxkTdtAMg==&encodePwd=wCvelir9EoJxQ9tUuk6viQ==&guid=28c92929-f2a4-4eb2-82e0-7eeef846037a&sign=D635B6F6F97F313D347D8B44871BC041&appOption=1&accessTokenOption=1
+
+[ 12-12 14:55:10.338  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:55:10.349  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=passport.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.349  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.349  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=passport.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.349  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:55:10.351  7031: 7084 D/libc-netbsd ]
+getaddrinfo: passport.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:55:10.351  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.17; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.351  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.358  7060: 7060 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+867995029414474
+
+[ 12-12 14:55:10.389  7060: 7060 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 14:55:10.512  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@2f3a1a95
+
+[ 12-12 14:55:10.517  7031: 7031 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 14:55:10.518  7031: 7031 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487177\",\"NickName\":\"151212141817445_v\",\"HideMobile\":\"152****1091\",\"HideEmail\":\"151****41817445af46b_v@v.com\",\"Mobile\":\"15250691091\",\"Email\":\"151212141817445af46b_v@v.com\",\"LoginToken\":\"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab\",\"Sign\":\"CBD3D155A5C33F852D8377D3F4D80FFF\",\"AccessToken\":\"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab\",\"AccessTokenExpireTime\":\"2016-01-31 04:56:01\"}","Message":"成功"}
+
+[ 12-12 14:55:10.518  7031: 7031 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487177\",\"NickName\":\"151212141817445_v\",\"HideMobile\":\"152****1091\",\"HideEmail\":\"151****41817445af46b_v@v.com\",\"Mobile\":\"15250691091\",\"Email\":\"151212141817445af46b_v@v.com\",\"LoginToken\":\"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab\",\"Sign\":\"CBD3D155A5C33F852D8377D3F4D80FFF\",\"AccessToken\":\"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab\",\"AccessTokenExpireTime\":\"2016-01-31 04:56:01\"}","Message":"成功"}
+
+[ 12-12 14:55:10.545  7031: 7031 D/long     ]
+{"UserId":"xdf004487177","NickName":"151212141817445_v","HideMobile":"152****1091","HideEmail":"151****41817445af46b_v@v.com","Mobile":"15250691091","Email":"151212141817445af46b_v@v.com","LoginToken":"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab","Sign":"CBD3D155A5C33F852D8377D3F4D80FFF","AccessToken":"cf2ba835-7f69-428a-aa9e-f8d004b6d9ab","AccessTokenExpireTime":"2016-01-31 04:56:01"}
+
+[ 12-12 14:55:10.569  7031: 7031 D/long     ]
+DATABASE_NAME:xdf004487177.db
+
+[ 12-12 14:55:10.675  7031: 7031 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:10.676  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 14:55:10.676  7031: 7031 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487177&sign=9409C545F45BE2D410F67A8A5753BCE3
+
+[ 12-12 14:55:10.676  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:55:10.677  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.677  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.677  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.677  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:55:10.680  7031: 7084 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:55:10.680  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.76; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.680  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.729  7031: 7031 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:null, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-12 14:55:10.826  7031: 7031 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:55:10.826  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:10.965  7031: 7031 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 14:55:10.966  7031: 7031 D/http     ]
+请求的参数：
+
+[ 12-12 14:55:10.966  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:55:10.967  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=ims.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.967  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.967  7031: 7031 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 14:55:10.967  7031: 7031 D/http     ]
+请求的参数：userId=xdf004487177&size=big
+
+[ 12-12 14:55:10.967  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:55:10.967  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=ims.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.967  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:55:10.974  7031: 7031 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:55:10.974  7031: 7031 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:55:10.974  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:55:10.974  7031: 7084 D/libc-netbsd ]
+getaddrinfo: ims.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:55:10.974  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.23; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.975  7031: 7084 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.985  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.985  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.985  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=my.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.985  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:55:10.998  7031: 7112 D/libc-netbsd ]
+[getaddrinfo]: hostname=ims.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.998  7031: 7112 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.998  7031: 7112 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.23; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.998  7031: 7112 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:10.998  7031: 7110 D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:55:10.999  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.23; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:10.999  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:11.164  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:55:11.240  7031: 7031 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 14:55:11.304  7031: 7031 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 14:55:11.3&examstartdate=2015-12-12 14:46:54.2&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 14:55:11.2&resourcestartdate=2015-12-12 14:54:02.4&schoolid=0&userid=xdf004487177&videoenddate=2015-12-12 14:55:11.2&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:11.305  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:11.305  7031: 7031 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487177&schoolid=0&resourcestartdate=2015-12-12 14:54:02.4&resourceenddate=2015-12-12 14:55:11.2&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-12 14:55:11.2&examstartdate=2015-12-12 14:46:54.2&examenddate=2015-12-12 14:55:11.3&appid=5004&sign=13A1515D20614604CF51330EE466C536
+
+[ 12-12 14:55:11.305  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:55:11.406  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1098
+
+[ 12-12 14:55:11.406  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -658, R: 0, B: 0
+
+[ 12-12 14:55:11.409  7031: 7031 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 14:55:11.409  7031: 7031 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449903362170}
+
+[ 12-12 14:55:11.410  7031: 7031 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:55:11.410  7031: 7031 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449903362206}
+
+[ 12-12 14:55:11.412  7031: 7031 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 14:55:11.439  7031: 7078 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 14:55:11.515  7031: 7031 V/AsyncHttpRH ]
+Progress 296 from 296 (100%)
+
+
+[ 12-12 14:55:11.515  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "Attr": "subscription",
+      "FileType": 2,
+      "FileId": 47187,
+      "FileName": "SPOC第二十七讲物质的鉴别——谭龙",
+      "Created": "2015-12-02 18:46:12",
+      "TotalCount": 2
+    }
+  ],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:11.515  7031: 7031 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [
+    {
+      "Attr": "subscription",
+      "FileType": 2,
+      "FileId": 47187,
+      "FileName": "SPOC第二十七讲物质的鉴别——谭龙",
+      "Created": "2015-12-02 18:46:12",
+      "TotalCount": 2
+    }
+  ],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:11.603  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1050
+
+[ 12-12 14:55:11.603  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -630, R: 0, B: 0
+
+[ 12-12 14:55:11.733  7031: 7031 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:null, intent:Intent { act=action_reconnect flg=0x114 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 14:55:11.908  7031: 7031 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:55:12.046  7031: 7031 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 14:55:12.046  7031: 7031 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 14:55:12.048  7031: 7031 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 14:55:12.048  7031: 7031 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 14:55:13.370  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:55:13.371  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:55:13.442  7031: 7031 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:55:13.442  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:55:13.449  7031: 7118 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-12 14:55:13.475  7031: 7031 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:55:13.4&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:13.475  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:55:13.475  7031: 7031 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&timestamp=2015-12-12 14:55:13.4&filetype=1&appid=5004&userid=xdf004487177&orderbydatedes=1&isread=2&pageindex=1&pagesize=10&sign=DE575A5AC09C5DA0728CEA0438A67FE7
+
+[ 12-12 14:55:13.475  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-12 14:55:13.550  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1144
+
+[ 12-12 14:55:13.550  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -686, R: 0, B: -686
+
+[ 12-12 14:55:13.592  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. ......ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:13.592  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:13.655  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:13.655  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:13.713  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:13.713  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:33.491  7031: 7031 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 14:55:33.546  7031: 7031 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:20:52.5&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:33.854  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:33.854  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:55:37.506  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:37.528  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:37.538  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:37.630  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:55:37.630  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:55:37.666  7031: 7031 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:55:37.666  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:55:37.676  7031: 7031 D/long     ]
+prestr：appid=5004&method=GetCommentList&pageindex=1&pagesize=10&parentid=0&sourceattr=subscription&sourceid=59235&sourcetype=1&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:37.677  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:37.677  7031: 7031 D/http     ]
+请求的参数：method=GetCommentList&appid=5004&sourceid=59235&sourcetype=1&sourceattr=subscription&parentid=0&pageindex=1&pagesize=10&sign=039F6E91FA1485DEAA15592D015CD739
+
+[ 12-12 14:55:37.677  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:55:37.678  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:37.678  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:37.678  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=upoc.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:37.678  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:55:37.681  7031: 7110 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:55:37.681  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.76; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:55:37.681  7031: 7110 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:55:37.793  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1036
+
+[ 12-12 14:55:37.793  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -621, R: 0, B: -621
+
+[ 12-12 14:55:37.855  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:55:37.855  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:37.962  7031: 7031 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 14:55:37.962  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:38.102  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:55:38.102  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:38.341  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 472
+
+[ 12-12 14:55:38.341  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -283, R: 0, B: -283
+
+[ 12-12 14:55:38.379  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:55:38.379  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:38.459  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,472 #102000a android:id/list}
+
+[ 12-12 14:55:38.459  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:41.319  7031: 7031 D/long     ]
+prestr：appid=5004&comment=这是&method=AddComment&parentid=0&schoolid=0&sourceattribute=subscription&sourceid=59235&sourcetype=1&usercode=GUEST&userid=xdf004487177&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:41.320  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:41.320  7031: 7031 D/http     ]
+请求的参数：method=AddComment&appid=5004&sourceattribute=subscription&sourceid=59235&sourcetype=1&comment=这是&parentid=0&userid=xdf004487177&schoolid=0&usertype=5&usercode=GUEST&sign=936D383C1833328AE376780ACDBCE467
+
+[ 12-12 14:55:41.320  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:55:41.407  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1036
+
+[ 12-12 14:55:41.407  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -621, R: 0, B: -621
+
+[ 12-12 14:55:41.442  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,472 #102000a android:id/list}
+
+[ 12-12 14:55:41.442  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:41.457  7031: 7031 V/AsyncHttpRH ]
+Progress 87 from 87 (100%)
+
+
+[ 12-12 14:55:41.457  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 0,
+  "Data": null,
+  "Error": "userName is empty",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:41.551  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. ......ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:55:41.551  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:41.637  7031: 7091 V/RenderScript ]
+0x5586542780 Launching thread(s), CPUs 4
+
+[ 12-12 14:55:43.536  7031: 7106 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449903343536
+
+[ 12-12 14:55:48.263  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.274  7031: 7031 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1028
+
+[ 12-12 14:55:48.274  7031: 7031 D/PullToRefresh ]
+Setting Padding. L: 0, T: -616, R: 0, B: -616
+
+[ 12-12 14:55:48.301  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. .F....ID 0,0-720,1036 #102000a android:id/list}
+
+[ 12-12 14:55:48.301  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:48.319  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.324  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.341  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.346  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.406  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. .F....ID 0,0-720,1028 #102000a android:id/list}
+
+[ 12-12 14:55:48.406  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:48.414  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:48.420  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -11
+
+[ 12-12 14:55:48.421  7031: 7031 D/PullToRefresh ]
+State: PULL_TO_REFRESH
+
+[ 12-12 14:55:48.422  7031: 7031 D/PullToRefresh ]
+State: RESET
+
+[ 12-12 14:55:48.453  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -9
+
+[ 12-12 14:55:48.468  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -7
+
+[ 12-12 14:55:48.484  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -6
+
+[ 12-12 14:55:48.501  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -5
+
+[ 12-12 14:55:48.518  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -4
+
+[ 12-12 14:55:48.538  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -2
+
+[ 12-12 14:55:48.550  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -2
+
+[ 12-12 14:55:48.566  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -1
+
+[ 12-12 14:55:48.583  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: -1
+
+[ 12-12 14:55:48.600  7031: 7031 D/PullToRefresh ]
+setHeaderScroll: 0
+
+[ 12-12 14:55:49.544  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.559  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.564  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.575  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.580  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.592  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.596  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.611  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.616  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.627  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.633  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.643  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.648  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:49.694  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:50.652  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.679  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.683  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.697  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.701  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.713  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.718  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.729  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.734  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.746  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.751  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.756  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.761  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:55:50.801  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:52.996  7031: 7031 D/long     ]
+prestr：appid=5004&attribute=subscription&method=AddPraise&schoolid=0&sourcefiletype=1&sourceid=59235&userid=xdf004487177&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:52.996  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:52.996  7031: 7031 D/http     ]
+请求的参数：method=AddPraise&appid=5004&userid=xdf004487177&usertype=5&schoolid=0&sourceid=59235&sourcefiletype=1&attribute=subscription&sign=6B707281C8E580A94C7AD87D28B899A3
+
+[ 12-12 14:55:52.996  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:55:53.157  7031: 7031 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:55:53.158  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:53.659  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. .F....ID 0,0-720,1028 #102000a android:id/list}
+
+[ 12-12 14:55:53.659  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:54.329  7031: 7031 D/long     ]
+prestr：appid=5004&code=DYH00008&fileid=59235&filetype=1&from=subscription&method=AddFileStore&schoolid=0&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:54.330  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:54.330  7031: 7031 D/http     ]
+请求的参数：method=AddFileStore&appid=5004&userid=xdf004487177&code=DYH00008&from=subscription&schoolid=0&fileid=59235&filetype=1&sign=92CC0EACFF1468F745196447AF33190A
+
+[ 12-12 14:55:54.330  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:55:54.789  7031: 7031 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:55:54.789  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:55.283  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{30bcc77d VFED.VC. .F....ID 0,0-720,1028 #102000a android:id/list}
+
+[ 12-12 14:55:55.283  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:55:56.451  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:56.451  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:55:56.906  7031: 7031 D/long     ]
+cancle request：com.xdf.ucan.ui.video.CommentListActivity
+
+[ 12-12 14:55:58.238  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.257  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.273  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.292  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.307  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.324  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:55:58.330  7031: 7031 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59235&method=DeletePraise&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:55:58.334  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:55:58.334  7031: 7031 D/http     ]
+请求的参数：method=DeletePraise&appid=5004&id=59235&filetype=1&userid=xdf004487177&attribute=subscription&sign=6D1D1C743748332E8D1B7EEE555EE43B
+
+[ 12-12 14:55:58.334  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:55:59.103  7031: 7031 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:55:59.103  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:55:59.166  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:55:59.166  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:56:00.046  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.068  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.086  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.104  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.121  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.138  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.146  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:00.152  7031: 7031 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59235&method=DeleteFileStore&userid=xdf004487177&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:56:00.152  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:56:00.152  7031: 7031 D/http     ]
+请求的参数：method=DeleteFileStore&appid=5004&id=59235&filetype=1&userid=xdf004487177&attribute=subscription&sign=E06A508E1A9377871FA68893DAAD0FE0
+
+[ 12-12 14:56:00.152  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-12 14:56:00.371  7031: 7031 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:56:00.372  7031: 7031 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:56:01.369  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:01.392  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:01.410  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:01.421  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:01.437  7031: 7031 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-12 14:56:01.491  7031: 7031 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{1b438baf VFED.VC. .F....ID 0,0-720,1144 #102000a android:id/list}
+
+[ 12-12 14:56:01.491  7031: 7031 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-12 14:56:01.732  7031: 7031 D/long     ]
+className:初中化学
+
+[ 12-12 14:56:01.754  7031: 7031 E/MaterialActivity.initView(L:527) ]
+http://xue.xdf.cn/Resources/files/0/DYH00008/4f5835b6ff7546ceb11c0d950a8c2e59.pdf
+
+[ 12-12 14:56:01.779  7031: 7031 D/long     ]
+download url:http://xue.xdf.cn/Resources/files/0/DYH00008/4f5835b6ff7546ceb11c0d950a8c2e59.pdf
+
+[ 12-12 14:56:01.779  7031: 7031 D/long     ]
+mPath.getPath():/storage/emulated/0/UPOC/download/锡纸是锡吗59235.pdf
+
+[ 12-12 14:56:01.789  7031: 7031 D/long     ]
+prestr：appid=5004&method=AddSubScriberFileViewHistory&subfileid=934&userid=xdf004487177&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:56:01.789  7031: 7031 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:56:01.789  7031: 7031 D/http     ]
+请求的参数：method=AddSubScriberFileViewHistory&appid=5004&userid=xdf004487177&usertype=5&subfileid=934&sign=D98B0683C0E32C3EC8755FF9137E0B66
+
+[ 12-12 14:56:01.789  7031: 7031 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-12 14:56:01.791  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: hostname=xue.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:56:01.791  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:56:01.791  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: hostname=xue.xdf.cn; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:56:01.791  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 14:56:02.136  7031: 7140 D/libc-netbsd ]
+getaddrinfo: xue.xdf.cn get result from proxy >>
+
+
+[ 12-12 14:56:02.136  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: hostname=116.213.70.27; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 14:56:02.136  7031: 7140 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 14:56:16.822  7031: 7106 D/cn.edu.nju.ise.kikandroid ]
+Log:1449903376822
+
+[ 12-12 14:56:16.878  7031: 7106 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449903376878
+
+[ 12-12 14:56:17.122  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 14:56:17.138  7031: 7031 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-12 14:56:17.143  7031: 7031 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+

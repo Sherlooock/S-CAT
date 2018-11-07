@@ -1,0 +1,233 @@
+--------- beginning of /dev/log/main
+[ 12-13 09:24:12.468 17916:17916 I/Log_level_control ]
+YWW4
+
+[ 12-13 09:24:12.664 17899:17923 E/linker   ]
+"app_process": ignoring 2-entry DT_PREINIT_ARRAY in shared library!
+
+[ 12-13 09:24:12.851 17899:17930 W/dalvikvm ]
+VFY: unable to resolve interface method 51840: Lcom/taobao/tao/log/ITLogController;.getLogLevel (Ljava/lang/String;)Lcom/taobao/tao/log/LogLevel;
+
+[ 12-13 09:24:12.851 17899:17930 W/dalvikvm ]
+VFY: unable to resolve static method 51866: Lcom/taobao/tao/log/TLog;.logv (Ljava/lang/String;Ljava/lang/String;)V
+
+[ 12-13 09:24:12.882 17899:17941 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:24:12.898 17899:17949 W/ConfigContainerAdapter ]
+[initService]context is null.initService error
+
+[ 12-13 09:24:12.945 17899:17941 W/dalvikvm ]
+VFY: unable to resolve static method 51702: Lcom/taobao/statistic/TBS$Adv;.forceUpload ()V
+
+[ 12-13 09:24:12.968 17899:17940 W/awcn     ]
+ file not exist.
+
+[ 12-13 09:24:13.039 17899:17941 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:24:13.156 17899:17968 W/awcn     ]
+ java.lang.ClassNotFoundException: Didn't find class "com.taobao.accs.ChannelService" on path: DexPathList[[zip file "/data/app/com.taobao.ishopping-1.apk", zip file "/data/data/com.taobao.ishopping/code_cache/secondary-dexes/com.taobao.ishopping-1.apk.classes2.zip"],nativeLibraryDirectories=[/data/app-lib/com.taobao.ishopping-1, /vendor/lib, /system/lib]]
+
+[ 12-13 09:24:13.718 17899:18043 I/System   ]
+libcore.io.ErrnoException: kill failed: ESRCH (No such process)
+	at libcore.io.Posix.kill(Native Method)
+	at libcore.io.ForwardingOs.kill(ForwardingOs.java:85)
+	at java.lang.ProcessManager$ProcessImpl.destroy(ProcessManager.java:260)
+	at com.taobao.hotpatch.util.HotPatchUtils.isX86CPU(HotPatchUtils.java:126)
+	at com.taobao.hotpatch.util.HotPatchUtils.isInBlackList(HotPatchUtils.java:89)
+	at com.taobao.hotpatch.util.HotPatchUtils.isDeviceSupport(HotPatchUtils.java:142)
+	at com.taobao.updatecenter.util.UpdateCenterUtils.isSupportPatch(UpdateCenterUtils.java:199)
+	at com.taobao.updatecenter.hotpatch.HotPatchManager.startHotPatch(HotPatchManager.java:125)
+	at com.taobao.ishopping.IShoppingInitConfig.initHotpatch(IShoppingInitConfig.java:291)
+	at com.taobao.ishopping.IShoppingInitConfig.access$900(IShoppingInitConfig.java:84)
+	at com.taobao.ishopping.IShoppingInitConfig$2.execute(IShoppingInitConfig.java:269)
+	at com.alibaba.android.initscheduler.WrappedInitJob.execute(WrappedInitJob.java:92)
+	at com.alibaba.android.initscheduler.JobList$ParallelTask.run(JobList.java:160)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-13 09:24:13.726 17899:17899 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:24:14.164 17899:17938 W/dalvikvm ]
+VFY: unable to resolve static field 184 (SUPPORTED_ABIS) in Landroid/os/Build;
+
+[ 12-13 09:24:14.179 17899:17971 W/dalvikvm ]
+VFY: unable to resolve virtual method 161: Landroid/app/AlarmManager;.setExact (IJLandroid/app/PendingIntent;)V
+
+[ 12-13 09:24:14.335 17899:17899 W/dalvikvm ]
+VFY: unable to resolve virtual method 60563: Lmtopsdk/mtop/intf/MtopBuilder;.get ()Lmtopsdk/mtop/domain/MtopResponse;
+
+[ 12-13 09:24:17.109 18116:18137 E/db       ]
+into---[initALog]
+
+[ 12-13 09:24:17.992 18116:18137 W/dalvikvm ]
+VFY: unable to resolve interface method 51840: Lcom/taobao/tao/log/ITLogController;.getLogLevel (Ljava/lang/String;)Lcom/taobao/tao/log/LogLevel;
+
+[ 12-13 09:24:18.000 18116:18137 W/dalvikvm ]
+VFY: unable to resolve static method 51866: Lcom/taobao/tao/log/TLog;.logv (Ljava/lang/String;Ljava/lang/String;)V
+
+[ 12-13 09:24:18.039 18116:18160 E/linker   ]
+"app_process": ignoring 2-entry DT_PREINIT_ARRAY in shared library!
+
+[ 12-13 09:24:18.187 18116:18156 W/awcn     ]
+ 当前进程不是主进程，不初始化SessionCenter
+
+[ 12-13 09:24:19.437 18116:18148 W/dalvikvm ]
+VFY: unable to resolve static field 184 (SUPPORTED_ABIS) in Landroid/os/Build;
+
+[ 12-13 09:24:21.875 17899:17899 W/dalvikvm ]
+VFY: unable to resolve virtual method 703: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-13 09:24:21.875 17899:17899 W/dalvikvm ]
+VFY: unable to resolve virtual method 725: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-13 09:24:22.210 18116:18146 E/SQLiteLog ]
+(5) statement aborts at 1: [PRAGMA journal_mode=PERSIST] 
+
+
+[ 12-13 09:24:22.210 18116:18146 W/SQLiteConnection ]
+Could not change the database journal mode of '/data/data/com.taobao.ishopping/databases/usertrack.db' from 'wal' to 'PERSIST' because the database is locked.  This usually means that there are other open connections to the database which prevents the database from enabling or disabling write-ahead logging mode.  Proceeding without changing the journal mode.
+
+[ 12-13 09:24:22.375 17899:17899 W/LoginStatus ]
+reset login status
+
+[ 12-13 09:24:22.484 17899:17899 E/libEGL   ]
+call to OpenGL ES API with no current context (logged once per thread)
+
+[ 12-13 09:24:23.218 18116:18196 W/Taobao   ]
+getPackage Name
+
+[ 12-13 09:24:23.304 18116:18116 W/agoo.PushService ]
+[create] >>> agoo system is creating,pack= >>>com.taobao.ishopping,time=2015-12-13 09:24:23
+
+[ 12-13 09:24:23.304 18116:18116 W/agoo.ProcessUtils ]
+[checkAndRenewPidFile] /data/data/com.taobao.ishopping/files/agoo.pid
+
+[ 12-13 09:24:23.351 18116:18251 W/agoo.SoManager ]
+[createAlarm] time is daytime, wakeup cpu for keeping connecntion
+
+[ 12-13 09:24:23.375 18116:18251 W/agoo.SoManager ]
+[copyBinToFiles] open assets from = armeabi/DaemonServer
+
+[ 12-13 09:24:23.437 18116:18251 W/TAG.     ]
+chmod 500 /data/data/com.taobao.ishopping/files/DaemonServer
+
+[ 12-13 09:24:23.554 18116:18251 W/TAG.     ]
+/data/data/com.taobao.ishopping/files/DaemonServer -s "/data/data/com.taobao.ishopping/lib/" -n "runServer" -p "startservice -a com.taobao.ishopping.intent.action.COCKROACH --es cockroach cockroach-PPreotect --es pack com.taobao.ishopping --user 0" -f "/data/data/com.taobao.ishopping" -t "600" -c "agoo.pid" -P /data/data/com.taobao.ishopping -K 1009527 -U tb_android_daemon_1.1.2 -L http://agoodm.m.taobao.com/agoo/report -D %7B%22package%22%3A%22com.taobao.ishopping%22%2C%22appKey%22%3A%2223207852%22%2C%22utdid%22%3A%22VmroOJJtqjsDAKmz4hZHcO0b%22%2C%22sdkVersion%22%3A%2220150615%22%7D -I agoodm.m.taobao.com -O 80 -T -Z 
+
+[ 12-13 09:24:23.601 18116:18251 W/agoo.SoManager ]
+[lauchIt] /data/data/com.taobao.ishopping/files/DaemonServer -s "/data/data/com.taobao.ishopping/lib/" -n "runServer" -p "startservice -a com.taobao.ishopping.intent.action.COCKROACH --es cockroach cockroach-PPreotect --es pack com.taobao.ishopping --user 0" -f "/data/data/com.taobao.ishopping" -t "600" -c "agoo.pid" -P /data/data/com.taobao.ishopping -K 1009527 -U tb_android_daemon_1.1.2 -L http://agoodm.m.taobao.com/agoo/report -D %7B%22package%22%3A%22com.taobao.ishopping%22%2C%22appKey%22%3A%2223207852%22%2C%22utdid%22%3A%22VmroOJJtqjsDAKmz4hZHcO0b%22%2C%22sdkVersion%22%3A%2220150615%22%7D -I agoodm.m.taobao.com -O 80 -T -Z 
+
+[ 12-13 09:25:11.484 18434:18454 E/linker   ]
+"app_process": ignoring 2-entry DT_PREINIT_ARRAY in shared library!
+
+[ 12-13 09:25:11.546 18434:18462 W/dalvikvm ]
+VFY: unable to resolve interface method 51840: Lcom/taobao/tao/log/ITLogController;.getLogLevel (Ljava/lang/String;)Lcom/taobao/tao/log/LogLevel;
+
+[ 12-13 09:25:11.546 18434:18462 W/dalvikvm ]
+VFY: unable to resolve static method 51866: Lcom/taobao/tao/log/TLog;.logv (Ljava/lang/String;Ljava/lang/String;)V
+
+[ 12-13 09:25:11.671 18434:18473 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:25:11.718 18434:18473 W/dalvikvm ]
+VFY: unable to resolve static method 51702: Lcom/taobao/statistic/TBS$Adv;.forceUpload ()V
+
+[ 12-13 09:25:11.773 18434:18477 W/ConfigContainerAdapter ]
+[initService]context is null.initService error
+
+[ 12-13 09:25:11.828 18434:18473 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:25:12.093 18434:18434 W/dalvikvm ]
+VFY: unable to resolve virtual method 58260: Ljava/lang/ReflectiveOperationException;.printStackTrace ()V
+
+[ 12-13 09:25:12.398 18434:18434 W/dalvikvm ]
+VFY: unable to resolve virtual method 60563: Lmtopsdk/mtop/intf/MtopBuilder;.get ()Lmtopsdk/mtop/domain/MtopResponse;
+
+[ 12-13 09:25:12.804 18434:18471 W/dalvikvm ]
+VFY: unable to resolve static field 184 (SUPPORTED_ABIS) in Landroid/os/Build;
+
+[ 12-13 09:25:19.179 18434:18434 W/dalvikvm ]
+VFY: unable to resolve virtual method 703: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-13 09:25:19.179 18434:18434 W/dalvikvm ]
+VFY: unable to resolve virtual method 725: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-13 09:25:19.585 18434:18434 W/LoginStatus ]
+reset login status
+
+[ 12-13 09:25:28.257 18434:18434 W/dalvikvm ]
+VFY: unable to resolve static method 16952: Landroid/webkit/WebView;.setWebContentsDebuggingEnabled (Z)V
+
+[ 12-13 09:25:28.281 18434:18434 W/dalvikvm ]
+VFY: unable to resolve static method 16952: Landroid/webkit/WebView;.setWebContentsDebuggingEnabled (Z)V
+
+[ 12-13 09:25:28.289 18434:18434 W/dalvikvm ]
+VFY: unable to resolve virtual method 16922: Landroid/webkit/WebView;.evaluateJavascript (Ljava/lang/String;Landroid/webkit/ValueCallback;)V
+
+[ 12-13 09:25:28.710 18434:18606 E/Skia_TiffDec ]
+unsupported seek origin 1552413203
+
+[ 12-13 09:25:28.710 18434:18606 E/Skia_TiffDec ]
+Tiff decoder init fail!
+
+[ 12-13 09:25:28.742 18434:18606 E/SQLiteLog ]
+(1) no such table: CacheGroups
+
+
+[ 12-13 09:25:28.742 18434:18606 E/SQLiteLog ]
+(1) no such table: Caches
+
+
+[ 12-13 09:25:28.742 18434:18606 E/SQLiteLog ]
+(1) no such table: Origins
+
+
+[ 12-13 09:25:28.742 18434:18606 E/SQLiteLog ]
+(1) no such table: DeletedCacheResources
+
+
+[ 12-13 09:25:30.429 18434:18434 E/Web Console ]
+Uncaught TypeError: Cannot call method 'onSuccess' of undefined at null:1
+
+[ 12-13 09:25:42.335 18434:18434 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-13 09:25:54.046 18434:18434 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-13 09:26:08.281 18434:18591 E/ImageLoader ]
+null
+java.net.SocketTimeoutException
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+	at java.io.InputStream.read(InputStream.java:163)
+	at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:309)
+	at libcore.net.http.ChunkedInputStream.read(ChunkedInputStream.java:52)
+	at java.util.zip.GZIPInputStream.readFully(GZIPInputStream.java:204)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:98)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:81)
+	at libcore.net.http.HttpEngine.initContentStream(HttpEngine.java:547)
+	at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:850)
+	at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:283)
+	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+	at com.taobao.ishopping.util.AuthImageDownloader.getStreamFromNetwork(AuthImageDownloader.java:66)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStream(BaseImageDownloader.java:88)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.downloadImage(LoadAndDisplayImageTask.java:291)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryCacheImageOnDisk(LoadAndDisplayImageTask.java:274)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryLoadBitmap(LoadAndDisplayImageTask.java:230)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.run(LoadAndDisplayImageTask.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+

@@ -1,0 +1,1510 @@
+--------- beginning of main
+[ 12-12 15:24:38.130 11905:11905 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 15:24:38.130 11905:11905 I/MultiDex ]
+install
+
+[ 12-12 15:24:38.130 11905:11905 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 15:24:38.170 11905:11934 I/Timeline ]
+Timeline: Activity_launch_request time:121780504
+
+[ 12-12 15:24:38.840 11905:11905 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:24:38.850 11905:11905 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/
+
+[ 12-12 15:24:38.860 11905:11905 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:24:38.910 11905:11905 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 15:24:39.090 11905:11905 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 15:24:39.090 11905:11905 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 15:24:39.090 11905:11905 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 15:24:39.090 11905:11905 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 15:24:39.090 11905:11905 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 15:24:39.571 11905:11969 D/OpenGLRenderer ]
+Render dirty regions requested: true
+
+[ 12-12 15:24:39.581 11905:11905 D/Atlas    ]
+Validating map...
+
+[ 12-12 15:24:39.661 11905:11969 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: C_BHUSH_AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020+PATCH[ES]_msm8960_refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.25.03.06
+Build Date: 06/17/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020
+Local Patches: 3c2e57b3adbc73f968451c2fa01bb8033d91cf9c Revert "Fixes wobbly boolean return code."
+                 4b7526a1059d940e4b6d4c6ab96389010918de6e rb: fix shadow cach
+
+[ 12-12 15:24:39.671 11905:11969 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-12 15:24:39.691 11905:11969 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:24:39.811 11905:11905 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@13aa5a38 time:121782149
+
+[ 12-12 15:24:39.911 11905:11975 D/com.netease.cloudmusic.utils.u ]
+83ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYwOTU1MDI5NDI0MzM0CWFjOmY3OmYzOmVlOmMxOjM1CTUwZDQ5MTk1ODQxNDkzZDIJODkwZmY5MTU%3D_android&wifi=true
+
+[ 12-12 15:24:39.971 11905:11967 D/com.netease.cloudmusic.utils.u ]
+140ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYwOTU1MDI5NDI0MzM0CWFjOmY3OmYzOmVlOmMxOjM1CTUwZDQ5MTk1ODQxNDkzZDIJODkwZmY5MTU%3D_android&wifi=true
+
+[ 12-12 15:24:40.011 11905:11967 D/com.netease.cloudmusic.utils.u ]
+36ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 15:24:40.041 11905:11905 I/Timeline ]
+Timeline: Activity_launch_request time:121782379
+
+[ 12-12 15:24:40.682 11905:11905 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1cd09de3 time:121783011
+
+[ 12-12 15:24:40.982 11905:11905 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 15:24:43.685 11905:11905 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@13aa5a38 time:121786014
+
+[ 12-12 15:24:43.905 11905:11967 D/com.netease.cloudmusic.utils.u ]
+319ms on url: http://music.163.com/eapi/register/anonimous
+
+[ 12-12 15:24:43.965 11905:11905 I/Timeline ]
+Timeline: Activity_launch_request time:121786290
+
+[ 12-12 15:24:44.025 11905:11921 I/art      ]
+Background sticky concurrent mark sweep GC freed 5355(298KB) AllocSpace objects, 1(16KB) LOS objects, 0% free, 33MB/33MB, paused 5.340ms total 20.080ms
+
+[ 12-12 15:24:44.075 11905:11905 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:24:44.576 11905:11967 D/com.netease.cloudmusic.utils.u ]
+99ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:24:44.636 11905:11905 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 15:24:44.646 11905:11905 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 15:24:44.646 11905:12018 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 15:24:44.716 11905:11905 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 15:24:44.716 11905:12020 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 15:24:44.726 11905:12018 D/com.netease.cloudmusic.utils.u ]
+74ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 15:24:44.726 11905:12018 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 15:24:44.756 11905:11966 D/com.netease.cloudmusic.utils.u ]
+101ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-12 15:24:44.766 11905:11967 D/com.netease.cloudmusic.utils.u ]
+111ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 15:24:44.826 11905:11905 D/PlayService ]
+in onBind
+
+[ 12-12 15:24:44.846 11905:11966 D/com.netease.cloudmusic.utils.u ]
+82ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-12 15:24:45.276 11905:11967 D/AudioMetaIO ]
+supportMediaFormat:mxmf,mp3,flac,xmf,rtttl,rtx,mka,ec3,oga,pls,m4a,aac,wma,mpga,wav,qcp,ac3,imy,awb,ota,smf,ape,m3u8
+
+[ 12-12 15:24:45.287 11905:11966 D/com.netease.cloudmusic.utils.u ]
+78ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 15:24:45.477 11905:12046 D/com.netease.cloudmusic.utils.u ]
+258ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 15:24:45.587 11905:12047 D/com.netease.cloudmusic.utils.u ]
+378ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:24:45.807 11905:11905 W/View     ]
+requestLayout() improperly called by android.widget.ListView{3f5ecd0a VFED..C. ......ID 0,0-592,1280 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 15:24:45.807 11905:11905 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{19a21808 VFED.VC. .F....ID 0,0-720,1038 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 15:24:45.807 11905:11905 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 15:24:45.807 11905:11905 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 15:24:45.827 11905:11905 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@212a5453:onReceive msg count is 1 follow count0
+
+[ 12-12 15:24:45.867 11905:11905 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:24:45.887 11905:12045 D/com.netease.cloudmusic.utils.u ]
+683ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:24:45.907 11905:11905 I/Choreographer ]
+Skipped 62 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 15:24:46.087 11905:11968 D/com.netease.cloudmusic.utils.u ]
+323ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 15:24:46.107 11905:11905 I/MusicActivityBase ]
+onReceive msg count is 1 follow count0
+
+[ 12-12 15:24:46.117 11905:12020 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:24:46.137 11905:11921 I/art      ]
+Background sticky concurrent mark sweep GC freed 167373(7MB) AllocSpace objects, 54(1547KB) LOS objects, 17% free, 36MB/44MB, paused 4.577ms total 111.145ms
+
+[ 12-12 15:24:46.157 11905:11968 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/HJApp/,/storage/emulated/0/leci/,/storage/emulated/0/baicizhan/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/,/storage/emulated/0/RM/,/storage/emulated/0/moji/,/storage/emulated/0/Android/,/storage/emulated/0/towords/
+
+[ 12-12 15:24:46.167 11905:11968 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/tencent/QQfile_recv/,/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:24:46.177 11905:11968 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:24:46.297 11905:11905 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@38296247 time:121788620
+
+[ 12-12 15:24:48.169 11905:12047 D/com.netease.cloudmusic.utils.u ]
+167ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-12 15:24:49.060 11905:11921 I/art      ]
+Background partial concurrent mark sweep GC freed 69345(3MB) AllocSpace objects, 38(4MB) LOS objects, 29% free, 37MB/53MB, paused 1.892ms total 124.603ms
+
+[ 12-12 15:24:49.671 11905:11975 D/com.netease.cloudmusic.utils.u ]
+166ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 15:24:49.841 11905:12046 D/com.netease.cloudmusic.utils.u ]
+3531ms on url: http://music.163.com/eapi/user/init/playlist
+
+--------- beginning of system
+[ 12-12 15:24:59.110 11905:11955 W/FileUtils ]
+Failed to chmod(/storage/emulated/0/netease/wakeup/wakeup.dat): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+[ 12-12 15:24:59.200 11905:12046 D/com.netease.cloudmusic.utils.u ]
+4563ms on url: http://music.163.com/eapi/user/init/playlist
+
+[ 12-12 15:25:01.222 11905:11905 D/PlayService ]
+in onUnbind
+
+[ 12-12 15:25:01.242 11905:11967 D/com.netease.cloudmusic.utils.u ]
+3553ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 15:25:02.293 11905:11921 I/art      ]
+Background partial concurrent mark sweep GC freed 167937(6MB) AllocSpace objects, 12(4MB) LOS objects, 29% free, 38MB/54MB, paused 1.281ms total 107.940ms
+
+[ 12-12 15:25:02.744 12250:12250 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 15:25:02.744 12250:12250 I/MultiDex ]
+install
+
+[ 12-12 15:25:02.744 12250:12250 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 15:25:02.784 12250:12269 I/Timeline ]
+Timeline: Activity_launch_request time:121805111
+
+[ 12-12 15:25:03.544 12250:12250 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:25:03.564 12250:12250 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/
+
+[ 12-12 15:25:03.574 12250:12250 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:25:03.594 12250:12250 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 15:25:03.694 12250:12250 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 15:25:03.694 12250:12250 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 15:25:03.694 12250:12250 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 15:25:03.694 12250:12250 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 15:25:03.694 12250:12250 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 15:25:04.285 12250:12250 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 15:25:04.365 12250:12300 D/OpenGLRenderer ]
+Render dirty regions requested: true
+
+[ 12-12 15:25:04.375 12250:12250 D/Atlas    ]
+Validating map...
+
+[ 12-12 15:25:04.445 12250:12300 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: C_BHUSH_AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020+PATCH[ES]_msm8960_refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.25.03.06
+Build Date: 06/17/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020
+Local Patches: 3c2e57b3adbc73f968451c2fa01bb8033d91cf9c Revert "Fixes wobbly boolean return code."
+                 4b7526a1059d940e4b6d4c6ab96389010918de6e rb: fix shadow cach
+
+[ 12-12 15:25:04.445 12250:12300 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-12 15:25:04.485 12250:12300 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:25:04.485 12250:12298 D/com.netease.cloudmusic.utils.u ]
+60ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYwOTU1MDI5NDI0MzM0CWFjOmY3OmYzOmVlOmMxOjM1CTUwZDQ5MTk1ODQxNDkzZDIJODkwZmY5MTU%3D_android&wifi=true
+
+[ 12-12 15:25:04.525 12250:12298 D/com.netease.cloudmusic.utils.u ]
+37ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 15:25:04.545 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@12f0116a time:121806879
+
+[ 12-12 15:25:04.615 12250:12299 D/com.netease.cloudmusic.utils.u ]
+182ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 15:25:04.625 12250:12299 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/HJApp/,/storage/emulated/0/leci/,/storage/emulated/0/baicizhan/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/,/storage/emulated/0/RM/,/storage/emulated/0/moji/,/storage/emulated/0/Android/,/storage/emulated/0/towords/
+
+[ 12-12 15:25:04.645 12250:12299 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/tencent/QQfile_recv/,/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:25:04.645 12250:12299 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:25:06.397 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121808720
+
+[ 12-12 15:25:06.517 12250:12250 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:25:06.828 12250:12250 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 15:25:06.838 12250:12250 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 15:25:06.838 12250:12346 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 15:25:06.848 12250:12299 D/com.netease.cloudmusic.utils.u ]
+116ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:25:06.878 12250:12250 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 15:25:06.888 12250:12348 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 15:25:06.908 12250:12250 D/PlayService ]
+in onBind
+
+[ 12-12 15:25:06.918 12250:12345 D/com.netease.cloudmusic.utils.u ]
+77ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449905078667
+
+[ 12-12 15:25:06.998 12250:12298 D/com.netease.cloudmusic.utils.u ]
+154ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 15:25:07.008 12250:12346 D/com.netease.cloudmusic.utils.u ]
+157ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 15:25:07.008 12250:12346 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=2, follow=0, pushMsg=你收到了2条消息：2条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 15:25:07.238 12250:12264 I/art      ]
+Background sticky concurrent mark sweep GC freed 111994(5MB) AllocSpace objects, 28(527KB) LOS objects, 12% free, 30MB/34MB, paused 3.631ms total 101.440ms
+
+[ 12-12 15:25:07.258 12250:12298 D/com.netease.cloudmusic.utils.u ]
+63ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 15:25:07.338 12250:12264 I/art      ]
+Background partial concurrent mark sweep GC freed 38462(1457KB) AllocSpace objects, 6(1023KB) LOS objects, 35% free, 29MB/45MB, paused 5.340ms total 96.893ms
+
+[ 12-12 15:25:07.448 12250:12345 D/AudioMetaIO ]
+supportMediaFormat:mxmf,mp3,flac,xmf,rtttl,rtx,mka,ec3,oga,pls,m4a,aac,wma,mpga,wav,qcp,ac3,imy,awb,ota,smf,ape,m3u8
+
+[ 12-12 15:25:07.688 12250:12250 W/View     ]
+requestLayout() improperly called by android.widget.ListView{1267688b VFED..C. ......ID 0,0-592,1280 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 15:25:07.688 12250:12250 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{23f1a536 VFED.VC. .F....ID 0,0-720,1038 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 15:25:07.688 12250:12250 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 15:25:07.688 12250:12250 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 15:25:07.708 12250:12250 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:25:07.738 12250:12250 I/Choreographer ]
+Skipped 48 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 15:25:07.808 12250:12250 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-12 15:25:07.808 12250:12250 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@3e22a035:onReceive msg count is 2 follow count0
+
+[ 12-12 15:25:07.869 12250:12348 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:25:08.049 12250:12299 D/com.netease.cloudmusic.utils.u ]
+601ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:25:08.229 12250:12250 I/MusicActivityBase ]
+onReceive msg count is 2 follow count0
+
+[ 12-12 15:25:09.140 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1c4d733a time:121811477
+
+[ 12-12 15:25:11.792 12250:12406 D/com.netease.cloudmusic.utils.u ]
+59ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 15:25:13.364 12250:12299 D/com.netease.cloudmusic.utils.u ]
+239ms on url: http://music.163.com/eapi/v1/event/get?lasttime=-1&pagesize=10
+
+[ 12-12 15:25:15.346 12250:12250 I/Choreographer ]
+Skipped 85 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 15:25:15.586 12250:12264 I/art      ]
+Background sticky concurrent mark sweep GC freed 162946(8MB) AllocSpace objects, 49(1042KB) LOS objects, 18% free, 36MB/44MB, paused 7.995ms total 109.222ms
+
+[ 12-12 15:25:15.726 12464:12464 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 15:25:15.726 12464:12464 I/MultiDex ]
+install
+
+[ 12-12 15:25:15.726 12464:12464 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 15:25:16.357 12250:12299 D/com.netease.cloudmusic.utils.u ]
+129ms on url: http://music.163.com/eapi/nearby/banners?lat=32.183926&lon=121.378553&limit=3
+
+[ 12-12 15:25:16.357 12464:12464 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:25:16.377 12464:12464 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/
+
+[ 12-12 15:25:16.387 12464:12464 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:25:16.417 12464:12464 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 15:25:16.507 12464:12464 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 15:25:16.507 12464:12464 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 15:25:16.507 12464:12464 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 15:25:16.507 12464:12464 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 15:25:16.507 12464:12464 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at java.lang.Class.getMethod(Class.java:664)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:626)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2734)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:147)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1366)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.os.Looper.loop(Looper.java:135)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5235)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at java.lang.reflect.Method.invoke(Native Method)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:906)
+
+[ 12-12 15:25:16.557 12464:12464 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:701)
+
+[ 12-12 15:25:16.567 12464:12464 D/baidu_location_service ]
+baidu location service start1 ...12464
+
+[ 12-12 15:25:16.567 12250:12250 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 15:25:16.597 12464:12464 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+
+[ 12-12 15:25:17.128 12464:12464 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 15:25:17.128 12464:12464 I/Process  ]
+Sending signal. PID: 12464 SIG: 9
+
+[ 12-12 15:25:17.348 12250:12299 D/com.netease.cloudmusic.utils.u ]
+238ms on url: http://music.163.com/eapi/nearby/banners?lat=32.181934&lon=121.383066&limit=3
+
+[ 12-12 15:25:17.578 12250:12299 D/com.netease.cloudmusic.utils.u ]
+134ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 15:25:18.599 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121820932
+
+[ 12-12 15:25:18.649 12250:12250 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:25:18.909 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1ec05039 time:121821248
+
+[ 12-12 15:25:19.260 12250:12250 D/PlayService ]
+in onUnbind
+
+[ 12-12 15:25:23.674 12250:12282 W/FileUtils ]
+Failed to chmod(/storage/emulated/0/netease/wakeup/wakeup.dat): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+[ 12-12 15:25:31.191 12250:12250 W/Resources ]
+Drawable android:drawable/text_cursor_material has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:733)
+	at android.widget.Editor$InsertionHandleView.getHotspotX(Editor.java:3816)
+	at android.widget.Editor$HandleView.updateDrawable(Editor.java:3443)
+	at android.widget.Editor$HandleView.<init>(Editor.java:3434)
+	at android.widget.Editor$InsertionHandleView.<init>(Editor.java:3772)
+	at android.widget.Editor$InsertionPointCursorController.getHandle(Editor.java:4080)
+	at android.widget.Editor$InsertionPointCursorController.access$200(Editor.java:4044)
+	at android.widget.Editor.onTouchUpEvent(Editor.java:1621)
+	at android.widget.TextView.onTouchEvent(TextView.java:8018)
+	at com.netease.cloudmusic.ui.EditTextWithClear.onTouchEvent(ProGuard:83)
+	at android.view.View.dispatchTouchEvent(View.java:8393)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2317)
+	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1692)
+	at android.app.Activity.dispatchTouchEvent(Activity.java:2747)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2278)
+	at android.view.View.dispatchPointerEvent(View.java:8583)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4060)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3926)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3612)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3669)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5740)
+	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5714)
+	at android.view.ViewRootImpl.enqueueInputEvent
+
+[ 12-12 15:25:38.088 12250:12264 I/art      ]
+Background partial concurrent mark sweep GC freed 57005(3MB) AllocSpace objects, 15(2MB) LOS objects, 28% free, 40MB/56MB, paused 1.312ms total 100.463ms
+
+[ 12-12 15:25:42.662 12250:12250 E/openSDK_LOG ]
+com.netease.cloudmusic SDK_VERSION:2.9.4.lite
+
+
+[ 12-12 15:25:42.662 12250:12250 I/openSDK_LOG.Tencent ]
+createInstance()  -- start
+
+
+[ 12-12 15:25:42.662 12250:12250 I/openSDK_LOG.QQAuth ]
+QQAuth -- createInstance() --start
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.QQAuth ]
+new QQAuth() --start
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.AuthAgent ]
+is arm(default) architecture
+
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+java.lang.ClassNotFoundException: com.tencent.stat.StatConfig
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.Class.classForName(Native Method)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.Class.forName(Class.java:308)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.Class.forName(Class.java:272)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.tencent.connect.a.a.c(ProGuard:55)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.tencent.connect.b.l.<init>(ProGuard:43)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.tencent.connect.b.l.a(ProGuard:78)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.tencent.tauth.c.<init>(ProGuard:50)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.tencent.tauth.c.a(ProGuard:58)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.netease.cloudmusic.fragment.as$4.onClick(ProGuard:192)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.view.View.performClick(View.java:4759)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:19770)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:739)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.os.Looper.loop(Looper.java:135)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5235)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.reflect.Method.invoke(Native Method)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:906)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:701)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+Caused by: java.lang.ClassNotFoundException: Didn't find class "com.tencent.stat.StatConfig" on path: DexPathList[[zip file "/data/app/cn.edu.nju.ise.kikandroid-1/base.apk", zip file "/data/app/com.netease.cloudmusic-1/base.apk"],nativeLibraryDirectories=[/data/app/com.netease.cloudmusic-1/lib/arm, /vendor/lib, /system/lib]]
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	... 19 more
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	Suppressed: java.lang.ClassNotFoundException: com.tencent.stat.StatConfig
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+		at java.lang.Class.classForName(Native Method)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+		... 20 more
+
+[ 12-12 15:25:42.672 12250:12250 W/System.err ]
+	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.QQAuth ]
+new QQAuth() --end
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.QQAuth ]
+QQAuth -- createInstance()  --end
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.Tencent ]
+createInstance()  -- end
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.Tencent ]
+login() with fragment, scope is all
+
+
+[ 12-12 15:25:42.672 12250:12250 I/openSDK_LOG.QQAuth ]
+-->login activity: com.netease.cloudmusic.activity.LoginActivity@38233159
+
+
+[ 12-12 15:25:42.703 12250:12250 D/openSDK_LOG.QQAuth ]
+-->login channelId is null 
+
+
+[ 12-12 15:25:42.703 12250:12250 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- start
+
+
+[ 12-12 15:25:42.703 12250:12250 D/openSDK_LOG.AuthAgent ]
+startAssitActivity fragment
+
+
+[ 12-12 15:25:42.713 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121845040
+
+[ 12-12 15:25:42.723 12250:12250 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- end, found activity for loginIntent
+
+
+[ 12-12 15:25:42.723 12250:12250 E/openSDK_LOG.APNUtil ]
+getApn has exception: No permission to write APN settings
+
+
+[ 12-12 15:25:42.733 12250:12250 I/openSDK_LOG.AuthAgent ]
+OpenUi, showUi, return Constants.UI_ACTIVITY
+
+
+[ 12-12 15:25:42.733 12250:12250 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_via | ext: 100495085
+
+
+[ 12-12 15:25:42.733 12250:12250 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: true | frequency: 100
+
+
+[ 12-12 15:25:42.753 12250:12740 D/openSDK_LOG.ReportManager ]
+-->httpRequest, retryCount: 2
+
+
+[ 12-12 15:25:42.763 12250:12250 D/openSDK_LOG.AssistActivity ]
+--onCreate--
+
+
+[ 12-12 15:25:42.773 12250:12250 I/openSDK_LOG.AssistActivity ]
+--onCreate--activityIntent not null, will start activity, reqcode = 11101
+
+
+[ 12-12 15:25:42.773 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121845101
+
+[ 12-12 15:25:42.783 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 15:25:42.783 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onResume
+
+
+[ 12-12 15:25:42.783 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onPause
+
+
+[ 12-12 15:25:42.893 12250:12742 E/openSDK_LOG.APNUtil ]
+getApn has exception: No permission to write APN settings
+
+
+[ 12-12 15:25:42.893 12250:12742 E/openSDK_LOG.Util ]
+getPackageInfo has exception: com.qzone
+
+
+[ 12-12 15:25:42.903 12250:12742 D/openSDK_LOG.ReportManager ]
+-->availableCount, report: report_via | dataSize: 1 | maxcount: 5
+
+
+[ 12-12 15:25:42.993 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@2687fa99 time:121845326
+
+[ 12-12 15:25:43.363 12250:12740 D/openSDK_LOG.ReportManager ]
+-->httpRequest, statusCode: 200
+
+
+[ 12-12 15:25:43.363 12250:12740 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread success
+
+
+[ 12-12 15:25:43.363 12250:12740 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread request success
+
+
+[ 12-12 15:25:44.284 12250:12250 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-12 15:25:44.424 12250:12250 D/openSDK_LOG.AssistActivity ]
+--onSaveInstanceState--
+
+
+[ 12-12 15:25:44.424 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 15:25:46.196 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 15:25:46.276 12250:12250 I/openSDK_LOG.AssistActivity ]
+--onActivityResult--requestCode: 11101 | resultCode: -1data = null ? false
+
+
+[ 12-12 15:25:46.276 12250:12250 D/openSDK_LOG.AssistActivity ]
+--setResultDataForLogin-- {"ret":0,"openid":"83F38B4B690C6C19E105B01373A88656","access_token":"D033274750F571BD1C4EF21E8FFE7391","pay_token":"587EB6FD89CBC3F465FD30DE0328C57C","expires_in":7776000,"pf":"desktop_m_qq-10000144-android-2002-","pfkey":"c8e081d78d8de3e7bc708da715328b96","msg":"","login_cost":446,"query_authority_cost":92,"authority_cost":1564}
+
+
+[ 12-12 15:25:46.286 12250:12250 I/openSDK_LOG.AssistActivity ]
+--setResultData--openid and token not empty, setResult ACTIVITY_OK
+
+
+[ 12-12 15:25:46.336 12250:12250 I/openSDK_LOG.Tencent ]
+onActivityResultData() reqcode = 11101, resultcode = -1, data = null ? false, listener = null ? false
+
+
+[ 12-12 15:25:46.336 12250:12250 I/openSDK_LOG.UIListenerManager ]
+onActivityResult req=11101 res=-1
+
+
+[ 12-12 15:25:46.336 12250:12250 W/openSDK_LOG.AuthAgent ]
+FeedConfirmListener onComplete There is no value for sendinstall.
+
+
+[ 12-12 15:25:46.416 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1ec05039 time:121848741
+
+[ 12-12 15:25:46.416 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 15:25:46.416 12250:12250 D/openSDK_LOG.AssistActivity ]
+-->onDestroy
+
+
+[ 12-12 15:25:46.987 12250:12299 D/com.netease.cloudmusic.utils.u ]
+627ms on url: https://music.163.com/eapi/login/sns
+
+[ 12-12 15:25:47.397 12250:12299 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_cgi | ext: 0
+
+
+[ 12-12 15:25:47.397 12250:12299 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: false | frequency: 10
+
+
+[ 12-12 15:25:53.073 12250:12893 D/openSDK_LOG.ReportManager ]
+-->prepareViaData, mViaList size: 1
+
+
+[ 12-12 15:25:53.243 12250:12893 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_cgi | ext: 0
+
+
+[ 12-12 15:25:53.243 12250:12893 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: false | frequency: 10
+
+
+[ 12-12 15:25:53.243 12250:12893 D/openSDK_LOG.ReportManager ]
+-->doReportVia, uploadSuccess: true
+
+
+[ 12-12 15:25:57.217 12250:12299 D/com.netease.cloudmusic.utils.u ]
+199ms on url: http://music.163.com/eapi/sms/captcha/sent
+
+[ 12-12 15:26:08.918 12250:12250 W/Resources ]
+Drawable android:drawable/text_cursor_material has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:733)
+	at android.support.v7.internal.widget.ResourcesWrapper.getDrawable(ProGuard:131)
+	at android.support.v7.internal.widget.TintContextWrapper$TintResources.getDrawable(ProGuard:72)
+	at android.widget.Editor$InsertionHandleView.getHotspotX(Editor.java:3816)
+	at android.widget.Editor$HandleView.updateDrawable(Editor.java:3443)
+	at android.widget.Editor$HandleView.<init>(Editor.java:3434)
+	at android.widget.Editor$InsertionHandleView.<init>(Editor.java:3772)
+	at android.widget.Editor$InsertionPointCursorController.getHandle(Editor.java:4080)
+	at android.widget.Editor$InsertionPointCursorController.access$200(Editor.java:4044)
+	at android.widget.Editor.onTouchUpEvent(Editor.java:1621)
+	at android.widget.TextView.onTouchEvent(TextView.java:8018)
+	at android.view.View.dispatchTouchEvent(View.java:8393)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2317)
+	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1692)
+	at android.app.Activity.dispatchTouchEvent(Activity.java:2747)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2278)
+	at android.view.View.dispatchPointerEvent(View.java:8583)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4060)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3926)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3612)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3669)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5740)
+	at android.view.
+
+[ 12-12 15:26:14.534 12250:12299 D/com.netease.cloudmusic.utils.u ]
+396ms on url: http://music.163.com/eapi/user/bindingCellphone
+
+[ 12-12 15:26:14.714 12250:12300 V/RenderScript ]
+0xa159ca00 Launching thread(s), CPUs 4
+
+[ 12-12 15:26:17.076 12250:12299 D/com.netease.cloudmusic.utils.u ]
+117ms on url: http://music.163.com/eapi/activate/initProfile
+
+[ 12-12 15:26:20.169 12250:12250 W/Resources ]
+Drawable android:drawable/text_cursor_material has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:733)
+	at android.widget.Editor$InsertionHandleView.getHotspotX(Editor.java:3816)
+	at android.widget.Editor$HandleView.updateDrawable(Editor.java:3443)
+	at android.widget.Editor$HandleView.<init>(Editor.java:3434)
+	at android.widget.Editor$InsertionHandleView.<init>(Editor.java:3772)
+	at android.widget.Editor$InsertionPointCursorController.getHandle(Editor.java:4080)
+	at android.widget.Editor$InsertionPointCursorController.access$200(Editor.java:4044)
+	at android.widget.Editor.onTouchUpEvent(Editor.java:1621)
+	at android.widget.TextView.onTouchEvent(TextView.java:8018)
+	at com.netease.cloudmusic.ui.EditTextWithClear.onTouchEvent(ProGuard:83)
+	at android.view.View.dispatchTouchEvent(View.java:8393)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2431)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2173)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2317)
+	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1692)
+	at android.app.Activity.dispatchTouchEvent(Activity.java:2747)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at android.support.v7.internal.view.WindowCallbackWrapper.dispatchTouchEvent(ProGuard:60)
+	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2278)
+	at android.view.View.dispatchPointerEvent(View.java:8583)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4060)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3926)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3612)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3669)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3536)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3502)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3510)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3483)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5740)
+	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5714)
+	at android.view.ViewRootImpl.enqueueInputEvent
+
+[ 12-12 15:26:27.536 12250:12299 D/com.netease.cloudmusic.utils.u ]
+640ms on url: http://music.163.com/eapi/activate/initProfile
+
+[ 12-12 15:26:27.606 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121889933
+
+[ 12-12 15:26:27.756 12250:12250 D/FriendTrackFragment ]
+revoer Listip:0, tp:0
+
+[ 12-12 15:26:27.907 12250:13105 D/com.netease.cloudmusic.utils.u ]
+150ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:26:27.967 12250:12250 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 15:26:27.967 12250:12250 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:26:28.027 12250:12348 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:26:28.077 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1c4d733a time:121890404
+
+[ 12-12 15:26:28.087 12250:13110 D/DownloadManager ]
+download notify
+
+[ 12-12 15:26:28.107 12250:13105 D/com.netease.cloudmusic.utils.u ]
+100ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-12 15:26:28.207 12250:13107 D/com.netease.cloudmusic.utils.u ]
+454ms on url: http://music.163.com/eapi/v1/event/get?lasttime=-1&pagesize=10
+
+[ 12-12 15:26:28.227 12250:13105 D/com.netease.cloudmusic.utils.u ]
+117ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-12 15:26:28.397 12250:12299 D/com.netease.cloudmusic.utils.u ]
+651ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:26:28.567 12250:13106 D/com.netease.cloudmusic.utils.u ]
+812ms on url: http://music.163.com/eapi/discovery/recommend/artist/hasdata
+
+[ 12-12 15:26:45.694 12250:13106 D/com.netease.cloudmusic.utils.u ]
+274ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 15:26:45.754 12250:12299 D/com.netease.cloudmusic.utils.u ]
+41ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 15:26:51.239 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121913571
+
+[ 12-12 15:26:51.450 12250:12250 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:26:51.570 12250:13255 D/com.netease.cloudmusic.utils.u ]
+82ms on url: http://music.163.com/eapi/theme/get/v2
+
+[ 12-12 15:26:51.590 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@8731a02 time:121913922
+
+[ 12-12 15:26:51.800 12250:12264 I/art      ]
+Background sticky concurrent mark sweep GC freed 116883(6MB) AllocSpace objects, 44(837KB) LOS objects, 9% free, 50MB/56MB, paused 2.227ms total 113.098ms
+
+[ 12-12 15:26:53.852 12250:12250 I/Timeline ]
+Timeline: Activity_launch_request time:121916186
+
+[ 12-12 15:26:54.072 12250:12250 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:26:54.262 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1fcad642 time:121916593
+
+[ 12-12 15:26:57.495 12250:12300 D/OpenGLRenderer ]
+endAllStagingAnimators on 0xa1b20100 (RippleDrawable) with handle 0xa1ff6d20
+
+[ 12-12 15:26:57.556 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@8731a02 time:121919884
+
+[ 12-12 15:27:02.440 12250:12250 D/FriendTrackFragment ]
+revoer Listip:0, tp:0
+
+[ 12-12 15:27:02.580 12250:12250 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:27:02.630 12250:12348 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:27:02.641 12250:12300 D/OpenGLRenderer ]
+endAllStagingAnimators on 0x9b5cd400 (RippleDrawable) with handle 0xa1ff6c70
+
+[ 12-12 15:27:02.651 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1c4d733a time:121924981
+
+[ 12-12 15:27:04.062 12250:12299 D/com.netease.cloudmusic.utils.u ]
+152ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 15:27:04.132 12250:13106 D/com.netease.cloudmusic.utils.u ]
+61ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 15:27:04.262 12250:12264 I/art      ]
+Background partial concurrent mark sweep GC freed 35505(2MB) AllocSpace objects, 16(424KB) LOS objects, 23% free, 53MB/69MB, paused 1.251ms total 110.076ms
+
+[ 12-12 15:27:07.005 12250:12346 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 15:27:07.175 12250:12346 D/com.netease.cloudmusic.utils.u ]
+154ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 15:27:07.175 12250:12346 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 15:27:07.175 12250:12250 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@3e22a035:onReceive msg count is 3 follow count0
+
+[ 12-12 15:27:38.756 12250:12250 D/FriendTrackFragment ]
+revoer Listip:0, tp:0
+
+[ 12-12 15:27:38.816 12250:12250 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:27:38.866 12250:12348 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:27:38.866 12250:12250 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1c4d733a time:121961193
+
+[ 12-12 15:27:41.298 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905261299
+
+[ 12-12 15:27:41.739 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905261750
+
+[ 12-12 15:27:49.666 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905269673
+
+[ 12-12 15:27:50.137 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905270147
+
+[ 12-12 15:27:50.327 12250:12264 I/art      ]
+Background partial concurrent mark sweep GC freed 51707(3MB) AllocSpace objects, 72(13MB) LOS objects, 21% free, 57MB/73MB, paused 1.525ms total 119.171ms
+
+[ 12-12 15:27:55.452 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905275468
+
+[ 12-12 15:27:55.512 12250:12319 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905275527
+
+[ 12-12 15:29:13.879 13778:13778 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 15:29:13.879 13778:13778 I/MultiDex ]
+install
+
+[ 12-12 15:29:13.879 13778:13778 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 15:29:13.929 13778:13796 I/Timeline ]
+Timeline: Activity_launch_request time:122056253
+
+[ 12-12 15:29:14.589 13778:13778 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:29:14.589 13778:13778 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/
+
+[ 12-12 15:29:14.619 13778:13778 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:29:14.639 13778:13778 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 15:29:14.739 13778:13778 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 15:29:14.739 13778:13778 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 15:29:14.739 13778:13778 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 15:29:14.739 13778:13778 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 15:29:14.739 13778:13778 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 15:29:15.330 13778:13778 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 15:29:15.390 13778:13831 D/OpenGLRenderer ]
+Render dirty regions requested: true
+
+[ 12-12 15:29:15.400 13778:13778 D/Atlas    ]
+Validating map...
+
+[ 12-12 15:29:15.480 13778:13831 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: C_BHUSH_AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020+PATCH[ES]_msm8960_refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020__release_ENGG ()
+OpenGL ES Shader Compiler Version: E031.25.03.06
+Build Date: 06/17/15 Wed
+Local Branch: 
+Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.AF.1.1_RB1.05.00.02.006.020
+Local Patches: 3c2e57b3adbc73f968451c2fa01bb8033d91cf9c Revert "Fixes wobbly boolean return code."
+                 4b7526a1059d940e4b6d4c6ab96389010918de6e rb: fix shadow cach
+
+[ 12-12 15:29:15.480 13778:13831 I/OpenGLRenderer ]
+Initialized EGL, version 1.4
+
+[ 12-12 15:29:15.510 13778:13831 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 15:29:15.520 13778:13829 D/com.netease.cloudmusic.utils.u ]
+79ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODYwOTU1MDI5NDI0MzM0CWFjOmY3OmYzOmVlOmMxOjM1CTUwZDQ5MTk1ODQxNDkzZDIJODkwZmY5MTU%3D_android&wifi=true
+
+[ 12-12 15:29:15.560 13778:13778 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@1bbd63c2 time:122057899
+
+[ 12-12 15:29:15.570 13778:13829 D/com.netease.cloudmusic.utils.u ]
+44ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 15:29:15.670 13778:13830 D/com.netease.cloudmusic.utils.u ]
+203ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 15:29:15.700 13778:13830 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/HJApp/,/storage/emulated/0/leci/,/storage/emulated/0/baicizhan/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/,/storage/emulated/0/RM/,/storage/emulated/0/moji/,/storage/emulated/0/Android/,/storage/emulated/0/towords/
+
+[ 12-12 15:29:15.720 13778:13830 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/tencent/QQfile_recv/,/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:29:15.720 13778:13830 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:29:17.422 13778:13778 I/Timeline ]
+Timeline: Activity_launch_request time:122059750
+
+[ 12-12 15:29:17.532 13778:13778 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:29:17.882 13778:13778 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 15:29:17.902 13778:13778 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 15:29:17.912 13778:13873 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 15:29:17.953 13778:13778 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 15:29:17.953 13778:13876 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 15:29:17.973 13778:13778 D/PlayService ]
+in onBind
+
+[ 12-12 15:29:18.213 13778:13830 D/com.netease.cloudmusic.utils.u ]
+432ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:29:18.333 13778:13872 D/com.netease.cloudmusic.utils.u ]
+413ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449905182043
+
+[ 12-12 15:29:18.363 13778:13829 D/com.netease.cloudmusic.utils.u ]
+463ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 15:29:18.373 13778:13792 I/art      ]
+Background sticky concurrent mark sweep GC freed 114986(5MB) AllocSpace objects, 24(410KB) LOS objects, 10% free, 31MB/34MB, paused 5.187ms total 176.177ms
+
+[ 12-12 15:29:18.433 13778:13830 D/com.netease.cloudmusic.utils.u ]
+64ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 15:29:18.533 13778:13883 D/AudioMetaIO ]
+supportMediaFormat:mxmf,mp3,flac,xmf,rtttl,rtx,mka,ec3,oga,pls,m4a,aac,wma,mpga,wav,qcp,ac3,imy,awb,ota,smf,ape,m3u8
+
+[ 12-12 15:29:18.693 13778:13792 I/art      ]
+Background partial concurrent mark sweep GC freed 83878(3MB) AllocSpace objects, 17(1260KB) LOS objects, 34% free, 30MB/46MB, paused 3.753ms total 116.088ms
+
+[ 12-12 15:29:18.813 13778:13778 W/View     ]
+requestLayout() improperly called by android.widget.ListView{1ed7eab0 VFED..C. ......ID 0,0-592,1280 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 15:29:18.813 13778:13778 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{3c906127 VFED.VC. .F....ID 0,0-720,1038 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 15:29:18.903 13778:13778 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 15:29:18.903 13778:13778 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 15:29:18.903 13778:13778 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:29:18.964 13778:13778 I/Choreographer ]
+Skipped 57 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 15:29:18.974 13905:13905 I/MultiDex ]
+VM with version 2.1.0 has multidex support
+
+[ 12-12 15:29:18.974 13905:13905 I/MultiDex ]
+install
+
+[ 12-12 15:29:18.974 13905:13905 I/MultiDex ]
+VM has multidex support, MultiDex support library is disabled.
+
+[ 12-12 15:29:19.094 13778:13778 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-12 15:29:19.124 13778:13896 D/com.netease.cloudmusic.utils.u ]
+595ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:29:19.134 13778:13876 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:29:19.154 13778:13830 D/com.netease.cloudmusic.utils.u ]
+67ms on url: http://music.163.com/eapi/user/location?lat=32.183926&lon=121.378553
+
+[ 12-12 15:29:19.604 13778:13896 D/com.netease.cloudmusic.utils.u ]
+66ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-12 15:29:19.674 13905:13905 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 15:29:19.684 13905:13905 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Tencent/,/storage/emulated/0/Yixin/
+
+[ 12-12 15:29:19.694 13905:13905 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 15:29:19.714 13905:13905 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 15:29:19.804 13905:13905 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 15:29:19.804 13905:13905 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 15:29:19.804 13905:13905 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 15:29:19.804 13905:13905 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 15:29:19.804 13905:13905 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 15:29:19.834 13905:13905 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 15:29:19.834 13905:13905 W/System.err ]
+	at java.lang.Class.getMethod(Class.java:664)
+
+[ 12-12 15:29:19.834 13905:13905 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:626)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2734)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:147)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1366)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.os.Looper.loop(Looper.java:135)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5235)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at java.lang.reflect.Method.invoke(Native Method)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:906)
+
+[ 12-12 15:29:19.844 13905:13905 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:701)
+
+[ 12-12 15:29:19.844 13905:13905 D/baidu_location_service ]
+baidu location service start1 ...13905
+
+[ 12-12 15:29:19.864 13778:13778 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 15:29:19.864 13905:13905 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+
+[ 12-12 15:29:19.894 13778:13778 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@e0ba6d5 time:122062228
+
+[ 12-12 15:29:20.045 13905:13905 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 15:29:20.045 13905:13905 I/Process  ]
+Sending signal. PID: 13905 SIG: 9
+
+[ 12-12 15:29:20.075 13778:13896 D/com.netease.cloudmusic.utils.u ]
+50ms on url: http://music.163.com/eapi/user/location?lat=32.181873&lon=121.383117
+
+[ 12-12 15:29:21.326 13778:13873 D/com.netease.cloudmusic.utils.u ]
+3404ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 15:29:21.336 13778:13873 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 15:29:21.336 13778:13778 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@1901a9b3:onReceive msg count is 3 follow count0
+
+[ 12-12 15:29:22.827 13778:13946 D/com.netease.cloudmusic.utils.u ]
+52ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 15:29:34.719 13778:13810 W/FileUtils ]
+Failed to chmod(/storage/emulated/0/netease/wakeup/wakeup.dat): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+[ 12-12 15:29:35.189 13778:13792 I/art      ]
+Background sticky concurrent mark sweep GC freed 107136(5MB) AllocSpace objects, 41(859KB) LOS objects, 14% free, 39MB/46MB, paused 1.617ms total 102.447ms
+
+[ 12-12 15:29:50.454 13778:13896 D/com.netease.cloudmusic.utils.u ]
+82ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 15:29:50.514 13778:13883 D/com.netease.cloudmusic.utils.u ]
+50ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 15:30:05.419 13778:13831 V/RenderScript ]
+0xa3356a00 Launching thread(s), CPUs 4
+
+[ 12-12 15:30:11.815 13778:13896 D/com.netease.cloudmusic.utils.u ]
+98ms on url: http://music.163.com/eapi/discovery/recommend/artist/hasdata
+
+[ 12-12 15:30:11.835 13778:13883 D/com.netease.cloudmusic.utils.u ]
+122ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 15:30:12.065 13778:14049 D/DownloadManager ]
+download notify
+
+[ 12-12 15:30:13.827 13778:13778 I/Timeline ]
+Timeline: Activity_launch_request time:122116154
+
+[ 12-12 15:30:14.037 13778:13778 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:30:14.107 13778:13778 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 15:30:14.147 13778:13778 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 15:30:14.348 13778:13876 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 15:30:14.468 13778:13778 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@2b86ab53 time:122116793
+
+[ 12-12 15:30:14.538 13778:13792 I/art      ]
+Background partial concurrent mark sweep GC freed 114987(5MB) AllocSpace objects, 5(183KB) LOS objects, 27% free, 41MB/57MB, paused 1.464ms total 147.064ms
+
+[ 12-12 15:30:15.439 13778:13778 I/MusicActivityBase ]
+onReceive msg count is 3 follow count0
+
+[ 12-12 15:31:09.501 13778:13849 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905469515
+
+[ 12-12 15:31:10.032 13778:13849 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905470048
+
+[ 12-12 15:31:12.214 13778:13849 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905472226
+
+[ 12-12 15:31:21.343 13778:13873 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 15:31:21.453 13778:13873 D/com.netease.cloudmusic.utils.u ]
+90ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 15:31:21.463 13778:13873 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=3, follow=0, pushMsg=你收到了3条消息：3条私信, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=false, friend=null, count=0]
+
+[ 12-12 15:31:21.463 13778:13778 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@1901a9b3:onReceive msg count is 3 follow count0
+
+[ 12-12 15:31:21.463 13778:13778 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.ScanMusicActivity@ff8122b:onReceive msg count is 3 follow count0
+
+[ 12-12 15:31:24.246 13778:13849 D/cn.edu.nju.ise.kikandroid ]
+Log:1449905484256
+
+[ 12-12 15:31:24.276 13778:13849 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449905484287
+

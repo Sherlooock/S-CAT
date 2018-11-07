@@ -1,0 +1,2776 @@
+--------- beginning of system
+[ 12-12 15:45:20.086 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:45:20.090 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:45:20.092 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.094 16850:16850 V/ActivityThread ]
+ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:45:20.135 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.137 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.137 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:45:20.143 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=true
+
+[ 12-12 15:45:20.143 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.143 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:20.176 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:45:20.176 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:45:20.528 16850:16850 V/ActivityThread ]
+Finishing stop of ActivityRecord{2ddf9d4 token=android.os.BinderProxy@289a277d {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@13a8eb52
+
+[ 12-12 15:45:20.528 16850:16850 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@289a277d
+
+[ 12-12 15:45:22.817 16850:16850 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:45:22.821 16850:16850 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@17c67607
+
+[ 12-12 15:45:22.821 16850:16850 V/ActivityThread ]
+Handling launch of ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.822 16850:16850 V/ActivityThread ]
+ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:45:22.839 16850:16850 V/ActivityThread ]
+Performing resume of ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.840 16850:16850 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.840 16850:16850 V/ActivityThread ]
+Resume ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:45:22.845 16850:16850 V/ActivityThread ]
+Resuming ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=true
+
+[ 12-12 15:45:22.846 16850:16850 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.846 16850:16850 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{4251097 token=android.os.BinderProxy@3aa04284 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:45:22.864 16850:16850 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:45:22.864 16850:16850 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:45:23.328 16850:16850 V/ActivityThread ]
+Finishing stop of ActivityRecord{192ba446 token=android.os.BinderProxy@17c67607 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@320a420c
+
+[ 12-12 15:45:23.328 16850:16850 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@17c67607
+
+[ 12-12 15:45:51.572 17175:17175 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@2cdf7b35,provider,holder.Provider:android.content.ContentProviderProxy@32afcbca
+
+[ 12-12 15:45:52.048 17175:17175 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{11b070cc com.taobao.ishopping}}
+
+[ 12-12 15:45:52.048 17175:17175 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@322d122a className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.048 17175:17175 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@322d122a className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.052 17175:17175 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@322d122a intent=Intent { act=mtopsdk.xstate.aidl.IXState pkg=com.taobao.ishopping cmp=com.taobao.ishopping/mtopsdk.xstate.XStateService }}
+
+[ 12-12 15:45:52.055 17175:17175 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@2c01bc82 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.072 17175:17175 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@2c01bc82 className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.072 17175:17175 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@2c01bc82 startId=1 args=Intent { cmp=com.taobao.ishopping/com.laiwang.protocol.android.LWPService }}
+
+[ 12-12 15:45:52.113 17175:17175 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@3580fea9 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.114 17175:17175 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@3580fea9 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:45:52.115 17175:17175 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@3580fea9 intent=Intent { act=com.taobao.nbcache.IMultiNBCacheService pkg=com.taobao.ishopping cmp=com.taobao.ishopping/com.taobao.nbcache.service.NBCacheService }}
+
+[ 12-12 15:46:02.177 17175:17175 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@327c344a className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:46:02.177 17175:17175 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@327c344a className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:46:02.178 17175:17175 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@327c344a intent=Intent { act=anetwork.channel.aidl.IRemoteNetworkGetter pkg=com.taobao.ishopping cmp=com.taobao.ishopping/anetwork.channel.aidl.NetworkService }}
+
+[ 12-12 15:47:19.717 17336:17336 D/ActivityThread ]
+hoder:android.app.IActivityManager$ContentProviderHolder@2cdf7b35,provider,holder.Provider:android.content.ContentProviderProxy@32afcbca
+
+[ 12-12 15:47:20.181 17336:17336 D/ActivityThread ]
+BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{2a377271 com.taobao.ishopping}}
+
+[ 12-12 15:47:20.181 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:47:20.184 17336:17336 V/ActivityThread ]
+ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:47:20.529 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:47:20.533 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:47:20.533 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:20.544 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}} with isForward=true
+
+[ 12-12 15:47:20.544 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:47:20.545 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.SplashActivity}}
+
+[ 12-12 15:47:20.545 17336:17336 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@3a8f02a2 className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.545 17336:17336 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@3a8f02a2 className=mtopsdk.xstate.XStateService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.548 17336:17336 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@3a8f02a2 intent=Intent { act=mtopsdk.xstate.aidl.IXState pkg=com.taobao.ishopping cmp=com.taobao.ishopping/mtopsdk.xstate.XStateService }}
+
+[ 12-12 15:47:20.550 17336:17336 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@22dcf625 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.551 17336:17336 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@22dcf625 className=com.taobao.nbcache.service.NBCacheService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.552 17336:17336 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@22dcf625 intent=Intent { act=com.taobao.nbcache.IMultiNBCacheService pkg=com.taobao.ishopping cmp=com.taobao.ishopping/com.taobao.nbcache.service.NBCacheService }}
+
+[ 12-12 15:47:20.553 17336:17336 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@30b243fa className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.569 17336:17336 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@30b243fa className=com.laiwang.protocol.android.LWPService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.570 17336:17336 D/ActivityThread ]
+SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@30b243fa startId=1 args=Intent { cmp=com.taobao.ishopping/com.laiwang.protocol.android.LWPService }}
+
+[ 12-12 15:47:20.586 17336:17336 D/ActivityThread ]
+SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@357dd1d9 className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.586 17336:17336 D/ActivityThread ]
+SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@357dd1d9 className=anetwork.channel.aidl.NetworkService packageName=com.taobao.ishopping intent=null}
+
+[ 12-12 15:47:20.587 17336:17336 D/ActivityThread ]
+SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@357dd1d9 intent=Intent { act=anetwork.channel.aidl.IRemoteNetworkGetter pkg=com.taobao.ishopping cmp=com.taobao.ishopping/anetwork.channel.aidl.NetworkService }}
+
+[ 12-12 15:47:20.587 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:20.587 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:22.538 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{12e05856 token=android.os.BinderProxy@cf400d7 {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:22.543 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@cf400d7
+
+[ 12-12 15:47:22.543 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:22.545 17336:17336 V/ActivityThread ]
+ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:47:22.883 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:22.896 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:22.896 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:22.902 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}} with isForward=true
+
+[ 12-12 15:47:22.902 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:22.902 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:23.013 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:23.013 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:23.464 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@cf400d7
+
+[ 12-12 15:47:41.808 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}
+
+[ 12-12 15:47:41.813 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@126d1b4f
+
+[ 12-12 15:47:41.815 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:41.816 17336:17336 V/ActivityThread ]
+ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:47:41.951 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:41.952 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:41.952 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:41.958 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=true
+
+[ 12-12 15:47:41.958 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:41.958 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:41.996 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:41.996 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:42.373 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{17abf1ae token=android.os.BinderProxy@126d1b4f {com.taobao.ishopping/com.taobao.ishopping.activity.home.MainActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@38156b0f
+
+[ 12-12 15:47:42.373 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@126d1b4f
+
+[ 12-12 15:47:45.628 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:47:45.632 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@7bd431
+
+[ 12-12 15:47:45.633 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:45.633 17336:17336 V/ActivityThread ]
+ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:47:45.650 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:45.652 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:45.652 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:45.657 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=true
+
+[ 12-12 15:47:45.657 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:45.658 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:45.685 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:45.685 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:46.193 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@10704b8e
+
+[ 12-12 15:47:46.193 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@7bd431
+
+[ 12-12 15:47:47.135 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:47.139 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:47:47.140 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:47.140 17336:17336 V/ActivityThread ]
+ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:47:47.261 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:47.262 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:47.262 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:47.267 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} with isForward=true
+
+[ 12-12 15:47:47.267 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:47.267 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:47.279 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:47.279 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:47.637 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@e6ca449
+
+[ 12-12 15:47:47.637 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:47:56.985 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{31b4315b token=android.os.BinderProxy@1824edf8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:47:56.996 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@1824edf8
+
+[ 12-12 15:47:56.996 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:56.998 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:56.998 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:47:56.998 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=false
+
+[ 12-12 15:47:56.998 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:47:56.999 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:47:57.002 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:47:57.002 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:47:57.029 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@1824edf8
+
+[ 12-12 15:48:01.881 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:01.887 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:01.888 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:01.888 17336:17336 V/ActivityThread ]
+ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:48:01.967 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:01.971 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:01.971 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:01.976 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} with isForward=true
+
+[ 12-12 15:48:01.977 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:01.977 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:01.996 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:01.996 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:02.358 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@e6ca449
+
+[ 12-12 15:48:02.358 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:03.309 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{2bfca18e token=android.os.BinderProxy@359e3daf {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:03.317 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@359e3daf
+
+[ 12-12 15:48:03.317 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+--------- beginning of main
+[ 12-12 15:48:03.317 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:03.319 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:03.319 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:03.319 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:03.319 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=false
+
+[ 12-12 15:48:03.319 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:03.319 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{187c005c com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b5c1df6 V.ED.... R....... 0,0-1080,1920}
+
+[ 12-12 15:48:03.319 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:03.320 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:03.320 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:03.321 17336:17336 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:48:03.321 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@62f49f6 controlFlags=#101
+
+[ 12-12 15:48:03.322 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:03.322 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:03.333 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:03.334 17336:17437 D/Surface  ]
+Surface::disconnect(this=0xdc3a3300,api=1)
+
+[ 12-12 15:48:03.334 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb8477ce0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:03.334 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d6060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:03.337 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:03.348 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:03.348 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:03.351 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@359e3daf
+
+[ 12-12 15:48:04.110 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 8
+
+[ 12-12 15:48:04.110 17336:17336 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 15:48:04.120 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:04.124 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:04.124 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:04.124 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 8
+
+[ 12-12 15:48:04.124 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 8
+
+[ 12-12 15:48:04.124 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 8
+
+[ 12-12 15:48:04.125 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:04.125 17336:17336 V/ActivityThread ]
+ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:48:04.152 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{31466a9e V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.153 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{31466a9e V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.153 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{31466a9e V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.153 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{19dcdd4c V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.154 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{19dcdd4c V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.154 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{19dcdd4c V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:04.193 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{1633a12 com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 8}
+
+[ 12-12 15:48:04.197 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:04.200 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:04.200 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:04.201 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:04.201 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:04.201 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{229a0cda I.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:04.203 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{15f67d3f com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 9}
+
+[ 12-12 15:48:04.205 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} with isForward=true
+
+[ 12-12 15:48:04.205 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:04.206 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{15f67d3f com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 9}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{229a0cda V.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:04.206 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:04.206 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:04.207 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:04.207 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:04.216 17336:17437 D/OpenGLRenderer ]
+CanvasContext() 0xd9f80740 initialize 0xdc3a4808
+
+[ 12-12 15:48:04.216 17336:17437 D/Surface  ]
+Surface::connect(this=0xdc3a4800,api=1)
+
+[ 12-12 15:48:04.217 17336:17437 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:48:04.217 17336:17437 D/Surface  ]
+Surface::allocateBuffers(this=0xdc3a4800)
+
+[ 12-12 15:48:04.221 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:04.221 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:04.221 17336:17336 V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#81810100
+
+[ 12-12 15:48:04.221 17336:17336 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{229a0cda V.ED.... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@1d2b5b55 controlFlags=#104
+
+[ 12-12 15:48:04.231 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xdc3a4800,w=1080,h=1920)
+
+[ 12-12 15:48:04.231 17336:17437 D/GraphicBuffer ]
+register, handle(0xb70d6060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:04.579 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@e6ca449
+
+[ 12-12 15:48:04.579 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:05.469 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{e395ffc token=android.os.BinderProxy@294d685 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:05.478 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@294d685
+
+[ 12-12 15:48:05.478 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:05.479 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:05.479 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:05.479 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:05.479 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:05.480 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=false
+
+[ 12-12 15:48:05.480 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:05.480 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{187c005c com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b5c1df6 V.ED.... R....... 0,0-1080,1920}
+
+[ 12-12 15:48:05.480 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:05.480 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:05.480 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:05.481 17336:17336 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:48:05.481 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@3ebbbaa4 controlFlags=#101
+
+[ 12-12 15:48:05.482 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:05.482 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:05.486 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:05.487 17336:17437 D/Surface  ]
+Surface::disconnect(this=0xdc3a4800,api=1)
+
+[ 12-12 15:48:05.487 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d6060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:05.488 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:05.499 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:05.499 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:05.502 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@294d685
+
+[ 12-12 15:48:13.349 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 8
+
+[ 12-12 15:48:13.349 17336:17336 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 15:48:13.357 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:13.361 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:13.362 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:13.362 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 8
+
+[ 12-12 15:48:13.362 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 8
+
+[ 12-12 15:48:13.362 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 8
+
+[ 12-12 15:48:13.363 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:13.363 17336:17336 V/ActivityThread ]
+ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:48:13.388 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{29c40a19 V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.388 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{29c40a19 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.388 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{29c40a19 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.389 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{392944bf V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.389 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{392944bf V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.390 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{392944bf V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:13.429 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{10be8add com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 10}
+
+[ 12-12 15:48:13.433 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:13.438 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:13.439 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:13.439 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:13.439 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:13.439 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{3efac3c5 I.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:13.442 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{311df7d9 com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 11}
+
+[ 12-12 15:48:13.444 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} with isForward=true
+
+[ 12-12 15:48:13.444 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:13.444 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{311df7d9 com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 11}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{3efac3c5 V.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:13.444 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:13.444 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:13.445 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:13.445 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:13.454 17336:17437 D/OpenGLRenderer ]
+CanvasContext() 0xd9f80c80 initialize 0xf49bed08
+
+[ 12-12 15:48:13.454 17336:17437 D/Surface  ]
+Surface::connect(this=0xf49bed00,api=1)
+
+[ 12-12 15:48:13.455 17336:17437 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:48:13.455 17336:17437 D/Surface  ]
+Surface::allocateBuffers(this=0xf49bed00)
+
+[ 12-12 15:48:13.455 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:13.455 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:13.455 17336:17336 V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#81810100
+
+[ 12-12 15:48:13.455 17336:17336 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{3efac3c5 V.ED.... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@991487f controlFlags=#104
+
+[ 12-12 15:48:13.463 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:13.463 17336:17437 D/GraphicBuffer ]
+register, handle(0xb70d6060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:13.801 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@e6ca449
+
+[ 12-12 15:48:13.801 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:15.173 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:15.174 17336:17437 D/GraphicBuffer ]
+register, handle(0xb8477ce0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:15.192 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:15.193 17336:17437 D/GraphicBuffer ]
+register, handle(0xb70d6100) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:15.422 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:15.423 17336:17437 D/GraphicBuffer ]
+register, handle(0xb70d61a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:15.720 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:15.737 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49bed00,w=1080,h=1920)
+
+[ 12-12 15:48:18.211 17336:17356 I/art      ]
+Background partial concurrent mark sweep GC freed 122613(7MB) AllocSpace objects, 69(14MB) LOS objects, 52% free, 66MB/138MB, paused 2.642ms total 140.749ms
+
+[ 12-12 15:48:18.219 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.219 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.227 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.228 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.231 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.231 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.233 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:18.319 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906498048
+
+[ 12-12 15:48:18.320 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:19.749 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906499749
+
+[ 12-12 15:48:19.785 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:20.543 17336:17382 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 15:48:20.543 17336:17382 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:48:20.543 17336:17382 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:48:20.543 17336:17382 D/libc-netbsd ]
+[getaddrinfo]: hostname=adash.m.taobao.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:48:20.543 17336:17382 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:48:20.544 17336:17382 D/libc-netbsd ]
+getaddrinfo: adash.m.taobao.com get result from proxy >>
+
+
+[ 12-12 15:48:20.544 17336:17382 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:48:20.545 17336:17382 I/System.out ]
+[CDS]rx timeout:60000
+
+[ 12-12 15:48:20.545 17336:17382 I/System.out ]
+[socket][23] connection adash.m.taobao.com/140.205.35.99:80;LocalPort=52696(10000)
+
+[ 12-12 15:48:20.545 17336:17382 I/System.out ]
+[CDS]connect[adash.m.taobao.com/140.205.35.99:80] tm:10
+
+[ 12-12 15:48:20.545 17336:17382 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :80 
+
+[ 12-12 15:48:20.575 17336:17382 I/System.out ]
+[socket][/192.168.88.158:52696] connected
+
+[ 12-12 15:48:20.575 17336:17382 I/System.out ]
+[OkHttp] sendRequest<<
+
+[ 12-12 15:48:20.650 17336:17382 I/System.out ]
+Close in OkHttp
+
+[ 12-12 15:48:20.651 17336:17382 I/System.out ]
+[CDS]close[52696]
+
+[ 12-12 15:48:20.651 17336:17382 D/SQLiteDatabase ]
+beginTransaction()
+
+[ 12-12 15:48:20.651 17336:17382 D/SQLiteDatabase ]
+endTransaction()
+
+[ 12-12 15:48:22.618 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-12 15:48:22.620 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-12 15:48:22.623 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{5cf342f token=android.os.BinderProxy@2679ba3c {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:22.633 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@2679ba3c
+
+[ 12-12 15:48:22.634 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:22.634 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:22.635 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:22.635 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:22.635 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:22.635 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=false
+
+[ 12-12 15:48:22.635 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:22.635 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{187c005c com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b5c1df6 V.ED.... R....... 0,0-1080,1920}
+
+[ 12-12 15:48:22.635 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:22.636 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:22.636 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:22.637 17336:17336 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:48:22.637 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@2c00cce4 controlFlags=#101
+
+[ 12-12 15:48:22.639 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:22.639 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:22.643 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:22.645 17336:17437 D/Surface  ]
+Surface::disconnect(this=0xf49bed00,api=1)
+
+[ 12-12 15:48:22.645 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d6060) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:22.646 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb8477ce0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:22.646 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d6100) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:22.646 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d61a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:22.650 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:22.662 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:22.662 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:22.665 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@2679ba3c
+
+[ 12-12 15:48:23.123 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 8
+
+[ 12-12 15:48:23.126 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.143 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.159 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.175 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.196 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.209 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.226 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.232 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 663,mMotionPosition = 10,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.232 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = -2051,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -151,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.232 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:23.232 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = 2051,mLastFlingY = 0
+
+[ 12-12 15:48:23.241 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.257 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.274 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.290 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.308 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.324 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.347 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.357 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.373 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.390 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.406 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.423 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.441 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.457 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.473 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.489 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.506 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.523 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.539 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.557 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.572 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.589 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.606 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.617 17336:17336 D/AbsListView ]
+Touch down: touch mode = 4,mScrollY = 0,y = 915.3435,mFirstPosition = 9,mActivePointerId = 0,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.617 17336:17336 D/AbsListView ]
+flywheelTouch: touch mode = 3,mScrollY = 0,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.622 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.639 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.655 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.659 17336:17336 D/AbsListView ]
+Fly wheel: yvel = 742.10345,activeId = 0,mScrollY = 0,mTouchMode = 3,mMinimumVelocity = 150,ListView = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.659 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 3,mFirstPosition = 9
+
+[ 12-12 15:48:23.659 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:23.659 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:23.659 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:23.672 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.689 17336:17466 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+createInstance(): Begin = 6952862
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:48:23.689 17336:17336 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:48:23.689 17336:17336 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:48:23.689 17336:17336 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:48:23.689 17336:17336 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:48:23.689 17336:17336 D/MPlugin  ]
+createInstance(): End = 6952863
+
+[ 12-12 15:48:23.689 17336:17336 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:48:23.696 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.707 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.711 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.723 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.739 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.756 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.772 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.789 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.806 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.822 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.828 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 661,mMotionPosition = 13,mFirstPosition = 10,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.828 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = -268,mActivePointerId = 0,mFirstPosition = 10,firstChildTop = -149,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:23.828 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:48:23.828 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = 268,mLastFlingY = 0
+
+[ 12-12 15:48:23.838 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.855 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.871 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.888 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.906 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.921 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.938 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:23.952 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 4,mFirstPosition = 10
+
+[ 12-12 15:48:23.952 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 10
+
+[ 12-12 15:48:23.952 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 10
+
+[ 12-12 15:48:23.955 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:24.260 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 10
+
+[ 12-12 15:48:24.260 17336:17336 V/SettingsInterface ]
+ from settings cache , name = sound_effects_enabled , value = 0
+
+[ 12-12 15:48:24.281 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:24.285 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:24.286 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:24.286 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 10
+
+[ 12-12 15:48:24.286 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 10
+
+[ 12-12 15:48:24.286 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 10
+
+[ 12-12 15:48:24.286 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:24.287 17336:17336 V/ActivityThread ]
+ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:48:24.315 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{aacd5d5 V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.315 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{aacd5d5 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.316 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{aacd5d5 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.318 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 10000, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{12f1fa51 V.ED.... ........ 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.318 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{12f1fa51 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.318 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 10000, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{12f1fa51 V.ED.... ......ID 0,0-0,0 #102000d android:id/progress}
+
+[ 12-12 15:48:24.363 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{3fcd413 com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 12}
+
+[ 12-12 15:48:24.367 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:24.368 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:24.368 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:24.368 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:24.369 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:24.369 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{152b6c1a I.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:24.371 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{29d69e6f com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 13}
+
+[ 12-12 15:48:24.374 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}} with isForward=true
+
+[ 12-12 15:48:24.374 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:24.374 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{29d69e6f com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity,ident = 13}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{152b6c1a V.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:24.374 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:24.374 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:24.375 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:24.375 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:24.385 17336:17437 D/OpenGLRenderer ]
+CanvasContext() 0xd9f80380 initialize 0xb8595608
+
+[ 12-12 15:48:24.386 17336:17437 D/Surface  ]
+Surface::connect(this=0xb8595600,api=1)
+
+[ 12-12 15:48:24.386 17336:17437 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:48:24.386 17336:17437 D/Surface  ]
+Surface::allocateBuffers(this=0xb8595600)
+
+[ 12-12 15:48:24.391 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:24.391 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:24.391 17336:17336 V/InputMethodManager ]
+onWindowFocus: null softInputMode=288 first=true flags=#81810100
+
+[ 12-12 15:48:24.391 17336:17336 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{152b6c1a V.ED.... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@386fd805 controlFlags=#104
+
+[ 12-12 15:48:24.400 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8595600,w=1080,h=1920)
+
+[ 12-12 15:48:24.401 17336:17437 D/GraphicBuffer ]
+register, handle(0xb70d61a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:24.750 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@e6ca449
+
+[ 12-12 15:48:24.750 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:28.916 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906508714
+
+[ 12-12 15:48:28.917 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:31.177 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906511177
+
+[ 12-12 15:48:31.215 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:32.701 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-12 15:48:32.703 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-12 15:48:32.709 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{36e35d3c token=android.os.BinderProxy@3d9f2ac5 {com.taobao.ishopping/com.taobao.ishopping.im.activity.ImageShowerActivity}}
+
+[ 12-12 15:48:32.726 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@3d9f2ac5
+
+[ 12-12 15:48:32.726 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:32.726 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:32.727 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:32.728 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:32.728 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:32.728 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:32.728 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=false
+
+[ 12-12 15:48:32.728 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{187c005c com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 3}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2b5c1df6 V.ED.... R....... 0,0-1080,1920}
+
+[ 12-12 15:48:32.728 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:32.729 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:32.729 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:32.730 17336:17336 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} softInputMode=18 first=false flags=#81810100
+
+[ 12-12 15:48:32.730 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@80602bd controlFlags=#101
+
+[ 12-12 15:48:32.736 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:32.736 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:32.737 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:32.738 17336:17437 D/Surface  ]
+Surface::disconnect(this=0xb8595600,api=1)
+
+[ 12-12 15:48:32.738 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb70d61a0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:32.740 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:32.762 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:32.762 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:32.772 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@3d9f2ac5
+
+[ 12-12 15:48:33.868 17336:17336 D/AbsListView ]
+Touch down: touch mode = 0,mScrollY = 0,y = 1078.2587,mFirstPosition = 10,mActivePointerId = 0,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:33.906 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:48:33.909 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:33.955 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 752,mMotionPosition = 13,mFirstPosition = 10,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:33.955 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = -7500,mActivePointerId = 0,mFirstPosition = 10,firstChildTop = -179,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:33.955 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:48:33.955 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = 7500,mLastFlingY = 0
+
+[ 12-12 15:48:33.957 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:33.977 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:33.991 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 10
+
+[ 12-12 15:48:33.991 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 10
+
+[ 12-12 15:48:33.991 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 10
+
+[ 12-12 15:48:35.611 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:48:35.613 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.630 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.646 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.663 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.682 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.699 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.720 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.735 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.750 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.766 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.783 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.801 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.819 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.839 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.851 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.867 17336:17513 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:35.873 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.884 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:35.889 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.899 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 866,mMotionPosition = 11,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:35.899 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = 661,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -533,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:35.899 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:35.899 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = -661,mLastFlingY = 2147483647
+
+[ 12-12 15:48:35.902 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.916 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.932 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.948 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.964 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.981 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:35.999 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.015 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.032 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.052 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.066 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.081 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.086 17336:17336 D/AbsListView ]
+Touch down: touch mode = 4,mScrollY = 0,y = 685.46326,mFirstPosition = 9,mActivePointerId = 0,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:36.086 17336:17336 D/AbsListView ]
+flywheelTouch: touch mode = 3,mScrollY = 0,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:36.098 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.127 17336:17336 D/AbsListView ]
+Fly wheel: yvel = -0.19335482,activeId = 0,mScrollY = 0,mTouchMode = 3,mMinimumVelocity = 150,ListView = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:36.127 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 3,mFirstPosition = 9
+
+[ 12-12 15:48:36.127 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:36.127 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:36.127 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:36.232 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.247 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.263 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.282 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.296 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.311 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.327 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.344 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.361 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.377 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.393 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.445 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.626 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.646 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.660 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.676 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.694 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.710 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.727 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.743 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.760 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.777 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.793 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.826 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:36.844 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.222 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 830,mMotionPosition = 13,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:37.223 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = 272,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -346,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:37.223 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:37.223 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = -272,mLastFlingY = 2147483647
+
+[ 12-12 15:48:37.239 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.256 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.272 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.289 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.307 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.323 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.338 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 4,mFirstPosition = 9
+
+[ 12-12 15:48:37.338 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:37.338 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:37.340 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c6b00,w=1080,h=1920)
+
+[ 12-12 15:48:37.957 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 0
+
+[ 12-12 15:48:37.958 17336:17336 I/View     ]
+Key down dispatch to com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6967129, downTime=6967129, deviceId=-1, source=0x101 }
+
+[ 12-12 15:48:37.958 17336:17336 I/ViewRootImpl ]
+WindowInputEventReceiver onInputEvent!! KeyCode is 4, action is 1
+
+[ 12-12 15:48:37.958 17336:17336 I/View     ]
+Key up dispatch to com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}, event = KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=6967129, downTime=6967129, deviceId=-1, source=0x101 }
+
+[ 12-12 15:48:37.960 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{1ba9331b token=android.os.BinderProxy@367f2cb8 {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:37.970 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:37.971 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:48:37.971 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:37.972 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:37.974 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:48:37.974 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:37.974 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:37.974 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{19857b3b com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity,ident = 2}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{2d4d9897 V.ED.... R....... 0,0-1080,1920}
+
+[ 12-12 15:48:37.974 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}} with isForward=false
+
+[ 12-12 15:48:37.974 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:48:37.974 17336:17336 D/ActivityThread ]
+ACT-RESUME_ACTIVITY handled : 0 / android.os.BinderProxy@7bd431
+
+[ 12-12 15:48:37.975 17336:17336 V/InputMethodManager ]
+onWindowFocus: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshWebView$InternalWebViewSDK9{2372514 VFEDH.CL .F...... 0,0-1080,1713 #7f0e0059 app:id/webview} softInputMode=16 first=false flags=#81810100
+
+[ 12-12 15:48:37.975 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshWebView$InternalWebViewSDK9{2372514 VFEDH.CL .F...... 0,0-1080,1713 #7f0e0059 app:id/webview} ic=com.android.org.chromium.content.browser.input.AdapterInputConnection@3163e40a tba=android.view.inputmethod.EditorInfo@20bf547b controlFlags=#101
+
+[ 12-12 15:48:37.977 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=false, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{f43d790 VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:37.977 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:37.978 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:37.977 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@2e77c93e, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:37.978 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:37.977 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:37.986 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:37.987 17336:17437 D/Surface  ]
+Surface::disconnect(this=0xf49c6b00,api=1)
+
+[ 12-12 15:48:37.987 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb849fc00) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:37.988 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb8476660) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:37.988 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb849fca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:37.988 17336:17437 D/GraphicBuffer ]
+unregister, handle(0xb8477d80) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:37.991 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:38.012 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:38.012 17336:17437 D/OpenGLRenderer ]
+Flushing caches (mode 0)
+
+[ 12-12 15:48:38.014 17336:17336 D/ActivityThread ]
+ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@367f2cb8
+
+[ 12-12 15:48:38.020 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xf49c2500,w=1080,h=1920)
+
+[ 12-12 15:48:40.057 17336:17336 D/ActivityThread ]
+ACT-AM_ON_PAUSE_CALLED ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}
+
+[ 12-12 15:48:40.067 17336:17336 D/ActivityThread ]
+ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@7bd431
+
+[ 12-12 15:48:40.068 17336:17336 V/ActivityThread ]
+Handling launch of ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:40.068 17336:17336 V/ActivityThread ]
+ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}: app=com.taobao.ishopping.IShoppingApplication@1b1c49e9, appName=com.taobao.ishopping, pkg=com.taobao.ishopping, comp={com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}, dir=/data/app/com.taobao.ishopping-1/base.apk
+
+[ 12-12 15:48:40.110 17336:17336 V/ActivityThread ]
+Performing resume of ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:40.111 17336:17336 V/SettingsInterface ]
+get setting for user -3 by user 0 so skipping cache
+
+[ 12-12 15:48:40.112 17336:17336 I/SettingsInterface ]
+call-query of user -3 by 0 so not updating cache
+
+[ 12-12 15:48:40.112 17336:17336 D/ActivityThread ]
+ACT-AM_ON_RESUME_CALLED ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:40.112 17336:17336 V/ActivityThread ]
+Resume ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} started activity: false, hideForNow: false, finished: false
+
+[ 12-12 15:48:40.113 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{194dbce5 I.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:40.119 17336:17336 D/ViewRootImpl ]
+hardware acceleration is enabled, this = ViewRoot{5c9d827 com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 14}
+
+[ 12-12 15:48:40.123 17336:17336 V/ActivityThread ]
+Resuming ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}} with isForward=true
+
+[ 12-12 15:48:40.123 17336:17336 V/SettingsInterface ]
+ from settings cache , name = mz_status_bar_tint , value = null
+
+[ 12-12 15:48:40.123 17336:17336 V/PhoneWindow ]
+DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{5c9d827 com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity,ident = 14}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{194dbce5 V.ED.... R.....ID 0,0-0,0}
+
+[ 12-12 15:48:40.123 17336:17336 V/ActivityThread ]
+Scheduling idle handler for ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:40.124 17336:17336 D/ActivityThread ]
+ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{3aa4004f token=android.os.BinderProxy@3c0663dc {com.taobao.ishopping/com.taobao.ishopping.im.activity.GroupChatActivity}}
+
+[ 12-12 15:48:40.153 17336:17437 D/OpenGLRenderer ]
+CanvasContext() 0xd9f80440 initialize 0xb8597908
+
+[ 12-12 15:48:40.154 17336:17336 D/STATUS_BAR_TINT ]
+inject makeVisible: auto status bar icon theme
+
+[ 12-12 15:48:40.153 17336:17437 D/Surface  ]
+Surface::connect(this=0xb8597900,api=1)
+
+[ 12-12 15:48:40.154 17336:17336 D/Activity ]
+translucentStatus = false
+
+[ 12-12 15:48:40.155 17336:17437 D/mali_winsys ]
+new_window_surface returns 0x3000
+
+[ 12-12 15:48:40.155 17336:17437 D/Surface  ]
+Surface::allocateBuffers(this=0xb8597900)
+
+[ 12-12 15:48:40.165 17336:17336 D/AbsListView ]
+checkAbsListViewlLogProperty get invalid command
+
+[ 12-12 15:48:40.171 17336:17336 D/AbsListView ]
+setOnScrollListener: OnScrollListener=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView{1fa140f V.E..... ......ID 0,0-0,0 #7f0e000a app:id/chat_list}, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c V.ED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-12 15:48:40.171 17336:17336 D/AbsListView ]
+setOnScrollListener: OnScrollListener=com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c V.ED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-12 15:48:40.173 17336:17519 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:40.187 17336:17412 I/awcn     ]
+|[seq:AWCN1_1] https://acs.m.taobao.com ping receive 0
+
+[ 12-12 15:48:40.207 17336:17336 D/AbsListView ]
+onWindowFocusChanged: hasWindowFocus=true, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c V.ED..C. ......I. 0,0-0,0 #102000a android:id/list}
+
+[ 12-12 15:48:40.208 17336:17336 V/InputMethodManager ]
+onWindowFocus: null softInputMode=274 first=true flags=#81810100
+
+[ 12-12 15:48:40.208 17336:17336 V/InputMethodManager ]
+START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView{194dbce5 V.ED.... R.....ID 0,0-1080,1920} ic=null tba=android.view.inputmethod.EditorInfo@39480b48 controlFlags=#104
+
+[ 12-12 15:48:40.221 17336:17336 D/AbsListView ]
+onSizeChanged w=1080, h=1032, oldw=0, oldh=0, getChildCount=0, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdaptercom.taobao.ishopping.im.chat.controller.ChatAdapter@157693f4, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c V.ED..C. ......I. 0,0-1080,1032 #102000a android:id/list}, callstack=android.widget.ListView.onSizeChanged:1203 android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 
+
+[ 12-12 15:48:40.228 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:40.229 17336:17437 D/GraphicBuffer ]
+register, handle(0xb849fa20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:40.236 17336:17336 V/InputMethodManager ]
+START INPUT: com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1032 #102000a android:id/list} ic=null tba=android.view.inputmethod.EditorInfo@22a03db6 controlFlags=#100
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+createInstance(): Begin = 6969430
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:48:40.257 17336:17336 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:48:40.257 17336:17336 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:48:40.257 17336:17336 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:48:40.257 17336:17336 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:48:40.257 17336:17336 D/MPlugin  ]
+createInstance(): End = 6969430
+
+[ 12-12 15:48:40.257 17336:17336 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+createInstance(): Begin = 6969432
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:48:40.259 17336:17336 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:48:40.259 17336:17336 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:48:40.259 17336:17336 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:48:40.259 17336:17336 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:48:40.259 17336:17336 D/MPlugin  ]
+createInstance(): End = 6969433
+
+[ 12-12 15:48:40.259 17336:17336 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+createInstance(): Begin = 6969434
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:48:40.261 17336:17520 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:48:40.261 17336:17336 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:48:40.261 17336:17336 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:48:40.261 17336:17336 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:48:40.261 17336:17336 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:48:40.261 17336:17336 D/MPlugin  ]
+createInstance(): End = 6969435
+
+[ 12-12 15:48:40.261 17336:17336 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:48:40.277 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{ab37b8f G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.278 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{ab37b8f G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.279 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{ab37b8f G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.281 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1b7a87fa G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.281 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{1b7a87fa G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.282 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1b7a87fa G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.293 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{3d2bf711 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.294 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{3d2bf711 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.294 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{3d2bf711 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.296 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1846a677 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.296 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{1846a677 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.297 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1846a677 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.315 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{18a51aac G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.316 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{18a51aac G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.317 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{18a51aac G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.320 17336:17336 D/ProgressBar ]
+setMax, old = 100, new = 100, backtrace = android.widget.ProgressBar.<init>:300 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1974f375 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.321 17336:17336 D/ProgressBar ]
+setProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.setProgress:1311 android.widget.ProgressBar.<init>:302 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 , this = android.widget.ProgressBar{1974f375 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.322 17336:17336 D/ProgressBar ]
+setSecondaryProgress, old = 0, new = 0, max = 100, backtrace = android.widget.ProgressBar.<init>:304 android.widget.ProgressBar.<init>:262 android.widget.ProgressBar.<init>:258 java.lang.reflect.Constructor.newInstance:-2 java.lang.reflect.Constructor.newInstance:288 , this = android.widget.ProgressBar{1974f375 G.ED.... ......I. 0,0-0,0 #7f0e0018 app:id/chatting_status_progress}
+
+[ 12-12 15:48:40.325 17336:17508 I/System.out ]
+[CDS][DNS] getAllByNameImpl netId = 0
+
+[ 12-12 15:48:40.325 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:48:40.326 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:48:40.326 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:48:40.326 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+
+
+[ 12-12 15:48:40.327 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1032 #102000a android:id/list}
+
+[ 12-12 15:48:40.340 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:40.341 17336:17437 D/GraphicBuffer ]
+register, handle(0xb8477d80) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:40.357 17336:17508 D/libc-netbsd ]
+getaddrinfo: gw.alicdn.com get result from proxy >>
+
+
+[ 12-12 15:48:40.358 17336:17508 I/System.out ]
+propertyValue:true
+
+[ 12-12 15:48:40.358 17336:17508 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:48:40.359 17336:17508 I/System.out ]
+[socket][24] connection gw.alicdn.com/112.25.59.50:443;LocalPort=45797(5000)
+
+[ 12-12 15:48:40.360 17336:17508 I/System.out ]
+[CDS]connect[gw.alicdn.com/112.25.59.50:443] tm:5
+
+[ 12-12 15:48:40.361 17336:17336 D/AbsListView ]
+onSizeChanged w=1080, h=1422, oldw=1080, oldh=1032, getChildCount=4, mSyncPosition=0, mNeedSync=false, mSyncMode=0, mAdaptercom.taobao.ishopping.im.chat.controller.ChatAdapter@157693f4, this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}, callstack=android.widget.ListView.onSizeChanged:1203 android.view.View.sizeChange:16234 android.view.View.setFrame:16199 android.widget.AbsListView.setFrame:2384 android.view.View.layout:16090 android.view.ViewGroup.layout:5185 android.widget.FrameLayout.layoutChildren:639 android.widget.FrameLayout.onLayout:574 android.view.View.layout:16100 android.view.ViewGroup.layout:5185 
+
+[ 12-12 15:48:40.361 17336:17508 D/Posix    ]
+[Posix_connect Debug]Process com.taobao.ishopping :443 
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+createInstance(): Begin = 6969536
+
+[ 12-12 15:48:40.363 17336:17571 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+create Instance (two parameters) with : com.mediatek.common.util.IWebProtocolNames
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+Clazz exists on mapping table : true
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+create Instance from : com.mediatek.op.util.DefaultWebProtocolNames
+
+[ 12-12 15:48:40.363 17336:17336 D/MPluginGuard ]
+SystemProperties is 1
+
+[ 12-12 15:48:40.363 17336:17336 D/MPluginGuard ]
+/custom/plugin/FwkPlugin/FwkPlugin.apk(com.mediatek.fwk.plugin) exists in the sApkCache with status : Success
+
+[ 12-12 15:48:40.363 17336:17336 D/MPluginGuard ]
+(FwkPlugin.apk) had been checked --> Success
+
+[ 12-12 15:48:40.363 17336:17336 V/MPlugin  ]
+Get cached path class loader (/custom/plugin/FwkPlugin/FwkPlugin.apk)
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+Init PathClassLoader successfully : dalvik.system.PathClassLoader[DexPathList[[zip file "/custom/plugin/FwkPlugin/FwkPlugin.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+Load class : com.mediatek.op.util.DefaultWebProtocolNames successfully
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+Create default constructor successfully
+
+[ 12-12 15:48:40.363 17336:17336 D/MPlugin  ]
+createInstance(): End = 6969536
+
+[ 12-12 15:48:40.363 17336:17336 D/DefaultWebProtocolNames ]
+getWebProtocolNames
+
+[ 12-12 15:48:40.387 17336:17508 I/System.out ]
+[socket][/192.168.88.158:45797] connected
+
+[ 12-12 15:48:40.388 17336:17419 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:40.390 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: hostname=gw.alicdn.com; servname=(null); cache_mode=(null), netid=0; mark=0
+
+
+[ 12-12 15:48:40.390 17336:17508 D/libc-netbsd ]
+[getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 NativeCrypto_SSL_do_handshake fd=0xcd3ba530 shc=0xcd3ba534 timeout_millis=20000 client_mode=1 npn=0x0
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x10 ret=1
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 handshake start in UNKWN  before/connect initialization
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback calling handshakeCompleted
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback completed
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:UNKWN  before/connect initialization
+
+[ 12-12 15:48:40.390 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:23WCHA SSLv2/v3 write client hello A
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:error exit in 23RSHA SSLv2/v3 read server hello A
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+doing handshake -- ret=-1
+
+[ 12-12 15:48:40.391 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 NativeCrypto_SSL_do_handshake ret=-1 errno=11 sslError=2 timeout_millis=20000
+
+[ 12-12 15:48:40.392 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:40.394 17336:17509 E/ImageLoader ]
+UIL doesn't support scheme(protocol) by default [https:http:null_128x128.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+java.lang.UnsupportedOperationException: UIL doesn't support scheme(protocol) by default [https:http:null_128x128.jpg]. You should implement this support yourself (BaseImageDownloader.getStreamFromOtherSource(...))
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStreamFromOtherSource(BaseImageDownloader.java:280)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStream(BaseImageDownloader.java:99)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.downloadImage(LoadAndDisplayImageTask.java:291)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryCacheImageOnDisk(LoadAndDisplayImageTask.java:274)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryLoadBitmap(LoadAndDisplayImageTask.java:230)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.run(LoadAndDisplayImageTask.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+[ 12-12 15:48:40.406 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:40.407 17336:17437 D/GraphicBuffer ]
+register, handle(0xb849ff20) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:40.414 17336:17508 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:48:40.415 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.415 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3RSH_A SSLv3 read server hello A
+
+[ 12-12 15:48:40.415 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.416 17336:17508 E/NativeCrypto ]
+ssl=0xdb35e200 cert_verify_callback x509_store_ctx=0xcd3ba2f0 arg=0x0
+
+[ 12-12 15:48:40.416 17336:17508 E/NativeCrypto ]
+ssl=0xdb35e200 cert_verify_callback calling verifyCertificateChain authMethod=RSA
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 cert_verify_callback => 1
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3RSC_A SSLv3 read server certificate A
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3RSD_A SSLv3 read server done A
+
+[ 12-12 15:48:40.417 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.422 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:40.422 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3WCKEA SSLv3 write client key exchange A
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3WCCSA SSLv3 write change cipher spec A
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3WFINA SSLv3 write finished A
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3FLUSH SSLv3 flush data
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:error exit in UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1002 ret=-1
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:error exit in UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.423 17336:17508 D/NativeCrypto ]
+doing handshake -- ret=-1
+
+[ 12-12 15:48:40.424 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 NativeCrypto_SSL_do_handshake ret=-1 errno=11 sslError=2 timeout_millis=20000
+
+[ 12-12 15:48:40.426 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:40.429 17336:17437 D/GraphicBuffer ]
+register, handle(0xb849fca0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+
+[ 12-12 15:48:40.438 17336:17508 D/NativeCrypto ]
+doing handshake ++
+
+[ 12-12 15:48:40.438 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.439 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:UNKWN  SSLv3 read server session ticket A
+
+[ 12-12 15:48:40.439 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1001 ret=1
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:3RFINA SSLv3 read finished A
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x20 ret=1
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 handshake done in SSLOK  SSL negotiation finished successfully
+
+[ 12-12 15:48:40.440 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback calling handshakeCompleted
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback completed
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback where=0x1002 ret=1
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 SSL_connect:ok exit in SSLOK  SSL negotiation finished successfully
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 info_callback ignored
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+doing handshake -- ret=1
+
+[ 12-12 15:48:40.441 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 NativeCrypto_SSL_get_certificate => NULL
+
+[ 12-12 15:48:40.441 17336:17508 I/System.out ]
+gba_cipher_suite:TLS_RSA_WITH_AES_128_CBC_SHA
+
+[ 12-12 15:48:40.442 17336:17508 I/System.out ]
+[OkHttp] sendRequest>>
+
+[ 12-12 15:48:40.442 17336:17508 I/System.out ]
+[OkHttp] sendRequest<<
+
+[ 12-12 15:48:40.442 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslWrite buf=0xf48fc000 len=230 write_timeout_millis=0
+
+[ 12-12 15:48:40.443 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=20000
+
+[ 12-12 15:48:40.463 17336:17508 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:48:40.464 17336:17508 I/System.out ]
+[CDS]rx timeout:100
+
+[ 12-12 15:48:40.464 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.464 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.465 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.465 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.470 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.471 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.471 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.471 17336:17508 D/NativeCrypto ]
+ssl=0xdb35e200 sslRead buf=0xf48fc000 len=2048,timeo=100
+
+[ 12-12 15:48:40.471 17336:17508 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:48:40.471 17336:17508 I/System.out ]
+[CDS]rx timeout:20000
+
+[ 12-12 15:48:40.471 17336:17427 I/System.out ]
+Close in OkHttp
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ssl=0xd98c7e00 NativeCrypto_SSL_interrupt
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ sslNotify, appData=0xee7c9e40 ret=1
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ sslNotify, appData=0xee7c9e40 ret=1
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ssl=0xd98c7e00 info_callback where=0x4008 ret=256
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ssl=0xd98c7e00 SSL3 alert write:W:CN warning close notify
+
+[ 12-12 15:48:40.472 17336:17427 D/NativeCrypto ]
+ssl=0xd98c7e00 info_callback ignored
+
+[ 12-12 15:48:40.472 17336:17427 I/System.out ]
+[CDS]close[38702]
+
+[ 12-12 15:48:40.569 17336:17336 V/ActivityThread ]
+Finishing stop of ActivityRecord{3e8458d8 token=android.os.BinderProxy@7bd431 {com.taobao.ishopping/com.taobao.ishopping.thirdparty.windvane.HybridWVActivity}}: show=true win=com.android.internal.policy.impl.PhoneWindow@10704b8e
+
+[ 12-12 15:48:40.569 17336:17336 D/ActivityThread ]
+ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@7bd431
+
+[ 12-12 15:48:41.080 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = 3, mFirstPosition = 10
+
+[ 12-12 15:48:41.083 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.100 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.117 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.132 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.149 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.177 17336:17420 E/doraemon:TraceId ]
+an thread has traceid,but cache loss it
+
+[ 12-12 15:48:41.185 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.188 17336:17336 D/ListView ]
+mSelectorRect.setEmpty in layoutChildren this=com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:41.195 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.207 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.221 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.233 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.249 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.264 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 984,mMotionPosition = 11,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:41.264 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = 791,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -449,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F....ID 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:41.264 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 2, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:41.264 17336:17336 D/AbsListView ]
+start: touch mode = 3,mScrollY = 0,initialVelocity = -791,mLastFlingY = 2147483647
+
+[ 12-12 15:48:41.266 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.282 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.301 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.315 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.332 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.348 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.364 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.381 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.397 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.420 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.432 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.447 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.464 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.480 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.495 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = 4,mFirstPosition = 9
+
+[ 12-12 15:48:41.495 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 2, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:41.495 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:41.498 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.694 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 1, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = 3, mFirstPosition = 9
+
+[ 12-12 15:48:41.696 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.716 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.730 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.746 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.763 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.780 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.796 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:41.916 17336:17336 D/AbsListView ]
+Touch up: touch mode = 3,mScrollY = 0,mLastY = 832,mMotionPosition = 11,mFirstPosition = 9,mDataChanged = false,adatper size = 15,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:41.916 17336:17336 D/AbsListView ]
+Fling from scroll with initialVelocity = -27,mActivePointerId = 0,mFirstPosition = 9,firstChildTop = -300,this = com.taobao.ishopping.widget.pulltorefresh.PullToRefreshListView$InternalListViewSDK9{1c314c9c VFED..C. .F...... 0,0-1080,1422 #102000a android:id/list}
+
+[ 12-12 15:48:41.916 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 1, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:41.916 17336:17336 D/AbsListView ]
+endFling+: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:41.916 17336:17336 D/AbsListView ]
+reportScrollStateChange: newState = 0, mLastScrollState = 0, mOnScrollListener = com.nostra13.universalimageloader.core.listener.PauseOnScrollListener@13c6562a, mScrollY = 0, mTouchMode = -1, mFirstPosition = 9
+
+[ 12-12 15:48:41.917 17336:17336 D/AbsListView ]
+endFling-: mScrollY = 0,mTouchMode = -1,mFirstPosition = 9
+
+[ 12-12 15:48:41.927 17336:17437 D/Surface  ]
+Surface::setBuffersDimensions(this=0xb8597900,w=1080,h=1920)
+
+[ 12-12 15:48:43.110 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906522844
+
+[ 12-12 15:48:43.111 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:44.515 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906524514
+
+[ 12-12 15:48:44.554 17336:17469 I/System.out ]
+[CDS]close[10737]
+
+[ 12-12 15:48:45.992 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Log:1449906525991
+
+[ 12-12 15:48:46.236 17336:17469 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449906526036
+

@@ -1,0 +1,350 @@
+--------- beginning of /dev/log/main
+[ 12-10 10:38:31.060 28521:28521 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:38:31.150 28521:28521 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+--------- beginning of /dev/log/system
+[ 12-10 10:38:31.240 28521:28521 V/Activity ]
+onCreate com.example.myfristandroid.SplashActivity@424dfa60: null
+
+[ 12-10 10:38:31.270 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 92K, 6% free 9603K/10179K, paused 16ms, total 16ms
+
+[ 12-10 10:38:31.290 28521:28521 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.468MB for 3876224-byte allocation
+
+[ 12-10 10:38:31.320 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 5% free 13388K/14023K, paused 12ms+2ms, total 24ms
+
+[ 12-10 10:38:31.470 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 5% free 13388K/14023K, paused 11ms, total 11ms
+
+[ 12-10 10:38:31.490 28521:28521 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.785MB for 8721484-byte allocation
+
+[ 12-10 10:38:31.500 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 4% free 21905K/22599K, paused 2ms+2ms, total 16ms
+
+[ 12-10 10:38:31.560 28545:28545 D/dalvikvm ]
+Late-enabling CheckJNI
+
+[ 12-10 10:38:31.560 28521:28521 V/Activity ]
+onStart com.example.myfristandroid.SplashActivity@424dfa60
+
+[ 12-10 10:38:31.560 28521:28521 V/Activity ]
+onResume com.example.myfristandroid.SplashActivity@424dfa60
+
+[ 12-10 10:38:31.580 28545:28545 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-10 10:38:31.610 28521:28521 D/libEGL   ]
+loaded /system/lib/egl/libEGL_adreno200.so
+
+[ 12-10 10:38:31.610 28521:28521 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+
+[ 12-10 10:38:31.610 28521:28521 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_adreno200.so
+
+[ 12-10 10:38:31.620 28545:28545 D/dalvikvm ]
+GC_FOR_ALLOC freed 37K, 6% free 9575K/10179K, paused 18ms, total 18ms
+
+[ 12-10 10:38:31.620 28545:28545 I/dalvikvm-heap ]
+Grow heap (frag case) to 12.721MB for 1024016-byte allocation
+
+[ 12-10 10:38:31.620 28521:28521 I/Log_level_control ]
+YVV7
+
+[ 12-10 10:38:31.620 28521:28521 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130303_CL3285357_release_AU (CL3285357)
+Build Date: 03/04/13 Mon
+Local Branch: 
+Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130303
+Local Patches: NONE
+Reconstruct Branch: NOTHING
+
+[ 12-10 10:38:31.650 28521:28521 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 10:38:31.660 28545:28548 D/dalvikvm ]
+GC_CONCURRENT freed 54K, 6% free 10586K/11207K, paused 12ms+13ms, total 38ms
+
+[ 12-10 10:38:31.660 28545:28545 D/SocketService ]
+onStartCommand : bLogin:false
+
+[ 12-10 10:38:31.670 28545:28545 D/SocketService ]
+pid:28545 myPid:28545
+
+[ 12-10 10:38:31.680 28545:28545 D/SocketService ]
+start to run current thread!id:611
+
+[ 12-10 10:38:31.780 28545:28564 D/SocketService ]
+ip/192.168.1.176 lport:48857 p:143
+
+[ 12-10 10:38:31.790 28545:28564 D/ForegroundActivity ]
+本次发送帧长:34	总帧长:34
+
+[ 12-10 10:38:31.790 28545:28564 D/SocketService ]
+success to connect server!id:611 bLogin:false
+
+[ 12-10 10:38:31.890 28545:28566 D/ForegroundActivity ]
+本次收到帧长:13	总帧长:13
+
+[ 12-10 10:38:32.040 28521:28535 I/Environment ]
+GetExternalStorageDirectory info:ApplicationInfo{424e2908 com.example.myfristandroid},packagename:com.example.myfristandroid,UID:0
+
+[ 12-10 10:38:32.670 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:13 HeadIndex:0 GetSize:13 13 0 头信息:EB 90 EB 90 EB 90 0D 00 0E 01 
+
+[ 12-10 10:38:32.800 28545:28564 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:45
+
+[ 12-10 10:38:32.910 28545:28566 D/ForegroundActivity ]
+本次收到帧长:642	总帧长:655
+
+[ 12-10 10:38:33.620 28521:28521 V/Activity ]
+onPause com.example.myfristandroid.SplashActivity@424dfa60
+
+[ 12-10 10:38:33.640 28521:28521 V/Activity ]
+onCreate com.example.myfristandroid.MainActivity@424c2000: null
+
+[ 12-10 10:38:33.700 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:655 HeadIndex:13 GetSize:642 130 512 头信息:EB 90 EB 90 EB 90 82 02 14 0A 
+
+[ 12-10 10:38:33.800 28545:28564 D/ForegroundActivity ]
+本次发送帧长:11	总帧长:56
+
+[ 12-10 10:38:33.820 28521:28521 D/MainActivity ]
+Start One Client
+
+[ 12-10 10:38:33.820 28521:28521 V/Activity ]
+onStart com.example.myfristandroid.MainActivity@424c2000
+
+[ 12-10 10:38:33.820 28521:28521 V/Activity ]
+onResume com.example.myfristandroid.MainActivity@424c2000
+
+[ 12-10 10:38:33.920 28545:28566 D/ForegroundActivity ]
+本次收到帧长:67	总帧长:722
+
+[ 12-10 10:38:34.010 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 4995K, 23% free 18838K/24263K, paused 15ms, total 15ms
+
+[ 12-10 10:38:34.110 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 1083K, 19% free 19755K/24263K, paused 2ms+3ms, total 19ms
+
+[ 12-10 10:38:34.110 28521:28521 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 8ms
+
+[ 12-10 10:38:34.590 28521:28521 V/Activity ]
+onStop com.example.myfristandroid.SplashActivity@424dfa60
+
+[ 12-10 10:38:34.590 28521:28521 V/Activity ]
+onDestroy com.example.myfristandroid.SplashActivity@424dfa60
+
+[ 12-10 10:38:34.720 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:722 HeadIndex:655 GetSize:67 67 0 头信息:EB 90 EB 90 EB 90 43 00 15 02 
+
+[ 12-10 10:38:34.730 28521:28521 D/MainActivity ]
+ServerVersion:22 LocalVersion:12
+
+[ 12-10 10:38:41.060 28521:28521 V/AudioManager ]
+AudioManager ctor mUseMasterVolume:false
+
+[ 12-10 10:38:44.530 28521:28521 D/MainActivity ]
+V.getTag:null v.id:2131230738
+
+[ 12-10 10:38:50.930 28521:28521 D/MainActivity ]
+V.getTag:null v.id:2131230790
+
+[ 12-10 10:38:52.750 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715132759
+
+[ 12-10 10:38:52.860 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 1175K, 18% free 20051K/24263K, paused 46ms, total 46ms
+
+[ 12-10 10:38:52.920 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 108K, 10% free 21969K/24263K, paused 13ms+2ms, total 40ms
+
+[ 12-10 10:38:52.940 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 21968K/24263K, paused 15ms, total 15ms
+
+[ 12-10 10:38:52.940 28521:28521 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.825MB for 2073616-byte allocation
+
+[ 12-10 10:38:52.980 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 21975K/26311K, paused 4ms+4ms, total 37ms
+
+[ 12-10 10:38:58.060 28521:28521 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:38:58.300 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:38:58.300 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:39:03.300 28545:28548 D/dalvikvm ]
+GC_CONCURRENT freed 388K, 8% free 10609K/11463K, paused 16ms+2ms, total 62ms
+
+[ 12-10 10:39:03.870 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715143885
+
+[ 12-10 10:39:03.950 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2287K, 24% free 20125K/26311K, paused 29ms, total 31ms
+
+[ 12-10 10:39:04.010 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 16% free 22141K/26311K, paused 13ms+14ms, total 50ms
+
+[ 12-10 10:39:04.080 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22146K/26311K, paused 6ms+19ms, total 64ms
+
+[ 12-10 10:39:04.980 28521:28521 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView@4314fd78
+
+[ 12-10 10:39:04.980 28521:28521 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:39:05.020 28545:28545 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:78
+
+[ 12-10 10:39:05.160 28545:28566 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:739
+
+[ 12-10 10:39:05.760 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:739 HeadIndex:722 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:39:07.820 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715147831
+
+[ 12-10 10:39:07.910 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2195K, 24% free 20118K/26311K, paused 22ms, total 25ms
+
+[ 12-10 10:39:07.960 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 142K, 17% free 22000K/26311K, paused 13ms+3ms, total 40ms
+
+[ 12-10 10:39:08.000 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22005K/26311K, paused 3ms+4ms, total 25ms
+
+[ 12-10 10:39:08.740 28521:28521 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:39:08.930 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:39:08.940 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:39:17.070 28521:28521 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView@4314fd78
+
+[ 12-10 10:39:17.070 28521:28521 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:39:17.110 28545:28545 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:100
+
+[ 12-10 10:39:17.250 28545:28566 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:756
+
+[ 12-10 10:39:17.800 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:756 HeadIndex:739 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:39:20.300 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715160316
+
+[ 12-10 10:39:20.400 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2424K, 24% free 20130K/26311K, paused 23ms, total 28ms
+
+[ 12-10 10:39:20.450 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 25K, 16% free 22130K/26311K, paused 4ms+13ms, total 44ms
+
+[ 12-10 10:39:20.490 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2155K, 17% free 22006K/26311K, paused 4ms+3ms, total 30ms
+
+[ 12-10 10:39:22.100 28521:28521 D/MainActivity ]
+V.getTag:null v.id:2131230791
+
+[ 12-10 10:39:22.300 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:39:22.300 28521:28521 W/IInputConnectionWrapper ]
+performPrivateCommand on inactive InputConnection
+
+[ 12-10 10:39:25.010 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715165020
+
+[ 12-10 10:39:25.110 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2297K, 24% free 20126K/26311K, paused 38ms, total 39ms
+
+[ 12-10 10:39:25.150 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 9K, 16% free 22142K/26311K, paused 12ms+5ms, total 42ms
+
+[ 12-10 10:39:25.150 28521:28521 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 8ms
+
+[ 12-10 10:39:25.190 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 16% free 22147K/26311K, paused 12ms+4ms, total 38ms
+
+[ 12-10 10:39:30.320 28521:28521 D/MainActivity ]
+logList.size2():0 com.example.myfristandroid.myListView@4314fd78
+
+[ 12-10 10:39:30.320 28521:28521 D/MainActivity ]
+MainActivity Send BroadCast Length:22
+
+[ 12-10 10:39:30.340 28545:28545 D/ForegroundActivity ]
+本次发送帧长:22	总帧长:122
+
+[ 12-10 10:39:30.490 28545:28566 D/ForegroundActivity ]
+本次收到帧长:17	总帧长:773
+
+[ 12-10 10:39:30.840 28545:28562 D/SocketService1 ]
+本次提取1:LoadPtr:773 HeadIndex:756 GetSize:17 17 0 头信息:EB 90 EB 90 EB 90 11 00 0D 01 
+
+[ 12-10 10:39:32.640 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715172648
+
+[ 12-10 10:39:32.730 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2303K, 24% free 20124K/26311K, paused 29ms, total 29ms
+
+[ 12-10 10:39:32.790 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 147K, 17% free 22002K/26311K, paused 14ms+3ms, total 47ms
+
+[ 12-10 10:39:32.830 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22006K/26311K, paused 6ms+4ms, total 35ms
+
+[ 12-10 10:39:34.850 28545:28548 D/dalvikvm ]
+GC_CONCURRENT freed 391K, 8% free 10609K/11463K, paused 18ms+1ms, total 63ms
+
+[ 12-10 10:39:44.790 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Log:1449715184802
+
+[ 12-10 10:39:49.100 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Log:1449715189105
+
+[ 12-10 10:39:49.120 28521:28571 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449715189135
+
+[ 12-10 10:39:49.180 28521:28521 D/dalvikvm ]
+GC_FOR_ALLOC freed 2225K, 25% free 19981K/26311K, paused 17ms, total 18ms
+
+[ 12-10 10:39:49.240 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 17% free 22004K/26311K, paused 12ms+2ms, total 52ms
+
+[ 12-10 10:39:49.300 28521:28525 D/dalvikvm ]
+GC_CONCURRENT freed 2026K, 17% free 22009K/26311K, paused 3ms+2ms, total 44ms
+
+[ 12-10 10:39:49.350 28521:28571 W/dalvikvm ]
+threadid=15: thread exiting with uncaught exception (group=0x41b16588)
+
+[ 12-10 10:39:49.360 28521:28571 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-607
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+

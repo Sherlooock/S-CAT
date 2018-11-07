@@ -1,0 +1,4631 @@
+--------- beginning of /dev/log/main
+[ 12-10 14:05:44.871 28057:28057 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:05:45.066 28057:28057 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 14:05:45.186 28057:28057 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-10 14:05:45.191 28057:28057 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-10 14:05:45.201 28057:28057 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 14:05:45.236 28057:28057 I/greenDAO ]
+Creating tables for schema version 1
+
+[ 12-10 14:05:45.261 28057:28057 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:05:45.321 28057:28057 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2700
+
+[ 12-10 14:05:45.326 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 14:05:45.336 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 14:05:45.341 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 14:05:45.341 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 14:05:45.341 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 14:05:45.351 28057:28057 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 14:05:45.351 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 14:05:45.351 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 14:05:45.351 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 14:05:45.371 28057:28057 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 14:05:45.391 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 728K, 22% free 10162K/12936K, paused 2ms+2ms, total 29ms
+
+[ 12-10 14:05:45.416 28085:28085 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:05:45.416 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 44K, 22% free 10182K/12936K, paused 13ms, total 13ms
+
+[ 12-10 14:05:45.421 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.453MB for 3686416-byte allocation
+
+[ 12-10 14:05:45.421 28085:28085 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 14:05:45.436 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 17% free 13782K/16540K, paused 1ms+2ms, total 15ms
+
+[ 12-10 14:05:45.436 28057:28065 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+
+[ 12-10 14:05:45.436 28057:28065 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '+data+data+com_xdf_ucan+databases+rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-10 14:05:45.436 28085:28085 D/RongService ]
+onCreate, pid=28085
+
+[ 12-10 14:05:45.441 28085:28085 D/RongService ]
+onBind, pid=28085
+
+[ 12-10 14:05:45.456 28085:28085 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+356205054197749
+
+[ 12-10 14:05:45.456 28085:28085 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425f0f70
+
+[ 12-10 14:05:45.456 28085:28085 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425f0f70
+
+[ 12-10 14:05:45.461 28085:28085 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 14:05:45.546 28057:28057 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42638fe8
+
+[ 12-10 14:05:45.596 28057:28057 D/libEGL   ]
+loaded /system/lib/egl/libEGL_mali.so
+
+[ 12-10 14:05:45.596 28057:28057 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+
+[ 12-10 14:05:45.601 28057:28057 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_mali.so
+
+[ 12-10 14:05:45.606 28057:28057 E/         ]
+Device driver API match
+Device driver API version: 23
+User space API version: 23 
+
+
+[ 12-10 14:05:45.606 28057:28057 E/         ]
+mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Wed Oct 30 09:36:10 KST 2013 
+
+[ 12-10 14:05:45.671 28057:28057 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 14:05:45.686 28057:28057 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-10 14:05:46.726 28057:28057 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 14:05:46.781 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 707K, 16% free 15471K/18224K, paused 12ms, total 13ms
+
+[ 12-10 14:05:46.781 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 20.618MB for 3686416-byte allocation
+
+[ 12-10 14:05:46.796 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 13% free 19070K/21828K, paused 12ms, total 12ms
+
+[ 12-10 14:05:46.806 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 30K, 13% free 19039K/21828K, paused 2ms+1ms, total 13ms
+
+[ 12-10 14:05:46.876 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 13% free 19039K/21828K, paused 10ms, total 10ms
+
+[ 12-10 14:05:46.971 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 11% free 22640K/25432K, paused 12ms, total 12ms
+
+[ 12-10 14:05:47.186 28057:28126 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 14:05:47.186 28057:28126 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 14:05:47.286 28057:28057 I/System.out ]
+间距: 46
+
+[ 12-10 14:05:47.386 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:05:48.126 28131:28131 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:05:48.136 28131:28131 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 14:05:48.166 28131:28131 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 14:05:48.181 28131:28131 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:05:48.231 28131:28131 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3800
+
+[ 12-10 14:05:48.281 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:05:48.306 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:05:48.306 28131:28131 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 14:05:48.306 28131:28131 I/PushService ]
+PushService OnCreate
+
+[ 12-10 14:05:48.336 28131:28146 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:05:48.336 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:05:48.336 28131:28146 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:05:48.341 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 
+
+[ 12-10 14:05:48.341 28131:28146 I/PushHandler ]
+the saved time = -1current time = 1449727548347
+
+[ 12-10 14:05:48.341 28131:28146 I/PushHandler ]
+return true
+
+[ 12-10 14:05:50.791 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 181K, 9% free 29903K/32640K, paused 12ms, total 12ms
+
+[ 12-10 14:05:51.051 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.splash.SplashActivity
+
+[ 12-10 14:05:52.041 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:05:52.061 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:05:57.636 28131:28135 D/dalvikvm ]
+GC_CONCURRENT freed 784K, 22% free 10060K/12888K, paused 12ms+3ms, total 59ms
+
+[ 12-10 14:05:57.651 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,the httpString is = {"code":200,"server":"119.254.111.243:8608"}
+
+[ 12-10 14:05:57.651 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the new IP, IP = 119.254.111.243:8608time is:1449727557656
+
+[ 12-10 14:05:57.706 28131:28146 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:05:57.711 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:05:57.821 28131:28135 D/dalvikvm ]
+GC_CONCURRENT freed 192K, 20% free 10379K/12888K, paused 3ms+2ms, total 22ms
+
+[ 12-10 14:05:57.821 28131:28146 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+
+[ 12-10 14:05:57.831 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at java.net.Socket.connect(Socket.java:842)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:139)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:06:01.836 28131:28146 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:06:01.836 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:06:01.846 28131:28146 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:06:01.846 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:06:01.851 28131:28146 I/PushHandler ]
+the saved time = 1449727557656current time = 1449727561855
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:06:01.851 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at java.net.Socket.connect(Socket.java:842)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:139)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-10 14:06:05.856 28131:28146 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:06:05.861 28131:28146 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:06:05.861 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:08:51.646 28057:28057 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-10 14:08:51.716 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 14:09:05.871 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:09:05.871 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:09:05.886 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:09:05.886 28131:28146 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:09:05.886 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:09:05.886 28131:28146 I/PushHandler ]
+the saved time = 1449727557656current time = 1449727745892
+
+[ 12-10 14:09:05.886 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:09:05.891 28131:28146 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:09:05.891 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:09:05.891 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at java.net.Socket.connect(Socket.java:842)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at io.rong.push.PushService$PushHandler.heartbeat(PushService.java:333)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:148)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:09:09.896 28131:28146 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:09:09.896 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:10:33.091 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:10:47.971 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 1240K, 10% free 30665K/33952K, paused 2ms+3ms, total 22ms
+
+[ 12-10 14:10:47.971 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 1ms
+
+[ 12-10 14:10:57.431 28057:28057 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:10:57.431 28057:28057 D/http     ]
+请求的参数：method=SmsLoginSendSmsCodeV5&appid=90116&mobile=18912434710&guid=3ef5abc0-db8b-4ef0-be0a-5fa565b29d05&sign=7A394ACA1EF745501F3918A8A5AB68EB
+
+[ 12-10 14:10:57.431 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+org.apache.http.conn.ConnectTimeoutException: Connect to .. timed out
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+
+[ 12-10 14:11:17.481 28057:29616 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+
+[ 12-10 14:11:17.486 28057:29616 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+
+[ 12-10 14:11:17.486 28057:29616 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+
+[ 12-10 14:11:17.486 28057:29616 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-10 14:11:17.486 28057:28057 D/http     ]
+返回的结果：org.apache.http.conn.ConnectTimeoutException: Connect to .. timed out
+
+[ 12-10 14:11:31.051 28057:28057 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:11:31.051 28057:28057 D/http     ]
+请求的参数：method=SmsLoginSendSmsCodeV5&appid=90116&mobile=18912434710&guid=d5af5601-fadb-4a04-abb7-b215a46c20cd&sign=3AD53DC46F21338C0B57E3F67E7448C5
+
+[ 12-10 14:11:31.051 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:11:31.196 28057:28057 V/AsyncHttpRH ]
+Progress 41 from 41 (100%)
+
+
+[ 12-10 14:11:31.196 28057:28057 D/http     ]
+返回的结果：{"Status":1,"Data":"","Message":"成功"}
+
+[ 12-10 14:11:56.361 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 17536K, 57% free 15054K/34636K, paused 5ms+7ms, total 59ms
+
+[ 12-10 14:12:06.911 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:12:06.911 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:12:06.911 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:12:06.926 28057:28057 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:12:06.926 28057:28057 D/http     ]
+请求的参数：method=RegisterV2&appid=90116&user=18912434710&nickName=&pwd=zyn940609&smsCode=14049&guid=6c59ed5f-41ca-40c0-a0f1-973c0c377ef0&sign=59D44C2E3E85CC47BDDA4FB4C6E8D57E
+
+[ 12-10 14:12:06.926 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:07.021 28057:28057 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:12:07.021 28057:28057 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:12:07.021 28057:28057 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:12:07.021 28057:28057 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:12:07.521 28057:28057 V/AsyncHttpRH ]
+Progress 253 from 253 (100%)
+
+
+[ 12-10 14:12:07.526 28057:28057 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483228\",\"NickName\":\"151210141202886_v\",\"HideMobile\":\"189****4710\",\"HideEmail\":\"151****412028868249d_v@v.com\",\"Mobile\":\"18912434710\",\"Email\":\"1512101412028868249d_v@v.com\"}","Message":"成功"}
+
+[ 12-10 14:12:07.621 28057:28057 D/long     ]
+DATABASE_NAME:xdf004483228.db
+
+[ 12-10 14:12:07.686 28057:28057 I/TableUtils ]
+creating table 'loginuser'
+
+[ 12-10 14:12:07.686 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `loginuser` (`AccessToken` VARCHAR , `AccessTokenExpireTime` VARCHAR , `BindDate` VARCHAR , `Code` VARCHAR , `Email` VARCHAR , `HideEmail` VARCHAR , `HideMobile` VARCHAR , `LoginToken` VARCHAR , `Mobile` VARCHAR , `NickName` VARCHAR , `Sign` VARCHAR , `StudentFace` VARCHAR , `StudentName` VARCHAR , `Type` VARCHAR , `UserId` VARCHAR , `schoolId` VARCHAR , `id` INTEGER , PRIMARY KEY (`id`) ) 
+
+[ 12-10 14:12:07.686 28057:28057 I/TableUtils ]
+creating table 'rongyunuser'
+
+[ 12-10 14:12:07.686 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `rongyunuser` (`id` VARCHAR , `name` VARCHAR , `portraitUri` VARCHAR , `zid` VARCHAR , PRIMARY KEY (`zid`) ) 
+
+[ 12-10 14:12:07.691 28057:28057 I/TableUtils ]
+creating table 'mytest'
+
+[ 12-10 14:12:07.696 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `mytest` (`Attribute` VARCHAR , `BeginDate` VARCHAR , `ClassCode` VARCHAR , `ClassName` VARCHAR , `SystemName` VARCHAR , `CreateTime` VARCHAR , `EndDate` VARCHAR , `ExamId` VARCHAR , `ExamName` VARCHAR , `ExtenName` VARCHAR , `FileId` VARCHAR , `FileName` VARCHAR , `FileType` VARCHAR , `SubscribCode` VARCHAR , `Subject` VARCHAR , `Id` VARCHAR , `SubScriberFileId` VARCHAR , `SourceId` VARCHAR , `KeyColor` VARCHAR , `KeyWord` VARCHAR , `Name` VARCHAR , `ShareTime` VARCHAR , `SchoolId` VARCHAR , `PraisedCount` INTEGER , `TimeStamp` BIGINT , `StoredCount` INTEGER , `IsRead` INTEGER , `HasStored` INTEGER , `HasPraised` INTEGER , `CommentedCount` INTEGER , `IsView` INTEGER , PRIMARY KEY (`ExamId`) ) 
+
+[ 12-10 14:12:07.696 28057:28057 I/TableUtils ]
+creating table 'mytestanswer'
+
+[ 12-10 14:12:07.696 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `mytestanswer` (`answer` VARCHAR , `enter_time` VARCHAR , `exam_id` VARCHAR , `id` VARCHAR , `paper_id` VARCHAR , `question_id` VARCHAR , `question_type` VARCHAR , `right_answer` VARCHAR , `test_id` VARCHAR , `state_time` VARCHAR , `score` INTEGER , PRIMARY KEY (`id`) ) 
+
+[ 12-10 14:12:07.701 28057:28057 I/TableUtils ]
+creating table 'videoinfo'
+
+[ 12-10 14:12:07.706 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `videoinfo` (`Attribute` VARCHAR , `ClassCode` VARCHAR , `ClassName` VARCHAR , `ClassVideoId` VARCHAR , `cc_image_0` VARCHAR , `CourseCode` VARCHAR , `CourseName` VARCHAR , `CreateTime` VARCHAR , `FileId` VARCHAR , `cc_id` VARCHAR , `VideoUrl` VARCHAR , `VideoName` VARCHAR , `VideoId` VARCHAR , `KeyColor` VARCHAR , `KeyWord` VARCHAR , `Subject` VARCHAR , `ShareTime` VARCHAR , `SchoolId` INTEGER , `TimeStamp` BIGINT , `StoredCount` INTEGER , `SubScriberFileId` INTEGER , `OutOfCount` INTEGER , `MyViewCount` INTEGER , `LimitViewCount` INTEGER , `PraisedCount` INTEGER , `IsView` INTEGER , `Id` INTEGER , `HasStored` INTEGER , `ViewCount` INTEGER , `HasPraised` INTEGER , `CommentedCount` INTEGER , PRIMARY KEY (`VideoId`) ) 
+
+[ 12-10 14:12:07.716 28057:28057 I/TableUtils ]
+creating table 'material'
+
+[ 12-10 14:12:07.716 28057:28057 I/TableUtils ]
+executed create table statement changed 1 rows: CREATE TABLE `material` (`Attribute` VARCHAR , `ClassCode` VARCHAR , `ClassName` VARCHAR , `SystemName` VARCHAR , `CreateTime` VARCHAR , `SubscribCode` VARCHAR , `ExtenName` VARCHAR , `FileId` VARCHAR , `FileName` VARCHAR , `FileType` VARCHAR , `FileUrl` VARCHAR , `SubScriberFileId` VARCHAR , `ShareTime` VARCHAR , `ResourceUrl` VARCHAR , `ResourceTypeName` VARCHAR , `ResourcePreviewUrl` VARCHAR , `KeyColor` VARCHAR , `KeyWord` VARCHAR , `Name` VARCHAR , `ResourceName` VARCHAR , `ResourceExtension` VARCHAR , `ResourceId` INTEGER , `TimeStamp` BIGINT , `IsView` INTEGER , `ResourceType` INTEGER , `IsRead` INTEGER , `Id` INTEGER , `SchoolId` INTEGER , `HasStored` INTEGER , `SourceId` INTEGER , `StoredCount` INTEGER , `HasPraised` INTEGER , `DownLoadCount` INTEGER , `CommentedCount` INTEGER , `PraisedCount` INTEGER , `ViewCount` INTEGER , PRIMARY KEY (`ResourceId`) ) 
+
+[ 12-10 14:12:07.716 28057:28057 D/long     ]
+建立表LoginUser
+
+[ 12-10 14:12:07.736 28057:28057 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:12:07.736 28057:28057 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 14:12:07.736 28057:28057 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483228&sign=1E1F99E6FDFCE0A510555655B35E5D5A
+
+[ 12-10 14:12:07.736 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:07.751 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:12:09.791 28057:28057 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:12:09.791 28057:28057 D/http     ]
+请求的参数：method=RegisterV2&appid=90116&user=18912434710&nickName=&pwd=zyn940609&smsCode=14049&guid=ac83a4d8-3929-424d-a11a-6c3c22a5385c&sign=2CCB85EBA284D1B125E7A3FAA5B08D67
+
+[ 12-10 14:12:09.791 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:09.891 28057:28057 V/AsyncHttpRH ]
+Progress 72 from 72 (100%)
+
+
+[ 12-10 14:12:09.891 28057:28057 D/http     ]
+返回的结果：{"Status":-2,"Data":"","Message":"该手机已注册，请直接登录"}
+
+[ 12-10 14:12:09.906 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:12:09.906 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:12:09.911 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:12:09.916 28131:28146 I/PushHandler ]
+the saved time = 1449727557656current time = 1449727929920
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:12:09.916 28131:28146 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:12:09.996 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:12:10.071 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 14:12:10.071 28131:29944 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 14:12:10.071 28131:29944 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 14:12:10.071 28131:29944 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:12:10.951 28057:28057 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 14:12:10.956 28057:28057 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:12:11.236 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/sync.do
+
+[ 12-10 14:12:11.236 28057:28057 D/http     ]
+请求的参数：userId=xdf004483228
+
+[ 12-10 14:12:11.236 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:11.236 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/gettoken.do
+
+[ 12-10 14:12:11.236 28057:28057 D/http     ]
+请求的参数：userId=xdf004483228&mobile=18912434710
+
+[ 12-10 14:12:11.236 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:11.296 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 1288K, 56% free 15298K/34636K, paused 20ms, total 20ms
+
+[ 12-10 14:12:11.431 28057:28057 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 14:12:11.431 28057:28057 D/http     ]
+返回的结果：{"message":"同步学员数据成功！","status":"1","data":null,"date":1449727926808}
+
+[ 12-10 14:12:11.461 28057:28057 V/AsyncHttpRH ]
+Progress 222 from 1 (22200%)
+
+
+[ 12-10 14:12:11.466 28057:28057 D/http     ]
+返回的结果：{"message":"获取token成功！","status":"1","data":{"realId":null,"token":"ubb1u0UW8VUWbrUrmPGdvBpYZKOuZSoAExfacyJ/THqOOVHf1qpLLObzXFheg8UlEFuNLwZ/7E8GfWrMX55UoZ1V9yW1mhTa","userId":"xdf004483228"},"date":1449727926835}
+
+[ 12-10 14:12:11.521 28057:28057 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = CONNECTING, listener = null
+
+[ 12-10 14:12:11.521 28057:28057 D/##IPC_java.lang.String:RongIMClient : connect ]
+service binded, connect
+
+[ 12-10 14:12:11.521 28085:28096 D/##IPC_java.lang.String:connect ]
+remote connect
+
+[ 12-10 14:12:11.521 28085:28096 D/NativeClient ]
+connect
+
+[ 12-10 14:12:11.526 28057:28057 I/##IPC_java.lang.String:RongIMClient ]
+clent:io.rong.imlib.RongIMClient@42696a08
+
+[ 12-10 14:12:11.526 28057:28057 I/##KIT_io.rong.imlib.RongIMClient:RongIMClientWrapper ]
+initConnectedData
+
+[ 12-10 14:12:11.526 28057:28057 I/##IPC_null:RongIMClient ： setOnReceiveMessageListener ]
+listener=io.rong.imkit.RongIMClientWrapper$3@426975c8
+
+[ 12-10 14:12:11.526 28057:28057 I/##KIT_io.rong.imlib.RongIMClient:RongIMClientWrapper ]
+client:io.rong.imlib.RongIMClient@42696a08
+
+[ 12-10 14:12:11.601 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 14:12:11.621 28085:29967 D/##COMMON_io.rong.imlib.LibContext:cancelHeartbeat ]
+com.xdf.ucan
+
+[ 12-10 14:12:11.621 28057:29480 D/##IPC_java.lang.String:RongIMClient : connect ]
+callback : onFailure = 31004
+
+[ 12-10 14:12:11.621 28057:29480 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = CONNECTING, status = DISCONNECTED, listener = io.rong.imkit.RongIMClientWrapper$1@42669fc8
+
+[ 12-10 14:12:11.621 28057:29480 D/##KIT_null:RongIMClientWrapper : ConnectStatus ]
+DISCONNECTED
+
+[ 12-10 14:12:11.621 28057:29480 D/Event    ]
+No subscribers registered for event class io.rong.imlib.RongIMClient$ConnectionStatusListener$ConnectionStatus
+
+[ 12-10 14:12:11.621 28057:29480 D/Event    ]
+No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
+
+[ 12-10 14:15:10.076 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:15:10.076 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:15:10.081 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:15:10.086 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:15:10.086 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:15:10.201 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:15:10.201 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:18:20.586 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:18:20.586 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:18:20.821 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:18:20.826 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:18:20.826 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:18:20.941 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:18:20.941 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的参数：
+
+[ 12-10 14:18:27.181 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的参数：userId=xdf004483228&size=big
+
+[ 12-10 14:18:27.181 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:18:27.181 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:18:27.181 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:18:27.231 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 868K, 54% free 16089K/34636K, paused 18ms, total 18ms
+
+[ 12-10 14:18:27.251 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:18:27.251 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:18:27.251 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:18:27.261 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:18:27.261 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:18:27.261 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:18:27.266 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:18:27.286 28057:28057 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 14:18:27.301 28057:28057 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 14:18:27.306&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 14:18:27.300&resourcestartdate=1970-01-01 08:00:00.0&schoolid=0&userid=xdf004483228&videoenddate=2015-12-10 14:18:27.303&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:18:27.301 28057:28057 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:18:27.301 28057:28057 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483228&schoolid=0&resourcestartdate=1970-01-01 08:00:00.0&resourceenddate=2015-12-10 14:18:27.300&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 14:18:27.303&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 14:18:27.306&appid=5004&sign=DA311242B4F400660CD6D17B3FDD02AD
+
+[ 12-10 14:18:27.301 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:18:27.341 28057:28063 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 14:18:27.426 28057:28057 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 14:18:27.426 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 14:18:27.431 28057:28057 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 14:18:27.431 28057:28057 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449728302747}
+
+[ 12-10 14:18:27.431 28057:28057 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449728302747}
+
+[ 12-10 14:18:27.446 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:18:27.446 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449728302807}
+
+[ 12-10 14:18:27.446 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449728302807}
+
+[ 12-10 14:18:27.446 28057:28057 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 14:18:27.446 28057:28057 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-10 14:18:27.531 28057:28057 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:18:27.531 28057:28057 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:18:27.531 28057:28057 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:18:27.621 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.login.ToBindingActivity
+
+[ 12-10 14:18:27.666 28057:28097 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 14:18:28.206 28057:28057 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:18:28.206 28057:28057 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:21:20.911 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:21:20.911 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:21:20.936 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:21:20.936 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:21:20.936 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:21:21.051 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:21:21.051 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:24:20.966 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:24:20.966 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:24:20.991 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:24:20.991 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:24:20.991 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:24:21.141 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:24:21.141 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:27:24.631 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:27:24.636 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:27:24.796 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:27:24.796 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:27:24.796 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:27:24.946 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:27:24.946 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:30:24.816 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:30:24.816 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:30:24.836 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:30:24.836 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:30:24.841 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:30:24.871 28131:28135 D/dalvikvm ]
+GC_CONCURRENT freed 311K, 19% free 10463K/12888K, paused 3ms+2ms, total 54ms
+
+[ 12-10 14:30:24.941 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:30:24.941 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:33:25.286 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:33:25.286 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:33:25.386 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:33:25.386 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:33:25.386 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:33:25.506 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:33:25.506 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:34:35.141 28057:28057 D/long     ]
+onRestart
+
+[ 12-10 14:34:35.141 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:34:35.141 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:34:35.141 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:34:35.251 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 690K, 50% free 17447K/34636K, paused 3ms+5ms, total 89ms
+
+[ 12-10 14:34:35.251 28057:28107 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 28ms
+
+[ 12-10 14:34:35.251 28057:28108 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+
+[ 12-10 14:34:35.286 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:34:35.286 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729270580}
+
+[ 12-10 14:34:35.286 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729270580}
+
+[ 12-10 14:34:55.721 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -22
+
+[ 12-10 14:34:55.726 28057:28057 D/PullToRefresh ]
+State: PULL_TO_REFRESH
+
+[ 12-10 14:34:55.741 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -24
+
+[ 12-10 14:34:55.756 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -26
+
+[ 12-10 14:34:55.776 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -29
+
+[ 12-10 14:34:55.786 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -30
+
+[ 12-10 14:34:55.786 28057:28057 D/PullToRefresh ]
+State: RESET
+
+[ 12-10 14:34:55.806 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -27
+
+[ 12-10 14:34:55.826 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -22
+
+[ 12-10 14:34:55.841 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -18
+
+[ 12-10 14:34:55.861 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -14
+
+[ 12-10 14:34:55.876 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -11
+
+[ 12-10 14:34:55.896 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -8
+
+[ 12-10 14:34:55.911 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -6
+
+[ 12-10 14:34:55.931 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -4
+
+[ 12-10 14:34:55.961 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -1
+
+[ 12-10 14:34:55.971 28057:28057 D/PullToRefresh ]
+setHeaderScroll: -1
+
+[ 12-10 14:34:55.991 28057:28057 D/PullToRefresh ]
+setHeaderScroll: 0
+
+[ 12-10 14:35:32.756 28057:28057 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:35:39.881 28057:28057 D/long     ]
+onRestart
+
+[ 12-10 14:35:39.881 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:35:39.881 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:35:39.881 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:35:41.561 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:35:41.561 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729336879}
+
+[ 12-10 14:35:41.561 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729336879}
+
+[ 12-10 14:35:51.236 28057:28057 D/long     ]
+onCreate
+
+[ 12-10 14:35:51.236 28057:28057 D/long     ]
+onCreateView
+
+[ 12-10 14:35:51.261 28057:28057 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:35:51.271 28057:28057 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-10 14:35:51.341 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:35:51.341 28057:28057 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-10 14:35:51.396 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:01.211 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 910K, 50% free 17661K/34632K, paused 47ms, total 47ms
+
+[ 12-10 14:36:01.221 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.757MB for 3686416-byte allocation
+
+[ 12-10 14:36:01.246 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 9K, 39% free 21251K/34632K, paused 26ms, total 26ms
+
+[ 12-10 14:36:01.276 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 59K, 39% free 21202K/34632K, paused 2ms+4ms, total 30ms
+
+[ 12-10 14:36:01.276 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+
+[ 12-10 14:36:01.376 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729361113
+
+[ 12-10 14:36:12.546 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:12.566 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 14:36:12.566 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:20.391 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 7473K, 50% free 17646K/34632K, paused 21ms, total 22ms
+
+[ 12-10 14:36:20.391 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.743MB for 3686416-byte allocation
+
+[ 12-10 14:36:20.416 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21246K/34632K, paused 25ms, total 25ms
+
+[ 12-10 14:36:20.451 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 28K, 39% free 21240K/34632K, paused 3ms+8ms, total 31ms
+
+[ 12-10 14:36:20.551 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729380308
+
+[ 12-10 14:36:25.491 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:36:25.491 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:36:25.546 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:36:25.546 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:36:25.546 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:36:25.656 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:36:25.656 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:36:28.661 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:36:28.661 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:28.676 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:32.351 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 7415K, 50% free 17640K/34632K, paused 24ms, total 24ms
+
+[ 12-10 14:36:32.356 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.736MB for 3686416-byte allocation
+
+[ 12-10 14:36:32.376 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21239K/34632K, paused 23ms, total 23ms
+
+[ 12-10 14:36:32.416 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 10K, 39% free 21238K/34632K, paused 6ms+7ms, total 38ms
+
+[ 12-10 14:36:32.416 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+
+[ 12-10 14:36:32.506 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729392272
+
+[ 12-10 14:36:36.366 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:36.376 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 14:36:36.376 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:39.131 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 7400K, 50% free 17641K/34632K, paused 35ms, total 36ms
+
+[ 12-10 14:36:39.136 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.737MB for 3686416-byte allocation
+
+[ 12-10 14:36:39.161 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21240K/34632K, paused 29ms, total 29ms
+
+[ 12-10 14:36:39.196 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 25K, 39% free 21239K/34632K, paused 4ms+5ms, total 32ms
+
+[ 12-10 14:36:39.196 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+
+[ 12-10 14:36:39.301 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729399038
+
+[ 12-10 14:36:42.276 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:36:42.276 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:42.286 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:58.351 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:36:58.361 28057:28057 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:36:58.421 28057:28057 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 14:36:58.421 28057:28057 D/http     ]
+请求的参数：userId=xdf004483228&size=big
+
+[ 12-10 14:36:58.421 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:36:58.501 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7384K, 49% free 17827K/34632K, paused 3ms+3ms, total 23ms
+
+[ 12-10 14:37:04.841 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 129K, 49% free 17866K/34632K, paused 25ms, total 25ms
+
+[ 12-10 14:37:04.846 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.957MB for 3686416-byte allocation
+
+[ 12-10 14:37:04.876 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21465K/34632K, paused 26ms, total 26ms
+
+[ 12-10 14:37:04.901 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 39% free 21466K/34632K, paused 2ms+3ms, total 26ms
+
+[ 12-10 14:37:04.901 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+
+[ 12-10 14:37:04.996 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729424789
+
+[ 12-10 14:37:06.576 28057: 1234 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-10 14:37:06.601 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7442K, 48% free 18015K/34632K, paused 3ms+5ms, total 30ms
+
+[ 12-10 14:37:07.631 28057:28057 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 14:37:07.646 28057: 1239 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:07.651 28057: 1239 D/ImageLoader ]
+Load image from network [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:07.651 28057: 1239 D/ImageLoader ]
+Cache image on disk [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:09.146 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 140K, 48% free 18088K/34632K, paused 40ms, total 40ms
+
+[ 12-10 14:37:09.151 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.173MB for 3686416-byte allocation
+
+[ 12-10 14:37:09.186 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 38% free 21686K/34632K, paused 38ms, total 38ms
+
+[ 12-10 14:37:09.226 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 38% free 21685K/34632K, paused 5ms+3ms, total 38ms
+
+[ 12-10 14:37:09.226 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-10 14:37:09.331 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729429093
+
+[ 12-10 14:37:12.696 28057: 1239 E/ImageLoader ]
+failed to connect to my.xdf.cn/116.213.70.23 (port 80) after 5000ms
+java.net.SocketTimeoutException: failed to connect to my.xdf.cn/116.213.70.23 (port 80) after 5000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+	at java.net.Socket.connect(Socket.java:842)
+	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+	at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:282)
+	at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:497)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStreamFromNetwork(BaseImageDownloader.java:117)
+	at com.nostra13.universalimageloader.core.download.BaseImageDownloader.getStream(BaseImageDownloader.java:88)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.downloadImage(LoadAndDisplayImageTask.java:291)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryCacheImageOnDisk(LoadAndDisplayImageTask.java:274)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.tryLoadBitmap(LoadAndDisplayImageTask.java:230)
+	at com.nostra13.universalimageloader.core.LoadAndDisplayImageTask.run(LoadAndDisplayImageTask.java:136)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 14:37:12.851 28057: 1239 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:12.851 28057:28057 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:12.871 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7546K, 48% free 18154K/34632K, paused 5ms+4ms, total 37ms
+
+[ 12-10 14:37:13.916 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 54K, 48% free 18179K/34632K, paused 34ms, total 34ms
+
+[ 12-10 14:37:13.921 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.263MB for 3686416-byte allocation
+
+[ 12-10 14:37:13.946 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 38% free 21779K/34632K, paused 25ms, total 25ms
+
+[ 12-10 14:37:13.981 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 38% free 21779K/34632K, paused 3ms+5ms, total 38ms
+
+[ 12-10 14:37:13.981 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 21ms
+
+[ 12-10 14:37:14.091 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729433863
+
+[ 12-10 14:37:26.106 28057:28057 D/long     ]
+path:null
+
+[ 12-10 14:37:26.111 28057: 1334 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:37:26.111 28057: 1334 D/ImageLoader ]
+Load image from network [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:37:26.111 28057: 1334 D/ImageLoader ]
+Cache image on disk [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:37:26.196 28057: 1334 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:37:26.211 28057:28057 D/ImageLoader ]
+Display image in ImageAware (loaded from NETWORK) [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:37:26.261 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.ToBindingActivity
+
+[ 12-10 14:37:27.216 28057:28057 D/long     ]
+onRestart
+
+[ 12-10 14:37:27.216 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:37:27.216 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:37:27.216 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:37:27.221 28057: 1343 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:27.221 28057: 1343 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:27.236 28057: 1343 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:27.281 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7721K, 48% free 18149K/34632K, paused 5ms+11ms, total 59ms
+
+[ 12-10 14:37:27.291 28057:28057 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:37:27.356 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyInfoActivity
+
+[ 12-10 14:37:30.271 28057:28057 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:37:30.276 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:37:30.281 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:37:30.286 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:37:30.286 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 14:37:30.286 28057:28057 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 14:37:30.286 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:37:30.301 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:37:30.301 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:37:30.301 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:37:30.311 28057:28057 D/long     ]
+prestr：appid=5004&filetype=0&method=GetFileStoreListByUserId&pageindex=1&pagesize=10&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:37:30.311 28057:28057 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:37:30.311 28057:28057 D/http     ]
+请求的参数：method=GetFileStoreListByUserId&appid=5004&userid=xdf004483228&filetype=0&pageindex=1&pagesize=10&sign=E23FA2C3406D7B130490EF8B6C6411D2
+
+[ 12-10 14:37:30.311 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:37:30.311 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 14:37:30.311 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:30.321 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:37:30.321 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:30.381 28057:28057 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:37:30.381 28057:28057 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:37:30.381 28057:28057 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:37:30.381 28057:28057 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:37:30.461 28057:28057 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 14:37:30.461 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 14:37:30.496 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:37:30.496 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:30.511 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:37:30.511 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729445648}
+
+[ 12-10 14:37:30.511 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729445648}
+
+[ 12-10 14:37:30.546 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:37:30.546 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:30.586 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:37:30.586 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:33.596 28057:28057 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:37:33.596 28057:28057 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:37:33.751 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:37:33.751 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:33.776 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:33.781 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:37:33.856 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:37:33.856 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:37:34.066 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 627K, 44% free 19481K/34632K, paused 11ms+24ms, total 95ms
+
+[ 12-10 14:37:42.491 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 846K, 46% free 18813K/34632K, paused 27ms, total 27ms
+
+[ 12-10 14:37:42.496 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.882MB for 3686416-byte allocation
+
+[ 12-10 14:37:42.521 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 116K, 36% free 22297K/34632K, paused 24ms, total 24ms
+
+[ 12-10 14:37:42.551 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 68K, 36% free 22229K/34632K, paused 5ms+4ms, total 31ms
+
+[ 12-10 14:37:42.551 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-10 14:37:42.666 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729462416
+
+[ 12-10 14:38:09.261 28057:28057 D/long     ]
+onRestart
+
+[ 12-10 14:38:09.261 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:38:09.261 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:38:09.261 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:38:09.261 28057:28057 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:38:09.351 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:38:09.351 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729484640}
+
+[ 12-10 14:38:09.351 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729484640}
+
+[ 12-10 14:38:09.386 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:09.386 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:38:09.386 28057:28057 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:38:11.636 28057:28057 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:38:11.636 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:38:11.636 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:38:11.636 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:38:11.641 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:38:11.641 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:38:11.641 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:38:11.646 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:38:11.646 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:38:11.646 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:38:11.651 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:38:11.651 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:38:11.651 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:38:11.656 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:38:11.656 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 14:38:11.656 28057:28057 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 14:38:11.656 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:38:11.681 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7589K, 47% free 18677K/34632K, paused 3ms+5ms, total 35ms
+
+[ 12-10 14:38:11.681 28057:28057 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:38:11.681 28057:28057 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:38:11.681 28057:28057 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:38:11.701 28057:28057 D/long     ]
+prestr：appid=5004&filetype=0&method=GetFileStoreListByUserId&pageindex=1&pagesize=10&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:38:11.701 28057:28057 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:38:11.701 28057:28057 D/http     ]
+请求的参数：method=GetFileStoreListByUserId&appid=5004&userid=xdf004483228&filetype=0&pageindex=1&pagesize=10&sign=E23FA2C3406D7B130490EF8B6C6411D2
+
+[ 12-10 14:38:11.701 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:38:11.706 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 14:38:11.706 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:11.721 28057:28057 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:38:11.721 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:11.786 28057:28057 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:38:11.786 28057:28057 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:38:11.786 28057:28057 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:38:11.786 28057:28057 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:38:11.866 28057:28057 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 14:38:11.866 28057:28057 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 14:38:11.901 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:38:11.901 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:11.956 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:38:11.956 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:11.961 28057:28057 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:38:11.961 28057:28057 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:38:12.046 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:38:12.046 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:12.106 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:12.111 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:38:12.201 28057:28057 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:38:12.201 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:18.456 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 222K, 44% free 19478K/34632K, paused 47ms, total 47ms
+
+[ 12-10 14:38:18.461 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.531MB for 3686416-byte allocation
+
+[ 12-10 14:38:18.486 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 34% free 23075K/34632K, paused 26ms, total 26ms
+
+[ 12-10 14:38:18.491 28057:28065 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 14:38:18.496 28057:28065 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 14:38:18.496 28057:28065 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:18.521 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 720K, 36% free 22357K/34632K, paused 2ms+4ms, total 33ms
+
+[ 12-10 14:38:18.521 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+
+[ 12-10 14:38:18.601 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729498366
+
+[ 12-10 14:38:22.111 28057:28057 D/long     ]
+onRestart
+
+[ 12-10 14:38:22.111 28057:28057 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:38:22.111 28057:28057 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:38:22.111 28057:28057 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:38:22.116 28057:28057 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:38:22.231 28057:28057 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:22.266 28057:28057 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:38:22.266 28057:28057 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729497493}
+
+[ 12-10 14:38:22.266 28057:28057 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729497493}
+
+[ 12-10 14:38:22.276 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:38:22.281 28057:28057 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:38:33.121 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7711K, 47% free 18642K/34632K, paused 2ms+3ms, total 33ms
+
+[ 12-10 14:38:49.356 28057:28065 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 14:38:49.356 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 126K, 47% free 18666K/34632K, paused 42ms, total 43ms
+
+[ 12-10 14:38:49.361 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.739MB for 3686416-byte allocation
+
+[ 12-10 14:38:49.386 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 1K, 36% free 22265K/34632K, paused 23ms, total 23ms
+
+[ 12-10 14:38:49.391 28057:28065 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 14:38:49.391 28057:28065 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:38:49.416 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7K, 36% free 22259K/34632K, paused 3ms+4ms, total 31ms
+
+[ 12-10 14:38:49.416 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 17ms
+
+[ 12-10 14:38:49.531 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729529285
+
+[ 12-10 14:38:50.576 28057:28057 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42bc1398
+
+[ 12-10 14:38:50.596 28057:28057 D/data     ]
+jsData:null
+
+[ 12-10 14:38:50.596 28057:28057 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 14:38:50.616 28057:28057 E/webview  ]
+registerForStylusPenEvent onAttachedToWindow
+
+[ 12-10 14:38:50.616 28057:28057 E/webview  ]
+registerForStylusPenEvent START
+
+[ 12-10 14:38:50.616 28057:28057 E/webview  ]
+registerForStylusPenEvent END
+
+[ 12-10 14:38:50.656 28057: 1590 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42a7dc20}
+
+[ 12-10 14:38:50.656 28057: 1590 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 14:38:50.656 28057: 1590 D/webkit   ]
+Firewall not null
+
+[ 12-10 14:38:50.656 28057: 1590 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 14:38:50.721 28057:28057 D/WebView  ]
+onSizeChanged - w:720 h:1142
+
+[ 12-10 14:38:50.906 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7480K, 46% free 18750K/34632K, paused 2ms+3ms, total 32ms
+
+[ 12-10 14:38:51.086 28057: 1590 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 14:38:51.091 28057: 1590 E/cutils-trace ]
+Error opening trace file: Permission denied (13)
+
+[ 12-10 14:38:51.166 28057:28057 D/TilesManager ]
+Starting TG #0, 0x651cb488
+
+[ 12-10 14:38:51.166 28057:28057 D/TilesManager ]
+new EGLContext from framework: 5c515e38 
+
+[ 12-10 14:38:51.166 28057:28057 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 14:38:51.181 28057:28057 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 14:38:54.856 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 261K, 46% free 18764K/34632K, paused 47ms, total 47ms
+
+[ 12-10 14:38:54.856 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.834MB for 3686416-byte allocation
+
+[ 12-10 14:38:54.896 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 36% free 22364K/34632K, paused 38ms, total 38ms
+
+[ 12-10 14:38:54.926 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 36% free 22362K/34632K, paused 4ms+3ms, total 32ms
+
+[ 12-10 14:38:54.926 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+
+[ 12-10 14:38:55.061 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729534788
+
+[ 12-10 14:38:56.376 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:38:56.376 28057:28057 E/webview  ]
+removeForStylusPenEvent onDetachedFromWindow
+
+[ 12-10 14:38:56.376 28057:28057 E/webview  ]
+removeForStylusPenEvent START
+
+[ 12-10 14:38:56.376 28057:28057 E/webview  ]
+removeForStylusPenEvent END
+
+[ 12-10 14:38:57.206 28057:28057 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1647)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3464)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3425)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3661)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3629)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.view.View.performClick(View.java:4475)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18786)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:730)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5493)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:525)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+
+[ 12-10 14:38:57.211 28057:28057 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:38:57.221 28057:28057 W/Choreographer ]
+Already have a pending vsync event.  There should only be one at a time.
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1647)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3464)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3425)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3661)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3629)
+
+[ 12-10 14:39:06.866 28057:28057 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.view.View.performClick(View.java:4475)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18786)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:730)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5493)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:525)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+
+[ 12-10 14:39:06.871 28057:28057 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:39:10.006 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 8038K, 48% free 18296K/34632K, paused 2ms+5ms, total 36ms
+
+[ 12-10 14:39:10.006 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 31ms
+
+[ 12-10 14:39:10.006 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.376MB for 3686416-byte allocation
+
+[ 12-10 14:39:10.036 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 521K, 39% free 21374K/34632K, paused 29ms, total 29ms
+
+[ 12-10 14:39:10.071 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 35K, 39% free 21339K/34632K, paused 2ms+4ms, total 33ms
+
+[ 12-10 14:39:10.071 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-10 14:39:10.171 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729549968
+
+[ 12-10 14:39:12.631 28057:28057 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42a84980
+
+[ 12-10 14:39:12.636 28057: 1590 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {43a94eb8}
+
+[ 12-10 14:39:12.636 28057:28057 D/data     ]
+jsData:2.1.0
+
+[ 12-10 14:39:12.641 28057:28057 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 14:39:12.641 28057: 1590 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 14:39:12.641 28057: 1590 D/webkit   ]
+Firewall not null
+
+[ 12-10 14:39:12.641 28057: 1590 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 14:39:12.661 28057:28057 E/webview  ]
+registerForStylusPenEvent onAttachedToWindow
+
+[ 12-10 14:39:12.661 28057:28057 E/webview  ]
+registerForStylusPenEvent START
+
+[ 12-10 14:39:12.661 28057:28057 E/webview  ]
+registerForStylusPenEvent END
+
+[ 12-10 14:39:12.721 28057:28057 D/WebView  ]
+onSizeChanged - w:720 h:1142
+
+[ 12-10 14:39:12.746 28057: 1590 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 14:39:12.871 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7550K, 49% free 17768K/34632K, paused 2ms+5ms, total 32ms
+
+[ 12-10 14:39:15.951 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 106K, 49% free 17740K/34632K, paused 46ms, total 46ms
+
+[ 12-10 14:39:15.951 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.833MB for 3686416-byte allocation
+
+[ 12-10 14:39:15.981 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 39% free 21338K/34632K, paused 5ms+4ms, total 31ms
+
+[ 12-10 14:39:15.981 28057:28065 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 26ms
+
+[ 12-10 14:39:15.981 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-10 14:39:16.016 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21338K/34632K, paused 22ms, total 22ms
+
+[ 12-10 14:39:16.111 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729555892
+
+[ 12-10 14:39:17.381 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:39:17.381 28057:28057 E/webview  ]
+removeForStylusPenEvent onDetachedFromWindow
+
+[ 12-10 14:39:17.381 28057:28057 E/webview  ]
+removeForStylusPenEvent START
+
+[ 12-10 14:39:17.381 28057:28057 E/webview  ]
+removeForStylusPenEvent END
+
+[ 12-10 14:39:24.846 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7546K, 49% free 17809K/34632K, paused 4ms+8ms, total 57ms
+
+[ 12-10 14:39:24.846 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 32ms
+
+[ 12-10 14:39:24.846 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.901MB for 3686416-byte allocation
+
+[ 12-10 14:39:24.881 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 39% free 21408K/34632K, paused 34ms, total 34ms
+
+[ 12-10 14:39:24.916 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 18K, 39% free 21390K/34632K, paused 25ms, total 26ms
+
+[ 12-10 14:39:24.926 28057:28057 D/webviewglue ]
+nativeDestroy view: 0x66158698
+
+[ 12-10 14:39:25.006 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729564796
+
+[ 12-10 14:39:25.581 28131:28131 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:39:25.581 28131:28131 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:39:25.606 28131:28146 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 14:39:25.606 28131:28146 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 14:39:25.606 28131:28146 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:39:25.721 28131:29944 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 14:39:25.721 28131:29944 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 14:39:26.461 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.HelpFeedbackActivity
+
+[ 12-10 14:39:27.371 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed 7502K, 49% free 17928K/34632K, paused 6ms+3ms, total 32ms
+
+[ 12-10 14:39:27.371 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+
+[ 12-10 14:39:27.371 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 23.017MB for 3686416-byte allocation
+
+[ 12-10 14:39:27.396 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed 14K, 38% free 21513K/34632K, paused 24ms, total 24ms
+
+[ 12-10 14:39:27.481 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 3K, 38% free 21511K/34632K, paused 21ms, total 21ms
+
+[ 12-10 14:39:27.586 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 28% free 25111K/34632K, paused 24ms, total 24ms
+
+[ 12-10 14:39:27.711 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 18% free 28712K/34632K, paused 26ms, total 26ms
+
+[ 12-10 14:39:27.921 28057:28057 I/System.out ]
+间距: 46
+
+[ 12-10 14:39:34.056 28057:28057 D/dalvikvm ]
+GC_FOR_ALLOC freed 63K, 16% free 32385K/38232K, paused 43ms, total 43ms
+
+[ 12-10 14:39:34.061 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 37.136MB for 3686416-byte allocation
+
+[ 12-10 14:39:34.086 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 35985K/41836K, paused 26ms, total 26ms
+
+[ 12-10 14:39:34.116 28057:28061 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 14% free 35985K/41836K, paused 6ms+4ms, total 31ms
+
+[ 12-10 14:39:34.116 28057:28057 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+
+[ 12-10 14:39:34.121 28057:28057 I/dalvikvm-heap ]
+Grow heap (frag case) to 40.651MB for 3686416-byte allocation
+
+[ 12-10 14:39:34.151 28057:28065 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 13% free 39585K/45440K, paused 28ms, total 28ms
+
+[ 12-10 14:39:34.251 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729573997
+
+[ 12-10 14:39:35.336 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.splash.SplashActivity
+
+[ 12-10 14:39:35.341 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:39:39.871 28057:28122 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729579810
+
+[ 12-10 14:39:41.081 28057:28057 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:39:41.251 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.ui.me.SettingActivity
+
+[ 12-10 14:39:41.261 28057:28057 D/long     ]
+cancle request：com.xdf.ucan.MainActivity
+
+[ 12-10 14:39:41.261 28057:28057 D/long     ]
+fragment onDestroy
+
+[ 12-10 14:39:41.261 28057:28057 D/long     ]
+fragment onDestroy
+
+[ 12-10 14:39:41.261 28057:28057 D/long     ]
+fragment onDestroy
+
+[ 12-10 14:39:41.476 28057:28057 I/Process  ]
+Sending signal. PID: 28057 SIG: 9
+
+[ 12-10 14:39:41.526 28085:28085 D/RongService ]
+onUnbind, pid=28085
+
+[ 12-10 14:39:41.531 28085:28085 D/RongService ]
+onDestroy, pid=28085
+
+[ 12-10 14:39:41.531 28085:28085 I/Process  ]
+Sending signal. PID: 28085 SIG: 9
+
+[ 12-10 14:41:06.641  2423: 2423 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:41:06.651  2423: 2423 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 14:41:06.711  2423: 2423 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-10 14:41:06.716  2423: 2423 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-10 14:41:06.726  2423: 2423 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 14:41:06.736  2423: 2423 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:41:06.781  2423: 2423 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2700
+
+[ 12-10 14:41:06.786  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 14:41:06.801  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 14:41:06.821  2423: 2423 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 14:41:06.821  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 14:41:06.821  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 14:41:06.821  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 14:41:06.851  2423: 2423 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 14:41:06.876  2444: 2444 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:41:06.876  2423: 2427 D/dalvikvm ]
+GC_CONCURRENT freed 709K, 22% free 10184K/12944K, paused 3ms+2ms, total 33ms
+
+[ 12-10 14:41:06.881  2444: 2444 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 14:41:06.891  2444: 2444 D/RongService ]
+onCreate, pid=2444
+
+[ 12-10 14:41:06.891  2444: 2444 D/RongService ]
+onBind, pid=2444
+
+[ 12-10 14:41:06.906  2423: 2423 D/dalvikvm ]
+GC_FOR_ALLOC freed 56K, 22% free 10163K/12944K, paused 11ms, total 11ms
+
+[ 12-10 14:41:06.906  2444: 2444 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+356205054197749
+
+[ 12-10 14:41:06.906  2444: 2444 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425ee1a8
+
+[ 12-10 14:41:06.911  2423: 2423 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.435MB for 3686416-byte allocation
+
+[ 12-10 14:41:06.911  2444: 2444 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425ee1a8
+
+[ 12-10 14:41:06.916  2444: 2444 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 14:41:06.921  2423: 2431 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 17% free 13763K/16548K, paused 11ms, total 11ms
+
+[ 12-10 14:41:06.926  2423: 2431 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '+data+data+com_xdf_ucan+databases+rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-10 14:41:06.936  2423: 2427 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 17% free 13764K/16548K, paused 3ms+1ms, total 12ms
+
+[ 12-10 14:41:07.031  2423: 2423 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@425e9ac8
+
+[ 12-10 14:41:07.056  2423: 2423 D/libEGL   ]
+loaded /system/lib/egl/libEGL_mali.so
+
+[ 12-10 14:41:07.056  2423: 2423 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+
+[ 12-10 14:41:07.061  2423: 2423 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_mali.so
+
+[ 12-10 14:41:07.066  2423: 2423 E/         ]
+Device driver API match
+Device driver API version: 23
+User space API version: 23 
+
+
+[ 12-10 14:41:07.066  2423: 2423 E/         ]
+mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Wed Oct 30 09:36:10 KST 2013 
+
+[ 12-10 14:41:07.136  2423: 2423 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 14:41:07.151  2423: 2423 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-10 14:41:08.246  2423: 2423 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 14:41:08.311  2423: 2496 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 14:41:08.311  2423: 2496 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 14:41:08.566  2423: 2423 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:41:09.626  2533: 2533 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:41:09.626  2533: 2533 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 14:41:09.646  2533: 2533 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 14:41:09.651  2533: 2533 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:41:09.691  2533: 2533 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4100
+
+[ 12-10 14:41:09.701  2533: 2533 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:41:09.721  2533: 2533 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:41:09.721  2533: 2533 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 14:41:09.721  2533: 2533 I/PushService ]
+PushService OnCreate
+
+[ 12-10 14:41:09.741  2533: 2564 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:41:09.741  2533: 2564 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:41:09.741  2533: 2564 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:41:09.746  2533: 2564 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:41:09.746  2533: 2564 I/PushHandler ]
+the saved time = 1449727557656current time = 1449729669752
+
+[ 12-10 14:41:09.746  2533: 2564 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:41:09.746  2533: 2564 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:41:09.751  2533: 2564 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:41:09.811  2533: 2537 D/dalvikvm ]
+GC_CONCURRENT freed 786K, 22% free 10109K/12940K, paused 5ms+1ms, total 47ms
+
+[ 12-10 14:41:09.846  2533: 2564 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:41:10.236  2533: 2566 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 14:41:10.241  2533: 2566 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 14:41:10.241  2533: 2566 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 14:41:10.241  2533: 2566 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:41:13.826  2533: 2533 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:41:13.836  2533: 2533 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:41:13.851  2533: 2564 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:41:13.851  2533: 2564 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 14:41:31.501  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:31.501  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:31.506  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:41:31.536  2423: 2423 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:41:31.536  2423: 2423 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=7Mg9YZr9lcZLzuPqJ+S5vg==&encodePwd=9mqTNOweFLYBEFIL2gzSSQ==&guid=4beca36c-6d80-41ea-869c-32995b252e55&sign=61C043235C3630955BD552EB8B73B918&appOption=1&accessTokenOption=1
+
+[ 12-10 14:41:31.536  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 14:41:31.626  2423: 2423 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:41:31.626  2423: 2423 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:41:31.626  2423: 2423 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:41:31.626  2423: 2423 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:41:40.741  2423: 2423 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-10 14:41:40.741  2423: 2423 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483228\",\"NickName\":\"151210141202886_v\",\"HideMobile\":\"189****4710\",\"HideEmail\":\"151****412028868249d_v@v.com\",\"Mobile\":\"18912434710\",\"Email\":\"1512101412028868249d_v@v.com\",\"LoginToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"Sign\":\"1AF845CDE77923F06B5547BB45A36CAD\",\"AccessToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"AccessTokenExpireTime\":\"2016-01-29 04:41:36\"}","Message":"成功"}
+
+[ 12-10 14:41:40.741  2423: 2423 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004483228\",\"NickName\":\"151210141202886_v\",\"HideMobile\":\"189****4710\",\"HideEmail\":\"151****412028868249d_v@v.com\",\"Mobile\":\"18912434710\",\"Email\":\"1512101412028868249d_v@v.com\",\"LoginToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"Sign\":\"1AF845CDE77923F06B5547BB45A36CAD\",\"AccessToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"AccessTokenExpireTime\":\"2016-01-29 04:41:36\"}","Message":"成功"}
+
+[ 12-10 14:41:40.791  2423: 2423 D/long     ]
+{"UserId":"xdf004483228","NickName":"151210141202886_v","HideMobile":"189****4710","HideEmail":"151****412028868249d_v@v.com","Mobile":"18912434710","Email":"1512101412028868249d_v@v.com","LoginToken":"9d03dc12-a77f-4a06-bcda-e8fb82439d1f","Sign":"1AF845CDE77923F06B5547BB45A36CAD","AccessToken":"9d03dc12-a77f-4a06-bcda-e8fb82439d1f","AccessTokenExpireTime":"2016-01-29 04:41:36"}
+
+[ 12-10 14:41:40.831  2423: 2423 D/long     ]
+DATABASE_NAME:xdf004483228.db
+
+[ 12-10 14:41:40.871  2423: 2423 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:41:40.871  2423: 2423 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 14:41:40.871  2423: 2423 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483228&sign=1E1F99E6FDFCE0A510555655B35E5D5A
+
+[ 12-10 14:41:40.871  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 14:41:40.971  2423: 2423 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 14:41:40.971  2423: 2423 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:41:41.301  2423: 2423 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 14:41:41.301  2423: 2423 D/http     ]
+请求的参数：
+
+[ 12-10 14:41:41.301  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:41.306  2423: 2423 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 14:41:41.306  2423: 2423 D/http     ]
+请求的参数：userId=xdf004483228&size=big
+
+[ 12-10 14:41:41.306  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:41.306  2423: 2423 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:41:41.306  2423: 2423 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:41:41.306  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:41.366  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:41.366  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:41.366  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:41:41.376  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:41.376  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:41.376  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:41:41.381  2423: 2423 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:41:41.431  2423: 2423 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 14:41:41.466  2423: 2423 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 14:41:41.471&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 14:41:41.454&resourcestartdate=1970-01-01 08:00:00.0&schoolid=0&userid=xdf004483228&videoenddate=2015-12-10 14:41:41.463&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:41:41.466  2423: 2423 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:41:41.466  2423: 2423 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483228&schoolid=0&resourcestartdate=1970-01-01 08:00:00.0&resourceenddate=2015-12-10 14:41:41.454&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 14:41:41.463&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 14:41:41.471&appid=5004&sign=AC232CBEA2869D30B1D87A79933E3EC9
+
+[ 12-10 14:41:41.466  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:41.656  2423: 2423 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 14:41:41.656  2423: 2423 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 14:41:41.686  2423: 2423 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:41:41.686  2423: 2423 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:41:41.686  2423: 2423 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:41:41.786  2423: 2456 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 14:41:41.836  2423: 2423 D/long     ]
+cancle request：com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 14:41:41.861  2423: 2423 E/WindowManager ]
+Activity com.xdf.ucan.ui.login.LoginActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{42b66bc0 V.E..... R....... 0,0-640,1230} that was originally added here
+android.view.WindowLeaked: Activity com.xdf.ucan.ui.login.LoginActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{42b66bc0 V.E..... R....... 0,0-640,1230} that was originally added here
+	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:454)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:258)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:73)
+	at android.app.Dialog.show(Dialog.java:287)
+	at com.xdf.ucan.BaseActivity.showLoadingDialog(BaseActivity.java:58)
+	at com.xdf.ucan.ui.login.LoginActivity.access$0(LoginActivity.java:1)
+	at com.xdf.ucan.ui.login.LoginActivity$1.onClick(LoginActivity.java:116)
+	at android.view.View.performClick(View.java:4475)
+	at android.view.View$PerformClick.run(View.java:18786)
+	at android.os.Handler.handleCallback(Handler.java:730)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:5493)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 14:41:42.326  2423: 2423 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:41:42.326  2423: 2423 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 14:41:42.326  2423: 2423 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:41:42.326  2423: 2423 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 14:41:44.436  2423: 2423 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 14:41:44.436  2423: 2423 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449729699734}
+
+[ 12-10 14:41:44.436  2423: 2423 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449729699734}
+
+[ 12-10 14:41:44.436  2423: 2423 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 14:41:44.436  2423: 2423 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-10 14:41:44.961  2423: 2456 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 18912434710
+
+[ 12-10 14:41:46.436  2423: 2423 D/long     ]
+onCreate
+
+[ 12-10 14:41:46.436  2423: 2423 D/long     ]
+onCreateView
+
+[ 12-10 14:41:46.476  2423: 2423 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:41:46.501  2423: 2423 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-10 14:41:46.571  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:46.571  2423: 2423 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-10 14:41:46.601  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:48.456  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:48.476  2423: 2423 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 14:41:48.476  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:50.561  2423: 2423 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:41:50.561  2423: 2423 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729705794}
+
+[ 12-10 14:41:50.561  2423: 2423 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729705794}
+
+[ 12-10 14:41:50.586  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:50.796  2423: 2423 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 14:41:50.796  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:53.881  2423: 2423 D/long     ]
+onRestart
+
+[ 12-10 14:41:53.881  2423: 2423 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:41:53.881  2423: 2423 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:41:53.881  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:53.886  2423: 2423 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:41:53.886  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:53.986  2423: 2423 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:41:54.191  2423: 2423 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:41:54.191  2423: 2423 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729709379}
+
+[ 12-10 14:41:54.191  2423: 2423 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729709379}
+
+[ 12-10 14:41:57.611  2423: 2423 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:41:57.631  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:57.631  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:57.631  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:41:57.641  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:57.641  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:57.641  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:41:57.641  2423: 2423 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:41:57.676  2423: 2423 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 14:41:57.696  2423: 2423 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 14:41:57.699&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 14:41:57.690&resourcestartdate=1970-01-01 08:00:00.0&schoolid=0&userid=xdf004483228&videoenddate=2015-12-10 14:41:57.695&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:41:57.696  2423: 2423 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:41:57.696  2423: 2423 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483228&schoolid=0&resourcestartdate=1970-01-01 08:00:00.0&resourceenddate=2015-12-10 14:41:57.690&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 14:41:57.695&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 14:41:57.699&appid=5004&sign=039B2871639CA20454434D9E5BBD015F
+
+[ 12-10 14:41:57.696  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:41:57.716  2423: 2423 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:41:57.716  2423: 2423 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:41:57.716  2423: 2423 D/ProgressBar ]
+mProgress = 0mIndeterminate = true, mMin = 0, mMax = 100
+
+[ 12-10 14:41:57.736  2423: 2423 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 14:41:57.736  2423: 2423 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 14:41:57.806  2423: 2423 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:41:57.806  2423: 2423 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:41:57.806  2423: 2423 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:42:07.656  2423: 2423 D/long     ]
+onRestart
+
+[ 12-10 14:42:07.656  2423: 2423 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:42:07.656  2423: 2423 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:42:07.656  2423: 2423 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:42:07.901  2423: 2423 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:42:07.901  2423: 2423 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729723057}
+
+[ 12-10 14:42:07.901  2423: 2423 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729723057}
+
+[ 12-10 14:42:47.186  3684: 3684 D/long     ]
+连接的数据库是：xdf004483228.db
+
+[ 12-10 14:42:47.206  3684: 3684 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:42:47.351  3684: 3684 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 14:42:47.471  3684: 3684 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-10 14:42:47.476  3684: 3684 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-10 14:42:47.486  3684: 3684 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 14:42:47.501  3684: 3684 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:42:47.541  3684: 3684 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4300
+
+[ 12-10 14:42:47.546  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 14:42:47.561  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 14:42:47.561  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 14:42:47.561  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 14:42:47.561  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 14:42:47.561  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 14:42:47.566  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 14:42:47.576  3684: 3684 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 14:42:47.576  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 14:42:47.576  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 14:42:47.581  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 14:42:47.601  3684: 3684 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 14:42:47.616  3709: 3709 D/long     ]
+连接的数据库是：xdf004483228.db
+
+[ 12-10 14:42:47.626  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 742K, 22% free 10199K/12956K, paused 2ms+2ms, total 39ms
+
+[ 12-10 14:42:47.626  3709: 3709 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:42:47.636  3709: 3709 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 14:42:47.651  3709: 3709 D/RongService ]
+onCreate, pid=3709
+
+[ 12-10 14:42:47.651  3709: 3709 D/RongService ]
+onBind, pid=3709
+
+[ 12-10 14:42:47.651  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 47K, 22% free 10186K/12956K, paused 14ms, total 14ms
+
+[ 12-10 14:42:47.661  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.458MB for 3686416-byte allocation
+
+[ 12-10 14:42:47.671  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 17% free 13786K/16560K, paused 14ms, total 14ms
+
+[ 12-10 14:42:47.676  3709: 3709 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+356205054197749
+
+[ 12-10 14:42:47.676  3709: 3709 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425f1d58
+
+[ 12-10 14:42:47.676  3684: 3693 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '+data+data+com_xdf_ucan+databases+rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-10 14:42:47.691  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 17% free 13787K/16560K, paused 3ms+1ms, total 18ms
+
+[ 12-10 14:42:47.691  3709: 3709 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x425f1d58
+
+[ 12-10 14:42:47.696  3709: 3709 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 14:42:47.746  3684: 3684 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 14:42:47.746  3684: 3684 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=7Mg9YZr9lcZLzuPqJ+S5vg==&encodePwd=9mqTNOweFLYBEFIL2gzSSQ==&guid=9ab6a8df-09f2-4490-8cee-03bef7bbd546&sign=DA29704B31C54B399728178AA0EEA2BE&appOption=1&accessTokenOption=1
+
+[ 12-10 14:42:47.746  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:42:47.786  3684: 3684 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@42630800
+
+[ 12-10 14:42:47.836  3684: 3684 D/libEGL   ]
+loaded /system/lib/egl/libEGL_mali.so
+
+[ 12-10 14:42:47.841  3684: 3684 D/libEGL   ]
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+
+[ 12-10 14:42:47.846  3684: 3684 D/libEGL   ]
+loaded /system/lib/egl/libGLESv2_mali.so
+
+[ 12-10 14:42:47.851  3684: 3684 E/         ]
+Device driver API match
+Device driver API version: 23
+User space API version: 23 
+
+
+[ 12-10 14:42:47.851  3684: 3684 E/         ]
+mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Wed Oct 30 09:36:10 KST 2013 
+
+[ 12-10 14:42:47.921  3684: 3684 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-10 14:42:47.936  3684: 3684 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-10 14:42:48.946  3684: 3684 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 14:42:48.961  3684: 3761 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 14:42:48.966  3684: 3761 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 14:42:51.961  3862: 3862 D/long     ]
+连接的数据库是：xdf004483228.db
+
+[ 12-10 14:42:51.966  3862: 3862 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:42:51.971  3862: 3862 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 14:42:51.996  3862: 3862 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 14:42:52.001  3862: 3862 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:42:52.046  3862: 3862 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3300
+
+[ 12-10 14:42:52.061  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:42:52.141  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:42:52.141  3862: 3862 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 14:42:52.141  3862: 3862 I/PushService ]
+PushService OnCreate
+
+[ 12-10 14:42:52.156  3862: 3877 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:42:52.156  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:42:52.156  3862: 3877 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:42:52.161  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:42:52.161  3862: 3877 I/PushHandler ]
+the saved time = 1449727557656current time = 1449729772168
+
+[ 12-10 14:42:52.161  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:42:52.161  3862: 3877 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:42:52.166  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:42:52.191  3862: 3866 D/dalvikvm ]
+GC_CONCURRENT freed 801K, 22% free 10090K/12936K, paused 1ms+2ms, total 27ms
+
+[ 12-10 14:42:52.231  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:42:55.371  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:42:55.431  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:42:56.236  3862: 3877 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at java.net.Socket.connect(Socket.java:842)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:139)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:42:56.241  3862: 3877 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-10 14:42:56.246  3862: 3877 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:42:56.246  3862: 3877 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:42:56.246  3862: 3877 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:42:56.251  3862: 3877 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:42:56.251  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:42:56.256  3862: 3877 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:42:56.256  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:42:56.256  3862: 3877 I/PushHandler ]
+the saved time = 1449727557656current time = 1449729776263
+
+[ 12-10 14:42:56.256  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:42:56.261  3862: 3877 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:42:56.261  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:42:56.261  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:42:56.901  3684: 3684 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-10 14:42:56.901  3684: 3684 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483228\",\"NickName\":\"151210141202886_v\",\"HideMobile\":\"189****4710\",\"HideEmail\":\"151****412028868249d_v@v.com\",\"Mobile\":\"18912434710\",\"Email\":\"1512101412028868249d_v@v.com\",\"LoginToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"Sign\":\"1AF845CDE77923F06B5547BB45A36CAD\",\"AccessToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"AccessTokenExpireTime\":\"2016-01-29 04:42:52\"}","Message":"成功"}
+
+[ 12-10 14:42:56.901  3684: 3684 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004483228\",\"NickName\":\"151210141202886_v\",\"HideMobile\":\"189****4710\",\"HideEmail\":\"151****412028868249d_v@v.com\",\"Mobile\":\"18912434710\",\"Email\":\"1512101412028868249d_v@v.com\",\"LoginToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"Sign\":\"1AF845CDE77923F06B5547BB45A36CAD\",\"AccessToken\":\"9d03dc12-a77f-4a06-bcda-e8fb82439d1f\",\"AccessTokenExpireTime\":\"2016-01-29 04:42:52\"}","Message":"成功"}
+
+[ 12-10 14:42:56.926  3684: 3684 D/long     ]
+{"UserId":"xdf004483228","NickName":"151210141202886_v","HideMobile":"189****4710","HideEmail":"151****412028868249d_v@v.com","Mobile":"18912434710","Email":"1512101412028868249d_v@v.com","LoginToken":"9d03dc12-a77f-4a06-bcda-e8fb82439d1f","Sign":"1AF845CDE77923F06B5547BB45A36CAD","AccessToken":"9d03dc12-a77f-4a06-bcda-e8fb82439d1f","AccessTokenExpireTime":"2016-01-29 04:42:52"}
+
+[ 12-10 14:42:56.956  3684: 3684 D/long     ]
+DATABASE_NAME:xdf004483228.db
+
+[ 12-10 14:42:57.041  3684: 3684 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:42:57.046  3684: 3684 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 14:42:57.046  3684: 3684 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483228&sign=1E1F99E6FDFCE0A510555655B35E5D5A
+
+[ 12-10 14:42:57.046  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:43:00.146  3684: 3684 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 14:43:00.146  3684: 3684 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at java.net.Socket.connect(Socket.java:842)
+
+[ 12-10 14:43:00.266  3862: 3877 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:139)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:43:00.271  3862: 3877 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:43:00.271  3862: 3877 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:43:00.326  3684: 3684 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 14:43:00.326  3684: 3684 D/http     ]
+请求的参数：
+
+[ 12-10 14:43:00.326  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:00.326  3684: 3684 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 14:43:00.331  3684: 3684 D/http     ]
+请求的参数：userId=xdf004483228&size=big
+
+[ 12-10 14:43:00.331  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:00.331  3684: 3684 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:43:00.331  3684: 3684 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:43:00.331  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:00.396  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:43:00.396  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:43:00.396  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:43:00.411  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:43:00.411  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:43:00.411  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:43:00.421  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:43:00.461  3684: 3684 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 14:43:00.496  3684: 3684 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 14:43:00.500&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 14:43:00.480&resourcestartdate=1970-01-01 08:00:00.0&schoolid=0&userid=xdf004483228&videoenddate=2015-12-10 14:43:00.489&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:43:00.496  3684: 3684 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:43:00.496  3684: 3684 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483228&schoolid=0&resourcestartdate=1970-01-01 08:00:00.0&resourceenddate=2015-12-10 14:43:00.480&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 14:43:00.489&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 14:43:00.500&appid=5004&sign=27F55920BFE1808D4CE48A5CEDB9E6CE
+
+[ 12-10 14:43:00.496  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:00.641  3684: 3684 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 14:43:00.641  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 14:43:00.646  3684: 3684 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 14:43:00.646  3684: 3684 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449729775735}
+
+[ 12-10 14:43:00.646  3684: 3684 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449729775735}
+
+[ 12-10 14:43:00.646  3684: 3684 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 14:43:00.646  3684: 3684 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-10 14:43:00.686  3684: 3684 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:43:00.686  3684: 3684 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:43:00.686  3684: 3684 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:43:00.806  3684: 3726 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 14:43:00.816  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 14:43:01.351  3684: 3684 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:43:01.351  3684: 3684 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 14:43:01.351  3684: 3684 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 14:43:01.351  3684: 3684 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 14:43:03.456  3684: 3684 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:43:03.456  3684: 3684 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729778771}
+
+[ 12-10 14:43:03.456  3684: 3684 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729778771}
+
+[ 12-10 14:43:16.386  3684: 3684 D/long     ]
+onCreate
+
+[ 12-10 14:43:16.386  3684: 3684 D/long     ]
+onCreateView
+
+[ 12-10 14:43:16.416  3684: 3684 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:43:16.431  3684: 3684 D/liang    ]
+onPageSelected：1073741824
+
+[ 12-10 14:43:16.476  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:43:16.476  3684: 3684 D/liang    ]
+onPageScrolled disP：0.0 disX:0
+
+[ 12-10 14:43:16.531  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:43:34.006  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:43:34.026  3684: 3684 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 8
+
+[ 12-10 14:43:34.026  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:43:37.586  3684: 3684 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:43:37.606  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:43:37.606  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:43:37.606  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:43:37.611  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:43:37.611  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:43:37.611  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:43:37.616  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:43:37.641  3684: 3684 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 14:43:37.656  3684: 3684 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 14:43:37.661&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 14:43:37.653&resourcestartdate=1970-01-01 08:00:00.0&schoolid=0&userid=xdf004483228&videoenddate=2015-12-10 14:43:37.657&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:43:37.656  3684: 3684 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:43:37.656  3684: 3684 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483228&schoolid=0&resourcestartdate=1970-01-01 08:00:00.0&resourceenddate=2015-12-10 14:43:37.653&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 14:43:37.657&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 14:43:37.661&appid=5004&sign=D6290CABEC2AC291BE0BD98838CE14F9
+
+[ 12-10 14:43:37.656  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:37.661  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:43:37.661  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:43:37.661  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = true, mMin = 0, mMax = 100
+
+[ 12-10 14:43:37.686  3684: 3684 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 14:43:37.686  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 14:43:37.766  3684: 3684 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:43:37.766  3684: 3684 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:43:37.766  3684: 3684 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:43:38.301  3684: 3684 D/long     ]
+onCreateView
+
+[ 12-10 14:43:47.731  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 2220K, 21% free 16590K/20856K, paused 46ms, total 47ms
+
+[ 12-10 14:43:47.741  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.710MB for 3686416-byte allocation
+
+[ 12-10 14:43:47.771  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7K, 18% free 20182K/24460K, paused 28ms, total 28ms
+
+[ 12-10 14:43:47.811  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 294K, 19% free 19911K/24460K, paused 3ms+4ms, total 40ms
+
+[ 12-10 14:43:47.831  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 19% free 19911K/24460K, paused 20ms, total 20ms
+
+[ 12-10 14:43:47.961  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729827638
+
+[ 12-10 14:43:51.291  3684: 3684 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:43:51.366  3684: 3684 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 14:43:51.366  3684: 3684 D/http     ]
+请求的参数：userId=xdf004483228&size=big
+
+[ 12-10 14:43:51.366  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:43:51.431  3684: 3684 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 14:43:51.436  3684: 4168 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:43:51.436  3684: 4168 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:43:51.441  3684: 4168 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:43:51.441  3684: 3684 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:43:53.511  3684: 4182 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:43:53.511  3684: 4182 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:43:53.556  3684: 4182 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:43:53.556  3684: 4180 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-10 14:43:53.671  3684: 3684 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_80x80]
+
+[ 12-10 14:43:56.376  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7757K, 20% free 16755K/20856K, paused 28ms, total 28ms
+
+[ 12-10 14:43:56.381  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.873MB for 3686416-byte allocation
+
+[ 12-10 14:43:56.406  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed 4K, 17% free 20350K/24460K, paused 24ms, total 24ms
+
+[ 12-10 14:43:56.441  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 12K, 17% free 20339K/24460K, paused 3ms+2ms, total 32ms
+
+[ 12-10 14:43:56.441  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 5ms
+
+[ 12-10 14:43:56.441  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.372MB for 3686416-byte allocation
+
+[ 12-10 14:43:56.466  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 23938K/28064K, paused 20ms, total 20ms
+
+[ 12-10 14:43:56.546  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729836327
+
+[ 12-10 14:44:00.166  3684: 3684 D/long     ]
+onRestart
+
+[ 12-10 14:44:00.166  3684: 3684 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:44:00.166  3684: 3684 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:44:00.166  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:44:00.171  3684: 4205 D/ImageLoader ]
+Start display image task [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:00.171  3684: 4205 D/ImageLoader ]
+Load image from disk cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:00.171  3684: 4205 D/ImageLoader ]
+Cache image in memory [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:00.256  3684: 3684 D/ImageLoader ]
+Display image in ImageAware (loaded from DISC_CACHE) [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:00.276  3684: 3684 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:44:00.276  3684: 3684 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729835540}
+
+[ 12-10 14:44:00.276  3684: 3684 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729835540}
+
+[ 12-10 14:44:00.351  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyInfoActivity
+
+[ 12-10 14:44:01.661  3684: 3691 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 14:44:01.686  3684: 3684 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:44:01.696  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:01.696  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:01.696  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:01.706  3684: 3684 D/long     ]
+prestr：appid=5004&method=GetSubscribtionListByUserId&pageindex=1&pagesize=200&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:44:01.706  3684: 3684 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:44:01.706  3684: 3684 D/http     ]
+请求的参数：method=GetSubscribtionListByUserId&appid=5004&userid=xdf004483228&pageindex=1&pagesize=200&sign=1F694AA4170587AFDA605D1E369DE887
+
+[ 12-10 14:44:01.706  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:44:01.706  3684: 3684 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 14:44:01.706  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:01.716  3684: 3684 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:44:01.716  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:01.806  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:44:01.806  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:44:01.806  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:44:01.806  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:44:01.886  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:01.916  3684: 3684 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:44:01.916  3684: 3684 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:44:01.916  3684: 3684 D/long     ]
+response:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:44:01.986  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:02.041  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:02.051  3684: 3684 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:44:04.651  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7911K, 35% free 20711K/31824K, paused 42ms, total 43ms
+
+[ 12-10 14:44:04.651  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.736MB for 3686416-byte allocation
+
+[ 12-10 14:44:04.696  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 30K, 24% free 24281K/31824K, paused 8ms+5ms, total 45ms
+
+[ 12-10 14:44:04.696  3684: 3693 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 37ms
+
+[ 12-10 14:44:04.696  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 33ms
+
+[ 12-10 14:44:04.831  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729844560
+
+[ 12-10 14:44:05.751  3684: 3684 D/long     ]
+onRestart
+
+[ 12-10 14:44:05.751  3684: 3684 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:44:05.756  3684: 3684 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:44:05.756  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:44:05.756  3684: 3684 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:05.831  3684: 3684 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:44:05.831  3684: 3684 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729841146}
+
+[ 12-10 14:44:05.831  3684: 3684 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729841146}
+
+[ 12-10 14:44:05.881  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:05.886  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:44:05.886  3684: 3684 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:44:08.756  3684: 3684 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-10 14:44:08.761  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:08.761  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:08.761  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:08.766  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:08.771  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:08.771  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:08.771  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:08.771  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:44:08.771  3684: 3684 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 14:44:08.771  3684: 3684 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 14:44:08.771  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:44:08.786  3684: 3684 D/ProgressBar ]
+setProgress = 0
+
+[ 12-10 14:44:08.786  3684: 3684 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-10 14:44:08.786  3684: 3684 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-10 14:44:08.796  3684: 3684 D/long     ]
+prestr：appid=5004&filetype=0&method=GetFileStoreListByUserId&pageindex=1&pagesize=10&userid=xdf004483228&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:44:08.796  3684: 3684 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:44:08.796  3684: 3684 D/http     ]
+请求的参数：method=GetFileStoreListByUserId&appid=5004&userid=xdf004483228&filetype=0&pageindex=1&pagesize=10&sign=E23FA2C3406D7B130490EF8B6C6411D2
+
+[ 12-10 14:44:08.796  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:44:08.796  3684: 3684 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 4
+
+[ 12-10 14:44:08.796  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:08.806  3684: 3684 D/AbsListView ]
+onVisibilityChanged() is called, visibility : 0
+
+[ 12-10 14:44:08.806  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:08.886  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: left = 0
+
+[ 12-10 14:44:08.886  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: top = 0
+
+[ 12-10 14:44:08.886  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: right = 60
+
+[ 12-10 14:44:08.886  3684: 3684 D/ProgressBar ]
+updateDrawableBounds: bottom = 60
+
+[ 12-10 14:44:08.976  3684: 3684 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 14:44:08.976  3684: 3684 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 14:44:09.006  3684: 3684 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:44:09.006  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:09.061  3684: 3684 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:44:09.061  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:09.071  3684: 3684 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 14:44:09.071  3684: 3684 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 14:44:09.156  3684: 3684 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:44:09.156  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:09.211  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:09.211  3684: 3684 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:44:09.346  3684: 3684 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:3
+
+[ 12-10 14:44:09.346  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:09.486  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 7992K, 36% free 18240K/28216K, paused 4ms+7ms, total 63ms
+
+[ 12-10 14:44:11.316  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 727K, 38% free 17673K/28216K, paused 31ms, total 31ms
+
+[ 12-10 14:44:11.321  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.769MB for 3686416-byte allocation
+
+[ 12-10 14:44:11.346  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 2K, 25% free 21271K/28216K, paused 4ms+3ms, total 29ms
+
+[ 12-10 14:44:11.346  3684: 3693 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-10 14:44:11.351  3684: 3693 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 14:44:11.351  3684: 3693 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 14:44:11.351  3684: 3693 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:11.351  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 27ms
+
+[ 12-10 14:44:11.381  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 330K, 16% free 20942K/24900K, paused 20ms, total 20ms
+
+[ 12-10 14:44:11.381  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.961MB for 3686416-byte allocation
+
+[ 12-10 14:44:11.406  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 14% free 24543K/28504K, paused 21ms, total 21ms
+
+[ 12-10 14:44:11.511  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729851250
+
+[ 12-10 14:44:14.916  3684: 3684 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:14.931  3684: 3684 D/long     ]
+onRestart
+
+[ 12-10 14:44:14.931  3684: 3684 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:44:14.931  3684: 3684 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:44:14.931  3684: 3684 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:44:14.931  3684: 3684 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:44:15.016  3684: 3684 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:44:15.021  3684: 3684 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729850311}
+
+[ 12-10 14:44:15.021  3684: 3684 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729850311}
+
+[ 12-10 14:44:15.071  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:44:15.071  3684: 3684 D/AbsListView ]
+onDetachedFromWindow
+
+[ 12-10 14:44:20.716  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7687K, 35% free 21000K/32104K, paused 35ms, total 36ms
+
+[ 12-10 14:44:20.716  3684: 3693 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-10 14:44:20.721  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.018MB for 3686416-byte allocation
+
+[ 12-10 14:44:20.751  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 3K, 24% free 24597K/32104K, paused 3ms+4ms, total 29ms
+
+[ 12-10 14:44:20.751  3684: 3693 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 27ms
+
+[ 12-10 14:44:20.751  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+
+[ 12-10 14:44:20.751  3684: 3693 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0,  
+
+[ 12-10 14:44:20.751  3684: 3693 D/AbsListView ]
+unregisterIRListener() is called 
+
+[ 12-10 14:44:20.826  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729860631
+
+[ 12-10 14:44:26.091  3684: 3684 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42681430
+
+[ 12-10 14:44:26.126  3684: 3684 D/data     ]
+jsData:null
+
+[ 12-10 14:44:26.131  3684: 3684 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 14:44:26.161  3684: 3684 E/webview  ]
+registerForStylusPenEvent onAttachedToWindow
+
+[ 12-10 14:44:26.161  3684: 3684 E/webview  ]
+registerForStylusPenEvent START
+
+[ 12-10 14:44:26.166  3684: 3684 E/webview  ]
+registerForStylusPenEvent END
+
+[ 12-10 14:44:26.256  3684: 3684 D/WebView  ]
+onSizeChanged - w:720 h:1142
+
+[ 12-10 14:44:26.301  3684: 4320 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42b2bf80}
+
+[ 12-10 14:44:26.311  3684: 4320 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 14:44:26.311  3684: 4320 D/webkit   ]
+Firewall not null
+
+[ 12-10 14:44:26.311  3684: 4320 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 14:44:26.591  3684: 4320 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 14:44:26.611  3684: 4320 E/cutils-trace ]
+Error opening trace file: Permission denied (13)
+
+[ 12-10 14:44:26.711  3684: 3684 D/TilesManager ]
+Starting TG #0, 0x5fa97410
+
+[ 12-10 14:44:26.711  3684: 3684 D/TilesManager ]
+new EGLContext from framework: 579cbe98 
+
+[ 12-10 14:44:26.711  3684: 3684 D/GLWebViewState ]
+Reinit shader
+
+[ 12-10 14:44:26.716  3684: 3684 D/GLWebViewState ]
+Reinit transferQueue
+
+[ 12-10 14:44:36.911  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 8342K, 20% free 16890K/20856K, paused 42ms, total 43ms
+
+[ 12-10 14:44:36.916  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.004MB for 3686416-byte allocation
+
+[ 12-10 14:44:36.951  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 17% free 20489K/24460K, paused 37ms, total 37ms
+
+[ 12-10 14:44:36.996  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 5K, 17% free 20484K/24460K, paused 8ms+6ms, total 45ms
+
+[ 12-10 14:44:36.996  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+
+[ 12-10 14:44:37.001  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.513MB for 3686416-byte allocation
+
+[ 12-10 14:44:37.041  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 15% free 24084K/28064K, paused 37ms, total 37ms
+
+[ 12-10 14:44:37.211  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729876855
+
+[ 12-10 14:44:38.751  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:44:38.751  3684: 3684 E/webview  ]
+removeForStylusPenEvent onDetachedFromWindow
+
+[ 12-10 14:44:38.751  3684: 3684 E/webview  ]
+removeForStylusPenEvent START
+
+[ 12-10 14:44:38.751  3684: 3684 E/webview  ]
+removeForStylusPenEvent END
+
+[ 12-10 14:44:38.756  3684: 3684 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:44:39.491  3684: 3684 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1647)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3464)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3425)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3661)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3629)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.view.View.performClick(View.java:4475)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18786)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:730)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5493)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:525)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+
+[ 12-10 14:44:39.496  3684: 3684 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1647)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3464)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3425)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3661)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3629)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.view.View.performClick(View.java:4475)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18786)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:730)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5493)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:525)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1209)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1025)
+
+[ 12-10 14:44:46.576  3684: 3684 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:44:49.336  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7462K, 35% free 20594K/31660K, paused 26ms, total 26ms
+
+[ 12-10 14:44:49.336  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.622MB for 3686416-byte allocation
+
+[ 12-10 14:44:49.366  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed 11K, 24% free 24182K/31660K, paused 26ms, total 26ms
+
+[ 12-10 14:44:49.396  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 3636K, 16% free 20552K/24456K, paused 2ms+4ms, total 30ms
+
+[ 12-10 14:44:49.466  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729889273
+
+[ 12-10 14:44:52.406  3684: 4320 V/webkit   ]
+BrowserFrame constructor: this=Handler (android.webkit.BrowserFrame) {42cf7c50}
+
+[ 12-10 14:44:52.406  3684: 3684 I/webclipboard ]
+clipservice: android.sec.clipboard.ClipboardExManager@42647bb0
+
+[ 12-10 14:44:52.411  3684: 3684 D/data     ]
+jsData:2.1.0
+
+[ 12-10 14:44:52.416  3684: 3684 D/WebView  ]
+loadUrlImpl: called
+
+[ 12-10 14:44:52.416  3684: 4320 D/webcore  ]
+ CORE loadUrl: called
+
+[ 12-10 14:44:52.416  3684: 4320 D/webkit   ]
+Firewall not null
+
+[ 12-10 14:44:52.416  3684: 4320 D/webkit   ]
+euler: isUrlBlocked = false
+
+[ 12-10 14:44:52.436  3684: 3684 E/webview  ]
+registerForStylusPenEvent onAttachedToWindow
+
+[ 12-10 14:44:52.436  3684: 3684 E/webview  ]
+registerForStylusPenEvent START
+
+[ 12-10 14:44:52.436  3684: 3684 E/webview  ]
+registerForStylusPenEvent END
+
+[ 12-10 14:44:52.491  3684: 4320 I/GATE     ]
+<GATE-M>DEV_ACTION_COMPLETED</GATE-M>
+
+[ 12-10 14:44:52.511  3684: 3684 D/WebView  ]
+onSizeChanged - w:720 h:1142
+
+[ 12-10 14:44:56.371  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 3979K, 19% free 17024K/20856K, paused 37ms, total 39ms
+
+[ 12-10 14:44:56.376  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.135MB for 3686416-byte allocation
+
+[ 12-10 14:44:56.421  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed 74K, 16% free 20550K/24460K, paused 44ms, total 44ms
+
+[ 12-10 14:44:56.451  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 4K, 16% free 20546K/24460K, paused 2ms+4ms, total 30ms
+
+[ 12-10 14:44:56.451  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+
+[ 12-10 14:44:56.456  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.575MB for 3686416-byte allocation
+
+[ 12-10 14:44:56.476  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 24146K/28064K, paused 21ms, total 21ms
+
+[ 12-10 14:44:56.581  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729896319
+
+[ 12-10 14:45:03.251  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:45:03.251  3684: 3684 E/webview  ]
+removeForStylusPenEvent onDetachedFromWindow
+
+[ 12-10 14:45:03.251  3684: 3684 E/webview  ]
+removeForStylusPenEvent START
+
+[ 12-10 14:45:03.251  3684: 3684 E/webview  ]
+removeForStylusPenEvent END
+
+[ 12-10 14:45:03.261  3684: 3684 E/ViewRootImpl ]
+sendUserActionEvent() mView == null
+
+[ 12-10 14:45:06.876  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 7539K, 35% free 20666K/31660K, paused 39ms, total 39ms
+
+[ 12-10 14:45:06.881  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 25.692MB for 3686416-byte allocation
+
+[ 12-10 14:45:06.916  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 24% free 24264K/31660K, paused 36ms, total 36ms
+
+[ 12-10 14:45:06.921  3684: 3684 D/webviewglue ]
+nativeDestroy view: 0x655dee70
+
+[ 12-10 14:45:06.946  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed 3618K, 16% free 20652K/24456K, paused 3ms+4ms, total 28ms
+
+[ 12-10 14:45:07.011  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729906808
+
+[ 12-10 14:45:08.336  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.ui.me.HelpFeedbackActivity
+
+[ 12-10 14:45:09.161  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 3902K, 30% free 17192K/24548K, paused 19ms, total 19ms
+
+[ 12-10 14:45:09.161  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 22.299MB for 3686416-byte allocation
+
+[ 12-10 14:45:09.181  3684: 4209 D/dalvikvm ]
+GC_FOR_ALLOC freed 16K, 16% free 20775K/24548K, paused 21ms, total 21ms
+
+[ 12-10 14:45:09.206  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 16% free 20775K/24548K, paused 3ms+3ms, total 24ms
+
+[ 12-10 14:45:09.266  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 16% free 20775K/24548K, paused 19ms, total 19ms
+
+[ 12-10 14:45:09.366  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 14% free 24376K/28152K, paused 20ms, total 20ms
+
+[ 12-10 14:45:09.476  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 12% free 27976K/31756K, paused 19ms, total 19ms
+
+[ 12-10 14:45:09.661  3684: 3684 I/System.out ]
+间距: 46
+
+[ 12-10 14:45:14.116  3684: 3684 D/dalvikvm ]
+GC_FOR_ALLOC freed 69K, 11% free 31652K/35360K, paused 40ms, total 40ms
+
+[ 12-10 14:45:14.126  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 36.420MB for 3686416-byte allocation
+
+[ 12-10 14:45:14.161  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 10% free 35252K/38964K, paused 39ms, total 39ms
+
+[ 12-10 14:45:14.211  3684: 3689 D/dalvikvm ]
+GC_CONCURRENT freed <1K, 10% free 35252K/38964K, paused 5ms+6ms, total 47ms
+
+[ 12-10 14:45:14.211  3684: 3684 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 33ms
+
+[ 12-10 14:45:14.216  3684: 3684 I/dalvikvm-heap ]
+Grow heap (frag case) to 39.935MB for 3686416-byte allocation
+
+[ 12-10 14:45:14.241  3684: 3693 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 9% free 38851K/42568K, paused 25ms, total 25ms
+
+[ 12-10 14:45:14.336  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729914068
+
+[ 12-10 14:45:19.086  3684: 3684 D/long     ]
+cancle request：com.xdf.ucan.splash.SplashActivity
+
+[ 12-10 14:45:52.731  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729952696
+
+[ 12-10 14:46:00.296  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:46:00.296  3862: 3862 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:46:00.316  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:46:00.316  3862: 3877 I/##COMMON_io.rong.push.PushService:DeviceId ]
+356205054197749
+
+[ 12-10 14:46:00.316  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:46:00.316  3862: 3877 I/PushHandler ]
+the saved time = 1449727557656current time = 1449729960322
+
+[ 12-10 14:46:00.316  3862: 3877 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:46:00.321  3862: 3877 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-N7100|18|WIFI|46001
+
+[ 12-10 14:46:00.321  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-N7100|18|WIFI|46001 push version:2.6
+
+[ 12-10 14:46:00.321  3862: 3877 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:46:00.476  3862: 4660 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 14:46:00.476  3862: 4660 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 14:46:00.476  3862: 4660 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 14:46:00.476  3862: 4660 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:46:03.111  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Log:1449729963119
+
+[ 12-10 14:46:03.201  3684: 3756 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729963156
+
+[ 12-10 14:46:03.201  3684: 3756 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x41a45700)
+
+[ 12-10 14:46:03.226  3684: 3756 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 14:46:03.226  3684: 3756 I/Process  ]
+Sending signal. PID: 3684 SIG: 9
+
+[ 12-10 14:46:03.266  3709: 3709 D/RongService ]
+onUnbind, pid=3709
+
+[ 12-10 14:46:03.266  3709: 3709 D/RongService ]
+onDestroy, pid=3709
+
+[ 12-10 14:46:03.266  3709: 3709 I/Process  ]
+Sending signal. PID: 3709 SIG: 9
+

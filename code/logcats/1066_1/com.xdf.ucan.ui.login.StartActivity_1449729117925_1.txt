@@ -1,0 +1,1604 @@
+--------- beginning of /dev/log/main
+[ 12-10 14:29:49.528 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41fa5648 time:113547201
+
+[ 12-10 14:29:49.838 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 14:29:59.398 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:29:59.478 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:29:59.498 13593:13593 D/long     ]
+onRestart
+
+[ 12-10 14:29:59.498 13593:13593 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:29:59.498 13593:13593 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:29:59.498 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:29:59.608 13593:13593 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:29:59.608 13593:13593 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449728995083}
+
+[ 12-10 14:29:59.608 13593:13593 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449728995083}
+
+[ 12-10 14:29:59.608 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@424fe518 time:113557286
+
+[ 12-10 14:29:59.888 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-10 14:30:06.128 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:06.128 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:06.138 13593:13593 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 951
+
+[ 12-10 14:30:06.138 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: -571, R: 0, B: 0
+
+[ 12-10 14:30:06.228 13593:13593 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:30:07.688 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:07.688 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:07.698 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113565370
+
+[ 12-10 14:30:07.758 13593:13593 W/dalvikvm ]
+method Lcom/huawei/android/hwcontrol/HwEditor;.isInSelectionActionMode incorrectly overrides package-private method with same name in Landroid/widget/Editor;
+
+[ 12-10 14:30:07.758 13593:13593 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 14:30:07.788 13593:13593 D/long     ]
+prestr：appid=5004&method=GetSubscribtionListByUserId&pageindex=1&pagesize=200&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:07.788 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:30:07.788 13593:13593 D/http     ]
+请求的参数：method=GetSubscribtionListByUserId&appid=5004&userid=xdf004483191&pageindex=1&pagesize=200&sign=652635EB172129D3FCB53A42D33BE347
+
+[ 12-10 14:30:07.788 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:30:07.888 13593:13593 V/AsyncHttpRH ]
+Progress 833 from 833 (100%)
+
+
+[ 12-10 14:30:07.898 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1590,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 14:30:07.898 13593:13593 D/long     ]
+response:{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1590,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 14:30:08.128 13593:13597 D/dalvikvm ]
+GC_CONCURRENT freed 6041K, 33% free 20559K/30452K, paused 3ms+7ms, total 66ms
+
+[ 12-10 14:30:08.128 13593:13593 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+
+[ 12-10 14:30:08.658 13593:13593 I/Choreographer ]
+Skipped 45 frames!  The application may be doing too much work on its main thread.
+
+[ 12-10 14:30:08.678 13593:13597 D/dalvikvm ]
+GC_CONCURRENT freed 4050K, 26% free 23110K/31000K, paused 3ms+9ms, total 74ms
+
+[ 12-10 14:30:08.748 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42a66bb0 time:113566427
+
+[ 12-10 14:30:10.608 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 208K, 23% free 26488K/34332K, paused 70ms, total 70ms
+
+[ 12-10 14:30:10.728 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729010518
+
+[ 12-10 14:30:11.498 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:11.498 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:11.498 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113569175
+
+[ 12-10 14:30:11.598 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:30:11.598 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 14:30:11.618 13593:13593 D/long     ]
+prestr：appid=5004&isrecommendedflag=1&method=GetSubscribtionListByFuzzyQuery&pageindex=1&pagesize=25&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:11.618 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:30:11.618 13593:13593 D/http     ]
+请求的参数：method=GetSubscribtionListByFuzzyQuery&appid=5004&userid=xdf004483191&isrecommendedflag=1&pageindex=1&pagesize=25&sign=4D9E04BE368FF3F163E383D2F0149D18
+
+[ 12-10 14:30:11.618 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 14:30:11.618 13593:13593 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 14:30:11.618 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:30:11.668 13593:13593 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 871
+
+[ 12-10 14:30:11.678 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: -523, R: 0, B: -523
+
+[ 12-10 14:30:11.678 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 14:30:11.698 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 1093 from 14052 ( 8%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 2441 from 14052 (17%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 3789 from 14052 (27%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 5137 from 14052 (37%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 6485 from 14052 (46%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 7833 from 14052 (56%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 9181 from 14052 (65%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 10529 from 14052 (75%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 11877 from 14052 (85%)
+
+
+[ 12-10 14:30:11.718 13593:13593 V/AsyncHttpRH ]
+Progress 14052 from 14052 (100%)
+
+
+[ 12-10 14:30:11.718 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1590,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007434",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 1,
+      "Subject": null,
+      "Id": 9
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2989,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007423",
+      "UserType": 5,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 5
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2148,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007432",
+      "UserType": 5,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 8
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00005",
+      "Name": "初中英语非应试",
+      "KeyWord": "初英",
+      "KeyColor": "7",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2275,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007426",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中英语教研组，是京城最权威的英语教学团队之一，具有独到的“输入输出”相结合的教学体系。通过一年四季细致规划及监控落实，在提升学员英语能力的基础上快速提分，成就了上万名初中英语精英。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 6
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00003",
+      "Name": "初中语文",
+      "KeyWord": "初语",
+      "KeyColor": "9",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 3023,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007421",
+      "UserType": 5,
+      "Description": "最新最全的初中语文资讯哪里有？最具权威的初中语文名师哪里有？最有效最好学的提分方法哪里有？不用四处寻找，动动你的手指，一切你想要的就在新东方初中语文订阅号！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 4
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00009",
+      "Name": "初中英语住宿",
+      "KeyWord": "初住",
+      "KeyColor": "1",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 782,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "
+
+[ 12-10 14:30:11.898 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 9. Total Items:20
+
+[ 12-10 14:30:11.938 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d66ce0 time:113569618
+
+[ 12-10 14:30:12.098 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 9. Total Items:20
+
+[ 12-10 14:30:13.638 13593:13593 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 19 Last Visible Pos: 8
+
+[ 12-10 14:30:13.738 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:13.738 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:13.738 13593:13593 D/long     ]
+prestr：appid=5004&method=AddAttention&subcribcode=DYH00007&userid=xdf004483191&usertype=1&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:13.738 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:30:13.748 13593:13593 D/http     ]
+请求的参数：method=AddAttention&appid=5004&userid=xdf004483191&usertype=1&subcribcode=DYH00007&sign=891B1FDD8ED38D598F5F823C32F7B66D
+
+[ 12-10 14:30:13.748 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 14:30:23.618 13593:13593 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 14:30:23.618 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 14:30:23.708 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 9. Total Items:20
+
+[ 12-10 14:30:26.558 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 8499K, 23% free 23895K/31000K, paused 88ms, total 88ms
+
+[ 12-10 14:30:26.658 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 68K, 21% free 27157K/34332K, paused 64ms, total 64ms
+
+[ 12-10 14:30:26.798 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729026452
+
+[ 12-10 14:30:27.128 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:27.178 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:27.238 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42a66bb0 time:113584914
+
+[ 12-10 14:30:27.558 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 14:30:29.598 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:29.648 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:29.678 13593:13593 D/long     ]
+onRestart
+
+[ 12-10 14:30:29.678 13593:13593 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:30:29.688 13593:13593 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:30:29.688 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:30:29.688 13593:13593 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:30:29.758 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@424fe518 time:113587431
+
+[ 12-10 14:30:29.758 13593:13593 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:30:29.758 13593:13593 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729025248}
+
+[ 12-10 14:30:29.758 13593:13593 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729025248}
+
+[ 12-10 14:30:30.048 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:30:30.658 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:30.658 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:31.998 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:31.998 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:31.998 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113589673
+
+[ 12-10 14:30:32.058 13593:13593 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 14:30:32.078 13593:13593 D/long     ]
+prestr：appid=5004&method=GetSubscribtionListByUserId&pageindex=1&pagesize=200&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:32.078 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:30:32.078 13593:13593 D/http     ]
+请求的参数：method=GetSubscribtionListByUserId&appid=5004&userid=xdf004483191&pageindex=1&pagesize=200&sign=652635EB172129D3FCB53A42D33BE347
+
+[ 12-10 14:30:32.078 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:30:32.198 13593:13593 V/AsyncHttpRH ]
+Progress 1094 from 1615 (68%)
+
+
+[ 12-10 14:30:32.198 13593:13593 V/AsyncHttpRH ]
+Progress 1615 from 1615 (100%)
+
+
+[ 12-10 14:30:32.198 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1590,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2149,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 0,
+      "Subject": "物理",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 2
+}
+
+[ 12-10 14:30:32.198 13593:13593 D/long     ]
+response:{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1590,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 0,
+      "Subject": "化学",
+      "Id": 0
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2149,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": null,
+      "UserType": null,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 0,
+      "Subject": "物理",
+      "Id": 0
+    }
+  ],
+  "Error": "",
+  "DataCount": 2
+}
+
+[ 12-10 14:30:32.288 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42036a48 time:113589969
+
+[ 12-10 14:30:33.888 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 7584K, 23% free 23957K/31000K, paused 95ms, total 95ms
+
+[ 12-10 14:30:33.958 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 740K, 23% free 26549K/34332K, paused 57ms, total 58ms
+
+[ 12-10 14:30:34.078 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729033796
+
+[ 12-10 14:30:34.528 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:34.598 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:34.618 13593:13593 D/long     ]
+onRestart
+
+[ 12-10 14:30:34.628 13593:13593 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:30:34.628 13593:13593 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:30:34.628 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:30:34.628 13593:13593 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:30:34.708 13593:13593 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:30:34.708 13593:13593 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729030181}
+
+[ 12-10 14:30:34.708 13593:13593 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729030181}
+
+[ 12-10 14:30:34.718 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@424fe518 time:113592393
+
+[ 12-10 14:30:34.988 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.MySubscriptionActivity
+
+[ 12-10 14:30:38.498 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:38.498 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:39.128 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:39.128 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:39.128 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113596807
+
+[ 12-10 14:30:39.218 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:30:39.228 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 14:30:39.228 13593:13593 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 14:30:39.228 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 14:30:39.258 13593:13593 D/long     ]
+prestr：appid=5004&filetype=0&method=GetFileStoreListByUserId&pageindex=1&pagesize=10&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:39.258 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 14:30:39.258 13593:13593 D/http     ]
+请求的参数：method=GetFileStoreListByUserId&appid=5004&userid=xdf004483191&filetype=0&pageindex=1&pagesize=10&sign=FC3AEB1A7B3DCD5385C74C9B673547D4
+
+[ 12-10 14:30:39.258 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:30:39.328 13593:13593 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1046
+
+[ 12-10 14:30:39.328 13593:13593 D/PullToRefresh ]
+Setting Padding. L: 0, T: -627, R: 0, B: -627
+
+[ 12-10 14:30:39.388 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:30:39.468 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 14:30:39.498 13593:13593 V/AsyncHttpRH ]
+Progress 988 from 988 (100%)
+
+
+[ 12-10 14:30:39.498 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "FileId": "59882",
+      "FileName": "光子鼻与分子材料研究团队在新型蛋白质基界面材料领域取得重要进展",
+      "FileExt": "pdf",
+      "CreatedDate": "2015-12-10 14:11:57",
+      "SubscribedName": "初中化学",
+      "KeyColor": "10",
+      "KeyWord": "初化",
+      "SubscribedFileId": 947,
+      "SchoolId": 0,
+      "ClassCode": "",
+      "ClassName": "",
+      "DownLoadCount": 1,
+      "FileStoreId": 10009,
+      "Attribute": "subscription",
+      "SubscriberCode": "DYH00008",
+      "VideoId": "59882",
+      "FileType": "1",
+      "ViewCount": 15,
+      "SystemName": "806c8c9636954b84ac0b42a9522f085e",
+      "ResourcePath": "/0/DYH00008/",
+      "StoredCount": 3,
+      "CommentedCount": 2,
+      "PraiseCount": 1,
+      "HasPraised": 0,
+      "HasStored": 1,
+      "IsView": 1,
+      "BeginDate": null,
+      "EndDate": null
+    }
+  ],
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 14:30:39.718 13593:13597 D/dalvikvm ]
+GC_CONCURRENT freed 8856K, 22% free 24456K/31000K, paused 2ms+7ms, total 106ms
+
+[ 12-10 14:30:39.778 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 4. Total Items:4
+
+[ 12-10 14:30:39.858 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4297ecc0 time:113597536
+
+[ 12-10 14:30:40.018 13593:13593 D/PullToRefresh ]
+First Visible: 0. Visible Count: 4. Total Items:4
+
+[ 12-10 14:30:47.678 13593:13593 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 3 Last Visible Pos: 3
+
+[ 12-10 14:30:47.738 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:30:47.738 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:30:47.738 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113605412
+
+[ 12-10 14:30:47.828 13593:13593 D/long     ]
+className:初中化学
+
+[ 12-10 14:30:47.878 13593:13593 D/long     ]
+prestr：appid=5004&method=AddSubScriberFileViewHistory&subfileid=947&userid=xdf004483191&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 14:30:47.878 13593:13593 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 14:30:47.878 13593:13593 D/http     ]
+请求的参数：method=AddSubScriberFileViewHistory&appid=5004&userid=xdf004483191&usertype=5&subfileid=947&sign=A1B2BE39E66FCAC88EF7917266A373E0
+
+[ 12-10 14:30:47.878 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 14:30:47.988 13593:13593 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 14:30:47.988 13593:13593 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 14:30:48.038 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@432346f8 time:113605716
+
+[ 12-10 14:30:54.438 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@432346f8 time:113612110
+
+[ 12-10 14:30:54.598 13593:13597 D/dalvikvm ]
+GC_CONCURRENT freed 3499K, 21% free 27651K/34988K, paused 8ms+9ms, total 130ms
+
+[ 12-10 14:30:54.598 13593:13593 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 96ms
+
+[ 12-10 14:30:54.748 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729053546
+
+[ 12-10 14:30:55.218 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:55.288 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:30:55.348 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4297ecc0 time:113613026
+
+[ 12-10 14:30:55.658 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 14:30:57.328 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 7804K, 32% free 23866K/34988K, paused 98ms, total 98ms
+
+[ 12-10 14:30:57.398 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 28K, 23% free 27168K/34988K, paused 59ms, total 59ms
+
+[ 12-10 14:30:57.528 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729057230
+
+[ 12-10 14:31:05.308 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:05.348 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:05.378 13593:13593 D/long     ]
+onRestart
+
+[ 12-10 14:31:05.378 13593:13593 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:31:05.378 13593:13593 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:31:05.378 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:31:05.398 13593:13593 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:31:05.428 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@424fe518 time:113623108
+
+[ 12-10 14:31:05.508 13593:13593 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:31:05.508 13593:13593 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729060929}
+
+[ 12-10 14:31:05.508 13593:13593 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729060929}
+
+[ 12-10 14:31:05.748 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.MyCollectionActivity
+
+[ 12-10 14:31:06.258 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:06.258 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:10.458 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:10.458 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:10.458 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113628133
+
+[ 12-10 14:31:10.648 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113628328
+
+[ 12-10 14:31:12.388 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 7378K, 32% free 23886K/34988K, paused 104ms, total 104ms
+
+[ 12-10 14:31:12.468 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 949K, 25% free 26267K/34988K, paused 63ms, total 63ms
+
+[ 12-10 14:31:12.468 13593:13593 I/dalvikvm-heap ]
+Grow heap (frag case) to 34.648MB for 3409936-byte allocation
+
+[ 12-10 14:31:12.568 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729072297
+
+[ 12-10 14:31:13.008 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:13.008 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:13.018 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.qihoo.appstore time:113630693
+
+[ 12-10 14:31:13.028 13593:13593 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:31:13.028 13593:13593 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1639)
+
+[ 12-10 14:31:13.028 13593:13593 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1435)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3482)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3437)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3685)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3653)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.view.View.performClick(View.java:4457)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18491)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:733)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+
+[ 12-10 14:31:13.038 13593:13593 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:31:14.328 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:14.328 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:14.328 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.qihoo.appstore time:113632009
+
+[ 12-10 14:31:14.508 13593:13593 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1639)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1435)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3482)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3437)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3685)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3653)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.view.View.performClick(View.java:4457)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18491)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:733)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+
+[ 12-10 14:31:14.518 13593:13593 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:31:15.448 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:15.448 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:15.448 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.qihoo.appstore time:113633129
+
+[ 12-10 14:31:15.458 13593:13593 W/System.err ]
+android.content.ActivityNotFoundException: Unable to find explicit activity class {com.qihoo.appstore/com.qihoo.appstore.activities.SearchDistributionActivity}; have you declared this activity in your AndroidManifest.xml?
+
+[ 12-10 14:31:15.458 13593:13593 W/System.err ]
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1639)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1435)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3482)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.app.Activity.startActivityForResult(Activity.java:3437)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3685)
+
+[ 12-10 14:31:15.478 13593:13593 W/System.err ]
+	at android.app.Activity.startActivity(Activity.java:3653)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at com.xdf.ucan.ui.me.SettingActivity.onClick(SettingActivity.java:103)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.view.View.performClick(View.java:4457)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.view.View$PerformClick.run(View.java:18491)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:733)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5336)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-10 14:31:15.488 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:873)
+
+[ 12-10 14:31:15.498 13593:13593 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:689)
+
+[ 12-10 14:31:15.498 13593:13593 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-10 14:31:16.068 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:16.068 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:16.088 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113633760
+
+[ 12-10 14:31:16.148 13593:13593 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {41d21838}
+
+[ 12-10 14:31:16.158 13593:13593 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-10 14:31:16.188 13593:13593 I/chromium ]
+[INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-10 14:31:16.188 13593:13593 I/BrowserStartupController ]
+Initializing chromium process, renderers=0
+
+[ 12-10 14:31:16.208 13593:13593 I/chromium ]
+[INFO:url_util.cc(431)] AddStandardScheme is not supported
+
+
+[ 12-10 14:31:16.208 13593:13593 I/chromium ]
+[INFO:url_util.cc(431)] AddStandardScheme is not supported
+
+
+[ 12-10 14:31:16.208 13593:13593 I/chromium ]
+[INFO:url_util.cc(431)] AddStandardScheme is not supported
+
+
+[ 12-10 14:31:16.208 13593:13593 I/chromium ]
+[INFO:url_util.cc(431)] AddStandardScheme is not supported
+
+
+[ 12-10 14:31:16.238 13593:13593 V/AudioManager ]
+isSpeakerphoneOn...
+
+[ 12-10 14:31:16.238 13593:13593 V/AudioManager ]
+isMicrophoneMute... 
+
+[ 12-10 14:31:16.248 13593:13593 E/AudioManagerAndroid ]
+BLUETOOTH permission is missing!
+
+[ 12-10 14:31:16.358 13593:14556 W/chromium ]
+[WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+
+
+[ 12-10 14:31:16.538 13593:13593 D/data     ]
+jsData:2.1.0
+
+[ 12-10 14:31:16.698 13593:13593 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 14:31:16.698 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41fa6fd8 time:113634379
+
+[ 12-10 14:31:19.058 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 8173K, 27% free 23333K/31564K, paused 89ms, total 89ms
+
+[ 12-10 14:31:19.148 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 42K, 24% free 26621K/34896K, paused 62ms, total 62ms
+
+[ 12-10 14:31:19.268 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729078978
+
+[ 12-10 14:31:22.238 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 6752K, 27% free 23303K/31564K, paused 64ms, total 65ms
+
+[ 12-10 14:31:22.318 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 15K, 24% free 26618K/34896K, paused 59ms, total 59ms
+
+[ 12-10 14:31:22.428 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729082179
+
+[ 12-10 14:31:24.068 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:24.078 13593:13593 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2233)
+
+[ 12-10 14:31:24.208 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:24.278 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113641956
+
+[ 12-10 14:31:24.618 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:31:24.618 13593:13593 D/WebView  ]
+[WebView::mustAttachToEglContext] [android.view.ViewRootImpl@427a53c8] isHw=[true] eglContext=[com.google.android.gles_jni.EGLContextImpl@0]
+
+[ 12-10 14:31:24.618 13593:13593 D/WebView  ]
+[WebView::onDetachedFromWindow] run on executeHardwareAction
+
+[ 12-10 14:31:29.398 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:29.398 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:29.398 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113647077
+
+[ 12-10 14:31:29.588 13593:13593 D/data     ]
+jsData:2.1.0
+
+[ 12-10 14:31:29.668 13593:13593 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 14:31:29.708 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4287d6c8 time:113647382
+
+[ 12-10 14:31:31.418 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 8067K, 26% free 23525K/31564K, paused 123ms, total 123ms
+
+[ 12-10 14:31:31.498 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 281K, 24% free 26573K/34896K, paused 60ms, total 60ms
+
+[ 12-10 14:31:31.628 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729091303
+
+[ 12-10 14:31:32.438 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:32.438 13593:13593 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2233)
+
+[ 12-10 14:31:32.508 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:32.578 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113650254
+
+[ 12-10 14:31:32.898 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:31:32.898 13593:13593 D/WebView  ]
+[WebView::mustAttachToEglContext] [android.view.ViewRootImpl@426970d8] isHw=[true] eglContext=[com.google.android.gles_jni.EGLContextImpl@0]
+
+[ 12-10 14:31:32.898 13593:13593 D/WebView  ]
+[WebView::onDetachedFromWindow] run on executeHardwareAction
+
+[ 12-10 14:31:33.608 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:33.608 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:33.608 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113651284
+
+[ 12-10 14:31:33.668 13593:13593 E/textview ]
+initAddtionalStyle default
+
+[ 12-10 14:31:33.818 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ac87a0 time:113651495
+
+[ 12-10 14:31:36.378 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 7077K, 27% free 23353K/31564K, paused 82ms, total 82ms
+
+[ 12-10 14:31:36.448 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 13K, 24% free 26670K/34896K, paused 56ms, total 56ms
+
+[ 12-10 14:31:36.538 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729096306
+
+[ 12-10 14:31:37.748 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:37.858 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:37.908 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113655585
+
+[ 12-10 14:31:38.218 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.HelpFeedbackActivity
+
+[ 12-10 14:31:39.028 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:39.028 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:39.028 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113656698
+
+[ 12-10 14:31:39.128 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 6937K, 26% free 23542K/31564K, paused 65ms, total 65ms
+
+[ 12-10 14:31:39.248 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 14K, 23% free 27130K/35168K, paused 65ms, total 65ms
+
+[ 12-10 14:31:39.348 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 21% free 30731K/38772K, paused 56ms, total 56ms
+
+[ 12-10 14:31:39.448 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 2K, 19% free 34332K/42376K, paused 55ms, total 55ms
+
+[ 12-10 14:31:39.528 13593:13593 I/System.out ]
+间距: 46
+
+[ 12-10 14:31:39.638 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42a54330 time:113657301
+
+[ 12-10 14:31:43.478 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 113K, 18% free 38006K/45980K, paused 96ms, total 96ms
+
+[ 12-10 14:31:43.568 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 94K, 17% free 41242K/49312K, paused 56ms, total 57ms
+
+[ 12-10 14:31:43.668 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729103396
+
+[ 12-10 14:31:44.178 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:44.258 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:44.348 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113662022
+
+[ 12-10 14:31:44.658 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.splash.SplashActivity
+
+[ 12-10 14:31:45.928 13593:13593 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 14:31:45.928 13593:13593 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 14:31:45.928 13593:13593 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:113663600
+
+[ 12-10 14:31:46.148 13593:13593 D/data     ]
+jsData:null
+
+[ 12-10 14:31:46.238 13593:13593 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-10 14:31:46.238 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42b05a28 time:113663916
+
+[ 12-10 14:31:48.018 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 8087K, 17% free 38159K/45964K, paused 81ms, total 81ms
+
+[ 12-10 14:31:48.098 13593:13593 D/dalvikvm ]
+GC_FOR_ALLOC freed 14686K, 46% free 26804K/49296K, paused 62ms, total 62ms
+
+[ 12-10 14:31:48.228 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729107939
+
+[ 12-10 14:31:48.808 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:48.808 13593:13593 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2233)
+
+[ 12-10 14:31:48.868 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:48.928 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41ea1688 time:113666607
+
+[ 12-10 14:31:49.248 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.WebViewActivity
+
+[ 12-10 14:31:49.248 13593:13593 D/WebView  ]
+[WebView::mustAttachToEglContext] [android.view.ViewRootImpl@428da8a8] isHw=[true] eglContext=[com.google.android.gles_jni.EGLContextImpl@0]
+
+[ 12-10 14:31:49.248 13593:13593 D/WebView  ]
+[WebView::onDetachedFromWindow] run on executeHardwareAction
+
+[ 12-10 14:31:51.458 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:51.528 13593:13593 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 14:31:51.548 13593:13593 D/long     ]
+onRestart
+
+[ 12-10 14:31:51.548 13593:13593 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 14:31:51.548 13593:13593 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 14:31:51.548 13593:13593 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 14:31:51.548 13593:13593 D/ImageLoader ]
+Load image from memory cache [http://my.xdf.cn/public/images/User/_Big.jpg_140x140]
+
+[ 12-10 14:31:51.578 13593:13593 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@424fe518 time:113669258
+
+[ 12-10 14:31:51.628 13593:13593 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 14:31:51.628 13593:13593 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729107107}
+
+[ 12-10 14:31:51.628 13593:13593 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449729107107}
+
+[ 12-10 14:31:51.908 13593:13593 D/long     ]
+cancle request：com.xdf.ucan.ui.me.SettingActivity
+
+[ 12-10 14:31:57.908 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Log:1449729117925
+
+[ 12-10 14:31:58.068 13593:13597 D/dalvikvm ]
+GC_CONCURRENT freed 7097K, 30% free 26808K/38224K, paused 10ms+7ms, total 96ms
+
+[ 12-10 14:31:58.068 13593:13593 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 87ms
+
+[ 12-10 14:31:58.168 13593:13639 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449729117972
+
+[ 12-10 14:31:58.168 13593:13639 W/dalvikvm ]
+threadid=24: thread exiting with uncaught exception (group=0x4162de18)
+
+[ 12-10 14:31:58.168 13593:13639 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 14:31:58.168 13593:13728 I/System.out ]
+type: value, col: 2
+
+[ 12-10 14:31:58.178 13593:13728 I/System.out ]
+type: value, col: 1
+
+[ 12-10 14:31:58.218 13593:13728 I/Process  ]
+Sending signal. PID: 13593 SIG: 9
+
+[ 12-10 14:31:58.258 13614:13614 D/RongService ]
+onUnbind, pid=13614
+
+[ 12-10 14:31:58.258 13614:13614 D/RongService ]
+onDestroy, pid=13614
+
+[ 12-10 14:31:58.258 13614:13614 I/Process  ]
+Sending signal. PID: 13614 SIG: 9
+
+[ 12-10 14:32:27.088 14630:14630 D/ActivityThread ]
+handleBindApplication:io.rong.push
+
+[ 12-10 14:32:27.088 14630:14630 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 14:32:27.088 14630:14630 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 14:32:27.098 14630:14630 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 14:32:27.488 14630:14630 D/long     ]
+连接的数据库是：xdf004483191.db
+
+[ 12-10 14:32:27.508 14630:14630 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 14:32:27.508 14630:14630 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 14:32:27.538 14630:14630 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 14:32:27.548 14630:14630 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 14:32:27.628 14630:14630 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3500
+
+[ 12-10 14:32:27.638 14630:14630 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 14:32:27.638 14630:14630 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 14:32:27.998 14630:14630 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 14:32:27.998 14630:14630 I/PushService ]
+PushService OnCreate
+
+[ 12-10 14:32:28.008 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:32:28.008 14630:14645 I/##COMMON_io.rong.push.PushService:DeviceId ]
+865206021909525
+
+[ 12-10 14:32:28.028 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:32:28.028 14630:14645 I/PushHandler ]
+the saved time = 1449727013495current time = 1449729148038
+
+[ 12-10 14:32:28.028 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:32:28.068 14630:14645 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001
+
+[ 12-10 14:32:28.068 14630:14645 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001 push version:2.6
+
+[ 12-10 14:32:28.178 14630:14645 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:32:31.148 14630:14630 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 14:32:31.158 14630:14630 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 14:32:32.178 14630:14645 W/System.err ]
+java.net.SocketTimeoutException: failed to connect to /119.254.111.243 (port 8608) after 4000ms
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at java.net.Socket.connect(Socket.java:866)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at io.rong.push.PushClient.connect(PushClient.java:50)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at io.rong.push.PushService$PushHandler.connect(PushService.java:272)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at io.rong.push.PushService$PushHandler.heartbeat(PushService.java:333)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at io.rong.push.PushService.onHandleIntent(PushService.java:148)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at io.rong.push.PushService$ServiceHandler.handleMessage(PushService.java:104)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-10 14:32:32.188 14630:14645 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-10 14:32:32.198 14630:14645 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 14:32:32.208 14630:14645 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 14:32:32.208 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushService:DeviceId ]
+865206021909525
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 14:32:32.218 14630:14645 I/PushHandler ]
+the saved time = 1449727013495current time = 1449729152230
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001 push version:2.6
+
+[ 12-10 14:32:32.218 14630:14645 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 14:32:32.378 14630:14647 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 14:32:32.388 14630:14647 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 14:32:32.388 14630:14647 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 14:32:32.388 14630:14647 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+

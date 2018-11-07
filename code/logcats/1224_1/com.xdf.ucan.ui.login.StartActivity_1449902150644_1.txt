@@ -1,0 +1,2369 @@
+--------- beginning of /dev/log/main
+[ 12-12 14:34:36.073  8974: 8974 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-12 14:34:36.073  8974: 8974 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = io.rong.imkit.RongIMClientWrapper$1@429f9dd8
+
+[ 12-12 14:34:36.233  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 162K, 8% free 9750K/10567K, paused 14ms+1ms, total 35ms
+
+[ 12-12 14:34:36.233  9234: 9234 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+
+[ 12-12 14:34:36.263  9234: 9234 D/long     ]
+连接的数据库是：xdf004487167.db
+
+[ 12-12 14:34:36.284  9234: 9234 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 14:34:36.314  9234: 9234 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-12 14:34:36.384  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 298K, 9% free 9968K/10951K, paused 3ms+13ms, total 31ms
+
+[ 12-12 14:34:36.384  9234: 9234 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-12 14:34:36.384  9234: 9234 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-12 14:34:36.394  9234: 9234 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-12 14:34:36.414  9234: 9234 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:34:36.464  9234: 9234 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+3000
+
+[ 12-12 14:34:36.474  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-12 14:34:36.484  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-12 14:34:36.494  9234: 9234 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-12 14:34:36.494  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-12 14:34:36.494  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-12 14:34:36.494  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-12 14:34:36.544  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 309K, 10% free 10074K/11079K, paused 12ms+3ms, total 31ms
+
+[ 12-12 14:34:36.554  9234: 9234 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-12 14:34:36.584  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 47K, 9% free 10091K/11079K, paused 17ms, total 17ms
+
+[ 12-12 14:34:36.594  9234: 9234 I/dalvikvm-heap ]
+Grow heap (frag case) to 14.008MB for 3686416-byte allocation
+
+[ 12-12 14:34:36.604  9253: 9256 D/dalvikvm ]
+GC_CONCURRENT freed 160K, 8% free 9752K/10567K, paused 13ms+1ms, total 38ms
+
+[ 12-12 14:34:36.604  9253: 9253 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 8ms
+
+[ 12-12 14:34:36.634  9253: 9253 D/long     ]
+连接的数据库是：xdf004487167.db
+
+[ 12-12 14:34:36.634  9234: 9241 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 8% free 13691K/14727K, paused 43ms, total 43ms
+
+[ 12-12 14:34:36.644  9253: 9253 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 14:34:36.644  9253: 9253 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-12 14:34:36.654  9253: 9253 D/RongService ]
+onCreate, pid=9253
+
+[ 12-12 14:34:36.654  9253: 9253 D/RongService ]
+onBind, pid=9253
+
+[ 12-12 14:34:36.664  9234: 9241 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '+data+data+com_xdf_ucan+databases+rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-12 14:34:36.674  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 1K, 8% free 13692K/14727K, paused 12ms+2ms, total 36ms
+
+[ 12-12 14:34:36.694  9253: 9253 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+354963055967112
+
+[ 12-12 14:34:36.694  9253: 9253 D/dalvikvm ]
+Trying to load lib /data/data/com.xdf.ucan/lib/libRongIMLib.so 0x429f4510
+
+[ 12-12 14:34:36.694  9253: 9253 D/dalvikvm ]
+Added shared lib /data/data/com.xdf.ucan/lib/libRongIMLib.so 0x429f4510
+
+[ 12-12 14:34:36.694  9253: 9253 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-12 14:34:36.724  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 5K, 8% free 13687K/14727K, paused 14ms, total 14ms
+
+[ 12-12 14:34:36.724  9234: 9234 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.983MB for 2073616-byte allocation
+
+[ 12-12 14:34:36.724  9253: 9256 D/dalvikvm ]
+GC_CONCURRENT freed 269K, 9% free 9910K/10887K, paused 4ms+20ms, total 38ms
+
+[ 12-12 14:34:36.754  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 7% free 15712K/16775K, paused 12ms+2ms, total 33ms
+
+[ 12-12 14:34:36.774  9234: 9234 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-12 14:34:36.774  9234: 9234 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=yX1IcHQNmU5ZvZ2d+VcEcw==&encodePwd=pGbcgXKJc1eCGWW7WtFFrA==&guid=33f968c6-afd9-453c-8d76-d1aac6e42ad1&sign=41F2ABE53C2C2215CA1D4EEBF83E1058&appOption=1&accessTokenOption=1
+
+[ 12-12 14:34:36.774  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:34:36.804  9234: 9234 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@43069cf8
+
+[ 12-12 14:34:36.834  9234: 9234 D/libEGL   ]
+loaded /vendor/lib/egl/libGLES_vc4.so
+
+[ 12-12 14:34:36.834  9234: 9234 D/         ]
+SpyHook inactive - could not find libspyhook.so [Symbol not found: ] or not enabled (debug.egl.hw.spy = 0)
+
+[ 12-12 14:34:36.834  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:36.834  9234: 9234 W/khrn_client ]
+init_window window 0x4fa26850, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:36.854  9234: 9234 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 14:34:36.884  9234: 9234 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-12 14:34:37.034  9234: 9234 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-12 14:34:37.034  9234: 9234 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004487167\",\"NickName\":\"151212141552223_v\",\"HideMobile\":\"156****6237\",\"HideEmail\":\"151****41552223d2c06_v@v.com\",\"Mobile\":\"15666016237\",\"Email\":\"151212141552223d2c06_v@v.com\",\"LoginToken\":\"bbef6590-ed71-4f3b-806f-ca992e647230\",\"Sign\":\"EE6448181D5C58E401F9765949E1E42A\",\"AccessToken\":\"bbef6590-ed71-4f3b-806f-ca992e647230\",\"AccessTokenExpireTime\":\"2016-01-31 04:33:47\"}","Message":"成功"}
+
+[ 12-12 14:34:37.034  9234: 9234 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004487167\",\"NickName\":\"151212141552223_v\",\"HideMobile\":\"156****6237\",\"HideEmail\":\"151****41552223d2c06_v@v.com\",\"Mobile\":\"15666016237\",\"Email\":\"151212141552223d2c06_v@v.com\",\"LoginToken\":\"bbef6590-ed71-4f3b-806f-ca992e647230\",\"Sign\":\"EE6448181D5C58E401F9765949E1E42A\",\"AccessToken\":\"bbef6590-ed71-4f3b-806f-ca992e647230\",\"AccessTokenExpireTime\":\"2016-01-31 04:33:47\"}","Message":"成功"}
+
+[ 12-12 14:34:37.054  9234: 9234 D/long     ]
+{"UserId":"xdf004487167","NickName":"151212141552223_v","HideMobile":"156****6237","HideEmail":"151****41552223d2c06_v@v.com","Mobile":"15666016237","Email":"151212141552223d2c06_v@v.com","LoginToken":"bbef6590-ed71-4f3b-806f-ca992e647230","Sign":"EE6448181D5C58E401F9765949E1E42A","AccessToken":"bbef6590-ed71-4f3b-806f-ca992e647230","AccessTokenExpireTime":"2016-01-31 04:33:47"}
+
+[ 12-12 14:34:37.074  9234: 9234 D/long     ]
+DATABASE_NAME:xdf004487167.db
+
+[ 12-12 14:34:37.104  9234: 9234 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:34:37.104  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-12 14:34:37.104  9234: 9234 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004487167&sign=3716B92B4FD18BFEE35DC6F2222B6731
+
+[ 12-12 14:34:37.104  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:34:37.325  9234: 9234 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-12 14:34:37.325  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:34:37.445  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-12 14:34:37.445  9234: 9234 D/http     ]
+请求的参数：
+
+[ 12-12 14:34:37.445  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:37.445  9234: 9234 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-12 14:34:37.445  9234: 9234 D/http     ]
+请求的参数：userId=xdf004487167&size=big
+
+[ 12-12 14:34:37.445  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:37.445  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:34:37.455  9234: 9234 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:34:37.455  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:37.495  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:37.495  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:37.495  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:37.505  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:37.505  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:37.505  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:37.505  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:34:37.565  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 4891K, 31% free 12886K/18439K, paused 14ms+15ms, total 59ms
+
+[ 12-12 14:34:37.565  9234: 9234 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 4ms
+
+[ 12-12 14:34:37.585  9234: 9234 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-12 14:34:37.615  9234: 9234 D/long     ]
+prestr：appid=5004&examenddate=2015-12-12 14:34:37.627&examstartdate=2015-12-12 14:31:13.104&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-12 14:34:37.607&resourcestartdate=2015-12-12 14:28:32.169&schoolid=0&userid=xdf004487167&videoenddate=2015-12-12 14:34:37.618&videostartdate=2015-12-12 14:24:11.355&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:34:37.625  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:34:37.625  9234: 9234 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004487167&schoolid=0&resourcestartdate=2015-12-12 14:28:32.169&resourceenddate=2015-12-12 14:34:37.607&videostartdate=2015-12-12 14:24:11.355&videoenddate=2015-12-12 14:34:37.618&examstartdate=2015-12-12 14:31:13.104&examenddate=2015-12-12 14:34:37.627&appid=5004&sign=F2056A5A691E46CD36430383A8C88931
+
+[ 12-12 14:34:37.625  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:37.685  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:37.685  9234: 9234 W/khrn_client ]
+init_window window 0x5411c320, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:37.705  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 624
+
+[ 12-12 14:34:37.705  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -374, R: 0, B: 0
+
+[ 12-12 14:34:37.705  9234: 9234 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-12 14:34:37.705  9234: 9234 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449902027791}
+
+[ 12-12 14:34:37.705  9234: 9234 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449902027791}
+
+[ 12-12 14:34:37.865  9234: 9234 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-12 14:34:37.865  9234: 9234 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-12 14:34:37.915  9234: 9265 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-12 14:34:37.995  9234: 9234 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-12 14:34:38.045  9234: 9234 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-12 14:34:38.045  9234: 9296 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-12 14:34:38.045  9234: 9296 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-12 14:34:38.045  9234: 9234 W/egl_server ]
+Allocating storage 1x1 surface type 0x1
+
+[ 12-12 14:34:38.476  9234: 9234 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 14:34:38.476  9234: 9234 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 14:34:38.476  9234: 9234 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-12 14:34:38.476  9234: 9234 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-12 14:34:39.146  9234: 9234 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:34:39.146  9234: 9234 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902029099}
+
+[ 12-12 14:34:39.146  9234: 9234 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902029099}
+
+[ 12-12 14:34:39.577  9297: 9299 D/dalvikvm ]
+GC_CONCURRENT freed 162K, 8% free 9750K/10567K, paused 17ms+1ms, total 36ms
+
+[ 12-12 14:34:39.577  9297: 9297 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 8ms
+
+[ 12-12 14:34:39.597  9297: 9297 D/long     ]
+连接的数据库是：xdf004487167.db
+
+[ 12-12 14:34:39.607  9297: 9297 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 14:34:39.617  9297: 9297 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 14:34:39.627  9297: 9297 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 14:34:39.667  9297: 9297 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:34:39.687  9297: 9299 D/dalvikvm ]
+GC_CONCURRENT freed 299K, 10% free 9905K/10887K, paused 15ms+2ms, total 40ms
+
+[ 12-12 14:34:39.737  9297: 9297 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2100
+
+[ 12-12 14:34:39.737  9297: 9297 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 14:34:39.747  9297: 9297 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 14:34:39.747  9297: 9297 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 14:34:39.747  9297: 9297 I/PushService ]
+PushService OnCreate
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService:DeviceId ]
+354963055967112
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.102.85:8601
+
+[ 12-12 14:34:39.777  9297: 9313 I/PushHandler ]
+the saved time = 1449900928561current time = 1449902079786
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.102.85:8601
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-I9082|16|WIFI|46001
+
+[ 12-12 14:34:39.777  9297: 9313 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-I9082|16|WIFI|46001 push version:2.6
+
+[ 12-12 14:34:39.787  9297: 9313 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 14:34:41.278  9234: 9234 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 14:34:41.278  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:34:41.278  9234: 9234 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:34:41.419  9297: 9315 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 14:34:41.429  9297: 9315 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 14:34:41.429  9297: 9315 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 14:34:41.429  9297: 9315 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 14:34:41.829  9297: 9297 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 14:34:41.859  9297: 9297 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 14:34:41.879  9297: 9313 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 14:34:41.879  9297: 9313 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-12 14:34:44.311  9234: 9234 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:44.311  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:44.321  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:44.321  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:44.321  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:44.321  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:34:44.321  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:34:44.361  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 523K, 27% free 13513K/18439K, paused 2ms+13ms, total 35ms
+
+[ 12-12 14:34:44.361  9234: 9234 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 32ms
+
+[ 12-12 14:34:44.381  9234: 9317 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-12 14:34:44.381  9234: 9234 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:34:44.381  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:34:44.381  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:44.381  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:44.381  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:44.401  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=3&method=GetSubscriberFileListByUserIdWithTimeStamp&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:34:44.410&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:34:44.401  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:34:44.401  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=3&timestamp=2015-12-12 14:34:44.410&userid=xdf004487167&appid=5004&pageindex=1&pagesize=10&sign=0E96C4B933B7CAC47C000042E8E23D34
+
+[ 12-12 14:34:44.401  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-12 14:34:44.441  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:44.441  9234: 9234 W/khrn_client ]
+init_window window 0x54357358, 480x762 hintTransform 0x0
+
+[ 12-12 14:34:44.472  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:44.472  9234: 9234 W/khrn_client ]
+init_window window 0x54183010, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:44.492  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 696
+
+[ 12-12 14:34:44.492  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -417, R: 0, B: -417
+
+[ 12-12 14:34:44.522  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:44.562  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:44.612  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:44.612  9234: 9234 W/khrn_client ]
+init_window window 0x54357358, 480x762 hintTransform 0x0
+
+[ 12-12 14:34:44.662  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:45.693  9234: 9234 D/long     ]
+onRestart
+
+[ 12-12 14:34:45.693  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:34:45.693  9234: 9234 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:34:45.693  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:45.743  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:45.743  9234: 9234 W/khrn_client ]
+init_window window 0x523ee7f8, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:45.803  9234: 9234 D/long     ]
+cancle request：com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-12 14:34:45.873  9234: 9234 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 14:34:45.873  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:34:45.943  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 951K, 26% free 13789K/18439K, paused 25ms, total 25ms
+
+[ 12-12 14:34:46.674  9234: 9234 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:34:46.674  9234: 9234 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902036033}
+
+[ 12-12 14:34:46.674  9234: 9234 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902036033}
+
+[ 12-12 14:34:46.704  9234: 9234 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-12 14:34:46.704  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:46.704  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:46.704  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:46.714  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:46.714  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:34:46.714  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:34:46.724  9234: 9234 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:34:46.724  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:34:46.724  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:34:46.724  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:34:46.724  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:34:46.744  9234: 9234 D/liang    ]
+initData
+
+[ 12-12 14:34:46.744  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:34:46.744  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:34:46.754  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:34:46.754  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:34:46.814  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:46.814  9234: 9234 W/khrn_client ]
+init_window window 0x5436b990, 480x762 hintTransform 0x0
+
+[ 12-12 14:34:46.844  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:46.844  9234: 9234 W/khrn_client ]
+init_window window 0x5436a9e8, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:46.854  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 696
+
+[ 12-12 14:34:46.854  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -417, R: 0, B: -417
+
+[ 12-12 14:34:46.874  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:46.894  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:46.894  9234: 9234 W/khrn_client ]
+init_window window 0x5436b990, 480x762 hintTransform 0x0
+
+[ 12-12 14:34:46.934  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:46.984  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:34:59.847  9234: 9234 D/long     ]
+onRestart
+
+[ 12-12 14:34:59.847  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:34:59.847  9234: 9234 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:34:59.847  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:34:59.877  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:34:59.877  9234: 9234 W/khrn_client ]
+init_window window 0x5436b990, 480x800 hintTransform 0x0
+
+[ 12-12 14:34:59.917  9234: 9234 D/long     ]
+cancle request：com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:00.117  9234: 9234 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:35:00.117  9234: 9234 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902050183}
+
+[ 12-12 14:35:00.117  9234: 9234 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902050183}
+
+[ 12-12 14:35:01.338  9234: 9234 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-12 14:35:01.338  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:01.338  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:01.338  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:01.348  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:01.378  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 1029K, 24% free 14160K/18439K, paused 13ms+19ms, total 58ms
+
+[ 12-12 14:35:01.378  9234: 9241 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-12 14:35:01.378  9234: 9241 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0, ubvf 9budiwrd5ordgfl5BakTrklMrfo$,@,+(c+.-8
+
+[ 12-12 14:35:01.378  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:01.378  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:35:01.388  9234: 9234 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:35:01.388  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:01.388  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:01.388  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:01.388  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:01.418  9234: 9234 D/liang    ]
+initData
+
+[ 12-12 14:35:01.418  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:01.418  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:01.418  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:35:01.418  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:01.468  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:01.468  9234: 9234 W/khrn_client ]
+init_window window 0x545c2e70, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:01.488  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:01.488  9234: 9234 W/khrn_client ]
+init_window window 0x545d70f8, 480x800 hintTransform 0x0
+
+[ 12-12 14:35:01.508  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 696
+
+[ 12-12 14:35:01.508  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -417, R: 0, B: -417
+
+[ 12-12 14:35:01.528  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:01.578  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:01.618  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:01.618  9234: 9234 W/khrn_client ]
+init_window window 0x545c2e70, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:01.658  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:06.763  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:06.773  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:06.773  9234: 9234 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 14:35:06.783  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:06.783  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:06.783  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:35:06.783  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:06.823  9234: 9234 I/brcm-gr  ]
+[gralloc_lock]: new usage 0x933
+
+[ 12-12 14:35:10.066  9234: 9234 V/AsyncHttpRH ]
+Progress 2048 from 5178 (40%)
+
+
+[ 12-12 14:35:10.076  9234: 9234 V/AsyncHttpRH ]
+Progress 5178 from 5178 (100%)
+
+
+[ 12-12 14:35:10.076  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "Id": 1,
+      "FileName": "程诚老师相似专题（中）",
+      "SystemName": null,
+      "FileId": 40046,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=40046",
+      "SubScriberFileId": 810,
+      "IsView": 1,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-30 12:02:41",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 827,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 16,
+      "CommentedCount": 0,
+      "PraisedCount": 30,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 2,
+      "FileName": "全等三角形之角平分线（2）",
+      "SystemName": null,
+      "FileId": 37091,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=37091",
+      "SubScriberFileId": 749,
+      "IsView": 1,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-16 16:43:10",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 523,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 18,
+      "CommentedCount": 5,
+      "PraisedCount": 30,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 3,
+      "FileName": "程诚老师相似专题（上）",
+      "SystemName": null,
+      "FileId": 35642,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=35642",
+      "SubScriberFileId": 709,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-10 11:35:26",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 1615,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 13,
+      "CommentedCount": 4,
+      "PraisedCount": 26,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 4,
+      "FileName": "相似1",
+      "SystemName": null,
+      "FileId": 35637,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=35637",
+      "SubScriberFileId": 708,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-10 11:25:03",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 223,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 8,
+      "CommentedCount": 0,
+      "PraisedCount": 11,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 5,
+      "FileName": "全等三角形之角平分线(1)",
+      "SystemName": null,
+      "FileId": 33744,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=33744",
+      "SubScriberFileId": 665,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-09-27 16:43:25",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 375,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH000
+
+[ 12-12 14:35:10.257  9234: 9234 D/long     ]
+prestr：appid=5004&method=GetVideoDetailInfoByVideoId&videoid=40046&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:10.257  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:35:10.257  9234: 9234 D/http     ]
+请求的参数：method=GetVideoDetailInfoByVideoId&appid=5004&videoid=40046&sign=730960065BB84D15C296FB450B2A6CC0
+
+[ 12-12 14:35:10.257  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:10.277  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 1523K, 23% free 14224K/18439K, paused 13ms+5ms, total 49ms
+
+[ 12-12 14:35:10.277  9234: 9234 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+
+[ 12-12 14:35:10.277  9234: 9273 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+
+[ 12-12 14:35:10.327  9234: 9234 D/long     ]
+prestr：appid=5004&method=GetVideoDetailInfoByVideoId&videoid=37091&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:10.327  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:35:10.327  9234: 9234 D/http     ]
+请求的参数：method=GetVideoDetailInfoByVideoId&appid=5004&videoid=37091&sign=AE1CD5F46EBD2D8260D4906177258F01
+
+[ 12-12 14:35:10.327  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:10.367  9234: 9234 D/long     ]
+prestr：appid=5004&method=GetVideoDetailInfoByVideoId&videoid=35642&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:10.367  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-12 14:35:10.367  9234: 9234 D/http     ]
+请求的参数：method=GetVideoDetailInfoByVideoId&appid=5004&videoid=35642&sign=1CF7D6372EB74BCE0F92AAE3DC3C458F
+
+[ 12-12 14:35:10.367  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:10.377  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:9
+
+[ 12-12 14:35:10.477  9234: 9234 V/AsyncHttpRH ]
+Progress 1036 from 1036 (100%)
+
+
+[ 12-12 14:35:10.477  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": {
+    "status": 1,
+    "data": {
+      "id": "40046",
+      "title": "程诚老师相似专题（中）",
+      "videoname": "1446178179_1804236042",
+      "desc": "",
+      "time": "1446178184",
+      "school": "0",
+      "teachers": "",
+      "isPushToCC": "1",
+      "cc_id": "06420054D193B0429C33DC5901307461",
+      "cc_title": "1446178179_1804236042",
+      "cc_size": "",
+      "cc_category": "F8E82EE254DA0181",
+      "cc_duration": "1306",
+      "cc_duration_string": null,
+      "cc_image_0": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-30/06420054D193B0429C33DC5901307461-0.jpg",
+      "cc_image_1": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-30/06420054D193B0429C33DC5901307461-1.jpg",
+      "cc_upload_time": "1446179417",
+      "isdel": "0",
+      "url": "http://p.bokecc.com/flash/single/9623CE22237FB8F2_06420054D193B0429C33DC5901307461_false_628A174866D77DB5_1/player.swf"
+    },
+    "info": ""
+  },
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-12 14:35:10.517  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:9
+
+[ 12-12 14:35:10.577  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:9
+
+[ 12-12 14:35:10.587  9234: 9234 V/AsyncHttpRH ]
+Progress 1036 from 1036 (100%)
+
+
+[ 12-12 14:35:10.587  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": {
+    "status": 1,
+    "data": {
+      "id": "35642",
+      "title": "程诚老师相似专题（上）",
+      "videoname": "1444448121_1559812481",
+      "desc": "",
+      "time": "1444448125",
+      "school": "0",
+      "teachers": "",
+      "isPushToCC": "1",
+      "cc_id": "2B1430F58560632A9C33DC5901307461",
+      "cc_title": "1444448121_1559812481",
+      "cc_size": "",
+      "cc_category": "F8E82EE254DA0181",
+      "cc_duration": "1245",
+      "cc_duration_string": null,
+      "cc_image_0": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-10/2B1430F58560632A9C33DC5901307461-0.jpg",
+      "cc_image_1": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-10/2B1430F58560632A9C33DC5901307461-1.jpg",
+      "cc_upload_time": "1444449803",
+      "isdel": "0",
+      "url": "http://p.bokecc.com/flash/single/9623CE22237FB8F2_2B1430F58560632A9C33DC5901307461_false_628A174866D77DB5_1/player.swf"
+    },
+    "info": ""
+  },
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-12 14:35:10.597  9234: 9234 V/AsyncHttpRH ]
+Progress 1040 from 1040 (100%)
+
+
+[ 12-12 14:35:10.597  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": {
+    "status": 1,
+    "data": {
+      "id": "37091",
+      "title": "全等三角形之角平分线（2）",
+      "videoname": "1444984987_1324857028",
+      "desc": "",
+      "time": "1444984990",
+      "school": "0",
+      "teachers": "",
+      "isPushToCC": "1",
+      "cc_id": "32AFCBECFE53DBDD9C33DC5901307461",
+      "cc_title": "1444984987_1324857028",
+      "cc_size": "",
+      "cc_category": "F8E82EE254DA0181",
+      "cc_duration": "1372",
+      "cc_duration_string": null,
+      "cc_image_0": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-16/32AFCBECFE53DBDD9C33DC5901307461-0.jpg",
+      "cc_image_1": "http://2.img.bokecc.com/comimage/9623CE22237FB8F2/2015-10-16/32AFCBECFE53DBDD9C33DC5901307461-1.jpg",
+      "cc_upload_time": "1444987109",
+      "isdel": "0",
+      "url": "http://p.bokecc.com/flash/single/9623CE22237FB8F2_32AFCBECFE53DBDD9C33DC5901307461_false_628A174866D77DB5_1/player.swf"
+    },
+    "info": ""
+  },
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-12 14:35:10.667  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:9
+
+[ 12-12 14:35:10.717  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 5. Total Items:9
+
+[ 12-12 14:35:10.837  9234: 9234 V/AsyncHttpRH ]
+Progress 1194 from 5178 (23%)
+
+
+[ 12-12 14:35:10.847  9234: 9234 V/AsyncHttpRH ]
+Progress 2494 from 5178 (48%)
+
+
+[ 12-12 14:35:10.847  9234: 9234 V/AsyncHttpRH ]
+Progress 2642 from 5178 (51%)
+
+
+[ 12-12 14:35:10.847  9234: 9234 V/AsyncHttpRH ]
+Progress 3942 from 5178 (76%)
+
+
+[ 12-12 14:35:10.847  9234: 9234 V/AsyncHttpRH ]
+Progress 5178 from 5178 (100%)
+
+
+[ 12-12 14:35:10.847  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "Id": 1,
+      "FileName": "程诚老师相似专题（中）",
+      "SystemName": null,
+      "FileId": 40046,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=40046",
+      "SubScriberFileId": 810,
+      "IsView": 1,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-30 12:02:41",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 827,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 16,
+      "CommentedCount": 0,
+      "PraisedCount": 30,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 2,
+      "FileName": "全等三角形之角平分线（2）",
+      "SystemName": null,
+      "FileId": 37091,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=37091",
+      "SubScriberFileId": 749,
+      "IsView": 1,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-16 16:43:10",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 523,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 18,
+      "CommentedCount": 5,
+      "PraisedCount": 30,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 3,
+      "FileName": "程诚老师相似专题（上）",
+      "SystemName": null,
+      "FileId": 35642,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=35642",
+      "SubScriberFileId": 709,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-10 11:35:26",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 1615,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 13,
+      "CommentedCount": 4,
+      "PraisedCount": 26,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 4,
+      "FileName": "相似1",
+      "SystemName": null,
+      "FileId": 35637,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=35637",
+      "SubScriberFileId": 708,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-10-10 11:25:03",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 223,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH00004",
+      "Name": "初中数学",
+      "ResourcePreviewUrl": "",
+      "StoredCount": 8,
+      "CommentedCount": 0,
+      "PraisedCount": 11,
+      "HasStored": 0,
+      "HasPraised": 0,
+      "Subject": "数学"
+    },
+    {
+      "Id": 5,
+      "FileName": "全等三角形之角平分线(1)",
+      "SystemName": null,
+      "FileId": 33744,
+      "FileType": 2,
+      "ExtenName": "",
+      "FilePath": null,
+      "FileUrl": "http://v.xdf.cn/videov.php?do=playerCode&playerType=CC&vid=33744",
+      "SubScriberFileId": 665,
+      "IsView": 0,
+      "KeyWord": "初数",
+      "KeyColor": 3,
+      "ShareTime": "2015-09-27 16:43:25",
+      "BeginDate": null,
+      "EndDate": null,
+      "ViewCount": 375,
+      "LimitViewCount": null,
+      "MyViewCount": null,
+      "DownLoadCount": 0,
+      "SubscribCode": "DYH000
+
+[ 12-12 14:35:12.138  9234: 9234 D/long     ]
+onRestart
+
+[ 12-12 14:35:12.138  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:35:12.138  9234: 9234 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:35:12.138  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:35:12.159  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:12.159  9234: 9234 W/khrn_client ]
+init_window window 0x52400828, 480x800 hintTransform 0x0
+
+[ 12-12 14:35:12.209  9234: 9234 D/long     ]
+cancle request：com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:12.209  9234: 9239 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-12 14:35:12.309  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 1218K, 22% free 14493K/18439K, paused 13ms+18ms, total 72ms
+
+[ 12-12 14:35:12.309  9234: 9241 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-12 14:35:12.309  9234: 9241 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0, ubvf 9budiwrd5ordgfl5BakTrklMrfo$,@,+(c)f-8
+
+[ 12-12 14:35:13.210  9234: 9234 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:13.220  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:13.230  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:13.230  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:13.230  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:13.230  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:13.230  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:35:13.240  9234: 9234 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:35:13.240  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:13.240  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:13.240  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:13.240  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:13.250  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=3&method=GetSubscriberFileListByUserIdWithTimeStamp&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-12 14:35:13.262&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:13.250  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:13.250  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=3&timestamp=2015-12-12 14:35:13.262&userid=xdf004487167&appid=5004&pageindex=1&pagesize=10&sign=A0A3C852AF55CBF1469A35FE56C02235
+
+[ 12-12 14:35:13.250  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-12 14:35:13.270  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:13.270  9234: 9234 W/khrn_client ]
+init_window window 0x523ffec8, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:13.300  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:13.300  9234: 9234 W/khrn_client ]
+init_window window 0x546fa3b0, 480x800 hintTransform 0x0
+
+[ 12-12 14:35:13.320  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 696
+
+[ 12-12 14:35:13.320  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -417, R: 0, B: -417
+
+[ 12-12 14:35:13.340  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:13.360  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:13.360  9234: 9234 W/khrn_client ]
+init_window window 0x523ffec8, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:13.390  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:13.450  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:14.150  9234: 9234 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:35:14.150  9234: 9234 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902064139}
+
+[ 12-12 14:35:14.150  9234: 9234 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902064139}
+
+[ 12-12 14:35:14.571  9234: 9234 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-12 14:35:14.571  9234: 9234 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-12 14:35:17.634  9234: 9234 D/long     ]
+onRestart
+
+[ 12-12 14:35:17.634  9234: 9234 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-12 14:35:17.634  9234: 9234 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-12 14:35:17.634  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-12 14:35:17.664  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:17.664  9234: 9234 W/khrn_client ]
+init_window window 0x5417a9f0, 480x800 hintTransform 0x0
+
+[ 12-12 14:35:17.694  9234: 9234 D/long     ]
+cancle request：com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-12 14:35:18.595  9234: 9234 D/AbsListView ]
+Get MotionRecognitionManager
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:18.595  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:18.605  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:18.605  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:18.605  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:18.605  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:18.605  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-12 14:35:18.615  9234: 9234 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-12 14:35:18.615  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-12 14:35:18.615  9234: 9234 D/ProgressBar ]
+setProgress = 0
+
+[ 12-12 14:35:18.615  9234: 9234 D/ProgressBar ]
+setProgress = 0, fromUser = false
+
+[ 12-12 14:35:18.615  9234: 9234 D/ProgressBar ]
+mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+
+[ 12-12 14:35:18.625  9234: 9234 D/liang    ]
+initData
+
+[ 12-12 14:35:18.625  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:18.625  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:18.625  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:35:18.625  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:18.685  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:18.685  9234: 9234 W/khrn_client ]
+init_window window 0x545f12e8, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:18.725  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:18.725  9234: 9234 W/khrn_client ]
+init_window window 0x541433c8, 480x800 hintTransform 0x0
+
+[ 12-12 14:35:18.735  9234: 9234 D/PullToRefresh ]
+onSizeChanged. W: 480, H: 696
+
+[ 12-12 14:35:18.735  9234: 9234 D/PullToRefresh ]
+Setting Padding. L: 0, T: -417, R: 0, B: -417
+
+[ 12-12 14:35:18.775  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 1556K, 22% free 14539K/18439K, paused 21ms+24ms, total 81ms
+
+[ 12-12 14:35:18.775  9234: 9241 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-12 14:35:18.775  9234: 9241 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0, ubvf 9budiwrd5ordgfl5BakTrklMrfo$,@,)acea+(
+
+[ 12-12 14:35:18.775  9234: 9241 D/AbsListView ]
+[unregisterDoubleTapMotionListener]
+
+[ 12-12 14:35:18.775  9234: 9241 I/MotionRecognitionManager ]
+  .unregisterListener : / listener count = 0->0, ubvf 9budiwrd5ordgfl5BakTrklMrfo$,@,)b:.+((
+
+[ 12-12 14:35:18.795  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:18.815  9234: 9234 W/khrn_client ]
+init_window num_buffers 3 min undequeued buffers 1 type 1
+
+[ 12-12 14:35:18.815  9234: 9234 W/khrn_client ]
+init_window window 0x545f12e8, 480x762 hintTransform 0x0
+
+[ 12-12 14:35:18.845  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:18.905  9234: 9234 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-12 14:35:20.757  9234: 9234 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-12 14:35:20.757  9234: 9234 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902070936}
+
+[ 12-12 14:35:20.757  9234: 9234 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449902070936}
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:38.644  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:38.654  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:38.664  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:38.674  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:38.674  9234: 9234 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 14:35:38.674  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:38.674  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:38.674  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:35:38.674  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:38.734  9234: 9234 I/brcm-gr  ]
+[gralloc_lock]: new usage 0x933
+
+[ 12-12 14:35:39.735  9234: 9287 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449902139746
+
+[ 12-12 14:35:39.795  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 1123K, 25% free 13923K/18439K, paused 27ms, total 27ms
+
+[ 12-12 14:35:39.805  9234: 9234 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.700MB for 1536016-byte allocation
+
+[ 12-12 14:35:39.826  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 249K, 25% free 15173K/19975K, paused 22ms, total 22ms
+
+[ 12-12 14:35:39.846  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 0K, 25% free 15173K/19975K, paused 3ms+3ms, total 25ms
+
+[ 12-12 14:35:39.846  9234: 9234 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+
+[ 12-12 14:35:39.876  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 25% free 15173K/19975K, paused 21ms, total 21ms
+
+[ 12-12 14:35:39.876  9234: 9234 I/dalvikvm-heap ]
+Grow heap (frag case) to 16.921MB for 1536016-byte allocation
+
+[ 12-12 14:35:39.896  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 0K, 23% free 16673K/21511K, paused 24ms, total 24ms
+
+[ 12-12 14:35:50.636  9234: 9287 D/cn.edu.nju.ise.kikandroid ]
+Log:1449902150644
+
+[ 12-12 14:35:58.474  9234: 9234 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:58.684  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-12 14:35:58.694  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:670)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:509)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+
+[ 12-12 14:35:58.704  9234: 9291 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 14:35:58.704  9234: 9234 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-12 14:35:58.704  9234: 9234 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004487167&AppKey=v5key_my$cj_cnQcm
+
+[ 12-12 14:35:58.704  9234: 9234 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-12 14:35:58.704  9234: 9234 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004487167&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=2263323E2D849043F20C9D52B65057BA
+
+[ 12-12 14:35:58.704  9234: 9234 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-12 14:35:58.744  9234: 9234 I/brcm-gr  ]
+[gralloc_lock]: new usage 0x933
+
+[ 12-12 14:36:00.956  9234: 9287 D/cn.edu.nju.ise.kikandroid ]
+Log:1449902160968
+
+[ 12-12 14:36:00.986  9234: 9287 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449902160994
+
+[ 12-12 14:36:01.036  9234: 9234 D/dalvikvm ]
+GC_FOR_ALLOC freed 3247K, 37% free 13682K/21511K, paused 31ms, total 31ms
+
+[ 12-12 14:36:01.046  9234: 9234 I/dalvikvm-heap ]
+Grow heap (frag case) to 15.465MB for 1536016-byte allocation
+
+[ 12-12 14:36:01.086  9234: 9241 D/dalvikvm ]
+GC_FOR_ALLOC freed <1K, 30% free 15182K/21511K, paused 41ms, total 41ms
+
+[ 12-12 14:36:01.116  9234: 9236 D/dalvikvm ]
+GC_CONCURRENT freed 66K, 23% free 16623K/21511K, paused 2ms+3ms, total 34ms
+
+[ 12-12 14:36:01.156  9234: 9287 W/dalvikvm ]
+threadid=25: thread exiting with uncaught exception (group=0x420242a0)
+
+[ 12-12 14:36:01.196  9234: 9287 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-12 14:36:01.206  9234: 9287 I/Process  ]
+Sending signal. PID: 9234 SIG: 9
+
+[ 12-12 14:36:01.226  9253: 9253 D/RongService ]
+onUnbind, pid=9253
+
+[ 12-12 14:36:01.226  9253: 9253 D/RongService ]
+onDestroy, pid=9253
+
+[ 12-12 14:36:01.226  9253: 9253 I/Process  ]
+Sending signal. PID: 9253 SIG: 9
+
+[ 12-12 14:37:41.544  9487: 9489 D/dalvikvm ]
+GC_CONCURRENT freed 167K, 8% free 9745K/10567K, paused 13ms+2ms, total 40ms
+
+[ 12-12 14:37:41.544  9487: 9487 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+
+[ 12-12 14:37:41.574  9487: 9487 D/long     ]
+连接的数据库是：xdf004487167.db
+
+[ 12-12 14:37:41.584  9487: 9487 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-12 14:37:41.584  9487: 9487 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-12 14:37:41.594  9487: 9487 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-12 14:37:41.634  9487: 9487 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-12 14:37:41.654  9487: 9489 D/dalvikvm ]
+GC_CONCURRENT freed 300K, 10% free 9905K/10887K, paused 14ms+2ms, total 39ms
+
+[ 12-12 14:37:41.674  9487: 9487 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1400
+
+[ 12-12 14:37:41.684  9487: 9487 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-12 14:37:41.684  9487: 9487 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-12 14:37:41.784  9487: 9487 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-12 14:37:41.784  9487: 9487 I/PushService ]
+PushService OnCreate
+
+[ 12-12 14:37:41.805  9487: 9503 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-12 14:37:41.815  9487: 9503 I/##COMMON_io.rong.push.PushService:DeviceId ]
+354963055967112
+
+[ 12-12 14:37:41.815  9487: 9503 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.102.85:8601
+
+[ 12-12 14:37:41.815  9487: 9503 I/PushHandler ]
+the saved time = 1449900928561current time = 1449902261829
+
+[ 12-12 14:37:41.825  9487: 9503 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.102.85:8601
+
+[ 12-12 14:37:41.825  9487: 9503 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:samsung|GT-I9082|16|WIFI|46001
+
+[ 12-12 14:37:41.825  9487: 9503 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:samsung|GT-I9082|16|WIFI|46001 push version:2.6
+
+[ 12-12 14:37:41.825  9487: 9503 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-12 14:37:42.015  9487: 9505 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-12 14:37:42.015  9487: 9505 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-12 14:37:42.015  9487: 9505 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-12 14:37:42.015  9487: 9505 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-12 14:37:43.086  9487: 9487 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-12 14:37:43.106  9487: 9487 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-12 14:37:43.126  9487: 9503 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-12 14:37:43.126  9487: 9503 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+

@@ -1,0 +1,1891 @@
+--------- beginning of /dev/log/main
+[ 12-10 15:16:34.194 14858:0x3a95 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 15:16:34.498 14858:0x3a0a D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:16:34.732 14858:0x3a0a E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-10 15:16:34.732 14858:0x3a0a E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-10 15:16:34.732 14858:0x3a0a E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-10 15:16:34.732 14858:0x3a0a E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-10 15:16:35.910 15012:0x3aa4 D/long     ]
+连接的数据库是：xdf004483231.db
+
+[ 12-10 15:16:35.922 15012:0x3aa4 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:16:35.935 15012:0x3aa4 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:16:35.937 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 44, file: /data/data/com.xdf.ucan/databases/rong_version
+
+
+
+[ 12-10 15:16:35.939 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.939 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:35.941 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.941 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:35.941 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.941 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:35.942 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.942 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:35.949 15012:0x3aa4 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:16:35.958 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 48, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.958 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 48
+
+
+
+[ 12-10 15:16:35.958 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 48, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.971 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 48
+
+
+
+[ 12-10 15:16:35.974 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 49, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.974 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 49
+
+
+
+[ 12-10 15:16:35.975 15012:0x3aa4 E/SQLiteLog ]
+(257) Open fd: 49, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:35.975 15012:0x3aa4 E/SQLiteLog ]
+(257) Close fd: 49
+
+
+
+[ 12-10 15:16:35.987 15012:0x3aa4 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+200
+
+[ 12-10 15:16:35.994 15012:0x3aa4 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:16:36.002 15012:0x3aa4 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:16:36.003 15012:0x3aa4 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:16:36.003 15012:0x3aa4 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:16:36.011 15012:0x3ab3 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:16:36.011 15012:0x3ab3 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:16:36.016 15012:0x3ab3 I/##COMMON_io.rong.push.PushService:DeviceId ]
+865758027460739
+
+[ 12-10 15:16:36.025 15012:0x3ab3 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.229:8604
+
+[ 12-10 15:16:36.025 15012:0x3ab3 I/PushHandler ]
+the saved time = 1449728074055current time = 1449731796025
+
+[ 12-10 15:16:36.025 15012:0x3ab3 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.110.229:8604
+
+[ 12-10 15:16:36.027 15012:0x3ab3 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:BBK|vivo X3S W|17|WIFI|46000
+
+[ 12-10 15:16:36.029 15012:0x3ab3 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:BBK|vivo X3S W|17|WIFI|46000 push version:2.6
+
+[ 12-10 15:16:36.072 15012:0x3ab3 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:16:36.188 15012:0x3aa4 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:16:36.195 15012:0x3aa4 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:16:36.205 15012:0x3ab5 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:16:36.205 15012:0x3ab5 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:16:36.205 15012:0x3ab5 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:16:36.205 15012:0x3ab5 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:16:36.211 15012:0x3ab3 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:16:36.211 15012:0x3ab3 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 15:16:39.495 14858:0x3a0a D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1047
+
+[ 12-10 15:16:39.495 14858:0x3a0a D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 15:16:39.604 14858:0x3a0a D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:16:39.605 14858:0x3a0a D/http     ]
+请求的参数：userId=xdf004483231&size=big
+
+[ 12-10 15:16:39.605 14858:0x3a0a D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:16:39.611 14858:0x3a7a D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-10 15:16:39.709 14858:0x3a0a V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:16:39.713 14858:0x3a0a E/SQLiteLog ]
+(257) Open fd: 104, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:16:39.713 14858:0x3a0a E/SQLiteLog ]
+(257) Close fd: 104
+
+
+
+[ 12-10 15:16:39.714 14858:0x3a0a E/SQLiteLog ]
+(257) Open fd: 101, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:16:39.714 14858:0x3a0a E/SQLiteLog ]
+(257) Close fd: 101
+
+
+
+[ 12-10 15:16:39.714 14858:0x3a0a E/SQLiteLog ]
+(257) Open fd: 101, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:16:39.730 14858:0x3a0a E/SQLiteLog ]
+(257) Close fd: 101
+
+
+
+[ 12-10 15:16:41.527 14858:0x3a43 I/libc     ]
+UID=10100,PID=14858,TID=14915 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:41.536 14858:0x3a43 I/libc     ]
+UID=10100,PID=14858,TID=14915 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:41.628 14858:0x3a43 I/libc     ]
+UID=10100,PID=14858,TID=14915 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:43.907 14858:0x3a0a I/libc     ]
+UID=10100,PID=14858,TID=14858 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:43.912 14858:0x3a0a I/libc     ]
+UID=10100,PID=14858,TID=14858 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:43.988 14858:0x3a0a I/libc     ]
+UID=10100,PID=14858,TID=14858 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:16:43.996 14858:0x3a0a I/libc     ]
+UID=10100,PID=14858,TID=14858 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:16:44.055 14858:0x3a12 W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '/data/data/com.xdf.ucan/databases/rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-10 15:16:44.055 14858:0x3a12 E/SQLiteLog ]
+(257) Close fd: 50
+
+
+
+[ 12-10 15:16:44.241 14890:0x3a2a D/RongService ]
+onUnbind, pid=14890
+
+[ 12-10 15:16:44.242 14890:0x3a2a D/RongService ]
+onDestroy, pid=14890
+
+[ 12-10 15:16:46.341 15190:0x3b56 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 15:16:46.473 15190:0x3b56 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputP ]
+
+
+[ 12-10 15:16:46.480 15190:0x3b56 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputP ]
+----------构造方法----------
+
+[ 12-10 15:16:46.486 15190:0x3b56 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 15:16:46.488 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 50, file: /data/data/com.xdf.ucan/databases/rong_version
+
+
+
+[ 12-10 15:16:46.490 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 51, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.490 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 51
+
+
+
+[ 12-10 15:16:46.492 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 51, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.492 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 51
+
+
+
+[ 12-10 15:16:46.492 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 51, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.492 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 51
+
+
+
+[ 12-10 15:16:46.493 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 51, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.493 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 51
+
+
+
+[ 12-10 15:16:46.498 15190:0x3b56 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:16:46.501 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 54, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.501 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 54
+
+
+
+[ 12-10 15:16:46.502 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 54, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.514 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 54
+
+
+
+[ 12-10 15:16:46.516 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 55, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.516 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 55
+
+
+
+[ 12-10 15:16:46.518 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 55, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.518 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 55
+
+
+
+[ 12-10 15:16:46.534 15190:0x3b56 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4000
+
+[ 12-10 15:16:46.534 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 55, file: /data/data/com.xdf.ucan/databases/rong_version
+
+
+
+[ 12-10 15:16:46.536 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 56, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.536 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 56
+
+
+
+[ 12-10 15:16:46.539 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 56, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.539 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 56
+
+
+
+[ 12-10 15:16:46.539 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 56, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.539 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 56
+
+
+
+[ 12-10 15:16:46.540 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 56, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:46.540 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 56
+
+
+
+[ 12-10 15:16:46.544 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 15:16:46.555 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 55
+
+
+
+[ 12-10 15:16:46.556 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 15:16:46.557 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 15:16:46.557 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 15:16:46.557 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 15:16:46.557 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 15:16:46.557 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 15:16:46.558 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 15:16:46.558 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 15:16:46.558 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 15:16:46.558 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 15:16:46.558 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 15:16:46.559 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 15:16:46.559 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 15:16:46.559 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 15:16:46.559 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 15:16:46.567 15190:0x3b56 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 15:16:46.567 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 15:16:46.567 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 15:16:46.568 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 15:16:46.591 15190:0x3b56 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 15:16:46.628 15220:0x3b74 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 15:16:46.634 15220:0x3b74 D/RongService ]
+onCreate, pid=15220
+
+[ 12-10 15:16:46.635 15220:0x3b74 D/RongService ]
+onBind, pid=15220
+
+[ 12-10 15:16:46.662 15220:0x3b74 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+865758027460739
+
+[ 12-10 15:16:46.666 15220:0x3b74 D/NativeClient ]
+/storage/sdcard0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 15:16:46.736 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:46.740 15190:0x3b56 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@4121c938
+
+[ 12-10 15:16:46.765 15190:0x3b56 E/linker   ]
+load_library(linker.cpp:759): library "libmaliinstr.so" not found
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+appName=com.xdf.ucan, acAppName=com.android.cts.openglperf
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+0
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+appName=com.xdf.ucan, acAppName=com.android.browser
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+0
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+appName=com.xdf.ucan, acAppName=/system/bin/surfaceflinger
+
+[ 12-10 15:16:46.766 15190:0x3b56 E/         ]
+0
+
+[ 12-10 15:16:46.790 15190:0x3b56 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-10 15:16:47.783 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:47.793 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:47.891 15190:0x3b56 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 15:16:47.891 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:47.950 15190:0x3bac D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 15:16:47.951 15190:0x3bac D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 15:16:48.341 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:16:50.521 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:50.537 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:50.667 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:16:50.744 15296:0x3bc0 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:16:50.755 15296:0x3bc0 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:16:50.757 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 44, file: /data/data/com.xdf.ucan/databases/rong_version
+
+
+
+[ 12-10 15:16:50.769 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.769 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:50.772 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.772 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:50.772 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.772 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:50.781 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 45, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.781 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 45
+
+
+
+[ 12-10 15:16:50.788 15296:0x3bc0 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:16:50.805 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 48, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.805 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 48
+
+
+
+[ 12-10 15:16:50.807 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 48, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.850 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 48
+
+
+
+[ 12-10 15:16:50.855 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 49, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.856 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 49
+
+
+
+[ 12-10 15:16:50.858 15296:0x3bc0 E/SQLiteLog ]
+(257) Open fd: 49, file: /data/data/com.xdf.ucan/databases/rong_version-journal
+
+
+
+[ 12-10 15:16:50.858 15296:0x3bc0 E/SQLiteLog ]
+(257) Close fd: 49
+
+
+
+[ 12-10 15:16:50.877 15296:0x3bc0 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4500
+
+[ 12-10 15:16:50.891 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:16:50.903 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:16:50.904 15296:0x3bc0 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:16:50.904 15296:0x3bc0 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:16:50.959 15296:0x3bdd I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:16:50.959 15296:0x3bdd I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:16:50.968 15296:0x3bdd I/##COMMON_io.rong.push.PushService:DeviceId ]
+865758027460739
+
+[ 12-10 15:16:50.971 15296:0x3bdd I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.110.229:8604
+
+[ 12-10 15:16:50.971 15296:0x3bdd I/PushHandler ]
+the saved time = 1449728074055current time = 1449731810971
+
+[ 12-10 15:16:50.971 15296:0x3bdd I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.110.229:8604
+
+[ 12-10 15:16:50.976 15296:0x3bdd I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:BBK|vivo X3S W|17|WIFI|46000
+
+[ 12-10 15:16:50.978 15296:0x3bdd I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:BBK|vivo X3S W|17|WIFI|46000 push version:2.6
+
+[ 12-10 15:16:51.027 15296:0x3bdd I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:16:51.185 15296:0x3bf4 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:16:51.185 15296:0x3bf4 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:16:51.185 15296:0x3bf4 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:16:51.186 15296:0x3bf4 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:16:55.384 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:16:55.406 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:16:55.430 15296:0x3bdd I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:16:55.430 15296:0x3bdd I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 15:16:57.519 15190:0x3b56 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 15:16:57.520 15190:0x3b56 D/http     ]
+请求的参数：method=SmsLoginSendSmsCodeV5&appid=90116&mobile=13182899863&guid=d2fb45c5-fe58-4b3c-8c11-92d1702f7ea5&sign=BD1246DDA21E26EEA1A91172C8B1611A
+
+[ 12-10 15:16:57.520 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 15:16:57.603 15190:0x3c04 D/libc-netbsd ]
+getaddrinfo: passport.xdf.cn get result from proxy >>
+
+
+[ 12-10 15:16:57.699 15190:0x3b56 V/AsyncHttpRH ]
+Progress 72 from 72 (100%)
+
+
+[ 12-10 15:16:57.700 15190:0x3b56 D/http     ]
+返回的结果：{"Status":-2,"Data":"","Message":"30分钟内最多允许发2条短信"}
+
+[ 12-10 15:17:00.282 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731820282
+
+[ 12-10 15:17:00.377 15190:0x3b5e W/SQLiteConnectionPool ]
+A SQLiteConnection object for database '/data/data/com.xdf.ucan/databases/rong_version' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+
+[ 12-10 15:17:00.377 15190:0x3b5e E/SQLiteLog ]
+(257) Close fd: 50
+
+
+
+[ 12-10 15:17:02.720 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:02.727 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:02.833 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:03.204 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.login.RegActivity
+
+[ 12-10 15:17:09.637 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:09.654 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:09.752 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:16.736 15190:0x3b56 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 15:17:16.736 15190:0x3b56 D/http     ]
+请求的参数：method=ResetPwdStep1SendCode&appid=90116&user=13182899863&guid=ab69d00e-86b7-4cd9-99bc-248c34abd8e1&sign=C10222E13466E9F598D2A1D5811A2F61
+
+[ 12-10 15:17:16.736 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.ForgetActivity
+
+[ 12-10 15:17:16.779 15190:0x3b56 V/AsyncHttpRH ]
+Progress 67 from 67 (100%)
+
+
+[ 12-10 15:17:16.779 15190:0x3b56 D/http     ]
+返回的结果：{"Status":-2,"Data":"","Message":"1分钟内请勿重复发短信"}
+
+[ 12-10 15:17:19.455 15190:0x3b56 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras) }
+
+[ 12-10 15:17:20.490 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731840490
+
+[ 12-10 15:17:21.093 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:Action ]
+android.net.conn.CONNECTIVITY_CHANGE
+
+[ 12-10 15:17:21.093 15296:0x3bc0 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message start 
+
+[ 12-10 15:17:21.093 15296:0x3bc0 D/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+Receive the network change message end
+
+[ 12-10 15:17:21.099 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:STATUS_WIFI ]
+mStatus is 2,the network has changed to be WIFI
+
+[ 12-10 15:17:21.099 15296:0x3bc0 I/##COMMON_io.rong.push.PushReceiver:CONNECTIVITY_ACTION ]
+The network is same as before, do nothing!!
+
+[ 12-10 15:17:21.328 15190:0x3b56 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 15:17:21.609 15190:0x3de5 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 15:17:21.617 15190:0x3de5 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 15:17:21.696 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:21.702 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:21.810 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:22.256 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.login.ForgetActivity
+
+[ 12-10 15:17:33.841 15190:0x3b56 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 15:17:33.842 15190:0x3b56 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=HQclbp0QZB+xQ+taFCim+A==&encodePwd=TVfdqKw8ndjfbdW+XZH2KQ==&guid=ab95d04e-4c01-4cf9-9ccf-5e2e0e8d1ab0&sign=8A643588DFAF0F15FC1B9996A54A56CD&appOption=1&accessTokenOption=1
+
+[ 12-10 15:17:33.842 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 15:17:33.940 15190:0x3b56 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-10 15:17:33.940 15190:0x3b56 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483231\",\"NickName\":\"151210141440686_v\",\"HideMobile\":\"131****9863\",\"HideEmail\":\"151****414406865f0b6_v@v.com\",\"Mobile\":\"13182899863\",\"Email\":\"1512101414406865f0b6_v@v.com\",\"LoginToken\":\"c737265a-91ba-4fbc-b23e-187fe1a5d129\",\"Sign\":\"D757BAFB0CE22CCA7E45C4E4D86AEFE8\",\"AccessToken\":\"c737265a-91ba-4fbc-b23e-187fe1a5d129\",\"AccessTokenExpireTime\":\"2016-01-29 05:16:32\"}","Message":"成功"}
+
+[ 12-10 15:17:33.940 15190:0x3b56 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004483231\",\"NickName\":\"151210141440686_v\",\"HideMobile\":\"131****9863\",\"HideEmail\":\"151****414406865f0b6_v@v.com\",\"Mobile\":\"13182899863\",\"Email\":\"1512101414406865f0b6_v@v.com\",\"LoginToken\":\"c737265a-91ba-4fbc-b23e-187fe1a5d129\",\"Sign\":\"D757BAFB0CE22CCA7E45C4E4D86AEFE8\",\"AccessToken\":\"c737265a-91ba-4fbc-b23e-187fe1a5d129\",\"AccessTokenExpireTime\":\"2016-01-29 05:16:32\"}","Message":"成功"}
+
+[ 12-10 15:17:33.947 15190:0x3b56 D/long     ]
+{"UserId":"xdf004483231","NickName":"151210141440686_v","HideMobile":"131****9863","HideEmail":"151****414406865f0b6_v@v.com","Mobile":"13182899863","Email":"1512101414406865f0b6_v@v.com","LoginToken":"c737265a-91ba-4fbc-b23e-187fe1a5d129","Sign":"D757BAFB0CE22CCA7E45C4E4D86AEFE8","AccessToken":"c737265a-91ba-4fbc-b23e-187fe1a5d129","AccessTokenExpireTime":"2016-01-29 05:16:32"}
+
+[ 12-10 15:17:34.025 15190:0x3b56 D/long     ]
+DATABASE_NAME:xdf004483231.db
+
+[ 12-10 15:17:34.058 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 105, file: /data/data/com.xdf.ucan/databases/xdf004483231.db
+
+
+
+[ 12-10 15:17:34.062 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.063 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.066 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.066 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.066 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.066 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.067 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.067 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.071 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 108, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.071 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 108
+
+
+
+[ 12-10 15:17:34.073 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.073 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.073 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 107, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.084 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 107
+
+
+
+[ 12-10 15:17:34.085 15190:0x3b56 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483231&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:34.085 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 15:17:34.086 15190:0x3b56 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483231&sign=5BEFF2824ECE1B5EF8C9F65232ED774A
+
+[ 12-10 15:17:34.086 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 15:17:34.090 15190:0x3c04 D/libc-netbsd ]
+getaddrinfo: upoc.xdf.cn get result from proxy >>
+
+
+[ 12-10 15:17:34.167 15190:0x3b56 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:17:34.168 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:34.175 15190:0x3b56 I/libc     ]
+UID=10100,PID=15190,TID=15190 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:17:34.183 15190:0x3b56 I/libc     ]
+UID=10100,PID=15190,TID=15190 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:17:34.276 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:34.284 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:34.438 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 112, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.438 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 112
+
+
+
+[ 12-10 15:17:34.440 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 112, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.450 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 112
+
+
+
+[ 12-10 15:17:34.481 15190:0x3b56 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 15:17:34.481 15190:0x3b56 D/http     ]
+请求的参数：
+
+[ 12-10 15:17:34.481 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:34.483 15190:0x3b56 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:17:34.483 15190:0x3b56 D/http     ]
+请求的参数：userId=xdf004483231&size=big
+
+[ 12-10 15:17:34.483 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:34.486 15190:0x3c04 D/libc-netbsd ]
+getaddrinfo: ims.xdf.cn get result from proxy >>
+
+
+[ 12-10 15:17:34.490 15190:0x3f40 D/libc-netbsd ]
+getaddrinfo: my.xdf.cn get result from proxy >>
+
+
+[ 12-10 15:17:34.618 15190:0x3b56 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:17:34.618 15190:0x3b56 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:17:34.619 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:34.667 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:34.790 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:34.828 15190:0x3b56 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 15:17:34.842 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.842 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.853 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.853 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.864 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.864 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.867 15190:0x3b56 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 15:17:34.866&examstartdate=2015-12-10 15:13:09.123&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 15:17:34.844&resourcestartdate=2015-12-10 15:13:05.466&schoolid=0&userid=xdf004483231&videoenddate=2015-12-10 15:17:34.854&videostartdate=2015-12-10 15:13:13.826&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:34.868 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:17:34.868 15190:0x3b56 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483231&schoolid=0&resourcestartdate=2015-12-10 15:13:05.466&resourceenddate=2015-12-10 15:17:34.844&videostartdate=2015-12-10 15:13:13.826&videoenddate=2015-12-10 15:17:34.854&examstartdate=2015-12-10 15:13:09.123&examenddate=2015-12-10 15:17:34.866&appid=5004&sign=A279ABC09B448C32B2DFA94950B794B0
+
+[ 12-10 15:17:34.868 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:34.879 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.879 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.882 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.882 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.883 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 116, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:34.883 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 116
+
+
+
+[ 12-10 15:17:34.953 15190:0x3b80 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 15:17:35.017 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 15:17:35.017 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 15:17:35.023 15190:0x3b56 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 15:17:35.023 15190:0x3b56 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449731792709}
+
+[ 12-10 15:17:35.024 15190:0x3b56 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:17:35.024 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 111, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:35.024 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 111
+
+
+
+[ 12-10 15:17:35.024 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 111, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:35.482 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 111
+
+
+
+[ 12-10 15:17:35.600 15190:0x3b56 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:17:35.600 15190:0x3b56 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449731792817}
+
+[ 12-10 15:17:35.603 15190:0x3b56 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:17:35.603 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:35.603 15190:0x3b56 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:35.678 15190:0x3b56 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-10 15:17:35.678 15190:0x3b56 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-10 15:17:35.678 15190:0x3b56 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() :1
+
+[ 12-10 15:17:35.678 15190:0x3b56 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCou ]
+RongIM.getInstance() is null
+
+[ 12-10 15:17:35.931 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.login.LoginActivity
+
+[ 12-10 15:17:35.950 15190:0x3b56 E/WindowManager ]
+Activity com.xdf.ucan.ui.login.LoginActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{411c6268 V.E..... R......D 0,0-640,1230} that was originally added here
+android.view.WindowLeaked: Activity com.xdf.ucan.ui.login.LoginActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{411c6268 V.E..... R......D 0,0-640,1230} that was originally added here
+	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:439)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:218)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+	at android.app.Dialog.show(Dialog.java:281)
+	at com.xdf.ucan.BaseActivity.showLoadingDialog(BaseActivity.java:58)
+	at com.xdf.ucan.ui.login.LoginActivity.access$0(LoginActivity.java:1)
+	at com.xdf.ucan.ui.login.LoginActivity$1.onClick(LoginActivity.java:116)
+	at android.view.View.performClick(View.java:4248)
+	at android.view.View$PerformClick.run(View.java:17541)
+	at android.os.Handler.handleCallback(Handler.java:800)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:194)
+	at android.app.ActivityThread.main(ActivityThread.java:5434)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:838)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:605)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-10 15:17:35.984 15190:0x3b80 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 13182899863
+
+[ 12-10 15:17:36.973 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1047
+
+[ 12-10 15:17:36.973 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 15:17:37.056 15190:0x3b56 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:17:37.057 15190:0x3b56 D/http     ]
+请求的参数：userId=xdf004483231&size=big
+
+[ 12-10 15:17:37.057 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:37.136 15190:0x3b56 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:17:37.710 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:37.710 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:37.718 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 82, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:37.718 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 82
+
+
+
+[ 12-10 15:17:37.718 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 82, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:37.743 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 82
+
+
+
+[ 12-10 15:17:38.577 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:38.594 15190:0x3b56 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 15:17:38.596 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.596 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.598 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.598 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.601 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.601 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.603 15190:0x3b56 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 15:17:38.602&examstartdate=2015-12-10 15:13:09.123&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 15:17:38.597&resourcestartdate=2015-12-10 15:13:05.466&schoolid=0&userid=xdf004483231&videoenddate=2015-12-10 15:17:38.600&videostartdate=2015-12-10 15:13:13.826&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:38.603 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:17:38.603 15190:0x3b56 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483231&schoolid=0&resourcestartdate=2015-12-10 15:13:05.466&resourceenddate=2015-12-10 15:17:38.597&videostartdate=2015-12-10 15:13:13.826&videoenddate=2015-12-10 15:17:38.600&examstartdate=2015-12-10 15:13:09.123&examenddate=2015-12-10 15:17:38.602&appid=5004&sign=DA9D95756C1EF817720F2787EF14318B
+
+[ 12-10 15:17:38.603 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:38.607 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.607 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.608 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.608 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.610 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:38.610 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:38.625 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1048
+
+[ 12-10 15:17:38.625 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -628, R: 0, B: 0
+
+[ 12-10 15:17:38.691 15190:0x3b56 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:17:38.691 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:38.691 15190:0x3b56 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:39.417 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:39.434 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:39.596 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:39.600 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:17:39.600 15190:0x3b56 D/PullToRefresh ]
+isFirstItemVisible. Empty View.
+
+[ 12-10 15:17:39.639 15190:0x3b56 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:17:39.639 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:39.657 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 91, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:39.657 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 91
+
+
+
+[ 12-10 15:17:39.659 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 91, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:39.659 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 91
+
+
+
+[ 12-10 15:17:39.662 15190:0x3b56 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-10 15:17:39.660&userid=xdf004483231&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:39.665 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:17:39.666 15190:0x3b56 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&timestamp=2015-12-10 15:17:39.660&filetype=1&appid=5004&userid=xdf004483231&orderbydatedes=1&isread=2&pageindex=1&pagesize=10&sign=5BD0A4EB3F5913E2EB9CFAE7B3B34729
+
+[ 12-10 15:17:39.666 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-10 15:17:39.677 15190:0x3fcb D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-10 15:17:39.686 15190:0x3b56 I/libc     ]
+UID=10100,PID=15190,TID=15190 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:17:39.698 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:39.789 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 15:17:39.790 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 15:17:39.839 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:39.853 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:39.931 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:39.938 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:39.959 15190:0x3b56 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:17:39.959 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:40.029 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 84, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:40.029 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 84
+
+
+
+[ 12-10 15:17:41.980 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731861980
+
+[ 12-10 15:17:42.806 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:42.824 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:42.872 15190:0x3b56 D/long     ]
+onRestart
+
+[ 12-10 15:17:42.872 15190:0x3b56 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:17:42.872 15190:0x3b56 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:17:42.872 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:42.876 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:42.876 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:42.880 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:42.880 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:42.881 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:42.882 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 78, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:42.882 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 78
+
+
+
+[ 12-10 15:17:42.945 15190:0x3b56 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:17:42.945 15190:0x3b56 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449731801093}
+
+[ 12-10 15:17:43.256 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-10 15:17:43.825 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:43.836 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:43.950 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:43.953 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:17:43.953 15190:0x3b56 D/PullToRefresh ]
+isFirstItemVisible. Empty View.
+
+[ 12-10 15:17:43.965 15190:0x3b56 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:17:43.965 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:43.979 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 95, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:43.980 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 95
+
+
+
+[ 12-10 15:17:43.981 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 95, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:43.981 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 95
+
+
+
+[ 12-10 15:17:43.983 15190:0x3b56 D/long     ]
+prestr：appid=5004&filetype=3&method=GetSubscriberFileListByUserIdWithTimeStamp&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-10 15:17:43.981&userid=xdf004483231&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:43.983 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:17:43.983 15190:0x3b56 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=3&timestamp=2015-12-10 15:17:43.981&userid=xdf004483231&appid=5004&pageindex=1&pagesize=10&sign=C12AA3A34646BBE3878FB24E398EE995
+
+[ 12-10 15:17:43.983 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-10 15:17:43.993 15190:0x3b56 I/libc     ]
+UID=10100,PID=15190,TID=15190 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:17:44.003 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:44.063 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 15:17:44.063 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 15:17:44.097 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:44.105 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:44.167 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:44.176 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:44.209 15190:0x3b56 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:17:44.209 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:44.267 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 95, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:44.267 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 95
+
+
+
+[ 12-10 15:17:45.683 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731865682
+
+[ 12-10 15:17:46.503 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:46.509 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:46.573 15190:0x3b56 D/long     ]
+onRestart
+
+[ 12-10 15:17:46.573 15190:0x3b56 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:17:46.573 15190:0x3b56 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:17:46.573 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:46.577 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:46.577 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:46.580 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:46.580 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:46.581 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:46.582 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 78, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:46.582 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 78
+
+
+
+[ 12-10 15:17:46.670 15190:0x3b56 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:17:46.674 15190:0x3b56 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449731804795}
+
+[ 12-10 15:17:46.992 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.test.MyTestActivity
+
+[ 12-10 15:17:47.513 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:47.520 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:47.682 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:47.683 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:17:47.683 15190:0x3b56 D/PullToRefresh ]
+isFirstItemVisible. Empty View.
+
+[ 12-10 15:17:47.697 15190:0x3b56 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:17:47.697 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:17:47.727 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 95, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:47.727 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 95
+
+
+
+[ 12-10 15:17:47.729 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 95, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:47.729 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 95
+
+
+
+[ 12-10 15:17:47.729 15190:0x3b56 D/liang    ]
+initData
+
+[ 12-10 15:17:47.730 15190:0x3b56 D/long     ]
+prestr：appid=5004&filetype=2&isview=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&userid=xdf004483231&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:17:47.730 15190:0x3b56 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:17:47.730 15190:0x3b56 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&filetype=2&appid=5004&userid=xdf004483231&orderbydatedes=1&isview=2&pageindex=1&pagesize=10&sign=459D74BA4B1720CC8B99F8B183EAA932
+
+[ 12-10 15:17:47.730 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-10 15:17:47.746 15190:0x3b56 I/libc     ]
+UID=10100,PID=15190,TID=15190 removed: /data/data/com.xdf.ucan/shared_prefs/common.xml.bak
+
+[ 12-10 15:17:47.752 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:47.840 15190:0x3b56 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1142
+
+[ 12-10 15:17:47.841 15190:0x3b56 D/PullToRefresh ]
+Setting Padding. L: 0, T: -685, R: 0, B: -685
+
+[ 12-10 15:17:47.871 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:47.878 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:47.932 15190:0x3b56 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:17:47.941 15190:0x3b56 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 2 Last Visible Pos: 2
+
+[ 12-10 15:17:47.968 15190:0x3b56 V/AsyncHttpRH ]
+Progress 68 from 68 (100%)
+
+
+[ 12-10 15:17:47.968 15190:0x3b56 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:17:48.012 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 90, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:48.012 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 90
+
+
+
+[ 12-10 15:17:52.922 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731872922
+
+[ 12-10 15:17:55.852 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:55.861 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:55.944 15190:0x3b56 D/long     ]
+onRestart
+
+[ 12-10 15:17:55.945 15190:0x3b56 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:17:55.945 15190:0x3b56 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:17:55.945 15190:0x3b56 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:17:55.953 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:55.953 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:55.955 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 80, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:55.955 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 80
+
+
+
+[ 12-10 15:17:55.956 15190:0x3b8a I/libc     ]
+UID=10100,PID=15190,TID=15242 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:17:55.958 15190:0x3b56 E/SQLiteLog ]
+(257) Open fd: 78, file: /data/data/com.xdf.ucan/databases/xdf004483231.db-journal
+
+
+
+[ 12-10 15:17:55.958 15190:0x3b56 E/SQLiteLog ]
+(257) Close fd: 78
+
+
+
+[ 12-10 15:17:56.020 15190:0x3b56 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:17:56.020 15190:0x3b56 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449731814162}
+
+[ 12-10 15:17:56.349 15190:0x3b56 D/long     ]
+cancle request：com.xdf.ucan.ui.video.VideoListActivity
+
+[ 12-10 15:18:06.092 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Log:1449731886092
+
+[ 12-10 15:18:06.132 15190:0x3b99 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449731886132
+
+[ 12-10 15:18:06.426 15190:0x3b99 I/libc     ]
+UID=10100,PID=15190,TID=15257 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:18:06.431 15190:0x3b99 I/libc     ]
+UID=10100,PID=15190,TID=15257 removed: /data/data/com.xdf.ucan/shared_prefs/umeng_general_config.xml.bak
+
+[ 12-10 15:18:06.490 15190:0x3b99 E/err      ]
+程序异常
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:204)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:838)
+
+
+[ 12-10 15:18:06.537 15220:0x3b74 D/RongService ]
+onUnbind, pid=15220
+
+[ 12-10 15:18:06.537 15220:0x3b74 D/RongService ]
+onDestroy, pid=15220
+

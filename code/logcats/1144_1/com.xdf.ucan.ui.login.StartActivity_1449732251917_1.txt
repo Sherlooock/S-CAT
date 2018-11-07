@@ -1,0 +1,1761 @@
+--------- beginning of /dev/log/main
+[ 12-10 15:22:30.112 21726:21726 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 15:22:30.112 21726:21726 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 15:22:30.122 21726:21741 I/##COMMON_io.rong.push.PushClient:Ping ]
+/119.254.111.243
+
+[ 12-10 15:22:30.132 21726:21741 I/##COMMON_io.rong.push.PushService.PushHandler:ping ]
+Reconnect in 30 sec later if no PINGRESP received.
+
+[ 12-10 15:22:30.132 21726:21741 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:22:30.232 21726:21743 I/##COMMON_io.rong.push.PushClient:Handler ]
+PINGRESP
+
+[ 12-10 15:22:30.232 21726:21743 I/##COMMON_io.rong.push.PushService.PushHandler.PingSuccessListener:PingSuccessListener ]
+Receive PingResp. Cancel the runnable.
+
+[ 12-10 15:22:48.322 21686:21686 D/##IPC_io.rong.imlib.RongIMClient:onServiceDisconnected ]
+mConnectionStatus = DISCONNECTED
+
+[ 12-10 15:22:48.322 21686:21686 D/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+mConnectionStatus = DISCONNECTED, status = DISCONNECTED, listener = null
+
+[ 12-10 15:22:48.332 21686:21686 E/##IPC_io.rong.imlib.RongIMClient.StatusListener:onStatusChange ]
+Token is null!
+
+[ 12-10 15:22:48.372 21837:21837 D/ActivityThread ]
+handleBindApplication:com.xdf.ucan
+
+[ 12-10 15:22:48.372 21837:21837 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 15:22:48.372 21837:21837 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 15:22:48.372 21837:21837 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 15:22:48.602 21837:21849 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116404277
+
+[ 12-10 15:22:48.612 21837:21837 D/long     ]
+连接的数据库是：xdf004483191.db
+
+[ 12-10 15:22:48.622 21837:21837 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:22:48.652 21837:21837 D/long     ]
+getCurProcessName:com.xdf.ucan
+
+[ 12-10 15:22:48.702 21837:21837 W/ContextImpl ]
+Failed to ensure directory: /storage/sdcard1/Android/data/com.xdf.ucan/cache
+
+[ 12-10 15:22:48.712 21837:21837 D/##KIT_io.rong.imkit.widget.provider.TextInputProvider:TextInputProvider ]
+
+
+[ 12-10 15:22:48.722 21837:21837 E/##IPC_io.rong.imkit.widget.provider.VoIPInputProvider:VoIPInputProvider ]
+----------构造方法----------
+
+[ 12-10 15:22:48.722 21837:21837 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = com.xdf.ucan
+
+[ 12-10 15:22:48.732 21837:21837 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:22:48.782 21837:21837 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+4100
+
+[ 12-10 15:22:48.792 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:initBindService ]
+mIsBind = false
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.TextMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.VoiceMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ImageMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.LocationMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.CommandNotificationMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ContactNotificationMessage
+
+[ 12-10 15:22:48.802 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.RichContentMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceMultiRichContentMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceRichContentMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.PublicServiceCommandMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.ProfileNotificationMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.HandshakeMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.InformationNotificationMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.DiscussionNotificationMessage
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.message.SuspendMessage
+
+[ 12-10 15:22:48.812 21837:21837 E/##KIT_com.xdf.ucan.BaseApplication:init ]
+before init
+
+[ 12-10 15:22:48.812 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPAcceptMessage
+
+[ 12-10 15:22:48.822 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPCallMessage
+
+[ 12-10 15:22:48.822 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:registerMessageType ]
+class io.rong.voipkit.message.VoIPFinishMessage
+
+[ 12-10 15:22:48.822 21858:21858 D/ActivityThread ]
+handleBindApplication:com.xdf.ucan:ipc
+
+[ 12-10 15:22:48.822 21858:21858 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 15:22:48.822 21858:21858 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 15:22:48.822 21858:21858 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 15:22:48.832 21837:21837 I/##KIT_com.xdf.ucan.RongCloudEvent:RongIMClientWrapper ]
+setOnReceiveMessageListener
+
+[ 12-10 15:22:48.832 21837:21837 V/HwPolicyFactory ]
+: success to get AllImpl object and return....
+
+[ 12-10 15:22:48.842 21837:21837 V/HwWidgetFactory ]
+: successes to get AllImpl object and return....
+
+[ 12-10 15:22:48.902 21837:21837 D/http     ]
+请求的地址：http://passport.xdf.cn/apis/usersv2.ashx
+
+[ 12-10 15:22:48.902 21837:21837 D/http     ]
+请求的参数：method=CheckLoginV3App&appid=90116&encodeUser=UL6CQ34y18UcTJlgDPbzfA==&encodePwd=akvQo5QrDjO1txJ0bveB3Q==&guid=d53feaf5-7b9c-457f-9e35-1d7789f37b9e&sign=EFF64050C319D028C8FB06030C851D93&appOption=1&accessTokenOption=1
+
+[ 12-10 15:22:48.902 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:22:48.962 21837:21837 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.7.2.1_RB1.04.04.04.157.009_msm8916_32_LNX.LA.3.7.2.1_RB1__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.02.07
+Build Date: 07/30/14 Wed
+Local Branch: mybranch3995205
+Remote Branch: quic/LNX.LA.3.7.2.1_rb1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.7.2.1_RB1.04.04.04.157.009 +  NOTHING
+
+[ 12-10 15:22:48.992 21837:21837 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+--------- beginning of /dev/log/system
+[ 12-10 15:22:49.002 21837:21880 I/AndroidRuntime ]
+timezone is Asia/Shanghai
+
+[ 12-10 15:22:49.042 21837:21837 V/AsyncHttpRH ]
+Progress 462 from 462 (100%)
+
+
+[ 12-10 15:22:49.042 21837:21837 D/http     ]
+返回的结果：{"Status":1,"Data":"{\"UserId\":\"xdf004483191\",\"NickName\":\"151210135749635_v\",\"HideMobile\":\"130****9219\",\"HideEmail\":\"151****35749635e6512_v@v.com\",\"Mobile\":\"13057539219\",\"Email\":\"151210135749635e6512_v@v.com\",\"LoginToken\":\"7b859b30-d54e-427a-ba3f-164221e58b8e\",\"Sign\":\"E3ED727659299993CB09D5A42ED66FBA\",\"AccessToken\":\"7b859b30-d54e-427a-ba3f-164221e58b8e\",\"AccessTokenExpireTime\":\"2016-01-29 05:22:44\"}","Message":"成功"}
+
+[ 12-10 15:22:49.042 21837:21837 D/long     ]
+response:{"Status":1,"Data":"{\"UserId\":\"xdf004483191\",\"NickName\":\"151210135749635_v\",\"HideMobile\":\"130****9219\",\"HideEmail\":\"151****35749635e6512_v@v.com\",\"Mobile\":\"13057539219\",\"Email\":\"151210135749635e6512_v@v.com\",\"LoginToken\":\"7b859b30-d54e-427a-ba3f-164221e58b8e\",\"Sign\":\"E3ED727659299993CB09D5A42ED66FBA\",\"AccessToken\":\"7b859b30-d54e-427a-ba3f-164221e58b8e\",\"AccessTokenExpireTime\":\"2016-01-29 05:22:44\"}","Message":"成功"}
+
+[ 12-10 15:22:49.062 21837:21837 D/long     ]
+{"UserId":"xdf004483191","NickName":"151210135749635_v","HideMobile":"130****9219","HideEmail":"151****35749635e6512_v@v.com","Mobile":"13057539219","Email":"151210135749635e6512_v@v.com","LoginToken":"7b859b30-d54e-427a-ba3f-164221e58b8e","Sign":"E3ED727659299993CB09D5A42ED66FBA","AccessToken":"7b859b30-d54e-427a-ba3f-164221e58b8e","AccessTokenExpireTime":"2016-01-29 05:22:44"}
+
+[ 12-10 15:22:49.112 21858:21858 D/long     ]
+连接的数据库是：xdf004483191.db
+
+[ 12-10 15:22:49.122 21837:21841 D/dalvikvm ]
+GC_CONCURRENT freed 2345K, 41% free 9089K/15328K, paused 2ms+3ms, total 46ms
+
+[ 12-10 15:22:49.122 21858:21858 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:22:49.122 21858:21858 D/long     ]
+getCurProcessName:com.xdf.ucan:ipc
+
+[ 12-10 15:22:49.132 21837:21837 D/long     ]
+DATABASE_NAME:xdf004483191.db
+
+[ 12-10 15:22:49.132 21858:21858 D/RongService ]
+onCreate, pid=21858
+
+[ 12-10 15:22:49.132 21858:21858 D/RongService ]
+onBind, pid=21858
+
+[ 12-10 15:22:49.172 21858:21858 W/ContextImpl ]
+Failed to ensure directory: /storage/sdcard1/Android/data/com.xdf.ucan/cache
+
+[ 12-10 15:22:49.182 21858:21858 I/##COMMON_io.rong.imlib.LibContext:DeviceId ]
+865206021909525
+
+[ 12-10 15:22:49.182 21858:21858 D/dalvikvm ]
+Trying to load lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x41f95cb0
+
+[ 12-10 15:22:49.182 21858:21858 D/dalvikvm ]
+Added shared lib /data/app-lib/com.xdf.ucan-1/libRongIMLib.so 0x41f95cb0
+
+[ 12-10 15:22:49.182 21858:21858 D/NativeClient ]
+/storage/emulated/0/Android/data/com.xdf.ucan/RongCloud||/data/data/com.xdf.ucan/files
+
+[ 12-10 15:22:49.192 21837:21837 D/long     ]
+prestr：appid=5004&method=GetUserTypeByUserId&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:22:49.192 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/User
+
+[ 12-10 15:22:49.192 21837:21837 D/http     ]
+请求的参数：method=GetUserTypeByUserId&appid=5004&userid=xdf004483191&sign=3747180CEBCE373F5A5D80065E4B032E
+
+[ 12-10 15:22:49.192 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:22:49.202 21837:21837 D/##IPC_io.rong.imlib.RongIMClient:onServiceConnected ]
+mConnectionStatus = DISCONNECTED, stub = io.rong.imlib.ipc.remote.IHandler$Stub$Proxy@41ff3fa0
+
+[ 12-10 15:22:49.222 21837:21837 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) }
+
+[ 12-10 15:22:49.222 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41fb9588 time:116404898
+
+[ 12-10 15:22:49.342 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:22:49.342 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": null,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:22:49.342 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116405012
+
+[ 12-10 15:22:49.432 21837:21837 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/student/getmyclassmate.do
+
+[ 12-10 15:22:49.432 21837:21837 D/http     ]
+请求的参数：
+
+[ 12-10 15:22:49.432 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:22:49.432 21837:21837 D/http     ]
+请求的地址：http://my.xdf.cn/API_User/avatar?
+
+[ 12-10 15:22:49.432 21837:21837 D/http     ]
+请求的参数：userId=xdf004483191&size=big
+
+[ 12-10 15:22:49.442 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:22:49.442 21837:21837 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:22:49.442 21837:21837 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:22:49.442 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:22:49.542 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:22:49.582 21837:21837 D/PullToRefresh ]
+addView: LinearLayout
+
+[ 12-10 15:22:49.682 21837:21837 D/long     ]
+prestr：appid=5004&examenddate=2015-12-10 15:22:49.695&examstartdate=1970-01-01 08:00:00.0&method=GetLatestResourceVideoExamStatistics&resourceenddate=2015-12-10 15:22:49.640&resourcestartdate=2015-12-10 15:18:55.889&schoolid=0&userid=xdf004483191&videoenddate=2015-12-10 15:22:49.667&videostartdate=1970-01-01 08:00:00.0&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:22:49.682 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:22:49.682 21837:21837 D/http     ]
+请求的参数：method=GetLatestResourceVideoExamStatistics&userid=xdf004483191&schoolid=0&resourcestartdate=2015-12-10 15:18:55.889&resourceenddate=2015-12-10 15:22:49.640&videostartdate=1970-01-01 08:00:00.0&videoenddate=2015-12-10 15:22:49.667&examstartdate=1970-01-01 08:00:00.0&examenddate=2015-12-10 15:22:49.695&appid=5004&sign=CA0D0BA390ABDF0AAEF55A5F496319B9
+
+[ 12-10 15:22:49.692 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:22:49.792 21837:21837 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 952
+
+[ 12-10 15:22:49.792 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: -571, R: 0, B: 0
+
+[ 12-10 15:22:49.802 21837:21837 V/AsyncHttpRH ]
+Progress 87 from 1 (8700%)
+
+
+[ 12-10 15:22:49.802 21837:21837 D/http     ]
+返回的结果：{"message":"获取我的同学成功！","status":"1","data":null,"date":1449732165003}
+
+[ 12-10 15:22:49.802 21837:21837 I/System.out ]
+res:{"message":"获取我的同学成功！","status":"1","data":null,"date":1449732165003}
+
+[ 12-10 15:22:49.802 21837:21837 V/AsyncHttpRH ]
+Progress 44 from 1 (4400%)
+
+
+[ 12-10 15:22:49.802 21837:21837 I/System.out ]
+res:http://my.xdf.cn/public/images/User/_Big.jpg
+
+[ 12-10 15:22:49.862 21837:21837 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:22:49.862 21837:21837 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732165012}
+
+[ 12-10 15:22:49.862 21837:21837 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732165012}
+
+[ 12-10 15:22:49.902 21837:21870 I/##KIT_java.lang.Class:onEventBackgroundThread ]
+user name = 系统消息
+
+[ 12-10 15:22:50.082 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41d6bb68 time:116405759
+
+[ 12-10 15:22:50.182 21837:21837 D/long     ]
+cancle request：com.xdf.ucan.ui.login.StartActivity
+
+[ 12-10 15:22:50.192 21837:21837 V/AsyncHttpRH ]
+Progress 296 from 296 (100%)
+
+
+[ 12-10 15:22:50.192 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "Attr": "subscription",
+      "FileType": 2,
+      "FileId": 47187,
+      "FileName": "SPOC第二十七讲物质的鉴别——谭龙",
+      "Created": "2015-12-02 18:46:12",
+      "TotalCount": 2
+    }
+  ],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:22:50.192 21837:21837 D/long     ]
+conunt:{
+  "State": 1,
+  "Data": [
+    {
+      "Attr": "subscription",
+      "FileType": 2,
+      "FileId": 47187,
+      "FileName": "SPOC第二十七讲物质的鉴别——谭龙",
+      "Created": "2015-12-02 18:46:12",
+      "TotalCount": 2
+    }
+  ],
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:22:50.232 21837:21837 D/##IPC_io.rong.imlib.ConnectChangeReceiver:onReceive ]
+network:true, intent:Intent { act=action_reconnect flg=0x14 pkg=com.xdf.ucan cmp=com.xdf.ucan/io.rong.imlib.ConnectChangeReceiver (has extras) }
+
+[ 12-10 15:22:50.282 21837:21903 D/##IPC_io.rong.imlib.ReConnectService:RECONNECT ]
+Intent { cmp=com.xdf.ucan/io.rong.imlib.ReConnectService (has extras) }
+
+[ 12-10 15:22:50.282 21837:21903 D/##IPC_io.rong.imlib.RongIMClient:reconnect ]
+mConnectionStatus :DISCONNECTED
+
+[ 12-10 15:22:50.472 21837:21837 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 15:22:50.472 21837:21837 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 15:22:50.472 21837:21837 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() :1
+
+[ 12-10 15:22:50.472 21837:21837 E/##KIT_io.rong.imkit.logic.MessageCounterLogic:registerMessageCounter ]
+RongIM.getInstance() is null
+
+[ 12-10 15:22:52.932 21904:21904 D/ActivityThread ]
+handleBindApplication:io.rong.push
+
+[ 12-10 15:22:52.932 21904:21904 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 15:22:52.932 21904:21904 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 15:22:52.932 21904:21904 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 15:22:53.162 21904:21904 D/long     ]
+连接的数据库是：xdf004483191.db
+
+[ 12-10 15:22:53.172 21904:21904 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:22:53.172 21904:21904 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:22:53.182 21904:21904 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:22:53.192 21904:21904 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:22:53.252 21904:21904 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+2600
+
+[ 12-10 15:22:53.262 21904:21904 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:22:53.272 21904:21904 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:22:53.272 21904:21904 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:22:53.272 21904:21904 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:22:53.282 21904:21919 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:22:53.282 21904:21919 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:22:53.282 21904:21919 I/##COMMON_io.rong.push.PushService:DeviceId ]
+865206021909525
+
+[ 12-10 15:22:53.292 21904:21919 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 15:22:53.292 21904:21919 I/PushHandler ]
+the saved time = 1449731428820current time = 1449732173300
+
+[ 12-10 15:22:53.292 21904:21919 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 15:22:53.292 21904:21919 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001
+
+[ 12-10 15:22:53.302 21904:21919 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001 push version:2.6
+
+[ 12-10 15:22:53.362 21904:21919 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:22:53.522 21904:21921 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:22:53.522 21904:21921 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:22:53.522 21904:21921 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:22:53.522 21904:21921 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:22:54.982 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:22:54.982 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:22:56.232 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:22:56.232 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:22:56.242 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116411910
+
+[ 12-10 15:22:56.382 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:22:56.382 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:22:56.382 21837:21837 D/HwSensorManager ]
+HwSensorManager version: 1.0.0
+
+[ 12-10 15:22:56.392 21837:21837 D/long     ]
+prestr：appid=5004&isrecommendedflag=1&method=GetSubscribtionListByFuzzyQuery&pageindex=1&pagesize=25&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:22:56.392 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:22:56.392 21837:21837 D/http     ]
+请求的参数：method=GetSubscribtionListByFuzzyQuery&appid=5004&userid=xdf004483191&isrecommendedflag=1&pageindex=1&pagesize=25&sign=4D9E04BE368FF3F163E383D2F0149D18
+
+[ 12-10 15:22:56.392 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:22:56.402 21837:21837 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:22:56.402 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:22:56.452 21837:21837 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 871
+
+[ 12-10 15:22:56.452 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: -523, R: 0, B: -523
+
+[ 12-10 15:22:56.452 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:22:56.472 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:22:56.512 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 2. Total Items:2
+
+[ 12-10 15:22:56.522 21837:21837 V/AsyncHttpRH ]
+Progress 1093 from 14052 ( 8%)
+
+
+[ 12-10 15:22:56.532 21837:21837 V/AsyncHttpRH ]
+Progress 2441 from 14052 (17%)
+
+
+[ 12-10 15:22:56.542 21837:21837 V/AsyncHttpRH ]
+Progress 3789 from 14052 (27%)
+
+
+[ 12-10 15:22:56.552 21837:21837 V/AsyncHttpRH ]
+Progress 5137 from 14052 (37%)
+
+
+[ 12-10 15:22:56.552 21837:21837 V/AsyncHttpRH ]
+Progress 6485 from 14052 (46%)
+
+
+[ 12-10 15:22:56.552 21837:21837 V/AsyncHttpRH ]
+Progress 7833 from 14052 (56%)
+
+
+[ 12-10 15:22:56.552 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@426f28f0 time:116412222
+
+[ 12-10 15:22:56.552 21837:21837 V/AsyncHttpRH ]
+Progress 9181 from 14052 (65%)
+
+
+[ 12-10 15:22:56.552 21837:21837 V/AsyncHttpRH ]
+Progress 10529 from 14052 (75%)
+
+
+[ 12-10 15:22:56.562 21837:21837 V/AsyncHttpRH ]
+Progress 14052 from 14052 (100%)
+
+
+[ 12-10 15:22:56.562 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": [
+    {
+      "SchoolId": 1,
+      "Code": "DYH00008",
+      "Name": "初中化学",
+      "KeyWord": "初化",
+      "KeyColor": "10",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 1596,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007434",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中化学教研组，集结京城名师，为中考考生备战一个全新的学科，抓住初中最后一个超越别人的机会，以幽默风趣的教学形式，以严谨认真的教研手法，以务实诚恳的治学态度，每年培养出大量化学高分学员。",
+      "HasSubscribed": 1,
+      "Subject": null,
+      "Id": 9
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00004",
+      "Name": "初中数学",
+      "KeyWord": "初数",
+      "KeyColor": "3",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2993,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007423",
+      "UserType": 5,
+      "Description": "由新东方初中数学教研组推送，以数学学习为主，以提高学生数学成绩为目标，分享经典好题、好方法、考试真题等，为你打造一个专业、便捷的学习平台，让你进步更多！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 5
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00007",
+      "Name": "初中物理",
+      "KeyWord": "初物",
+      "KeyColor": "2",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2156,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007432",
+      "UserType": 5,
+      "Description": "新东方优能中学部初中物理项目组官方订阅号。物理精选好题、物理学小故事、生活中的物理定期推送，让你体会物理之美；北京中考政策变化、各区物理期中期末模考试题定期更新，给你物理提分利器。一个订阅号，初中物理新鲜资讯一手掌握！",
+      "HasSubscribed": 1,
+      "Subject": null,
+      "Id": 8
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00005",
+      "Name": "初中英语非应试",
+      "KeyWord": "初英",
+      "KeyColor": "7",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 2277,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007426",
+      "UserType": 5,
+      "Description": "北京新东方优能中学初中英语教研组，是京城最权威的英语教学团队之一，具有独到的“输入输出”相结合的教学体系。通过一年四季细致规划及监控落实，在提升学员英语能力的基础上快速提分，成就了上万名初中英语精英。",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 6
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00003",
+      "Name": "初中语文",
+      "KeyWord": "初语",
+      "KeyColor": "9",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 3027,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "xdf004007421",
+      "UserType": 5,
+      "Description": "最新最全的初中语文资讯哪里有？最具权威的初中语文名师哪里有？最有效最好学的提分方法哪里有？不用四处寻找，动动你的手指，一切你想要的就在新东方初中语文订阅号！",
+      "HasSubscribed": 0,
+      "Subject": null,
+      "Id": 4
+    },
+    {
+      "SchoolId": 1,
+      "Code": "DYH00009",
+      "Name": "初中英语住宿",
+      "KeyWord": "初住",
+      "KeyColor": "1",
+      "IsRecommended": true,
+      "AttentionNum": 0,
+      "FansNum": 786,
+      "Created": "2015-05-13 17:01:38",
+      "Published": "2015-05-13 17:01:38",
+      "UserId": "
+
+[ 12-10 15:22:56.812 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 9. Total Items:20
+
+[ 12-10 15:22:56.982 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 9. Total Items:20
+
+[ 12-10 15:22:57.042 21837:21841 D/dalvikvm ]
+GC_CONCURRENT freed 3199K, 37% free 12046K/19084K, paused 2ms+5ms, total 38ms
+
+[ 12-10 15:22:57.362 21904:21904 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:22:57.372 21904:21904 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:22:57.382 21904:21919 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:22:57.392 21904:21919 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+
+[ 12-10 15:22:58.622 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 433K, 33% free 15099K/22416K, paused 23ms, total 23ms
+
+[ 12-10 15:22:58.742 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732178558
+
+[ 12-10 15:22:59.292 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:22:59.352 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:22:59.362 21837:21837 D/long     ]
+onRestart
+
+[ 12-10 15:22:59.362 21837:21837 D/http     ]
+请求的地址：http://ims.xdf.cn/imserver/appversion/getversion.do
+
+[ 12-10 15:22:59.362 21837:21837 D/http     ]
+请求的参数：appCode=upoc_student&osType=2&appVersionResultType=1
+
+[ 12-10 15:22:59.362 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.MainActivity
+
+[ 12-10 15:22:59.432 21837:21837 V/AsyncHttpRH ]
+Progress 499 from 1 (49900%)
+
+
+[ 12-10 15:22:59.432 21837:21837 D/http     ]
+返回的结果：{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732174919}
+
+[ 12-10 15:22:59.432 21837:21837 I/System.out ]
+res:{"message":"获取应用版本号成功！","status":"1","data":[{"id":2,"appCode":"upoc_student","appName":"优播课ANDROID学生端","osType":"2","publishDate":1442541611000,"url":"http://www.pgyer.com/qe34","version":"2.1.0","updateType":"0","buildCode":"35","description":"“哒哒哒” 资料观看不过瘾？ 地铁？没网？优播课缓存离线文件，温暖你整个冬天，快去体验吧！","noticeDate":1448270388000,"noticeUserType":"1","noticeFlag":"1"}],"date":1449732174919}
+
+[ 12-10 15:22:59.452 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41d6bb68 time:116415124
+
+[ 12-10 15:22:59.742 21837:21837 D/long     ]
+cancle request：com.xdf.ucan.ui.subscript.AddSubscriptionActivity
+
+[ 12-10 15:23:05.632 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:05.632 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:05.632 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116421308
+
+[ 12-10 15:23:05.722 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:23:05.722 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 0. Total Items:0
+
+[ 12-10 15:23:05.742 21837:21837 D/PullToRefresh ]
+Setting mode to: BOTH
+
+[ 12-10 15:23:05.752 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: 0, R: 0, B: 0
+
+[ 12-10 15:23:05.782 21837:21837 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-10 15:23:05.777&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:05.782 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:23:05.782 21837:21837 D/http     ]
+请求的参数：method=GetSubscriberFileListByUserIdWithTimeStamp&showall=1&timestamp=2015-12-10 15:23:05.777&filetype=1&appid=5004&userid=xdf004483191&orderbydatedes=1&isread=2&pageindex=1&pagesize=10&sign=06B4B44F8A9655A09C01035146BF0BDF
+
+[ 12-10 15:23:05.782 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialListActivity
+
+[ 12-10 15:23:05.782 21837:22002 D/BitmapCache.initDiskCache(L:101) ]
+create disk cache success
+
+[ 12-10 15:23:05.842 21837:21837 D/PullToRefresh ]
+onSizeChanged. W: 720, H: 1046
+
+[ 12-10 15:23:05.842 21837:21837 D/PullToRefresh ]
+Setting Padding. L: 0, T: -627, R: 0, B: -627
+
+[ 12-10 15:23:05.892 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:23:05.972 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:23:06.052 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 3. Total Items:3
+
+[ 12-10 15:23:06.092 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4245e0c0 time:116421760
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:492)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:241)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:583)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:506)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+java.net.SocketTimeoutException
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:492)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:241)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:583)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:506)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequest(AsyncHttpRequest.java:146)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.makeRequestWithRetries(AsyncHttpRequest.java:177)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at com.loopj.android.http.AsyncHttpRequest.run(AsyncHttpRequest.java:106)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+
+[ 12-10 15:23:25.802 21837:21896 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-10 15:23:25.822 21837:21896 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-10 15:23:25.822 21837:21896 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-10 15:23:25.822 21837:21896 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-10 15:23:25.822 21837:21837 D/http     ]
+返回的结果：java.net.SocketTimeoutException
+
+[ 12-10 15:23:25.852 21837:21837 D/long     ]
+prestr：appid=5004&filetype=1&isread=2&method=GetSubscriberFileListByUserIdWithTimeStamp&orderbydatedes=1&pageindex=1&pagesize=10&showall=1&timestamp=2015-12-10 15:18:55.889&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:26.012 21837:21841 D/dalvikvm ]
+GC_CONCURRENT freed 8952K, 52% free 12509K/25968K, paused 2ms+6ms, total 39ms
+
+[ 12-10 15:23:26.232 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-10 15:23:26.442 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-10 15:23:31.372 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:31.432 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:31.432 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:31.452 21837:21837 D/long     ]
+prestr：appid=5004&attribute=subscription&method=AddPraise&schoolid=0&sourcefiletype=1&sourceid=59882&userid=xdf004483191&usertype=&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:31.452 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:23:31.452 21837:21837 D/http     ]
+请求的参数：method=AddPraise&appid=5004&userid=xdf004483191&usertype=&schoolid=0&sourceid=59882&sourcefiletype=1&attribute=subscription&sign=A89A5A1C980F32F24E8647AFCB6A3589
+
+[ 12-10 15:23:31.452 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-10 15:23:31.462 21837:21841 D/dalvikvm ]
+GC_CONCURRENT freed 4962K, 47% free 13836K/25964K, paused 6ms+16ms, total 108ms
+
+[ 12-10 15:23:31.622 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:31.622 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:23:31.702 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-10 15:23:33.592 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 2211K, 51% free 12775K/25964K, paused 35ms, total 35ms
+
+[ 12-10 15:23:33.592 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.472MB for 3409936-byte allocation
+
+[ 12-10 15:23:33.642 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 558K, 47% free 15547K/29296K, paused 24ms, total 24ms
+
+[ 12-10 15:23:33.652 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.179MB for 3409936-byte allocation
+
+[ 12-10 15:23:33.782 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732213518
+
+[ 12-10 15:23:34.322 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:34.412 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:34.412 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:34.422 21837:21837 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59882&method=DeletePraise&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:34.422 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:23:34.422 21837:21837 D/http     ]
+请求的参数：method=DeletePraise&appid=5004&id=59882&filetype=1&userid=xdf004483191&attribute=subscription&sign=DC0DBCAC2B658DE7973CA4780F051A08
+
+[ 12-10 15:23:34.422 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-10 15:23:34.612 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:34.612 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:23:34.682 21837:21837 D/PullToRefresh ]
+First Visible: 0. Visible Count: 6. Total Items:13
+
+[ 12-10 15:23:36.192 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 7676K, 53% free 12382K/25964K, paused 46ms, total 46ms
+
+[ 12-10 15:23:36.192 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.088MB for 3409936-byte allocation
+
+[ 12-10 15:23:36.242 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 33K, 47% free 15679K/29296K, paused 24ms, total 25ms
+
+[ 12-10 15:23:36.242 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.308MB for 3409936-byte allocation
+
+[ 12-10 15:23:36.372 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732216120
+
+[ 12-10 15:23:36.862 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:36.922 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:36.922 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:36.922 21837:21837 D/long     ]
+prestr：appid=5004&attribute=subscription&filetype=1&id=59882&method=DeleteFileStore&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:36.922 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:23:36.922 21837:21837 D/http     ]
+请求的参数：method=DeleteFileStore&appid=5004&id=59882&filetype=1&userid=xdf004483191&attribute=subscription&sign=DF996B527ACE19DF8DDC566C58CAFAE3
+
+[ 12-10 15:23:36.922 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-10 15:23:36.992 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:36.992 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:23:38.552 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 7280K, 53% free 12297K/25964K, paused 41ms, total 43ms
+
+[ 12-10 15:23:38.552 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.005MB for 3409936-byte allocation
+
+[ 12-10 15:23:38.612 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 29K, 47% free 15597K/29296K, paused 28ms, total 28ms
+
+[ 12-10 15:23:38.622 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 24.228MB for 3409936-byte allocation
+
+[ 12-10 15:23:38.722 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732218490
+
+[ 12-10 15:23:39.042 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:39.102 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:39.102 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:39.112 21837:21837 D/long     ]
+prestr：appid=5004&code=DYH00008&fileid=59882&filetype=1&from=subscription&method=AddFileStore&schoolid=0&userid=xdf004483191&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:39.112 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/index
+
+[ 12-10 15:23:39.112 21837:21837 D/http     ]
+请求的参数：method=AddFileStore&appid=5004&userid=xdf004483191&code=DYH00008&from=subscription&schoolid=0&fileid=59882&filetype=1&sign=0531837AAF76FEEE08BB062E42950D11
+
+[ 12-10 15:23:39.112 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.BaseApplication
+
+[ 12-10 15:23:39.192 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:39.192 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 0
+}
+
+[ 12-10 15:23:40.982 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:41.052 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:41.052 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:41.052 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116456729
+
+[ 12-10 15:23:41.162 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 7426K, 53% free 12355K/25964K, paused 28ms, total 28ms
+
+[ 12-10 15:23:41.162 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 21.326MB for 3686416-byte allocation
+
+[ 12-10 15:23:41.332 21837:21837 D/long     ]
+className:初中化学
+
+[ 12-10 15:23:41.392 21837:21837 D/long     ]
+prestr：appid=5004&method=AddSubScriberFileViewHistory&subfileid=947&userid=xdf004483191&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:41.412 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 162K, 40% free 17840K/29568K, paused 25ms, total 25ms
+
+[ 12-10 15:23:41.412 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:23:41.412 21837:21837 D/http     ]
+请求的参数：method=AddSubScriberFileViewHistory&appid=5004&userid=xdf004483191&usertype=5&subfileid=947&sign=A1B2BE39E66FCAC88EF7917266A373E0
+
+[ 12-10 15:23:41.412 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 15:23:41.652 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d8b7e0 time:116457319
+
+[ 12-10 15:23:48.692 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d8b7e0 time:116464362
+
+[ 12-10 15:23:49.042 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 616K, 40% free 17830K/29568K, paused 46ms, total 46ms
+
+[ 12-10 15:23:49.052 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.409MB for 3409936-byte allocation
+
+[ 12-10 15:23:49.082 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 26K, 36% free 21134K/32900K, paused 24ms, total 24ms
+
+[ 12-10 15:23:49.082 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 29.635MB for 3409936-byte allocation
+
+[ 12-10 15:23:49.172 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:49.172 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 15:23:49.232 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732224779
+
+[ 12-10 15:23:50.452 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:23:50.502 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:23:50.592 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4245e0c0 time:116466263
+
+[ 12-10 15:23:50.912 21837:21837 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 15:23:51.422 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:51.452 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:51.482 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:51.502 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:51.502 21837:21837 D/PullToRefresh ]
+First Visible: 1. Visible Count: 5. Total Items:13
+
+[ 12-10 15:23:51.532 21837:21837 D/PullToRefresh ]
+First Visible: 1. Visible Count: 5. Total Items:13
+
+[ 12-10 15:23:51.542 21837:21837 D/PullToRefresh ]
+First Visible: 1. Visible Count: 5. Total Items:13
+
+[ 12-10 15:23:51.572 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.582 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.592 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.612 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.632 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.642 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.662 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.762 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.812 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.882 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:51.952 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 8555K, 40% free 17957K/29564K, paused 31ms, total 31ms
+
+[ 12-10 15:23:51.982 21837:21837 D/PullToRefresh ]
+First Visible: 2. Visible Count: 4. Total Items:13
+
+[ 12-10 15:23:54.322 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 791K, 40% free 17812K/29564K, paused 70ms, total 71ms
+
+[ 12-10 15:23:54.332 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.391MB for 3409936-byte allocation
+
+[ 12-10 15:23:54.382 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 41K, 36% free 21101K/32896K, paused 24ms, total 24ms
+
+[ 12-10 15:23:54.382 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 29.603MB for 3409936-byte allocation
+
+[ 12-10 15:23:54.502 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732234252
+
+[ 12-10 15:23:59.132 21837:21837 D/PullToRefresh ]
+isLastItemVisible. Last Item Position: 12 Last Visible Pos: 5
+
+[ 12-10 15:23:59.192 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:23:59.192 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:23:59.192 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116474866
+
+[ 12-10 15:23:59.292 21837:21837 D/long     ]
+className:初中化学
+
+[ 12-10 15:23:59.362 21837:21837 D/long     ]
+prestr：appid=5004&method=AddSubScriberFileViewHistory&subfileid=947&userid=xdf004483191&usertype=5&AppKey=v5key_my$cj_cnQcm
+
+[ 12-10 15:23:59.362 21837:21837 D/http     ]
+请求的地址：http://upoc.xdf.cn/Subscrib
+
+[ 12-10 15:23:59.362 21837:21837 D/http     ]
+请求的参数：method=AddSubScriberFileViewHistory&appid=5004&userid=xdf004483191&usertype=5&subfileid=947&sign=A1B2BE39E66FCAC88EF7917266A373E0
+
+[ 12-10 15:23:59.362 21837:21837 D/long     ]
+context.getClass().getName():com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 15:23:59.502 21837:21837 V/AsyncHttpRH ]
+Progress 70 from 70 (100%)
+
+
+[ 12-10 15:23:59.502 21837:21837 D/http     ]
+返回的结果：{
+  "State": 1,
+  "Data": true,
+  "Error": "",
+  "DataCount": 1
+}
+
+[ 12-10 15:23:59.562 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41e9eb88 time:116475230
+
+[ 12-10 15:24:02.112 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41e9eb88 time:116477787
+
+[ 12-10 15:24:04.452 21837:21837 V/AudioManager ]
+playSoundEffect   effectType: 0
+
+[ 12-10 15:24:04.452 21837:21837 V/AudioManager ]
+querySoundEffectsEnabled...
+
+[ 12-10 15:24:04.482 21837:21843 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-10 15:24:04.532 21837:21837 I/Timeline ]
+Timeline: Activity_launch_request id:com.xdf.ucan time:116480209
+
+[ 12-10 15:24:04.632 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 8316K, 39% free 18163K/29564K, paused 30ms, total 30ms
+
+[ 12-10 15:24:04.662 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.662 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.692 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.692 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.722 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.722 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.742 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.742 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.752 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.752 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.772 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.772 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.782 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.782 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.802 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.802 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.812 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.812 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.832 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.832 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.852 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.852 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.862 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.872 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.882 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.892 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.912 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.912 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.922 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.922 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.952 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.952 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:04.972 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:04.972 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.002 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.002 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.022 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.022 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.042 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.042 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.042 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@427408c8 time:116480719
+
+[ 12-10 15:24:05.052 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.052 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.072 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.072 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.092 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.092 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.112 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.112 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.132 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.132 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.142 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.142 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.152 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.152 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.172 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.172 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.192 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.192 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.202 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.202 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.212 21837:21843 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-10 15:24:05.212 21837:21843 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-10 15:24:05.212 21837:21843 I/dalvikvm ]
+Total arena pages for JIT: 13
+
+[ 12-10 15:24:05.212 21837:21843 I/dalvikvm ]
+Total arena pages for JIT: 14
+
+[ 12-10 15:24:05.222 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.222 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.242 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.242 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.252 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.252 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:05.272 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:05.272 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:06.402 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 2761K, 39% free 18312K/29564K, paused 80ms, total 80ms
+
+[ 12-10 15:24:06.402 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.879MB for 3409936-byte allocation
+
+[ 12-10 15:24:06.442 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 122K, 35% free 21520K/32896K, paused 26ms, total 26ms
+
+[ 12-10 15:24:06.452 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 30.012MB for 3409936-byte allocation
+
+[ 12-10 15:24:06.542 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732246330
+
+[ 12-10 15:24:07.832 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:24:07.972 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:24:08.362 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@41e9eb88 time:116484033
+
+[ 12-10 15:24:08.722 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:24:08.792 21837:21837 V/AudioManager ]
+preDispatchKeyEvent keycode: 4  stream: -2147483648
+
+[ 12-10 15:24:08.872 21837:21837 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4245e0c0 time:116484544
+
+[ 12-10 15:24:09.182 21837:21837 D/long     ]
+cancle request：com.xdf.ucan.ui.material.MaterialActivity
+
+[ 12-10 15:24:11.902 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Log:1449732251917
+
+[ 12-10 15:24:12.012 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 7442K, 39% free 18196K/29564K, paused 59ms, total 59ms
+
+[ 12-10 15:24:12.022 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 26.766MB for 3409936-byte allocation
+
+[ 12-10 15:24:12.062 21837:21837 D/dalvikvm ]
+GC_FOR_ALLOC freed 238K, 36% free 21288K/32896K, paused 26ms, total 26ms
+
+[ 12-10 15:24:12.072 21837:21837 I/dalvikvm-heap ]
+Grow heap (frag case) to 29.786MB for 3409936-byte allocation
+
+[ 12-10 15:24:12.182 21837:21892 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449732251945
+
+[ 12-10 15:24:12.182 21837:21892 W/dalvikvm ]
+threadid=27: thread exiting with uncaught exception (group=0x4162de18)
+
+[ 12-10 15:24:12.182 21837:21892 F/MobUncaughtExceptionHandler ]
+null
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:191)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-10 15:24:12.182 21837:22033 I/System.out ]
+type: value, col: 2
+
+[ 12-10 15:24:12.182 21837:22033 I/System.out ]
+type: value, col: 1
+
+[ 12-10 15:24:12.202 21837:22033 I/Process  ]
+Sending signal. PID: 21837 SIG: 9
+
+[ 12-10 15:24:12.232 21858:21858 D/RongService ]
+onUnbind, pid=21858
+
+[ 12-10 15:24:12.242 21858:21858 D/RongService ]
+onDestroy, pid=21858
+
+[ 12-10 15:24:12.242 21858:21858 I/Process  ]
+Sending signal. PID: 21858 SIG: 9
+
+[ 12-10 15:25:53.612 22074:22074 D/ActivityThread ]
+handleBindApplication:io.rong.push
+
+[ 12-10 15:25:53.622 22074:22074 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-10 15:25:53.622 22074:22074 D/ActivityThread ]
+setTargetHeapMinFree:2097152
+
+[ 12-10 15:25:53.622 22074:22074 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-10 15:25:53.842 22074:22074 D/long     ]
+连接的数据库是：xdf004483191.db
+
+[ 12-10 15:25:53.852 22074:22074 D/ImageLoader ]
+Initialize ImageLoader with configuration
+
+[ 12-10 15:25:53.862 22074:22074 D/long     ]
+getCurProcessName:io.rong.push
+
+[ 12-10 15:25:53.892 22074:22074 D/##IPC_com.xdf.ucan.BaseApplication:RongIMClient : init ]
+process = io.rong.push
+
+[ 12-10 15:25:53.902 22074:22074 D/##COMMON_io.rong.push.PushContext:PushContext ]
+init
+
+[ 12-10 15:25:54.042 22074:22074 I/##COMMON_io.rong.push.PushContext:sendConnectCommand ]
+1700
+
+[ 12-10 15:25:54.052 22074:22074 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.HeartBeat
+
+[ 12-10 15:25:54.052 22074:22074 I/##COMMON_io.rong.push.PushReceiver:ACTION_HEARTBEAT ]
+Receive heartbeat action.
+
+[ 12-10 15:25:54.062 22074:22074 I/##COMMON_java.lang.Class:PushService ]
+PushService OnCreate
+
+[ 12-10 15:25:54.062 22074:22074 I/PushService ]
+PushService OnCreate
+
+[ 12-10 15:25:54.082 22074:22089 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = false
+
+[ 12-10 15:25:54.082 22074:22089 I/##COMMON_io.rong.push.PushService:DeviceId ]
+865206021909525
+
+[ 12-10 15:25:54.092 22074:22089 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+the saved IP = 119.254.111.243:8608
+
+[ 12-10 15:25:54.092 22074:22089 I/PushHandler ]
+the saved time = 1449731428820current time = 1449732354102
+
+[ 12-10 15:25:54.092 22074:22089 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,use the saved IP, IP = 119.254.111.243:8608
+
+[ 12-10 15:25:54.102 22074:22089 I/##COMMON_io.rong.push.PushService:getPhoneInformation. ]
+the phone information is:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001
+
+[ 12-10 15:25:54.112 22074:22089 I/##COMMON_io.rong.push.PushClient:connect ]
+phone info:HUAWEI|HUAWEI G7-TL00|19|WIFI|46001 push version:2.6
+
+[ 12-10 15:25:54.232 22074:22089 I/##COMMON_io.rong.push.PushClient:connect ]
+the socket is established
+
+[ 12-10 15:25:54.362 22074:22091 I/##COMMON_io.rong.push.PushClient:Handler ]
+CONNACK
+
+[ 12-10 15:25:54.372 22074:22091 I/PushService ]
+The client connect status is:CONNACK
+
+[ 12-10 15:25:54.372 22074:22091 I/##COMMON_io.rong.push.PushService:Connect ]
+Client connect successfully.So start the heart beat.
+
+[ 12-10 15:25:54.372 22074:22091 I/##COMMON_io.rong.push.PushContext:Heartbeat ]
+start_next
+
+[ 12-10 15:25:55.752 22074:22074 I/##COMMON_io.rong.push.PushReceiver:Action ]
+io.rong.push.Connect
+
+[ 12-10 15:25:55.762 22074:22074 I/##COMMON_io.rong.push.PushReceiver:ACTION_CONNECT ]
+version is null, run connect
+
+[ 12-10 15:25:55.782 22074:22089 I/##COMMON_io.rong.push.PushService:CONNECT_CHECK ]
+getRunningPushServiceVersion null
+
+[ 12-10 15:25:55.782 22074:22089 I/##COMMON_io.rong.push.PushService.PushHandler:PushHandler ]
+ConnectToServer,isClientConnected = true
+

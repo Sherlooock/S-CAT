@@ -1,0 +1,2934 @@
+--------- beginning of /dev/log/system
+[ 12-12 16:39:57.580  4725: 4778 W/FileUtils ]
+Failed to chmod(/storage/emulated/0/netease/wakeup/wakeup.dat): libcore.io.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+--------- beginning of /dev/log/main
+[ 12-12 16:40:50.830  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20456266
+
+[ 12-12 16:40:51.070  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20456503
+
+[ 12-12 16:40:51.300  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20456732
+
+[ 12-12 16:40:51.400  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20456835
+
+[ 12-12 16:40:51.570  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20457009
+
+[ 12-12 16:40:51.710  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20457140
+
+[ 12-12 16:40:51.870  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20457302
+
+[ 12-12 16:40:52.060  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20457491
+
+[ 12-12 16:40:52.250  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20457683
+
+[ 12-12 16:41:10.510  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest SocketTimeoutException
+
+
+[ 12-12 16:41:12.040  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->httpRequest, statusCode: 200
+
+
+[ 12-12 16:41:12.040  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread success
+
+
+[ 12-12 16:41:12.040  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread request success
+
+
+[ 12-12 16:41:35.920  4725: 4725 E/ActivityThread ]
+Failed to find provider info for com.sina.weibo.sdkProvider
+
+[ 12-12 16:41:35.930  4725: 4725 V/WebViewChromiumFactoryProvider ]
+Binding Chromium to main looper Looper (main, tid 1) {42795e68}
+
+[ 12-12 16:41:35.930  4725: 4725 I/LibraryLoader ]
+Expected native library version number "",actual native library version number ""
+
+[ 12-12 16:41:35.930  4725: 4725 I/chromium ]
+[INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+
+
+[ 12-12 16:41:35.930  4725: 4725 I/BrowserStartupController ]
+Initializing chromium process, renderers=0
+
+[ 12-12 16:41:35.940  4725: 4725 E/CheckPermission ]
+_bluetooth code = 1 
+
+[ 12-12 16:41:35.940  4725: 4725 D/BluetoothAdapter ]
+1154978568: getState() :  mService = null. Returning STATE_OFF
+
+[ 12-12 16:41:35.950  4725: 4725 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:41:35.990  4725: 5496 W/chromium ]
+[WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+
+
+[ 12-12 16:41:36.050  4725: 4725 W/AwContents ]
+nativeOnDraw failed; clearing to background color.
+
+[ 12-12 16:41:36.060  4725: 4725 D/AudioManagerAndroid ]
+==> onReceive: s=0, m=1, n=No Device, sb=true
+
+[ 12-12 16:41:36.060  4725: 4725 D/AudioManagerAndroid ]
+reportUpdate: state=0, devices=[Speakerphone, Headset earpiece]
+
+[ 12-12 16:41:36.490  4725: 5516 W/chromium ]
+[WARNING:simple_index_file.cc(338)] Could not map Simple Index file.
+
+
+[ 12-12 16:41:36.490  4725: 5516 I/chromium ]
+[INFO:simple_index_file.cc(437)] Simple Cache Index is being restored from disk.
+
+
+[ 12-12 16:41:36.750  4725: 4725 W/UnimplementedWebViewApi ]
+Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2178)
+
+[ 12-12 16:41:39.220  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20504652
+
+[ 12-12 16:41:39.390  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20504827
+
+[ 12-12 16:41:39.820  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20505255
+
+[ 12-12 16:41:40.010  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20505445
+
+[ 12-12 16:41:40.390  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20505821
+
+[ 12-12 16:41:40.520  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20505959
+
+[ 12-12 16:41:40.600  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20506030
+
+[ 12-12 16:41:40.650  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506085
+
+[ 12-12 16:41:40.810  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506245
+
+[ 12-12 16:41:40.910  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20506342
+
+[ 12-12 16:41:40.980  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20506411
+
+[ 12-12 16:41:41.070  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506504
+
+[ 12-12 16:41:41.210  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506642
+
+[ 12-12 16:41:41.240  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20506671
+
+[ 12-12 16:41:41.350  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506783
+
+[ 12-12 16:41:41.470  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20506907
+
+[ 12-12 16:41:41.520  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20506952
+
+[ 12-12 16:41:41.620  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20507059
+
+[ 12-12 16:41:41.760  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20507198
+
+[ 12-12 16:41:41.800  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20507236
+
+[ 12-12 16:41:41.920  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mm time:20507354
+
+[ 12-12 16:41:42.080  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20507513
+
+[ 12-12 16:41:42.360  4725: 4725 I/openSDK_LOG.Tencent ]
+createInstance()  -- start
+
+
+[ 12-12 16:41:42.370  4725: 4725 I/openSDK_LOG.Tencent ]
+createInstance()  -- end
+
+
+[ 12-12 16:41:42.370  4725: 4725 I/openSDK_LOG.Tencent ]
+login() with fragment, scope is all
+
+
+[ 12-12 16:41:42.370  4725: 4725 I/openSDK_LOG.QQAuth ]
+-->login activity: com.netease.cloudmusic.activity.LoginActivity@43f9b7f0
+
+
+[ 12-12 16:41:42.390  4725: 4725 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:41:42.400  4725: 4725 D/openSDK_LOG.QQAuth ]
+-->login channelId is null 
+
+
+[ 12-12 16:41:42.400  4725: 4725 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- start
+
+
+[ 12-12 16:41:42.400  4725: 4725 D/openSDK_LOG.AuthAgent ]
+startAssitActivity fragment
+
+
+[ 12-12 16:41:42.400  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20507833
+
+[ 12-12 16:41:42.400  4725: 4725 I/openSDK_LOG.AuthAgent ]
+startActionActivity() -- end, found activity for loginIntent
+
+
+[ 12-12 16:41:42.410  4725: 4725 E/openSDK_LOG.APNUtil ]
+getApn has exception: No permission to write APN settings: Neither user 10185 nor current process has android.permission.WRITE_APN_SETTINGS.
+
+
+[ 12-12 16:41:42.410  4725: 4725 I/openSDK_LOG.AuthAgent ]
+OpenUi, showUi, return Constants.UI_ACTIVITY
+
+
+[ 12-12 16:41:42.410  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->httpRequest, retryCount: 3
+
+
+[ 12-12 16:41:42.410  4725: 4725 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_via | ext: 100495085
+
+
+[ 12-12 16:41:42.410  4725: 4725 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: true | frequency: 100
+
+
+[ 12-12 16:41:42.420  4725: 5544 E/openSDK_LOG.APNUtil ]
+getApn has exception: No permission to write APN settings: Neither user 10185 nor current process has android.permission.WRITE_APN_SETTINGS.
+
+
+[ 12-12 16:41:42.420  4725: 5544 E/openSDK_LOG.Util ]
+getPackageInfo has exception: com.qzone
+
+
+[ 12-12 16:41:42.420  4725: 5544 D/openSDK_LOG.ReportManager ]
+-->availableCount, report: report_via | dataSize: 1 | maxcount: 5
+
+
+[ 12-12 16:41:42.440  4725: 4725 D/openSDK_LOG.AssistActivity ]
+--onCreate--
+
+
+[ 12-12 16:41:42.440  4725: 4725 I/openSDK_LOG.AssistActivity ]
+--onCreate--activityIntent not null, will start activity, reqcode = 11101
+
+
+[ 12-12 16:41:42.440  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.tencent.mobileqq time:20507870
+
+[ 12-12 16:41:42.460  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 16:41:42.460  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onResume
+
+
+[ 12-12 16:41:42.460  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onPause
+
+
+[ 12-12 16:41:42.470  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@44dd9ea8 time:20507903
+
+[ 12-12 16:41:42.590  4725: 4725 W/IInputConnectionWrapper ]
+showStatusIcon on inactive InputConnection
+
+[ 12-12 16:41:42.960  4725: 4725 D/openSDK_LOG.AssistActivity ]
+--onSaveInstanceState--
+
+
+[ 12-12 16:41:42.960  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 16:41:43.650  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 16:41:44.040  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 16:41:46.610  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStart
+
+
+[ 12-12 16:41:46.660  4725: 4725 I/openSDK_LOG.AssistActivity ]
+--onActivityResult--requestCode: 11101 | resultCode: -1data = null ? false
+
+
+[ 12-12 16:41:46.660  4725: 4725 D/openSDK_LOG.AssistActivity ]
+--setResultDataForLogin-- {"ret":0,"pay_token":"55134ECFFD47EEB0A1A8804763C857B9","pf":"desktop_m_qq-10000144-android-2002-","query_authority_cost":114,"authority_cost":-22324582,"expires_in":7776000,"openid":"2B87294771092D3D7DD3C896F04F501E","pfkey":"e058fff136cffffe03e5678a08b6472a","msg":"","login_cost":300,"access_token":"F8ECC84664CF7CA58FBC6216F4390017"}
+
+
+[ 12-12 16:41:46.660  4725: 4725 I/openSDK_LOG.AssistActivity ]
+--setResultData--openid and token not empty, setResult ACTIVITY_OK
+
+
+[ 12-12 16:41:46.710  4725: 4725 I/openSDK_LOG.Tencent ]
+onActivityResultData() reqcode = 11101, resultcode = -1, data = null ? false, listener = null ? false
+
+
+[ 12-12 16:41:46.710  4725: 4725 I/openSDK_LOG.UIListenerManager ]
+onActivityResult req=11101 res=-1
+
+
+[ 12-12 16:41:46.710  4725: 4725 W/openSDK_LOG.AuthAgent ]
+FeedConfirmListener onComplete There is no value for sendinstall.
+
+
+[ 12-12 16:41:47.090  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43200f58 time:20512528
+
+[ 12-12 16:41:47.100  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onStop
+
+
+[ 12-12 16:41:47.100  4725: 4725 D/openSDK_LOG.AssistActivity ]
+-->onDestroy
+
+
+[ 12-12 16:41:47.410  4725: 5672 D/com.netease.cloudmusic.utils.u ]
+672ms on url: https://music.163.com/eapi/login/sns
+
+[ 12-12 16:41:47.450  4725: 5679 D/openSDK_LOG.ReportManager ]
+-->prepareViaData, mViaList size: 1
+
+
+[ 12-12 16:41:47.570  4725: 5679 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_cgi | ext: 0
+
+
+[ 12-12 16:41:47.570  4725: 5679 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: false | frequency: 10
+
+
+[ 12-12 16:41:47.580  4725: 5679 D/openSDK_LOG.ReportManager ]
+-->doReportVia, uploadSuccess: true
+
+
+[ 12-12 16:41:47.780  4725: 5672 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, report: report_cgi | ext: 0
+
+
+[ 12-12 16:41:47.780  4725: 5672 D/openSDK_LOG.ReportManager ]
+-->availableFrequency, result: false | frequency: 10
+
+
+[ 12-12 16:42:03.700  4725: 5672 D/com.netease.cloudmusic.utils.u ]
+88ms on url: http://music.163.com/eapi/activate/initProfile
+
+[ 12-12 16:42:16.110  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest SocketTimeoutException
+
+
+[ 12-12 16:42:16.260  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->httpRequest, statusCode: 200
+
+
+[ 12-12 16:42:16.260  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread success
+
+
+[ 12-12 16:42:16.260  4725: 4865 D/openSDK_LOG.ReportManager ]
+-->ReportCenter httpRequest Thread request success
+
+
+[ 12-12 16:42:18.990  4725: 5672 D/com.netease.cloudmusic.utils.u ]
+67ms on url: http://music.163.com/eapi/activate/initProfile
+
+[ 12-12 16:42:21.670  4725: 4725 W/View     ]
+requestLayout() improperly called by android.widget.ImageView{44c5fe78 I.ED.... ......I. 0,0-0,0 #c02044a oppo:id/oppo_arrow_up} during layout: running second layout pass
+
+[ 12-12 16:42:42.020  4725: 5672 D/com.netease.cloudmusic.utils.u ]
+902ms on url: http://music.163.com/eapi/activate/initProfile
+
+[ 12-12 16:42:42.060  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20567493
+
+[ 12-12 16:42:42.110  4725: 4725 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:42:42.300  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:42:42.300  4725: 5847 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:42:42.300  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:42:42.320  4725: 4725 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 16:42:42.330  4725: 5849 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:42:42.350  4725: 4725 D/PlayService ]
+in onBind
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 13
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 14
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 15
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 16
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 17
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 18
+
+[ 12-12 16:42:42.360  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 19
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 20
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 21
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 22
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 23
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 24
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 25
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 26
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 27
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 28
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 29
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 30
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 31
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 32
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 33
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 34
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 35
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 36
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 37
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 38
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 39
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 40
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 41
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 42
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 43
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 44
+
+[ 12-12 16:42:42.370  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 45
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 46
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 47
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 48
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 49
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 50
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 51
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 52
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 53
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 54
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 55
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 56
+
+[ 12-12 16:42:42.380  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 57
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 58
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 59
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 60
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 61
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 62
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 63
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 64
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 65
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 66
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 67
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 68
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 69
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 70
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 71
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 72
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 73
+
+[ 12-12 16:42:42.390  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 74
+
+[ 12-12 16:42:42.410  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.CheckBox.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:42:42.410  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:42:42.410  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-12 16:42:42.410  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.EditText.setBackgroundTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:42:42.410  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:42:42.410  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0018
+
+[ 12-12 16:42:42.410  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.ProgressBar.setProgressTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:42:42.410  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:42:42.410  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x000a
+
+[ 12-12 16:42:42.410  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.RadioButton.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:42:42.410  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:42:42.410  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-12 16:42:42.420  4725: 5846 D/com.netease.cloudmusic.utils.u ]
+74ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-12 16:42:42.450  4725: 5847 D/com.netease.cloudmusic.utils.u ]
+107ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:42:42.450  4725: 5847 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=[云音乐小秘书]:终于等到你！欢迎来到网易云音乐~ 从现在开始，享受个性化推荐，和1亿有趣的人一起听歌写评论吧！ 你准备好了吗？音乐旅程开启咯~  1.《新人必看！云音乐Android版特色功能指南！》http://music.163.com/m/topic?id=217002  2.《云音乐Android版常见问题》http://music.163.com/m/topic?id=198002  如果还有其他问题，欢迎随时私信我，我们将努力为你解答！, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:42:42.490  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+148ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:42:42.570  4725: 5856 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 55ms
+
+[ 12-12 16:42:42.570  4725: 4725 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 59ms
+
+[ 12-12 16:42:42.570  4725: 5846 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 42ms
+
+[ 12-12 16:42:42.570  4725: 5846 D/com.netease.cloudmusic.utils.u ]
+125ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-12 16:42:42.670  4725: 5672 D/com.netease.cloudmusic.utils.u ]
+327ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:42:42.680  4725: 5846 D/com.netease.cloudmusic.utils.u ]
+46ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:42:42.700  4725: 5873 D/com.netease.cloudmusic.utils.u ]
+46ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:42:42.970  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.CompoundButton.drawableHotspotChanged, referenced from method android.support.v7.widget.SwitchCompat.drawableHotspotChanged
+
+[ 12-12 16:42:42.970  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 16:42:42.970  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6f at 0x0006
+
+[ 12-12 16:42:42.980  4725: 5874 D/com.netease.cloudmusic.utils.u ]
+325ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:42:43.110  4725: 4725 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 61ms
+
+[ 12-12 16:42:43.110  4725: 5874 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 62ms
+
+[ 12-12 16:42:43.110  4725: 5879 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 60ms
+
+[ 12-12 16:42:43.110  4725: 5856 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 64ms
+
+[ 12-12 16:42:43.120  4725: 4725 W/View     ]
+requestLayout() improperly called by android.widget.ListView{431aac88 VFED..C. ......ID 0,0-888,1920 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 16:42:43.120  4725: 4725 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{43f7b9c8 VFED.VC. .F....ID 0,0-1080,1557 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 16:42:43.150  4725: 5879 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libmemchunk.so 0x4279b9b8
+
+[ 12-12 16:42:43.160  4725: 5856 D/AudioMetaIO ]
+supportMediaFormat:m4a,mp3,wma,wav,m3u8,pls,oga,mpga,rtttl,imy,awb,aac,qcp,ota,xmf,ac3,mxmf,ec3,flac,smf,mka,rtx
+
+[ 12-12 16:42:43.160  4725: 4725 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:42:43.160  4725: 4725 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:42:43.160  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:42:43.180  4725: 4725 I/Choreographer ]
+Skipped 43 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 16:42:43.190  4725: 5887 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libbitmaps.so 0x4279b9b8
+
+[ 12-12 16:42:43.190  5882: 5882 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-12 16:42:43.190  5882: 5882 I/MultiDex ]
+install
+
+[ 12-12 16:42:43.190  5882: 5882 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-12 16:42:43.200  5882: 5882 I/MultiDex ]
+loading existing secondary dex files
+
+[ 12-12 16:42:43.200  5882: 5882 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-12 16:42:43.200  5882: 5882 I/MultiDex ]
+install done
+
+[ 12-12 16:42:43.200  5882: 5882 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0x427945e8
+
+[ 12-12 16:42:43.210  5882: 5882 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0x427945e8
+
+[ 12-12 16:42:43.230  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 1 follow count0
+
+[ 12-12 16:42:43.350  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:42:43.590  4725: 4725 I/MusicActivityBase ]
+onReceive msg count is 1 follow count0
+
+[ 12-12 16:42:43.610  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43fc8350 time:20569042
+
+[ 12-12 16:42:43.610  5882: 5882 D/dalvikvm ]
+Added shared lib /data/data/com.netease.cloudmusic/.cache/libpoison5882.so 0x427945e8
+
+[ 12-12 16:42:43.630  5882: 5882 I/dalvikvm ]
+Could not find method android.graphics.drawable.ScaleDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.i
+
+[ 12-12 16:42:43.630  5882: 5882 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:42:43.630  5882: 5882 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x010a
+
+[ 12-12 16:42:43.630  5882: 5882 I/dalvikvm ]
+Could not find method android.graphics.drawable.ClipDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.j
+
+[ 12-12 16:42:43.630  5882: 5882 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:42:43.630  5882: 5882 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x00d0
+
+[ 12-12 16:42:43.770  5882: 5882 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:42:43.780  5882: 5882 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/Yixin/,/storage/emulated/0/Tencent/,/storage/emulated/0/tencent/,/storage/emulated/0/moji/
+
+[ 12-12 16:42:43.800  5882: 5882 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 16:42:43.800  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+1153ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:42:43.820  5882: 5882 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:42:43.840  4725: 5844 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 38ms
+
+[ 12-12 16:42:43.840  4725: 4827 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 66ms
+
+[ 12-12 16:42:43.840  4725: 5856 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 31ms
+
+[ 12-12 16:42:43.900  5882: 5882 I/dalvikvm ]
+Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+
+[ 12-12 16:42:43.900  5882: 5882 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:42:43.900  5882: 5882 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:42:43.900  5882: 5882 I/dalvikvm ]
+Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+
+[ 12-12 16:42:43.900  5882: 5882 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:42:43.900  5882: 5882 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0015
+
+[ 12-12 16:42:43.900  5882: 5882 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:42:43.900  5882: 5882 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:42:43.900  5882: 5882 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:42:43.900  5882: 5882 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:42:43.900  5882: 5882 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at java.lang.Class.getConstructorOrMethod(Class.java:472)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:640)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2575)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:139)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:42:43.930  5882: 5882 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:42:43.930  5882: 5882 D/baidu_location_service ]
+baidu location service start1 ...5882
+
+[ 12-12 16:42:43.950  4725: 4725 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 16:42:43.950  5882: 5882 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 16:42:43.950  5882: 5882 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x427945e8
+
+[ 12-12 16:42:43.950  5882: 5882 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x427945e8, skipping init
+
+[ 12-12 16:42:44.350  4725: 5856 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 51ms
+
+[ 12-12 16:42:45.460  4725: 5874 D/com.netease.cloudmusic.utils.u ]
+47ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-12 16:42:47.230  4725: 4841 D/com.netease.cloudmusic.utils.u ]
+28ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:42:47.260  4725: 4725 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:42:47.260  4725: 4725 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:42:52.780  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+1047ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 16:42:59.120  4725: 4784 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:42:59.580  4725: 4725 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:43:00.110  4725: 4725 I/dalvikvm ]
+Could not find method android.view.ViewGroup.<init>, referenced from method com.afollestad.materialdialogs.internal.MDRootLayout.<init>
+
+[ 12-12 16:43:00.110  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve direct method 16321: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:43:00.110  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0001
+
+[ 12-12 16:43:00.120  4725: 4725 I/dalvikvm ]
+Could not find method android.widget.TextView.<init>, referenced from method com.afollestad.materialdialogs.internal.MDButton.<init>
+
+[ 12-12 16:43:00.120  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve direct method 17443: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:43:00.120  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:43:00.130  4725: 4725 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:43:00.130  4725: 4725 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-12 16:43:00.130  4725: 4725 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:227)
+
+[ 12-12 16:43:00.130  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-12 16:43:00.130  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-12 16:43:00.130  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.c(ProGuard:336)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.a(ProGuard:29)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.module.g.i$2.b(ProGuard:165)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:198)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:21)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.netease.cloudmusic.d.w.onPostExecute(ProGuard:188)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.os.AsyncTask.finish(AsyncTask.java:632)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:645)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:43:00.140  4725: 4725 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:43:04.020  5882: 5882 W/ServiceManager ]
+Permission failure: android.permission.ACCESS_FINE_LOCATION from uid=10185 pid=5882
+
+[ 12-12 16:43:04.020  5882: 5882 E/CheckPermission ]
+Permission Denial: can't access location pid=5882, uid=10185
+
+[ 12-12 16:43:04.020  5882: 5882 E/BpBinder ]
+InterfaceDescriptor = android.location.ILocationManager ,this permission is refused!!!
+
+
+[ 12-12 16:43:04.230  5882: 5882 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 16:43:04.230  5882: 5882 W/Process  ]
+killProcess [5882]
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+java.lang.Throwable
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.os.Process.killProcess(Process.java:981)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at com.baidu.location.f.onDestroy(Unknown Source)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.handleStopService(ActivityThread.java:2735)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.access$2200(ActivityThread.java:139)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1302)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:43:04.230  5882: 5882 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:43:04.230  5882: 5882 I/Process  ]
+Sending signal. PID: 5882 SIG: 9
+
+[ 12-12 16:43:04.280  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+71ms on url: http://music.163.com/eapi/user/location?lat=32.181519&lon=121.382997
+
+[ 12-12 16:43:36.500  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+95ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:43:36.540  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+37ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:43:37.380  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20622816
+
+[ 12-12 16:43:37.440  4725: 4725 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:43:37.470  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:43:37.470  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:43:37.490  4725: 5856 E/PrivateMsgListFragment ]
+time = -1
+
+[ 12-12 16:43:37.530  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+54ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:43:37.530  4725: 5844 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=[云音乐小秘书]:终于等到你！欢迎来到网易云音乐~ 从现在开始，享受个性化推荐，和1亿有趣的人一起听歌写评论吧！ 你准备好了吗？音乐旅程开启咯~  1.《新人必看！云音乐Android版特色功能指南！》http://music.163.com/m/topic?id=217002  2.《云音乐Android版常见问题》http://music.163.com/m/topic?id=198002  如果还有其他问题，欢迎随时私信我，我们将努力为你解答！, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:43:37.570  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:43:37.570  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:43:37.590  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:37.590  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MessageActivity@42ffdc90:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:37.590  4725: 4725 I/MessageActivity ]
+onReceive msg count is 1 comment count is 0 notice count is 0
+
+[ 12-12 16:43:37.590  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+98ms on url: http://music.163.com/eapi/msg/private/users
+
+[ 12-12 16:43:37.640  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+61ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:43:37.640  4725: 5844 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=[云音乐小秘书]:终于等到你！欢迎来到网易云音乐~ 从现在开始，享受个性化推荐，和1亿有趣的人一起听歌写评论吧！ 你准备好了吗？音乐旅程开启咯~  1.《新人必看！云音乐Android版特色功能指南！》http://music.163.com/m/topic?id=217002  2.《云音乐Android版常见问题》http://music.163.com/m/topic?id=198002  如果还有其他问题，欢迎随时私信我，我们将努力为你解答！, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:43:37.650  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:37.650  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MessageActivity@42ffdc90:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:37.650  4725: 4725 I/MessageActivity ]
+onReceive msg count is 1 comment count is 0 notice count is 0
+
+[ 12-12 16:43:37.710  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43c3be10 time:20623143
+
+[ 12-12 16:43:37.970  4725: 4731 I/dalvikvm ]
+Jit: resizing JitTable from 8192 to 16384
+
+[ 12-12 16:43:38.010  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:43:38.040  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:43:38.060  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43fc8350 time:20623499
+
+[ 12-12 16:43:39.330  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+152ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:43:39.470  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+140ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:43:40.500  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20625937
+
+[ 12-12 16:43:40.560  4725: 4725 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:43:40.580  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:43:40.580  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:43:40.600  4725: 5844 E/PrivateMsgListFragment ]
+time = -1
+
+[ 12-12 16:43:40.640  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+39ms on url: http://music.163.com/eapi/msg/private/users
+
+[ 12-12 16:43:40.670  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:43:40.670  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:43:40.720  4725: 5856 D/com.netease.cloudmusic.utils.u ]
+133ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:43:40.720  4725: 5856 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=[云音乐小秘书]:终于等到你！欢迎来到网易云音乐~ 从现在开始，享受个性化推荐，和1亿有趣的人一起听歌写评论吧！ 你准备好了吗？音乐旅程开启咯~  1.《新人必看！云音乐Android版特色功能指南！》http://music.163.com/m/topic?id=217002  2.《云音乐Android版常见问题》http://music.163.com/m/topic?id=198002  如果还有其他问题，欢迎随时私信我，我们将努力为你解答！, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:43:40.720  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+52ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:43:40.730  4725: 5844 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=1, follow=0, pushMsg=[云音乐小秘书]:终于等到你！欢迎来到网易云音乐~ 从现在开始，享受个性化推荐，和1亿有趣的人一起听歌写评论吧！ 你准备好了吗？音乐旅程开启咯~  1.《新人必看！云音乐Android版特色功能指南！》http://music.163.com/m/topic?id=217002  2.《云音乐Android版常见问题》http://music.163.com/m/topic?id=198002  如果还有其他问题，欢迎随时私信我，我们将努力为你解答！, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:43:40.740  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:40.740  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MessageActivity@43f69c80:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:40.740  4725: 4725 I/MessageActivity ]
+onReceive msg count is 1 comment count is 0 notice count is 0
+
+[ 12-12 16:43:40.740  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:40.740  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MessageActivity@43f69c80:onReceive msg count is 1 follow count0
+
+[ 12-12 16:43:40.740  4725: 4725 I/MessageActivity ]
+onReceive msg count is 1 comment count is 0 notice count is 0
+
+[ 12-12 16:43:40.760  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43e0de30 time:20626191
+
+[ 12-12 16:43:41.700  4725: 4725 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20627134
+
+[ 12-12 16:43:41.790  4725: 4725 I/dalvikvm ]
+Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.internal.widget.ResourcesWrapper.getDrawable
+
+[ 12-12 16:43:41.790  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 514: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+
+[ 12-12 16:43:41.790  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-12 16:43:41.790  4725: 4725 I/dalvikvm ]
+Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.internal.widget.ResourcesWrapper.getDrawableForDensity
+
+[ 12-12 16:43:41.790  4725: 4725 W/dalvikvm ]
+VFY: unable to resolve virtual method 516: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+
+[ 12-12 16:43:41.790  4725: 4725 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-12 16:43:41.820  4725: 4725 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:43:41.910  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+72ms on url: http://music.163.com/eapi/msg/private/history
+
+[ 12-12 16:43:42.020  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43ead540 time:20627459
+
+[ 12-12 16:43:42.040  4725: 4725 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:43:42.330  4725: 4725 D/PlayService ]
+in onUnbind
+
+[ 12-12 16:43:42.560  4725: 4725 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:43:42.560  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:43:42.580  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:43:42.580  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43e0de30 time:20628019
+
+[ 12-12 16:43:42.630  4725: 5844 D/com.netease.cloudmusic.utils.u ]
+56ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:43:42.630  4725: 5844 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:43:42.630  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42ce5f60:onReceive msg count is 0 follow count0
+
+[ 12-12 16:43:42.630  4725: 4725 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MessageActivity@43f69c80:onReceive msg count is 0 follow count0
+
+[ 12-12 16:43:42.630  4725: 4725 I/MessageActivity ]
+onReceive msg count is 0 comment count is 0 notice count is 0
+
+[ 12-12 16:43:43.420  4725: 4725 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:43:43.450  4725: 5849 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:43:43.450  4725: 4725 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@43fc8350 time:20628888
+
+[ 12-12 16:44:42.460  4725: 5847 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:true
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 75
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 76
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 77
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 78
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 79
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 80
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 81
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 82
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 83
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 84
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 85
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 86
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 87
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 88
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 89
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 90
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 91
+
+[ 12-12 16:44:42.540  4725: 4731 I/dalvikvm ]
+Total arena pages for JIT: 92
+
+[ 12-12 16:44:42.550  4725: 5847 D/com.netease.cloudmusic.utils.u ]
+67ms on url: http://music.163.com/eapi/pl/count?backend=true
+
+[ 12-12 16:44:42.560  4725: 5847 I/com.netease.cloudmusic.service.PushService ]
+background new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:45:38.630  6623: 6623 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-12 16:45:38.630  6623: 6623 I/MultiDex ]
+install
+
+[ 12-12 16:45:38.630  6623: 6623 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-12 16:45:38.640  6623: 6623 I/MultiDex ]
+loading existing secondary dex files
+
+[ 12-12 16:45:38.640  6623: 6623 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-12 16:45:38.640  6623: 6623 I/MultiDex ]
+install done
+
+[ 12-12 16:45:38.660  6623: 6623 I/dalvikvm ]
+Could not find method android.view.Window.setStatusBarColor, referenced from method com.netease.cloudmusic.activity.c.c
+
+[ 12-12 16:45:38.660  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 16:45:38.660  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0081
+
+[ 12-12 16:45:38.670  6623: 6647 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20744102
+
+[ 12-12 16:45:38.670  6623: 6623 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0x42798808
+
+[ 12-12 16:45:38.680  6623: 6623 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0x42798808
+
+[ 12-12 16:45:39.000  6623: 6623 D/dalvikvm ]
+Added shared lib /data/data/com.netease.cloudmusic/.cache/libpoison6623.so 0x42798808
+
+[ 12-12 16:45:39.020  6623: 6623 I/dalvikvm ]
+Could not find method android.graphics.drawable.ScaleDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.i
+
+[ 12-12 16:45:39.020  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:45:39.020  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x010a
+
+[ 12-12 16:45:39.020  6623: 6623 I/dalvikvm ]
+Could not find method android.graphics.drawable.ClipDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.j
+
+[ 12-12 16:45:39.020  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:45:39.020  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x00d0
+
+[ 12-12 16:45:39.150  6623: 6623 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:45:39.170  6623: 6623 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/Yixin/,/storage/emulated/0/Tencent/,/storage/emulated/0/tencent/,/storage/emulated/0/moji/
+
+[ 12-12 16:45:39.180  6623: 6623 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 16:45:39.210  6623: 6623 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 16:45:39.290  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+
+[ 12-12 16:45:39.290  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:45:39.290  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:45:39.290  6623: 6623 I/dalvikvm ]
+Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+
+[ 12-12 16:45:39.290  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:45:39.290  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0015
+
+[ 12-12 16:45:39.290  6623: 6623 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:45:39.290  6623: 6623 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:45:39.290  6623: 6623 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:45:39.290  6623: 6623 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:45:39.290  6623: 6623 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:45:39.390  6623: 6623 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 16:45:39.390  6623: 6623 I/dalvikvm ]
+Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onSearchRequested
+
+[ 12-12 16:45:39.390  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 16:45:39.390  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x72 at 0x0002
+
+[ 12-12 16:45:39.390  6623: 6623 I/dalvikvm ]
+Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onWindowStartingActionMode
+
+[ 12-12 16:45:39.390  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 16:45:39.390  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x72 at 0x0002
+
+[ 12-12 16:45:39.510  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 27.096MB for 8294416-byte allocation
+
+[ 12-12 16:45:39.620  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 34.879MB for 8294416-byte allocation
+
+[ 12-12 16:45:39.650  6623: 6623 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 16:45:39.690  6623: 6623 I/dalvikvm ]
+Could not find method cn.com.mma.mobile.tracking.api.Countly.sharedInstance, referenced from method com.netease.a.b.m.a
+
+[ 12-12 16:45:39.690  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:45:39.690  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x71 at 0x004c
+
+[ 12-12 16:45:39.690  6623: 6623 I/dalvikvm ]
+Could not find method cn.com.mma.mobile.tracking.api.Countly.sharedInstance, referenced from method com.netease.a.b.m.b
+
+[ 12-12 16:45:39.690  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 16:45:39.690  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x71 at 0x004c
+
+[ 12-12 16:45:39.730  6623: 6623 I/Adreno-EGL ]
+<qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.C4.04.04.04.137.015_msm8974_LNX.LA.3.5.2.2.C4__release_AU ()
+OpenGL ES Shader Compiler Version: E031.24.00.15
+Build Date: 07/31/14 Thu
+Local Branch: mybranch4001492
+Remote Branch: quic/LNX.LA.3.5.2.2.c4_1
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.2.2.C4.04.04.04.137.015 +  NOTHING
+
+[ 12-12 16:45:39.780  6623: 6623 D/OpenGLRenderer ]
+Enabling debug mode 0
+
+[ 12-12 16:45:39.810  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@427c62a8 time:20745243
+
+[ 12-12 16:45:39.840  6623: 6674 D/com.netease.cloudmusic.utils.u ]
+137ms on url: http://music.163.com/sp/api/unicom/flow/status?deviceId=ODY0NTg3MDI1MzgxMDcxCWMwOmVlOmZiOjA2OmFmOmFhCTIyZTBiYTJhNzU1MDI0OAlkNWIzNTZlNw%3D%3D_android&wifi=true
+
+[ 12-12 16:45:39.880  6623: 6674 D/com.netease.cloudmusic.utils.u ]
+38ms on url: http://music.163.com/sp/api/unicom/flow/addr
+
+[ 12-12 16:45:39.970  6623: 6675 D/com.netease.cloudmusic.utils.u ]
+243ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 16:45:40.000  6623: 6675 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/leci/,/storage/emulated/0/tencent/,/storage/emulated/0/towords/,/storage/emulated/0/Yixin/,/storage/emulated/0/Tencent/,/storage/emulated/0/moji/,/storage/emulated/0/Android/,/storage/emulated/0/RM/,/storage/emulated/0/HJApp/,/storage/emulated/0/baicizhan/
+
+[ 12-12 16:45:40.020  6623: 6675 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/tencent/QQfile_recv/,/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 16:45:40.020  6623: 6675 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-12 16:45:40.300  6623: 6675 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+
+[ 12-12 16:45:40.630  6623: 6675 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-12 16:45:41.020  6623: 6675 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+
+[ 12-12 16:45:41.710  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20747148
+
+[ 12-12 16:45:41.790  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:45:41.790  6623: 6623 I/dalvikvm ]
+Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+
+[ 12-12 16:45:41.790  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 16:45:41.790  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-12 16:45:41.790  6623: 6623 I/dalvikvm ]
+Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+
+[ 12-12 16:45:41.790  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 16:45:41.790  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0002
+
+[ 12-12 16:45:41.810  6623: 6623 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x22 at 0x00b5
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0023
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0042
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0017
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x002a
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0017
+
+[ 12-12 16:45:41.810  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EdgeEffect.setColor, referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 16:45:41.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x002a
+
+[ 12-12 16:45:41.810  6623: 6623 D/dalvikvm ]
+DexOpt: unable to opt direct call 0x03da at 0xda in Lcom/netease/cloudmusic/theme/g;.a
+
+[ 12-12 16:45:42.030  6623: 6623 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 16:45:42.030  6623: 6704 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:45:42.030  6623: 6623 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:45:42.070  6623: 6623 E/MediaPlayer-JNI ]
+QCMediaPlayer mediaplayer NOT present
+
+[ 12-12 16:45:42.070  6623: 6706 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 16:45:42.080  6623: 6623 D/PlayService ]
+in onBind
+
+[ 12-12 16:45:42.100  6623: 6704 D/com.netease.cloudmusic.utils.u ]
+55ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:45:42.100  6623: 6704 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:45:42.150  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-12 16:45:42.150  6623: 6703 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+
+[ 12-12 16:45:42.150  6623: 6663 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+
+[ 12-12 16:45:42.150  6623: 6657 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+
+[ 12-12 16:45:42.150  6623: 6674 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+
+[ 12-12 16:45:42.150  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+97ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449909763216
+
+[ 12-12 16:45:42.190  6623: 6674 D/com.netease.cloudmusic.utils.u ]
+105ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 16:45:42.190  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.CheckBox.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:45:42.190  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:45:42.190  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-12 16:45:42.190  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.EditText.setBackgroundTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:45:42.190  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:45:42.190  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0018
+
+[ 12-12 16:45:42.190  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.ProgressBar.setProgressTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:45:42.190  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:45:42.190  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x000a
+
+[ 12-12 16:45:42.190  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.RadioButton.setButtonTintList, referenced from method com.afollestad.materialdialogs.internal.b.a
+
+[ 12-12 16:45:42.190  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 16:45:42.190  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0032
+
+[ 12-12 16:45:42.270  6623: 6675 D/com.netease.cloudmusic.utils.u ]
+200ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:45:42.390  6623: 6674 D/com.netease.cloudmusic.utils.u ]
+48ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 16:45:42.660  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 44ms
+
+[ 12-12 16:45:42.660  6623: 6719 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 44ms
+
+[ 12-12 16:45:42.710  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.CompoundButton.drawableHotspotChanged, referenced from method android.support.v7.widget.SwitchCompat.drawableHotspotChanged
+
+[ 12-12 16:45:42.710  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 16:45:42.710  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6f at 0x0006
+
+[ 12-12 16:45:42.730  6623: 6733 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libmemchunk.so 0x42798808
+
+[ 12-12 16:45:42.760  6623: 6736 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libbitmaps.so 0x42798808
+
+[ 12-12 16:45:42.800  6623: 6623 W/View     ]
+requestLayout() improperly called by android.widget.ListView{42f13118 VFED..C. ......ID 0,0-888,1920 #7f0e016c app:id/mainActivityDrawerListView} during layout: running second layout pass
+
+[ 12-12 16:45:42.800  6623: 6623 W/View     ]
+requestLayout() improperly called by com.netease.cloudmusic.ui.PagerListView{42f2a288 VFED.VC. .F....ID 0,0-1080,1557 #7f0e00a1 app:id/pagerListview} during layout: running second layout pass
+
+[ 12-12 16:45:42.820  6623: 6623 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 16:45:42.820  6623: 6623 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 16:45:42.820  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:45:42.850  6741: 6741 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-12 16:45:42.850  6741: 6741 I/MultiDex ]
+install
+
+[ 12-12 16:45:42.850  6741: 6741 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-12 16:45:42.850  6623: 6623 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@42fbfe30:onReceive msg count is 0 follow count0
+
+[ 12-12 16:45:42.850  6623: 6623 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-12 16:45:42.860  6741: 6741 I/MultiDex ]
+loading existing secondary dex files
+
+[ 12-12 16:45:42.860  6741: 6741 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-12 16:45:42.860  6741: 6741 I/MultiDex ]
+install done
+
+[ 12-12 16:45:42.860  6623: 6623 I/Choreographer ]
+Skipped 36 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 16:45:42.860  6741: 6741 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0x427991f8
+
+[ 12-12 16:45:42.870  6741: 6741 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0x427991f8
+
+[ 12-12 16:45:42.980  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:45:43.000  6623: 6719 D/AudioMetaIO ]
+supportMediaFormat:m4a,mp3,wma,wav,m3u8,pls,oga,mpga,rtttl,imy,awb,aac,qcp,ota,xmf,ac3,mxmf,ec3,flac,smf,mka,rtx
+
+[ 12-12 16:45:43.090  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+526ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:45:43.220  6741: 6741 D/dalvikvm ]
+Added shared lib /data/data/com.netease.cloudmusic/.cache/libpoison6741.so 0x427991f8
+
+[ 12-12 16:45:43.250  6741: 6741 I/dalvikvm ]
+Could not find method android.graphics.drawable.ScaleDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.i
+
+[ 12-12 16:45:43.250  6741: 6741 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:45:43.250  6741: 6741 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x010a
+
+[ 12-12 16:45:43.250  6741: 6741 I/dalvikvm ]
+Could not find method android.graphics.drawable.ClipDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.j
+
+[ 12-12 16:45:43.250  6741: 6741 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:45:43.250  6741: 6741 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x00d0
+
+[ 12-12 16:45:43.310  6623: 6623 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:45:43.310  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ca91a0 time:20748743
+
+[ 12-12 16:45:43.390  6741: 6741 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:45:43.420  6741: 6741 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/Yixin/,/storage/emulated/0/Tencent/,/storage/emulated/0/tencent/,/storage/emulated/0/moji/
+
+[ 12-12 16:45:43.420  6623: 6629 I/dalvikvm ]
+Jit: resizing JitTable from 4096 to 8192
+
+[ 12-12 16:45:43.430  6741: 6741 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 16:45:43.450  6741: 6741 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:45:43.520  6741: 6741 I/dalvikvm ]
+Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+
+[ 12-12 16:45:43.520  6741: 6741 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:45:43.520  6741: 6741 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:45:43.520  6741: 6741 I/dalvikvm ]
+Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+
+[ 12-12 16:45:43.520  6741: 6741 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:45:43.520  6741: 6741 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0015
+
+[ 12-12 16:45:43.530  6741: 6741 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:45:43.530  6741: 6741 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:45:43.530  6741: 6741 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:45:43.530  6741: 6741 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:45:43.530  6741: 6741 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at java.lang.Class.getConstructorOrMethod(Class.java:472)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:640)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2575)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:139)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:45:43.540  6741: 6741 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:45:43.550  6741: 6741 D/baidu_location_service ]
+baidu location service start1 ...6741
+
+[ 12-12 16:45:43.550  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+55ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-12 16:45:43.560  6623: 6623 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 16:45:43.560  6741: 6741 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 16:45:43.560  6741: 6741 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x427991f8
+
+[ 12-12 16:45:43.560  6741: 6741 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x427991f8, skipping init
+
+[ 12-12 16:45:43.620  6623: 6657 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 54ms
+
+[ 12-12 16:45:43.620  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 54ms
+
+[ 12-12 16:45:43.620  6623: 6719 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 57ms
+
+[ 12-12 16:45:45.370  6741: 6741 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 16:45:45.370  6741: 6741 W/Process  ]
+killProcess [6741]
+
+[ 12-12 16:45:45.370  6741: 6741 W/System.err ]
+java.lang.Throwable
+
+[ 12-12 16:45:45.370  6741: 6741 W/System.err ]
+	at android.os.Process.killProcess(Process.java:981)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at com.baidu.location.f.onDestroy(Unknown Source)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.handleStopService(ActivityThread.java:2735)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.access$2200(ActivityThread.java:139)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1302)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:45:45.380  6741: 6741 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:45:45.380  6741: 6741 I/Process  ]
+Sending signal. PID: 6741 SIG: 9
+
+[ 12-12 16:45:45.380  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+34ms on url: http://music.163.com/eapi/user/location?lat=32.181519&lon=121.382997
+
+[ 12-12 16:45:46.980  6623: 6803 D/com.netease.cloudmusic.utils.u ]
+68ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 16:45:46.980  6623: 6623 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:45:47.400  6623: 6623 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:45:47.810  6623: 6623 I/dalvikvm ]
+Could not find method android.view.ViewGroup.<init>, referenced from method com.afollestad.materialdialogs.internal.MDRootLayout.<init>
+
+[ 12-12 16:45:47.810  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve direct method 16321: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:45:47.810  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0001
+
+[ 12-12 16:45:47.820  6623: 6623 I/dalvikvm ]
+Could not find method android.widget.TextView.<init>, referenced from method com.afollestad.materialdialogs.internal.MDButton.<init>
+
+[ 12-12 16:45:47.820  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve direct method 17443: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:45:47.820  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:45:59.280  6623: 6661 W/FileUtils ]
+Failed to chmod(/storage/emulated/0/netease/wakeup/wakeup.dat): libcore.io.ErrnoException: chmod failed: EPERM (Operation not permitted)
+
+[ 12-12 16:45:59.300  6623: 6661 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libwakeup.so 0x42798808
+
+[ 12-12 16:45:59.300  6623: 6661 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/libwakeup.so 0x42798808, skipping init
+
+[ 12-12 16:45:59.340  6623: 6661 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:45:59.380  6623: 6661 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:45:59.410  6623: 6661 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:45:59.450  6623: 6661 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:45:59.480  6623: 6661 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 12-12 16:45:59.500  6623: 6661 E/JavaBinder ]
+!!! FAILED BINDER TRANSACTION !!!
+
+[ 12-12 16:45:59.500  6623: 6661 W/ParceledListSlice ]
+Failure retrieving array; only received 181 of 239
+android.os.TransactionTooLargeException
+	at android.os.BinderProxy.transact(Native Method)
+	at android.content.pm.ParceledListSlice.<init>(ParceledListSlice.java:79)
+	at android.content.pm.ParceledListSlice.<init>(ParceledListSlice.java:35)
+	at android.content.pm.ParceledListSlice$2.createFromParcel(ParceledListSlice.java:161)
+	at android.content.pm.ParceledListSlice$2.createFromParcel(ParceledListSlice.java:159)
+	at android.content.pm.IPackageManager$Stub$Proxy.getInstalledPackages(IPackageManager.java:2343)
+	at android.app.ApplicationPackageManager.getInstalledPackages(ApplicationPackageManager.java:434)
+	at android.app.ApplicationPackageManager.getInstalledPackages(ApplicationPackageManager.java:424)
+	at com.netease.wakeup.a.c(ProGuard:106)
+	at com.netease.wakeup.a.b(ProGuard:74)
+	at com.netease.wakeup.a.a(ProGuard:35)
+	at com.netease.wakeup.d.run(ProGuard:54)
+	at java.lang.Thread.run(Thread.java:841)
+
+
+[ 12-12 16:46:08.510  6623: 6629 I/dalvikvm ]
+Total arena pages for JIT: 11
+
+[ 12-12 16:46:08.510  6623: 6629 I/dalvikvm ]
+Total arena pages for JIT: 12
+
+[ 12-12 16:46:08.510  6623: 6629 I/dalvikvm ]
+Total arena pages for JIT: 13
+
+[ 12-12 16:46:08.510  6623: 6629 I/dalvikvm ]
+Total arena pages for JIT: 14
+
+[ 12-12 16:46:16.200  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+129ms on url: http://music.163.com/eapi/playlist/category/list
+
+[ 12-12 16:46:22.450  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+72ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:46:22.490  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+34ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:46:28.500  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+130ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 16:46:28.520  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+162ms on url: http://music.163.com/eapi/discovery/recommend/artist/hasdata
+
+[ 12-12 16:46:28.620  6623: 6925 D/DownloadManager ]
+download notify
+
+[ 12-12 16:46:31.250  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20796681
+
+[ 12-12 16:46:31.310  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:46:31.420  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:46:31.470  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:46:31.490  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@4464a310 time:20796922
+
+[ 12-12 16:46:32.510  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:46:32.540  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:46:32.560  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ca91a0 time:20797996
+
+[ 12-12 16:46:32.770  6623: 6623 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+java.io.FileNotFoundException: /storage/emulated/0/netease/cloudmusic/Cache/FriendTrack/newTrackCache: open failed: ENOENT (No such file or directory)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at libcore.io.IoBridge.open(IoBridge.java:409)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at com.netease.cloudmusic.fragment.bk.r(ProGuard:309)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at com.netease.cloudmusic.fragment.bk.n(ProGuard:69)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at com.netease.cloudmusic.fragment.bl.a(ProGuard:640)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at com.netease.cloudmusic.fragment.bl.b(ProGuard:625)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at com.netease.cloudmusic.d.w.doInBackground(ProGuard:140)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+
+[ 12-12 16:46:35.740  6623: 6719 W/System.err ]
+	at java.lang.Thread.run(Thread.java:841)
+
+[ 12-12 16:46:35.750  6623: 6719 W/System.err ]
+Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+
+[ 12-12 16:46:35.750  6623: 6719 W/System.err ]
+	at libcore.io.Posix.open(Native Method)
+
+[ 12-12 16:46:35.750  6623: 6719 W/System.err ]
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+
+[ 12-12 16:46:35.750  6623: 6719 W/System.err ]
+	at libcore.io.IoBridge.open(IoBridge.java:393)
+
+[ 12-12 16:46:35.750  6623: 6719 W/System.err ]
+	... 11 more
+
+[ 12-12 16:46:35.960  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+178ms on url: http://music.163.com/eapi/v1/event/get?lasttime=-1&pagesize=10
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+install
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+loading existing secondary dex files
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-12 16:46:36.880  6973: 6973 I/MultiDex ]
+install done
+
+[ 12-12 16:46:36.880  6973: 6973 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libfpGenerate.so 0x4279b0d8
+
+[ 12-12 16:46:36.890  6973: 6973 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libneutil.so 0x4279b0d8
+
+[ 12-12 16:46:37.240  6973: 6973 D/dalvikvm ]
+Added shared lib /data/data/com.netease.cloudmusic/.cache/libpoison6973.so 0x4279b0d8
+
+[ 12-12 16:46:37.260  6973: 6973 I/dalvikvm ]
+Could not find method android.graphics.drawable.ScaleDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.i
+
+[ 12-12 16:46:37.260  6973: 6973 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:46:37.260  6973: 6973 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x010a
+
+[ 12-12 16:46:37.270  6973: 6973 I/dalvikvm ]
+Could not find method android.graphics.drawable.ClipDrawable.setDrawable, referenced from method com.netease.cloudmusic.theme.b.j
+
+[ 12-12 16:46:37.270  6973: 6973 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 16:46:37.270  6973: 6973 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x00d0
+
+[ 12-12 16:46:37.410  6973: 6973 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 16:46:37.410  6973: 6973 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/emulated/0/Yixin/,/storage/emulated/0/Tencent/,/storage/emulated/0/tencent/,/storage/emulated/0/moji/
+
+[ 12-12 16:46:37.430  6973: 6973 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/emulated/0/qqmusic/offline/
+
+[ 12-12 16:46:37.460  6973: 6973 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:false
+
+[ 12-12 16:46:37.530  6973: 6973 I/dalvikvm ]
+Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+
+[ 12-12 16:46:37.530  6973: 6973 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 16:46:37.530  6973: 6973 D/dalvikvm ]
+VFY: replacing opcode 0x70 at 0x0000
+
+[ 12-12 16:46:37.530  6973: 6973 I/dalvikvm ]
+Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+
+[ 12-12 16:46:37.530  6973: 6973 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 16:46:37.530  6973: 6973 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0015
+
+[ 12-12 16:46:37.530  6973: 6973 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 16:46:37.530  6973: 6973 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 16:46:37.530  6973: 6973 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 16:46:37.540  6973: 6973 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 16:46:37.540  6973: 6973 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+java.lang.NoSuchMethodException: startScan [boolean]
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at java.lang.Class.getConstructorOrMethod(Class.java:472)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at java.lang.Class.getDeclaredMethod(Class.java:640)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at com.baidu.location.e.try(Unknown Source)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at com.baidu.location.f.onCreate(Unknown Source)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2575)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.access$1800(ActivityThread.java:139)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:46:37.550  6973: 6973 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:46:37.560  6973: 6973 D/baidu_location_service ]
+baidu location service start1 ...6973
+
+[ 12-12 16:46:37.560  6623: 6623 D/baidu_location_client ]
+baidu location connected ...
+
+[ 12-12 16:46:37.570  6973: 6973 W/linker   ]
+liblocSDK3.so has text relocations. This is wasting memory and is a security risk. Please fix.
+
+[ 12-12 16:46:37.570  6973: 6973 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x4279b0d8
+
+[ 12-12 16:46:37.570  6973: 6973 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/liblocSDK3.so 0x4279b0d8, skipping init
+
+[ 12-12 16:46:37.800  6973: 6973 D/baidu_location_service ]
+baidu location service stop ...
+
+[ 12-12 16:46:37.800  6973: 6973 W/Process  ]
+killProcess [6973]
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+java.lang.Throwable
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.os.Process.killProcess(Process.java:981)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at com.baidu.location.f.onDestroy(Unknown Source)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.handleStopService(ActivityThread.java:2735)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.access$2200(ActivityThread.java:139)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1302)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:5049)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:515)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:818)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:634)
+
+[ 12-12 16:46:37.800  6973: 6973 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 16:46:37.800  6973: 6973 I/Process  ]
+Sending signal. PID: 6973 SIG: 9
+
+[ 12-12 16:46:37.830  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+48ms on url: http://music.163.com/eapi/nearby/banners?lat=32.181519&lon=121.382997&limit=3
+
+[ 12-12 16:46:52.570  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20818009
+
+[ 12-12 16:46:52.690  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:46:52.880  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:46:52.910  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:46:53.070  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:46:53.160  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42d4b6d8 time:20818596
+
+[ 12-12 16:46:53.990  6623: 6703 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 35ms
+
+[ 12-12 16:46:54.120  6623: 6623 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:47:05.180  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:47:05.210  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:47:05.220  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ca91a0 time:20830657
+
+[ 12-12 16:47:05.580  6623: 6629 I/dalvikvm ]
+Jit: resizing JitTable from 8192 to 16384
+
+[ 12-12 16:47:07.860  6623: 6623 I/dalvikvm ]
+Could not find method android.view.Window.getSharedElementEnterTransition, referenced from method com.netease.cloudmusic.activity.PlayListActivity.T
+
+[ 12-12 16:47:07.860  6623: 6623 W/dalvikvm ]
+VFY: unable to resolve virtual method 16458: Landroid/view/Window;.getSharedElementEnterTransition ()Landroid/transition/Transition;
+
+[ 12-12 16:47:07.860  6623: 6623 D/dalvikvm ]
+VFY: replacing opcode 0x6e at 0x0004
+
+[ 12-12 16:47:07.860  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20833299
+
+[ 12-12 16:47:07.960  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:47:07.990  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:47:08.050  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:47:08.120  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+103ms on url: http://music.163.com/eapi/v3/playlist/detail?id=138577712&t=0&n=1000&s=5
+
+[ 12-12 16:47:08.140  6623: 6623 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 16:47:08.200  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+42ms on url: http://music.163.com/eapi/song/like/change?checkPoint=1449909763216
+
+[ 12-12 16:47:08.310  6623: 7072 D/dalvikvm ]
+Added shared lib /data/app-lib/com.netease.cloudmusic-1/libblur.so 0x42798808
+
+[ 12-12 16:47:08.310  6623: 7072 D/dalvikvm ]
+No JNI_OnLoad found in /data/app-lib/com.netease.cloudmusic-1/libblur.so 0x42798808, skipping init
+
+[ 12-12 16:47:09.010  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@445ab190 time:20834449
+
+[ 12-12 16:47:09.400  6623: 6623 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:47:09.750  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:47:09.770  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:47:09.790  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@42ca91a0 time:20835227
+
+[ 12-12 16:47:11.490  6623: 6623 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-12 16:47:12.630  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 61ms
+
+[ 12-12 16:47:12.640  6623: 6719 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 49ms
+
+[ 12-12 16:47:12.640  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+129ms on url: http://music.163.com/eapi/v1/user/info
+
+[ 12-12 16:47:12.710  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+62ms on url: http://music.163.com/eapi/ad/get?type_ids=%5B%2240_0%22%5D
+
+[ 12-12 16:47:20.640  6623: 6623 D/FriendTrackFragment ]
+revoer Listip:0, tp:0
+
+[ 12-12 16:47:29.310  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20854741
+
+[ 12-12 16:47:29.400  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:47:29.550  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:47:29.690  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:47:29.770  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@44749cb8 time:20855206
+
+[ 12-12 16:47:30.830  6623: 6623 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 16:47:31.120  6623: 6623 I/Timeline ]
+Timeline: Activity_launch_request id:com.netease.cloudmusic time:20856552
+
+[ 12-12 16:47:31.240  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 58.197MB for 2624416-byte allocation
+
+[ 12-12 16:47:31.310  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 57.590MB for 1123616-byte allocation
+
+[ 12-12 16:47:31.370  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 60.060MB for 2585680-byte allocation
+
+[ 12-12 16:47:31.450  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 61.134MB for 1123616-byte allocation
+
+[ 12-12 16:47:31.540  6623: 6623 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 16:47:31.680  6623: 6623 D/PlayerActivityBase ]
+onResume()
+
+[ 12-12 16:47:31.690  6623: 6623 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 16:47:31.690  6623: 6706 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-12 16:47:31.710  6623: 6706 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 113
+
+[ 12-12 16:47:31.720  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:爱,-37
+
+[ 12-12 16:47:31.720  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:31.720  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:97000
+
+[ 12-12 16:47:31.720  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:31.720  6623: 6706 E/CheckPermission ]
+_bluetooth code = 1 
+
+[ 12-12 16:47:31.720  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:31.880  6623: 6623 I/Timeline ]
+Timeline: Activity_idle id: android.os.BinderProxy@44caa688 time:20857312
+
+[ 12-12 16:47:32.120  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:252000,/storage/emulated/0/qqmusic/song/A-Lin - 爱 (Live) [mqms2].m4a,false
+
+[ 12-12 16:47:32.170  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:32.180  6623: 6706 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 16:47:32.200  6623: 6623 D/PlayService ]
+play music:爱,A-Lin
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:227)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.R(ProGuard:1415)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.b(ProGuard:1319)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.a(ProGuard:155)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService$18.run(ProGuard:1262)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:733)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at android.os.Looper.loop(Looper.java:136)
+
+[ 12-12 16:47:32.210  6623: 6705 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+
+[ 12-12 16:47:32.300  6623: 6703 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 86ms
+
+[ 12-12 16:47:32.300  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 86ms
+
+[ 12-12 16:47:32.300  6623: 6705 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 87ms
+
+[ 12-12 16:47:32.300  6623: 6719 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 63ms
+
+[ 12-12 16:47:32.330  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:32.370  6623: 6719 D/com.netease.cloudmusic.utils.u ]
+174ms on url: http://music.163.com/eapi/song/enhance/privilege
+
+[ 12-12 16:47:32.470  6623: 6667 D/com.netease.cloudmusic.utils.u ]
+69ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[31877581]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:42.100  6623: 6704 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 16:47:42.200  6623: 6704 D/com.netease.cloudmusic.utils.u ]
+85ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 16:47:42.200  6623: 6704 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 16:47:42.330  6623: 6706 D/PlayService ]
+PlayerHandler,action:123,MusicInfo [mvId=0, musicName=爱过那张脸, id=-64, duration=265822, album=敏感者, hMusic=SongFile [id=3125911557830520, bitrate=320000, filesize=10640819], mMusic=SongFile [id=3200678348518446, bitrate=160000, filesize=5328036], lMusic=SongFile [id=3127011069458305, bitrate=96000, filesize=3202923], audition=null, alias=null, transNames=null, musicSource=PlayExtraInfo [sourceId=-1, sourceName=来自本地音乐, sourceType=12, obj=false], version=0, commentCount=-1, rtUrl=null, musicType=0, rtype=0, fromType=0, sp=SongPrivilege [id=26584213, fee=0, payed=0, offlinestatus=0, playMaxLevel=320000, downMaxLevel=320000, freeLevel=320000, sharePriv=7, commentPriv=1, subPriv=1, maxbr=320000, cloudSong=false], su=com.netease.cloudmusic.meta.virtual.SongUrlInfo@44455d48, rurl=null, cloudSong=null, currentfilesize=0, crbt=3cab46075e8205651da25761b7a9fa34, currentMd5=null, currentBitRate=0, currentDocId=0, alg=null,  +, hearTime=0, copyFrom=null, categoryChar=A, trackNo=0, trackCd=, rtUrls=[]],0,0
+
+[ 12-12 16:47:42.340  6623: 6706 D/IPlayerList ]
+playTargetMusicInnere:爱过那张脸
+
+[ 12-12 16:47:42.350  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:爱过那张脸,-64
+
+[ 12-12 16:47:42.350  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:42.350  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:95000
+
+[ 12-12 16:47:42.350  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:42.350  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:42.390  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:265822,/storage/emulated/0/qqmusic/song/李代沫 - 爱过那张脸 [mqms2].m4a,false
+
+[ 12-12 16:47:42.510  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:42.520  6623: 6623 D/PlayService ]
+play music:爱过那张脸,李代沫
+
+[ 12-12 16:47:42.710  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:42.750  6623: 6684 D/com.netease.cloudmusic.utils.u ]
+33ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[26584213]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:43.210  6623: 6706 D/PlayService ]
+PlayerHandler,action:123,MusicInfo [mvId=0, musicName=Always Getting Over You, id=-65, duration=252000, album=Angela Ammons, hMusic=SongFile [id=2069280883474959, bitrate=320000, filesize=10112007], mMusic=SongFile [id=2071479906730513, bitrate=160000, filesize=5070898], lMusic=SongFile [id=1995613604413970, bitrate=96000, filesize=3054036], audition=SongFile [id=1902155116193597, bitrate=64000, filesize=2042748], alias=null, transNames=null, musicSource=PlayExtraInfo [sourceId=-1, sourceName=来自本地音乐, sourceType=12, obj=false], version=0, commentCount=-1, rtUrl=null, musicType=0, rtype=0, fromType=0, sp=SongPrivilege [id=2118992, fee=0, payed=0, offlinestatus=0, playMaxLevel=320000, downMaxLevel=320000, freeLevel=320000, sharePriv=7, commentPriv=1, subPriv=1, maxbr=320000, cloudSong=false], su=com.netease.cloudmusic.meta.virtual.SongUrlInfo@44415f48, rurl=null, cloudSong=null, currentfilesize=0, crbt=null, currentMd5=null, currentBitRate=0, currentDocId=0, alg=null,  +, hearTime=0, copyFrom=null, categoryChar=A, trackNo=0, trackCd=, rtUrls=[]],0,0
+
+[ 12-12 16:47:43.210  6623: 6706 D/IPlayerList ]
+playTargetMusicInnere:Always Getting Over You
+
+[ 12-12 16:47:43.210  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:Always Getting Over You,-65
+
+[ 12-12 16:47:43.210  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:43.210  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:107000
+
+[ 12-12 16:47:43.210  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:43.220  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:43.270  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:252000,/storage/emulated/0/qqmusic/song/Angela Ammons - Always Getting Over You [mqms2].m4a,false
+
+[ 12-12 16:47:43.400  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:43.410  6623: 6623 D/PlayService ]
+play music:Always Getting Over You,Angela Ammons
+
+[ 12-12 16:47:43.530  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:43.570  6623: 6687 D/com.netease.cloudmusic.utils.u ]
+37ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[2118992]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:45.680  6623: 7072 I/dalvikvm-heap ]
+Grow heap (frag case) to 68.470MB for 1166416-byte allocation
+
+[ 12-12 16:47:46.720  6623: 6706 D/PlayService ]
+PlayerHandler,action:123,MusicInfo [mvId=0, musicName=不将就, id=-3, duration=281364, album=不将就, hMusic=SongFile [id=6025323720473225, bitrate=320000, filesize=11289967], mMusic=SongFile [id=6025323720473226, bitrate=160000, filesize=5661625], lMusic=SongFile [id=6025323720473227, bitrate=96000, filesize=3410288], audition=SongFile [id=6042915906511461, bitrate=64000, filesize=2279106], alias=null, transNames=null, musicSource=PlayExtraInfo [sourceId=-1, sourceName=来自本地音乐, sourceType=12, obj=false], version=0, commentCount=-1, rtUrl=null, musicType=0, rtype=0, fromType=0, sp=SongPrivilege [id=28427285, fee=0, payed=0, offlinestatus=0, playMaxLevel=320000, downMaxLevel=320000, freeLevel=320000, sharePriv=7, commentPriv=1, subPriv=1, maxbr=320000, cloudSong=false], su=com.netease.cloudmusic.meta.virtual.SongUrlInfo@44388738, rurl=null, cloudSong=null, currentfilesize=0, crbt=null, currentMd5=null, currentBitRate=0, currentDocId=0, alg=null,  +, hearTime=0, copyFrom=null, categoryChar=B, trackNo=0, trackCd=, rtUrls=[]],0,0
+
+[ 12-12 16:47:46.720  6623: 6706 D/IPlayerList ]
+playTargetMusicInnere:不将就
+
+[ 12-12 16:47:46.730  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:不将就,-3
+
+[ 12-12 16:47:46.730  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:46.730  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:321000
+
+[ 12-12 16:47:46.730  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:46.730  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:46.760  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:281364,/storage/emulated/0/Music/不将就.mp3,false
+
+[ 12-12 16:47:46.840  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:46.860  6623: 6623 D/PlayService ]
+play music:不将就,东南
+
+[ 12-12 16:47:47.150  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:47.200  6623: 6700 D/com.netease.cloudmusic.utils.u ]
+45ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[28427285]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:48.020  6623: 6706 D/PlayService ]
+PlayerHandler,action:123,MusicInfo [mvId=0, musicName=Ah Yeah, id=-77, duration=199000, album=Ah Yeah, hMusic=null, mMusic=null, lMusic=null, audition=null, alias=null, transNames=null, musicSource=PlayExtraInfo [sourceId=-1, sourceName=来自本地音乐, sourceType=12, obj=false], version=0, commentCount=-1, rtUrl=null, musicType=0, rtype=0, fromType=0, sp=SongPrivilege [id=0, fee=0, payed=0, offlinestatus=200, playMaxLevel=192000, downMaxLevel=192000, freeLevel=192000, sharePriv=1, commentPriv=1, subPriv=1, maxbr=192000, cloudSong=false], su=com.netease.cloudmusic.meta.virtual.SongUrlInfo@443a46a8, rurl=null, cloudSong=null, currentfilesize=0, crbt=null, currentMd5=null, currentBitRate=0, currentDocId=0, alg=null,  +, hearTime=0, copyFrom=null, categoryChar=A, trackNo=0, trackCd=, rtUrls=[]],0,0
+
+[ 12-12 16:47:48.020  6623: 6706 D/IPlayerList ]
+playTargetMusicInnere:Ah Yeah
+
+[ 12-12 16:47:48.020  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:Ah Yeah,-77
+
+[ 12-12 16:47:48.020  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:48.020  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:115624
+
+[ 12-12 16:47:48.020  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:48.030  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:48.050  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:199000,/storage/emulated/0/qqmusic/song/EXID (이엑스아이디) - 아예 (Ah Yeah) [mqms2].m4a,false
+
+[ 12-12 16:47:48.150  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:48.170  6623: 6623 D/PlayService ]
+play music:Ah Yeah,EXID
+
+[ 12-12 16:47:48.300  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:48.330  6623: 6703 D/com.netease.cloudmusic.utils.u ]
+82ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 16:47:48.390  6623: 6803 D/com.netease.cloudmusic.utils.u ]
+72ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[0]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:50.460  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 76.180MB for 8294416-byte allocation
+
+[ 12-12 16:47:55.190  6623: 6706 D/PlayService ]
+PlayerHandler,action:123,MusicInfo [mvId=327018, musicName=위아래, id=-6, duration=189988, album=위아래, hMusic=SongFile [id=2529976257338215, bitrate=320000, filesize=7602684], mMusic=SongFile [id=2529976257338216, bitrate=160000, filesize=3801869], lMusic=SongFile [id=2529976257338217, bitrate=96000, filesize=2281542], audition=SongFile [id=3242459791368429, bitrate=64000, filesize=1539592], alias=null, transNames=[上下], musicSource=PlayExtraInfo [sourceId=-1, sourceName=来自本地音乐, sourceType=12, obj=false], version=0, commentCount=-1, rtUrl=null, musicType=0, rtype=0, fromType=0, sp=SongPrivilege [id=29011143, fee=0, payed=0, offlinestatus=0, playMaxLevel=320000, downMaxLevel=320000, freeLevel=320000, sharePriv=7, commentPriv=1, subPriv=1, maxbr=320000, cloudSong=false], su=com.netease.cloudmusic.meta.virtual.SongUrlInfo@444cddf0, rurl=null, cloudSong=null, currentfilesize=0, crbt=null, currentMd5=null, currentBitRate=0, currentDocId=0, alg=null,  +, hearTime=0, copyFrom=null, categoryChar=*, trackNo=0, trackCd=, rtUrls=[]],0,0
+
+[ 12-12 16:47:55.200  6623: 6706 D/IPlayerList ]
+playTargetMusicInnere:위아래
+
+[ 12-12 16:47:55.200  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:위아래,-6
+
+[ 12-12 16:47:55.200  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:47:55.200  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:116000
+
+[ 12-12 16:47:55.200  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:47:55.200  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:47:55.240  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:189988,/storage/emulated/0/qqmusic/song/EXID (이엑스아이디) - 위아래 (上下) [mqms2].m4a,false
+
+[ 12-12 16:47:55.330  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:47:55.340  6623: 6623 D/PlayService ]
+play music:위아래,EXID
+
+[ 12-12 16:47:55.500  6623: 6706 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 16:47:55.570  6623: 6667 D/com.netease.cloudmusic.utils.u ]
+66ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[29011143]&resourceType=4&fixliked=true
+
+[ 12-12 16:47:57.650  6623: 7234 I/dalvikvm-heap ]
+Grow heap (frag case) to 77.046MB for 1166416-byte allocation
+
+[ 12-12 16:48:01.160  6623: 6623 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-12 16:48:03.960  6623: 6623 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-12 16:48:05.080  6623: 6623 D/PlayService ]
+next begin
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@44bb48c8
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:爱,-37
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:97000
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:48:05.080  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:48:05.120  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:253074,/storage/emulated/0/qqmusic/song/A-Lin - 爱 (Live) [mqms2].m4a,false
+
+[ 12-12 16:48:05.210  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:48:05.220  6623: 6623 D/PlayService ]
+play music:爱,A-Lin
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+PlayerHandler,action:5,null,0,1
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+getMusicInfo:begin to play:위아래,-6
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:116000
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 16:48:06.760  6623: 6706 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 16:48:06.780  6623: 6706 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:190032,/storage/emulated/0/qqmusic/song/EXID (이엑스아이디) - 위아래 (上下) [mqms2].m4a,false
+
+[ 12-12 16:48:06.850  6623: 6623 E/MediaPlayer ]
+Should have subtitle controller already set
+
+[ 12-12 16:48:06.860  6623: 6623 D/PlayService ]
+play music:위아래,EXID
+
+[ 12-12 16:48:09.760  6623: 6623 W/InputEventReceiver ]
+Attempted to finish an input event but the input event receiver has already been disposed.
+
+[ 12-12 16:48:12.800  6623: 6683 D/cn.edu.nju.ise.kikandroid ]
+Log:1449910092807
+
+[ 12-12 16:48:12.850  6623: 6683 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449910092856
+
+[ 12-12 16:48:12.980  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 84.225MB for 8294416-byte allocation
+
+[ 12-12 16:48:13.060  6623: 6623 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 47ms
+
+[ 12-12 16:48:13.170  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 87.443MB for 2585680-byte allocation
+
+[ 12-12 16:48:13.300  6623: 6623 I/dalvikvm-heap ]
+Grow heap (frag case) to 95.353MB for 8294416-byte allocation
+
+[ 12-12 16:48:13.650  6623: 6683 W/dalvikvm ]
+threadid=26: thread exiting with uncaught exception (group=0x41646d58)
+
+[ 12-12 16:48:13.660  6623: 6683 D/bugrpt   ]
+sendReportsToServer begin
+
+[ 12-12 16:48:13.660  6623: 7411 D/GTIPACKAGEINFO ]
+getApplicationLabel ----- packageName : com.netease.cloudmusic ; labelRes : 7f070012 ; name : com.netease.cloudmusic:string/appName
+
+[ 12-12 16:48:14.170  6623: 7411 D/bugrpt   ]
+sendPostReq success
+
+[ 12-12 16:48:14.170  6623: 6683 D/bugrpt   ]
+sendReportsToServer end
+
+[ 12-12 16:48:14.200  6623: 6683 E/AndroidRuntime ]
+FATAL EXCEPTION: Thread-2666
+Process: com.netease.cloudmusic, PID: 6623
+java.lang.NullPointerException
+	at android.app.Instrumentation.finish(Instrumentation.java:190)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.quitInstr(AUTInstrument.java:195)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument.startServer(AUTInstrument.java:161)
+	at cn.edu.nju.ise.kikandroid.AUTInstrument$1.run(AUTInstrument.java:107)
+	at java.lang.Thread.run(Thread.java:841)
+
+

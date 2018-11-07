@@ -1,0 +1,1897 @@
+--------- beginning of /dev/log/main
+[ 12-12 19:04:23.370 22114:22118 D/dalvikvm ]
+GC_CONCURRENT freed 7610K, 56% free 6787K/15363K, paused 4ms+5ms, total 73ms
+
+[ 12-12 19:05:20.160 23468:23468 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 19:05:20.160 23468:23468 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-12 19:05:20.160 23468:23468 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-12 19:05:20.160 23468:23468 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-12 19:05:20.640 23468:23468 W/dalvikvm ]
+VFY: unable to resolve virtual method 3: Landroid/accessibilityservice/AccessibilityService;.onKeyEvent (Landroid/view/KeyEvent;)Z
+
+[ 12-12 19:05:20.640 23468:23468 W/dalvikvm ]
+VFY: unable to resolve virtual method 149: Landroid/view/accessibility/AccessibilityNodeInfo;.canOpenPopup ()Z
+
+[ 12-12 19:05:20.640 23468:23468 D/KikTrace ]
+onCreate()
+
+[ 12-12 19:06:37.230 23934:23934 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 19:06:37.230 23934:23934 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-12 19:06:37.230 23934:23934 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-12 19:06:37.230 23934:23934 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-12 19:06:37.500 23934:23934 W/dalvikvm ]
+VFY: unable to resolve virtual method 3: Landroid/accessibilityservice/AccessibilityService;.onKeyEvent (Landroid/view/KeyEvent;)Z
+
+[ 12-12 19:06:37.500 23934:23934 W/dalvikvm ]
+VFY: unable to resolve virtual method 149: Landroid/view/accessibility/AccessibilityNodeInfo;.canOpenPopup ()Z
+
+[ 12-12 19:06:37.500 23934:23934 D/KikTrace ]
+onCreate()
+
+[ 12-12 19:06:58.300 23934:24087 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:06:58.310 23934:24087 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:26.270 23934:24218 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:27.500 23934:23934 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:27.540 23934:24219 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:32.070 23934:24222 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:33.030 23934:24223 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:33.420 23934:24224 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:33.430 23934:24224 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:33.430 23934:24224 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:33.430 23934:24224 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:33.770 23934:24226 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:34.180 23934:24227 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.530 23934:24228 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:34.540 23934:24228 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:34.540 23934:24228 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:34.540 23934:24228 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:34.540 23934:24228 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:34.820 23934:24229 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:34.830 23934:24229 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:34.830 23934:24229 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:34.830 23934:24229 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:34.830 23934:24229 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:34.830 23934:24229 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:35.160 23934:24230 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:35.170 23934:24230 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:35.460 23934:24231 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.460 23934:24231 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:35.460 23934:24231 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:35.460 23934:24231 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:35.460 23934:24231 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:35.470 23934:24231 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:35.470 23934:24231 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:35.470 23934:24231 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:35.470 23934:24231 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.470 23934:24231 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:35.480 23934:24231 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:35.480 23934:24231 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:35.480 23934:24231 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:35.480 23934:24231 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:35.770 23934:24232 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:35.780 23934:24232 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:47.920 23934:24254 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:47.930 23934:24254 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:47.930 23934:24254 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:47.930 23934:24254 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:49.250 23934:24256 W/System.err ]
+	... 6 more
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+java.net.ConnectException: failed to connect to /127.0.0.1 (port 10737): connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:114)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:460)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at java.net.Socket.connect(Socket.java:832)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at java.net.Socket.connect(Socket.java:785)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at cn.edu.nju.ise.kikandroid.FloatWindowBigView$7.run(FloatWindowBigView.java:287)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at java.lang.Thread.run(Thread.java:856)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at libcore.io.Posix.connect(Native Method)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	at libcore.io.IoBridge.connect(IoBridge.java:112)
+
+[ 12-12 19:07:54.590 23934:24258 W/System.err ]
+	... 6 more
+
+[ 12-12 19:10:41.640 24713:24713 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 19:10:41.640 24713:24713 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-12 19:10:41.640 24713:24713 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-12 19:10:41.640 24713:24713 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-12 19:10:41.970 24713:24713 W/dalvikvm ]
+VFY: unable to resolve virtual method 3: Landroid/accessibilityservice/AccessibilityService;.onKeyEvent (Landroid/view/KeyEvent;)Z
+
+[ 12-12 19:10:41.970 24713:24713 W/dalvikvm ]
+VFY: unable to resolve virtual method 149: Landroid/view/accessibility/AccessibilityNodeInfo;.canOpenPopup ()Z
+
+[ 12-12 19:10:41.980 24713:24713 D/KikTrace ]
+onCreate()
+
+[ 12-12 19:15:21.130 25693:25693 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 19:15:21.130 25693:25693 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-12 19:15:21.130 25693:25693 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-12 19:15:21.130 25693:25693 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-12 19:15:21.450 25693:25693 W/dalvikvm ]
+VFY: unable to resolve virtual method 3: Landroid/accessibilityservice/AccessibilityService;.onKeyEvent (Landroid/view/KeyEvent;)Z
+
+[ 12-12 19:15:21.450 25693:25693 W/dalvikvm ]
+VFY: unable to resolve virtual method 149: Landroid/view/accessibility/AccessibilityNodeInfo;.canOpenPopup ()Z
+
+[ 12-12 19:15:21.450 25693:25693 D/KikTrace ]
+onCreate()
+
+[ 12-12 19:15:30.340 25693:25693 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-12 19:18:07.800 26233:26233 W/dalvikvm ]
+Invalid arg count in 35c/35ms/35mi (10)
+
+[ 12-12 19:18:11.210 26233:26233 W/dalvikvm ]
+Invalid arg count in 35c/35ms/35mi (10)
+
+[ 12-12 19:19:20.590 26603:26603 E/Trace    ]
+error opening trace file: No such file or directory (2)
+
+[ 12-12 19:19:20.590 26603:26603 D/ActivityThread ]
+setTargetHeapUtilization:0.25
+
+[ 12-12 19:19:20.590 26603:26603 D/ActivityThread ]
+setTargetHeapIdealFree:8388608
+
+[ 12-12 19:19:20.590 26603:26603 D/ActivityThread ]
+setTargetHeapConcurrentStart:2097152
+
+[ 12-12 19:19:20.770 26603:26603 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+
+[ 12-12 19:19:20.840 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 19:19:20.850 26603:26603 I/MultiDex ]
+VM with version 1.6.0 does not have multidex support
+
+[ 12-12 19:19:20.850 26603:26603 I/MultiDex ]
+install
+
+[ 12-12 19:19:20.850 26603:26603 I/MultiDex ]
+MultiDexExtractor.load(/data/app/com.netease.cloudmusic-1.apk, false)
+
+[ 12-12 19:19:20.850 26603:26603 I/MultiDex ]
+Detected that extraction must be performed.
+
+[ 12-12 19:19:21.030 26603:26603 I/MultiDex ]
+Extraction is needed for file /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip
+
+[ 12-12 19:19:21.030 26603:26603 I/MultiDex ]
+Extracting /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes1607348532.zip
+
+[ 12-12 19:19:21.270 26603:26603 I/MultiDex ]
+Renaming to /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip
+
+[ 12-12 19:19:21.270 26603:26603 I/MultiDex ]
+Extraction success - length /data/data/com.netease.cloudmusic/code_cache/secondary-dexes/com.netease.cloudmusic-1.apk.classes2.zip: 307861
+
+[ 12-12 19:19:21.280 26603:26603 I/MultiDex ]
+load found 1 secondary dex files
+
+[ 12-12 19:19:22.840 26623:26623 W/dalvikvm ]
+Invalid arg count in 35c/35ms/35mi (10)
+
+[ 12-12 19:19:22.960 26603:26603 I/MultiDex ]
+install done
+
+[ 12-12 19:19:23.410 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16469: Landroid/view/Window;.setStatusBarColor (I)V
+
+[ 12-12 19:19:23.640 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 19:19:24.750 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 975: Landroid/graphics/drawable/LayerDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 19:19:24.760 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 1003: Landroid/graphics/drawable/StateListDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 19:19:24.770 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 989: Landroid/graphics/drawable/ScaleDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 19:19:24.770 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 910: Landroid/graphics/drawable/ClipDrawable;.setDrawable (Landroid/graphics/drawable/Drawable;)V
+
+[ 12-12 19:19:24.780 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 669: Landroid/graphics/Bitmap;.hasMipMap ()Z
+
+[ 12-12 19:19:24.780 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 904: Landroid/graphics/drawable/BitmapDrawable;.setAutoMirrored (Z)V
+
+[ 12-12 19:19:24.810 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 19:19:25.150 26603:26603 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.kugou.android,com.yibasan.lizhifm|6040,2147483647
+
+[ 12-12 19:19:25.170 26603:26603 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/
+
+[ 12-12 19:19:25.200 26603:26603 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 19:19:27.510 26603:26603 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in NeteaseMusicApplication onCreate, MainProcess:true
+
+[ 12-12 19:19:27.810 26603:26603 E/dalvikvm ]
+Could not find class 'android.util.ArrayMap', referenced from method com.netease.cloudmusic.i.d.c
+
+[ 12-12 19:19:27.810 26603:26603 W/dalvikvm ]
+VFY: unable to resolve check-cast 1916 (Landroid/util/ArrayMap;) in Lcom/netease/cloudmusic/i/d;
+
+[ 12-12 19:19:27.950 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 19:19:27.970 26603:26603 W/dalvikvm ]
+VFY: unable to resolve direct method 16994: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 19:19:27.970 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 22178: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+
+[ 12-12 19:19:27.980 26603:26603 I/Yixin.SDK.YXAPIFactory ]
+createYXAPI called: PackageName=com.netease.cloudmusic,paramAppId=yx239b74da211341979c340fb49b1fb16b
+
+[ 12-12 19:19:27.980 26603:26603 I/Yixin.SDK.YXApiImplementation ]
+registerApp
+
+[ 12-12 19:19:27.980 26603:26603 I/Yixin.SDK.YXApiImplementation ]
+validateYixinSignature
+
+[ 12-12 19:19:27.980 26603:26603 I/Yixin.SDK.YXApiImplementation ]
+error when getYixinAppPackageInfo: im.yixin
+
+[ 12-12 19:19:27.980 26603:26603 I/Yixin.SDK.YXApiImplementation ]
+registerApp: validateYixinSignature - false or isBlank(this.appId)!
+
+[ 12-12 19:19:28.020 26603:26603 W/dalvikvm ]
+VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+
+[ 12-12 19:19:28.020 26603:26603 W/dalvikvm ]
+VFY: unable to resolve interface method 16447: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+
+[ 12-12 19:19:28.020 26603:26603 W/dalvikvm ]
+VFY: unable to resolve interface method 16451: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+
+[ 12-12 19:19:29.880 26603:26603 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->settings
+
+[ 12-12 19:19:29.970 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 2838K, 25% free 11632K/15363K, paused 2ms+17ms, total 76ms
+
+[ 12-12 19:19:30.160 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:30.450 26603:26603 I/Adreno200-EGL ]
+<qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041_msm8660_surf_JB_REL_RB1.2_Merge_release_AU (Merge)
+Build Date: 11/05/12 Mon
+Local Branch: mybranch425650
+Remote Branch: quic/jb_rel_rb1.2
+Local Patches: NONE
+Reconstruct Branch: AU_LINUX_ANDROID_JB_REL_RB1.04.01.01.06.041 +  NOTHING
+
+[ 12-12 19:19:30.830 26603:26603 D/com.netease.cloudmusic.activity.LoadingActivity ]
+loading ad showMills:2000
+
+[ 12-12 19:19:30.900 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 7428K, 38% free 12724K/20423K, paused 13ms+6ms, total 109ms
+
+[ 12-12 19:19:30.970 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 19:19:30.970 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static method 17580: Lcn/com/mma/mobile/tracking/api/Countly;.sharedInstance ()Lcn/com/mma/mobile/tracking/api/Countly;
+
+[ 12-12 19:19:31.670 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 4483K, 29% free 14578K/20423K, paused 12ms+5ms, total 86ms
+
+[ 12-12 19:19:32.820 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 2816K, 18% free 17991K/21703K, paused 12ms+3ms, total 110ms
+
+[ 12-12 19:19:33.380 26603:26656 D/com.netease.cloudmusic.utils.u ]
+255ms on url: https://music.163.com/eapi/batch
+
+[ 12-12 19:19:33.460 26603:26656 D/NeteaseMusicConst ]
+scanAutoFilterPaths:/storage/sdcard0/RM/,/storage/sdcard0/Android/,/storage/sdcard0/leci/,/storage/sdcard0/HJApp/,/storage/sdcard0/Yixin/,/storage/sdcard0/moji/,/storage/sdcard0/Tencent/,/storage/sdcard0/tencent/,/storage/sdcard0/towords/,/storage/sdcard0/baicizhan/
+
+[ 12-12 19:19:33.490 26603:26656 D/NeteaseMusicConst ]
+scanWhitePaths:/storage/sdcard0/tencent/QQfile_recv/,/storage/sdcard0/qqmusic/offline/
+
+[ 12-12 19:19:33.490 26603:26656 D/NeteaseMusicConst ]
+ignoreAudioFocusChangeConfig:com.yibasan.lizhifm,com.kugou.android|2147483647,6040
+
+[ 12-12 19:19:33.920 26603:26654 D/com.netease.cloudmusic.utils.u ]
+189ms on url: http://music.163.com/eapi/user/init/playlist
+
+[ 12-12 19:19:36.460 26603:26603 E/dalvikvm ]
+Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method com.netease.cloudmusic.theme.g.a
+
+[ 12-12 19:19:36.460 26603:26603 W/dalvikvm ]
+VFY: unable to resolve new-instance 186 (Landroid/graphics/drawable/RippleDrawable;) in Lcom/netease/cloudmusic/theme/g;
+
+[ 12-12 19:19:36.460 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.460 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.480 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.480 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.480 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.480 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16787: Landroid/widget/EdgeEffect;.setColor (I)V
+
+[ 12-12 19:19:36.630 26603:26654 D/com.netease.cloudmusic.utils.u ]
+167ms on url: http://music.163.com/eapi/register/anonimous
+
+[ 12-12 19:19:36.760 26603:26603 W/dalvikvm ]
+VFY: unable to resolve static field 229 (DIRECTORY_DOCUMENTS) in Landroid/os/Environment;
+
+[ 12-12 19:19:36.930 26603:26603 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 19:19:36.940 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16381: Landroid/view/ViewGroup;.onRtlPropertiesChanged (I)V
+
+[ 12-12 19:19:36.950 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 551: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+
+[ 12-12 19:19:36.950 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 573: Landroid/content/res/TypedArray;.getType (I)I
+
+[ 12-12 19:19:37.650 26603:26603 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$43;' failed
+
+[ 12-12 19:19:37.650 26603:26603 E/dalvikvm ]
+Could not find class 'com.netease.cloudmusic.service.PlayService$43', referenced from method com.netease.cloudmusic.service.PlayService.au
+
+[ 12-12 19:19:37.650 26603:26603 W/dalvikvm ]
+VFY: unable to resolve new-instance 5703 (Lcom/netease/cloudmusic/service/PlayService$43;) in Lcom/netease/cloudmusic/service/PlayService;
+
+[ 12-12 19:19:37.670 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 1120: Landroid/media/RemoteControlClient;.setPlaybackState (IJF)V
+
+[ 12-12 19:19:37.690 26603:26603 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$43;' failed
+
+[ 12-12 19:19:37.690 26603:26603 W/dalvikvm ]
+Link of class 'Lcom/netease/cloudmusic/service/PlayService$45;' failed
+
+[ 12-12 19:19:37.710 26603:26603 D/com.netease.cloudmusic.service.PushService ]
+PushService onCreate
+
+[ 12-12 19:19:37.730 26603:26694 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:false
+
+[ 12-12 19:19:37.730 26603:26603 D/com.netease.cloudmusic.service.PushService ]
+PushService onStartCommand
+
+[ 12-12 19:19:37.820 26603:26694 D/com.netease.cloudmusic.utils.u ]
+57ms on url: http://music.163.com/eapi/pl/count
+
+[ 12-12 19:19:37.830 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 3250K, 17% free 21208K/25351K, paused 12ms+20ms, total 151ms
+
+[ 12-12 19:19:37.870 26603:26694 I/com.netease.cloudmusic.service.PushService ]
+new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 19:19:37.920 26603:26696 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService },0,0
+
+[ 12-12 19:19:37.980 26603:26656 D/com.netease.cloudmusic.utils.u ]
+81ms on url: http://music.163.com/eapi/ad
+
+[ 12-12 19:19:38.010 26603:26654 D/com.netease.cloudmusic.utils.u ]
+118ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 19:19:38.020 26603:26603 D/PlayService ]
+in onBind
+
+[ 12-12 19:19:38.030 26603:26655 D/com.netease.cloudmusic.utils.u ]
+124ms on url: http://music.163.com/eapi/song/like/change?checkPoint=-1
+
+[ 12-12 19:19:38.170 26603:26655 D/com.netease.cloudmusic.utils.u ]
+119ms on url: http://music.163.com/eapi/song/like/get
+
+[ 12-12 19:19:38.170 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16732: Landroid/widget/CheckBox;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 19:19:38.170 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16826: Landroid/widget/EditText;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 19:19:38.170 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 17259: Landroid/widget/ProgressBar;.setProgressTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 19:19:38.170 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 17270: Landroid/widget/RadioButton;.setButtonTintList (Landroid/content/res/ColorStateList;)V
+
+[ 12-12 19:19:38.690 26603:26656 D/AudioMetaIO ]
+supportMediaFormat:m4a,awb,aac,qcp,ota,mp3,wma,wav,m3u8,xmf,pls,oga,ape,mxmf,flac,smf,rtttl,mka,rtx,imy
+
+[ 12-12 19:19:38.870 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:39.610 26603:26654 D/com.netease.cloudmusic.utils.u ]
+94ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 19:19:39.620 26603:26711 D/com.netease.cloudmusic.utils.u ]
+45ms on url: http://music.163.com/eapi/banner/get/v3?withProgramInfo=true&clientType=android
+
+[ 12-12 19:19:40.030 26603:26710 D/com.netease.cloudmusic.utils.u ]
+449ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 19:19:40.040 26603:26712 D/com.netease.cloudmusic.utils.u ]
+440ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 19:19:41.350 26603:26606 W/dalvikvm ]
+threadid=2: spin on suspend #1 threadid=1 (pcf=0)
+
+[ 12-12 19:19:42.110 26603:26606 W/dalvikvm ]
+threadid=2: spin on suspend #2 threadid=1 (pcf=0)
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+"GC" daemon prio=5 tid=2 RUNNABLE
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | group="system" sCount=0 dsCount=0 obj=0x42480c00 self=0x400c9358
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | sysTid=26606 nice=0 sched=0/0 cgrp=apps handle=1075085008
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | schedstat=( 0 0 0 ) utm=35 stm=6 core=0
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  at dalvik.system.NativeStart.run(Native Method)
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+"main" prio=5 tid=1 RUNNABLE
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | group="main" sCount=1 dsCount=0 obj=0x41d845c8 self=0x4006c010
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | sysTid=26603 nice=0 sched=0/0 cgrp=apps handle=1075435056
+
+
+[ 12-12 19:19:42.110 26603:26606 I/dalvikvm ]
+  | schedstat=( 0 0 0 ) utm=428 stm=71 core=1
+
+
+[ 12-12 19:19:42.380 26603:26606 I/dalvikvm ]
+  at android.graphics.Bitmap.getPixel(Bitmap.java:~937)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.utils.ap.a(ProGuard:107)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.utils.ap.a(ProGuard:32)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.theme.g.a(ProGuard:91)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.theme.g.a(ProGuard:146)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout.a(ProGuard:39)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout.Z(ProGuard:45)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout.<init>(ProGuard:35)
+
+
+[ 12-12 19:19:42.390 26603:26606 I/dalvikvm ]
+  at java.lang.reflect.Constructor.constructNative(Native Method)
+
+
+[ 12-12 19:19:42.400 26603:26606 I/dalvikvm ]
+  at java.lang.reflect.Constructor.newInstance(Constructor.java:417)
+
+
+[ 12-12 19:19:42.480 26603:26606 I/dalvikvm ]
+  at android.view.LayoutInflater.createView(LayoutInflater.java:657)
+
+
+[ 12-12 19:19:42.480 26603:26606 I/dalvikvm ]
+  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:757)
+
+
+[ 12-12 19:19:42.480 26603:26606 I/dalvikvm ]
+  at android.view.LayoutInflater.rInflate(LayoutInflater.java:816)
+
+
+[ 12-12 19:19:42.480 26603:26606 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:559)
+
+
+[ 12-12 19:19:42.480 26603:26606 I/dalvikvm ]
+  at android.view.LayoutInflater.inflate(LayoutInflater.java:466)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.fragment.bj.onCreateView(ProGuard:85)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.Fragment.performCreateView(ProGuard:1965)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.FragmentManagerImpl.moveToState(ProGuard:1078)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.FragmentManagerImpl.moveToState(ProGuard:1259)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.BackStackRecord.run(ProGuard:738)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.FragmentManagerImpl.execPendingActions(ProGuard:1624)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.FragmentManagerImpl.executePendingTransactions(ProGuard:570)
+
+
+[ 12-12 19:19:42.490 26603:26606 I/dalvikvm ]
+  at android.support.v4.app.FragmentPagerAdapter.finishUpdate(ProGuard:141)
+
+
+[ 12-12 19:19:42.500 26603:26606 I/dalvikvm ]
+  at android.support.v4.view.ViewPager.populate(ProGuard:1106)
+
+
+[ 12-12 19:19:42.500 26603:26606 I/dalvikvm ]
+  at android.support.v4.view.ViewPager.populate(ProGuard:952)
+
+
+[ 12-12 19:19:42.500 26603:26606 I/dalvikvm ]
+  at android.support.v4.view.ViewPager.onMeasure(ProGuard:1474)
+
+
+[ 12-12 19:19:42.500 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.ui.NeteaseMusicViewPager.onMeasure(ProGuard:92)
+
+
+[ 12-12 19:19:42.520 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:617)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.RelativeLayout.onMeasure(RelativeLayout.java:399)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.support.v4.view.ViewPager.onMeasure(ProGuard:1489)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at com.netease.cloudmusic.ui.NeteaseMusicViewPager.onMeasure(ProGuard:92)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1390)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.measureVertical(LinearLayout.java:681)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.onMeasure(LinearLayout.java:574)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.support.v4.widget.DrawerLayout.onMeasure(ProGuard:940)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.support.v7.internal.widget.ContentFrameLayout.onMeasure(ProGuard:124)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1390)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.measureVertical(LinearLayout.java:681)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.LinearLayout.onMeasure(LinearLayout.java:574)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:4952)
+
+
+[ 12-12 19:19:42.530 26603:26606 I/dalvikvm ]
+  at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at com.android.internal.policy.impl.PhoneWindow$DecorView.onMeasure(PhoneWindow.java:2243)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.View.measure(View.java:15297)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:1923)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1174)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1348)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1072)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:4297)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.Choreographer$CallbackRecord.run(Choreographer.java:725)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.Choreographer.doCallbacks(Choreographer.java:555)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.Choreographer.doFrame(Choreographer.java:525)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:711)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.os.Handler.handleCallback(Handler.java:615)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.os.Handler.dispatchMessage(Handler.java:92)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.os.Looper.loop(Looper.java:137)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at android.app.ActivityThread.main(ActivityThread.java:4819)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at java.lang.reflect.Method.invoke(Method.java:511)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+  at dalvik.system.NativeStart.main(Native Method)
+
+
+[ 12-12 19:19:43.080 26603:26606 I/dalvikvm ]
+
+
+
+[ 12-12 19:19:43.080 26603:26606 W/dalvikvm ]
+threadid=2: spin on suspend resolved in 2721 msec
+
+[ 12-12 19:19:43.380 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 6208K, 25% free 21748K/28807K, paused 2727ms+32ms, total 3030ms
+
+[ 12-12 19:19:43.610 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 16758: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+
+[ 12-12 19:19:43.770 26603:26603 I/MusicActivityBase ]
+com.netease.cloudmusic.activity.MainActivity@43121de0:onReceive msg count is 0 follow count0
+
+[ 12-12 19:19:43.860 26603:26603 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 19:19:43.900 26603:26603 D/PlayService ]
+onCallStateChanged2:0
+
+[ 12-12 19:19:43.900 26603:26603 D/PlayService ]
+onAudioFocusChange, focusChange:1,true,false
+
+[ 12-12 19:19:43.910 26603:26603 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 19:19:43.920 26603:26603 I/Choreographer ]
+Skipped 322 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 19:19:44.520 26603:26603 I/Choreographer ]
+Skipped 33 frames!  The application may be doing too much work on its main thread.
+
+[ 12-12 19:19:44.520 26603:26696 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 19:19:44.720 26603:26645 D/com.netease.cloudmusic.utils.u ]
+133ms on url: http://music.163.com/api/v1/android/version
+
+[ 12-12 19:19:44.990 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:45.250 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:45.800 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:45.820 26603:26727 W/dalvikvm ]
+VFY: unable to resolve virtual method 658: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 19:19:45.910 26603:26729 W/dalvikvm ]
+VFY: unable to resolve virtual method 254: Landroid/graphics/Bitmap;.getAllocationByteCount ()I
+
+[ 12-12 19:19:45.960 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:46.050 26603:26726 W/unknown:BufferedDiskCache ]
+Failed to write to disk-cache for key http://p4.music.126.net/O-goXVkXsZipEshuYXuBig==/3245758328706311.jpg?
+com.facebook.common.file.FileUtils$CreateDirectoryException: /storage/sdcard0/netease/cloudmusic/Cache/ImageCache/v2.ols100.1/51/4-Yy_zuapha25T1AVTaazNPokc8
+	at com.facebook.common.file.FileUtils.mkdirs(ProGuard:45)
+	at com.facebook.cache.disk.DefaultDiskStorage.mkdirs(ProGuard:392)
+	at com.facebook.cache.disk.DefaultDiskStorage.createTemporary(ProGuard:413)
+	at com.facebook.cache.disk.DefaultDiskStorage.createTemporary(ProGuard:47)
+	at com.facebook.cache.disk.DiskStorageCache.createTemporaryResource(ProGuard:246)
+	at com.facebook.cache.disk.DiskStorageCache.insert(ProGuard:287)
+	at com.facebook.imagepipeline.cache.BufferedDiskCache.writeToDiskCache(ProGuard:329)
+	at com.facebook.imagepipeline.cache.BufferedDiskCache.access$500(ProGuard:38)
+	at com.facebook.imagepipeline.cache.BufferedDiskCache$3.run(ProGuard:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+
+
+[ 12-12 19:19:46.070 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:46.110 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:19:46.290 26603:26710 D/com.netease.cloudmusic.utils.u ]
+140ms on url: http://music.163.com/eapi/personalized/tags
+
+[ 12-12 19:19:50.100 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 5090K, 21% free 22858K/28807K, paused 44ms+64ms, total 516ms
+
+[ 12-12 19:20:09.560 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Log:1449919209573
+
+[ 12-12 19:20:10.620 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449919210630
+
+[ 12-12 19:20:11.030 26603:26603 W/dalvikvm ]
+VFY: unable to resolve direct method 16321: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 19:20:11.060 26603:26603 W/dalvikvm ]
+VFY: unable to resolve virtual method 496: Landroid/content/res/Configuration;.getLayoutDirection ()I
+
+[ 12-12 19:20:11.070 26603:26603 W/dalvikvm ]
+VFY: unable to resolve direct method 17443: Landroid/widget/TextView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+[ 12-12 19:20:11.110 26603:26603 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:215)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.c(ProGuard:336)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.module.g.i.a(ProGuard:29)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.module.g.i$2.b(ProGuard:165)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:198)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.module.g.c.a(ProGuard:21)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.netease.cloudmusic.d.w.onPostExecute(ProGuard:188)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.os.AsyncTask.finish(AsyncTask.java:631)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:644)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at android.app.ActivityThread.main(ActivityThread.java:4819)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+[ 12-12 19:20:11.140 26603:26603 W/System.err ]
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+
+[ 12-12 19:20:11.150 26603:26603 W/System.err ]
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+
+[ 12-12 19:20:11.150 26603:26603 W/System.err ]
+	at dalvik.system.NativeStart.main(Native Method)
+
+[ 12-12 19:20:11.470 26603:26603 D/dalvikvm ]
+GC_FOR_ALLOC freed 3437K, 22% free 24066K/30471K, paused 218ms, total 218ms
+
+[ 12-12 19:20:13.600 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:13.830 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:14.370 26603:26710 D/com.netease.cloudmusic.utils.u ]
+142ms on url: http://music.163.com/eapi/playlist/category/list
+
+[ 12-12 19:20:15.070 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:15.650 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:15.690 26603:26656 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:16.200 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 7007K, 29% free 23442K/32903K, paused 13ms+44ms, total 367ms
+
+[ 12-12 19:20:16.950 26603:26656 D/com.netease.cloudmusic.utils.u ]
+119ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 19:20:17.010 26603:26712 D/com.netease.cloudmusic.utils.u ]
+66ms on url: http://music.163.com/eapi/discovery/recommend/artist/hasdata
+
+[ 12-12 19:20:17.030 26603:26710 D/com.netease.cloudmusic.utils.u ]
+61ms on url: http://music.163.com/eapi/batch
+
+[ 12-12 19:20:17.430 26603:26761 D/DownloadManager ]
+download notify
+
+[ 12-12 19:20:18.320 26603:26603 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 19:20:18.420 26603:26603 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 19:20:18.500 26603:26603 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 19:20:18.700 26603:26603 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+
+[ 12-12 19:20:18.920 26603:26603 D/dalvikvm ]
+GC_EXPLICIT freed 2269K, 26% free 24407K/32903K, paused 5ms+19ms, total 213ms
+
+[ 12-12 19:20:18.950 26603:26696 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 19:20:19.640 26603:26603 I/MusicActivityBase ]
+onReceive msg count is 0 follow count0
+
+[ 12-12 19:20:20.150 26603:26710 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:20.450 26603:26710 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:20.760 26603:26710 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:22.420 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Log:1449919222432
+
+[ 12-12 19:20:24.430 26603:26710 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:24.550 26603:26710 I/LBE-Sec  ]
+ActivityManager.GetContentProvider->media
+
+[ 12-12 19:20:24.620 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449919224628
+
+[ 12-12 19:20:25.090 26603:26603 D/dalvikvm ]
+GC_FOR_ALLOC freed 3427K, 20% free 26350K/32903K, paused 217ms, total 225ms
+
+[ 12-12 19:20:28.440 26603:26603 I/AppCompatViewInflater ]
+app:theme is now deprecated. Please move to using android:theme instead.
+
+[ 12-12 19:20:28.590 26603:26603 D/PlayerActivityBase ]
+onResume()
+
+[ 12-12 19:20:28.610 26603:26603 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 19:20:28.610 26603:26696 D/PlayService ]
+PlayerHandler,action:57,Intent { cmp=com.netease.cloudmusic/.service.PlayService (has extras) },0,0
+
+[ 12-12 19:20:28.680 26603:26696 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 0
+
+[ 12-12 19:20:28.690 26603:26696 D/PlayService ]
+PlayerList Type:com.netease.cloudmusic.a.d,  size： 3
+
+[ 12-12 19:20:28.700 26603:26696 D/PlayService ]
+getMusicInfo:begin to play:14.旅行-张磊,-2
+
+[ 12-12 19:20:28.700 26603:26696 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 19:20:28.710 26603:26696 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:320034
+
+[ 12-12 19:20:28.710 26603:26696 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 19:20:28.730 26603:26696 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 19:20:29.240 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 6895K, 23% free 27058K/35079K, paused 19ms+33ms, total 294ms
+
+[ 12-12 19:20:29.730 26603:26696 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:295000,/storage/sdcard0/qqmusic/song/张磊 - 旅行 (全景音效) [mqms2].mp3,false
+
+[ 12-12 19:20:29.810 26603:26696 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 19:20:29.910 26603:26603 D/PlayService ]
+play music:14.旅行-张磊,中国好声音
+
+[ 12-12 19:20:29.920 26603:26696 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 19:20:29.920 26603:26695 W/System.err ]
+android.content.pm.PackageManager$NameNotFoundException: com.huawei.android.thememanager
+
+[ 12-12 19:20:29.930 26603:26695 W/System.err ]
+	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:215)
+
+[ 12-12 19:20:29.930 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.utils.o.o(ProGuard:355)
+
+[ 12-12 19:20:29.930 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.utils.o.n(ProGuard:335)
+
+[ 12-12 19:20:29.930 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.R(ProGuard:1415)
+
+[ 12-12 19:20:29.930 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.b(ProGuard:1319)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService.a(ProGuard:155)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at com.netease.cloudmusic.service.PlayService$18.run(ProGuard:1262)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at android.os.Handler.handleCallback(Handler.java:615)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at android.os.Looper.loop(Looper.java:137)
+
+[ 12-12 19:20:29.940 26603:26695 W/System.err ]
+	at android.os.HandlerThread.run(HandlerThread.java:60)
+
+[ 12-12 19:20:29.960 26603:26656 D/com.netease.cloudmusic.utils.u ]
+95ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 19:20:30.110 26603:26712 D/com.netease.cloudmusic.utils.u ]
+197ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 19:20:30.260 26603:26658 D/com.netease.cloudmusic.utils.u ]
+44ms on url: http://music.163.com/eapi/resource/commentInfo/list?resourceIds=[0]&resourceType=4&fixliked=true
+
+[ 12-12 19:20:34.050 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Log:1449919234058
+
+[ 12-12 19:20:34.910 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449919234921
+
+[ 12-12 19:20:35.230 26603:26606 D/dalvikvm ]
+GC_CONCURRENT freed 4193K, 16% free 30310K/35847K, paused 14ms+12ms, total 208ms
+
+[ 12-12 19:20:35.230 26603:26603 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 146ms
+
+[ 12-12 19:20:36.480 26603:26603 D/PlayService ]
+next begin
+
+[ 12-12 19:20:36.480 26603:26696 D/PlayService ]
+PlayerHandler,action:4,null,1,1
+
+[ 12-12 19:20:36.480 26603:26696 D/PlayService ]
+PLAY_COMMAND.NEXT,1
+
+[ 12-12 19:20:36.480 26603:26696 D/PlayService ]
+PLAY_COMMAND.NEXT,4,com.netease.cloudmusic.service.g@43627970
+
+[ 12-12 19:20:36.500 26603:26696 D/PlayService ]
+getMusicInfo:begin to play:2.我爱你中国-48强学员,-1
+
+[ 12-12 19:20:36.500 26603:26696 D/PlayService ]
+getMusicInfo,fileAllDownloaded:true
+
+[ 12-12 19:20:36.500 26603:26696 D/PlayService ]
+getMusicInfo:got music play path, fileAllDownloaded:true,bitrate:320028
+
+[ 12-12 19:20:36.510 26603:26696 D/PlayService ]
+getMusicInfo: init remote control done
+
+[ 12-12 19:20:36.510 26603:26696 D/PlayService ]
+getMusicInfo: getFilePart done
+
+[ 12-12 19:20:36.640 26603:26696 D/PlayService ]
+getMusicInfo:ready to play, alreadyDownloadProcess:365000,/storage/sdcard0/qqmusic/song/华语群星 - 我爱你中国 (Live) [mqms2].mp3,false
+
+[ 12-12 19:20:36.700 26603:26603 D/PlayService ]
+play music:2.我爱你中国-48强学员,中国好声音
+
+[ 12-12 19:20:36.790 26603:26696 D/PlayService ]
+PlayerHandler,action:16,null,0,0
+
+[ 12-12 19:20:36.860 26603:26712 D/com.netease.cloudmusic.utils.u ]
+113ms on url: http://music.163.com/eapi/search/match/new
+
+[ 12-12 19:20:39.850 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Log:1449919239857
+
+[ 12-12 19:20:40.680 26603:26674 D/cn.edu.nju.ise.kikandroid ]
+Screenshot:1449919240693
+
+[ 12-12 19:20:40.960 26603:26603 D/dalvikvm ]
+GC_FOR_ALLOC freed 3975K, 23% free 30486K/39175K, paused 155ms, total 155ms
+
+[ 12-12 19:20:52.350 26603:26603 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 19:20:52.420 26603:26696 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 19:20:52.650 26603:26603 D/PlayerActivityBase ]
+onStop()
+
+[ 12-12 19:20:52.650 26603:26603 D/PlayerActivityBase ]
+in onDestroy
+
+[ 12-12 19:20:53.380 26603:26603 D/BindPlayServiceActivityBase ]
+onServiceConnected()
+
+[ 12-12 19:20:53.440 26603:26696 D/PlayService ]
+PlayerHandler,action:51,null,0,0
+
+[ 12-12 19:20:55.090 26603:26603 D/PlayService ]
+in onUnbind
+
+[ 12-12 19:21:37.870 26603:26694 D/com.netease.cloudmusic.service.PushService ]
+begin to query server, isBackground:true
+
+[ 12-12 19:21:38.010 26603:26694 D/com.netease.cloudmusic.utils.u ]
+96ms on url: http://music.163.com/eapi/pl/count?backend=true
+
+[ 12-12 19:21:38.020 26603:26694 I/com.netease.cloudmusic.service.PushService ]
+background new message : PushMessage [code=200, at=0, notice=0, msg=0, follow=0, pushMsg=null, comment=0, event=0, pushMsgType=0, newFriendIsStar=false, celebrityCount=0, hasNewTheme=true, friend=null, count=0]
+
+[ 12-12 19:22:10.060 26603:26603 D/com.netease.cloudmusic.NeteaseMusicApplication ]
+in onLowMemory
+
+[ 12-12 19:22:10.110 26603:26603 D/dalvikvm ]
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+
+[ 12-12 19:22:10.300 26603:26603 D/dalvikvm ]
+GC_EXPLICIT freed 6144K, 29% free 27955K/39175K, paused 4ms+15ms, total 183ms
+
