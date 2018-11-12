@@ -30,9 +30,10 @@ for l_root in logcat_files:
     if l_root in event_files:
         logcat_all_list = []
         for lfiles in logcat_files[l_root]:
-            logcat_context = open(lfiles).readlines()
-            r+=1;
+            logcat_context = open(lfiles,"rb").readlines()
+            r+=1
             for i in range(len(logcat_context)):
+                logcat_context[i]=str(logcat_context[i])
                 logcat_dic={}
                 if len(re.findall('\[ \d{2}-\d{2} \d{2}:\d{2}:\d{2}', logcat_context[i]))==0:
                     continue
@@ -53,7 +54,7 @@ for l_root in logcat_files:
                 logcat_dic['message'] = ''
                 j = i+1
                 while len(logcat_context[j])>2:
-                    logcat_dic['message']+=logcat_context[j]
+                    logcat_dic['message']+=str(logcat_context[j])
                     j+=1
                 if logcat_dic not in logcat_all_list:
                     logcat_all_list.append(logcat_dic)
@@ -61,8 +62,9 @@ for l_root in logcat_files:
         #print logcat_all_list
         event_all_list = []
         for lfiles in event_files[l_root]:
-            event_all = open(lfiles).readlines()
+            event_all = open(lfiles,'rb').readlines()
             for event in event_all:
+                event=str(event)
                 if len(re.findall("SyscTime: (\d+)",event))==0:
                     continue
                 if len(re.findall("SyscTime: (\d+)",event))==0:
@@ -87,14 +89,14 @@ for l_root in logcat_files:
         if len(event_all_list)>0 and len(logcat_all_list)>0:
             package_name = event_all_list[0]['PackageName']
             file_root='data/'+str(package_name)+'/'+str(l_root)+'/event.pkl'
-            f=open(file_root,'w')
+            f=open(file_root,'wb')
             pickle.dump(event_all_list,f)
             f.close()
             file_root = 'data/' + str(package_name) + '/' + str(l_root) + '/logcat.pkl'
-            f = open(file_root, 'w')
+            f = open(file_root, 'wb')
             pickle.dump(logcat_all_list, f)
             f.close()
-            print file_root
+            print (file_root)
     else:
         num+=1
 
