@@ -3,6 +3,7 @@
 import time
 import re
 import pickle
+android_event_type = ['TYPE_WINDOW_STATE_CHANGED', 'TYPE_WINDOW_CONTENT_CHANGED', 'TYPE_VIEW_FOCUSED', 'TYPE_VIEW_SCROLLED', 'TYPE_VIEW_CLICKED', 'TYPE_VIEW_TEXT_SELECTION_CHANGED', 'TYPE_VIEW_ACCESSIBILITY_FOCUSED', 'TYPE_VIEW_TEXT_CHANGED', 'TYPE_VIEW_SELECTED', 'TYPE_NOTIFICATION_STATE_CHANGED', 'TYPE_ANNOUNCEMENT', 'TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED', 'TYPE_VIEW_LONG_CLICKED', 'TYPE_VIEW_HOVER_ENTER', 'TYPE_VIEW_HOVER_EXIT']
 
 import os
 import matplotlib.pyplot as plt
@@ -25,11 +26,13 @@ def file_name(file_dir):
 r=0
 logcat=[]
 event = []
-files=file_name('E:\Github\S-CAT\code\data\com.example.myfristandroid')
+files=file_name('D:\Github\S-CAT\code\data\com.example.myfristandroid')
+
+print(android_event_type)
 
 # for f in files:
-logcat_file = open('E:\Github\S-CAT\code\data\com.example.myfristandroid\\'+'787_1'+'\logcat.pkl',"rb")
-event_file = open('E:\Github\S-CAT\code\data\com.example.myfristandroid\\'+'787_1'+'\event.pkl',"rb")
+logcat_file = open('D:\Github\S-CAT\code\data\com.example.myfristandroid\\'+'787_1'+'\logcat.pkl',"rb")
+event_file = open('D:\Github\S-CAT\code\data\com.example.myfristandroid\\'+'787_1'+'\event.pkl',"rb")
 logcat_list = pickle.load(logcat_file)
 event_list = pickle.load(event_file)
 print(event_list)
@@ -50,8 +53,3 @@ plt.xlabel("time")
 plt.ylabel("count")
 plt.legend(loc='lower right')
 plt.show()
-# all = logcat_list
-# all.extend(event_list)
-# all = sorted(all,key=lambda x:x['SyscTime'])
-# for a in all:
-#     print(a)
