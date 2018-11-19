@@ -26,6 +26,7 @@ logcat_files=file_name('E:\code\logcats')
 event_files=file_name('E:\code\events')
 num=0
 package={}
+
 for l_root in logcat_files:
     if l_root in event_files:
         logcat_all_list = []
@@ -84,19 +85,33 @@ for l_root in logcat_files:
                     else:
                         package[event_dict['PackageName']] += 1
                     event_all_list.append(event_dict)
+        package_name = ''
+        if len(event_all_list) > 0 and len(logcat_all_list) > 0:
+            event_min_time=min([x['SyscTime'] for x in event_all_list])
+            event_max_time=max([x['SyscTime'] for x in event_all_list])
+            logcat_min_time = min([x['SyscTime'] for x in logcat_all_list])
+            logcat_max_time = max([x['SyscTime'] for x in logcat_all_list])
+            min_time = max(event_min_time,logcat_min_time)
+            max_time = min(event_max_time,logcat_max_time)
+            event_all_list = list(filter(lambda x:x['SyscTime']>min_time and x['SyscTime']<max_time,event_all_list))
+            logcat_all_list = list(filter(lambda x:x['SyscTime']>min_time and x['SyscTime']<max_time,logcat_all_list))
         #print event_all_list
-        package_name=''
-        if len(event_all_list)>0 and len(logcat_all_list)>0:
-            package_name = event_all_list[0]['PackageName']
-            file_root='data/'+str(package_name)+'/'+str(l_root)+'/event.pkl'
-            f=open(file_root,'wb')
-            pickle.dump(event_all_list,f)
-            f.close()
-            file_root = 'data/' + str(package_name) + '/' + str(l_root) + '/logcat.pkl'
-            f = open(file_root, 'wb')
-            pickle.dump(logcat_all_list, f)
-            f.close()
-            print (file_root)
+
+            if len(event_all_list) > 0 and len(logcat_all_list) > 0:
+                package_name = event_all_list[0]['PackageName']
+                file_path='data/'+str(package_name)+'/'+str(l_root)
+                isExists = os.path.exists(file_path)
+                if not isExists:
+                    os.mkdir(file_path)
+                file_root=file_path+'/event.pkl'
+                f=open(file_root,'wb')
+                pickle.dump(event_all_list,f)
+                f.close()
+                file_root = 'data/' + str(package_name) + '/' + str(l_root) + '/logcat.pkl'
+                f = open(file_root, 'wb')
+                pickle.dump(logcat_all_list, f)
+                f.close()
+                print (file_root)
     else:
         num+=1
 
