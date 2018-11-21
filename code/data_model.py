@@ -21,21 +21,35 @@ android_event_type_c = {
 }
 
 android_event_type = {
-    'TYPE_WINDOW_STATE_CHANGED':[],
-    'TYPE_WINDOW_CONTENT_CHANGED':[],
-    'TYPE_VIEW_FOCUSED':[],
-    'TYPE_VIEW_SCROLLED':[],
-    'TYPE_VIEW_CLICKED':[],
-    'TYPE_VIEW_TEXT_SELECTION_CHANGED':[],
-    'TYPE_VIEW_ACCESSIBILITY_FOCUSED':[],
-    'TYPE_VIEW_TEXT_CHANGED':[],
-    'TYPE_VIEW_SELECTED':[],
-    'TYPE_NOTIFICATION_STATE_CHANGED':[],
-    'TYPE_ANNOUNCEMENT':[],
-    'TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED':[],
-    'TYPE_VIEW_LONG_CLICKED':[],
-    'TYPE_VIEW_HOVER_ENTER':[],
-    'TYPE_VIEW_HOVER_EXIT':[]
+    'TYPE_WINDOW_STATE_CHANGED':[],#Represents the event of a change to a visually distinct section of the user interface. These events should only be dispatched from Views that have accessibility pane titles, and replaces TYPE_WINDOW_CONTENT_CHANGED for those sources. Details about the change are available from getContentChangeTypes().
+
+    'TYPE_WINDOW_CONTENT_CHANGED':[],#Represents the event of changing the content of a window and more specifically the sub-tree rooted at the event's source.
+
+    'TYPE_VIEW_FOCUSED':[],#Represents the event of setting input focus of a View.
+
+    'TYPE_VIEW_SCROLLED':[],#Represents the event of scrolling a view. This event type is generally not sent directly.
+
+    'TYPE_VIEW_CLICKED':[],#Represents the event of clicking on a View like Button, CompoundButton, etc.
+
+    'TYPE_VIEW_TEXT_SELECTION_CHANGED':[],#Represents the event of changing the selection in an EditText.
+
+    'TYPE_VIEW_ACCESSIBILITY_FOCUSED':[],#Represents the event of gaining accessibility focus.
+
+    'TYPE_VIEW_TEXT_CHANGED':[],#Represents the event of changing the text of an EditText.
+
+    'TYPE_VIEW_SELECTED':[],#Represents the event of selecting an item usually in the context of an AdapterView.
+
+    'TYPE_NOTIFICATION_STATE_CHANGED':[],#Represents the event showing a Notification.
+
+    'TYPE_ANNOUNCEMENT':[],#Represents the event of an application making an announcement.
+
+    'TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED':[],#Represents the event of clearing accessibility focus.
+
+    'TYPE_VIEW_LONG_CLICKED':[],#Represents the event of long clicking on a View like Button, CompoundButton, etc.
+
+    'TYPE_VIEW_HOVER_ENTER':[],#Represents the event of a hover enter over a View.
+
+    'TYPE_VIEW_HOVER_EXIT':[],    #Represents the event of a hover exit over a View.
 }
 
 android_logcat_type_c = {
@@ -101,7 +115,7 @@ i = 200
 for a in android_logcat_type:
     logcat_time_list = [float(x['SyscTime']-char_zhi) for x in android_logcat_type[a]]
     if len(logcat_time_list)>0:
-        plt.scatter(logcat_time_list,[100 for x in range(i,i+len(logcat_time_list))],c=android_logcat_type_c[a],marker='o',label=a)
+        plt.scatter(logcat_time_list,[x for x in range(i,i+len(logcat_time_list))],c=android_logcat_type_c[a],marker='o',label=a)
         i+=100
 for a in android_event_type:
     event_time_list = [float(x['SyscTime'] - char_zhi) for x in android_event_type[a]]
