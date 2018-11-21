@@ -2,6 +2,7 @@
 
 import re
 import pickle
+import numpy as np
 android_event_type_c = {
     'TYPE_WINDOW_STATE_CHANGED':'g',
     'TYPE_WINDOW_CONTENT_CHANGED':'b',
@@ -108,6 +109,7 @@ for l in logcat_list:
     android_logcat_type[l['priority']].append(l)
 
 char_zhi = min(event_list[0]['SyscTime'],logcat_list[0]['SyscTime'])
+
 
 fig = plt.figure('fig')
 i = 200
