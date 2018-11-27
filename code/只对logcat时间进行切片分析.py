@@ -107,6 +107,15 @@ android_logcat_type = {
     'S':[]
 }
 
+android_logcat_type_value = {
+    'V':0,
+    'D':1,
+    'I':2,
+    'W':3,
+    'E':4,
+    'F':5,
+    'S':6
+}
 import os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -130,7 +139,7 @@ logcat=[]
 event = []
 files=file_name('.\data\com.example.myfristandroid')
 
-event_sequence_by_time = {}
+logcat_sequence_by_time = {}
 
 for f in files:
     logcat_file = open('.\data\com.example.myfristandroid\\'+f+'\logcat.pkl',"rb")
@@ -140,20 +149,20 @@ for f in files:
 
 
 
-    for i in range(len(event_list)-1):
-        time = event_list[i+1]['SyscTime']-event_list[i]['SyscTime']
-        if time in event_sequence_by_time:
-            event_sequence_by_time[time] += 1
+    for i in range(len(logcat_list)-1):
+        time = logcat_list[i+1]['SyscTime']-logcat_list[i]['SyscTime']
+        if time in logcat_sequence_by_time:
+            logcat_sequence_by_time[time] += 1
         else:
-            event_sequence_by_time[time] = 1
-print(len(event_sequence_by_time))
+            logcat_sequence_by_time[time] = 1
+print(len(logcat_sequence_by_time))
 
-result = filter(lambda x:x,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
+result = filter(lambda x:x,sorted(zip(logcat_sequence_by_time.values(),logcat_sequence_by_time.keys()),reverse=1))
 print(list(result))
 
-for i in range(1,25):
-    result_min = filter(lambda x:x[0]<=i,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
-    result_max = filter(lambda x:x[0]>i,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
+for i in range(10,100,5):
+    result_min = filter(lambda x:x[0]<=i,sorted(zip(logcat_sequence_by_time.values(),logcat_sequence_by_time.keys()),reverse=1))
+    result_max = filter(lambda x:x[0]>i,sorted(zip(logcat_sequence_by_time.values(),logcat_sequence_by_time.keys()),reverse=1))
     # print(list(result_min))
     # print(list(result_max))
     value_max = max(sorted([x[1] for x in list(result_min)])[0:20])

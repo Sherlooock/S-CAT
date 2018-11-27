@@ -107,6 +107,16 @@ android_logcat_type = {
     'S':[]
 }
 
+android_logcat_type_value = {
+    'V':0,
+    'D':1,
+    'I':2,
+    'W':3,
+    'E':4,
+    'F':5,
+    'S':6
+}
+
 import os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -130,7 +140,7 @@ logcat=[]
 event = []
 files=file_name('.\data\com.example.myfristandroid')
 
-event_sequence_by_time = {}
+logcat_sequence = ''
 
 for f in files:
     logcat_file = open('.\data\com.example.myfristandroid\\'+f+'\logcat.pkl',"rb")
@@ -140,25 +150,15 @@ for f in files:
 
 
 
-    for i in range(len(event_list)-1):
-        time = event_list[i+1]['SyscTime']-event_list[i]['SyscTime']
-        if time in event_sequence_by_time:
-            event_sequence_by_time[time] += 1
-        else:
-            event_sequence_by_time[time] = 1
-print(len(event_sequence_by_time))
-
-result = filter(lambda x:x,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
-print(list(result))
-
-for i in range(1,25):
-    result_min = filter(lambda x:x[0]<=i,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
-    result_max = filter(lambda x:x[0]>i,sorted(zip(event_sequence_by_time.values(),event_sequence_by_time.keys()),reverse=1))
-    # print(list(result_min))
-    # print(list(result_max))
-    value_max = max(sorted([x[1] for x in list(result_min)])[0:20])
-    value_min = min(sorted([x[1] for x in list(result_max)],reverse=1)[0:20])
-    print(i,value_max,value_min,value_max-value_min)
+    for e in logcat_list:
+        logcat_sequence += str(android_logcat_type_value[e['priority']])
+    logcat_sequence+='|'
+print(len(logcat_sequence))
+for i in android_logcat_type_value.values():
+    count = Counter(logcat_sequence.split(str(i)))
+    print(i,len(logcat_sequence.split(str(i))))
+    result = filter(lambda x:x[0]>10,sorted(zip(count.values(),count.keys()),reverse=1))
+    print(list(result))
 # for e in event_list:
 #     android_event_type[e['EventType']].append(e)
 # for l in logcat_list:
