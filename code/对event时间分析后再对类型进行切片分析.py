@@ -138,11 +138,10 @@ for f in files:
     logcat_list = pickle.load(logcat_file)
     event_list = pickle.load(event_file)
 
-
     event_little_sequence_by_time = []
     for i in range(len(event_list)-1):
         time = event_list[i+1]['SyscTime']-event_list[i]['SyscTime']
-        if time < 300:
+        if time < 9000:
             event_little_sequence_by_time.append(event_list[i])
         else:
             event_little_sequence_by_time.append(event_list[i])
@@ -160,11 +159,7 @@ for event_sequence_by_time_list in event_sequence_by_time:
             pass
     event_sequence+='|'
 print(len(event_sequence))
-for i in android_event_type_value.values():
-    count = Counter(event_sequence.split(str(i)))
-    print(i,len(event_sequence.split(str(i))))
-    result = filter(lambda x:x[0]>1,sorted(zip(count.values(),count.keys()),reverse=1))
-    print(list(result))
+print(event_sequence)
 
 
 
