@@ -173,7 +173,7 @@ print(len(logcat_sequence))
 for i in android_logcat_type_value.values():
     count = Counter(logcat_sequence.split(str(i)))
     print(i,len(logcat_sequence.split(str(i))))
-    result = filter(lambda x:x[0]>1,sorted(zip(count.values(),count.keys()),reverse=1))
+    result = filter(lambda x:x[0]>10,sorted(zip(count.values(),count.keys()),reverse=1))
     print(list(result))
 
 
