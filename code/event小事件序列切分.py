@@ -193,28 +193,29 @@ for event_sequence_by_time_list in event_sequence_by_time:
 
 
 parsedDat = event_sequence_all
-print(len(parsedDat))
+print(parsedDat)
 ## print(Counter([len(x) for x in parsedDat]))
 # print(len([x for x in parsedDat if len(x)<=10]))
 
-littleList = ''
+littleList = []
 for middleDat in [x for x in parsedDat ]:
-    for i in range(0,len(middleDat)-1):
-        if middleDat[i][0] == '15':
-            littleList +='1'
-        elif middleDat[i][0] == '02':
-            littleList += '2'
-            #print(re.findall('Text: \[(.+?)\];',str(middleDat[i][1]))[0])
-            # s = '\xe7\xa7\xbb\xe5\x8a\xa8'.encode('raw_unicode_escape')
-            # print(s.decode())
+    littleList_item = []
+    for i in range(0,len(middleDat)):
+        if middleDat[i][0] == '02':
+            littleList.append(littleList_item)
+            littleList_item = []
+            littleList_item.append(middleDat[i][1])
         else:
-            littleList += '0'
+            littleList_item.append(middleDat[i][1])
 
-littleList = littleList.split('2')
+
 print(len([x for x in littleList ]))
-print(len([x for x in littleList if len(x)>=5]))
-count = dict(Counter(len(x) for x in littleList if len(x)>=5))
-print(sum([count[x] for x in count if x>20]))
+pkl_data = [x for x in littleList if len(x)>=5]
+f = open('data.pkl', 'wb')
+pickle.dump(pkl_data, f)
+f.close()
+
+
 
 
 
