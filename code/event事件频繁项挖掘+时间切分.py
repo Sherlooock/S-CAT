@@ -146,13 +146,13 @@ for f in files:
             event_little_sequence_by_time.append(event_list[i])
             event_sequence_by_time.append(event_little_sequence_by_time)
             event_little_sequence_by_time = []
-    event_little_sequence_by_time.append(len(event_list) - 1)
+    event_little_sequence_by_time.append(event_list[len(event_list) - 1])
     event_sequence_by_time.append(event_little_sequence_by_time)
 
 event_sequence_all = []
 
 for event_sequence_by_time_list in event_sequence_by_time:
-    if len(event_sequence_by_time_list) > 5:
+    if len(event_sequence_by_time_list) >= 5:
         event_sequence = []
         for e in event_sequence_by_time_list:
             try:
