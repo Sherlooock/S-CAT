@@ -193,7 +193,6 @@ for event_sequence_by_time_list in event_sequence_by_time:
 
 
 parsedDat = event_sequence_all
-print(parsedDat)
 ## print(Counter([len(x) for x in parsedDat]))
 # print(len([x for x in parsedDat if len(x)<=10]))
 
@@ -209,12 +208,9 @@ for middleDat in [x for x in parsedDat ]:
             littleList_item.append(middleDat[i][1])
 
 
-print(len([x for x in littleList ]))
-pkl_data = [x for x in littleList if len(x)>=5]
-f = open('data.pkl', 'wb')
-pickle.dump(pkl_data, f)
-f.close()
-
+pkl_data = [x for x in littleList if len(x)>=5 ]
+print(len([x for x in littleList if len(x)>=5 and len(x)<=30]))
+print(len(pkl_data))
 
 
 
