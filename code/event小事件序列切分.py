@@ -172,9 +172,10 @@ for f in files:
             event_little_sequence_by_time.append(event_list[i])
             event_sequence_by_time.append(event_little_sequence_by_time)
             event_little_sequence_by_time = []
+            continue
     event_little_sequence_by_time.append(event_list[len(event_list) - 1])
     event_sequence_by_time.append(event_little_sequence_by_time)
-
+print(len([x for x in event_sequence_by_time if len(x)>= 5]))
 event_sequence_all = []
 
 for event_sequence_by_time_list in event_sequence_by_time:
