@@ -2,7 +2,11 @@
 
 import re
 import pickle
-import operator
+import numpy as np
+from collections import Counter
+import fpgrowth
+import time
+import chardet
 
 android_event_type_c = {
     'TYPE_WINDOW_STATE_CHANGED':'g',
@@ -102,7 +106,6 @@ android_logcat_type = {
     'F':[],
     'S':[]
 }
-
 android_event_class_type = {
 'android.widget.ImageButton':'1',
 'com.example.myfristandroid.MainActivity':'2',
@@ -128,57 +131,73 @@ android_event_class_type = {
 'android.widget.Image':'m'
 }
 
-
-only_event_time= []
-only_logcat_time = []
-
 r=0
 logcat=[]
 event = []
 
 event_sequence_by_time = []
-logcat_all = {}
 
+logcat_all = {}
+event_sequence = []
 logcat_file = open('preData_logcat.pickle',"rb")
 event_file = open('preData_event.pickle',"rb")
 logcat_list = pickle.load(logcat_file)
 event_list = pickle.load(event_file)
 event_little_sequence_by_time = []
+
 for l in logcat_list:
     if l['SyscTime'] in logcat_all:
         logcat_all[l['SyscTime']].append(l['priority'])
     else:
         logcat_all[l['SyscTime']]=[]
+
 for i in range(len(event_list) - 1):
     time = event_list[i + 1]['SyscTime'] - event_list[i]['SyscTime']
     if time < 10000:
         event_little_sequence_by_time.append(event_list[i])
     else:
         event_little_sequence_by_time.append(event_list[i])
-        flag = 0
-        for e in event_sequence_by_time:
-            if operator.eq(e, event_little_sequence_by_time) == True:
-                flag = 1
-                break
-        if flag == 0:
-            event_sequence_by_time.append(event_little_sequence_by_time)
+        event_sequence_by_time.append(event_little_sequence_by_time)
         event_little_sequence_by_time = []
-
+        continue
 event_little_sequence_by_time.append(event_list[len(event_list) - 1])
-flag = 0
-for e in event_sequence_by_time:
-    if operator.eq(e, event_little_sequence_by_time) == True:
-        flag = 1
-        break
-if flag == 0:
-    event_sequence_by_time.append(event_little_sequence_by_time)
-
-print(len(event_sequence_by_time))
-
+event_sequence_by_time.append(event_little_sequence_by_time)
+print(len([x for x in event_sequence_by_time if len(x)>= 3]))
 event_sequence_all = []
-num = 0
+
 for event_sequence_by_time_list in event_sequence_by_time:
-    if len(event_sequence_by_time_list) <= 3:
+    if len(event_sequence_by_time_list) >= 3:
+        event_sequence = []
+        for e in event_sequence_by_time_list:
+            try:
+                action_class = re.findall("ClassName: (.+?);", e['Action'])[0]
+                event_sequence.append([android_event_type_value[e['EventType']] + android_event_class_type[action_class],e])
+            except TypeError:
+                print(e)
+            except KeyError:
+                event_sequence.append([android_event_type_value[e['EventType']] + '0',e])
+        event_sequence_all.append(event_sequence)
+
+
+
+parsedDat = event_sequence_all
+## print(Counter([len(x) for x in parsedDat]))
+# print(len([x for x in parsedDat if len(x)<=10]))
+
+littleList = []
+for middleDat in [x for x in parsedDat ]:
+    littleList_item = []
+    for i in range(0,len(middleDat)):
+        if middleDat[i][0] == '02':
+            littleList.append(littleList_item)
+            littleList_item = []
+            littleList_item.append(middleDat[i][1])
+        else:
+            littleList_item.append(middleDat[i][1])
+print(len(littleList))
+num = 0
+for event_sequence_by_time_list in littleList:
+    if len(event_sequence_by_time_list) < 2:
         num+=1
         for e in event_sequence_by_time_list:
             time = [x for x in range(e['SyscTime'],e['SyscTime']+5)]
@@ -190,12 +209,10 @@ for event_sequence_by_time_list in event_sequence_by_time:
                         break
                 except:
                     pass
-
 print(num)
 
 
-
-
+#2-38
 
 
 
