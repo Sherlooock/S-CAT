@@ -2,11 +2,12 @@
 
 import re
 import pickle
+import nltk
+import nltk.data
 import numpy as np
 from collections import Counter
-import fpgrowth
-import time
 import chardet
+import Levenshtein
 
 android_event_type_c = {
     'TYPE_WINDOW_STATE_CHANGED': 'g',
@@ -215,5 +216,19 @@ for middleDat in [x for x in parsedDat]:
 
 pkl_data = [x for x in littleList if len(x) >= 2 and len(x) <= 38]
 
-for p in pkl_data:
-    print(p)
+classify = []
+for i in range(len(pkl_data)-1):
+    p_i = str(pkl_data[i])
+    p_i_p = str(pkl_data[i+1])
+    if Levenshtein.ratio(p_i,p_i_p)>0.9:
+        flag = 0
+        for j in range(len(classify)):
+            if Levenshtein.ratio(classify[j],p_i)>0.9:
+                flag = 1
+                break
+        if flag == 0:
+            classify.append(p_i)
+    else:
+        classify.append(p_i_p)
+    print(i)
+print(len(classify))

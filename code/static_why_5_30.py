@@ -2,11 +2,9 @@
 
 import re
 import pickle
-import numpy as np
-from collections import Counter
-import fpgrowth
-import time
-import chardet
+import operator
+import matplotlib.pyplot as plt
+import collections
 
 android_event_type_c = {
     'TYPE_WINDOW_STATE_CHANGED': 'g',
@@ -138,82 +136,73 @@ android_event_class_type = {
     'android.widget.Image': 'm'
 }
 
-import os
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-def file_name(file_dir):
-    file_names = {}
-    for root, dirs, files in os.walk(file_dir):
-        if len(files) != 0:
-            froot = re.findall('\d+_\d+', root)[0]
-            file_names[froot] = []
-            for f in files:
-                if len(re.findall('txt', f)) != 0:
-                    fname = root + '\\' + f
-                    file_names[froot].append(fname)  # 当前目录路径
-    return file_names
-    # print(dirs) #当前路径下所有子目录
-    # print(files) #当前路径下所有非目录子文件
-
+only_event_time = []
+only_logcat_time = []
 
 r = 0
 logcat = []
 event = []
-files = file_name('.\data\com.example.myfristandroid')
 
 event_sequence_by_time = []
+logcat_all = {}
 
 logcat_file = open('preData_logcat.pickle', "rb")
 event_file = open('preData_event.pickle', "rb")
 logcat_list = pickle.load(logcat_file)
 event_list = pickle.load(event_file)
 event_little_sequence_by_time = []
+for l in logcat_list:
+    if l['SyscTime'] in logcat_all:
+        logcat_all[l['SyscTime']].append(l['priority'])
+    else:
+        logcat_all[l['SyscTime']] = []
 for i in range(len(event_list) - 1):
     time = event_list[i + 1]['SyscTime'] - event_list[i]['SyscTime']
     if time < 10000:
         event_little_sequence_by_time.append(event_list[i])
     else:
         event_little_sequence_by_time.append(event_list[i])
-        event_sequence_by_time.append(event_little_sequence_by_time)
+        flag = 0
+        for e in event_sequence_by_time:
+            if operator.eq(e, event_little_sequence_by_time) == True:
+                flag = 1
+                break
+        if flag == 0:
+            event_sequence_by_time.append(event_little_sequence_by_time)
         event_little_sequence_by_time = []
-        continue
+
 event_little_sequence_by_time.append(event_list[len(event_list) - 1])
-event_sequence_by_time.append(event_little_sequence_by_time)
-print(len([x for x in event_sequence_by_time if len(x) >= 3]))
+flag = 0
+for e in event_sequence_by_time:
+    if operator.eq(e, event_little_sequence_by_time) == True:
+        flag = 1
+        break
+if flag == 0:
+    event_sequence_by_time.append(event_little_sequence_by_time)
+
+print(len(event_sequence_by_time))
+
 event_sequence_all = []
-
+num = 0
 for event_sequence_by_time_list in event_sequence_by_time:
-    if len(event_sequence_by_time_list) >= 3:
-        event_sequence = []
-        for e in event_sequence_by_time_list:
-            try:
-                action_class = re.findall("ClassName: (.+?);", e['Action'])[0]
-                event_sequence.append(
-                    [android_event_type_value[e['EventType']] + android_event_class_type[action_class], e])
-            except TypeError:
-                print(e)
-            except KeyError:
-                event_sequence.append([android_event_type_value[e['EventType']] + '0', e])
-        event_sequence_all.append(event_sequence)
+    event_sequence_all.append(len(event_sequence_by_time_list))
 
-parsedDat = event_sequence_all
-## print(Counter([len(x) for x in parsedDat]))
-# print(len([x for x in parsedDat if len(x)<=10]))
+c = list(dict(collections.Counter(event_sequence_all)).items())
+x = []
+y = []
+for item in sorted(c):
+    x.append(item[0])
+    y.append(item[1])
 
-littleList = []
-for middleDat in [x for x in parsedDat]:
-    littleList_item = []
-    for i in range(0, len(middleDat)):
-        if middleDat[i][0] == '02':
-            littleList.append(littleList_item)
-            littleList_item = []
-            littleList_item.append(middleDat[i][1])
-        else:
-            littleList_item.append(middleDat[i][1])
+fig = plt.figure('fig')
+i = 200
 
-pkl_data = [x for x in littleList if len(x) >= 2 and len(x) <= 38]
+plt.scatter(x, y, c='r', marker='o', label='count')
 
-for p in pkl_data:
-    print(p)
+plt.title("data")
+# plt.xlim(0,50)
+# plt.ylim(0,200)
+plt.xlabel("length")
+plt.ylabel("count")
+plt.legend(loc='lower right')
+plt.show()
