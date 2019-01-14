@@ -3,7 +3,7 @@ import json
 with open("e_event_sequence_find.json") as f:
     list_pre = json.load(f)
 
-with open('sim_event_sequence_95_name.json') as f:
+with open('sim_event_sequence_98_name.json') as f:
     list_after = json.load(f)
 
 with open('slice-event.json') as f:

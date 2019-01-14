@@ -1,5 +1,6 @@
 import json
 import Levenshtein
+import re
 
 with open("e_event_sequence_find.json") as f:
     sequence_list = json.load(f)
@@ -19,13 +20,35 @@ for s in sequence_list:
         for v in value:
             result_little = []
             for event in event_slice:
-                sim = Levenshtein.ratio(str(event_slice[v]), str(event))
-                if sim > 0.98:
+                e_words = ''
+                error_words = ''
+                for e in event:
+                    e_words += e['PackageName']+' '+ e['EventType']+' '+ re.findall(' ClassName: (.+?); ', e['Action'])[0]
+                    try:
+                        text = re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
+                        e_words += text
+                    except IndexError:
+                        e_words += ' '
+                        pass
+
+                for e in event_slice[v]:
+                    error_words += e['PackageName']+' '+ e['EventType']+' '+ re.findall(' ClassName: (.+?); ', e['Action'])[0]
+                    try:
+                        text = re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
+                        error_words += text
+                    except IndexError:
+                        error_words += ' '
+                        pass
+                sim = Levenshtein.ratio(e_words, error_words)
+                if sim > 0.95:
+                    if sim > 0.99:
+                        print(event)
+                        print(event_slice[v])
                     result_little.append([event_slice.index(event), sim])
 
                     print(sim)
             result_error[key].append(result_little)
     result.append(result_error)
 
-with open('sim_event_sequence_98_name.json', 'w') as f:
+with open('sim_event_sequence_95_name.json', 'w') as f:
     json.dump(result, f, indent=4)
