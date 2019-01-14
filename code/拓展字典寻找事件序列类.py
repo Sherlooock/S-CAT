@@ -40,7 +40,7 @@ for s in sequence_list:
                         error_words += ' '
                         pass
                 sim = Levenshtein.ratio(e_words, error_words)
-                if sim > 0.95:
+                if sim > 0.98:
                     if sim > 0.99:
                         print(event)
                         print(event_slice[v])
@@ -50,5 +50,5 @@ for s in sequence_list:
             result_error[key].append(result_little)
     result.append(result_error)
 
-with open('sim_event_sequence_95_name.json', 'w') as f:
+with open('sim_event_sequence_98_name.json', 'w') as f:
     json.dump(result, f, indent=4)
