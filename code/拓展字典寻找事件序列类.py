@@ -12,6 +12,20 @@ with open('slice-event.json') as f:
 with open('logcat.json') as f:
     logcat_list = json.load(f)
 
+
+def data_reform(event_sequence):
+    words = ''
+    for e in event_sequence:
+        words += e['PackageName'] + ' ' + e['EventType'] + ' ' + re.findall(' ClassName: (.+?); ', e['Action'])[0] + ' '
+        try:
+            words += re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
+        except IndexError:
+            words += ' '
+            pass
+        words += ' '
+    return words
+
+
 result = []
 for s in sequence_list:
     result_error = {}
@@ -23,7 +37,8 @@ for s in sequence_list:
                 e_words = ''
                 error_words = ''
                 for e in event:
-                    e_words += e['PackageName']+' '+ e['EventType']+' '+ re.findall(' ClassName: (.+?); ', e['Action'])[0]
+                    e_words += e['PackageName'] + ' ' + e['EventType'] + ' ' + \
+                               re.findall(' ClassName: (.+?); ', e['Action'])[0]
                     try:
                         text = re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
                         e_words += text
@@ -32,7 +47,8 @@ for s in sequence_list:
                         pass
 
                 for e in event_slice[v]:
-                    error_words += e['PackageName']+' '+ e['EventType']+' '+ re.findall(' ClassName: (.+?); ', e['Action'])[0]
+                    error_words += e['PackageName'] + ' ' + e['EventType'] + ' ' + \
+                                   re.findall(' ClassName: (.+?); ', e['Action'])[0]
                     try:
                         text = re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
                         error_words += text

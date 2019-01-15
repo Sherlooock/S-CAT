@@ -1,4 +1,5 @@
 import json
+import re
 
 with open("e_event_sequence_find.json") as f:
     list_pre = json.load(f)
@@ -8,6 +9,19 @@ with open('sim_event_sequence_98_name.json') as f:
 
 with open('slice-event.json') as f:
     event_sequence = json.load(f)
+
+
+def data_reform(event_sequence):
+    words = ''
+    for e in event_sequence:
+        words += e['PackageName'] + ' ' + e['EventType'] + ' ' + re.findall(' ClassName: (.+?); ', e['Action'])[0] + ' '
+        try:
+            words += re.findall(' Text: \[(.+)\]; ', e['Action'])[0]
+        except IndexError:
+            words += ' '
+            pass
+        words += ' '
+    return words
 
 result = []
 for item in list_pre:
@@ -28,8 +42,8 @@ for item in list_pre:
                     result_little[key]['second'].append(u[0])
     result.append(result_little)
 
-# with open('make_up_after_find_hier_98.json','w') as f:
-#     json.dump(result,f,indent=4)
+with open('make_up_after_find_hier_98.json', 'w') as f:
+    json.dump(result, f, indent=4)
 
 all = []
 num = 0
@@ -38,7 +52,6 @@ for r in result:
         num += len(r[key]['first'])
         for key_child, value_child in value.items():
             print(key, key_child, len(value_child))
+            for v in value_child:
+                print(data_reform(event_sequence[v]))
             all += value_child
-print(num)
-print(len(all), len(list(set(all))))
-print(len(event_sequence), len(event_sequence) - len(list(set(all))))
