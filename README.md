@@ -19,14 +19,7 @@ https://github.com/wanjb2115/S-CAT/blob/master/S-CAT/11.20/DataPreprocess.doc
 
 https://github.com/wanjb2115/S-CAT/blob/master/S-CAT/12.7/S-CAT%E5%88%87%E5%88%86.docx
 
-### 聚类
 
-coming soon...
+### 翻译总结
 
-### 总结
-
-coming soon...
-
-### 翻译
-
-coming soon...
+http://59.110.152.105:5000/Translate/com.example.myfristandroid/1001_1
